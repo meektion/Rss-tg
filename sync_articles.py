@@ -20,6 +20,11 @@ RSS_FEEDS = [
     'https://www.v2ex.com/feed/tab/tech.xml',  # 第十个网站的 RSS 地址
     'http://songshuhui.net/feed',  # 第十一个网站的 RSS 地址
     'http://feed.yixieshi.com/',  # 第十二个网站的 RSS 地址
+    'https://rsshub.app/zhihu/hotlist',  # 第十二个网站的 RSS 地址
+    'https://rsshub.app/jandan/top',  # 第十二个网站的 RSS 地址
+    'https://rsshub.app/chouti/top/168',  # 第十二个网站的 RSS 地址
+    'https://rsshub.app/coolapk/tuwen-xinxian',  # 第十二个网站的 RSS 地址
+    'https://rsshub.app/oschina/news/project',  # 第十二个网站的 RSS 地址
 ]
 MAX_MESSAGE_LENGTH = 4096  # Telegram 消息长度限制
 SUMMARY_MAX_LENGTH = 200  # 摘要最大长度
