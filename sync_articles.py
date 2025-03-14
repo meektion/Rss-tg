@@ -14,7 +14,6 @@ RSS_FEEDS = [
     'https://sspai.com/feed',  # 第三个网站的 RSS 地址
     'https://www.huxiu.com/rss/0.xml',  # 第三个网站的 RSS 地址
     'http://www.tmtpost.com/feed',  # 第三个网站的 RSS 地址
-    'https://a.jiemian.com/index.php?m=article&a=rss',  # 第三个网站的 RSS 地址
     'https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml',  
     'https://feeds.appinn.com/appinns/',  # 第三个网站的 RSS 地址
     'http://blog.caixin.com/feed',  # 第三个网站的 RSS 地址
