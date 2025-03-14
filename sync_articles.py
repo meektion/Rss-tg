@@ -20,15 +20,11 @@ RSS_FEEDS = [
     'https://www.v2ex.com/feed/tab/tech.xml',  # 第十个网站的 RSS 地址
     'http://songshuhui.net/feed',  # 第十一个网站的 RSS 地址
     'http://feed.yixieshi.com/',  # 第十二个网站的 RSS 地址
-    'https://rsshub.app/zhihu/hotlist',  # 第十二个网站的 RSS 地址
-    'https://rsshub.app/jandan/top',  # 第十二个网站的 RSS 地址
-    'https://rsshub.app/chouti/top/168',  # 第十二个网站的 RSS 地址
-    'https://rsshub.app/coolapk/tuwen-xinxian',  # 第十二个网站的 RSS 地址
-    'https://rsshub.app/oschina/news/project',  # 第十二个网站的 RSS 地址
 ]
 MAX_MESSAGE_LENGTH = 4096  # Telegram 消息长度限制
 SUMMARY_MAX_LENGTH = 200  # 摘要最大长度
 MAX_ARTICLES_PER_FEED = 5  # 每个网站最多抓取 5 条文章
+BING_API_URL = "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=zh-CN"  # Bing 每日一图 API
 
 def clean_html(html):
     """清理 HTML 标签，提取纯文本"""
@@ -64,14 +60,37 @@ def fetch_new_articles(rss_url):
     
     return new_articles
 
-def send_to_telegram(message):
+def get_bing_image_url():
+    """获取 Bing 每日一图的 URL"""
+    try:
+        response = requests.get(BING_API_URL)
+        data = response.json()
+        image_url = "https://www.bing.com" + data['images'][0]['url']
+        return image_url
+    except Exception as e:
+        print(f"Failed to fetch Bing image: {e}")
+        return None
+
+def send_to_telegram(message, image_url=None):
     """发送消息到 Telegram 频道"""
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    payload = {
-        'chat_id': TELEGRAM_CHANNEL_ID,
-        'text': message,
-        'parse_mode': 'Markdown'  # 使用 Markdown 格式
-    }
+    if image_url:
+        # 发送图片和文字组合消息
+        url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
+        payload = {
+            'chat_id': TELEGRAM_CHANNEL_ID,
+            'photo': image_url,
+            'caption': message,
+            'parse_mode': 'Markdown'  # 使用 Markdown 格式
+        }
+    else:
+        # 仅发送文字消息
+        url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+        payload = {
+            'chat_id': TELEGRAM_CHANNEL_ID,
+            'text': message,
+            'parse_mode': 'Markdown'  # 使用 Markdown 格式
+        }
+    
     response = requests.post(url, data=payload)
     
     # 检查是否发送成功
@@ -121,7 +140,7 @@ def split_message(articles):
             f"{icon} [{article['title']}]({article['link']})\n"  # 标题改为超链接
             f"📰 **来源**: {article['source']}\n\n"  # 来源前加表情符号
             f"> {article['summary']}\n\n"  # 摘要使用引用格式
-            "⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️\n\n"  # 新的分隔线
+            "✨✨✨✨✨✨✨✨✨\n\n"  # 新的分隔线
         )
         
         # 如果当前消息加上新文章后超过限制，则发送当前消息并重置
@@ -149,8 +168,10 @@ def main():
     
     if all_articles:
         messages = split_message(all_articles)
+        bing_image_url = get_bing_image_url()  # 获取 Bing 每日一图
         for message in messages:
-            send_to_telegram(message)
+            # 发送图片和文字组合消息
+            send_to_telegram(message, bing_image_url)
     else:
         print("今日没有新文章。")
 
