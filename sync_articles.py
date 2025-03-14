@@ -150,7 +150,7 @@ def split_message(articles):
             f"{icon} [{article['title']}]({article['link']})\n"  # 标题改为超链接
             f"📰 **来源**: {article['source']}\n\n"  # 来源前加表情符号
             f"> {article['summary']}\n\n"  # 摘要使用引用格式
-            "🌴🌴🌴\n\n"  # 新的分隔线
+            "૧(●´৺`●)૭૧(●´৺`●)૭\n\n"  # 新的分隔线
         )
         
         # 如果当前消息加上新文章后超过限制，则发送当前消息并重置
