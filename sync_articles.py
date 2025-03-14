@@ -26,7 +26,6 @@ MAX_MESSAGE_LENGTH = 4096  # Telegram 消息长度限制
 SUMMARY_MAX_LENGTH = 200  # 摘要最大长度
 MAX_ARTICLES_PER_FEED = 5  # 每个网站最多抓取 5 条文章
 BING_API_URL = "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=10&mkt=zh-CN"  # Bing 每日一图 API，获取 10 张图片
-POISONOUS_SOUP_API = "https://api.shadiao.pro/chicken_soup"  # 毒鸡汤 API
 RETRY_COUNT = 3  # RSS 源抓取重试次数
 
 def clean_html(html):
@@ -79,16 +78,6 @@ def get_bing_image_urls():
     except Exception as e:
         print(f"Failed to fetch Bing images: {e}")
         return []
-
-def get_poisonous_soup():
-    """获取一句毒鸡汤"""
-    try:
-        response = requests.get(POISONOUS_SOUP_API)
-        data = response.json()
-        return data['data']['text']
-    except Exception as e:
-        print(f"Failed to fetch poisonous soup: {e}")
-        return "今天的毒鸡汤加载失败，但生活已经够苦了，不是吗？😏"
 
 def send_to_telegram(message, image_url=None):
     """发送消息到 Telegram 频道"""
@@ -160,8 +149,8 @@ def split_message(articles):
         article_text = (
             f"{icon} [{article['title']}]({article['link']})\n"  # 标题改为超链接
             f"📰 **来源**: {article['source']}\n\n"  # 来源前加表情符号
-            f"> {article['summary']}\n\n"  # 摘要使用引用格式
-            "--------------------\n\n"  # 新的分隔线
+            f"{article['summary']}\n\n"  # 摘要（去掉 > 符号）
+            "--------------------\n\n"  # 分隔线
         )
         
         # 如果当前消息加上新文章后超过限制，则发送当前消息并重置
@@ -187,15 +176,10 @@ def main():
     if all_articles:
         messages = split_message(all_articles)
         bing_image_urls = get_bing_image_urls()  # 获取 Bing 每日一图列表
-        poisonous_soup = get_poisonous_soup()  # 获取一句毒鸡汤
         
         for i, message in enumerate(messages):
             # 为每条消息选择不同的 Bing 图片
             image_url = bing_image_urls[i % len(bing_image_urls)] if bing_image_urls else None
-            
-            # 在第一条消息中插入毒鸡汤
-            if i == 0:
-                message = f"💬 **毒鸡汤**: {poisonous_soup}\n\n{message}"
             
             # 发送图片和文字消息
             send_to_telegram(message, image_url)
