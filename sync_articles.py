@@ -19,8 +19,7 @@ RSS_FEEDS = [
     'http://blog.caixin.com/feed',  # 第九个网站的 RSS 地址
     'https://www.v2ex.com/feed/tab/tech.xml',  # 第十个网站的 RSS 地址
     'http://songshuhui.net/feed',  # 第十一个网站的 RSS 地址
-    'https://www.gcores.com/rss',  # 第十二个网站的 RSS 地址
-    'http://feed.yixieshi.com/',  # 第十三个网站的 RSS 地址
+    'http://feed.yixieshi.com/',  # 第十二个网站的 RSS 地址
 ]
 MAX_MESSAGE_LENGTH = 4096  # Telegram 消息长度限制
 SUMMARY_MAX_LENGTH = 200  # 摘要最大长度
@@ -98,8 +97,6 @@ def get_title_icon(source):
         return '💻'  # V2EX 文章标记为技术
     elif '松鼠会' in source:
         return '🐿️'  # 松鼠会文章标记为科普
-    elif '机核' in source:
-        return '🎮'  # 机核文章标记为游戏
     elif '译言' in source:
         return '🌍'  # 译言文章标记为国际
     else:
@@ -116,10 +113,10 @@ def split_message(articles):
         
         # 构建单篇文章的 Markdown 格式
         article_text = (
-            f"{icon} **{article['title']}**\n"  # 标题前加表情符号
+            f"{icon} [{article['title']}]({article['link']})\n"  # 标题改为超链接
             f"📰 **来源**: {article['source']}\n\n"  # 来源前加表情符号
             f"> {article['summary']}\n\n"  # 摘要使用引用格式
-            "✨🌸✨🌸✨🌸✨🌸✨\n\n"  # 美化分隔线
+            "⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️\n\n"  # 新的分隔线
         )
         
         # 如果当前消息加上新文章后超过限制，则发送当前消息并重置
