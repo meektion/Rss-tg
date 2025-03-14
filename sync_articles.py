@@ -10,6 +10,17 @@ RSS_FEEDS = [
     'https://feedx.net/rss/zhihudaily.xml',  # 第一个网站的 RSS 地址
     'http://dig.chouti.com/feed.xml',  # 第二个网站的 RSS 地址
     'https://36kr.com/feed',  # 第三个网站的 RSS 地址
+    'https://sspai.com/feed',  # 第三个网站的 RSS 地址
+    'https://www.huxiu.com/rss/0.xml',  # 第三个网站的 RSS 地址
+    'http://www.tmtpost.com/feed',  # 第三个网站的 RSS 地址
+    'https://a.jiemian.com/index.php?m=article&a=rss',  # 第三个网站的 RSS 地址
+    'https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml',  # 第三个网站的 RSS 地址
+    'https://feeds.appinn.com/appinns/',  # 第三个网站的 RSS 地址
+    'http://blog.caixin.com/feed',  # 第三个网站的 RSS 地址
+    'https://www.v2ex.com/feed/tab/tech.xml',  # 第三个网站的 RSS 地址
+    'http://songshuhui.net/feed',  # 第三个网站的 RSS 地址
+    'https://www.gcores.com/rss',  # 第三个网站的 RSS 地址
+    'http://feed.yixieshi.com/',  # 第三个网站的 RSS 地址
 ]
 MAX_MESSAGE_LENGTH = 4096  # Telegram 消息长度限制
 SUMMARY_MAX_LENGTH = 200  # 摘要最大长度
@@ -60,27 +71,26 @@ def send_to_telegram(message):
 def split_message(articles):
     """将文章列表分割为多条消息，确保每条消息不超过最大长度"""
     messages = []
-    current_message = "#  今日精选文章\n\n"
+    current_message = " **今日精选文章**\n\n"
     
     for article in articles:
         # 构建单篇文章的 Markdown 格式
         article_text = (
-            f"## {article['title']}\n"
+            f"[{article['title']}]({article['link']})\n"  # 标题作为超链接
             f"**来源**: {article['source']}\n\n"
             f"{article['summary']}\n\n"
-            f"[阅读全文]({article['link']})\n\n"
             "---\n\n"  # 添加分隔线
         )
         
         # 如果当前消息加上新文章后超过限制，则发送当前消息并重置
         if len(current_message) + len(article_text) > MAX_MESSAGE_LENGTH:
             messages.append(current_message)
-            current_message = "#  今日精选文章（续）\n\n"
+            current_message = " **今日精选文章（续）**\n\n"
         
         current_message += article_text
     
     # 添加最后一条消息
-    if current_message.strip() != "#  今日精选文章（续）\n\n":
+    if current_message.strip() != " **今日精选文章（续）**\n\n":
         messages.append(current_message)
     
     return messages
