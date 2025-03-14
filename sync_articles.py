@@ -5,55 +5,70 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import time
 
-# 配置
+# Configuration
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID')
+CACHE_FILE = 'cached_articles.txt'  # Cache file to store sent article links
+
 RSS_FEEDS = [
-    'https://feedx.net/rss/zhihudaily.xml',  # 第一个网站的 RSS 地址
-    'http://dig.chouti.com/feed.xml',  # 第二个网站的 RSS 地址
-    'https://36kr.com/feed',  # 第三个网站的 RSS 地址
-    'https://sspai.com/feed',  # 第四个网站的 RSS 地址
-    'https://www.huxiu.com/rss/0.xml',  # 第五个网站的 RSS 地址
-    'http://www.tmtpost.com/feed',  # 第六个网站的 RSS 地址
-    'https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml',  # 第七个网站的 RSS 地址
-    'https://feeds.appinn.com/appinns/',  # 第八个网站的 RSS 地址
-    'http://blog.caixin.com/feed',  # 第九个网站的 RSS 地址
-    'https://www.v2ex.com/feed/tab/tech.xml',  # 第十个网站的 RSS 地址
-    'http://songshuhui.net/feed',  # 第十一个网站的 RSS 地址
-    'http://feed.yixieshi.com/',  # 第十二个网站的 RSS 地址
+    'https://feedx.net/rss/zhihudaily.xml',
+    'http://dig.chouti.com/feed.xml',
+    'https://36kr.com/feed',
+    'https://sspai.com/feed',
+    'https://www.huxiu.com/rss/0.xml',
+    'http://www.tmtpost.com/feed',
+    'https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml',
+    'https://feeds.appinn.com/appinns/',
+    'http://blog.caixin.com/feed',
+    'https://www.v2ex.com/feed/tab/tech.xml',
+    'http://songshuhui.net/feed',
+    'http://feed.yixieshi.com/',
 ]
-MAX_MESSAGE_LENGTH = 4096  # Telegram 消息长度限制
-SUMMARY_MAX_LENGTH = 200  # 摘要最大长度
-MAX_ARTICLES_PER_FEED = 5  # 每个网站最多抓取 5 条文章
-BING_API_URL = "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=10&mkt=zh-CN"  # Bing 每日一图 API，获取 10 张图片
-RETRY_COUNT = 3  # RSS 源抓取重试次数
+
+MAX_MESSAGE_LENGTH = 4096
+SUMMARY_MAX_LENGTH = 200
+MAX_ARTICLES_PER_FEED = 5
+BING_API_URL = "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=10&mkt=zh-CN"
+RETRY_COUNT = 3
+
+def load_cache():
+    """Load the cached article links from the cache file."""
+    if not os.path.exists(CACHE_FILE):
+        return set()
+    with open(CACHE_FILE, 'r', encoding='utf-8') as f:
+        return set(line.strip() for line in f)
+
+def update_cache(article_links):
+    """Update the cache file with the new links."""
+    with open(CACHE_FILE, 'a', encoding='utf-8') as f:
+        for link in article_links:
+            f.write(link + '\n')
 
 def clean_html(html):
-    """清理 HTML 标签，提取纯文本"""
+    """Clean HTML tags and extract plain text."""
     soup = BeautifulSoup(html, 'html.parser')
     return soup.get_text().strip()
 
 def fetch_new_articles(rss_url):
-    """从指定 RSS 源获取当天的新文章"""
+    """Fetch today's new articles from the specified RSS feed."""
     for attempt in range(RETRY_COUNT):
         try:
             feed = feedparser.parse(rss_url)
             new_articles = []
             
-            # 获取当天日期
+            # Get today's date
             today = datetime.now()
             start_of_day = datetime(today.year, today.month, today.day)
             
-            # 筛选当天的文章，最多抓取 MAX_ARTICLES_PER_FEED 条
+            # Filter for today's articles, maximum of MAX_ARTICLES_PER_FEED
             for entry in feed.entries[:MAX_ARTICLES_PER_FEED]:
                 published_time = datetime(*entry.published_parsed[:6])
                 if published_time >= start_of_day:
-                    # 清理标题和摘要
                     title = clean_html(entry.title) if 'title' in entry else '无标题'
                     summary = clean_html(entry.summary) if 'summary' in entry else '暂无摘要'
-                    summary = summary[:SUMMARY_MAX_LENGTH]  # 截取前 200 字符
+                    summary = summary[:SUMMARY_MAX_LENGTH]  # Truncate to summary max length
                     if len(summary) == SUMMARY_MAX_LENGTH:
-                        summary += '...'  # 添加省略号
+                        summary += '...'  # Add ellipsis
                     
                     new_articles.append({
                         'title': title,
@@ -65,11 +80,11 @@ def fetch_new_articles(rss_url):
             return new_articles
         except Exception as e:
             print(f"Attempt {attempt + 1} failed for {rss_url}: {e}")
-            time.sleep(2)  # 等待 2 秒后重试
-    return []  # 重试多次后仍失败，返回空列表
+            time.sleep(2)  # Wait 2 seconds before retry
+    return []  # Return empty list after several failed attempts
 
 def get_bing_image_urls():
-    """获取 Bing 每日一图的 URL 列表"""
+    """Get a list of Bing daily image URLs."""
     try:
         response = requests.get(BING_API_URL)
         data = response.json()
@@ -80,9 +95,9 @@ def get_bing_image_urls():
         return []
 
 def send_to_telegram(message, image_url=None):
-    """发送消息到 Telegram 频道"""
+    """Send a message to the Telegram channel."""
     if image_url:
-        # 发送图片
+        # Send image
         url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
         payload = {
             'chat_id': TELEGRAM_CHANNEL_ID,
@@ -90,99 +105,106 @@ def send_to_telegram(message, image_url=None):
         }
         response = requests.post(url, data=payload)
         
-        # 检查是否发送成功
+        # Check if sending was successful
         if response.status_code != 200:
             print(f"Failed to send image: {response.text}")
     
-    # 发送文字消息
+    # Send text message
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     payload = {
         'chat_id': TELEGRAM_CHANNEL_ID,
         'text': message,
-        'parse_mode': 'Markdown'  # 使用 Markdown 格式
+        'parse_mode': 'Markdown'  # Use Markdown formatting
     }
     response = requests.post(url, data=payload)
     
-    # 检查是否发送成功
+    # Check if sending was successful
     if response.status_code != 200:
         print(f"Failed to send message: {response.text}")
 
 def get_title_icon(source):
-    """根据来源返回标题前的表情符号"""
+    """Return the emoji based on the source."""
     if '知乎' in source:
-        return '📌'  # 知乎文章标记为重要
+        return '📌'
     elif '36氪' in source:
-        return '🔥'  # 36氪文章标记为热门
+        return '🔥'
     elif '抽屉' in source:
-        return '🌟'  # 抽屉文章标记为推荐
+        return '🌟'
     elif '少数派' in source:
-        return '📱'  # 少数派文章标记为科技
+        return '📱'
     elif '虎嗅' in source:
-        return '🐯'  # 虎嗅文章标记为商业
+        return '🐯'
     elif '钛媒体' in source:
-        return '🚀'  # 钛媒体文章标记为创新
+        return '🚀'
     elif '微信' in source:
-        return '💬'  # 微信文章标记为社交
+        return '💬'
     elif 'Appinn' in source:
-        return '📲'  # Appinn 文章标记为应用
+        return '📲'
     elif '财新' in source:
-        return '💰'  # 财新文章标记为财经
+        return '💰'
     elif 'V2EX' in source:
-        return '💻'  # V2EX 文章标记为技术
+        return '💻'
     elif '松鼠会' in source:
-        return '🐿️'  # 松鼠会文章标记为科普
+        return '🐿️'
     elif '译言' in source:
-        return '🌍'  # 译言文章标记为国际
+        return '🌍'
     else:
-        return '📰'  # 默认标记为新闻
+        return '📰'
 
 def split_message(articles):
-    """将文章列表分割为多条消息，确保每条消息不超过最大长度"""
+    """Split article list into multiple messages ensuring each does not exceed max length."""
     messages = []
     current_message = "📰 **今日精选文章**\n\n"
     
     for article in articles:
-        # 获取标题前的表情符号
+        # Get title icon
         icon = get_title_icon(article['source'])
         
-        # 构建单篇文章的 Markdown 格式
+        # Build article markdown format
         article_text = (
-            f"{icon} [{article['title']}]({article['link']})\n"  # 标题改为超链接
-            f"📰 **来源**: {article['source']}\n\n"  # 来源前加表情符号
-            f"{article['summary']}\n\n"  # 摘要（去掉 > 符号）
-            "--------------------\n\n"  # 分隔线
+            f"{icon} [{article['title']}]({article['link']})\n"
+            f"📰 **来源**: {article['source']}\n\n"
+            f"{article['summary']}\n\n"
+            "--------------------\n\n"
         )
         
-        # 如果当前消息加上新文章后超过限制，则发送当前消息并重置
+        # If adding a new article exceeds limits, send current message and reset
         if len(current_message) + len(article_text) > MAX_MESSAGE_LENGTH:
             messages.append(current_message)
             current_message = "📰 **今日精选文章（续）**\n\n"
         
         current_message += article_text
     
-    # 添加最后一条消息
+    # Add last message if not empty
     if current_message.strip() != "📰 **今日精选文章（续）**\n\n":
         messages.append(current_message)
     
     return messages
 
 def main():
-    """主函数：获取多个网站的新文章并发送到 Telegram"""
+    """Main function to fetch new articles from multiple sites and send to Telegram."""
     all_articles = []
+    cached_links = load_cache()  # Load previously sent articles cache
+
     for rss_url in RSS_FEEDS:
         new_articles = fetch_new_articles(rss_url)
-        all_articles.extend(new_articles)
+        for article in new_articles:
+            if article['link'] not in cached_links:  # Check if it's already sent
+                all_articles.append(article)
     
     if all_articles:
         messages = split_message(all_articles)
-        bing_image_urls = get_bing_image_urls()  # 获取 Bing 每日一图列表
+        bing_image_urls = get_bing_image_urls()  # Fetch Bing daily images
         
         for i, message in enumerate(messages):
-            # 为每条消息选择不同的 Bing 图片
+            # Choose different Bing image for each message
             image_url = bing_image_urls[i % len(bing_image_urls)] if bing_image_urls else None
             
-            # 发送图片和文字消息
+            # Send image and text message
             send_to_telegram(message, image_url)
+        
+        # Update cache with newly sent article links
+        update_cache([article['link'] for article in all_articles])
     else:
         print("今日没有新文章。")
 
