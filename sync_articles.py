@@ -1,5 +1,4 @@
 import os
-import aiohttp
 import asyncio
 import feedparser
 from datetime import datetime
