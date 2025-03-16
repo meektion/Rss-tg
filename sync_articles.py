@@ -75,6 +75,7 @@ RSS_FEEDS = [
 MAX_MESSAGE_LENGTH = 4096  # Telegram 消息长度限制
 SUMMARY_MAX_LENGTH = 200  # 摘要最大长度
 MAX_ARTICLES_PER_FEED = 5  # 每个网站最多抓取 5 条文章
+BING_API_URL = "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=10&mkt=zh-CN"  # Bing 每日一图 API，获取 10 张图片
 RETRY_COUNT = 3  # RSS 源抓取重试次数
 
 def clean_html(html):
@@ -117,8 +118,33 @@ def fetch_new_articles(rss_url):
             time.sleep(2)  # 等待 2 秒后重试
     return []  # 重试多次后仍失败，返回空列表
 
-def send_to_telegram(message):
+def get_bing_image_urls():
+    """获取 Bing 每日一图的 URL 列表"""
+    try:
+        response = requests.get(BING_API_URL)
+        data = response.json()
+        image_urls = ["https://www.bing.com" + image['url'] for image in data['images']]
+        return image_urls
+    except Exception as e:
+        print(f"Failed to fetch Bing images: {e}")
+        return []
+
+def send_to_telegram(message, image_url=None):
     """发送消息到 Telegram 频道"""
+    if image_url:
+        # 发送图片
+        url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
+        payload = {
+            'chat_id': TELEGRAM_CHANNEL_ID,
+            'photo': image_url,
+        }
+        response = requests.post(url, data=payload)
+        
+        # 检查是否发送成功
+        if response.status_code != 200:
+            print(f"Failed to send image: {response.text}")
+    
+    # 发送文字消息
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     payload = {
         'chat_id': TELEGRAM_CHANNEL_ID,
@@ -158,10 +184,14 @@ def main():
     
     if all_articles:
         messages = split_message(all_articles)
+        bing_image_urls = get_bing_image_urls()  # 获取 Bing 每日一图列表
         
-        for message in messages:
-            # 发送文字消息
-            send_to_telegram(message)
+        for i, message in enumerate(messages):
+            # 为每条消息选择不同的 Bing 图片
+            image_url = bing_image_urls[i % len(bing_image_urls)] if bing_image_urls else None
+            
+            # 发送图片和文字消息
+            send_to_telegram(message, image_url)
     else:
         print("今日没有新文章。")
 
