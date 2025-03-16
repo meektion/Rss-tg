@@ -2,7 +2,7 @@ name: Sync Articles to Telegram
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # 每天 UTC 时间 8:00 运行
+    - cron: '0 */6 * * *'  # 每间隔六小时运行一次
   workflow_dispatch:
 
 jobs:
