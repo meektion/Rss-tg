@@ -22,55 +22,55 @@ RSS_FEEDS = [
     'http://songshuhui.net/feed',  # 第十一个网站的 RSS 地址
     'http://feed.yixieshi.com/',  # 第十二个网站的 RSS 地址
     'http://feeds.feedburner.com/ruanyifeng',
-'http://feeds.feedburner.com/zhihu-daily',
-'https://www.jiqizhixin.com/rss',
-'https://deepmind.com/blog/feed/basic/',
-'https://nodejs.org/en/feed/blog.xml',
-'https://github.blog/feed/',
-'https://tech.meituan.com/feed/',
-'https://martinfowler.com/feed.atom',
-'https://azure.microsoft.com/en-us/blog/feed/',
-'https://netflixtechblog.com/feed',
-'https://engineering.fb.com/feed/',
-'https://www.elastic.co/blog/feed',
-'https://www.solidot.org/index.rss',
-'http://rss1.smashingmagazine.com/feed/',
-'https://www.freecodecamp.org/news/rss/',
-'https://world.hey.com/dhh/feed.atom',
-'https://www.docker.com/feed/',
-'https://cloudblog.withgoogle.com/rss/',
-'http://www.infoq.com/rss/rss.action',
-'http://blog.stackoverflow.com/feed/',
-'https://vercel.com/atom',
-'https://yihui.org/cn/index.xml',
-'https://devblogs.microsoft.com/visualstudio/feed/',
-'https://baoyu.io/feed.xml',
-'https://blog.langchain.dev/rss/',
-'https://www.qbitai.com/feed',
-'https://huggingface.co/blog/feed.xml',
-'https://aws.amazon.com/blogs/amazon-ai/feed/',
-'https://machinelearning.apple.com/rss.xml',
-'https://discord.com/blog/rss.xml',
-'https://blog.timescale.com/feed',
-'https://grafana.com/categories/engineering/index.xml',
-'https://nextjs.org/feed.xml',
-'https://uxmag.com/feed',
-'http://spring.io/blog.atom',
-'https://blog.ycombinator.com/feed/',
-'http://blog.jetbrains.com/feed/',
-'https://www.mongodb.com/blog/rss',
-'https://www.databricks.com/feed',
-'https://developers.googleblog.com/feeds/posts/default',
-'https://www.canva.dev/blog/engineering/feed.xml',
-'https://blog.cloudflare.com/rss',
-'https://blog.google/rss',
-'https://www.llamaindex.ai/blog/feed',
-'https://jina.ai/feed.rss',
-'https://werss.bestblogs.dev/feeds/MP_WXS_3242732364.atom',
-'https://werss.bestblogs.dev/feeds/MP_WXS_3510410326.atom',
-'https://werss.bestblogs.dev/feeds/MP_WXS_3876745802.atom',
-'https://werss.bestblogs.dev/feeds/MP_WXS_3253632141.atom',
-'https://werss.bestblogs.dev/feeds/MP_WXS_3003197367.atom',
+    'http://feeds.feedburner.com/zhihu-daily',
+    'https://www.jiqizhixin.com/rss',
+    'https://deepmind.com/blog/feed/basic/',
+    'https://nodejs.org/en/feed/blog.xml',
+    'https://github.blog/feed/',
+    'https://tech.meituan.com/feed/',
+    'https://martinfowler.com/feed.atom',
+    'https://azure.microsoft.com/en-us/blog/feed/',
+    'https://netflixtechblog.com/feed',
+    'https://engineering.fb.com/feed/',
+    'https://www.elastic.co/blog/feed',
+    'https://www.solidot.org/index.rss',
+    'http://rss1.smashingmagazine.com/feed/',
+    'https://www.freecodecamp.org/news/rss/',
+    'https://world.hey.com/dhh/feed.atom',
+    'https://www.docker.com/feed/',
+    'https://cloudblog.withgoogle.com/rss/',
+    'http://www.infoq.com/rss/rss.action',
+    'http://blog.stackoverflow.com/feed/',
+    'https://vercel.com/atom',
+    'https://yihui.org/cn/index.xml',
+    'https://devblogs.microsoft.com/visualstudio/feed/',
+    'https://baoyu.io/feed.xml',
+    'https://blog.langchain.dev/rss/',
+    'https://www.qbitai.com/feed',
+    'https://huggingface.co/blog/feed.xml',
+    'https://aws.amazon.com/blogs/amazon-ai/feed/',
+    'https://machinelearning.apple.com/rss.xml',
+    'https://discord.com/blog/rss.xml',
+    'https://blog.timescale.com/feed',
+    'https://grafana.com/categories/engineering/index.xml',
+    'https://nextjs.org/feed.xml',
+    'https://uxmag.com/feed',
+    'http://spring.io/blog.atom',
+    'https://blog.ycombinator.com/feed/',
+    'http://blog.jetbrains.com/feed/',
+    'https://www.mongodb.com/blog/rss',
+    'https://www.databricks.com/feed',
+    'https://developers.googleblog.com/feeds/posts/default',
+    'https://www.canva.dev/blog/engineering/feed.xml',
+    'https://blog.cloudflare.com/rss',
+    'https://blog.google/rss',
+    'https://www.llamaindex.ai/blog/feed',
+    'https://jina.ai/feed.rss',
+    'https://werss.bestblogs.dev/feeds/MP_WXS_3242732364.atom',
+    'https://werss.bestblogs.dev/feeds/MP_WXS_3510410326.atom',
+    'https://werss.bestblogs.dev/feeds/MP_WXS_3876745802.atom',
+    'https://werss.bestblogs.dev/feeds/MP_WXS_3253632141.atom',
+    'https://werss.bestblogs.dev/feeds/MP_WXS_3003197367.atom',
 ]
 MAX_MESSAGE_LENGTH = 4096  # Telegram 消息长度限制
 SUMMARY_MAX_LENGTH = 200  # 摘要最大长度
@@ -187,9 +187,8 @@ def get_title_icon(source):
         return '📰'  # 默认标记为新闻
 
 def split_message(articles):
-    """将文章列表分割为多条消息，确保每条消息不超过最大长度"""
+    """将文章列表分割为多条独立的消息，每条消息包含一篇文章"""
     messages = []
-    current_message = "📰 **今日精选文章**\n\n"
     
     for article in articles:
         # 获取标题前的表情符号
@@ -203,16 +202,8 @@ def split_message(articles):
             "--------------------\n\n"  # 分隔线
         )
         
-        # 如果当前消息加上新文章后超过限制，则发送当前消息并重置
-        if len(current_message) + len(article_text) > MAX_MESSAGE_LENGTH:
-            messages.append(current_message)
-            current_message = "📰 **今日精选文章（续）**\n\n"
-        
-        current_message += article_text
-    
-    # 添加最后一条消息
-    if current_message.strip() != "📰 **今日精选文章（续）**\n\n":
-        messages.append(current_message)
+        # 将单篇文章作为一条独立的消息
+        messages.append(article_text)
     
     return messages
 
