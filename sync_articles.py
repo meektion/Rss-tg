@@ -7,8 +7,8 @@ from bs4 import BeautifulSoup
 import logging
 
 # 配置
-TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
-TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID')
+TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')  # Telegram 机器人 Token
+TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID')  # Telegram 频道 ID
 RSS_FEEDS_FILE = "rss_feeds.txt"  # 存储 RSS 订阅链接的文件
 MAX_MESSAGE_LENGTH = 4096  # Telegram 消息长度限制
 SUMMARY_MAX_LENGTH = 100  # 摘要最大长度
@@ -21,7 +21,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 def load_rss_feeds():
     """从文件中加载 RSS 订阅链接"""
     if not os.path.exists(RSS_FEEDS_FILE):
-        logging.error(f"RSS feeds file '{RSS_FEEDS_FILE}' not found.")
+        logging.error(f"未找到 RSS 订阅文件：'{RSS_FEEDS_FILE}'")
         return []
     
     with open(RSS_FEEDS_FILE, "r", encoding="utf-8") as file:
@@ -35,18 +35,20 @@ def clean_html(html):
 
 def parse_entry_time(entry):
     """解析条目的发布时间"""
-    if hasattr(entry, 'published_parsed'):
-        return datetime(*entry.published_parsed[:6])
-    elif hasattr(entry, 'updated_parsed'):
-        return datetime(*entry.updated_parsed[:6])
-    elif hasattr(entry, 'published'):
+    # 尝试从多种字段中提取时间
+    if hasattr(entry, 'published'):
         try:
             return datetime.strptime(entry.published, '%a, %d %b %Y %H:%M:%S %z')
         except ValueError:
             pass
-    elif hasattr(entry, 'updated'):
+    if hasattr(entry, 'updated'):
         try:
             return datetime.strptime(entry.updated, '%a, %d %b %Y %H:%M:%S %z')
+        except ValueError:
+            pass
+    if hasattr(entry, 'pubDate'):
+        try:
+            return datetime.strptime(entry.pubDate, '%a, %d %b %Y %H:%M:%S %z')
         except ValueError:
             pass
     return None
@@ -57,13 +59,13 @@ async def fetch_feed(session, rss_url):
         try:
             async with session.get(rss_url) as response:
                 if response.status != 200:
-                    logging.error(f"Attempt {attempt + 1} failed for {rss_url}: HTTP {response.status}")
+                    logging.error(f"第 {attempt + 1} 次尝试抓取 {rss_url} 失败：HTTP {response.status}")
                     continue
                 content = await response.text()
                 feed = feedparser.parse(content)
                 return feed
         except Exception as e:
-            logging.error(f"Attempt {attempt + 1} failed for {rss_url}: {e}")
+            logging.error(f"第 {attempt + 1} 次尝试抓取 {rss_url} 失败：{e}")
             await asyncio.sleep(2)  # 等待 2 秒后重试
     return None
 
@@ -80,7 +82,7 @@ async def fetch_new_articles(session, rss_url):
     for entry in feed.entries[:MAX_ARTICLES_PER_FEED]:
         published_time = parse_entry_time(entry)
         if published_time is None:
-            logging.warning(f"Skipping entry due to missing time info: {entry.link}")
+            logging.warning(f"跳过条目，缺少时间信息：{entry.link}")
             continue
         
         if published_time >= start_of_day:
@@ -111,7 +113,7 @@ async def send_to_telegram(message):
     async with aiohttp.ClientSession() as session:
         async with session.post(url, data=payload) as response:
             if response.status != 200:
-                logging.error(f"Failed to send message: {await response.text()}")
+                logging.error(f"发送消息失败：{await response.text()}")
 
 def get_title_icon(source):
     """根据来源返回标题前的表情符号"""
@@ -138,7 +140,7 @@ async def main():
     """主函数：获取多个网站的新文章并发送到 Telegram"""
     rss_feeds = load_rss_feeds()
     if not rss_feeds:
-        logging.error("No RSS feeds found.")
+        logging.error("未找到 RSS 订阅链接。")
         return
     
     all_articles = []
