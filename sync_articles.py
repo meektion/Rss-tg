@@ -4,6 +4,7 @@ import feedparser
 from datetime import datetime
 from bs4 import BeautifulSoup
 import time
+import logging
 
 # 配置
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
@@ -15,10 +16,13 @@ MAX_ARTICLES_PER_FEED = 5  # 每个网站最多抓取 5 条文章
 BING_API_URL = "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=10&mkt=zh-CN"  # Bing 每日一图 API
 RETRY_COUNT = 3  # RSS 源抓取重试次数
 
+# 配置日志记录
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 def load_rss_feeds():
     """从文件中加载 RSS 订阅链接"""
     if not os.path.exists(RSS_FEEDS_FILE):
-        print(f"RSS feeds file '{RSS_FEEDS_FILE}' not found.")
+        logging.error(f"RSS feeds file '{RSS_FEEDS_FILE}' not found.")
         return []
     
     with open(RSS_FEEDS_FILE, "r", encoding="utf-8") as file:
@@ -43,7 +47,15 @@ def fetch_new_articles(rss_url):
             
             # 筛选当天的文章，最多抓取 MAX_ARTICLES_PER_FEED 条
             for entry in feed.entries[:MAX_ARTICLES_PER_FEED]:
-                published_time = datetime(*entry.published_parsed[:6])
+                # 检查是否有 published_parsed 属性，如果没有则跳过或使用 updated_parsed
+                if hasattr(entry, 'published_parsed'):
+                    published_time = datetime(*entry.published_parsed[:6])
+                elif hasattr(entry, 'updated_parsed'):
+                    published_time = datetime(*entry.updated_parsed[:6])
+                else:
+                    logging.warning(f"Skipping entry due to missing published_parsed and updated_parsed: {entry.link}")
+                    continue
+                
                 if published_time >= start_of_day:
                     # 清理标题和摘要
                     title = clean_html(entry.title) if 'title' in entry else '无标题'
@@ -70,7 +82,7 @@ def fetch_new_articles(rss_url):
             
             return new_articles
         except Exception as e:
-            print(f"Attempt {attempt + 1} failed for {rss_url}: {e}")
+            logging.error(f"Attempt {attempt + 1} failed for {rss_url}: {e}")
             time.sleep(2)  # 等待 2 秒后重试
     return []  # 重试多次后仍失败，返回空列表
 
@@ -98,7 +110,7 @@ def send_to_telegram(message, image_url=None):
     
     # 检查是否发送成功
     if response.status_code != 200:
-        print(f"Failed to send message: {response.text}")
+        logging.error(f"Failed to send message: {response.text}")
 
 def get_title_icon(source):
     """根据来源返回标题前的表情符号"""
@@ -133,11 +145,12 @@ def main():
     """主函数：获取多个网站的新文章并发送到 Telegram"""
     rss_feeds = load_rss_feeds()
     if not rss_feeds:
-        print("No RSS feeds found.")
+        logging.error("No RSS feeds found.")
         return
     
     all_articles = []
     for rss_url in rss_feeds:
+        logging.info(f"Fetching articles from {rss_url}")
         new_articles = fetch_new_articles(rss_url)
         all_articles.extend(new_articles)
     
@@ -156,7 +169,7 @@ def main():
             # 发送消息
             send_to_telegram(message, article.get('image_url'))
     else:
-        print("今日没有新文章。")
+        logging.info("今日没有新文章。")
 
 if __name__ == "__main__":
     main()
