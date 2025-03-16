@@ -75,7 +75,6 @@ RSS_FEEDS = [
 MAX_MESSAGE_LENGTH = 4096  # Telegram 消息长度限制
 SUMMARY_MAX_LENGTH = 200  # 摘要最大长度
 MAX_ARTICLES_PER_FEED = 5  # 每个网站最多抓取 5 条文章
-BING_API_URL = "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=10&mkt=zh-CN"  # Bing 每日一图 API，获取 10 张图片
 RETRY_COUNT = 3  # RSS 源抓取重试次数
 
 def clean_html(html):
@@ -118,33 +117,8 @@ def fetch_new_articles(rss_url):
             time.sleep(2)  # 等待 2 秒后重试
     return []  # 重试多次后仍失败，返回空列表
 
-def get_bing_image_urls():
-    """获取 Bing 每日一图的 URL 列表"""
-    try:
-        response = requests.get(BING_API_URL)
-        data = response.json()
-        image_urls = ["https://www.bing.com" + image['url'] for image in data['images']]
-        return image_urls
-    except Exception as e:
-        print(f"Failed to fetch Bing images: {e}")
-        return []
-
-def send_to_telegram(message, image_url=None):
+def send_to_telegram(message):
     """发送消息到 Telegram 频道"""
-    if image_url:
-        # 发送图片
-        url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
-        payload = {
-            'chat_id': TELEGRAM_CHANNEL_ID,
-            'photo': image_url,
-        }
-        response = requests.post(url, data=payload)
-        
-        # 检查是否发送成功
-        if response.status_code != 200:
-            print(f"Failed to send image: {response.text}")
-    
-    # 发送文字消息
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     payload = {
         'chat_id': TELEGRAM_CHANNEL_ID,
@@ -157,48 +131,16 @@ def send_to_telegram(message, image_url=None):
     if response.status_code != 200:
         print(f"Failed to send message: {response.text}")
 
-def get_title_icon(source):
-    """根据来源返回标题前的表情符号"""
-    if '知乎' in source:
-        return '📌'  # 知乎文章标记为重要
-    elif '36氪' in source:
-        return '🔥'  # 36氪文章标记为热门
-    elif '抽屉' in source:
-        return '🌟'  # 抽屉文章标记为推荐
-    elif '少数派' in source:
-        return '📱'  # 少数派文章标记为科技
-    elif '虎嗅' in source:
-        return '🐯'  # 虎嗅文章标记为商业
-    elif '钛媒体' in source:
-        return '🚀'  # 钛媒体文章标记为创新
-    elif '微信' in source:
-        return '💬'  # 微信文章标记为社交
-    elif 'Appinn' in source:
-        return '📲'  # Appinn 文章标记为应用
-    elif '财新' in source:
-        return '💰'  # 财新文章标记为财经
-    elif 'V2EX' in source:
-        return '💻'  # V2EX 文章标记为技术
-    elif '松鼠会' in source:
-        return '🐿️'  # 松鼠会文章标记为科普
-    elif '译言' in source:
-        return '🌍'  # 译言文章标记为国际
-    else:
-        return '📰'  # 默认标记为新闻
-
 def split_message(articles):
     """将文章列表分割为多条独立的消息，每条消息包含一篇文章"""
     messages = []
     
     for article in articles:
-        # 获取标题前的表情符号
-        icon = get_title_icon(article['source'])
-        
         # 构建单篇文章的 Markdown 格式
         article_text = (
-            f"{icon} [{article['title']}]({article['link']})\n"  # 标题改为超链接
-            f"📰 **来源**: {article['source']}\n\n"  # 来源前加表情符号
-            f"{article['summary']}\n\n"  # 摘要（去掉 > 符号）
+            f"[{article['title']}]({article['link']})\n"  # 标题改为超链接
+            f"**来源**: {article['source']}\n\n"  # 来源
+            f"{article['summary']}\n\n"  # 摘要
             "--------------------\n\n"  # 分隔线
         )
         
@@ -216,14 +158,10 @@ def main():
     
     if all_articles:
         messages = split_message(all_articles)
-        bing_image_urls = get_bing_image_urls()  # 获取 Bing 每日一图列表
         
-        for i, message in enumerate(messages):
-            # 为每条消息选择不同的 Bing 图片
-            image_url = bing_image_urls[i % len(bing_image_urls)] if bing_image_urls else None
-            
-            # 发送图片和文字消息
-            send_to_telegram(message, image_url)
+        for message in messages:
+            # 发送文字消息
+            send_to_telegram(message)
     else:
         print("今日没有新文章。")
 
