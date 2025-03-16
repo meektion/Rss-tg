@@ -131,24 +131,11 @@ def get_bing_image_urls():
 
 def send_to_telegram(message, image_url=None):
     """发送消息到 Telegram 频道"""
-    if image_url:
-        # 发送图片
-        url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
-        payload = {
-            'chat_id': TELEGRAM_CHANNEL_ID,
-            'photo': image_url,
-        }
-        response = requests.post(url, data=payload)
-        
-        # 检查是否发送成功
-        if response.status_code != 200:
-            print(f"Failed to send image: {response.text}")
-    
-    # 发送文字消息
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
     payload = {
         'chat_id': TELEGRAM_CHANNEL_ID,
-        'text': message,
+        'photo': image_url,
+        'caption': message[:MAX_MESSAGE_LENGTH],  # 确保消息长度不超过限制
         'parse_mode': 'Markdown'  # 使用 Markdown 格式
     }
     response = requests.post(url, data=payload)
