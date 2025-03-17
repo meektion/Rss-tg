@@ -66,11 +66,7 @@ RSS_FEEDS = [
     'https://blog.google/rss',
     'https://www.llamaindex.ai/blog/feed',
     'https://jina.ai/feed.rss',
-    'https://werss.bestblogs.dev/feeds/MP_WXS_3242732364.atom',
-    'https://werss.bestblogs.dev/feeds/MP_WXS_3510410326.atom',
-    'https://werss.bestblogs.dev/feeds/MP_WXS_3876745802.atom',
-    'https://werss.bestblogs.dev/feeds/MP_WXS_3253632141.atom',
-    'https://werss.bestblogs.dev/feeds/MP_WXS_3003197367.atom',
+    'https://decohack.com/feed/,
 ]
 MAX_MESSAGE_LENGTH = 4096  # Telegram 消息长度限制
 SUMMARY_MAX_LENGTH = 200  # 摘要最大长度
