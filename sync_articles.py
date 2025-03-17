@@ -15,35 +15,21 @@ RSS_FEEDS = [
     'https://sspai.com/feed',  # 第四个网站的 RSS 地址
     'https://www.huxiu.com/rss/0.xml',  # 第五个网站的 RSS 地址
     'http://www.tmtpost.com/feed',  # 第六个网站的 RSS 地址
-    'https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml',  # 第七个网站的 RSS 地址
     'https://feeds.appinn.com/appinns/',  # 第八个网站的 RSS 地址
     'http://blog.caixin.com/feed',  # 第九个网站的 RSS 地址
     'https://www.v2ex.com/feed/tab/tech.xml',  # 第十个网站的 RSS 地址
     'http://songshuhui.net/feed',  # 第十一个网站的 RSS 地址
     'http://feed.yixieshi.com/',  # 第十二个网站的 RSS 地址
-    'http://feeds.feedburner.com/ruanyifeng',
-    'http://feeds.feedburner.com/zhihu-daily',
     'https://www.jiqizhixin.com/rss',
     'https://deepmind.com/blog/feed/basic/',
-    'https://nodejs.org/en/feed/blog.xml',
-    'https://github.blog/feed/',
-    'https://tech.meituan.com/feed/',
-    'https://martinfowler.com/feed.atom',
     'https://azure.microsoft.com/en-us/blog/feed/',
     'https://netflixtechblog.com/feed',
     'https://engineering.fb.com/feed/',
     'https://www.elastic.co/blog/feed',
     'https://www.solidot.org/index.rss',
     'http://rss1.smashingmagazine.com/feed/',
-    'https://www.freecodecamp.org/news/rss/',
-    'https://world.hey.com/dhh/feed.atom',
-    'https://www.docker.com/feed/',
-    'https://cloudblog.withgoogle.com/rss/',
-    'http://www.infoq.com/rss/rss.action',
     'http://blog.stackoverflow.com/feed/',
-    'https://vercel.com/atom',
     'https://yihui.org/cn/index.xml',
-    'https://devblogs.microsoft.com/visualstudio/feed/',
     'https://baoyu.io/feed.xml',
     'https://blog.langchain.dev/rss/',
     'https://www.qbitai.com/feed',
@@ -60,11 +46,7 @@ RSS_FEEDS = [
     'http://blog.jetbrains.com/feed/',
     'https://www.mongodb.com/blog/rss',
     'https://www.databricks.com/feed',
-    'https://developers.googleblog.com/feeds/posts/default',
-    'https://www.canva.dev/blog/engineering/feed.xml',
     'https://blog.cloudflare.com/rss',
-    'https://blog.google/rss',
-    'https://www.llamaindex.ai/blog/feed',
     'https://jina.ai/feed.rss',
     'https://decohack.com/feed/,
 ]
