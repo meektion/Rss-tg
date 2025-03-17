@@ -28,15 +28,19 @@ def send_telegram_message(message):
     }
     response = requests.post(TELEGRAM_API_URL, json=data)
     if response.status_code != 200:
-        print(f"Failed to send message: {response.text}")
+        print(f"Failed to send message: {response.json()}")
 
 def fetch_rss_feed(url):
     """解析RSS源并提取前5条内容"""
-    feed = feedparser.parse(url)
-    if feed.bozo:
-        print(f"Failed to parse RSS feed: {feed.bozo_exception}")
+    try:
+        feed = feedparser.parse(url)
+        if feed.bozo:
+            print(f"Failed to parse RSS feed: {feed.bozo_exception}")
+            return []
+        return feed.entries[:5]
+    except Exception as e:
+        print(f"Error parsing RSS feed from {url}: {e}")
         return []
-    return feed.entries[:5]
 
 def get_bing_daily_image():
     """获取Bing每日一图"""
@@ -73,32 +77,3 @@ def main():
     sent_items = load_sent_items()
     bing_image_url = get_bing_daily_image()
 
-    for source in RSS_SOURCES:
-        print(f"Processing {source['name']}...")
-        entries = fetch_rss_feed(source["url"])
-        for entry in entries:
-            link = entry.link
-            if link in sent_items:
-                print(f"Skipping already sent item: {link}")
-                continue
-
-            title = escape_markdown(entry.title)
-            summary = escape_markdown(entry.summary[:100].replace("\n", " "))  # 截取摘要的前100个字符，并处理换行符
-
-            # 美化消息内容（使用Markdown格式）
-            message = f"""
-            *{source['name']}*
-            [{title}]({link})
-            ![Bing Daily Image]({bing_image_url})
-            _{summary}_
-            *{datetime.now().strftime('%Y-%m-%d %H:%M')}*
-            """
-            send_telegram_message(message)
-            sent_items.append(link)
-            print(f"Sent: {title}")
-
-    # 保存已推送的消息链接
-    save_sent_items(sent_items)
-
-if __name__ == "__main__":
-    main()
