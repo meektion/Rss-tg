@@ -64,8 +64,10 @@ def save_sent_items(sent_items):
 
 def escape_markdown(text):
     """转义MarkdownV2中的特殊字符"""
-    return re.sub(r"([_*
- $$$$ ()~`>\#\+\-=|\.!])", r"\\\1", text)
+    markdown_chars = r"\_*[]()~`>#+-=|.!{}"
+    for char in markdown_chars:
+        text = text.replace(char, f"\\{char}")
+    return text
 
 def main():
     sent_items = load_sent_items()
