@@ -90,12 +90,22 @@ def main():
                 print(f"Skipping already sent item: {link}")
                 continue
 
-            title = escape_markdown(entry.title[:100])
-            summary = escape_markdown(entry.summary[:200].replace("\n", " "))
+            title = escape_markdown(entry.title[:100])  # 截断标题
+            summary = escape_markdown(entry.summary[:200].replace("\n", " "))  # 截断摘要
 
             message = f"""
             *{source['name']}*
             [{title}]({link})
             ![Bing Daily Image]({bing_image_url})
             _{summary}_
-            *{
+            *{datetime.now().strftime('%Y-%m-%d %H:%M')}*
+            """
+
+            send_telegram_message(message)
+            sent_items.append(link)
+            print(f"Sent: {title}")
+
+    save_sent_items(sent_items)
+
+if __name__ == "__main__":
+    main()
