@@ -48,7 +48,7 @@ RSS_FEEDS = [
     'https://www.databricks.com/feed',
     'https://blog.cloudflare.com/rss',
     'https://jina.ai/feed.rss',
-    'https://decohack.com/feed/,
+    'https://decohack.com/feed/',
 ]
 MAX_MESSAGE_LENGTH = 4096  # Telegram 消息长度限制
 SUMMARY_MAX_LENGTH = 200  # 摘要最大长度
