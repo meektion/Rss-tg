@@ -53,13 +53,21 @@ RSS_FEEDS = [
 MAX_MESSAGE_LENGTH = 4096  # Telegram 消息长度限制
 SUMMARY_MAX_LENGTH = 200  # 摘要最大长度
 MAX_ARTICLES_PER_FEED = 5  # 每个网站最多抓取 5 条文章
-BING_API_URL = "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=10&mkt=zh-CN"  # Bing 每日一图 API，获取 10 张图片
 RETRY_COUNT = 3  # RSS 源抓取重试次数
 
 def clean_html(html):
     """清理 HTML 标签，提取纯文本"""
     soup = BeautifulSoup(html, 'html.parser')
     return soup.get_text().strip()
+
+def extract_image_url(entry):
+    """从文章内容中提取图片 URL"""
+    if 'content' in entry:
+        soup = BeautifulSoup(entry.content[0].value, 'html.parser')
+        img_tag = soup.find('img')
+        if img_tag and 'src' in img_tag.attrs:
+            return img_tag['src']
+    return None
 
 def fetch_new_articles(rss_url):
     """从指定 RSS 源获取当天的新文章"""
@@ -83,11 +91,15 @@ def fetch_new_articles(rss_url):
                     if len(summary) == SUMMARY_MAX_LENGTH:
                         summary += '...'  # 添加省略号
                     
+                    # 提取图片 URL
+                    image_url = extract_image_url(entry)
+                    
                     new_articles.append({
                         'title': title,
                         'link': entry.link,
                         'summary': summary,
-                        'source': feed.feed.title if 'title' in feed.feed else '未知来源'
+                        'source': feed.feed.title if 'title' in feed.feed else '未知来源',
+                        'image_url': image_url
                     })
             
             return new_articles
@@ -96,26 +108,24 @@ def fetch_new_articles(rss_url):
             time.sleep(2)  # 等待 2 秒后重试
     return []  # 重试多次后仍失败，返回空列表
 
-def get_bing_image_urls():
-    """获取 Bing 每日一图的 URL 列表"""
-    try:
-        response = requests.get(BING_API_URL)
-        data = response.json()
-        image_urls = ["https://www.bing.com" + image['url'] for image in data['images']]
-        return image_urls
-    except Exception as e:
-        print(f"Failed to fetch Bing images: {e}")
-        return []
-
 def send_to_telegram(message, image_url=None):
     """发送消息到 Telegram 频道"""
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
-    payload = {
-        'chat_id': TELEGRAM_CHANNEL_ID,
-        'photo': image_url,
-        'caption': message[:MAX_MESSAGE_LENGTH],  # 确保消息长度不超过限制
-        'parse_mode': 'Markdown'  # 使用 Markdown 格式
-    }
+    if image_url:
+        url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
+        payload = {
+            'chat_id': TELEGRAM_CHANNEL_ID,
+            'photo': image_url,
+            'caption': message[:MAX_MESSAGE_LENGTH],  # 确保消息长度不超过限制
+            'parse_mode': 'Markdown'  # 使用 Markdown 格式
+        }
+    else:
+        url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+        payload = {
+            'chat_id': TELEGRAM_CHANNEL_ID,
+            'text': message[:MAX_MESSAGE_LENGTH],  # 确保消息长度不超过限制
+            'parse_mode': 'Markdown'  # 使用 Markdown 格式
+        }
+    
     response = requests.post(url, data=payload)
     
     # 检查是否发送成功
@@ -136,7 +146,10 @@ def split_message(articles):
         )
         
         # 将单篇文章作为一条独立的消息
-        messages.append(article_text)
+        messages.append({
+            'text': article_text,
+            'image_url': article['image_url']
+        })
     
     return messages
 
@@ -149,14 +162,10 @@ def main():
     
     if all_articles:
         messages = split_message(all_articles)
-        bing_image_urls = get_bing_image_urls()  # 获取 Bing 每日一图列表
         
-        for i, message in enumerate(messages):
-            # 为每条消息选择不同的 Bing 图片
-            image_url = bing_image_urls[i % len(bing_image_urls)] if bing_image_urls else None
-            
+        for message in messages:
             # 发送图片和文字消息
-            send_to_telegram(message, image_url)
+            send_to_telegram(message['text'], message['image_url'])
     else:
         print("今日没有新文章。")
 
