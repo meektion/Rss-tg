@@ -99,6 +99,16 @@
     "source": "宝玉的分享",
     "title": "高效电商 AI 智能体解剖指南 | 选自 Anthropic 的 Claude 博客"
   },
+  "https://blog.cloudflare.com/agentic-security-operations": {
+    "pushed_at": "2026-10-15T19:44:02",
+    "source": "Cloudflare Blog",
+    "title": "在Cloudflare上构建基于证据的代理安全操作工具"
+  },
+  "https://blog.cloudflare.com/birthday-week-2026-wrap-up": {
+    "pushed_at": "2026-10-15T19:44:05",
+    "source": "Cloudflare Blog",
+    "title": "Everything we launched during Birthday Week 2026"
+  },
   "https://blog.cloudflare.com/clef-faster-cheaper-multimodal": {
     "pushed_at": "2026-10-15T11:25:32",
     "source": "Cloudflare Blog",
@@ -119,10 +129,20 @@
     "source": "Cloudflare Blog",
     "title": "Deno is joining Cloudflare"
   },
+  "https://blog.cloudflare.com/deploy-with-void": {
+    "pushed_at": "2026-10-15T19:44:00",
+    "source": "Cloudflare Blog",
+    "title": "使用Void部署"
+  },
   "https://blog.cloudflare.com/hyperdrive-mysql": {
     "pushed_at": "2026-10-15T13:07:30",
     "source": "Cloudflare Blog",
     "title": "Hyperdrive内部：我们如何解决一个罕见的Hyperdrive MySQL缓存错误"
+  },
+  "https://blog.cloudflare.com/programmable-gateway-dlp": {
+    "pushed_at": "2026-10-15T19:43:58",
+    "source": "Cloudflare Blog",
+    "title": "一个完全可编程的安全web网关"
   },
   "https://blog.cloudflare.com/radar-redesign": {
     "pushed_at": "2026-10-15T13:07:33",
@@ -133,6 +153,11 @@
     "pushed_at": "2026-10-15T08:14:29",
     "source": "Cloudflare Blog",
     "title": "Rewinding the exponential: How we keep hardware usage down"
+  },
+  "https://blog.cloudflare.com/root-ksk-2024-rollover": {
+    "pushed_at": "2026-10-15T19:44:04",
+    "source": "Cloudflare Blog",
+    "title": "The keys to the Internet change on October 11. Are you ready?"
   },
   "https://blog.cloudflare.com/transformers-on-logpush": {
     "pushed_at": "2026-10-15T08:14:31",
@@ -164,6 +189,11 @@
     "source": "News from Google",
     "title": "We’re powering European scientific discovery with advanced AI compute and frontier models."
   },
+  "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing": {
+    "pushed_at": "2026-10-15T19:44:12",
+    "source": "News from Google",
+    "title": "Bringing the magic: Google breaks open a bottleneck in quantum computing"
+  },
   "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability": {
     "pushed_at": "2026-10-15T13:07:41",
     "source": "News from Google",
@@ -178,6 +208,11 @@
     "pushed_at": "2026-10-15T09:05:07",
     "source": "News from Google",
     "title": "研究@ 2026：新能力和智能"
+  },
+  "https://blog.google/innovation-and-ai/technology/safety-security/circle-to-search-android-text-message-scams": {
+    "pushed_at": "2026-10-15T19:44:15",
+    "source": "News from Google",
+    "title": "Check if a text message is a scam using Circle to Search."
   },
   "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security": {
     "pushed_at": "2026-10-15T11:25:42",
@@ -234,6 +269,11 @@
     "source": "Engineering at Meta",
     "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems"
   },
+  "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses": {
+    "pushed_at": "2026-10-15T19:44:45",
+    "source": "Engineering at Meta",
+    "title": "Bringing Private Processing to Meta AI Glasses"
+  },
   "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta": {
     "pushed_at": "2026-10-15T11:26:04",
     "source": "Engineering at Meta",
@@ -258,6 +298,21 @@
     "pushed_at": "2026-10-15T11:25:56",
     "source": "Engineering at Meta",
     "title": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI"
+  },
+  "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta": {
+    "pushed_at": "2026-10-15T19:44:43",
+    "source": "Engineering at Meta",
+    "title": "Sapienz Receives ISSTA 2026 Impact Paper Award"
+  },
+  "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering": {
+    "pushed_at": "2026-10-15T19:44:39",
+    "source": "Engineering at Meta",
+    "title": "How Meta Built Forum With AI-Native Engineering"
+  },
+  "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale": {
+    "pushed_at": "2026-10-15T19:44:41",
+    "source": "Engineering at Meta",
+    "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale"
   },
   "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out": {
     "pushed_at": "2026-10-15T09:04:53",
@@ -304,6 +359,11 @@
     "source": "The GitHub Blog",
     "title": "GitHub availability report: September 2026"
   },
+  "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence": {
+    "pushed_at": "2026-10-15T19:44:08",
+    "source": "The GitHub Blog",
+    "title": "The next developer interface is ambient intelligence"
+  },
   "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate": {
     "pushed_at": "2026-10-15T09:04:44",
     "source": "The GitHub Blog",
@@ -333,6 +393,16 @@
     "pushed_at": "2026-10-15T13:07:46",
     "source": "Netflix TechBlog - Medium",
     "title": "Netflix指挥：下一章"
+  },
+  "https://netflixtechblog.com/netflix-stratum-media-processing-automated-container-right-sizing-ddf9aa68a801?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-10-15T19:44:35",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Netflix Stratum Media Processing: Automated Container Right-Sizing"
+  },
+  "https://netflixtechblog.com/reliable-gpu-compute-for-large-training-inference-jobs-d62b03a96d7a?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-10-15T19:44:37",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Reliable GPU compute for large training & inference jobs"
   },
   "https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-15T13:07:47",
@@ -484,6 +554,11 @@
     "source": "Databricks",
     "title": "Everyone's adopting AI agents. Almost no one can prove the ROI. Here's why"
   },
+  "https://www.databricks.com/blog/how-factset-cut-model-training-and-deployment-days-hours-databricks-ai-runtime": {
+    "pushed_at": "2026-10-15T19:44:11",
+    "source": "Databricks",
+    "title": "How FactSet cut model training and deployment from days to hours with Databricks AI Runtime"
+  },
   "https://www.databricks.com/blog/introducing-private-network-gateway": {
     "pushed_at": "2026-10-15T08:14:47",
     "source": "Databricks",
@@ -529,6 +604,11 @@
     "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
     "title": "将您自己的密钥带到现有的弹性云部署中"
   },
+  "https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-enterprise-ai-search-2026": {
+    "pushed_at": "2026-10-15T19:44:57",
+    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
+    "title": "Elastic被评为2026年Gartner企业人工智能搜索魔力象限（Magic Quadrant）的领导者"
+  },
   "https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-observability-platforms-2026": {
     "pushed_at": "2026-10-15T13:08:27",
     "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
@@ -538,6 +618,26 @@
     "pushed_at": "2026-10-15T13:08:32",
     "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
     "title": "Better together: Celebrating the 2026–2027 Elastic Partner Awards"
+  },
+  "https://www.elastic.co/blog/elastic-security-openai-gpt-cyber-models-public-sector": {
+    "pushed_at": "2026-10-15T19:45:07",
+    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
+    "title": "Elastic Security and OpenAI GPT Cyber models: What frontier cyber defense means for the public sector"
+  },
+  "https://www.elastic.co/blog/elastic-stack-8-19-23-released": {
+    "pushed_at": "2026-10-15T19:44:59",
+    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
+    "title": "Elastic Stack 8.19.23 released"
+  },
+  "https://www.elastic.co/blog/elastic-stack-9-4-8-released": {
+    "pushed_at": "2026-10-15T19:45:02",
+    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
+    "title": "Elastic Stack 9.4.8 released"
+  },
+  "https://www.elastic.co/blog/elastic-stack-9-5-5-released": {
+    "pushed_at": "2026-10-15T19:45:04",
+    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
+    "title": "Elastic Stack 9.5.5 released"
   },
   "https://www.elastic.co/blog/how-state-and-local-agencies-get-ahead-of-fraud": {
     "pushed_at": "2026-10-15T13:08:25",
@@ -673,6 +773,16 @@
     "pushed_at": "2026-10-15T13:07:20",
     "source": "爱范儿",
     "title": "技术没有捷径：十年 1.3 万亿研发投入，华为选择走自己的路"
+  },
+  "https://www.ifanr.com/1684510": {
+    "pushed_at": "2026-10-15T19:43:54",
+    "source": "爱范儿",
+    "title": "大电池+低能耗！宝马新世代 i3 跑了 1213 公里，百公里能耗只有 8.8 度？"
+  },
+  "https://www.ifanr.com/1684538": {
+    "pushed_at": "2026-10-15T19:43:56",
+    "source": "爱范儿",
+    "title": "给现实世界按下复制键，禾赛做了一台「AI 空间相机」"
   },
   "https://www.ithome.com/1/013/360.htm": {
     "pushed_at": "2026-10-15T06:33:31",
@@ -823,6 +933,31 @@
     "pushed_at": "2026-10-15T13:07:10",
     "source": "IT之家",
     "title": "首发 4049.1 元起，极米 RS30 系列投影仪开售"
+  },
+  "https://www.ithome.com/1/013/682.htm": {
+    "pushed_at": "2026-10-15T19:43:42",
+    "source": "IT之家",
+    "title": "特努斯谈早期折叠屏手机：感觉“有点廉价、质量也不怎么样”，苹果早在 2011 年就开始探索相关技术"
+  },
+  "https://www.ithome.com/1/013/683.htm": {
+    "pushed_at": "2026-10-15T19:43:41",
+    "source": "IT之家",
+    "title": "苹果营销主管谈 OpenAI 硬件：我们没感到有威胁，相比追逐 AGI 更重视用户隐私与日常使用体验"
+  },
+  "https://www.ithome.com/1/013/685.htm": {
+    "pushed_at": "2026-10-15T19:43:39",
+    "source": "IT之家",
+    "title": "动视看好《GTA 6》提振市场，让更多玩家回归游戏、带动《使命召唤：现代战争 4》销量表现"
+  },
+  "https://www.ithome.com/1/013/686.htm": {
+    "pushed_at": "2026-10-15T19:43:37",
+    "source": "IT之家",
+    "title": "华为余承东就“三部门联合调查刹车踏板支架断裂问题”表态：正义可能会迟到，但永远不会缺席！"
+  },
+  "https://www.ithome.com/1/013/687.htm": {
+    "pushed_at": "2026-10-15T19:43:35",
+    "source": "IT之家",
+    "title": "消息称苹果已发出 10 月 28 日邀请函，首款触屏 MacBook、iPad mini 8、M6 Mac 即将到来"
   },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
@@ -1004,6 +1139,31 @@
     "source": "奇客Solidot–传递最新科技情报",
     "title": "Google 悄悄关联手机号码和所有用户登录账号"
   },
+  "https://www.solidot.org/story?sid=85622": {
+    "pushed_at": "2026-10-15T19:43:52",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "美国科技巨头警告欧洲推行数据主权将带来逾千亿欧元的成本"
+  },
+  "https://www.solidot.org/story?sid=85623": {
+    "pushed_at": "2026-10-15T19:43:50",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "Ubuntu 26.10"
+  },
+  "https://www.solidot.org/story?sid=85624": {
+    "pushed_at": "2026-10-15T19:43:47",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "以色列公司通过数字广告安装零点击间谍软件"
+  },
+  "https://www.solidot.org/story?sid=85625": {
+    "pushed_at": "2026-10-15T19:43:45",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "美国银行雇佣千名合同工修复 AI 工具发现的软件漏洞"
+  },
+  "https://www.ycombinator.com/blog/2026-demo-days": {
+    "pushed_at": "2026-10-15T19:44:51",
+    "source": "Y Combinator Blog",
+    "title": "2026 Demo Day Dates"
+  },
   "https://www.ycombinator.com/blog/adding-canada-back": {
     "pushed_at": "2026-10-15T13:08:20",
     "source": "Y Combinator Blog",
@@ -1014,10 +1174,30 @@
     "source": "Y Combinator Blog",
     "title": "Christopher Golda and Grey Baker Join YC as General Partners"
   },
+  "https://www.ycombinator.com/blog/congratulations-to-equipmentshare": {
+    "pushed_at": "2026-10-15T19:44:47",
+    "source": "Y Combinator Blog",
+    "title": "Congratulations to EquipmentShare on Going Public"
+  },
   "https://www.ycombinator.com/blog/diana-hu-managing-partner": {
     "pushed_at": "2026-10-15T13:08:16",
     "source": "Y Combinator Blog",
     "title": "Diana Hu Is YC's Newest Managing Partner"
+  },
+  "https://www.ycombinator.com/blog/groww": {
+    "pushed_at": "2026-10-15T19:44:54",
+    "source": "Y Combinator Blog",
+    "title": "祝贺成长"
+  },
+  "https://www.ycombinator.com/blog/meesho-goes-public": {
+    "pushed_at": "2026-10-15T19:44:52",
+    "source": "Y Combinator Blog",
+    "title": "美朔上市"
+  },
+  "https://www.ycombinator.com/blog/the-yc-ai-student-starter-pack": {
+    "pushed_at": "2026-10-15T19:44:49",
+    "source": "Y Combinator Blog",
+    "title": "Announcing the YC AI Stack"
   },
   "https://www.ycombinator.com/blog/welcome-harshita": {
     "pushed_at": "2026-10-15T13:08:18",
