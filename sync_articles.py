@@ -75,16 +75,14 @@ HEADERS = {
     )
 }
 
-# 占位图渐变配色（深色系，与 Telegram 深色主题协调）
-GRADIENTS = [
-    ((43, 88, 118), (78, 67, 118)),
-    ((30, 60, 114), (42, 115, 148)),
-    ((118, 52, 84), (58, 42, 94)),
-    ((26, 90, 82), (37, 60, 110)),
-    ((122, 74, 42), (92, 40, 62)),
-    ((44, 62, 110), (96, 66, 122)),
-    ((70, 40, 100), (28, 78, 106)),
-    ((36, 84, 60), (72, 92, 40)),
+# 占位图纯色配色（低饱和深色，克制不抢眼，与 Telegram 界面协调）
+PLACEHOLDER_COLORS = [
+    (38, 48, 62),     # 深灰蓝
+    (46, 52, 58),     # 石墨灰
+    (52, 46, 54),     # 紫灰
+    (42, 54, 52),     # 墨绿灰
+    (58, 50, 44),     # 暖褐灰
+    (44, 46, 60),     # 靛灰
 ]
 
 CJK_FONT_CANDIDATES = [
@@ -333,30 +331,24 @@ def wrap_text(text, font, max_width, draw, max_lines):
 
 
 def make_placeholder(title, source, out_path):
-    """生成标题哈希渐变占位图，返回文件路径"""
+    """生成标题哈希纯色占位图，返回文件路径"""
     from PIL import Image, ImageDraw
 
     W, H = 1280, 640
     digest = hashlib.md5((source + "|" + title).encode("utf-8")).hexdigest()
-    idx = int(digest[:8], 16) % len(GRADIENTS)
-    top, bottom = GRADIENTS[idx]
+    idx = int(digest[:8], 16) % len(PLACEHOLDER_COLORS)
+    base = PLACEHOLDER_COLORS[idx]
 
-    img = Image.new("RGB", (W, H), top)
+    img = Image.new("RGB", (W, H), base)
     draw = ImageDraw.Draw(img)
 
-    # 垂直渐变
-    for y in range(H):
-        ratio = y / (H - 1)
-        color = tuple(int(top[i] + (bottom[i] - top[i]) * ratio) for i in range(3))
-        draw.line([(0, y), (W, y)], fill=color)
-
-    # 左侧色条
-    accent = tuple(min(255, c + 70) for c in bottom)
-    draw.rectangle([0, 0, 14, H], fill=accent)
+    # 左侧细色条（略亮于底色，做轻微点缀）
+    accent = tuple(min(255, c + 42) for c in base)
+    draw.rectangle([0, 0, 8, H], fill=accent)
 
     # 站点名
     font_src = get_font(38)
-    draw.text((64, 56), source[:24], font=font_src, fill=(255, 255, 255, 235))
+    draw.text((64, 56), source[:24], font=font_src, fill=(255, 255, 255, 200))
 
     # 标题
     font_title = get_font(58)
@@ -368,7 +360,7 @@ def make_placeholder(title, source, out_path):
 
     # 底部装饰
     font_foot = get_font(28)
-    draw.text((64, H - 72), "RSS · Telegram", font=font_foot, fill=(255, 255, 255, 150))
+    draw.text((64, H - 72), "RSS · Telegram", font=font_foot, fill=(255, 255, 255, 110))
 
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     img.save(out_path, "JPEG", quality=88)
@@ -479,10 +471,10 @@ def collect_articles(feeds, cache):
 # --------------------------------------------------------------------------
 
 def build_caption(article):
-    """构建 HTML 格式 caption"""
+    """构建 HTML 格式 caption：标题 / 来源·时间 / 摘要 / 最底部原文链接"""
     title = esc(article["title"])
-    link = article["link"]
-    parts = [f'<b><a href="{html.escape(link, quote=True)}">{title}</a></b>']
+    link = html.escape(article["link"], quote=True)
+    parts = [f"<b>{title}</b>"]
 
     meta = esc(article["source"])
     if article["time_str"]:
@@ -491,6 +483,9 @@ def build_caption(article):
 
     if article["summary"]:
         parts.append(esc(article["summary"]))
+
+    # 文章链接固定放在最底部
+    parts.append(f'🔗 <a href="{link}">阅读原文</a>')
 
     caption = "\n\n".join(parts)
     if len(caption) > CAPTION_LIMIT:
