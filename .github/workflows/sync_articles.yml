@@ -2,28 +2,57 @@ name: Sync Articles to Telegram
 
 on:
   schedule:
-    - cron: '0 8,16 * * *'  # 每天早上8点和下午4点运行
+    - cron: '0 8,16 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-articles
+  cancel-in-progress: false
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.8'
+          python-version: '3.11'
+
+      - name: Install CJK fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests feedparser beautifulsoup4
+          pip install -r requirements.txt
 
       - name: Run sync script
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
         run: python sync_articles.py
+
+      - name: Commit sent-articles cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -f sent_articles.json ]; then
+            git add sent_articles.json
+            if git diff --cached --quiet; then
+              echo "缓存无变化，跳过提交"
+            else
+              git commit -m "chore: update sent articles cache [skip ci]"
+              git pull --rebase --autostash origin ${GITHUB_REF_NAME}
+              git push origin ${GITHUB_REF_NAME}
+            fi
+          else
+            echo "sent_articles.json 不存在，跳过"
+          fi
