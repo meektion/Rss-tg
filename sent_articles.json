@@ -49,6 +49,41 @@
     "source": "宝玉的分享",
     "title": "高效电商 AI 智能体解剖指南 | 选自 Anthropic 的 Claude 博客"
   },
+  "https://blog.cloudflare.com/rewinding-the-exponential": {
+    "pushed_at": "2026-10-15T08:14:29",
+    "source": "Cloudflare Blog",
+    "title": "Rewinding the exponential: How we keep hardware usage down"
+  },
+  "https://blog.cloudflare.com/transformers-on-logpush": {
+    "pushed_at": "2026-10-15T08:14:31",
+    "source": "Cloudflare Blog",
+    "title": "Filter, reshape, and redact logs before export with Transformers"
+  },
+  "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase": {
+    "pushed_at": "2026-10-15T08:14:38",
+    "source": "The GitHub Blog",
+    "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase"
+  },
+  "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise": {
+    "pushed_at": "2026-10-15T08:14:36",
+    "source": "The GitHub Blog",
+    "title": "GitHub’s model for secret detection: Finding more secrets with less noise"
+  },
+  "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build": {
+    "pushed_at": "2026-10-15T08:14:40",
+    "source": "The GitHub Blog",
+    "title": "Hack the World: Why hackathons are still the best place to learn to build"
+  },
+  "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers": {
+    "pushed_at": "2026-10-15T08:14:34",
+    "source": "The GitHub Blog",
+    "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers"
+  },
+  "https://github.blog/news-insights/company-news/github-availability-report-september-2026": {
+    "pushed_at": "2026-10-15T08:14:32",
+    "source": "The GitHub Blog",
+    "title": "GitHub availability report: September 2026"
+  },
   "https://sspai.com/post/114861": {
     "pushed_at": "2026-10-15T06:33:18",
     "source": "少数派",
@@ -88,6 +123,11 @@
     "pushed_at": "2026-10-15T07:07:10",
     "source": "少数派",
     "title": "派早报：Apple 发布 HomePod mini 2、HomeView 等新品"
+  },
+  "https://sspai.com/post/116182": {
+    "pushed_at": "2026-10-15T08:13:28",
+    "source": "少数派",
+    "title": "学得会的快捷指令，零基础入门苹果效率魔法"
   },
   "https://sspai.com/post/116193": {
     "pushed_at": "2026-10-15T06:33:15",
@@ -149,10 +189,50 @@
     "source": "小众软件",
     "title": "群晖发布重要更新： 7.4.1-90080 Update 1，修复未知漏洞｜important Update"
   },
+  "https://www.databricks.com/blog/introducing-private-network-gateway": {
+    "pushed_at": "2026-10-15T08:14:47",
+    "source": "Databricks",
+    "title": "Introducing Private Network Gateway"
+  },
+  "https://www.databricks.com/blog/power-real-time-applications-and-agents-document-intelligence": {
+    "pushed_at": "2026-10-15T08:14:46",
+    "source": "Databricks",
+    "title": "Power real-time applications and agents with Document Intelligence"
+  },
+  "https://www.databricks.com/blog/reducing-qwen-training-time-6x-ai-runtime": {
+    "pushed_at": "2026-10-15T08:14:49",
+    "source": "Databricks",
+    "title": "Reducing Qwen training time by 6x on AI Runtime"
+  },
+  "https://www.databricks.com/blog/sizing-lakebase-search-lessons-real-app-and-4-million-passages": {
+    "pushed_at": "2026-10-15T08:14:42",
+    "source": "Databricks",
+    "title": "Sizing Lakebase Search: lessons from a real app and 4 million passages"
+  },
+  "https://www.databricks.com/blog/unlock-powerful-insights-and-forecasts-predictive-ai-functions": {
+    "pushed_at": "2026-10-15T08:14:44",
+    "source": "Databricks",
+    "title": "Unlock powerful insights and forecasts with Predictive AI Functions"
+  },
   "https://www.ifanr.com/1683906": {
     "pushed_at": "2026-10-15T06:34:15",
     "source": "爱范儿",
     "title": "Nothing Headphone (1) Pro 体验：全面晋级，当旗舰头戴也开始玩多单元"
+  },
+  "https://www.ifanr.com/1684097": {
+    "pushed_at": "2026-10-15T08:14:00",
+    "source": "爱范儿",
+    "title": "一加 16 体验：收敛锐气，依然是「不出错」的旗舰"
+  },
+  "https://www.ifanr.com/1684137": {
+    "pushed_at": "2026-10-15T08:13:58",
+    "source": "爱范儿",
+    "title": "早报｜苹果发布十多款「果家」新品/Gemini 4来了，写代码更省心/3999元，阶跃智能体手机发布"
+  },
+  "https://www.ifanr.com/1684200": {
+    "pushed_at": "2026-10-15T08:13:57",
+    "source": "爱范儿",
+    "title": "企业微信和 WorkBuddy 组了个「王炸局」，AI 终于不用人伺候了"
   },
   "https://www.ifanr.com/1684204": {
     "pushed_at": "2026-10-15T07:08:11",
@@ -183,6 +263,11 @@
     "pushed_at": "2026-10-15T07:08:05",
     "source": "爱范儿",
     "title": "早报｜iPhone Duo完成大模型备案，有望12月上线/企业微信与WorkBuddy打通/OPPO与Manus官宣合作"
+  },
+  "https://www.ifanr.com/1684409": {
+    "pushed_at": "2026-10-15T08:13:55",
+    "source": "爱范儿",
+    "title": "一台车出厂前，要过多少道关？我们在一汽-大众工厂找到了答案"
   },
   "https://www.ithome.com/1/013/360.htm": {
     "pushed_at": "2026-10-15T06:33:31",
@@ -234,6 +319,51 @@
     "source": "IT之家",
     "title": "WhatsApp 现已支持无账户用户加入音视频通话"
   },
+  "https://www.ithome.com/1/013/456.htm": {
+    "pushed_at": "2026-10-15T08:13:37",
+    "source": "IT之家",
+    "title": "铭匠光学推出 AF 24mm F3.8 全画幅饼干镜头，适配索尼 E 卡口"
+  },
+  "https://www.ithome.com/1/013/457.htm": {
+    "pushed_at": "2026-10-15T08:13:35",
+    "source": "IT之家",
+    "title": "曝华为 MateBook 鸿蒙电脑“111”版本还有新功能，含深色模式随日出日落、无网定位开关等"
+  },
+  "https://www.ithome.com/1/013/460.htm": {
+    "pushed_at": "2026-10-15T08:13:33",
+    "source": "IT之家",
+    "title": "比亚迪辅助驾驶车型保有量超 395 万辆，天神之眼每天生成数据超 2.4 亿公里"
+  },
+  "https://www.ithome.com/1/013/461.htm": {
+    "pushed_at": "2026-10-15T08:13:31",
+    "source": "IT之家",
+    "title": "红魔 12 Pro+ 手机发布：安卓阵营唯一真全面屏 + 风冷、水冷双散热系统，国补到手价 6499 元起"
+  },
+  "https://www.ithome.com/1/013/462.htm": {
+    "pushed_at": "2026-10-15T08:13:29",
+    "source": "IT之家",
+    "title": "11.11 之家好物严选：20:00 全网狂促大加码，iPhone Duo 15999 元倒计时开抢"
+  },
+  "https://www.qbitai.com/2026/10/503165.html": {
+    "pushed_at": "2026-10-15T08:13:53",
+    "source": "量子位",
+    "title": "响应速度比Claude Code快3倍，实现真正无限上下文！APUS AI开源Reflex Agent"
+  },
+  "https://www.qbitai.com/2026/10/503172.html": {
+    "pushed_at": "2026-10-15T08:13:49",
+    "source": "量子位",
+    "title": "国内最年轻AI教授创业：要让世界模型走向全身全模态"
+  },
+  "https://www.qbitai.com/2026/10/503173.html": {
+    "pushed_at": "2026-10-15T08:13:51",
+    "source": "量子位",
+    "title": "调度效率提升80%！商汤大装置助力上海量子城市首批智能体落地"
+  },
+  "https://www.qbitai.com/2026/10/503198.html": {
+    "pushed_at": "2026-10-15T08:13:48",
+    "source": "量子位",
+    "title": "MemSilicon完成国际首款高密度、大容量1T4R 1Gb RRAM芯片流片"
+  },
   "https://www.qbitai.com/2026/10/503201.html": {
     "pushed_at": "2026-10-15T07:07:51",
     "source": "量子位",
@@ -284,6 +414,21 @@
     "source": "量子位",
     "title": "全球首款 ！中国团队把游戏世界模型塞进一张5090，还开源了"
   },
+  "https://www.solidot.org/story?sid=85604": {
+    "pushed_at": "2026-10-15T08:13:46",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "Ledger 证实其硬件钱包被植入间谍芯片"
+  },
+  "https://www.solidot.org/story?sid=85605": {
+    "pushed_at": "2026-10-15T08:13:44",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "OpenAI 工程师因在高管会议室放置监听设备被捕"
+  },
+  "https://www.solidot.org/story?sid=85606": {
+    "pushed_at": "2026-10-15T08:13:42",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "存在比地球更宜居的星球"
+  },
   "https://www.solidot.org/story?sid=85608": {
     "pushed_at": "2026-10-15T07:07:38",
     "source": "奇客Solidot–传递最新科技情报",
@@ -333,6 +478,16 @@
     "pushed_at": "2026-10-15T07:07:28",
     "source": "奇客Solidot–传递最新科技情报",
     "title": "Microsoft Defender 支持 Linux 桌面"
+  },
+  "https://www.solidot.org/story?sid=85618": {
+    "pushed_at": "2026-10-15T08:13:41",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "白化珊瑚可通过接触健康珊瑚在数周内恢复健康"
+  },
+  "https://www.solidot.org/story?sid=85619": {
+    "pushed_at": "2026-10-15T08:13:39",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "科学家探测到最遥远快速射电暴"
   },
   "https://yihui.org/cn/2025/12/white-moonlight": {
     "pushed_at": "2026-10-15T07:08:31",
