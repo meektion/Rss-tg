@@ -74,6 +74,11 @@
     "source": "宝玉的分享",
     "title": "我用 GPT 6 Astra 做了一个 3D 版的《桃花源记》（文中含提示词）"
   },
+  "https://baoyu.io/translations/2026-05-10/akshay-pachaar-2041146899319971922": {
+    "pushed_at": "2026-10-15T13:07:24",
+    "source": "宝玉的分享",
+    "title": "深度拆解：AI Agent Harness 的构造"
+  },
   "https://baoyu.io/translations/2026-05-12/why-senior-developers-fail-to-communicate-their-expertise": {
     "pushed_at": "2026-10-15T11:25:09",
     "source": "宝玉的分享",
@@ -99,10 +104,30 @@
     "source": "Cloudflare Blog",
     "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash"
   },
+  "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web": {
+    "pushed_at": "2026-10-15T13:07:26",
+    "source": "Cloudflare Blog",
+    "title": "Cloudflare和OpenAI：让每个人都能更好地发现AI"
+  },
+  "https://blog.cloudflare.com/d1-control-plane": {
+    "pushed_at": "2026-10-15T13:07:31",
+    "source": "Cloudflare Blog",
+    "title": "Under the hood, off the hot path: How D1 scales to millions of databases"
+  },
   "https://blog.cloudflare.com/deno-joins-cloudflare": {
     "pushed_at": "2026-10-15T11:25:34",
     "source": "Cloudflare Blog",
     "title": "Deno is joining Cloudflare"
+  },
+  "https://blog.cloudflare.com/hyperdrive-mysql": {
+    "pushed_at": "2026-10-15T13:07:30",
+    "source": "Cloudflare Blog",
+    "title": "Hyperdrive内部：我们如何解决一个罕见的Hyperdrive MySQL缓存错误"
+  },
+  "https://blog.cloudflare.com/radar-redesign": {
+    "pushed_at": "2026-10-15T13:07:33",
+    "source": "Cloudflare Blog",
+    "title": "Bridging technical depth and usability: The story behind Radar’s redesign"
   },
   "https://blog.cloudflare.com/rewinding-the-exponential": {
     "pushed_at": "2026-10-15T08:14:29",
@@ -119,6 +144,11 @@
     "source": "Cloudflare Blog",
     "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects"
   },
+  "https://blog.cloudflare.com/yandex-outage": {
+    "pushed_at": "2026-10-15T13:07:28",
+    "source": "Cloudflare Blog",
+    "title": "Yandex宕机：数据显示，恶意机器人并没有关闭，而是继续移动"
+  },
   "https://blog.google/company-news/inside-google/around-the-globe/google-europe/european-economic-impact-report": {
     "pushed_at": "2026-10-15T11:25:40",
     "source": "News from Google",
@@ -134,6 +164,16 @@
     "source": "News from Google",
     "title": "We’re powering European scientific discovery with advanced AI compute and frontier models."
   },
+  "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability": {
+    "pushed_at": "2026-10-15T13:07:41",
+    "source": "News from Google",
+    "title": "氩来到双子座的应用程序。"
+  },
+  "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon": {
+    "pushed_at": "2026-10-15T13:07:42",
+    "source": "News from Google",
+    "title": "双子座4氩现在可供开发人员使用。"
+  },
   "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026": {
     "pushed_at": "2026-10-15T09:05:07",
     "source": "News from Google",
@@ -143,6 +183,11 @@
     "pushed_at": "2026-10-15T11:25:42",
     "source": "News from Google",
     "title": "Developing Gemini 4 Argon responsibly and safely"
+  },
+  "https://blog.google/products-and-platforms/platforms/android/cars-with-google-built-in-google-play-updates": {
+    "pushed_at": "2026-10-15T13:07:39",
+    "source": "News from Google",
+    "title": "A new app experience is coming to cars with Google built-in"
   },
   "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026": {
     "pushed_at": "2026-10-15T11:25:44",
@@ -159,10 +204,35 @@
     "source": "News from Google",
     "title": "6 ways to trick-or-treat yourself to the ultimate Halloween with Search"
   },
+  "https://blog.google/products-and-platforms/products/shopping/holiday-shopping-when-to-buy-guide": {
+    "pushed_at": "2026-10-15T13:07:37",
+    "source": "News from Google",
+    "title": "Data-backed secrets to smarter holiday shopping"
+  },
+  "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch": {
+    "pushed_at": "2026-10-15T13:07:35",
+    "source": "News from Google",
+    "title": "An intelligent new shopping cart"
+  },
   "https://blog.google/products/ads-commerce/channel-prioritization-budget-allocation": {
     "pushed_at": "2026-10-15T09:05:08",
     "source": "News from Google",
     "title": "用新的优先级和分配功能来指导你的广告支出"
+  },
+  "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta": {
+    "pushed_at": "2026-10-15T13:08:10",
+    "source": "Engineering at Meta",
+    "title": "ZGateway: Learnings from Putting a Proxy in Front of ZippyDB"
+  },
+  "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable": {
+    "pushed_at": "2026-10-15T13:08:08",
+    "source": "Engineering at Meta",
+    "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable"
+  },
+  "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems": {
+    "pushed_at": "2026-10-15T13:08:07",
+    "source": "Engineering at Meta",
+    "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems"
   },
   "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta": {
     "pushed_at": "2026-10-15T11:26:04",
@@ -258,6 +328,16 @@
     "pushed_at": "2026-10-15T11:25:49",
     "source": "Netflix TechBlog - Medium",
     "title": "Measuring the Impact of Personalized Recommendations"
+  },
+  "https://netflixtechblog.com/netflix-conductor-the-next-chapter-41ad21067649?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-10-15T13:07:46",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Netflix指挥：下一章"
+  },
+  "https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-10-15T13:07:47",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Running Apache Spark experiments in my sleep (and on a plane)"
   },
   "https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-15T11:25:51",
@@ -444,6 +524,46 @@
     "source": "Databricks",
     "title": "What's New in Lakeflow Designer - October 2026 Roundup"
   },
+  "https://www.elastic.co/blog/byok-existing-deployments-elastic-cloud-hosted": {
+    "pushed_at": "2026-10-15T13:08:23",
+    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
+    "title": "将您自己的密钥带到现有的弹性云部署中"
+  },
+  "https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-observability-platforms-2026": {
+    "pushed_at": "2026-10-15T13:08:27",
+    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
+    "title": "Elastic named a Leader in the 2026 Gartner® Magic Quadrant™ for Observability Platforms"
+  },
+  "https://www.elastic.co/blog/elastic-partner-awards-2026": {
+    "pushed_at": "2026-10-15T13:08:32",
+    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
+    "title": "Better together: Celebrating the 2026–2027 Elastic Partner Awards"
+  },
+  "https://www.elastic.co/blog/how-state-and-local-agencies-get-ahead-of-fraud": {
+    "pushed_at": "2026-10-15T13:08:25",
+    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
+    "title": "州和地方机构如何利用已有的数据提前防范欺诈"
+  },
+  "https://www.elastic.co/blog/search-for-enterprise-serverless": {
+    "pushed_at": "2026-10-15T13:08:30",
+    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
+    "title": "App Search and Workplace Search standalone products are now deprecated"
+  },
+  "https://www.freecodecamp.org/news/disaster-simulation-real-map-mapbox-three-js": {
+    "pushed_at": "2026-10-15T13:08:38",
+    "source": "freeCodeCamp Programming Tutorials: Python, JavaScript, Git & More",
+    "title": "How to Build Disaster Simulations on a Real Map: Animated Canvas Layers and Collapsing 3D Buildings with Mapbox GL JS and Three.js"
+  },
+  "https://www.freecodecamp.org/news/how-to-give-ai-agent-safe-access-internal-api-mcp": {
+    "pushed_at": "2026-10-15T13:08:34",
+    "source": "freeCodeCamp Programming Tutorials: Python, JavaScript, Git & More",
+    "title": "How to Give an AI Agent Safe Access to an Internal API with MCP"
+  },
+  "https://www.freecodecamp.org/news/secure-by-design-engineer-security-into-architecture-before-writing-code": {
+    "pushed_at": "2026-10-15T13:08:36",
+    "source": "freeCodeCamp Programming Tutorials: Python, JavaScript, Git & More",
+    "title": "Secure by Design: How to Engineer Security into Architecture Before Writing Any Code"
+  },
   "https://www.ifanr.com/1683851": {
     "pushed_at": "2026-10-15T11:24:58",
     "source": "爱范儿",
@@ -543,6 +663,16 @@
     "pushed_at": "2026-10-15T11:24:52",
     "source": "爱范儿",
     "title": "独家｜库克确认苹果国行 AI，10 月底上线测试版！"
+  },
+  "https://www.ifanr.com/1684442": {
+    "pushed_at": "2026-10-15T13:07:22",
+    "source": "爱范儿",
+    "title": "Surface Laptop Ultra 首发体验：是最强 Windows 笔记本，也是 AI 时代的全能本"
+  },
+  "https://www.ifanr.com/1684477": {
+    "pushed_at": "2026-10-15T13:07:20",
+    "source": "爱范儿",
+    "title": "技术没有捷径：十年 1.3 万亿研发投入，华为选择走自己的路"
   },
   "https://www.ithome.com/1/013/360.htm": {
     "pushed_at": "2026-10-15T06:33:31",
@@ -668,6 +798,31 @@
     "pushed_at": "2026-10-15T11:24:38",
     "source": "IT之家",
     "title": "《雾锁王国》1.0 正式版发售：Steam 国区 138 元，完整地图解锁"
+  },
+  "https://www.ithome.com/1/013/636.htm": {
+    "pushed_at": "2026-10-15T13:07:18",
+    "source": "IT之家",
+    "title": "OPPO Enco Air4s 无线耳机发布：32dB 主动降噪 + 43 小时续航，首发 179 元"
+  },
+  "https://www.ithome.com/1/013/637.htm": {
+    "pushed_at": "2026-10-15T13:07:16",
+    "source": "IT之家",
+    "title": "6499→3799【中文翻译】【中文翻译"
+  },
+  "https://www.ithome.com/1/013/638.htm": {
+    "pushed_at": "2026-10-15T13:07:14",
+    "source": "IT之家",
+    "title": "消息称 OPPO 阔直板工程机搭载约 6.35 英寸 16:9 直屏，配备 3D 超声波指纹"
+  },
+  "https://www.ithome.com/1/013/643.htm": {
+    "pushed_at": "2026-10-15T13:07:12",
+    "source": "IT之家",
+    "title": "荣耀 WIN 2 手机核心配置大曝光：200Mp 大底双摄无长焦、3D 超声波指纹等"
+  },
+  "https://www.ithome.com/1/013/644.htm": {
+    "pushed_at": "2026-10-15T13:07:10",
+    "source": "IT之家",
+    "title": "首发 4049.1 元起，极米 RS30 系列投影仪开售"
   },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
@@ -848,6 +1003,31 @@
     "pushed_at": "2026-10-15T11:24:48",
     "source": "奇客Solidot–传递最新科技情报",
     "title": "Google 悄悄关联手机号码和所有用户登录账号"
+  },
+  "https://www.ycombinator.com/blog/adding-canada-back": {
+    "pushed_at": "2026-10-15T13:08:20",
+    "source": "Y Combinator Blog",
+    "title": "将加拿大添加回我们接受的注册国家列表"
+  },
+  "https://www.ycombinator.com/blog/chris-golda-and-grey-baker-general-partners": {
+    "pushed_at": "2026-10-15T13:08:14",
+    "source": "Y Combinator Blog",
+    "title": "Christopher Golda and Grey Baker Join YC as General Partners"
+  },
+  "https://www.ycombinator.com/blog/diana-hu-managing-partner": {
+    "pushed_at": "2026-10-15T13:08:16",
+    "source": "Y Combinator Blog",
+    "title": "Diana Hu Is YC's Newest Managing Partner"
+  },
+  "https://www.ycombinator.com/blog/welcome-harshita": {
+    "pushed_at": "2026-10-15T13:08:18",
+    "source": "Y Combinator Blog",
+    "title": "Harshita Arora Joins YC as General Partner"
+  },
+  "https://www.ycombinator.com/blog/welcome-vivian-and-raphael": {
+    "pushed_at": "2026-10-15T13:08:12",
+    "source": "Y Combinator Blog",
+    "title": "Vivian Midha Shen and Raphael Schaad Join YC as General Partners"
   },
   "https://yihui.org/cn/2025/12/white-moonlight": {
     "pushed_at": "2026-10-15T07:08:31",
