@@ -64,8 +64,11 @@ SUMMARY_MAX_LENGTH = 160       # 摘要截断长度
 RETRY_COUNT = 3                # 抓取重试次数
 RETRY_DELAY = 2                # 重试间隔（秒）
 CAPTION_LIMIT = 1024           # Telegram 图片 caption 上限
+MAX_MESSAGE_LENGTH = 4096      # Telegram 文本消息上限
 KEEP_DAYS = 30                 # 缓存保留天数
 REQUEST_TIMEOUT = 20           # 单次请求超时
+TRANSLATE_ENABLED = True       # 英文标题/摘要自动翻译为中文
+TRANSLATE_TIMEOUT = 10         # 单次翻译请求超时（秒）
 
 HEADERS = {
     "User-Agent": (
@@ -80,6 +83,60 @@ HEADERS = {
 
 def log(msg):
     print(msg, flush=True)
+
+
+# --------------------------------------------------------------------------
+# 翻译（英文 → 中文）
+# --------------------------------------------------------------------------
+
+_CJK_RE = re.compile(r"[\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]")
+_TRANSLATE_CACHE = {}
+
+
+def is_mostly_chinese(text):
+    """判断文本是否以中文为主（是则无需翻译）"""
+    if not text:
+        return True
+    cjk = len(_CJK_RE.findall(text))
+    letters = len(re.findall(r"[A-Za-z]", text))
+    # 中文占比超过 20%，或汉字数不少于英文字母数，都视为中文内容
+    if len(text) == 0:
+        return True
+    if cjk / len(text) > 0.2 or cjk >= letters:
+        return True
+    return False
+
+
+def translate_to_zh(text):
+    """把英文文本翻译成中文；失败或无需翻译时原样返回"""
+    if not TRANSLATE_ENABLED or not text or is_mostly_chinese(text):
+        return text
+
+    key = text[:500]
+    if key in _TRANSLATE_CACHE:
+        return _TRANSLATE_CACHE[key]
+
+    try:
+        resp = requests.get(
+            "https://aidemo.youdao.com/trans",
+            params={"q": key, "from": "en", "to": "zh-CHS"},
+            headers=HEADERS,
+            timeout=TRANSLATE_TIMEOUT,
+        )
+        if resp.status_code == 200:
+            data = resp.json()
+            if data.get("errorCode") == "0":
+                translated = data.get("translation") or []
+                if translated:
+                    result = "".join(translated).strip()
+                    if result:
+                        _TRANSLATE_CACHE[key] = result
+                        return result
+    except Exception as e:
+        log(f"  [translate skipped] {type(e).__name__}: {e}")
+
+    _TRANSLATE_CACHE[key] = text
+    return text
 
 
 def load_feeds():
@@ -324,7 +381,7 @@ def fetch_feed(url):
 
 def collect_articles(feeds, cache):
     """遍历所有源，返回本轮待推送的文章列表"""
-    articles, stats = [], {"ok": 0, "fail": 0, "dup": 0, "with_img": 0}
+    articles, stats = [], {"ok": 0, "fail": 0, "dup": 0, "with_img": 0, "translated": 0}
 
     today = dt.date.today()
 
@@ -365,8 +422,15 @@ def collect_articles(feeds, cache):
                 continue
 
             _, stamp_str = parse_entry_time(entry)
-            title = clean_html(entry.get("title")) or "无标题"
-            summary = clean_html(entry.get("summary") or entry.get("description"))
+            raw_title = clean_html(entry.get("title")) or "无标题"
+            raw_summary = clean_html(entry.get("summary") or entry.get("description"))
+
+            # 英文内容自动翻译为中文
+            title = translate_to_zh(raw_title)
+            summary = translate_to_zh(raw_summary) if raw_summary else ""
+            if title != raw_title or summary != raw_summary:
+                stats["translated"] += 1
+
             if len(summary) > SUMMARY_MAX_LENGTH:
                 summary = summary[:SUMMARY_MAX_LENGTH].rstrip() + "…"
 
@@ -386,7 +450,8 @@ def collect_articles(feeds, cache):
             picked += 1
 
     log(f"[stats] 源 {stats['ok']} 成功 / {stats['fail']} 失败；"
-        f"待推 {len(articles)} 条，跳过重复 {stats['dup']} 条，其中自带配图 {stats['with_img']} 条")
+        f"待推 {len(articles)} 条，跳过重复 {stats['dup']} 条，"
+        f"自带配图 {stats['with_img']} 条，翻译 {stats['translated']} 条")
     return articles
 
 
@@ -395,15 +460,16 @@ def collect_articles(feeds, cache):
 # --------------------------------------------------------------------------
 
 def build_caption(article):
-    """构建 HTML 格式 caption：标题 / 来源·时间 / 摘要 / 最底部原文链接"""
+    """构建图片卡片的 caption（HTML）：标题 / 来源·时间 / 摘要 / 底部原文链接"""
     title = esc(article["title"])
     link = html.escape(article["link"], quote=True)
     parts = [f"<b>{title}</b>"]
 
+    # 来源·时间用等宽字体，与正文字体形成区分
     meta = esc(article["source"])
     if article["time_str"]:
         meta += f" · {esc(article['time_str'])}"
-    parts.append(f"<i>{meta}</i>")
+    parts.append(f"<code>{meta}</code>")
 
     if article["summary"]:
         parts.append(esc(article["summary"]))
@@ -411,10 +477,43 @@ def build_caption(article):
     # 文章链接固定放在最底部
     parts.append(f'🔗 <a href="{link}">阅读原文</a>')
 
-    caption = "\n\n".join(parts)
-    if len(caption) > CAPTION_LIMIT:
-        caption = caption[: CAPTION_LIMIT - 1].rstrip() + "…"
-    return caption
+    text = "\n\n".join(parts)
+    if len(text) > CAPTION_LIMIT:
+        text = text[: CAPTION_LIMIT - 1].rstrip() + "…"
+    return text
+
+
+def build_text_message(article):
+    """纯文本兜底：图片完全不可用时使用（标题 / 来源·时间 / 摘要 / 链接）"""
+    title = esc(article["title"])
+    link = html.escape(article["link"], quote=True)
+
+    lines = [f"<b>{title}</b>"]
+
+    meta = esc(article["source"])
+    if article["time_str"]:
+        meta += f" · {esc(article['time_str'])}"
+    lines.append(f"<code>{meta}</code>")
+
+    if article["summary"]:
+        lines.append(esc(article["summary"]))
+
+    lines.append(f'🔗 <a href="{link}">阅读原文</a>')
+
+    text = "\n\n".join(lines)
+    if len(text) > MAX_MESSAGE_LENGTH:
+        text = text[: MAX_MESSAGE_LENGTH - 1].rstrip() + "…"
+    return text
+
+
+def pick_random_cover(article):
+    """为无配图文章取一张随机封面（Lorem Picsum）
+
+    用文章链接的哈希作为 seed，保证同一篇文章每次拿到同一张图。
+    """
+    digest = hashlib.md5(article["key"].encode("utf-8")).hexdigest()
+    seed = digest[:16]
+    return f"https://picsum.photos/seed/{seed}/1200/630"
 
 
 def send_photo(article, image_path_or_url):
@@ -444,35 +543,40 @@ def send_text(article):
     api = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     resp = requests.post(api, data={
         "chat_id": TELEGRAM_CHANNEL_ID,
-        "text": build_caption(article),
+        "text": build_text_message(article),
         "parse_mode": "HTML",
-        "disable_web_page_preview": False,
+        "disable_web_page_preview": True,
     }, timeout=60)
     if resp.status_code != 200:
         raise RuntimeError(f"HTTP {resp.status_code}: {resp.text[:180]}")
 
 
 def push_article(article):
-    """推送单条：有配图发图片卡片，无配图发纯文字。返回是否成功"""
+    """推送单条：优先用原文配图，无图则用 Bing 图库随机封面。返回是否成功"""
+    photo = article["image"]
+    if not photo:
+        photo = pick_random_cover(article)
+
     if DRY_RUN:
-        kind = "图片卡片" if article["image"] else "纯文字"
+        kind = "原文配图" if article["image"] else "随机封面"
         log(f"  [dry-run] [{kind}] {article['source']} | {article['title'][:40]}")
         log(f"            link={article['link']}")
-        if article["image"]:
-            log(f"            image={article['image']}")
+        if photo:
+            log(f"            image={photo}")
         return True
 
-    # 有配图 → 图片卡片；无配图 → 纯文字，不生成占位图
-    if not article["image"]:
+    if not photo:
+        # 连 Bing 图都拿不到时，降级为纯文本
         try:
             send_text(article)
+            log("  [fallback] 无可用封面，已改为纯文本发送")
             return True
         except Exception as e:
             log(f"  [sendMessage failed] {type(e).__name__}: {e}")
             return False
 
     try:
-        send_photo(article, article["image"])
+        send_photo(article, photo)
         return True
     except Exception as e:
         log(f"  [sendPhoto failed] {type(e).__name__}: {e}")
