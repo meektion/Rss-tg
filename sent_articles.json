@@ -1,1 +1,192 @@
-{}
+{
+  "https://baoyu.io/blog/2026-08-24/ai-native-dev-workflow": {
+    "pushed_at": "2026-10-15T06:34:50",
+    "source": "宝玉的分享",
+    "title": "我的 AI 原生开发流程：一个真实案例的完整复盘"
+  },
+  "https://baoyu.io/blog/2026-08-28/warp-self-improving-agents": {
+    "pushed_at": "2026-10-15T06:34:48",
+    "source": "宝玉的分享",
+    "title": "Warp 如何让 Agent 自我进化"
+  },
+  "https://baoyu.io/blog/2026-08-31/ai-native-thinking": {
+    "pushed_at": "2026-10-15T06:34:45",
+    "source": "宝玉的分享",
+    "title": "AI 原生思维——像训练大模型一样训练自己"
+  },
+  "https://baoyu.io/blog/gpt-6-astra-peach-blossom-land": {
+    "pushed_at": "2026-10-15T06:34:41",
+    "source": "宝玉的分享",
+    "title": "我用 GPT 6 Astra 做了一个 3D 版的《桃花源记》（文中含提示词）"
+  },
+  "https://baoyu.io/translations/2026-09-02/the-anatomy-of-effective-commerce-agents": {
+    "pushed_at": "2026-10-15T06:34:43",
+    "source": "宝玉的分享",
+    "title": "高效电商 AI 智能体解剖指南 | 选自 Anthropic 的 Claude 博客"
+  },
+  "https://sspai.com/post/114861": {
+    "pushed_at": "2026-10-15T06:33:18",
+    "source": "少数派",
+    "title": "认知心理学背后的播客剪辑技巧"
+  },
+  "https://sspai.com/post/115238": {
+    "pushed_at": "2026-10-15T06:33:12",
+    "source": "少数派",
+    "title": "App+1｜Mangata：把每次散步当作一次探索旅行"
+  },
+  "https://sspai.com/post/115382": {
+    "pushed_at": "2026-10-15T06:33:22",
+    "source": "少数派",
+    "title": "家中、这里、那里——Sonos Play 体验"
+  },
+  "https://sspai.com/post/115426": {
+    "pushed_at": "2026-10-15T06:33:20",
+    "source": "少数派",
+    "title": "带给摄影师更多自由：Austin Mann 评 iPhone 18 Pro 影像体验"
+  },
+  "https://sspai.com/post/116193": {
+    "pushed_at": "2026-10-15T06:33:15",
+    "source": "少数派",
+    "title": "派早报：Mozilla 推出企业版火狐浏览器、DLSS 5 最新模型即将推送等"
+  },
+  "https://www.appinn.com/bin456789-reinstall": {
+    "pushed_at": "2026-10-15T06:34:23",
+    "source": "小众软件",
+    "title": "reinstall：操作系统自己重装自己？这个开源项目有点神奇"
+  },
+  "https://www.appinn.com/faxian-top10-2641": {
+    "pushed_at": "2026-10-15T06:34:26",
+    "source": "小众软件",
+    "title": "发现频道：10款大家发现的好评软件[2026年第41期]"
+  },
+  "https://www.appinn.com/listary-v7-1": {
+    "pushed_at": "2026-10-15T06:34:19",
+    "source": "小众软件",
+    "title": "Listary V7.1 发布： 8 年来最大一次更新，最快最丝滑的搜索工具它来啦"
+  },
+  "https://www.appinn.com/micyou-for-ios": {
+    "pushed_at": "2026-10-15T06:34:24",
+    "source": "小众软件",
+    "title": "MicYou for iOS – 老 iPhone 又有新用途：变成电脑麦克风，免费开源"
+  },
+  "https://www.appinn.com/synology-7-4-1-90080-update-1-mportant-update": {
+    "pushed_at": "2026-10-15T06:34:21",
+    "source": "小众软件",
+    "title": "群晖发布重要更新： 7.4.1-90080 Update 1，修复未知漏洞｜important Update"
+  },
+  "https://www.ifanr.com/1683906": {
+    "pushed_at": "2026-10-15T06:34:15",
+    "source": "爱范儿",
+    "title": "Nothing Headphone (1) Pro 体验：全面晋级，当旗舰头戴也开始玩多单元"
+  },
+  "https://www.ifanr.com/1684288": {
+    "pushed_at": "2026-10-15T06:34:17",
+    "source": "爱范儿",
+    "title": "纯电续航破千！比亚迪大汉 23.59 万元起，看齐全尺寸行政旗舰"
+  },
+  "https://www.ifanr.com/1684341": {
+    "pushed_at": "2026-10-15T06:34:14",
+    "source": "爱范儿",
+    "title": "苹果 HomeView 上手汇总：「果家」首秀小惊艳，SiriAI 很聪明"
+  },
+  "https://www.ithome.com/1/013/360.htm": {
+    "pushed_at": "2026-10-15T06:33:31",
+    "source": "IT之家",
+    "title": "苹果首款折叠 iPhone Duo 跑分曝光：iPhone 18 Pro 同款 6 核 4.93GHz CPU"
+  },
+  "https://www.ithome.com/1/013/362.htm": {
+    "pushed_at": "2026-10-15T06:33:29",
+    "source": "IT之家",
+    "title": "苹果 AirPods 5 耳机京东 PLUS 加补 100 元：限地区国补后预计仅需 758 元新低"
+  },
+  "https://www.ithome.com/1/013/363.htm": {
+    "pushed_at": "2026-10-15T06:33:28",
+    "source": "IT之家",
+    "title": "2026 年 9 月国内动力电池装车量 87.2GWh，同比增长 14.7%"
+  },
+  "https://www.ithome.com/1/013/370.htm": {
+    "pushed_at": "2026-10-15T06:33:26",
+    "source": "IT之家",
+    "title": "ATK 宝可梦联名皮卡丘款外设预售，键鼠垫三件套到手价 799 元"
+  },
+  "https://www.ithome.com/1/013/375.htm": {
+    "pushed_at": "2026-10-15T06:33:24",
+    "source": "IT之家",
+    "title": "全球金融监管标准制定机构呼吁：银行、企业要加强对 AI 智能体的人工监管"
+  },
+  "https://www.qbitai.com/2026/10/503303.html": {
+    "pushed_at": "2026-10-15T06:33:57",
+    "source": "量子位",
+    "title": "7天几百元开一家店！用千问办公电商版，立省启动资金5万元"
+  },
+  "https://www.qbitai.com/2026/10/503326.html": {
+    "pushed_at": "2026-10-15T06:33:54",
+    "source": "量子位",
+    "title": "DeepSeek服务器全球宕机！神秘Harness账号同时现身"
+  },
+  "https://www.qbitai.com/2026/10/503341.html": {
+    "pushed_at": "2026-10-15T06:33:52",
+    "source": "量子位",
+    "title": "有预言家！A社研究蓝图曝光，Claude Code来自5年前"
+  },
+  "https://www.qbitai.com/2026/10/503350.html": {
+    "pushed_at": "2026-10-15T06:33:49",
+    "source": "量子位",
+    "title": "复杂高客单新品如何靠YouTube 的“全链路叙事”斩获全球大奖？"
+  },
+  "https://www.qbitai.com/2026/10/503353.html": {
+    "pushed_at": "2026-10-15T06:33:46",
+    "source": "量子位",
+    "title": "全球首款 ！中国团队把游戏世界模型塞进一张5090，还开源了"
+  },
+  "https://www.solidot.org/story?sid=85611": {
+    "pushed_at": "2026-10-15T06:33:44",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "荷兰税务与海关总署放弃部署微软公有云，采用开源替代"
+  },
+  "https://www.solidot.org/story?sid=85612": {
+    "pushed_at": "2026-10-15T06:33:42",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "Linus Torvalds 用 LLM 辅助开发的补丁递交接受审查"
+  },
+  "https://www.solidot.org/story?sid=85613": {
+    "pushed_at": "2026-10-15T06:33:39",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "苹果推出广告鼓励 Chrome 用户切换到 Safari"
+  },
+  "https://www.solidot.org/story?sid=85614": {
+    "pushed_at": "2026-10-15T06:33:37",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "GTA 6 可能提前发布 PC 版本"
+  },
+  "https://www.solidot.org/story?sid=85615": {
+    "pushed_at": "2026-10-15T06:33:34",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "研究估计到 2050 年每年新增痴呆症人数将会翻倍"
+  },
+  "https://yihui.org/cn/2026/01/bressanone": {
+    "pushed_at": "2026-10-15T06:34:31",
+    "source": "日志 on Yihui Xie | 谢益辉",
+    "title": "Bressanone"
+  },
+  "https://yihui.org/cn/2026/01/cambrian": {
+    "pushed_at": "2026-10-15T06:34:33",
+    "source": "日志 on Yihui Xie | 谢益辉",
+    "title": "寒武纪"
+  },
+  "https://yihui.org/cn/2026/01/flying-tears": {
+    "pushed_at": "2026-10-15T06:34:35",
+    "source": "日志 on Yihui Xie | 谢益辉",
+    "title": "谁的眼泪在飞"
+  },
+  "https://yihui.org/cn/2026/01/heart-sea": {
+    "pushed_at": "2026-10-15T06:34:29",
+    "source": "日志 on Yihui Xie | 谢益辉",
+    "title": "我心似海洋"
+  },
+  "https://yihui.org/cn/2026/01/ripple": {
+    "pushed_at": "2026-10-15T06:34:38",
+    "source": "日志 on Yihui Xie | 谢益辉",
+    "title": "荡漾"
+  }
+}
