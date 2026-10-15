@@ -1,4 +1,19 @@
 {
+  "https://baoyu.io/blog/2026-05-20/jxnlco-2057153744630890620": {
+    "pushed_at": "2026-10-15T09:04:19",
+    "source": "宝玉的分享",
+    "title": "来自 Codex 官方团队的分享：如何把 Codex 用到极致"
+  },
+  "https://baoyu.io/blog/2026-05-23/bookwormengr-status-2057909493250539891": {
+    "pushed_at": "2026-10-15T09:04:17",
+    "source": "宝玉的分享",
+    "title": "DeepSeek 的 10 万亿美元大战略"
+  },
+  "https://baoyu.io/blog/2026-06-13/codex-design-model-gap": {
+    "pushed_at": "2026-10-15T09:04:14",
+    "source": "宝玉的分享",
+    "title": "为啥 Codex 还不推出类似 Codex Design 的产品？"
+  },
   "https://baoyu.io/blog/2026-07-06/claudedevs-2074208949205881033": {
     "pushed_at": "2026-10-15T07:08:43",
     "source": "宝玉的分享",
@@ -44,6 +59,11 @@
     "source": "宝玉的分享",
     "title": "我用 GPT 6 Astra 做了一个 3D 版的《桃花源记》（文中含提示词）"
   },
+  "https://baoyu.io/translations/2026-05-17/i-dont-vibe-code": {
+    "pushed_at": "2026-10-15T09:04:21",
+    "source": "宝玉的分享",
+    "title": "为什么我不“凭感觉编程”"
+  },
   "https://baoyu.io/translations/2026-09-02/the-anatomy-of-effective-commerce-agents": {
     "pushed_at": "2026-10-15T06:34:43",
     "source": "宝玉的分享",
@@ -59,10 +79,50 @@
     "source": "Cloudflare Blog",
     "title": "Filter, reshape, and redact logs before export with Transformers"
   },
+  "https://blog.cloudflare.com/workers-on-demand-profiling": {
+    "pushed_at": "2026-10-15T09:04:42",
+    "source": "Cloudflare Blog",
+    "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects"
+  },
+  "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026": {
+    "pushed_at": "2026-10-15T09:05:07",
+    "source": "News from Google",
+    "title": "研究@ 2026：新能力和智能"
+  },
+  "https://blog.google/products-and-platforms/products/search/frightgeist-halloween-trends-2026": {
+    "pushed_at": "2026-10-15T09:05:10",
+    "source": "News from Google",
+    "title": "看看今年最热门的万圣节趋势吧。"
+  },
+  "https://blog.google/products-and-platforms/products/search/halloween-tips-2026": {
+    "pushed_at": "2026-10-15T09:05:12",
+    "source": "News from Google",
+    "title": "6 ways to trick-or-treat yourself to the ultimate Halloween with Search"
+  },
+  "https://blog.google/products/ads-commerce/channel-prioritization-budget-allocation": {
+    "pushed_at": "2026-10-15T09:05:08",
+    "source": "News from Google",
+    "title": "用新的优先级和分配功能来指导你的广告支出"
+  },
+  "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out": {
+    "pushed_at": "2026-10-15T09:04:53",
+    "source": "The GitHub Blog",
+    "title": "AI is changing developer work. Here are three skills to strengthen."
+  },
   "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase": {
     "pushed_at": "2026-10-15T08:14:38",
     "source": "The GitHub Blog",
     "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase"
+  },
+  "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review": {
+    "pushed_at": "2026-10-15T09:04:51",
+    "source": "The GitHub Blog",
+    "title": "ReviewBench: An open benchmark for AI code review"
+  },
+  "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software": {
+    "pushed_at": "2026-10-15T09:04:47",
+    "source": "The GitHub Blog",
+    "title": "Secret protection must scale with software"
   },
   "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise": {
     "pushed_at": "2026-10-15T08:14:36",
@@ -74,6 +134,11 @@
     "source": "The GitHub Blog",
     "title": "Hack the World: Why hackathons are still the best place to learn to build"
   },
+  "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development": {
+    "pushed_at": "2026-10-15T09:04:49",
+    "source": "The GitHub Blog",
+    "title": "Building Git infrastructure for agent-scale development"
+  },
   "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers": {
     "pushed_at": "2026-10-15T08:14:34",
     "source": "The GitHub Blog",
@@ -83,6 +148,11 @@
     "pushed_at": "2026-10-15T08:14:32",
     "source": "The GitHub Blog",
     "title": "GitHub availability report: September 2026"
+  },
+  "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate": {
+    "pushed_at": "2026-10-15T09:04:44",
+    "source": "The GitHub Blog",
+    "title": "How one bug bounty researcher chooses the features they investigate"
   },
   "https://sspai.com/post/114861": {
     "pushed_at": "2026-10-15T06:33:18",
@@ -179,6 +249,11 @@
     "source": "小众软件",
     "title": "苹果隔空投送 AirDrop 已被逆向成功，正在被搬到普通电脑上｜omdrop-owl"
   },
+  "https://www.appinn.com/silo-s3-2026-10-15": {
+    "pushed_at": "2026-10-15T09:04:12",
+    "source": "小众软件",
+    "title": "MinIO 替代者 Silo 发布第一个正式的 S3 服务器版本，以及2026年10月重要安全更新"
+  },
   "https://www.appinn.com/strata": {
     "pushed_at": "2026-10-15T07:08:16",
     "source": "小众软件",
@@ -189,6 +264,16 @@
     "source": "小众软件",
     "title": "群晖发布重要更新： 7.4.1-90080 Update 1，修复未知漏洞｜important Update"
   },
+  "https://www.databricks.com/blog/databricks-visionary-gartnerr-magic-quadranttm-analytics-and-business-intelligence-platforms": {
+    "pushed_at": "2026-10-15T09:05:03",
+    "source": "Databricks",
+    "title": "Databricks is a Visionary the Gartner® Magic Quadrant™ for Analytics and Business Intelligence Platforms"
+  },
+  "https://www.databricks.com/blog/everyones-adopting-ai-agents-almost-no-one-can-prove-roi-heres-why": {
+    "pushed_at": "2026-10-15T09:05:00",
+    "source": "Databricks",
+    "title": "Everyone's adopting AI agents. Almost no one can prove the ROI. Here's why"
+  },
   "https://www.databricks.com/blog/introducing-private-network-gateway": {
     "pushed_at": "2026-10-15T08:14:47",
     "source": "Databricks",
@@ -198,6 +283,11 @@
     "pushed_at": "2026-10-15T08:14:46",
     "source": "Databricks",
     "title": "Power real-time applications and agents with Document Intelligence"
+  },
+  "https://www.databricks.com/blog/practical-guide-real-time-analytics-2026": {
+    "pushed_at": "2026-10-15T09:04:56",
+    "source": "Databricks",
+    "title": "A practical guide to real-time analytics in 2026"
   },
   "https://www.databricks.com/blog/reducing-qwen-training-time-6x-ai-runtime": {
     "pushed_at": "2026-10-15T08:14:49",
@@ -214,10 +304,45 @@
     "source": "Databricks",
     "title": "Unlock powerful insights and forecasts with Predictive AI Functions"
   },
+  "https://www.databricks.com/blog/what-htap-plain-english-guide-hybrid-transactionalanalytical-processing": {
+    "pushed_at": "2026-10-15T09:05:05",
+    "source": "Databricks",
+    "title": "What is HTAP? A plain-English guide to hybrid transactional/analytical processing"
+  },
+  "https://www.databricks.com/blog/whats-new-lakeflow-designer-october-2026-roundup": {
+    "pushed_at": "2026-10-15T09:04:58",
+    "source": "Databricks",
+    "title": "What's New in Lakeflow Designer - October 2026 Roundup"
+  },
   "https://www.ifanr.com/1683906": {
     "pushed_at": "2026-10-15T06:34:15",
     "source": "爱范儿",
     "title": "Nothing Headphone (1) Pro 体验：全面晋级，当旗舰头戴也开始玩多单元"
+  },
+  "https://www.ifanr.com/1683963": {
+    "pushed_at": "2026-10-15T09:04:10",
+    "source": "爱范儿",
+    "title": "小扎发布神秘「西瓜」模型，跑分媲美 Opus 5.5，口碑却一言难尽"
+  },
+  "https://www.ifanr.com/1683992": {
+    "pushed_at": "2026-10-15T09:04:09",
+    "source": "爱范儿",
+    "title": "AI学会「寄生繁殖」了，Anthropic 用 15台破电视盒子养活大模型"
+  },
+  "https://www.ifanr.com/1684008": {
+    "pushed_at": "2026-10-15T09:04:07",
+    "source": "爱范儿",
+    "title": "不是水桶机，却想颠覆行业：一台「模型原生」手机的疯狂野心"
+  },
+  "https://www.ifanr.com/1684048": {
+    "pushed_at": "2026-10-15T09:04:05",
+    "source": "爱范儿",
+    "title": "理想 i6 化名「Li 6」，吉利拿下福特工厂，这届巴黎车展全是中国车"
+  },
+  "https://www.ifanr.com/1684070": {
+    "pushed_at": "2026-10-15T09:04:04",
+    "source": "爱范儿",
+    "title": "刚刚，苹果 HomeView 发布！10+ 款「果家」新品，你能买到的只有一个"
   },
   "https://www.ifanr.com/1684097": {
     "pushed_at": "2026-10-15T08:14:00",
@@ -344,6 +469,31 @@
     "source": "IT之家",
     "title": "11.11 之家好物严选：20:00 全网狂促大加码，iPhone Duo 15999 元倒计时开抢"
   },
+  "https://www.ithome.com/1/013/478.htm": {
+    "pushed_at": "2026-10-15T09:03:49",
+    "source": "IT之家",
+    "title": "库克：苹果智能 Apple Intelligence 月底在华发布测试版本，但不包括 Siri AI"
+  },
+  "https://www.ithome.com/1/013/479.htm": {
+    "pushed_at": "2026-10-15T09:03:47",
+    "source": "IT之家",
+    "title": "Anthropic 在新加坡设立办事处，与新加坡政府达成合作"
+  },
+  "https://www.ithome.com/1/013/480.htm": {
+    "pushed_at": "2026-10-15T09:03:45",
+    "source": "IT之家",
+    "title": "商务部部长王文涛会见美国苹果公司执行董事长蒂姆 · 库克，就人工智能发展等进行交流"
+  },
+  "https://www.ithome.com/1/013/481.htm": {
+    "pushed_at": "2026-10-15T09:03:44",
+    "source": "IT之家",
+    "title": "NVIDIA Broadcast 2.3.0 发布：兼容 RTX Spark，实验性支持视频超分与帧生成"
+  },
+  "https://www.ithome.com/1/013/483.htm": {
+    "pushed_at": "2026-10-15T09:03:42",
+    "source": "IT之家",
+    "title": "宝马集团董事长聂科维：到 2030 年中国市场国产车型比例将提升至 95% 以上"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -413,6 +563,31 @@
     "pushed_at": "2026-10-15T06:33:46",
     "source": "量子位",
     "title": "全球首款 ！中国团队把游戏世界模型塞进一张5090，还开源了"
+  },
+  "https://www.solidot.org/story?sid=85598": {
+    "pushed_at": "2026-10-15T09:04:02",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "美国麻疹病例突破 4080 例"
+  },
+  "https://www.solidot.org/story?sid=85599": {
+    "pushed_at": "2026-10-15T09:04:00",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "《RimWorld》将游戏引擎从 Unity 切换到 Waylith Engine"
+  },
+  "https://www.solidot.org/story?sid=85600": {
+    "pushed_at": "2026-10-15T09:03:57",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "ESA 想要将 voices38 列入恶名盗版市场名单"
+  },
+  "https://www.solidot.org/story?sid=85602": {
+    "pushed_at": "2026-10-15T09:03:55",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "气候暖化速度过去十五年加倍"
+  },
+  "https://www.solidot.org/story?sid=85603": {
+    "pushed_at": "2026-10-15T09:03:52",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "蜜蜂的螫针如何泵送毒液"
   },
   "https://www.solidot.org/story?sid=85604": {
     "pushed_at": "2026-10-15T08:13:46",
