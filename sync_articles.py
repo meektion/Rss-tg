@@ -65,6 +65,7 @@ RETRY_COUNT = 3                # 抓取重试次数
 RETRY_DELAY = 2                # 重试间隔（秒）
 CAPTION_LIMIT = 1024           # Telegram 图片 caption 上限
 MAX_MESSAGE_LENGTH = 4096      # Telegram 文本消息上限
+MESSAGE_BLANK_LINES = 3        # 消息内部各段落之间的空行数（调大更疏朗，2~4 较合适）
 KEEP_DAYS = 30                 # 缓存保留天数
 REQUEST_TIMEOUT = 20           # 单次请求超时
 TRANSLATE_ENABLED = True       # 英文标题/摘要自动翻译为中文
@@ -463,6 +464,8 @@ def build_caption(article):
     """构建图片卡片的 caption（HTML）：标题 / 来源·时间 / 摘要 / 底部原文链接"""
     title = esc(article["title"])
     link = html.escape(article["link"], quote=True)
+
+    sep = "\n" * MESSAGE_BLANK_LINES
     parts = [f"<b>{title}</b>"]
 
     # 来源·时间用等宽字体，与正文字体形成区分
@@ -477,7 +480,7 @@ def build_caption(article):
     # 文章链接固定放在最底部
     parts.append(f'🔗 <a href="{link}">阅读原文</a>')
 
-    text = "\n\n".join(parts)
+    text = sep.join(parts)
     if len(text) > CAPTION_LIMIT:
         text = text[: CAPTION_LIMIT - 1].rstrip() + "…"
     return text
@@ -488,6 +491,7 @@ def build_text_message(article):
     title = esc(article["title"])
     link = html.escape(article["link"], quote=True)
 
+    sep = "\n" * MESSAGE_BLANK_LINES
     lines = [f"<b>{title}</b>"]
 
     meta = esc(article["source"])
@@ -500,7 +504,7 @@ def build_text_message(article):
 
     lines.append(f'🔗 <a href="{link}">阅读原文</a>')
 
-    text = "\n\n".join(lines)
+    text = sep.join(lines)
     if len(text) > MAX_MESSAGE_LENGTH:
         text = text[: MAX_MESSAGE_LENGTH - 1].rstrip() + "…"
     return text
