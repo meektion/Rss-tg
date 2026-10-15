@@ -1,4 +1,19 @@
 {
+  "https://baoyu.io/blog/2026-05-11/skill-next-codex": {
+    "pushed_at": "2026-10-15T11:25:14",
+    "source": "宝玉的分享",
+    "title": "Codex 的野心，MCP 和 Skill 的下一步"
+  },
+  "https://baoyu.io/blog/2026-05-12/running-an-ai-native-engineering-org": {
+    "pushed_at": "2026-10-15T11:25:12",
+    "source": "宝玉的分享",
+    "title": "AI 时代到底该怎么管一个工程团队"
+  },
+  "https://baoyu.io/blog/2026-05-15/forward-deployed-engineer": {
+    "pushed_at": "2026-10-15T11:25:07",
+    "source": "宝玉的分享",
+    "title": "Forward Deployed Engineer：AI 时代的新宠岗位，到底干什么？"
+  },
   "https://baoyu.io/blog/2026-05-20/jxnlco-2057153744630890620": {
     "pushed_at": "2026-10-15T09:04:19",
     "source": "宝玉的分享",
@@ -59,6 +74,16 @@
     "source": "宝玉的分享",
     "title": "我用 GPT 6 Astra 做了一个 3D 版的《桃花源记》（文中含提示词）"
   },
+  "https://baoyu.io/translations/2026-05-12/why-senior-developers-fail-to-communicate-their-expertise": {
+    "pushed_at": "2026-10-15T11:25:09",
+    "source": "宝玉的分享",
+    "title": "为什么资深开发者讲不清自己的专业能力"
+  },
+  "https://baoyu.io/translations/2026-05-16/the-founders-playbook-building-an-ai-native-startup": {
+    "pushed_at": "2026-10-15T11:25:04",
+    "source": "宝玉的分享",
+    "title": "创始人手册：打造 AI 原生初创公司"
+  },
   "https://baoyu.io/translations/2026-05-17/i-dont-vibe-code": {
     "pushed_at": "2026-10-15T09:04:21",
     "source": "宝玉的分享",
@@ -68,6 +93,16 @@
     "pushed_at": "2026-10-15T06:34:43",
     "source": "宝玉的分享",
     "title": "高效电商 AI 智能体解剖指南 | 选自 Anthropic 的 Claude 博客"
+  },
+  "https://blog.cloudflare.com/clef-faster-cheaper-multimodal": {
+    "pushed_at": "2026-10-15T11:25:32",
+    "source": "Cloudflare Blog",
+    "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash"
+  },
+  "https://blog.cloudflare.com/deno-joins-cloudflare": {
+    "pushed_at": "2026-10-15T11:25:34",
+    "source": "Cloudflare Blog",
+    "title": "Deno is joining Cloudflare"
   },
   "https://blog.cloudflare.com/rewinding-the-exponential": {
     "pushed_at": "2026-10-15T08:14:29",
@@ -84,10 +119,35 @@
     "source": "Cloudflare Blog",
     "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects"
   },
+  "https://blog.google/company-news/inside-google/around-the-globe/google-europe/european-economic-impact-report": {
+    "pushed_at": "2026-10-15T11:25:40",
+    "source": "News from Google",
+    "title": "Enabling an AI-first European economy"
+  },
+  "https://blog.google/company-news/outreach-and-initiatives/google-org/impact-challenge-ai-science-recipients": {
+    "pushed_at": "2026-10-15T11:25:36",
+    "source": "News from Google",
+    "title": "17 organizations using AI to accelerate scientific breakthroughs"
+  },
+  "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models": {
+    "pushed_at": "2026-10-15T11:25:38",
+    "source": "News from Google",
+    "title": "We’re powering European scientific discovery with advanced AI compute and frontier models."
+  },
   "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026": {
     "pushed_at": "2026-10-15T09:05:07",
     "source": "News from Google",
     "title": "研究@ 2026：新能力和智能"
+  },
+  "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security": {
+    "pushed_at": "2026-10-15T11:25:42",
+    "source": "News from Google",
+    "title": "Developing Gemini 4 Argon responsibly and safely"
+  },
+  "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026": {
+    "pushed_at": "2026-10-15T11:25:44",
+    "source": "News from Google",
+    "title": "New on Google Play: More ways to create, discover, and play"
   },
   "https://blog.google/products-and-platforms/products/search/frightgeist-halloween-trends-2026": {
     "pushed_at": "2026-10-15T09:05:10",
@@ -103,6 +163,31 @@
     "pushed_at": "2026-10-15T09:05:08",
     "source": "News from Google",
     "title": "用新的优先级和分配功能来指导你的广告支出"
+  },
+  "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta": {
+    "pushed_at": "2026-10-15T11:26:04",
+    "source": "Engineering at Meta",
+    "title": "NTS: Meta处的认证时间"
+  },
+  "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations": {
+    "pushed_at": "2026-10-15T11:26:02",
+    "source": "Engineering at Meta",
+    "title": "将机会主义AI推理能力转化为更好的广告推荐"
+  },
+  "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks": {
+    "pushed_at": "2026-10-15T11:25:58",
+    "source": "Engineering at Meta",
+    "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks"
+  },
+  "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest": {
+    "pushed_at": "2026-10-15T11:26:00",
+    "source": "Engineering at Meta",
+    "title": "通过QUIC在Meta规模上为Instagram Live摄取传输媒体"
+  },
+  "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai": {
+    "pushed_at": "2026-10-15T11:25:56",
+    "source": "Engineering at Meta",
+    "title": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI"
   },
   "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out": {
     "pushed_at": "2026-10-15T09:04:53",
@@ -154,6 +239,31 @@
     "source": "The GitHub Blog",
     "title": "How one bug bounty researcher chooses the features they investigate"
   },
+  "https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-10-15T11:25:54",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II"
+  },
+  "https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-10-15T11:25:48",
+    "source": "Netflix TechBlog - Medium",
+    "title": "DataJunction as Netflix’s answer to the missing piece of the modern data stack"
+  },
+  "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-10-15T11:25:46",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Integrating Netflix’s Foundation Model into Personalization applications"
+  },
+  "https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-10-15T11:25:49",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Measuring the Impact of Personalized Recommendations"
+  },
+  "https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-10-15T11:25:51",
+    "source": "Netflix TechBlog - Medium",
+    "title": "TimeSeries Tiered Storage Journey: Kafka/Flink Streams to Native Cassandra Cold Reads"
+  },
   "https://sspai.com/post/114861": {
     "pushed_at": "2026-10-15T06:33:18",
     "source": "少数派",
@@ -194,6 +304,11 @@
     "source": "少数派",
     "title": "派早报：Apple 发布 HomePod mini 2、HomeView 等新品"
   },
+  "https://sspai.com/post/116181": {
+    "pushed_at": "2026-10-15T11:24:35",
+    "source": "少数派",
+    "title": "顺应变化，重申标准：《少数派创作手册》修订说明"
+  },
   "https://sspai.com/post/116182": {
     "pushed_at": "2026-10-15T08:13:28",
     "source": "少数派",
@@ -203,6 +318,11 @@
     "pushed_at": "2026-10-15T06:33:15",
     "source": "少数派",
     "title": "派早报：Mozilla 推出企业版火狐浏览器、DLSS 5 最新模型即将推送等"
+  },
+  "https://sspai.com/post/116246": {
+    "pushed_at": "2026-10-15T11:24:33",
+    "source": "少数派",
+    "title": "新玩意 253｜少数派的编辑们最近买了啥？"
   },
   "https://sspai.com/post/92653": {
     "pushed_at": "2026-10-15T07:07:07",
@@ -234,6 +354,11 @@
     "source": "小众软件",
     "title": "为 iTerm2 Buddy 自托管中继服务器，加速手机连接 Mac 终端速度"
   },
+  "https://www.appinn.com/iterm2-simplified-chinese": {
+    "pushed_at": "2026-10-15T11:25:00",
+    "source": "小众软件",
+    "title": "24 年历史的著名 Mac 终端 iTerm2，终于迎来了简体中文界面"
+  },
   "https://www.appinn.com/listary-v7-1": {
     "pushed_at": "2026-10-15T06:34:19",
     "source": "小众软件",
@@ -248,6 +373,11 @@
     "pushed_at": "2026-10-15T07:08:14",
     "source": "小众软件",
     "title": "苹果隔空投送 AirDrop 已被逆向成功，正在被搬到普通电脑上｜omdrop-owl"
+  },
+  "https://www.appinn.com/opencode-free-deepseek-v4-1-flash": {
+    "pushed_at": "2026-10-15T11:25:02",
+    "source": "小众软件",
+    "title": "OpenCode"
   },
   "https://www.appinn.com/silo-s3-2026-10-15": {
     "pushed_at": "2026-10-15T09:04:12",
@@ -314,10 +444,25 @@
     "source": "Databricks",
     "title": "What's New in Lakeflow Designer - October 2026 Roundup"
   },
+  "https://www.ifanr.com/1683851": {
+    "pushed_at": "2026-10-15T11:24:58",
+    "source": "爱范儿",
+    "title": "三电机+千匹马力！阿维塔 T09 巴黎首秀，攻入旗舰大六座市场"
+  },
   "https://www.ifanr.com/1683906": {
     "pushed_at": "2026-10-15T06:34:15",
     "source": "爱范儿",
     "title": "Nothing Headphone (1) Pro 体验：全面晋级，当旗舰头戴也开始玩多单元"
+  },
+  "https://www.ifanr.com/1683909": {
+    "pushed_at": "2026-10-15T11:24:56",
+    "source": "爱范儿",
+    "title": "早报｜对话库克：Apple Watch要做「个人守护者」/华为折叠屏出货量突破2000万台/DeepSeek拟入局具身智能"
+  },
+  "https://www.ifanr.com/1683941": {
+    "pushed_at": "2026-10-15T11:24:54",
+    "source": "爱范儿",
+    "title": "2026 年，日本翻盖手机终于过气了"
   },
   "https://www.ifanr.com/1683963": {
     "pushed_at": "2026-10-15T09:04:10",
@@ -393,6 +538,11 @@
     "pushed_at": "2026-10-15T08:13:55",
     "source": "爱范儿",
     "title": "一台车出厂前，要过多少道关？我们在一汽-大众工厂找到了答案"
+  },
+  "https://www.ifanr.com/1684431": {
+    "pushed_at": "2026-10-15T11:24:52",
+    "source": "爱范儿",
+    "title": "独家｜库克确认苹果国行 AI，10 月底上线测试版！"
   },
   "https://www.ithome.com/1/013/360.htm": {
     "pushed_at": "2026-10-15T06:33:31",
@@ -493,6 +643,31 @@
     "pushed_at": "2026-10-15T09:03:42",
     "source": "IT之家",
     "title": "宝马集团董事长聂科维：到 2030 年中国市场国产车型比例将提升至 95% 以上"
+  },
+  "https://www.ithome.com/1/013/604.htm": {
+    "pushed_at": "2026-10-15T11:24:45",
+    "source": "IT之家",
+    "title": "SK 海力士推出 3D FeNAND 技术，瞄准 AI 计算"
+  },
+  "https://www.ithome.com/1/013/605.htm": {
+    "pushed_at": "2026-10-15T11:24:44",
+    "source": "IT之家",
+    "title": "海光信息 2026 年三季度归母净利润 27.1~29.8 亿元，同比增长 38.16%~51.93%"
+  },
+  "https://www.ithome.com/1/013/606.htm": {
+    "pushed_at": "2026-10-15T11:24:42",
+    "source": "IT之家",
+    "title": "又要到周五啦：20:00 速领 60 元 11.11 叠加神券，京东黑五赛博抢鸡蛋"
+  },
+  "https://www.ithome.com/1/013/607.htm": {
+    "pushed_at": "2026-10-15T11:24:40",
+    "source": "IT之家",
+    "title": "亿纬锂能 2026 年三季度归母净利润 50.68 亿元~53.5 亿元，同比80%~90%"
+  },
+  "https://www.ithome.com/1/013/608.htm": {
+    "pushed_at": "2026-10-15T11:24:38",
+    "source": "IT之家",
+    "title": "《雾锁王国》1.0 正式版发售：Steam 国区 138 元，完整地图解锁"
   },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
@@ -663,6 +838,16 @@
     "pushed_at": "2026-10-15T08:13:39",
     "source": "奇客Solidot–传递最新科技情报",
     "title": "科学家探测到最遥远快速射电暴"
+  },
+  "https://www.solidot.org/story?sid=85620": {
+    "pushed_at": "2026-10-15T11:24:50",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "美国人社交活动过去三十年大幅减少"
+  },
+  "https://www.solidot.org/story?sid=85621": {
+    "pushed_at": "2026-10-15T11:24:48",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "Google 悄悄关联手机号码和所有用户登录账号"
   },
   "https://yihui.org/cn/2025/12/white-moonlight": {
     "pushed_at": "2026-10-15T07:08:31",
