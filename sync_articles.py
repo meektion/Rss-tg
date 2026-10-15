@@ -38,7 +38,6 @@ DRY_RUN = os.getenv("DRY_RUN") == "1"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FEEDS_FILE = os.path.join(BASE_DIR, "rss_feeds.txt")
 CACHE_FILE = os.path.join(BASE_DIR, "sent_articles.json")
-PLACEHOLDER_DIR = os.path.join(BASE_DIR, ".placeholder_cache")
 
 # 内置兜底源列表（rss_feeds.txt 不存在时使用）
 DEFAULT_FEEDS = [
@@ -74,25 +73,6 @@ HEADERS = {
         "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
     )
 }
-
-# 占位图纯色配色（低饱和深色，克制不抢眼，与 Telegram 界面协调）
-PLACEHOLDER_COLORS = [
-    (38, 48, 62),     # 深灰蓝
-    (46, 52, 58),     # 石墨灰
-    (52, 46, 54),     # 紫灰
-    (42, 54, 52),     # 墨绿灰
-    (58, 50, 44),     # 暖褐灰
-    (44, 46, 60),     # 靛灰
-]
-
-CJK_FONT_CANDIDATES = [
-    "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
-    "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
-    "/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc",
-    "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc",
-    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
-]
-
 
 # --------------------------------------------------------------------------
 # 工具函数
@@ -205,7 +185,7 @@ def extract_image(entry, feed):
     for key in ("media_content", "media_thumbnail"):
         for item in entry.get(key, []) or []:
             url = item.get("url")
-            if url and url.startswith("http") and not is_tiny_icon(url, item.get("width"), item.get("height")):
+            if url and url.startswith("http") and not is_bad_image(url, item.get("width"), item.get("height")):
                 return url
 
     # 2) enclosure
@@ -213,7 +193,7 @@ def extract_image(entry, feed):
         href = item.get("href")
         mime = (item.get("type") or "").lower()
         if href and href.startswith("http") and ("image" in mime or is_image_url(href)):
-            if not is_tiny_icon(href, item.get("width"), item.get("height")):
+            if not is_bad_image(href, item.get("width"), item.get("height")):
                 return href
 
     # 3) 正文里的第一张图
@@ -229,21 +209,19 @@ def extract_image(entry, feed):
             continue
         soup = BeautifulSoup(raw, "html.parser")
         for img in soup.find_all("img"):
+            w = _to_int(img.get("width"))
+            h = _to_int(img.get("height"))
             for attr in ("src", "data-src", "data-original", "data-lazy-src"):
                 url = (img.get(attr) or "").strip()
                 if not url.startswith("http"):
                     continue
-                if is_tracking_pixel(url):
-                    continue
-                w = _to_int(img.get("width"))
-                h = _to_int(img.get("height"))
-                if is_tiny_icon(url, w, h):
+                if is_bad_image(url, w, h):
                     continue
                 return url
 
     # 4) 站点 logo（仅在尺寸不明且 URL 不含明显图标特征时使用）
     href = (feed.get("image") or {}).get("href") or ""
-    if href.startswith("http") and not is_tiny_icon(href, None, None):
+    if href.startswith("http") and not is_bad_image(href, None, None):
         return href
 
     return None
@@ -261,119 +239,65 @@ def is_image_url(url):
     return bool(re.search(r"\.(jpe?g|png|webp|gif|bmp)(\?|$)", url, re.I))
 
 
-def is_tracking_pixel(url):
-    return bool(re.search(r"(spacer|pixel|blank|1x1|stat\.|beacon)", url, re.I))
+# URL 中出现这些词，几乎可以确定不是正文配图（表情、图标、占位、装饰）
+BAD_IMAGE_PATTERNS = re.compile(
+    r"("
+    r"favicon|sprite|avatar|gravatar|emoji|emoticon|smiley|smilie|sticker"
+    r"|spacer|blank\.|placeholder|loading|default[-_]?img|no[-_]?image"
+    r"|pixel|beacon|1x1|transparent"
+    r"|/(icon|icons|logo|logos|badge|badges|button|buttons|arrow|arrows)/"
+    r"|[-_](icon|logo|badge|arrow)\b"
+    r"|/static/(img|images)/(icon|logo)"
+    r"|wechat|weixin|qrcode|qr[-_]?code|erweima"
+    r"|share[-_]?(icon|img)|social[-_]?(icon|img)"
+    r"|wordpress[-_]?logo|cms[-_]?logo"
+    r")",
+    re.I,
+)
+
+# 小尺寸标识，如 16x16 / 32x32 / 64x64
+SMALL_SIZE_PATTERN = re.compile(r"\b(\d{1,3})x(\d{1,3})\b")
 
 
-def is_tiny_icon(url, width=None, height=None):
-    """判断是否为站点小图标（这类图当配图会非常难看）"""
+def is_bad_image(url, width=None, height=None):
+    """判断这张图是否不适合当封面（小图标、表情、装饰图、追踪像素等）"""
+    if not url:
+        return True
+
+    # 1) 声明尺寸过小
     w = _to_int(width)
     h = _to_int(height)
-    if (w and w < 200) or (h and h < 200):
+    if (w and w < 300) or (h and h < 200):
         return True
-    # 文件名里带尺寸标识的，如 icon-32x32.png、logo-64.png、favicon.ico
-    if re.search(r"(favicon|icon|logo|avatar|sprite)[-_]?(\d{1,3})?", url, re.I):
-        if re.search(r"\b\d{1,3}x\d{1,3}\b", url):
-            return True
-        if re.search(r"(favicon|/icon|_icon|icon\.)", url, re.I):
-            return True
-    if re.search(r"\b(16|24|32|48|64)x(16|24|32|48|64)\b", url):
+
+    # 2) URL 命中已知的图标/表情/装饰特征
+    if BAD_IMAGE_PATTERNS.search(url):
         return True
+
+    # 3) URL 里写着小尺寸（长边小于 300 的标识）
+    for m in SMALL_SIZE_PATTERN.finditer(url):
+        sw, sh = int(m.group(1)), int(m.group(2))
+        if sw < 300 and sh < 300:
+            return True
+
+    # 4) 旧式表情/图标路径特征
+    if re.search(r"/(smilies|emoticons|images/smilies)/", url, re.I):
+        return True
+
+    # 5) GIF 多为表情/动图，不适合当封面
+    if re.search(r"\.gif(\?|$)", url, re.I):
+        return True
+
+    # 6) SVG 是矢量图标，不会是文章配图
+    if re.search(r"\.svg(\?|$)", url, re.I):
+        return True
+
+    # 7) 箭头 / 装饰性小图（带 -icon、-arrow 等后缀）
+    if re.search(r"[-_](right|left|up|down|next|prev|back)[-_]?(arrow|icon|btn)?\.(png|jpg|jpeg|webp)", url, re.I):
+        return True
+
     return False
 
-
-# --------------------------------------------------------------------------
-# 占位图生成
-# --------------------------------------------------------------------------
-
-_FONT_CACHE = {}
-
-
-def get_font(size):
-    """加载可显示中文的字体，带缓存"""
-    if size in _FONT_CACHE:
-        return _FONT_CACHE[size]
-    from PIL import ImageFont
-    for path in CJK_FONT_CANDIDATES:
-        if os.path.exists(path):
-            try:
-                font = ImageFont.truetype(path, size)
-                _FONT_CACHE[size] = font
-                return font
-            except Exception:
-                continue
-    font = ImageFont.load_default()
-    _FONT_CACHE[size] = font
-    return font
-
-
-def wrap_text(text, font, max_width, draw, max_lines):
-    """按像素宽度折行（中英混排）"""
-    lines, current = [], ""
-    for ch in text:
-        if ch == "\n":
-            lines.append(current)
-            current = ""
-            continue
-        test = current + ch
-        if draw.textlength(test, font=font) <= max_width:
-            current = test
-        else:
-            lines.append(current)
-            current = ch
-            if len(lines) >= max_lines:
-                break
-    if current and len(lines) < max_lines:
-        lines.append(current)
-    if len(lines) >= max_lines and draw.textlength(lines[-1] + "…", font=font) <= max_width:
-        lines[-1] = lines[-1][: max(0, len(lines[-1]) - 1)] + "…"
-    return lines
-
-
-def make_placeholder(title, source, out_path):
-    """生成标题哈希纯色占位图，返回文件路径"""
-    from PIL import Image, ImageDraw
-
-    W, H = 1280, 640
-    digest = hashlib.md5((source + "|" + title).encode("utf-8")).hexdigest()
-    idx = int(digest[:8], 16) % len(PLACEHOLDER_COLORS)
-    base = PLACEHOLDER_COLORS[idx]
-
-    img = Image.new("RGB", (W, H), base)
-    draw = ImageDraw.Draw(img)
-
-    # 左侧细色条（略亮于底色，做轻微点缀）
-    accent = tuple(min(255, c + 42) for c in base)
-    draw.rectangle([0, 0, 8, H], fill=accent)
-
-    # 站点名
-    font_src = get_font(38)
-    draw.text((64, 56), source[:24], font=font_src, fill=(255, 255, 255, 200))
-
-    # 标题
-    font_title = get_font(58)
-    lines = wrap_text(title, font_title, W - 128, draw, max_lines=4)
-    y = 190
-    for line in lines:
-        draw.text((64, y), line, font=font_title, fill=(255, 255, 255))
-        y += 78
-
-    # 底部装饰
-    font_foot = get_font(28)
-    draw.text((64, H - 72), "RSS · Telegram", font=font_foot, fill=(255, 255, 255, 110))
-
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    img.save(out_path, "JPEG", quality=88)
-    return out_path
-
-
-def get_placeholder(title, source):
-    """占位图带本地缓存，避免重复渲染"""
-    key = hashlib.md5((source + "|" + title).encode("utf-8")).hexdigest()[:16]
-    path = os.path.join(PLACEHOLDER_DIR, f"{key}.jpg")
-    if os.path.exists(path):
-        return path
-    return make_placeholder(title, source, path)
 
 
 # --------------------------------------------------------------------------
@@ -516,7 +440,7 @@ def send_photo(article, image_path_or_url):
 
 
 def send_text(article):
-    """纯文本兜底（图片上传失败或源带有超长内容时）"""
+    """发送纯文本消息（无配图时使用）"""
     api = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     resp = requests.post(api, data={
         "chat_id": TELEGRAM_CHANNEL_ID,
@@ -529,35 +453,36 @@ def send_text(article):
 
 
 def push_article(article):
-    """推送单条，返回是否成功"""
+    """推送单条：有配图发图片卡片，无配图发纯文字。返回是否成功"""
     if DRY_RUN:
-        log(f"  [dry-run] {article['source']} | {article['title'][:40]}")
+        kind = "图片卡片" if article["image"] else "纯文字"
+        log(f"  [dry-run] [{kind}] {article['source']} | {article['title'][:40]}")
         log(f"            link={article['link']}")
-        log(f"            image={article['image'] or '(需生成占位图)'}")
+        if article["image"]:
+            log(f"            image={article['image']}")
         return True
 
-    photo = article["image"]
-    if not photo:
-        photo = get_placeholder(article["title"], article["source"])
+    # 有配图 → 图片卡片；无配图 → 纯文字，不生成占位图
+    if not article["image"]:
+        try:
+            send_text(article)
+            return True
+        except Exception as e:
+            log(f"  [sendMessage failed] {type(e).__name__}: {e}")
+            return False
 
     try:
-        send_photo(article, photo)
+        send_photo(article, article["image"])
         return True
     except Exception as e:
         log(f"  [sendPhoto failed] {type(e).__name__}: {e}")
-        # 图片链接失效时改用占位图重试一次
-        if isinstance(photo, str) and photo.startswith("http"):
-            try:
-                send_photo(article, get_placeholder(article["title"], article["source"]))
-                return True
-            except Exception as e2:
-                log(f"  [placeholder failed] {type(e2).__name__}: {e2}")
+        # 图片链接失效时降级为纯文本
         try:
             send_text(article)
-            log("  [fallback] 已改为纯文本发送")
+            log("  [fallback] 图片发送失败，已改为纯文本发送")
             return True
-        except Exception as e3:
-            log(f"  [text failed] {type(e3).__name__}: {e3}")
+        except Exception as e2:
+            log(f"  [sendMessage failed] {type(e2).__name__}: {e2}")
             return False
 
 
