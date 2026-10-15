@@ -1,4 +1,19 @@
 {
+  "https://baoyu.io/blog/2026-07-06/claudedevs-2074208949205881033": {
+    "pushed_at": "2026-10-15T07:08:43",
+    "source": "宝玉的分享",
+    "title": "从零开始玩转循环 (Getting started with loops)"
+  },
+  "https://baoyu.io/blog/2026-07-12/caveman-token-saving-test": {
+    "pushed_at": "2026-10-15T07:08:38",
+    "source": "宝玉的分享",
+    "title": "“母病速归”式 AI：号称省 65% Token，实测只有 8.5%"
+  },
+  "https://baoyu.io/blog/2026-07-28/agent-judgments": {
+    "pushed_at": "2026-10-15T07:08:36",
+    "source": "宝玉的分享",
+    "title": "关于 Agent 的几个判断"
+  },
   "https://baoyu.io/blog/2026-08-24/ai-native-dev-workflow": {
     "pushed_at": "2026-10-15T06:34:50",
     "source": "宝玉的分享",
@@ -13,6 +28,16 @@
     "pushed_at": "2026-10-15T06:34:45",
     "source": "宝玉的分享",
     "title": "AI 原生思维——像训练大模型一样训练自己"
+  },
+  "https://baoyu.io/blog/chatgpt-work-codex-guide": {
+    "pushed_at": "2026-10-15T07:08:40",
+    "source": "宝玉的分享",
+    "title": "一文看懂ChatGPT、Codex、Work 的差别"
+  },
+  "https://baoyu.io/blog/coding-agent-em-shift": {
+    "pushed_at": "2026-10-15T07:08:33",
+    "source": "宝玉的分享",
+    "title": "从 TL 到 EM：我终于不再盯着 AI 写代码了"
   },
   "https://baoyu.io/blog/gpt-6-astra-peach-blossom-land": {
     "pushed_at": "2026-10-15T06:34:41",
@@ -39,15 +64,45 @@
     "source": "少数派",
     "title": "家中、这里、那里——Sonos Play 体验"
   },
+  "https://sspai.com/post/115400": {
+    "pushed_at": "2026-10-15T07:07:15",
+    "source": "少数派",
+    "title": "App+1 | 我做了一个专为「P 人」和 ADHD 设计的精力管理 App"
+  },
   "https://sspai.com/post/115426": {
     "pushed_at": "2026-10-15T06:33:20",
     "source": "少数派",
     "title": "带给摄影师更多自由：Austin Mann 评 iPhone 18 Pro 影像体验"
   },
+  "https://sspai.com/post/116068": {
+    "pushed_at": "2026-10-15T07:07:12",
+    "source": "少数派",
+    "title": "社区速递 161 | 小米手表 S5、EVA 联名香水与换机热议"
+  },
+  "https://sspai.com/post/116109": {
+    "pushed_at": "2026-10-15T07:07:04",
+    "source": "少数派",
+    "title": "众测招募 | 从客厅到耳畔，Sonos 双新品 Beam Ultra 与 Ace Ultra 抢先体验"
+  },
+  "https://sspai.com/post/116138": {
+    "pushed_at": "2026-10-15T07:07:10",
+    "source": "少数派",
+    "title": "派早报：Apple 发布 HomePod mini 2、HomeView 等新品"
+  },
   "https://sspai.com/post/116193": {
     "pushed_at": "2026-10-15T06:33:15",
     "source": "少数派",
     "title": "派早报：Mozilla 推出企业版火狐浏览器、DLSS 5 最新模型即将推送等"
+  },
+  "https://sspai.com/post/92653": {
+    "pushed_at": "2026-10-15T07:07:07",
+    "source": "少数派",
+    "title": "已经能测夜间体征的 Apple Watch，为什么要再做一个睡眠呼吸暂停提醒"
+  },
+  "https://www.appinn.com/10-tools-github": {
+    "pushed_at": "2026-10-15T07:08:13",
+    "source": "小众软件",
+    "title": "10 个有意思的 GitHub 项目：比亚迪用上 CarPlay、翻译扫描 PDF，还有一本人生指南"
   },
   "https://www.appinn.com/bin456789-reinstall": {
     "pushed_at": "2026-10-15T06:34:23",
@@ -59,6 +114,16 @@
     "source": "小众软件",
     "title": "发现频道：10款大家发现的好评软件[2026年第41期]"
   },
+  "https://www.appinn.com/fsearch-for-macos": {
+    "pushed_at": "2026-10-15T07:08:18",
+    "source": "小众软件",
+    "title": "比 Finder 快 17000 倍？开源 macOS 全盘文件搜索工具：FSearch"
+  },
+  "https://www.appinn.com/iterm2-buddy-self-hosted-relay-server": {
+    "pushed_at": "2026-10-15T07:08:20",
+    "source": "小众软件",
+    "title": "为 iTerm2 Buddy 自托管中继服务器，加速手机连接 Mac 终端速度"
+  },
   "https://www.appinn.com/listary-v7-1": {
     "pushed_at": "2026-10-15T06:34:19",
     "source": "小众软件",
@@ -68,6 +133,16 @@
     "pushed_at": "2026-10-15T06:34:24",
     "source": "小众软件",
     "title": "MicYou for iOS – 老 iPhone 又有新用途：变成电脑麦克风，免费开源"
+  },
+  "https://www.appinn.com/omdrop-owl": {
+    "pushed_at": "2026-10-15T07:08:14",
+    "source": "小众软件",
+    "title": "苹果隔空投送 AirDrop 已被逆向成功，正在被搬到普通电脑上｜omdrop-owl"
+  },
+  "https://www.appinn.com/strata": {
+    "pushed_at": "2026-10-15T07:08:16",
+    "source": "小众软件",
+    "title": "8GB显存就够，Strata 让普通电脑也能运行千亿参数大模型"
   },
   "https://www.appinn.com/synology-7-4-1-90080-update-1-mportant-update": {
     "pushed_at": "2026-10-15T06:34:21",
@@ -79,6 +154,21 @@
     "source": "爱范儿",
     "title": "Nothing Headphone (1) Pro 体验：全面晋级，当旗舰头戴也开始玩多单元"
   },
+  "https://www.ifanr.com/1684204": {
+    "pushed_at": "2026-10-15T07:08:11",
+    "source": "爱范儿",
+    "title": "我建议你马上更新，国行 Apple Watch 终于等来这个「救命功能」！"
+  },
+  "https://www.ifanr.com/1684241": {
+    "pushed_at": "2026-10-15T07:08:09",
+    "source": "爱范儿",
+    "title": "‌​‌⁤‌⁢​​​​​‬⁣⁣⁢⁢⁡⁡⁢​⁡‌​‬‍⁤⁢‌﻿⁡⁤⁡⁣⁡⁤﻿​‌​⁢​⁤⁤‌⁢​‬⁣⁡刚刚，Gemini 4 发布！性价比「斩杀」GPT-6 和 Opus 5.5，重回御三家"
+  },
+  "https://www.ifanr.com/1684269": {
+    "pushed_at": "2026-10-15T07:08:07",
+    "source": "爱范儿",
+    "title": "刚刚，Anthropic 宣布弃用Git，统治编程20年的工具顶不住AI了"
+  },
   "https://www.ifanr.com/1684288": {
     "pushed_at": "2026-10-15T06:34:17",
     "source": "爱范儿",
@@ -88,6 +178,11 @@
     "pushed_at": "2026-10-15T06:34:14",
     "source": "爱范儿",
     "title": "苹果 HomeView 上手汇总：「果家」首秀小惊艳，SiriAI 很聪明"
+  },
+  "https://www.ifanr.com/1684374": {
+    "pushed_at": "2026-10-15T07:08:05",
+    "source": "爱范儿",
+    "title": "早报｜iPhone Duo完成大模型备案，有望12月上线/企业微信与WorkBuddy打通/OPPO与Manus官宣合作"
   },
   "https://www.ithome.com/1/013/360.htm": {
     "pushed_at": "2026-10-15T06:33:31",
@@ -114,6 +209,56 @@
     "source": "IT之家",
     "title": "全球金融监管标准制定机构呼吁：银行、企业要加强对 AI 智能体的人工监管"
   },
+  "https://www.ithome.com/1/013/423.htm": {
+    "pushed_at": "2026-10-15T07:07:25",
+    "source": "IT之家",
+    "title": "科学家发现银河系行星系统存在两类“家族”，宿主恒星决定其演化命运"
+  },
+  "https://www.ithome.com/1/013/424.htm": {
+    "pushed_at": "2026-10-15T07:07:23",
+    "source": "IT之家",
+    "title": "新增多地支持国补：华为 FreeClip 2 耳夹耳机 1299 → 978 元京东探底"
+  },
+  "https://www.ithome.com/1/013/425.htm": {
+    "pushed_at": "2026-10-15T07:07:21",
+    "source": "IT之家",
+    "title": "5999 → 1494 元：石头 H1 分子筛洗烘一体机新低，12kg 一键洗完烘干直接穿"
+  },
+  "https://www.ithome.com/1/013/426.htm": {
+    "pushed_at": "2026-10-15T07:07:19",
+    "source": "IT之家",
+    "title": "NASA 毅力号发现潜在生物特征样本，然而火星样本返回计划早已取消"
+  },
+  "https://www.ithome.com/1/013/427.htm": {
+    "pushed_at": "2026-10-15T07:07:17",
+    "source": "IT之家",
+    "title": "WhatsApp 现已支持无账户用户加入音视频通话"
+  },
+  "https://www.qbitai.com/2026/10/503201.html": {
+    "pushed_at": "2026-10-15T07:07:51",
+    "source": "量子位",
+    "title": "STEPX首款大模型原生智能体手机STEPX Neo正式发布"
+  },
+  "https://www.qbitai.com/2026/10/503211.html": {
+    "pushed_at": "2026-10-15T07:07:48",
+    "source": "量子位",
+    "title": "《变形计》综艺赛博复活，AI版MrBeast爆火，LibTV下场「造星」了"
+  },
+  "https://www.qbitai.com/2026/10/503231.html": {
+    "pushed_at": "2026-10-15T07:07:46",
+    "source": "量子位",
+    "title": "智能不出彩的「领克」，刚靠一次坠崖事故出圈了"
+  },
+  "https://www.qbitai.com/2026/10/503244.html": {
+    "pushed_at": "2026-10-15T07:07:44",
+    "source": "量子位",
+    "title": "阶跃终端首款「Agent手机」STEPX Neo正式发布，创客先行"
+  },
+  "https://www.qbitai.com/2026/10/503294.html": {
+    "pushed_at": "2026-10-15T07:07:41",
+    "source": "量子位",
+    "title": "抢先盘点2026全球开发者先锋大会暨国际具身智能技能大赛十大亮点！"
+  },
   "https://www.qbitai.com/2026/10/503303.html": {
     "pushed_at": "2026-10-15T06:33:57",
     "source": "量子位",
@@ -138,6 +283,21 @@
     "pushed_at": "2026-10-15T06:33:46",
     "source": "量子位",
     "title": "全球首款 ！中国团队把游戏世界模型塞进一张5090，还开源了"
+  },
+  "https://www.solidot.org/story?sid=85608": {
+    "pushed_at": "2026-10-15T07:07:38",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "NetBSD 成为反 AI 开发者青睐的开源操作系统"
+  },
+  "https://www.solidot.org/story?sid=85609": {
+    "pushed_at": "2026-10-15T07:07:36",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "韦伯望远镜发现一颗熔岩行星存在大气"
+  },
+  "https://www.solidot.org/story?sid=85610": {
+    "pushed_at": "2026-10-15T07:07:33",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "水产养殖未减轻过度捕捞问题"
   },
   "https://www.solidot.org/story?sid=85611": {
     "pushed_at": "2026-10-15T06:33:44",
@@ -164,6 +324,21 @@
     "source": "奇客Solidot–传递最新科技情报",
     "title": "研究估计到 2050 年每年新增痴呆症人数将会翻倍"
   },
+  "https://www.solidot.org/story?sid=85616": {
+    "pushed_at": "2026-10-15T07:07:31",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "美国八个州起诉 OpenAI 称 ChatGPT 伤害年轻用户"
+  },
+  "https://www.solidot.org/story?sid=85617": {
+    "pushed_at": "2026-10-15T07:07:28",
+    "source": "奇客Solidot–传递最新科技情报",
+    "title": "Microsoft Defender 支持 Linux 桌面"
+  },
+  "https://yihui.org/cn/2025/12/white-moonlight": {
+    "pushed_at": "2026-10-15T07:08:31",
+    "source": "日志 on Yihui Xie | 谢益辉",
+    "title": "白月光"
+  },
   "https://yihui.org/cn/2026/01/bressanone": {
     "pushed_at": "2026-10-15T06:34:31",
     "source": "日志 on Yihui Xie | 谢益辉",
@@ -173,6 +348,11 @@
     "pushed_at": "2026-10-15T06:34:33",
     "source": "日志 on Yihui Xie | 谢益辉",
     "title": "寒武纪"
+  },
+  "https://yihui.org/cn/2026/01/farewell-song": {
+    "pushed_at": "2026-10-15T07:08:24",
+    "source": "日志 on Yihui Xie | 谢益辉",
+    "title": "离歌"
   },
   "https://yihui.org/cn/2026/01/flying-tears": {
     "pushed_at": "2026-10-15T06:34:35",
@@ -184,9 +364,24 @@
     "source": "日志 on Yihui Xie | 谢益辉",
     "title": "我心似海洋"
   },
+  "https://yihui.org/cn/2026/01/love-still": {
+    "pushed_at": "2026-10-15T07:08:29",
+    "source": "日志 on Yihui Xie | 谢益辉",
+    "title": "我依然爱你"
+  },
+  "https://yihui.org/cn/2026/01/peach-blossom": {
+    "pushed_at": "2026-10-15T07:08:26",
+    "source": "日志 on Yihui Xie | 谢益辉",
+    "title": "乱世桃花"
+  },
   "https://yihui.org/cn/2026/01/ripple": {
     "pushed_at": "2026-10-15T06:34:38",
     "source": "日志 on Yihui Xie | 谢益辉",
     "title": "荡漾"
+  },
+  "https://yihui.org/cn/2026/01/toast": {
+    "pushed_at": "2026-10-15T07:08:22",
+    "source": "日志 on Yihui Xie | 谢益辉",
+    "title": "将进酒"
   }
 }
