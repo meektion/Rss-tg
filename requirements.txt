@@ -1,7 +1,4 @@
-aiohttp==3.8.6
-feedparser==6.0.10
-beautifulsoup4==4.12.2
-requests
-beautifulsoup4
-python-telegram-bot
-python-dotenv
+feedparser==6.0.11
+beautifulsoup4==4.12.3
+requests==2.32.3
+Pillow==10.4.0
