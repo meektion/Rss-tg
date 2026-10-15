@@ -169,9 +169,13 @@ def normalize_link(link):
 
 
 def clean_html(raw):
-    """HTML 转纯文本"""
+    """HTML 转纯文本（无标签的纯文本直接返回，避免 BeautifulSoup 误判为文件名）"""
     if not raw:
         return ""
+    raw = str(raw)
+    # 不含任何标签时无需解析，直接规范化空白
+    if "<" not in raw or ">" not in raw:
+        return re.sub(r"\s+", " ", html.unescape(raw)).strip()
     soup = BeautifulSoup(raw, "html.parser")
     for tag in soup(["script", "style"]):
         tag.decompose()
@@ -599,6 +603,7 @@ def main():
         articles = articles[:MAX_ARTICLES_PER_RUN]
 
     ok = 0
+    fail = 0
     for article in articles:
         if push_article(article):
             ok += 1
@@ -607,10 +612,20 @@ def main():
                 "source": article["source"],
                 "pushed_at": dt.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
             }
+        else:
+            fail += 1
         time.sleep(1.2)  # 温和限速，避免触发 Telegram 频率限制
 
-    log(f"[done] 成功推送 {ok}/{len(articles)} 条")
+    log(f"[done] 成功推送 {ok}/{len(articles)} 条，失败 {fail} 条")
     save_cache(cache)
+
+    # 全部失败通常意味着 Token / 频道配置有问题，必须让 CI 变红，避免静默空跑
+    if articles and fail == len(articles):
+        raise SystemExit(
+            f"全部 {fail} 条推送失败，请检查 TELEGRAM_BOT_TOKEN 与 TELEGRAM_CHANNEL_ID 是否正确"
+        )
+    if fail:
+        log(f"[warn] 有 {fail} 条推送失败，失败项未写入缓存，下次运行会自动重试")
 
 
 if __name__ == "__main__":
