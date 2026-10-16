@@ -269,6 +269,11 @@
     "source": "Cloudflare Blog",
     "title": "Cloudflare和OpenAI：让每个人都能更好地发现AI"
   },
+  "https://blog.cloudflare.com/cloudflare-tracing": {
+    "pushed_at": "2026-10-16T04:09:10",
+    "source": "Cloudflare Blog",
+    "title": "推出 Cloudflare Traces：跟踪请求贯穿我们整个平台"
+  },
   "https://blog.cloudflare.com/d1-control-plane": {
     "pushed_at": "2026-10-15T13:07:31",
     "source": "Cloudflare Blog",
@@ -288,6 +293,11 @@
     "pushed_at": "2026-10-15T13:07:30",
     "source": "Cloudflare Blog",
     "title": "Hyperdrive内部：我们如何解决一个罕见的Hyperdrive MySQL缓存错误"
+  },
+  "https://blog.cloudflare.com/introducing-web-search-api": {
+    "pushed_at": "2026-10-16T04:09:10",
+    "source": "Cloudflare Blog",
+    "title": "通过 AI Gateway 推出 Web Search API"
   },
   "https://blog.cloudflare.com/one-observability-platform": {
     "pushed_at": "2026-10-16T03:44:24",
@@ -318,6 +328,11 @@
     "pushed_at": "2026-10-15T19:44:04",
     "source": "Cloudflare Blog",
     "title": "The keys to the Internet change on October 11. Are you ready?"
+  },
+  "https://blog.cloudflare.com/streamline": {
+    "pushed_at": "2026-10-16T04:09:10",
+    "source": "Cloudflare Blog",
+    "title": "Streamline：使用 Cloudflare Stream 和 Workers 构建自定义视频管道"
   },
   "https://blog.cloudflare.com/transformers-on-logpush": {
     "pushed_at": "2026-10-15T08:14:31",
@@ -804,6 +819,11 @@
     "source": "The GitHub Blog",
     "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers"
   },
+  "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org": {
+    "pushed_at": "2026-10-16T04:09:12",
+    "source": "The GitHub Blog",
+    "title": "保持常青：我们如何在共享组织中实现安全访问和仓库卫生的自动化"
+  },
   "https://github.blog/news-insights/company-news/github-availability-report-september-2026": {
     "pushed_at": "2026-10-15T08:14:32",
     "source": "The GitHub Blog",
@@ -1114,6 +1134,21 @@
     "source": "Blog on Qwen",
     "title": "…QwQ-Max-Preview"
   },
+  "https://simonwillison.net/2026/Oct/10/python-actions": {
+    "pushed_at": "2026-10-16T04:09:05",
+    "source": "Simon Willison's Weblog",
+    "title": "Python 3.15.0 已添加到 actions/python-versions"
+  },
+  "https://simonwillison.net/2026/Oct/11/dwarf-fortress": {
+    "pushed_at": "2026-10-16T04:09:05",
+    "source": "Simon Willison's Weblog",
+    "title": "《矮人要塞》现在使用版本控制了"
+  },
+  "https://simonwillison.net/2026/Oct/12/datasette-ports": {
+    "pushed_at": "2026-10-16T04:09:05",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette-ports 0.4"
+  },
   "https://simonwillison.net/2026/Oct/12/llm-meta-ai": {
     "pushed_at": "2026-10-16T03:44:20",
     "source": "Simon Willison's Weblog",
@@ -1123,6 +1158,16 @@
     "pushed_at": "2026-10-16T03:44:20",
     "source": "Simon Willison's Weblog",
     "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11"
+  },
+  "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling": {
+    "pushed_at": "2026-10-16T04:09:05",
+    "source": "Simon Willison's Weblog",
+    "title": "使用 Python 3.15 分析 Web 编辑：火焰图与源码热力图"
+  },
+  "https://simonwillison.net/2026/Oct/12/web-edit": {
+    "pushed_at": "2026-10-16T04:09:05",
+    "source": "Simon Willison's Weblog",
+    "title": "web-edit 0.1a0"
   },
   "https://simonwillison.net/2026/Oct/13/geoffrey-huntley": {
     "pushed_at": "2026-10-16T03:44:20",
@@ -1788,6 +1833,16 @@
     "pushed_at": "2026-10-15T06:33:46",
     "source": "量子位",
     "title": "全球首款 ！中国团队把游戏世界模型塞进一张5090，还开源了"
+  },
+  "https://www.qbitai.com/2026/10/503434.html": {
+    "pushed_at": "2026-10-16T04:09:08",
+    "source": "量子位",
+    "title": "刚刚，苹果正式迈入5万亿美元时代"
+  },
+  "https://www.qbitai.com/2026/10/503446.html": {
+    "pushed_at": "2026-10-16T04:09:08",
+    "source": "量子位",
+    "title": "前华为小艺大模型负责人创业，押注“主动式物理AI”"
   },
   "https://www.qbitai.com/2026/10/503497.html": {
     "pushed_at": "2026-10-16T03:44:22",
