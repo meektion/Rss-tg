@@ -1,4 +1,29 @@
 {
+  "http://bair.berkeley.edu/blog/2025/09/01/qwem-word2vec-theory": {
+    "pushed_at": "2026-10-16T03:11:05",
+    "source": "The Berkeley Artificial Intelligence Research Blog",
+    "title": "What exactly does word2vec learn?"
+  },
+  "http://bair.berkeley.edu/blog/2025/11/01/rl-without-td-learning": {
+    "pushed_at": "2026-10-16T03:11:05",
+    "source": "The Berkeley Artificial Intelligence Research Blog",
+    "title": "RL without TD learning"
+  },
+  "http://bair.berkeley.edu/blog/2026/01/10/information-driven-imaging": {
+    "pushed_at": "2026-10-16T03:11:05",
+    "source": "The Berkeley Artificial Intelligence Research Blog",
+    "title": "Information-Driven Design of Imaging Systems"
+  },
+  "http://bair.berkeley.edu/blog/2026/03/13/spex": {
+    "pushed_at": "2026-10-16T03:11:05",
+    "source": "The Berkeley Artificial Intelligence Research Blog",
+    "title": "Identifying Interactions at Scale for LLMs"
+  },
+  "http://bair.berkeley.edu/blog/2026/04/20/grasp": {
+    "pushed_at": "2026-10-16T03:11:05",
+    "source": "The Berkeley Artificial Intelligence Research Blog",
+    "title": "Gradient-based Planning for World Models at Longer Horizons"
+  },
   "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning": {
     "pushed_at": "2026-10-16T02:35:45",
     "source": "The Berkeley Artificial Intelligence Research Blog",
@@ -29,20 +54,45 @@
     "source": "Artificial Intelligence",
     "title": "Build self-improving document processing using Amazon Bedrock AgentCore"
   },
+  "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments": {
+    "pushed_at": "2026-10-16T03:11:03",
+    "source": "Artificial Intelligence",
+    "title": "Building agents that transact with Anchor Browser and AgentCore payments"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/deploy-and-evaluate-models-with-amazon-sagemaker-jumpstart": {
+    "pushed_at": "2026-10-16T03:11:03",
+    "source": "Artificial Intelligence",
+    "title": "Deploy and evaluate models with Amazon SageMaker JumpStart"
+  },
   "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore": {
     "pushed_at": "2026-10-16T02:35:43",
     "source": "Artificial Intelligence",
     "title": "Generate presentations with Amazon Bedrock AgentCore"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore": {
+    "pushed_at": "2026-10-16T03:11:03",
+    "source": "Artificial Intelligence",
+    "title": "How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore"
   },
   "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock": {
     "pushed_at": "2026-10-16T02:35:43",
     "source": "Artificial Intelligence",
     "title": "How Tamnoon built AI-powered cloud security remediation with Amazon Bedrock"
   },
+  "https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements": {
+    "pushed_at": "2026-10-16T03:11:03",
+    "source": "Artificial Intelligence",
+    "title": "Manage private pricing offers for Amazon Bedrock with managed entitlements"
+  },
   "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart": {
     "pushed_at": "2026-10-16T02:35:43",
     "source": "Artificial Intelligence",
     "title": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock": {
+    "pushed_at": "2026-10-16T03:11:03",
+    "source": "Artificial Intelligence",
+    "title": "Natural language security queries at Orca Security using Amazon Bedrock"
   },
   "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control": {
     "pushed_at": "2026-10-16T02:35:43",
@@ -254,10 +304,35 @@
     "source": "News from Google",
     "title": "氩来到双子座的应用程序。"
   },
+  "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people": {
+    "pushed_at": "2026-10-16T03:10:55",
+    "source": "AI",
+    "title": "Building AI to accelerate science and improve lives"
+  },
+  "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact": {
+    "pushed_at": "2026-10-16T03:10:55",
+    "source": "AI",
+    "title": "AI for Societal Impact"
+  },
+  "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench": {
+    "pushed_at": "2026-10-16T03:10:55",
+    "source": "AI",
+    "title": "New experts join Google’s AI & Economy team"
+  },
   "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026": {
     "pushed_at": "2026-10-16T02:35:35",
     "source": "AI",
     "title": "The latest AI news we announced in September 2026"
+  },
+  "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week": {
+    "pushed_at": "2026-10-16T03:10:55",
+    "source": "AI",
+    "title": "Co-creating the future of fashion with Google"
+  },
+  "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform": {
+    "pushed_at": "2026-10-16T03:10:55",
+    "source": "AI",
+    "title": "Making global data easier to explore"
   },
   "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform": {
     "pushed_at": "2026-10-16T02:35:35",
@@ -334,10 +409,25 @@
     "source": "NVIDIA Blog",
     "title": "英伟达通过开放学习资源、协作和计算，为欧洲科学界扩展先进技术"
   },
+  "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations": {
+    "pushed_at": "2026-10-16T03:10:57",
+    "source": "NVIDIA Blog",
+    "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations"
+  },
+  "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing": {
+    "pushed_at": "2026-10-16T03:10:57",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Announces New Investments in France’s Startups"
+  },
   "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update": {
     "pushed_at": "2026-10-16T02:35:37",
     "source": "NVIDIA Blog",
     "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW"
+  },
+  "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates": {
+    "pushed_at": "2026-10-16T03:10:57",
+    "source": "NVIDIA Blog",
+    "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark"
   },
   "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite": {
     "pushed_at": "2026-10-16T02:35:37",
@@ -354,25 +444,60 @@
     "source": "NVIDIA Blog",
     "title": "当一个地区致力于高级计算时，北欧和NVIDIA展示了什么是可能的"
   },
+  "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories": {
+    "pushed_at": "2026-10-16T03:10:57",
+    "source": "NVIDIA Blog",
+    "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide"
+  },
+  "https://blogs.nvidia.com/blog/uk-ecosystem-deployment": {
+    "pushed_at": "2026-10-16T03:10:57",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Announces New Investments in the UK Startup Ecosystem"
+  },
   "https://deepmind.google/blog/accelerating-antimicrobial-discovery": {
     "pushed_at": "2026-10-16T02:35:34",
     "source": "Google DeepMind News",
     "title": "Accelerating the search for antimicrobial peptides with Google Antigravity"
+  },
+  "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory": {
+    "pushed_at": "2026-10-16T03:10:53",
+    "source": "Google DeepMind News",
+    "title": "Advancing Private AI Compute with secure, server-side memory"
   },
   "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely": {
     "pushed_at": "2026-10-16T02:35:34",
     "source": "Google DeepMind News",
     "title": "Developing Gemini 4 Argon responsibly and safely"
   },
+  "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model": {
+    "pushed_at": "2026-10-16T03:10:53",
+    "source": "Google DeepMind News",
+    "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model"
+  },
   "https://deepmind.google/blog/gemini-4-argon-for-robotics": {
     "pushed_at": "2026-10-16T02:35:34",
     "source": "Google DeepMind News",
     "title": "Gemini 4 Argon for Robotics"
   },
+  "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence": {
+    "pushed_at": "2026-10-16T03:10:53",
+    "source": "Google DeepMind News",
+    "title": "Gemini 4 Argon: our next era of frontier intelligence"
+  },
+  "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar": {
+    "pushed_at": "2026-10-16T03:10:53",
+    "source": "Google DeepMind News",
+    "title": "Introducing Gemini 3.8 Live with Live Avatar"
+  },
   "https://deepmind.google/blog/introducing-gemini-4-argon": {
     "pushed_at": "2026-10-16T02:35:34",
     "source": "Google DeepMind News",
     "title": "Gemini 4 Argon: Built to solve your hardest problems"
+  },
+  "https://deepmind.google/blog/introducing-synthid-bio": {
+    "pushed_at": "2026-10-16T03:10:53",
+    "source": "Google DeepMind News",
+    "title": "Introducing SynthID Bio"
   },
   "https://deepmind.google/blog/on-device-ai-scam-detection-mddi": {
     "pushed_at": "2026-10-16T02:35:34",
@@ -499,10 +624,30 @@
     "source": "Apple Machine Learning Research",
     "title": "Code-Switching Detection via Language-Selective Dimensions in Speech Foundation Models"
   },
+  "https://machinelearning.apple.com/research/distributed-gpu-cloud": {
+    "pushed_at": "2026-10-16T03:11:01",
+    "source": "Apple Machine Learning Research",
+    "title": "Minions：基于闲置苹果硅设备的动态分布式虚拟GPU云"
+  },
+  "https://machinelearning.apple.com/research/llm-translation-quality-annotation": {
+    "pushed_at": "2026-10-16T03:11:01",
+    "source": "Apple Machine Learning Research",
+    "title": "面向机器翻译质量标注的大型语言模型：人和模型都面临挑战"
+  },
+  "https://machinelearning.apple.com/research/mix-dont-tune": {
+    "pushed_at": "2026-10-16T03:11:01",
+    "source": "Apple Machine Learning Research",
+    "title": "混合，不要调整：双语预训练在数据约束设置中优于超参数搜索"
+  },
   "https://machinelearning.apple.com/research/mlx-distributed-inference": {
     "pushed_at": "2026-10-16T02:35:41",
     "source": "Apple Machine Learning Research",
     "title": "Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio"
+  },
+  "https://machinelearning.apple.com/research/normalizing-trajectory-models": {
+    "pushed_at": "2026-10-16T03:11:01",
+    "source": "Apple Machine Learning Research",
+    "title": "Normalizing Trajectory Models"
   },
   "https://machinelearning.apple.com/research/plan-retrieve-tool-discovery": {
     "pushed_at": "2026-10-16T02:35:41",
@@ -513,6 +658,11 @@
     "pushed_at": "2026-10-16T02:35:41",
     "source": "Apple Machine Learning Research",
     "title": "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents"
+  },
+  "https://machinelearning.apple.com/research/self-compacting-language-agents": {
+    "pushed_at": "2026-10-16T03:11:01",
+    "source": "Apple Machine Learning Research",
+    "title": "Self-Compacting Language Model Agents"
   },
   "https://machinelearning.apple.com/research/tri-modal-masked-diffusion": {
     "pushed_at": "2026-10-16T02:35:41",
@@ -569,6 +719,21 @@
     "source": "OpenAI News",
     "title": "Amp puts AI agents to work beyond code with OpenAI models"
   },
+  "https://openai.com/index/asana-browser-agent": {
+    "pushed_at": "2026-10-16T03:10:50",
+    "source": "OpenAI News",
+    "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
+  },
+  "https://openai.com/index/block-ai-powered-security": {
+    "pushed_at": "2026-10-16T03:10:50",
+    "source": "OpenAI News",
+    "title": "Block如何利用OpenAI技术构建人工智能安全"
+  },
+  "https://openai.com/index/higgsfield-longer-videos-voice": {
+    "pushed_at": "2026-10-16T03:10:50",
+    "source": "OpenAI News",
+    "title": "Higgsfield takes AI video from 1 minute to over 10"
+  },
   "https://openai.com/index/introducing-the-rosalind-academic-plan": {
     "pushed_at": "2026-10-16T02:35:32",
     "source": "OpenAI News",
@@ -589,6 +754,16 @@
     "source": "OpenAI News",
     "title": "教学生通过问题思考和学习"
   },
+  "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic": {
+    "pushed_at": "2026-10-16T03:10:50",
+    "source": "OpenAI News",
+    "title": "欧盟在人工智能领域的下一个篇章是实实在在的"
+  },
+  "https://openai.com/index/third-moment-research": {
+    "pushed_at": "2026-10-16T03:10:50",
+    "source": "OpenAI News",
+    "title": "第三时刻研究公司是如何在36小时以上的时间里运行10000个座席的"
+  },
   "https://qwenlm.github.io/blog/gspo": {
     "pushed_at": "2026-10-16T02:35:39",
     "source": "Blog on Qwen",
@@ -608,6 +783,31 @@
     "pushed_at": "2026-10-16T02:35:39",
     "source": "Blog on Qwen",
     "title": "Qwen-MT: Where Speed Meets Smart Translation"
+  },
+  "https://qwenlm.github.io/blog/qwen-tts": {
+    "pushed_at": "2026-10-16T03:10:59",
+    "source": "Blog on Qwen",
+    "title": "Time to Speak Some Dialects, Qwen-TTS!"
+  },
+  "https://qwenlm.github.io/blog/qwen-vlo": {
+    "pushed_at": "2026-10-16T03:10:59",
+    "source": "Blog on Qwen",
+    "title": "Qwen VLo: From \"Understanding\" the World to \"Depicting\" It"
+  },
+  "https://qwenlm.github.io/blog/qwen3": {
+    "pushed_at": "2026-10-16T03:10:59",
+    "source": "Blog on Qwen",
+    "title": "Qwen3: Think Deeper, Act Faster"
+  },
+  "https://qwenlm.github.io/blog/qwen3-coder": {
+    "pushed_at": "2026-10-16T03:10:59",
+    "source": "Blog on Qwen",
+    "title": "Qwen3-Coder: Agentic Coding in the World"
+  },
+  "https://qwenlm.github.io/blog/qwen3-embedding": {
+    "pushed_at": "2026-10-16T03:10:59",
+    "source": "Blog on Qwen",
+    "title": "Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models"
   },
   "https://qwenlm.github.io/blog/qwen3guard": {
     "pushed_at": "2026-10-16T02:35:39",
