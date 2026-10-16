@@ -109,6 +109,11 @@
     "source": "Artificial Intelligence",
     "title": "Introducing Claude Haiku 5.5 on AWS"
   },
+  "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws": {
+    "pushed_at": "2026-10-16T19:20:12",
+    "source": "Artificial Intelligence",
+    "title": "推出 Reflection Beam：一个用于 AWS 上智能体编程的开源权重模型"
+  },
   "https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements": {
     "pushed_at": "2026-10-16T03:11:03",
     "source": "Artificial Intelligence",
