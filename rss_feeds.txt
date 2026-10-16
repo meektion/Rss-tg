@@ -1,26 +1,26 @@
 # RSS 源列表：每行一个地址，# 开头为注释
 # 支持 RSS 2.0 / Atom，中文源和英文源均可
+# 定位：以「AI 大厂官方动态」为主，少量中文精选
 
-# ---------- 中文科技 / 资讯 ----------
+# ---------- AI 大厂官方 ----------
+https://openai.com/news/rss.xml
+https://deepmind.google/blog/rss.xml
+https://blog.google/technology/ai/rss/
+https://blogs.nvidia.com/feed/
+https://qwenlm.github.io/blog/index.xml
+https://machinelearning.apple.com/rss.xml
+https://engineering.fb.com/feed/
+https://aws.amazon.com/blogs/machine-learning/feed/
+
+# ---------- AI 研究 / 社区 ----------
+https://bair.berkeley.edu/blog/feed.xml
+https://simonwillison.net/atom/everything/
+
+# ---------- 中文精选 ----------
 https://sspai.com/feed
-https://www.ithome.com/rss/
-https://www.solidot.org/index.rss
 https://www.qbitai.com/feed
-https://www.ifanr.com/feed
-https://www.appinn.com/feed/
-https://yihui.org/cn/index.xml
 https://baoyu.io/feed.xml
 
-# ---------- 英文技术博客 ----------
+# ---------- 技术博客 ----------
 https://blog.cloudflare.com/rss
 https://github.blog/feed/
-https://www.databricks.com/feed
-https://blog.google/rss
-https://netflixtechblog.com/feed
-https://engineering.fb.com/feed/
-https://blog.ycombinator.com/feed/
-https://www.elastic.co/blog/feed
-https://www.freecodecamp.org/news/rss/
-https://blog.jetbrains.com/feed/
-https://vercel.com/atom
-https://world.hey.com/dhh/feed.atom
