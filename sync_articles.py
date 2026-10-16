@@ -72,7 +72,19 @@ TRAILING_BLANK_LINES = 2       # 卡片末尾追加的空行数（让底部不�
 KEEP_DAYS = 30                 # 缓存保留天数
 REQUEST_TIMEOUT = 20           # 单次请求超时
 TRANSLATE_ENABLED = True       # 英文标题/摘要自动翻译为中文
-TRANSLATE_TIMEOUT = 10         # 单次翻译请求超时（秒）
+TRANSLATE_TIMEOUT = 20         # 单次翻译请求超时（秒）
+
+# DeepSeek 翻译（推荐）：在 GitHub Secrets 里配置 DEEPSEEK_API_KEY 即生效
+# 未配置时自动退回有道免费接口
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+DEEPSEEK_API_BASE = os.getenv("DEEPSEEK_API_BASE", "https://api.deepseek.com")
+DEEPSEEK_MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
+TRANSLATE_PROMPT = (
+    "你是科技资讯翻译。把用户给的英文标题或摘要译成简洁、地道的简体中文。"
+    "要求：1) 品牌名、公司名、产品名、模型名（如 OpenAI、Gemini、Qwen、NVIDIA）保持英文原样，不要音译或意译；"
+    "2) 只输出译文，不要解释、不要加引号；"
+    "3) 保持原意，不要扩写或删减。"
+)
 
 HEADERS = {
     "User-Agent": (
@@ -112,7 +124,11 @@ def is_mostly_chinese(text):
 
 
 def translate_to_zh(text):
-    """把英文文本翻译成中文；失败或无需翻译时原样返回"""
+    """把英文文本翻译成中文。
+
+    优先用 DeepSeek（懂 AI 术语，品牌名保持原文）；未配置 Key 或调用失败时，
+    退回有道免费接口；都失败则原样返回。
+    """
     if not TRANSLATE_ENABLED or not text or is_mostly_chinese(text):
         return text
 
@@ -120,10 +136,56 @@ def translate_to_zh(text):
     if key in _TRANSLATE_CACHE:
         return _TRANSLATE_CACHE[key]
 
+    result = _translate_by_deepseek(key) or _translate_by_youdao(key)
+
+    _TRANSLATE_CACHE[key] = result or text
+    return result or text
+
+
+def _translate_by_deepseek(text):
+    """用 DeepSeek 翻译；未配置 Key 或失败时返回 None"""
+    if not DEEPSEEK_API_KEY:
+        return None
+    try:
+        resp = requests.post(
+            f"{DEEPSEEK_API_BASE}/chat/completions",
+            headers={
+                "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "model": DEEPSEEK_MODEL,
+                "messages": [
+                    {"role": "system", "content": TRANSLATE_PROMPT},
+                    {"role": "user", "content": text},
+                ],
+                "temperature": 0.2,
+                "max_tokens": 512,
+            },
+            timeout=TRANSLATE_TIMEOUT,
+        )
+        if resp.status_code == 200:
+            data = resp.json()
+            choices = data.get("choices") or []
+            if choices:
+                result = (choices[0].get("message") or {}).get("content", "").strip()
+                # 去掉模型可能包裹的引号
+                result = result.strip('"“”\'')
+                if result:
+                    return result
+        else:
+            log(f"  [deepseek] HTTP {resp.status_code}: {resp.text[:120]}")
+    except Exception as e:
+        log(f"  [deepseek skipped] {type(e).__name__}: {e}")
+    return None
+
+
+def _translate_by_youdao(text):
+    """有道免费接口兜底；失败时返回 None"""
     try:
         resp = requests.get(
             "https://aidemo.youdao.com/trans",
-            params={"q": key, "from": "en", "to": "zh-CHS"},
+            params={"q": text, "from": "en", "to": "zh-CHS"},
             headers=HEADERS,
             timeout=TRANSLATE_TIMEOUT,
         )
@@ -134,13 +196,11 @@ def translate_to_zh(text):
                 if translated:
                     result = "".join(translated).strip()
                     if result:
-                        _TRANSLATE_CACHE[key] = result
                         return result
     except Exception as e:
-        log(f"  [translate skipped] {type(e).__name__}: {e}")
+        log(f"  [youdao skipped] {type(e).__name__}: {e}")
+    return None
 
-    _TRANSLATE_CACHE[key] = text
-    return text
 
 
 def load_feeds():
