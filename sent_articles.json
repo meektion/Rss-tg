@@ -49,6 +49,16 @@
     "source": "The Berkeley Artificial Intelligence Research Blog",
     "title": "从CUDA到MLX: K-Search如何为苹果芯片带来数十年的内核专业知识"
   },
+  "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan": {
+    "pushed_at": "2026-10-16T03:38:54",
+    "source": "Artificial Intelligence",
+    "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock": {
+    "pushed_at": "2026-10-16T03:38:54",
+    "source": "Artificial Intelligence",
+    "title": "在Amazon Bedrock上使用Grok 4.7构建长期代理"
+  },
   "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore": {
     "pushed_at": "2026-10-16T02:35:43",
     "source": "Artificial Intelligence",
@@ -63,6 +73,11 @@
     "pushed_at": "2026-10-16T03:11:03",
     "source": "Artificial Intelligence",
     "title": "Deploy and evaluate models with Amazon SageMaker JumpStart"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai": {
+    "pushed_at": "2026-10-16T03:38:54",
+    "source": "Artificial Intelligence",
+    "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI"
   },
   "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore": {
     "pushed_at": "2026-10-16T02:35:43",
@@ -89,10 +104,20 @@
     "source": "Artificial Intelligence",
     "title": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart"
   },
+  "https://aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai": {
+    "pushed_at": "2026-10-16T03:38:54",
+    "source": "Artificial Intelligence",
+    "title": "Mixture-of-Experts kernel engineering on Amazon SageMaker AI"
+  },
   "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock": {
     "pushed_at": "2026-10-16T03:11:03",
     "source": "Artificial Intelligence",
     "title": "Natural language security queries at Orca Security using Amazon Bedrock"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers": {
+    "pushed_at": "2026-10-16T03:38:54",
+    "source": "Artificial Intelligence",
+    "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers"
   },
   "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control": {
     "pushed_at": "2026-10-16T02:35:43",
@@ -309,10 +334,25 @@
     "source": "AI",
     "title": "Building AI to accelerate science and improve lives"
   },
+  "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026": {
+    "pushed_at": "2026-10-16T03:38:49",
+    "source": "AI",
+    "title": "New insights from Google’s AI & Economy ATLAS"
+  },
+  "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language": {
+    "pushed_at": "2026-10-16T03:38:49",
+    "source": "AI",
+    "title": "AI for everyone in every language"
+  },
   "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact": {
     "pushed_at": "2026-10-16T03:10:55",
     "source": "AI",
     "title": "AI for Societal Impact"
+  },
+  "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch": {
+    "pushed_at": "2026-10-16T03:38:49",
+    "source": "AI",
+    "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery."
   },
   "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench": {
     "pushed_at": "2026-10-16T03:10:55",
@@ -348,6 +388,11 @@
     "pushed_at": "2026-10-15T13:07:42",
     "source": "News from Google",
     "title": "双子座4氩现在可供开发人员使用。"
+  },
+  "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026": {
+    "pushed_at": "2026-10-16T03:38:49",
+    "source": "AI",
+    "title": "DevFest is back"
   },
   "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion": {
     "pushed_at": "2026-10-16T02:35:35",
@@ -389,6 +434,11 @@
     "source": "News from Google",
     "title": "6 ways to trick-or-treat yourself to the ultimate Halloween with Search"
   },
+  "https://blog.google/products-and-platforms/products/search/running-race-training-tips": {
+    "pushed_at": "2026-10-16T03:38:49",
+    "source": "AI",
+    "title": "3 ways to prep for your next big race with Search"
+  },
   "https://blog.google/products-and-platforms/products/shopping/holiday-shopping-when-to-buy-guide": {
     "pushed_at": "2026-10-15T13:07:37",
     "source": "News from Google",
@@ -403,6 +453,16 @@
     "pushed_at": "2026-10-15T09:05:08",
     "source": "News from Google",
     "title": "用新的优先级和分配功能来指导你的广告支出"
+  },
+  "https://blogs.nvidia.com/blog/ai-breast-cancer-startups": {
+    "pushed_at": "2026-10-16T03:38:50",
+    "source": "NVIDIA Blog",
+    "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps"
+  },
+  "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents": {
+    "pushed_at": "2026-10-16T03:38:50",
+    "source": "NVIDIA Blog",
+    "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents"
   },
   "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge": {
     "pushed_at": "2026-10-16T02:35:37",
@@ -424,6 +484,11 @@
     "source": "NVIDIA Blog",
     "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW"
   },
+  "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day": {
+    "pushed_at": "2026-10-16T03:38:50",
+    "source": "NVIDIA Blog",
+    "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW"
+  },
   "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates": {
     "pushed_at": "2026-10-16T03:10:57",
     "source": "NVIDIA Blog",
@@ -433,6 +498,11 @@
     "pushed_at": "2026-10-16T02:35:37",
     "source": "NVIDIA Blog",
     "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark"
+  },
+  "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event": {
+    "pushed_at": "2026-10-16T03:38:50",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents"
   },
   "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl": {
     "pushed_at": "2026-10-16T02:35:37",
@@ -449,6 +519,11 @@
     "source": "NVIDIA Blog",
     "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide"
   },
+  "https://blogs.nvidia.com/blog/telecom-operators-open-models": {
+    "pushed_at": "2026-10-16T03:38:50",
+    "source": "NVIDIA Blog",
+    "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models"
+  },
   "https://blogs.nvidia.com/blog/uk-ecosystem-deployment": {
     "pushed_at": "2026-10-16T03:10:57",
     "source": "NVIDIA Blog",
@@ -463,6 +538,11 @@
     "pushed_at": "2026-10-16T03:10:53",
     "source": "Google DeepMind News",
     "title": "Advancing Private AI Compute with secure, server-side memory"
+  },
+  "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome": {
+    "pushed_at": "2026-10-16T03:38:47",
+    "source": "Google DeepMind News",
+    "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome"
   },
   "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely": {
     "pushed_at": "2026-10-16T02:35:34",
@@ -484,6 +564,11 @@
     "source": "Google DeepMind News",
     "title": "Gemini 4 Argon: our next era of frontier intelligence"
   },
+  "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking": {
+    "pushed_at": "2026-10-16T03:38:47",
+    "source": "Google DeepMind News",
+    "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking"
+  },
   "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar": {
     "pushed_at": "2026-10-16T03:10:53",
     "source": "Google DeepMind News",
@@ -499,10 +584,25 @@
     "source": "Google DeepMind News",
     "title": "Introducing SynthID Bio"
   },
+  "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model": {
+    "pushed_at": "2026-10-16T03:38:47",
+    "source": "Google DeepMind News",
+    "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model"
+  },
   "https://deepmind.google/blog/on-device-ai-scam-detection-mddi": {
     "pushed_at": "2026-10-16T02:35:34",
     "source": "Google DeepMind News",
     "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection"
+  },
+  "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises": {
+    "pushed_at": "2026-10-16T03:38:47",
+    "source": "Google DeepMind News",
+    "title": "Proactive cyber defense for governments and enterprises"
+  },
+  "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech": {
+    "pushed_at": "2026-10-16T03:38:47",
+    "source": "Google DeepMind News",
+    "title": "Gemini 3.8 text-to-speech says hello"
   },
   "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta": {
     "pushed_at": "2026-10-15T13:08:10",
@@ -729,6 +829,11 @@
     "source": "OpenAI News",
     "title": "Block如何利用OpenAI技术构建人工智能安全"
   },
+  "https://openai.com/index/disrupting-ai-enabled-false-front-operations": {
+    "pushed_at": "2026-10-16T03:38:44",
+    "source": "OpenAI News",
+    "title": "Disrupting AI-enabled “false front” operations"
+  },
   "https://openai.com/index/higgsfield-longer-videos-voice": {
     "pushed_at": "2026-10-16T03:10:50",
     "source": "OpenAI News",
@@ -739,10 +844,30 @@
     "source": "OpenAI News",
     "title": "把GPT-Rosalind带到学术研究实验室"
   },
+  "https://openai.com/index/legalon-halves-codex-costs": {
+    "pushed_at": "2026-10-16T03:38:44",
+    "source": "OpenAI News",
+    "title": "LegalOn halves Codex costs while maintaining development speed"
+  },
+  "https://openai.com/index/oracle": {
+    "pushed_at": "2026-10-16T03:38:44",
+    "source": "OpenAI News",
+    "title": "Oracle是如何通过ChatGPT和Codex将每天的工作变成分钟的"
+  },
+  "https://openai.com/index/pollo-ai": {
+    "pushed_at": "2026-10-16T03:38:44",
+    "source": "OpenAI News",
+    "title": "Pollo AI通过OpenAI将创意转化为活动"
+  },
   "https://openai.com/index/sentinelone": {
     "pushed_at": "2026-10-16T02:35:32",
     "source": "OpenAI News",
     "title": "SentinelOne cuts malware analysis from weeks to hours"
+  },
+  "https://openai.com/index/sophos": {
+    "pushed_at": "2026-10-16T03:38:44",
+    "source": "OpenAI News",
+    "title": "Sophos通过OpenAI Daybreak将威胁调查时间缩短了96%"
   },
   "https://openai.com/index/sullivan-cromwell": {
     "pushed_at": "2026-10-16T02:35:32",
@@ -769,6 +894,11 @@
     "source": "Blog on Qwen",
     "title": "GSPO: Towards Scalable Reinforcement Learning for Language Models"
   },
+  "https://qwenlm.github.io/blog/qvq-max-preview": {
+    "pushed_at": "2026-10-16T03:38:53",
+    "source": "Blog on Qwen",
+    "title": "QVQ-Max: Think with Evidence"
+  },
   "https://qwenlm.github.io/blog/qwen-image": {
     "pushed_at": "2026-10-16T02:35:39",
     "source": "Blog on Qwen",
@@ -794,6 +924,16 @@
     "source": "Blog on Qwen",
     "title": "Qwen VLo: From \"Understanding\" the World to \"Depicting\" It"
   },
+  "https://qwenlm.github.io/blog/qwen2.5-omni": {
+    "pushed_at": "2026-10-16T03:38:53",
+    "source": "Blog on Qwen",
+    "title": "Qwen2.5 Omni: See, Hear, Talk, Write, Do It All!"
+  },
+  "https://qwenlm.github.io/blog/qwen2.5-vl-32b": {
+    "pushed_at": "2026-10-16T03:38:53",
+    "source": "Blog on Qwen",
+    "title": "Qwen2.5-VL-32B: Smarter and Lighter"
+  },
   "https://qwenlm.github.io/blog/qwen3": {
     "pushed_at": "2026-10-16T03:10:59",
     "source": "Blog on Qwen",
@@ -813,6 +953,41 @@
     "pushed_at": "2026-10-16T02:35:39",
     "source": "Blog on Qwen",
     "title": "Qwen3Guard：令牌流的实时安全"
+  },
+  "https://qwenlm.github.io/blog/qwq-32b": {
+    "pushed_at": "2026-10-16T03:38:53",
+    "source": "Blog on Qwen",
+    "title": "QwQ-32B：拥抱强化学习的力量"
+  },
+  "https://qwenlm.github.io/blog/qwq-max-preview": {
+    "pushed_at": "2026-10-16T03:38:53",
+    "source": "Blog on Qwen",
+    "title": "…QwQ-Max-Preview"
+  },
+  "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic": {
+    "pushed_at": "2026-10-16T03:38:57",
+    "source": "Simon Willison's Weblog",
+    "title": "Redesigning source control at Anthropic"
+  },
+  "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games": {
+    "pushed_at": "2026-10-16T03:38:57",
+    "source": "Simon Willison's Weblog",
+    "title": "AI is mass decompiling games. That's both awesome and scary."
+  },
+  "https://simonwillison.net/2026/Oct/14/tree-appreciator": {
+    "pushed_at": "2026-10-16T03:38:57",
+    "source": "Simon Willison's Weblog",
+    "title": "Tree Appreciator"
+  },
+  "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors": {
+    "pushed_at": "2026-10-16T03:38:57",
+    "source": "Simon Willison's Weblog",
+    "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO"
+  },
+  "https://simonwillison.net/2026/Oct/15/chirp-pong": {
+    "pushed_at": "2026-10-16T03:38:57",
+    "source": "Simon Willison's Weblog",
+    "title": "Chirp Pong"
   },
   "https://sspai.com/post/114861": {
     "pushed_at": "2026-10-15T06:33:18",
@@ -838,6 +1013,11 @@
     "pushed_at": "2026-10-15T06:33:20",
     "source": "少数派",
     "title": "带给摄影师更多自由：Austin Mann 评 iPhone 18 Pro 影像体验"
+  },
+  "https://sspai.com/post/115688": {
+    "pushed_at": "2026-10-16T03:38:59",
+    "source": "少数派",
+    "title": "让读书笔记不再吃灰：我做了一款跨平台书摘管理工具"
   },
   "https://sspai.com/post/116068": {
     "pushed_at": "2026-10-15T07:07:12",
@@ -873,6 +1053,11 @@
     "pushed_at": "2026-10-15T11:24:33",
     "source": "少数派",
     "title": "新玩意 253｜少数派的编辑们最近买了啥？"
+  },
+  "https://sspai.com/post/116355": {
+    "pushed_at": "2026-10-16T03:38:59",
+    "source": "少数派",
+    "title": "派早报：Apple 智能国行 Beta 版本将于本月晚些时候上线测试版本"
   },
   "https://sspai.com/post/92653": {
     "pushed_at": "2026-10-15T07:07:07",
@@ -1428,6 +1613,21 @@
     "pushed_at": "2026-10-15T06:33:46",
     "source": "量子位",
     "title": "全球首款 ！中国团队把游戏世界模型塞进一张5090，还开源了"
+  },
+  "https://www.qbitai.com/2026/10/503614.html": {
+    "pushed_at": "2026-10-16T03:39:02",
+    "source": "量子位",
+    "title": "量子位智库发布Agent落地报告！拆解企业智能化六大断点，附全链路破局框架"
+  },
+  "https://www.qbitai.com/2026/10/503640.html": {
+    "pushed_at": "2026-10-16T03:39:02",
+    "source": "量子位",
+    "title": "库克：苹果智能接入阿里千问大模型，10月底在中国发布测试版本"
+  },
+  "https://www.qbitai.com/2026/10/503645.html": {
+    "pushed_at": "2026-10-16T03:39:02",
+    "source": "量子位",
+    "title": "京东11.11：首日下单用户数同比双位数增长、超百项服务首次全景亮相"
   },
   "https://www.solidot.org/story?sid=85598": {
     "pushed_at": "2026-10-15T09:04:02",
