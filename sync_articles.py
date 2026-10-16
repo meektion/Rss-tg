@@ -514,9 +514,9 @@ def _compose(items, sep, gap, limit):
     if len(text) > limit:
         text = text[: limit - 1].rstrip() + "…"
 
-    # 末尾留一行空行，让卡片底部不那么贴边
+    # 末尾留空行：Telegram 会自动 trim 尾部空白，所以末尾垫一个零宽字符撑住
     if TRAILING_BLANK_LINES > 0 and len(text) + TRAILING_BLANK_LINES <= limit:
-        text += "\n" * TRAILING_BLANK_LINES
+        text += "\n" * TRAILING_BLANK_LINES + "\u200b"
     return text
 
 
