@@ -68,6 +68,7 @@ MAX_MESSAGE_LENGTH = 4096      # Telegram 文本消息上限
 MESSAGE_BLANK_LINES = 3        # 消息内部各段落之间的空行数（调大更疏朗，2~4 较合适）
 MAX_ITEMS_PER_CARD = 10        # 一张卡片最多列几条动态（实际会被 1024 字符上限自动压减）
 ITEM_GAP_LINES = 1             # 卡片内「标题+摘要」组合之间的空行数
+TRAILING_BLANK_LINES = 2       # 卡片末尾追加的空行数（让底部不那么贴边，0 为不加）
 KEEP_DAYS = 30                 # 缓存保留天数
 REQUEST_TIMEOUT = 20           # 单次请求超时
 TRANSLATE_ENABLED = True       # 英文标题/摘要自动翻译为中文
@@ -512,6 +513,10 @@ def _compose(items, sep, gap, limit):
 
     if len(text) > limit:
         text = text[: limit - 1].rstrip() + "…"
+
+    # 末尾留一行空行，让卡片底部不那么贴边
+    if TRAILING_BLANK_LINES > 0 and len(text) + TRAILING_BLANK_LINES <= limit:
+        text += "\n" * TRAILING_BLANK_LINES
     return text
 
 
