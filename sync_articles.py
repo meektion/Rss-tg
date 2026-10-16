@@ -74,8 +74,8 @@ REQUEST_TIMEOUT = 20           # 单次请求超时
 TRANSLATE_ENABLED = True       # 英文标题/摘要自动翻译为中文
 TRANSLATE_TIMEOUT = 20         # 单次翻译请求超时（秒）
 
-# DeepSeek 翻译（推荐）：在 GitHub Secrets 里配置 DEEPSEEK_API_KEY 即生效
-# 未配置时自动退回有道免费接口
+# DeepSeek 翻译：在 GitHub Secrets 里配置 DEEPSEEK_API_KEY 即生效
+# 未配置 Key 或调用失败时，英文原文照发，不做二次翻译
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 DEEPSEEK_API_BASE = os.getenv("DEEPSEEK_API_BASE", "https://api.deepseek.com")
 DEEPSEEK_MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
@@ -124,10 +124,9 @@ def is_mostly_chinese(text):
 
 
 def translate_to_zh(text):
-    """把英文文本翻译成中文。
+    """把英文文本翻译成中文，只用 DeepSeek。
 
-    优先用 DeepSeek（懂 AI 术语，品牌名保持原文）；未配置 Key 或调用失败时，
-    退回有道免费接口；都失败则原样返回。
+    未配置 Key 或调用失败时，原样返回英文，不再走其它翻译接口。
     """
     if not TRANSLATE_ENABLED or not text or is_mostly_chinese(text):
         return text
@@ -136,14 +135,14 @@ def translate_to_zh(text):
     if key in _TRANSLATE_CACHE:
         return _TRANSLATE_CACHE[key]
 
-    result = _translate_by_deepseek(key) or _translate_by_youdao(key)
+    result = _translate_by_deepseek(key)
 
     _TRANSLATE_CACHE[key] = result or text
     return result or text
 
 
 def _translate_by_deepseek(text):
-    """用 DeepSeek 翻译；未配置 Key 或失败时返回 None"""
+    """用 DeepSeek 翻译；未配置 Key 或失败时返回 None（调用方会原样返回英文）"""
     if not DEEPSEEK_API_KEY:
         return None
     try:
@@ -178,29 +177,6 @@ def _translate_by_deepseek(text):
     except Exception as e:
         log(f"  [deepseek skipped] {type(e).__name__}: {e}")
     return None
-
-
-def _translate_by_youdao(text):
-    """有道免费接口兜底；失败时返回 None"""
-    try:
-        resp = requests.get(
-            "https://aidemo.youdao.com/trans",
-            params={"q": text, "from": "en", "to": "zh-CHS"},
-            headers=HEADERS,
-            timeout=TRANSLATE_TIMEOUT,
-        )
-        if resp.status_code == 200:
-            data = resp.json()
-            if data.get("errorCode") == "0":
-                translated = data.get("translation") or []
-                if translated:
-                    result = "".join(translated).strip()
-                    if result:
-                        return result
-    except Exception as e:
-        log(f"  [youdao skipped] {type(e).__name__}: {e}")
-    return None
-
 
 
 def load_feeds():
