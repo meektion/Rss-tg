@@ -66,8 +66,6 @@ RETRY_DELAY = 2                # 重试间隔（秒）
 CAPTION_LIMIT = 1024           # Telegram 图片 caption 上限
 MAX_MESSAGE_LENGTH = 4096      # Telegram 文本消息上限
 MESSAGE_BLANK_LINES = 3        # 消息内部各段落之间的空行数（调大更疏朗，2~4 较合适）
-MAX_ITEMS_PER_CARD = 10        # 一个源（公司）的卡片里最多列几条动态
-ITEM_GAP_LINES = 1             # 卡片内每条动态之间的空行数
 KEEP_DAYS = 30                 # 缓存保留天数
 REQUEST_TIMEOUT = 20           # 单次请求超时
 TRANSLATE_ENABLED = True       # 英文标题/摘要自动翻译为中文
@@ -462,68 +460,51 @@ def collect_articles(feeds, cache):
 # Telegram 发送
 # --------------------------------------------------------------------------
 
-def build_caption(items):
-    """构建「一个源（公司）」的卡片 caption（HTML）
+def build_caption(article):
+    """构建图片卡片的 caption（HTML）：标题 / 来源·时间 / 摘要 / 底部原文链接"""
+    title = esc(article["title"])
+    link = html.escape(article["link"], quote=True)
 
-    形态：来源名 / 该源的若干条动态（每条可点击）/ 每条后跟一行短摘要（可选）
-    items: 同一来源的文章列表（已按时间排序）
-    """
-    source = esc(items[0]["source"])
     sep = "\n" * MESSAGE_BLANK_LINES
-    gap = "\n" * ITEM_GAP_LINES
+    parts = [f"<b>{title}</b>"]
 
-    parts = [f"<b>{source}</b>"]
+    # 来源·时间用等宽字体，与正文字体形成区分
+    meta = esc(article["source"])
+    if article["time_str"]:
+        meta += f" · {esc(article['time_str'])}"
+    parts.append(f"<code>{meta}</code>")
 
-    # 该源今天共有几条
-    count_line = f"<code>今日 {len(items)} 条</code>"
-    parts.append(count_line)
+    if article["summary"]:
+        parts.append(esc(article["summary"]))
 
-    lines = []
-    body = []
-    for art in items:
-        title = esc(art["title"])
-        link = html.escape(art["link"], quote=True)
-        body.append(f'<a href="{link}">{title}</a>')
-
-    # 动态列表用紧凑换行，条目之间只留少量空行
-    if body:
-        parts.append(gap.join(body))
+    # 文章链接固定放在最底部
+    parts.append(f'🔗 <a href="{link}">阅读原文</a>')
 
     text = sep.join(parts)
-
-    # 超长时逐条裁掉末尾动态，保证链接不被截断
-    while len(text) > CAPTION_LIMIT and body:
-        body.pop()
-        rest = sep.join([f"<b>{source}</b>", count_line, gap.join(body)]) if body else sep.join([f"<b>{source}</b>", count_line])
-        text = rest
     if len(text) > CAPTION_LIMIT:
         text = text[: CAPTION_LIMIT - 1].rstrip() + "…"
     return text
 
 
-def build_text_message(items):
-    """纯文本兜底：图片完全不可用时使用（来源 + 多条动态）"""
-    source = esc(items[0]["source"])
+def build_text_message(article):
+    """纯文本兜底：图片完全不可用时使用（标题 / 来源·时间 / 摘要 / 链接）"""
+    title = esc(article["title"])
+    link = html.escape(article["link"], quote=True)
+
     sep = "\n" * MESSAGE_BLANK_LINES
-    gap = "\n" * ITEM_GAP_LINES
+    lines = [f"<b>{title}</b>"]
 
-    parts = [f"<b>{source}</b>", f"<code>今日 {len(items)} 条</code>"]
+    meta = esc(article["source"])
+    if article["time_str"]:
+        meta += f" · {esc(article['time_str'])}"
+    lines.append(f"<code>{meta}</code>")
 
-    body = []
-    for art in items:
-        title = esc(art["title"])
-        link = html.escape(art["link"], quote=True)
-        body.append(f'<a href="{link}">{title}</a>')
-    if body:
-        parts.append(gap.join(body))
+    if article["summary"]:
+        lines.append(esc(article["summary"]))
 
-    text = sep.join(parts)
-    while len(text) > MAX_MESSAGE_LENGTH and body:
-        body.pop()
-        parts = [f"<b>{source}</b>", f"<code>今日 {len(items)} 条</code>"]
-        if body:
-            parts.append(gap.join(body))
-        text = sep.join(parts)
+    lines.append(f'🔗 <a href="{link}">阅读原文</a>')
+
+    text = sep.join(lines)
     if len(text) > MAX_MESSAGE_LENGTH:
         text = text[: MAX_MESSAGE_LENGTH - 1].rstrip() + "…"
     return text
@@ -539,12 +520,13 @@ def pick_random_cover(article):
     return f"https://picsum.photos/seed/{seed}/1200/630"
 
 
-def send_photo(items, image_path_or_url):
-    """发送一个源的卡片；本地文件走 multipart 上传"""
+def send_photo(article, image_path_or_url):
+    """发送图片卡片；本地文件走 multipart 上传"""
     api = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
+    caption = build_caption(article)
     data = {
         "chat_id": TELEGRAM_CHANNEL_ID,
-        "caption": build_caption(items),
+        "caption": caption,
         "parse_mode": "HTML",
     }
 
@@ -560,12 +542,12 @@ def send_photo(items, image_path_or_url):
     return resp.json()
 
 
-def send_text(items):
+def send_text(article):
     """发送纯文本消息（无配图时使用）"""
     api = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     resp = requests.post(api, data={
         "chat_id": TELEGRAM_CHANNEL_ID,
-        "text": build_text_message(items),
+        "text": build_text_message(article),
         "parse_mode": "HTML",
         "disable_web_page_preview": True,
     }, timeout=60)
@@ -573,52 +555,38 @@ def send_text(items):
         raise RuntimeError(f"HTTP {resp.status_code}: {resp.text[:180]}")
 
 
-def group_by_source(articles):
-    """把文章按来源分组，每组内保持原有顺序（已按时间排序）
-
-    返回 [(source, [article, ...]), ...]，按组内第一条的顺序排列。
-    """
-    groups = {}
-    order = []
-    for art in articles:
-        src = art["source"]
-        if src not in groups:
-            groups[src] = []
-            order.append(src)
-        groups[src].append(art)
-    return [(src, groups[src][:MAX_ITEMS_PER_CARD]) for src in order]
-
-
-def push_card(items):
-    """推送「一个源」的卡片：取该组第一条的配图，无图则用随机图。返回是否成功"""
-    if not items:
-        return False
-
-    # 封面：优先用该组第一条的文章配图
-    photo = None
-    for art in items:
-        if art.get("image"):
-            photo = art["image"]
-            break
+def push_article(article):
+    """推送单条：优先用原文配图，无图则用 Bing 图库随机封面。返回是否成功"""
+    photo = article["image"]
     if not photo:
-        photo = pick_random_cover(items[0])
+        photo = pick_random_cover(article)
 
     if DRY_RUN:
-        kind = "原文配图" if any(a.get("image") for a in items) else "随机封面"
-        log(f"  [dry-run] [{kind}] {items[0]['source']} | {len(items)} 条")
-        for art in items:
-            log(f"              · {art['title'][:52]}")
-            log(f"                {art['link']}")
-        log(f"              image={photo}")
+        kind = "原文配图" if article["image"] else "随机封面"
+        log(f"  [dry-run] [{kind}] {article['source']} | {article['title'][:40]}")
+        log(f"            link={article['link']}")
+        if photo:
+            log(f"            image={photo}")
         return True
 
+    if not photo:
+        # 连 Bing 图都拿不到时，降级为纯文本
+        try:
+            send_text(article)
+            log("  [fallback] 无可用封面，已改为纯文本发送")
+            return True
+        except Exception as e:
+            log(f"  [sendMessage failed] {type(e).__name__}: {e}")
+            return False
+
     try:
-        send_photo(items, photo)
+        send_photo(article, photo)
         return True
     except Exception as e:
         log(f"  [sendPhoto failed] {type(e).__name__}: {e}")
+        # 图片链接失效时降级为纯文本
         try:
-            send_text(items)
+            send_text(article)
             log("  [fallback] 图片发送失败，已改为纯文本发送")
             return True
         except Exception as e2:
@@ -662,36 +630,30 @@ def main():
         log(f"[limit] 待推 {len(articles)} 条，本次只推前 {MAX_ARTICLES_PER_RUN} 条，其余留待下次")
         articles = articles[:MAX_ARTICLES_PER_RUN]
 
-    # 按来源（公司）分组：一个源一张卡片
-    groups = group_by_source(articles)
-    log(f"[group] {len(articles)} 条动态，合并为 {len(groups)} 张卡片（一个源一张）")
-
     ok = 0
     fail = 0
-    for source, items in groups:
-        if push_card(items):
+    for article in articles:
+        if push_article(article):
             ok += 1
-            # 整组发送成功才写入缓存
-            for art in items:
-                cache[art["key"]] = {
-                    "title": art["title"],
-                    "source": art["source"],
-                    "pushed_at": dt.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
-                }
+            cache[article["key"]] = {
+                "title": article["title"],
+                "source": article["source"],
+                "pushed_at": dt.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+            }
         else:
             fail += 1
         time.sleep(1.2)  # 温和限速，避免触发 Telegram 频率限制
 
-    log(f"[done] 成功推送 {ok}/{len(groups)} 张卡片，失败 {fail} 张")
+    log(f"[done] 成功推送 {ok}/{len(articles)} 条，失败 {fail} 条")
     save_cache(cache)
 
     # 全部失败通常意味着 Token / 频道配置有问题，必须让 CI 变红，避免静默空跑
-    if groups and fail == len(groups):
+    if articles and fail == len(articles):
         raise SystemExit(
-            f"全部 {fail} 张卡片推送失败，请检查 TELEGRAM_BOT_TOKEN 与 TELEGRAM_CHANNEL_ID 是否正确"
+            f"全部 {fail} 条推送失败，请检查 TELEGRAM_BOT_TOKEN 与 TELEGRAM_CHANNEL_ID 是否正确"
         )
     if fail:
-        log(f"[warn] 有 {fail} 张卡片推送失败，失败项未写入缓存，下次运行会自动重试")
+        log(f"[warn] 有 {fail} 条推送失败，失败项未写入缓存，下次运行会自动重试")
 
 
 if __name__ == "__main__":
