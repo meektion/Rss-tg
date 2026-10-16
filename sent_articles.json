@@ -339,6 +339,11 @@
     "source": "Cloudflare Blog",
     "title": "Filter, reshape, and redact logs before export with Transformers"
   },
+  "https://blog.cloudflare.com/verified-bots-accountability": {
+    "pushed_at": "2026-10-16T13:02:08",
+    "source": "Cloudflare Blog",
+    "title": "对已验证机器人持续问责"
+  },
   "https://blog.cloudflare.com/workers-on-demand-profiling": {
     "pushed_at": "2026-10-15T09:04:42",
     "source": "Cloudflare Blog",
@@ -1139,6 +1144,11 @@
     "source": "Simon Willison's Weblog",
     "title": "Python 3.15.0 已添加到 actions/python-versions"
   },
+  "https://simonwillison.net/2026/Oct/10/the-new-york-times": {
+    "pushed_at": "2026-10-16T13:02:02",
+    "source": "Simon Willison's Weblog",
+    "title": "引用《纽约时报》"
+  },
   "https://simonwillison.net/2026/Oct/11/dwarf-fortress": {
     "pushed_at": "2026-10-16T04:09:05",
     "source": "Simon Willison's Weblog",
@@ -1209,6 +1219,31 @@
     "source": "Simon Willison's Weblog",
     "title": "Chirp Pong"
   },
+  "https://simonwillison.net/2026/Oct/9/built-using-my-voice": {
+    "pushed_at": "2026-10-16T13:02:02",
+    "source": "Simon Willison's Weblog",
+    "title": "我的博客新增了一项功能，用我的声音打造"
+  },
+  "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare": {
+    "pushed_at": "2026-10-16T13:02:02",
+    "source": "Simon Willison's Weblog",
+    "title": "Deno 加入 Cloudflare"
+  },
+  "https://simonwillison.net/2026/Oct/9/matthew-green": {
+    "pushed_at": "2026-10-16T13:02:02",
+    "source": "Simon Willison's Weblog",
+    "title": "引用 Matthew Green"
+  },
+  "https://simonwillison.net/2026/Oct/9/ttok": {
+    "pushed_at": "2026-10-16T13:02:02",
+    "source": "Simon Willison's Weblog",
+    "title": "ttok 1.0"
+  },
+  "https://sspai.com/post/114836": {
+    "pushed_at": "2026-10-16T13:02:05",
+    "source": "少数派",
+    "title": "「弯道超车」赛车入门指北 05：让赛车粉身碎骨，才是保命的真正方式"
+  },
   "https://sspai.com/post/114861": {
     "pushed_at": "2026-10-15T06:33:18",
     "source": "少数派",
@@ -1233,6 +1268,11 @@
     "pushed_at": "2026-10-15T06:33:20",
     "source": "少数派",
     "title": "带给摄影师更多自由：Austin Mann 评 iPhone 18 Pro 影像体验"
+  },
+  "https://sspai.com/post/115679": {
+    "pushed_at": "2026-10-16T13:02:05",
+    "source": "少数派",
+    "title": "一面专注体验，一面表达个性：麦金獭钢化膜与极稚墨水屏手机壳体验"
   },
   "https://sspai.com/post/115688": {
     "pushed_at": "2026-10-16T03:38:59",
@@ -1278,6 +1318,11 @@
     "pushed_at": "2026-10-16T03:38:59",
     "source": "少数派",
     "title": "派早报：Apple 智能国行 Beta 版本将于本月晚些时候上线测试版本"
+  },
+  "https://sspai.com/post/116423": {
+    "pushed_at": "2026-10-16T13:02:05",
+    "source": "少数派",
+    "title": "本周看什么 | 最近值得一看的 13 部作品"
   },
   "https://sspai.com/post/92653": {
     "pushed_at": "2026-10-15T07:07:07",
