@@ -548,7 +548,7 @@ def _compose(items, sep, gap, limit):
     for art in items:
         title = esc(art["title"])
         link = html.escape(art["link"], quote=True)
-        block = [f'<a href="{link}"><b>{title}</b></a>']
+        block = [f'<a href="{link}">{title}</a>']
         if art.get("summary"):
             block.append(esc(art["summary"]))
         blocks.append(gap.join(block))

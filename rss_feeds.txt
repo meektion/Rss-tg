@@ -20,7 +20,6 @@ https://qwenlm.github.io/blog/index.xml
 https://www.qbitai.com/feed
 https://www.ithome.com/rss/
 https://sspai.com/feed
-https://juejin.cn/rss
 
 # ---------- AI 社区 ----------
 https://simonwillison.net/atom/everything/
