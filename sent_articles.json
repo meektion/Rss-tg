@@ -539,6 +539,31 @@
     "source": "News from Google",
     "title": "用新的优先级和分配功能来指导你的广告支出"
   },
+  "https://blogs.microsoft.com/blog/2026/07/22/powering-americas-genesis-mission-microsofts-commitment-to-scientific-discovery": {
+    "pushed_at": "2026-10-17T02:56:47",
+    "source": "The Official Microsoft Blog",
+    "title": "助力美国创世纪计划：Microsoft对科学发现的承诺"
+  },
+  "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai": {
+    "pushed_at": "2026-10-17T02:56:47",
+    "source": "The Official Microsoft Blog",
+    "title": "重新思考AI时代的安全"
+  },
+  "https://blogs.microsoft.com/blog/2026/07/28/looking-back-on-microsofts-fy26-from-ai-experimentation-to-frontier-transformation": {
+    "pushed_at": "2026-10-17T02:56:47",
+    "source": "The Official Microsoft Blog",
+    "title": "回顾微软2026财年：从AI试验到前沿转型"
+  },
+  "https://blogs.microsoft.com/blog/2026/09/01/the-yield-imperative-turning-ai-infrastructure-into-useful-intelligence": {
+    "pushed_at": "2026-10-17T02:56:47",
+    "source": "The Official Microsoft Blog",
+    "title": "收益的必要性：将AI基础设施转化为有用的智能"
+  },
+  "https://blogs.microsoft.com/blog/2026/09/16/microsofts-commitment-for-ai-in-education": {
+    "pushed_at": "2026-10-17T02:56:47",
+    "source": "The Official Microsoft Blog",
+    "title": "微软对AI教育的承诺：保护学生，强化学习"
+  },
   "https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation": {
     "pushed_at": "2026-10-17T02:32:50",
     "source": "The Official Microsoft Blog",
@@ -1384,15 +1409,40 @@
     "source": "Vercel News",
     "title": "开放权重占71.5%的令牌数和23%的支出"
   },
+  "https://vercel.com/blog/backends-on-vercel-python-containers-and-daemons": {
+    "pushed_at": "2026-10-17T02:56:42",
+    "source": "Vercel News",
+    "title": "Vercel上的后端：Python、容器与守护进程"
+  },
+  "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents": {
+    "pushed_at": "2026-10-17T02:56:42",
+    "source": "Vercel News",
+    "title": "介绍 Vercel Drives：为智能体提供持久化存储"
+  },
+  "https://vercel.com/blog/python-on-vercel-is-now-generally-available": {
+    "pushed_at": "2026-10-17T02:56:42",
+    "source": "Vercel News",
+    "title": "Vercel 上的 Python 现已全面可用"
+  },
   "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers": {
     "pushed_at": "2026-10-17T02:32:48",
     "source": "Vercel News",
     "title": "Vercel 和 Shopify 让智能体成为一等购物者"
   },
+  "https://vercel.com/blog/vercel-for-enterprise": {
+    "pushed_at": "2026-10-17T02:56:42",
+    "source": "Vercel News",
+    "title": "Vercel 企业版"
+  },
   "https://vercel.com/blog/vercel-ship-2026-recap": {
     "pushed_at": "2026-10-17T02:32:48",
     "source": "Vercel News",
     "title": "Vercel Ship 2026 回顾"
+  },
+  "https://vercel.com/changelog/introducing-token-pass": {
+    "pushed_at": "2026-10-17T02:56:42",
+    "source": "Vercel News",
+    "title": "介绍 Token Pass"
   },
   "https://vercel.com/changelog/perplexity-decider-v1-2-models-now-available-on-ai-gateway": {
     "pushed_at": "2026-10-17T02:32:48",
@@ -1884,6 +1934,16 @@
     "source": "IT之家",
     "title": "消息称苹果已发出 10 月 28 日邀请函，首款触屏 MacBook、iPad mini 8、M6 Mac 即将到来"
   },
+  "https://www.ithome.com/1/014/237.htm": {
+    "pushed_at": "2026-10-17T02:56:50",
+    "source": "IT之家",
+    "title": "唯卓仕 AF 26mm F2.8 EVO 索尼 FE 卡口镜头新增雾月银、岩月灰配色，券后 1419 元"
+  },
+  "https://www.ithome.com/1/014/238.htm": {
+    "pushed_at": "2026-10-17T02:56:50",
+    "source": "IT之家",
+    "title": "Win11 首个原生支持“锁定隐私浏览”的浏览器：Firefox 可自动上锁隐私窗口"
+  },
   "https://www.ithome.com/1/014/239.htm": {
     "pushed_at": "2026-10-17T02:32:52",
     "source": "IT之家",
@@ -1908,6 +1968,21 @@
     "pushed_at": "2026-10-17T02:32:52",
     "source": "IT之家",
     "title": "香港 TVB 加入短剧赛道，与红果合作竖屏剧《金枝欲孽之宫墙折柳》在横店开机"
+  },
+  "https://www.ithome.com/1/014/247.htm": {
+    "pushed_at": "2026-10-17T02:56:50",
+    "source": "IT之家",
+    "title": "古尔曼称苹果首款折叠 iPhone Duo 需求“空前”，首销线下恐难直接买下"
+  },
+  "https://www.ithome.com/1/014/249.htm": {
+    "pushed_at": "2026-10-17T02:56:50",
+    "source": "IT之家",
+    "title": "“台积电的获利能力没有上限”，魏哲家称 AI 需求持续升温、供需缺口仍大"
+  },
+  "https://www.ithome.com/1/014/250.htm": {
+    "pushed_at": "2026-10-17T02:56:50",
+    "source": "IT之家",
+    "title": "微软发布法律版 Copilot：律师的 AI 新同事，整合审查合同等超 20 项技能"
   },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
