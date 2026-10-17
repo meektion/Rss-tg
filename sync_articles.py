@@ -843,11 +843,9 @@ def build_report_caption(groups, mode):
     now = _beijing_now()
     label = "早报" if mode == "morning" else "晚报"
     emoji = "🌅" if mode == "morning" else "🌃"
-    channel = get_channel_title()
-    username = get_channel_username()
-
     def build(limit_n):
-        lines = ["#News", f"{emoji} {channel}{label}【{now.month}.{now.day}】"]
+        # 频道名与早报/晚报已由报头图呈现，caption 不再重复；此处只留日期标签
+        lines = ["#News", f"{emoji}{label}【{now.month}.{now.day}】"]
         if REPORT_INTRO:
             lines.append(REPORT_INTRO)
         lines.append("")
@@ -864,8 +862,6 @@ def build_report_caption(groups, mode):
             lines.append(f"{REPORT_NUMBER_EMOJI[i]} <b>{company}</b> <a href=\"{link}\">{title}</a>")
             i += 1
         lines.append("")
-        if username:
-            lines.append(f"频道: @{username}")
         return "\n".join(lines)
 
     n = min(len(groups), len(REPORT_NUMBER_EMOJI))
