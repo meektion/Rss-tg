@@ -49,6 +49,13 @@ DEFAULT_CHANNEL_TITLE = os.getenv("CHANNEL_TITLE", "AI 每日速递")
 # 报头图中文渲染字体（子集化 Noto Sans SC，约 1.5MB）
 FONT_PATH = os.path.join(BASE_DIR, "assets", "fonts", "NotoSansSC-subset.ttf")
 
+# 报头图真实背景图（缺失时自动回退纯色渐变）
+BACKGROUND_DIR = os.path.join(BASE_DIR, "assets", "backgrounds")
+REPORT_BACKGROUNDS = {
+    "morning": os.path.join(BACKGROUND_DIR, "morning.jpg"),
+    "evening": os.path.join(BACKGROUND_DIR, "evening.jpg"),
+}
+
 # 早报/晚报编号消息导语（留空则不加，如 "👀 今日 AI 大厂动态"）
 REPORT_INTRO = os.getenv("REPORT_INTRO", "")
 # 编号序号 emoji（1~10）
@@ -739,13 +746,12 @@ def _beijing_now():
 
 
 def generate_report_cover(mode):
-    """生成早报 / 晚报报头图：早报暖色+太阳，晚报深色+月亮。返回本地 PNG，失败返回 None"""
+    """生成早报 / 晚报报头图：真实背景图 + 遮罩 + 文字。缺失背景图时回退纯色渐变。"""
     if not os.path.exists(FONT_PATH):
         log(f"  [cover] 字体缺失 {FONT_PATH}，跳过报头图")
         return None
     try:
         from PIL import Image, ImageDraw, ImageFont
-        import math
     except ImportError:
         log("  [cover] 未安装 Pillow，跳过报头图")
         return None
@@ -757,41 +763,49 @@ def generate_report_cover(mode):
     month_en = ["January", "February", "March", "April", "May", "June",
                 "July", "August", "September", "October", "November", "December"][now.month - 1]
 
-    if mode == "morning":
-        top, bottom = (255, 226, 196), (255, 178, 148)   # 暖橙渐变
-        fg_strong = (120, 42, 32)                        # 深红棕（标题）
-        fg_soft = (158, 92, 70)                          # 次级文字
-        accent = (255, 196, 64)                          # 太阳黄
-    else:
-        top, bottom = (46, 46, 92), (16, 16, 38)         # 深蓝紫渐变
-        fg_strong = (240, 240, 250)                      # 标题近白
-        fg_soft = (170, 172, 202)                        # 次级文字
-        accent = (255, 214, 96)                          # 月亮黄
+    # 1) 背景：优先真实图片，缺失回退纯色渐变
+    img = None
+    bg_path = REPORT_BACKGROUNDS.get(mode)
+    if bg_path and os.path.exists(bg_path):
+        try:
+            bg = Image.open(bg_path).convert("RGB")
+            ratio = max(W / bg.width, H / bg.height)
+            nw, nh = max(1, int(bg.width * ratio)), max(1, int(bg.height * ratio))
+            bg = bg.resize((nw, nh), Image.LANCZOS)
+            left, top = (nw - W) // 2, (nh - H) // 2
+            img = bg.crop((left, top, left + W, top + H)).convert("RGBA")
+        except Exception as e:
+            log(f"  [cover] 背景图加载失败：{e}")
+            img = None
 
-    img = Image.new("RGB", (W, H), bottom)
+    if img is None:
+        top_c, bottom_c = ((255, 226, 196), (255, 178, 148)) if mode == "morning" else ((46, 46, 92), (16, 16, 38))
+        img = Image.new("RGB", (W, H), bottom_c).convert("RGBA")
+        d0 = ImageDraw.Draw(img)
+        for y in range(H):
+            t = y / H
+            d0.line([(0, y), (W, y)],
+                    fill=tuple(int(top_c[i] + (bottom_c[i] - top_c[i]) * t) for i in range(3)))
+
+    # 2) 遮罩：早报左侧提亮（配深色字），晚报左侧压暗（配白字），保证文字可读
+    if mode == "morning":
+        shade, max_alpha = (255, 255, 255), 168
+    else:
+        shade, max_alpha = (0, 0, 0), 185
+    overlay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    od = ImageDraw.Draw(overlay)
+    for x in range(W):
+        a = int(max_alpha * max(0.0, 1 - x / (W * 0.8)))
+        if a > 0:
+            od.line([(x, 0), (x, H)], fill=shade + (a,))
+    img = Image.alpha_composite(img, overlay).convert("RGB")
     draw = ImageDraw.Draw(img)
-    for y in range(H):
-        t = y / H
-        r = int(top[0] + (bottom[0] - top[0]) * t)
-        g = int(top[1] + (bottom[1] - top[1]) * t)
-        b = int(top[2] + (bottom[2] - top[2]) * t)
-        draw.line([(0, y), (W, y)], fill=(r, g, b))
 
-    # 大图标：早报太阳 / 晚报月亮（右侧）
-    cx, cy, R = 950, 300, 104
+    # 3) 文字配色
     if mode == "morning":
-        draw.ellipse([cx - R, cy - R, cx + R, cy + R], fill=accent)
-        for k in range(12):
-            ang = math.pi * 2 * k / 12
-            x1 = cx + int((R + 24) * math.cos(ang)); y1 = cy + int((R + 24) * math.sin(ang))
-            x2 = cx + int((R + 60) * math.cos(ang)); y2 = cy + int((R + 60) * math.sin(ang))
-            draw.line([(x1, y1), (x2, y2)], fill=accent, width=10)
+        fg_strong, fg_soft = (74, 46, 26), (108, 76, 48)
     else:
-        draw.ellipse([cx - R, cy - R, cx + R, cy + R], fill=accent)
-        # 用该高度的背景色圆偏移遮出月牙
-        t = cy / H
-        mask = tuple(int(top[i] + (bottom[i] - top[i]) * t) for i in range(3))
-        draw.ellipse([cx - R + 48, cy - R - 16, cx + R + 48, cy + R - 16], fill=mask)
+        fg_strong, fg_soft = (255, 255, 255), (216, 222, 236)
 
     try:
         font_channel = ImageFont.truetype(FONT_PATH, 54)
@@ -810,8 +824,8 @@ def generate_report_cover(mode):
     draw.text((82, 468), now.strftime("%Y 年 %m 月 %d 日") + "  " + weekday, font=font_small, fill=fg_soft)
     draw.text((82, 522), f"{month_en} {now.year}", font=font_en, fill=fg_soft)
 
-    out = os.path.join(BASE_DIR, f"_report_cover_{mode}.png")
-    img.save(out, "PNG")
+    out = os.path.join(BASE_DIR, f"_report_cover_{mode}.jpg")
+    img.save(out, "JPEG", quality=90, optimize=True)
     return out
 
 
