@@ -846,7 +846,8 @@ def build_report_caption(groups, mode):
             art = items[0]
             company = esc(company_alias(source))
             title = esc(art["title"])
-            lines.append(f"{REPORT_NUMBER_EMOJI[i]} <b>{company}</b> {title}")
+            link = html.escape(art["link"], quote=True)
+            lines.append(f"{REPORT_NUMBER_EMOJI[i]} <b>{company}</b> <a href=\"{link}\">{title}</a>")
             i += 1
         lines.append("")
         if username:
