@@ -49,6 +49,24 @@ DEFAULT_CHANNEL_TITLE = os.getenv("CHANNEL_TITLE", "AI 每日速递")
 # 报头图中文渲染字体（子集化 Noto Sans SC，约 1.5MB）
 FONT_PATH = os.path.join(BASE_DIR, "assets", "fonts", "NotoSansSC-subset.ttf")
 
+# 早报/晚报编号消息导语（留空则不加，如 "👀 今日 AI 大厂动态"）
+REPORT_INTRO = os.getenv("REPORT_INTRO", "")
+# 编号序号 emoji（1~10）
+REPORT_NUMBER_EMOJI = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
+# 来源名 -> 编号消息里显示的简短公司名（小写匹配 feed title）
+COMPANY_ALIAS = {
+    "openai": "OpenAI",
+    "deepmind": "Google DeepMind",
+    "google": "谷歌",
+    "microsoft": "微软",
+    "apple": "苹果",
+    "nvidia": "英伟达",
+    "meta": "Meta",
+    "cloudflare": "Cloudflare",
+    "vercel": "Vercel",
+    "qwen": "通义千问",
+}
+
 # 内置兜底源列表（rss_feeds.txt 不存在时使用）
 DEFAULT_FEEDS = [
     "https://sspai.com/feed",
@@ -677,25 +695,42 @@ def push_card(items):
 # 报头图（早报 / 晚报）
 # --------------------------------------------------------------------------
 
+_CHANNEL_INFO = None
+
+
+def _channel_info():
+    """从 Telegram 获取频道标题与 username（带缓存）。返回 (title, username)"""
+    global _CHANNEL_INFO
+    if _CHANNEL_INFO is not None:
+        return _CHANNEL_INFO
+    title, username = DEFAULT_CHANNEL_TITLE, ""
+    if TELEGRAM_BOT_TOKEN and TELEGRAM_CHANNEL_ID:
+        try:
+            resp = requests.get(
+                f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getChat",
+                params={"chat_id": TELEGRAM_CHANNEL_ID},
+                timeout=REQUEST_TIMEOUT,
+            )
+            if resp.status_code == 200:
+                data = resp.json()
+                if data.get("ok"):
+                    result = data.get("result") or {}
+                    title = result.get("title") or title
+                    username = result.get("username") or ""
+        except Exception as e:
+            log(f"  [getChat skipped] {type(e).__name__}: {e}")
+    _CHANNEL_INFO = (title, username)
+    return _CHANNEL_INFO
+
+
 def get_channel_title():
-    """从 Telegram 获取频道真实名称；失败则回退默认值"""
-    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
-        return DEFAULT_CHANNEL_TITLE
-    try:
-        resp = requests.get(
-            f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getChat",
-            params={"chat_id": TELEGRAM_CHANNEL_ID},
-            timeout=REQUEST_TIMEOUT,
-        )
-        if resp.status_code == 200:
-            data = resp.json()
-            if data.get("ok"):
-                title = (data.get("result") or {}).get("title")
-                if title:
-                    return title
-    except Exception as e:
-        log(f"  [getChat skipped] {type(e).__name__}: {e}")
-    return DEFAULT_CHANNEL_TITLE
+    """频道真实名称；失败回退默认值"""
+    return _channel_info()[0]
+
+
+def get_channel_username():
+    """频道公开 username（私有频道为空）"""
+    return _channel_info()[1]
 
 
 def _beijing_now():
@@ -704,23 +739,37 @@ def _beijing_now():
 
 
 def generate_report_cover(mode):
-    """生成早报 / 晚报报头图，返回本地 PNG 路径；失败返回 None"""
+    """生成早报 / 晚报报头图：早报暖色+太阳，晚报深色+月亮。返回本地 PNG，失败返回 None"""
     if not os.path.exists(FONT_PATH):
         log(f"  [cover] 字体缺失 {FONT_PATH}，跳过报头图")
         return None
     try:
         from PIL import Image, ImageDraw, ImageFont
+        import math
     except ImportError:
         log("  [cover] 未安装 Pillow，跳过报头图")
         return None
 
     W, H = 1200, 630
-    img = Image.new("RGB", (W, H), (13, 17, 28))
-    draw = ImageDraw.Draw(img)
+    now = _beijing_now()
+    label = "早报" if mode == "morning" else "晚报"
+    channel = get_channel_title()
+    month_en = ["January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"][now.month - 1]
 
-    # 深色科技渐变背景（逐行画线，比逐像素快）
-    top = (30, 40, 70)
-    bottom = (13, 17, 28)
+    if mode == "morning":
+        top, bottom = (255, 226, 196), (255, 178, 148)   # 暖橙渐变
+        fg_strong = (120, 42, 32)                        # 深红棕（标题）
+        fg_soft = (158, 92, 70)                          # 次级文字
+        accent = (255, 196, 64)                          # 太阳黄
+    else:
+        top, bottom = (46, 46, 92), (16, 16, 38)         # 深蓝紫渐变
+        fg_strong = (240, 240, 250)                      # 标题近白
+        fg_soft = (170, 172, 202)                        # 次级文字
+        accent = (255, 214, 96)                          # 月亮黄
+
+    img = Image.new("RGB", (W, H), bottom)
+    draw = ImageDraw.Draw(img)
     for y in range(H):
         t = y / H
         r = int(top[0] + (bottom[0] - top[0]) * t)
@@ -728,36 +777,90 @@ def generate_report_cover(mode):
         b = int(top[2] + (bottom[2] - top[2]) * t)
         draw.line([(0, y), (W, y)], fill=(r, g, b))
 
-    # 顶部一条强调线
-    draw.rectangle([80, 92, 360, 96], fill=(90, 130, 255))
+    # 大图标：早报太阳 / 晚报月亮（右侧）
+    cx, cy, R = 950, 300, 104
+    if mode == "morning":
+        draw.ellipse([cx - R, cy - R, cx + R, cy + R], fill=accent)
+        for k in range(12):
+            ang = math.pi * 2 * k / 12
+            x1 = cx + int((R + 24) * math.cos(ang)); y1 = cy + int((R + 24) * math.sin(ang))
+            x2 = cx + int((R + 60) * math.cos(ang)); y2 = cy + int((R + 60) * math.sin(ang))
+            draw.line([(x1, y1), (x2, y2)], fill=accent, width=10)
+    else:
+        draw.ellipse([cx - R, cy - R, cx + R, cy + R], fill=accent)
+        # 用该高度的背景色圆偏移遮出月牙
+        t = cy / H
+        mask = tuple(int(top[i] + (bottom[i] - top[i]) * t) for i in range(3))
+        draw.ellipse([cx - R + 48, cy - R - 16, cx + R + 48, cy + R - 16], fill=mask)
 
     try:
-        font_title = ImageFont.truetype(FONT_PATH, 58)
-        font_big = ImageFont.truetype(FONT_PATH, 116)
-        font_small = ImageFont.truetype(FONT_PATH, 34)
-        font_tag = ImageFont.truetype(FONT_PATH, 28)
+        font_channel = ImageFont.truetype(FONT_PATH, 54)
+        font_big = ImageFont.truetype(FONT_PATH, 132)
+        font_small = ImageFont.truetype(FONT_PATH, 36)
+        font_en = ImageFont.truetype(FONT_PATH, 42)
     except Exception as e:
         log(f"  [cover] 字体加载失败：{e}")
         return None
 
-    now = _beijing_now()
+    # 顶部：频道名 + 早报/晚报（大字）
+    draw.text((80, 120), channel, font=font_channel, fill=fg_soft)
+    draw.text((78, 206), label, font=font_big, fill=fg_strong)
+    # 底部：中文日期 + 英文月份年份
     weekday = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"][now.weekday()]
-    date_str = now.strftime("%Y 年 %m 月 %d 日") + "  " + weekday
-    label = "早报" if mode == "morning" else "晚报"
-    channel = get_channel_title()
-
-    # 顶部：频道名
-    draw.text((80, 118), channel, font=font_title, fill=(173, 196, 255))
-    # 中间：早报 / 晚报（大字）
-    draw.text((78, 232), label, font=font_big, fill=(255, 255, 255))
-    # 底部：日期
-    draw.text((82, 470), date_str, font=font_small, fill=(158, 168, 198))
-    # 标语
-    draw.text((82, 524), "AI 大厂动态 · 每日速递", font=font_tag, fill=(120, 132, 162))
+    draw.text((82, 468), now.strftime("%Y 年 %m 月 %d 日") + "  " + weekday, font=font_small, fill=fg_soft)
+    draw.text((82, 522), f"{month_en} {now.year}", font=font_en, fill=fg_soft)
 
     out = os.path.join(BASE_DIR, f"_report_cover_{mode}.png")
     img.save(out, "PNG")
     return out
+
+
+def company_alias(source):
+    """把 feed 的来源名映射成简短公司名"""
+    s = (source or "").lower()
+    for key, alias in COMPANY_ALIAS.items():
+        if key in s:
+            return alias
+    return source
+
+
+def build_report_caption(groups, mode):
+    """构建早报/晚报编号消息 caption：一家公司一条一句话，超上限从末尾裁"""
+    now = _beijing_now()
+    label = "早报" if mode == "morning" else "晚报"
+    emoji = "🌅" if mode == "morning" else "🌃"
+    channel = get_channel_title()
+    username = get_channel_username()
+
+    def build(limit_n):
+        lines = ["#News", f"{emoji} {channel}{label}【{now.month}.{now.day}】"]
+        if REPORT_INTRO:
+            lines.append(REPORT_INTRO)
+        lines.append("")
+        i = 0
+        for source, items in groups:
+            if i >= limit_n:
+                break
+            if not items:
+                continue
+            art = items[0]
+            company = esc(company_alias(source))
+            title = esc(art["title"])
+            lines.append(f"{REPORT_NUMBER_EMOJI[i]} <b>{company}</b> {title}")
+            i += 1
+        lines.append("")
+        if username:
+            lines.append(f"频道: @{username}")
+        return "\n".join(lines)
+
+    n = min(len(groups), len(REPORT_NUMBER_EMOJI))
+    text = build(n)
+    while len(text) > CAPTION_LIMIT and n > 1:
+        n -= 1
+        text = build(n)
+    if len(text) > CAPTION_LIMIT:
+        text = text[: CAPTION_LIMIT - 1].rstrip() + "…"
+    return text
 
 
 def send_cover_photo(image_path, caption=""):
@@ -773,8 +876,21 @@ def send_cover_photo(image_path, caption=""):
     return resp.json()
 
 
+def send_plain_text(text):
+    """发送纯文本（编号消息无报头图时的兜底）"""
+    api = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    resp = requests.post(api, data={
+        "chat_id": TELEGRAM_CHANNEL_ID,
+        "text": text,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": True,
+    }, timeout=60)
+    if resp.status_code != 200:
+        raise RuntimeError(f"HTTP {resp.status_code}: {resp.text[:180]}")
+
+
 def push_cover(mode, caption=""):
-    """生成并发送报头图；失败不中断后续卡片推送"""
+    """生成并发送报头图；失败不中断。用于报告模式无更新场景"""
     cover = generate_report_cover(mode)
     if not cover:
         return
@@ -790,6 +906,40 @@ def push_cover(mode, caption=""):
             os.remove(cover)
         except OSError:
             pass
+
+
+def push_report(groups, mode):
+    """早报/晚报：一张报头图 + 一条编号消息，一次发出。返回是否成功"""
+    caption = build_report_caption(groups, mode)
+    cover = generate_report_cover(mode)
+    if DRY_RUN:
+        log(f"  [dry-run] 报头图：{cover}（{mode}）")
+        log("  [dry-run] 编号消息 caption：")
+        for line in caption.split("\n"):
+            log("    " + line)
+        return True
+    try:
+        if cover:
+            send_cover_photo(cover, caption=caption)
+        else:
+            send_plain_text(caption)
+        return True
+    except Exception as e:
+        log(f"  [report failed] {type(e).__name__}: {e}")
+        if cover:
+            try:
+                send_plain_text(caption)
+                log("  [fallback] 报头图发送失败，已改纯文本发送")
+                return True
+            except Exception as e2:
+                log(f"  [sendMessage failed] {type(e2).__name__}: {e2}")
+        return False
+    finally:
+        if cover:
+            try:
+                os.remove(cover)
+            except OSError:
+                pass
 
 
 # --------------------------------------------------------------------------
@@ -841,12 +991,19 @@ def main():
 
     # 按来源（公司）分组：一个公司一张卡片
     groups = group_by_source(articles)
-    log(f"[group] {len(articles)} 条动态，合并为 {len(groups)} 张卡片（一个公司一张）")
+    log(f"[group] {len(articles)} 条动态，来自 {len(groups)} 家公司")
 
-    # 报告模式：先发一张报头图作为开场
     if mode != "normal":
-        push_cover(mode)
-        time.sleep(1.2)
+        # 早报/晚报：一张报头图 + 一条编号消息，一次发出
+        if push_report(groups, mode):
+            ts = dt.datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+            for art in articles:  # 本轮抓到的全部标记已见，避免下期重复
+                cache[art["key"]] = {"title": art["title"], "source": art["source"], "pushed_at": ts}
+            save_cache(cache)
+            log(f"[done] {mode} 一期推送完成，收录 {len(groups)} 家公司")
+        else:
+            log(f"[warn] {mode} 推送失败，未写缓存，下次运行重试")
+        return
 
     ok = 0
     fail = 0
