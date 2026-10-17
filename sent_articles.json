@@ -1439,6 +1439,11 @@
     "source": "Vercel News",
     "title": "Vercel Ship 2026 回顾"
   },
+  "https://vercel.com/changelog/bring-your-own-cloud-on-aws-is-now-generally-available": {
+    "pushed_at": "2026-10-17T04:48:12",
+    "source": "Vercel News",
+    "title": "AWS上的自带云服务现已全面可用"
+  },
   "https://vercel.com/changelog/cat-jam-is-now-available-in-stealth-for-free-on-ai-gateway": {
     "pushed_at": "2026-10-17T03:49:37",
     "source": "Vercel News",
@@ -1454,6 +1459,11 @@
     "source": "Vercel News",
     "title": "Liquid AI的d1-ultra现已在AI Gateway上可用"
   },
+  "https://vercel.com/changelog/mcp-events-support-in-vercel-connect-is-now-in-public-beta": {
+    "pushed_at": "2026-10-17T04:48:12",
+    "source": "Vercel News",
+    "title": "Vercel Connect 现已支持 MCP Events，进入公开测试阶段"
+  },
   "https://vercel.com/changelog/muse-spark-open-now-available-on-ai-gateway": {
     "pushed_at": "2026-10-17T03:49:37",
     "source": "Vercel News",
@@ -1464,10 +1474,20 @@
     "source": "Vercel News",
     "title": "Perplexity的Decider V1.2模型现已在AI Gateway上线"
   },
+  "https://vercel.com/changelog/python-on-vercel-is-now-generally-available": {
+    "pushed_at": "2026-10-17T04:48:12",
+    "source": "Vercel News",
+    "title": "Vercel 上的 Python 现已正式可用"
+  },
   "https://vercel.com/changelog/reflection-ai-beam-now-available-on-ai-gateway-for-free": {
     "pushed_at": "2026-10-17T02:32:48",
     "source": "Vercel News",
     "title": "Reflection AI的Beam现已在AI Gateway上免费提供"
+  },
+  "https://vercel.com/changelog/vercel-connect-adds-enterprise-managed-authorization": {
+    "pushed_at": "2026-10-17T04:48:12",
+    "source": "Vercel News",
+    "title": "Vercel Connect 新增企业托管授权功能"
   },
   "https://vercel.com/changelog/vercel-connect-secure-compute": {
     "pushed_at": "2026-10-17T03:49:37",
@@ -1478,6 +1498,11 @@
     "pushed_at": "2026-10-17T03:49:37",
     "source": "Vercel News",
     "title": "Vercel Daemons 现已进入公开测试阶段"
+  },
+  "https://vercel.com/changelog/vercel-drives-is-now-generally-available": {
+    "pushed_at": "2026-10-17T04:48:12",
+    "source": "Vercel News",
+    "title": "Vercel Drives 现已全面可用"
   },
   "https://www.appinn.com/10-tools-github": {
     "pushed_at": "2026-10-15T07:08:13",
