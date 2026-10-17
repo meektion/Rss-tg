@@ -539,6 +539,31 @@
     "source": "News from Google",
     "title": "用新的优先级和分配功能来指导你的广告支出"
   },
+  "https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation": {
+    "pushed_at": "2026-10-17T02:32:50",
+    "source": "The Official Microsoft Blog",
+    "title": "我们从微软自身的AI转型中学到了什么"
+  },
+  "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot": {
+    "pushed_at": "2026-10-17T02:32:50",
+    "source": "The Official Microsoft Blog",
+    "title": "介绍全新的 Copilot，包含 Home、Code 和 Autopilot 功能"
+  },
+  "https://blogs.microsoft.com/blog/2026/09/28/new-microsoft-data-innovations-unlock-what-only-your-business-knows": {
+    "pushed_at": "2026-10-17T02:32:50",
+    "source": "The Official Microsoft Blog",
+    "title": "微软全新数据创新释放只有你的业务才知道的洞察"
+  },
+  "https://blogs.microsoft.com/blog/2026/10/01/microsoft-365-and-linkedin-leadership-update": {
+    "pushed_at": "2026-10-17T02:32:50",
+    "source": "The Official Microsoft Blog",
+    "title": "Microsoft 365 和 LinkedIn 领导层更新"
+  },
+  "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments": {
+    "pushed_at": "2026-10-17T02:32:50",
+    "source": "The Official Microsoft Blog",
+    "title": "微软将把Azure Maia系统扩展至多吉瓦级部署"
+  },
   "https://blogs.nvidia.com/blog/ai-breast-cancer-startups": {
     "pushed_at": "2026-10-16T03:38:50",
     "source": "NVIDIA Blog",
@@ -979,6 +1004,11 @@
     "source": "OpenAI News",
     "title": "把GPT-Rosalind带到学术研究实验室"
   },
+  "https://openai.com/index/itau-generative-ai": {
+    "pushed_at": "2026-10-17T02:32:46",
+    "source": "OpenAI News",
+    "title": "Itaú如何为其整个客户群构建生成式AI"
+  },
   "https://openai.com/index/jump-trading": {
     "pushed_at": "2026-10-16T03:44:07",
     "source": "OpenAI News",
@@ -1018,6 +1048,11 @@
     "pushed_at": "2026-10-16T03:38:44",
     "source": "OpenAI News",
     "title": "Sophos通过OpenAI Daybreak将威胁调查时间缩短了96%"
+  },
+  "https://openai.com/index/stack-overflow-chatgpt-plugin": {
+    "pushed_at": "2026-10-17T02:32:46",
+    "source": "OpenAI News",
+    "title": "Stack Overflow for Agents借助ChatGPT插件实现注册量三倍增长"
   },
   "https://openai.com/index/sullivan-cromwell": {
     "pushed_at": "2026-10-16T02:35:32",
@@ -1224,6 +1259,16 @@
     "source": "Simon Willison's Weblog",
     "title": "Chirp Pong"
   },
+  "https://simonwillison.net/2026/Oct/15/latex": {
+    "pushed_at": "2026-10-17T02:32:55",
+    "source": "Simon Willison's Weblog",
+    "title": "LaTeX 渲染器"
+  },
+  "https://simonwillison.net/2026/Oct/16/code-review": {
+    "pushed_at": "2026-10-17T02:32:55",
+    "source": "Simon Willison's Weblog",
+    "title": "引用 Addy Osmani、Morgan Westlee Lunt 和 Qing Wang 的话"
+  },
   "https://simonwillison.net/2026/Oct/9/built-using-my-voice": {
     "pushed_at": "2026-10-16T13:02:02",
     "source": "Simon Willison's Weblog",
@@ -1333,6 +1378,31 @@
     "pushed_at": "2026-10-15T07:07:07",
     "source": "少数派",
     "title": "已经能测夜间体征的 Apple Watch，为什么要再做一个睡眠呼吸暂停提醒"
+  },
+  "https://vercel.com/blog/ai-gateway-production-index-october-2026": {
+    "pushed_at": "2026-10-17T02:32:48",
+    "source": "Vercel News",
+    "title": "开放权重占71.5%的令牌数和23%的支出"
+  },
+  "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers": {
+    "pushed_at": "2026-10-17T02:32:48",
+    "source": "Vercel News",
+    "title": "Vercel 和 Shopify 让智能体成为一等购物者"
+  },
+  "https://vercel.com/blog/vercel-ship-2026-recap": {
+    "pushed_at": "2026-10-17T02:32:48",
+    "source": "Vercel News",
+    "title": "Vercel Ship 2026 回顾"
+  },
+  "https://vercel.com/changelog/perplexity-decider-v1-2-models-now-available-on-ai-gateway": {
+    "pushed_at": "2026-10-17T02:32:48",
+    "source": "Vercel News",
+    "title": "Perplexity的Decider V1.2模型现已在AI Gateway上线"
+  },
+  "https://vercel.com/changelog/reflection-ai-beam-now-available-on-ai-gateway-for-free": {
+    "pushed_at": "2026-10-17T02:32:48",
+    "source": "Vercel News",
+    "title": "Reflection AI的Beam现已在AI Gateway上免费提供"
   },
   "https://www.appinn.com/10-tools-github": {
     "pushed_at": "2026-10-15T07:08:13",
@@ -1813,6 +1883,31 @@
     "pushed_at": "2026-10-15T19:43:35",
     "source": "IT之家",
     "title": "消息称苹果已发出 10 月 28 日邀请函，首款触屏 MacBook、iPad mini 8、M6 Mac 即将到来"
+  },
+  "https://www.ithome.com/1/014/239.htm": {
+    "pushed_at": "2026-10-17T02:32:52",
+    "source": "IT之家",
+    "title": "OpenAI 再挖马斯克墙角，聘请 xAI 前销售负责人承担网安业务销售工作"
+  },
+  "https://www.ithome.com/1/014/240.htm": {
+    "pushed_at": "2026-10-17T02:32:52",
+    "source": "IT之家",
+    "title": "消息称三星 SDI 最快 2027 年 6 月量产 AI 服务器备用 LFP 柱状电池"
+  },
+  "https://www.ithome.com/1/014/241.htm": {
+    "pushed_at": "2026-10-17T02:32:52",
+    "source": "IT之家",
+    "title": "动画《赛博朋克：边缘行者 2》正式 PV 公布，10 月 20 日上线"
+  },
+  "https://www.ithome.com/1/014/242.htm": {
+    "pushed_at": "2026-10-17T02:32:52",
+    "source": "IT之家",
+    "title": "JetBrains 的本地 AI 编程工具 Junie Local 已 Day 0 适配英伟达 RTX Spark：吞吐最高每秒 55 个词元"
+  },
+  "https://www.ithome.com/1/014/243.htm": {
+    "pushed_at": "2026-10-17T02:32:52",
+    "source": "IT之家",
+    "title": "香港 TVB 加入短剧赛道，与红果合作竖屏剧《金枝欲孽之宫墙折柳》在横店开机"
   },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
