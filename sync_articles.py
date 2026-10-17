@@ -37,7 +37,17 @@ DRY_RUN = os.getenv("DRY_RUN") == "1"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FEEDS_FILE = os.path.join(BASE_DIR, "rss_feeds.txt")
+# 早报/晚报专用源（国际 AI 大厂），RUN_MODE=morning/evening 时读取
+REPORT_FEEDS_FILE = os.path.join(BASE_DIR, "rss_feeds_report.txt")
 CACHE_FILE = os.path.join(BASE_DIR, "sent_articles.json")
+
+# 运行模式：normal（连续推送）/ morning（早报）/ evening（晚报）
+# morning / evening 会读取 REPORT_FEEDS_FILE 并先发一张报头图
+RUN_MODE = os.getenv("RUN_MODE", "normal")
+# 报头图兜底频道名（取不到 Telegram 频道真实标题时使用）
+DEFAULT_CHANNEL_TITLE = os.getenv("CHANNEL_TITLE", "AI 每日速递")
+# 报头图中文渲染字体（子集化 Noto Sans SC，约 1.5MB）
+FONT_PATH = os.path.join(BASE_DIR, "assets", "fonts", "NotoSansSC-subset.ttf")
 
 # 内置兜底源列表（rss_feeds.txt 不存在时使用）
 DEFAULT_FEEDS = [
@@ -182,14 +192,14 @@ def _translate_by_deepseek(text):
     return None
 
 
-def load_feeds():
-    """读取 rss_feeds.txt，不存在则回退内置列表"""
-    if not os.path.exists(FEEDS_FILE):
-        log(f"[feeds] {FEEDS_FILE} 不存在，使用内置源列表")
+def load_feeds(feeds_file=FEEDS_FILE):
+    """读取指定的源列表文件，不存在则回退内置列表"""
+    if not os.path.exists(feeds_file):
+        log(f"[feeds] {feeds_file} 不存在，使用内置源列表")
         return list(DEFAULT_FEEDS)
 
     feeds, seen = [], set()
-    with open(FEEDS_FILE, "r", encoding="utf-8") as f:
+    with open(feeds_file, "r", encoding="utf-8") as f:
         for line in f:
             url = line.strip()
             if not url or url.startswith("#"):
@@ -199,9 +209,9 @@ def load_feeds():
                 feeds.append(url)
 
     if not feeds:
-        log("[feeds] rss_feeds.txt 为空，使用内置源列表")
+        log(f"[feeds] {feeds_file} 为空，使用内置源列表")
         return list(DEFAULT_FEEDS)
-    log(f"[feeds] 从 rss_feeds.txt 读取到 {len(feeds)} 个源")
+    log(f"[feeds] 从 {os.path.basename(feeds_file)} 读取到 {len(feeds)} 个源")
     return feeds
 
 
@@ -664,6 +674,125 @@ def push_card(items):
 
 
 # --------------------------------------------------------------------------
+# 报头图（早报 / 晚报）
+# --------------------------------------------------------------------------
+
+def get_channel_title():
+    """从 Telegram 获取频道真实名称；失败则回退默认值"""
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
+        return DEFAULT_CHANNEL_TITLE
+    try:
+        resp = requests.get(
+            f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getChat",
+            params={"chat_id": TELEGRAM_CHANNEL_ID},
+            timeout=REQUEST_TIMEOUT,
+        )
+        if resp.status_code == 200:
+            data = resp.json()
+            if data.get("ok"):
+                title = (data.get("result") or {}).get("title")
+                if title:
+                    return title
+    except Exception as e:
+        log(f"  [getChat skipped] {type(e).__name__}: {e}")
+    return DEFAULT_CHANNEL_TITLE
+
+
+def _beijing_now():
+    """返回北京时间（UTC+8）的 datetime"""
+    return dt.datetime.now(dt.timezone.utc) + dt.timedelta(hours=8)
+
+
+def generate_report_cover(mode):
+    """生成早报 / 晚报报头图，返回本地 PNG 路径；失败返回 None"""
+    if not os.path.exists(FONT_PATH):
+        log(f"  [cover] 字体缺失 {FONT_PATH}，跳过报头图")
+        return None
+    try:
+        from PIL import Image, ImageDraw, ImageFont
+    except ImportError:
+        log("  [cover] 未安装 Pillow，跳过报头图")
+        return None
+
+    W, H = 1200, 630
+    img = Image.new("RGB", (W, H), (13, 17, 28))
+    draw = ImageDraw.Draw(img)
+
+    # 深色科技渐变背景（逐行画线，比逐像素快）
+    top = (30, 40, 70)
+    bottom = (13, 17, 28)
+    for y in range(H):
+        t = y / H
+        r = int(top[0] + (bottom[0] - top[0]) * t)
+        g = int(top[1] + (bottom[1] - top[1]) * t)
+        b = int(top[2] + (bottom[2] - top[2]) * t)
+        draw.line([(0, y), (W, y)], fill=(r, g, b))
+
+    # 顶部一条强调线
+    draw.rectangle([80, 92, 360, 96], fill=(90, 130, 255))
+
+    try:
+        font_title = ImageFont.truetype(FONT_PATH, 58)
+        font_big = ImageFont.truetype(FONT_PATH, 116)
+        font_small = ImageFont.truetype(FONT_PATH, 34)
+        font_tag = ImageFont.truetype(FONT_PATH, 28)
+    except Exception as e:
+        log(f"  [cover] 字体加载失败：{e}")
+        return None
+
+    now = _beijing_now()
+    weekday = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"][now.weekday()]
+    date_str = now.strftime("%Y 年 %m 月 %d 日") + "  " + weekday
+    label = "早报" if mode == "morning" else "晚报"
+    channel = get_channel_title()
+
+    # 顶部：频道名
+    draw.text((80, 118), channel, font=font_title, fill=(173, 196, 255))
+    # 中间：早报 / 晚报（大字）
+    draw.text((78, 232), label, font=font_big, fill=(255, 255, 255))
+    # 底部：日期
+    draw.text((82, 470), date_str, font=font_small, fill=(158, 168, 198))
+    # 标语
+    draw.text((82, 524), "AI 大厂动态 · 每日速递", font=font_tag, fill=(120, 132, 162))
+
+    out = os.path.join(BASE_DIR, f"_report_cover_{mode}.png")
+    img.save(out, "PNG")
+    return out
+
+
+def send_cover_photo(image_path, caption=""):
+    """发送报头图（可选 caption），本地文件走 multipart 上传"""
+    api = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
+    data = {"chat_id": TELEGRAM_CHANNEL_ID, "parse_mode": "HTML"}
+    if caption:
+        data["caption"] = caption
+    with open(image_path, "rb") as fh:
+        resp = requests.post(api, data=data, files={"photo": fh}, timeout=60)
+    if resp.status_code != 200:
+        raise RuntimeError(f"HTTP {resp.status_code}: {resp.text[:180]}")
+    return resp.json()
+
+
+def push_cover(mode, caption=""):
+    """生成并发送报头图；失败不中断后续卡片推送"""
+    cover = generate_report_cover(mode)
+    if not cover:
+        return
+    if DRY_RUN:
+        log(f"  [dry-run] 报头图：{cover}（{mode}）caption={caption[:40]}")
+        return
+    try:
+        send_cover_photo(cover, caption=caption)
+    except Exception as e:
+        log(f"  [cover failed] {type(e).__name__}: {e}")
+    finally:
+        try:
+            os.remove(cover)
+        except OSError:
+            pass
+
+
+# --------------------------------------------------------------------------
 # 主流程
 # --------------------------------------------------------------------------
 
@@ -671,9 +800,13 @@ def main():
     if not DRY_RUN and (not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID):
         raise SystemExit("缺少环境变量 TELEGRAM_BOT_TOKEN / TELEGRAM_CHANNEL_ID")
 
-    feeds = load_feeds()
+    mode = RUN_MODE if RUN_MODE in ("morning", "evening") else "normal"
+    feeds_file = REPORT_FEEDS_FILE if mode != "normal" else FEEDS_FILE
+
+    feeds = load_feeds(feeds_file)
     cache = load_cache()
     log(f"[cache] 已加载 {len(cache)} 条历史记录")
+    log(f"[mode] {mode}")
 
     articles = collect_articles(feeds, cache)
 
@@ -691,6 +824,13 @@ def main():
         return
 
     if not articles:
+        if mode != "normal":
+            # 报告模式：仍发一张报头图，告知今日无更新
+            label = "早报" if mode == "morning" else "晚报"
+            title = get_channel_title()
+            log(f"[mode] {mode} 今日无新动态，发送报头图（无更新）")
+            push_cover(mode, caption=f"📰 {title} · {label}\n今日暂无 AI 大厂新动态")
+            return
         log("今日没有新文章。")
         return
 
@@ -702,6 +842,11 @@ def main():
     # 按来源（公司）分组：一个公司一张卡片
     groups = group_by_source(articles)
     log(f"[group] {len(articles)} 条动态，合并为 {len(groups)} 张卡片（一个公司一张）")
+
+    # 报告模式：先发一张报头图作为开场
+    if mode != "normal":
+        push_cover(mode)
+        time.sleep(1.2)
 
     ok = 0
     fail = 0

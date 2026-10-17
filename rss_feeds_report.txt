@@ -1,0 +1,18 @@
+# 早报 / 晚报专用源：国际 AI 大厂官方动态
+# 由 sync_articles.py 在 RUN_MODE=morning / evening 时读取，
+# 每天北京时间 10:00（早报）、17:00（晚报）各出一期。
+# 与 rss_feeds.txt 的国内/社区源互不重叠，互不影响。
+
+# ---------- AI 大厂官方（国际） ----------
+https://openai.com/news/rss.xml
+https://deepmind.google/blog/rss.xml
+https://blog.google/technology/ai/rss/
+https://blog.cloudflare.com/rss
+https://vercel.com/atom
+https://blogs.microsoft.com/feed/
+https://machinelearning.apple.com/rss.xml
+https://blogs.nvidia.com/feed/
+https://engineering.fb.com/feed/
+
+# ---------- AI 公司（国内） ----------
+https://qwenlm.github.io/blog/index.xml

@@ -1,20 +1,6 @@
-# RSS 源列表：每行一个地址，# 开头为注释
-# 支持 RSS 2.0 / Atom，中文源和英文源均可
-# 定位：AI 大厂官方动态为主 + 国内科技资讯
-
-# ---------- AI 大厂官方（国际） ----------
-https://openai.com/news/rss.xml
-https://deepmind.google/blog/rss.xml
-https://blog.google/technology/ai/rss/
-https://blog.cloudflare.com/rss
-https://vercel.com/atom
-https://blogs.microsoft.com/feed/
-https://machinelearning.apple.com/rss.xml
-https://blogs.nvidia.com/feed/
-https://engineering.fb.com/feed/
-
-# ---------- AI 公司（国内） ----------
-https://qwenlm.github.io/blog/index.xml
+# 连续推送源：国内科技资讯 + AI 社区
+# 由 sync_articles.py 在 RUN_MODE=normal（定时 16:00 / 次日 0:00）时读取。
+# 与 rss_feeds_report.txt 的 AI 大厂源分开：前者走早报/晚报，本文件保持连续推送。
 
 # ---------- 国内科技资讯 ----------
 https://www.qbitai.com/feed

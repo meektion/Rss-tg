@@ -2,8 +2,20 @@ name: Sync Articles to Telegram
 
 on:
   schedule:
-    - cron: '0 8,16 * * *'
+    - cron: '0 2 * * *'      # 早报：北京时间 10:00
+    - cron: '0 9 * * *'      # 晚报：北京时间 17:00
+    - cron: '0 8,16 * * *'   # 连续推送：北京时间 16:00 / 次日 0:00
   workflow_dispatch:
+    inputs:
+      mode:
+        description: '运行模式'
+        required: true
+        default: 'normal'
+        type: choice
+        options:
+          - normal
+          - morning
+          - evening
 
 permissions:
   contents: write
@@ -29,11 +41,25 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Determine mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
+          else
+            case "${{ github.event.schedule }}" in
+              "0 2 * * *")   echo "mode=morning" >> "$GITHUB_OUTPUT";;
+              "0 9 * * *")   echo "mode=evening" >> "$GITHUB_OUTPUT";;
+              *)             echo "mode=normal"  >> "$GITHUB_OUTPUT";;
+            esac
+          fi
+
       - name: Run sync script
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          RUN_MODE: ${{ steps.mode.outputs.mode }}
         run: python sync_articles.py
 
       - name: Commit sent-articles cache
