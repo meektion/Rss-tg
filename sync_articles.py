@@ -890,25 +890,6 @@ def send_plain_text(text):
         raise RuntimeError(f"HTTP {resp.status_code}: {resp.text[:180]}")
 
 
-def push_cover(mode, caption=""):
-    """生成并发送报头图；失败不中断。用于报告模式无更新场景"""
-    cover = generate_report_cover(mode)
-    if not cover:
-        return
-    if DRY_RUN:
-        log(f"  [dry-run] 报头图：{cover}（{mode}）caption={caption[:40]}")
-        return
-    try:
-        send_cover_photo(cover, caption=caption)
-    except Exception as e:
-        log(f"  [cover failed] {type(e).__name__}: {e}")
-    finally:
-        try:
-            os.remove(cover)
-        except OSError:
-            pass
-
-
 def push_report(groups, mode):
     """早报/晚报：一张报头图 + 一条编号消息，一次发出。返回是否成功"""
     caption = build_report_caption(groups, mode)
@@ -976,11 +957,8 @@ def main():
 
     if not articles:
         if mode != "normal":
-            # 报告模式：仍发一张报头图，告知今日无更新
-            label = "早报" if mode == "morning" else "晚报"
-            title = get_channel_title()
-            log(f"[mode] {mode} 今日无新动态，发送报头图（无更新）")
-            push_cover(mode, caption=f"📰 {title} · {label}\n今日暂无 AI 大厂新动态")
+            # 报告模式：无新内容时静默跳过，不打扰频道
+            log(f"[mode] {mode} 今日无新动态，静默跳过（不推送）")
             return
         log("今日没有新文章。")
         return
