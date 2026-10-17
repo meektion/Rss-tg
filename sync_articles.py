@@ -60,7 +60,7 @@ SCAN_DEPTH = 20                # 每个源最多扫描多少条 entry（用于�
 PREFER_TODAY = True            # 优先推送当天发布的内容
 MAX_ARTICLES_PER_RUN = 40      # 单次运行最多推送几条（防止一次刷屏）
 FIRST_RUN_BOOTSTRAP = False    # 首次运行（空缓存）只预热缓存、不推送
-SUMMARY_MAX_LENGTH = 160       # 摘要截断长度
+SUMMARY_MAX_LENGTH = 100       # 摘要截断长度
 RETRY_COUNT = 3                # 抓取重试次数
 RETRY_DELAY = 2                # 重试间隔（秒）
 CAPTION_LIMIT = 1024           # Telegram 图片 caption 上限
@@ -70,6 +70,7 @@ MAX_ITEMS_PER_CARD = 10        # 一张卡片最多列几条动态（实际会�
 ITEM_GAP_LINES = 1             # 卡片内「标题+摘要」组合之间的空行数
 TRAILING_BLANK_LINES = 2       # 卡片末尾追加的空行数（让底部不那么贴边，0 为不加）
 SHOW_SOURCE_HEADER = True      # 卡片顶部显示来源（如 ▎OpenAI），False 为不显示
+SOURCE_HEADER_GAP = 1           # 来源行与第一条消息之间的空行数（调大更疏朗）
 KEEP_DAYS = 30                 # 缓存保留天数
 REQUEST_TIMEOUT = 20           # 单次请求超时
 TRANSLATE_ENABLED = True       # 英文标题/摘要自动翻译为中文
@@ -556,7 +557,7 @@ def _compose(items, sep, gap, limit):
         return ""
 
     header = _source_header(items)
-    head = f"{header}\n" if header else ""
+    head = (f"{header}\n" + "\n" * SOURCE_HEADER_GAP) if header else ""
 
     text = head + sep.join(blocks)
     while len(text) > limit and len(blocks) > 1:
