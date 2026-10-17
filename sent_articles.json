@@ -1439,10 +1439,25 @@
     "source": "Vercel News",
     "title": "Vercel Ship 2026 回顾"
   },
+  "https://vercel.com/changelog/cat-jam-is-now-available-in-stealth-for-free-on-ai-gateway": {
+    "pushed_at": "2026-10-17T03:49:37",
+    "source": "Vercel News",
+    "title": "Cat Jam现已在AI Gateway上以隐身模式免费提供"
+  },
   "https://vercel.com/changelog/introducing-token-pass": {
     "pushed_at": "2026-10-17T02:56:42",
     "source": "Vercel News",
     "title": "介绍 Token Pass"
+  },
+  "https://vercel.com/changelog/liquid-ais-d1-ultra-now-available-on-ai-gateway": {
+    "pushed_at": "2026-10-17T03:49:37",
+    "source": "Vercel News",
+    "title": "Liquid AI的d1-ultra现已在AI Gateway上可用"
+  },
+  "https://vercel.com/changelog/muse-spark-open-now-available-on-ai-gateway": {
+    "pushed_at": "2026-10-17T03:49:37",
+    "source": "Vercel News",
+    "title": "Muse Spark Open现已在AI Gateway上线"
   },
   "https://vercel.com/changelog/perplexity-decider-v1-2-models-now-available-on-ai-gateway": {
     "pushed_at": "2026-10-17T02:32:48",
@@ -1453,6 +1468,16 @@
     "pushed_at": "2026-10-17T02:32:48",
     "source": "Vercel News",
     "title": "Reflection AI的Beam现已在AI Gateway上免费提供"
+  },
+  "https://vercel.com/changelog/vercel-connect-secure-compute": {
+    "pushed_at": "2026-10-17T03:49:37",
+    "source": "Vercel News",
+    "title": "Vercel Connect 现已支持 Secure Compute"
+  },
+  "https://vercel.com/changelog/vercel-daemons-is-now-in-public-beta": {
+    "pushed_at": "2026-10-17T03:49:37",
+    "source": "Vercel News",
+    "title": "Vercel Daemons 现已进入公开测试阶段"
   },
   "https://www.appinn.com/10-tools-github": {
     "pushed_at": "2026-10-15T07:08:13",
