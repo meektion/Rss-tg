@@ -69,6 +69,7 @@ MESSAGE_BLANK_LINES = 3        # 消息内部各段落之间的空行数（调�
 MAX_ITEMS_PER_CARD = 10        # 一张卡片最多列几条动态（实际会被 1024 字符上限自动压减）
 ITEM_GAP_LINES = 1             # 卡片内「标题+摘要」组合之间的空行数
 TRAILING_BLANK_LINES = 2       # 卡片末尾追加的空行数（让底部不那么贴边，0 为不加）
+SHOW_SOURCE_HEADER = True      # 卡片顶部显示来源（如 ▎OpenAI），False 为不显示
 KEEP_DAYS = 30                 # 缓存保留天数
 REQUEST_TIMEOUT = 20           # 单次请求超时
 TRANSLATE_ENABLED = True       # 英文标题/摘要自动翻译为中文
@@ -87,9 +88,10 @@ TRANSLATE_PROMPT = (
 )
 
 HEADERS = {
+    # 老实报身份：微软博客对伪装浏览器的 UA 直接 403，对 bot UA 反而放行
     "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+        "Mozilla/5.0 (compatible; RssTgBot/1.0; "
+        "+https://github.com/meektion/Rss-tg)"
     )
 }
 
@@ -506,7 +508,8 @@ def collect_articles(feeds, cache):
 def build_caption(items):
     """构建一张卡片（一个公司的多条动态）的 caption（HTML）
 
-    形态（不带来源、不带"阅读原文"）：
+    形态（卡片顶部写一次来源，逐条不再重复）：
+        ▎OpenAI
         标题1
         摘要1
 
@@ -528,6 +531,16 @@ def build_text_message(items):
     return _compose(items, sep, gap, MAX_MESSAGE_LENGTH)
 
 
+def _source_header(items):
+    """卡片顶部的来源行，如 ▎OpenAI；同卡片同来源"""
+    if not items or not SHOW_SOURCE_HEADER:
+        return ""
+    source = (items[0].get("source") or "").strip()
+    if not source:
+        return ""
+    return f"<b>▎{esc(source)}</b>"
+
+
 def _compose(items, sep, gap, limit):
     """把「标题+摘要」按条目拼装，超长时从末尾整条裁掉"""
     blocks = []
@@ -542,10 +555,13 @@ def _compose(items, sep, gap, limit):
     if not blocks:
         return ""
 
-    text = sep.join(blocks)
+    header = _source_header(items)
+    head = f"{header}\n" if header else ""
+
+    text = head + sep.join(blocks)
     while len(text) > limit and len(blocks) > 1:
         blocks.pop()
-        text = sep.join(blocks)
+        text = head + sep.join(blocks)
 
     if len(text) > limit:
         text = text[: limit - 1].rstrip() + "…"
