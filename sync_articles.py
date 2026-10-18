@@ -920,61 +920,71 @@ def company_alias(source):
     return source
 
 
-def build_report_caption(groups, mode):
-    """构建早报/晚报编号消息；超长时裁掉完整条目，不直接切割 HTML。"""
+def build_report_messages(groups, mode):
+    """构建完整早报/晚报消息列表；超长时分段发送，不丢弃末尾公司。"""
     now = _beijing_now()
     label = "早报" if mode == "morning" else "晚报"
     emoji = "🌅" if mode == "morning" else "🌃"
+    heading = f"#News\n{emoji}{label}【{now.month}.{now.day}】"
+    if REPORT_INTRO:
+        heading += "\n" + esc(REPORT_INTRO)
 
-    def build(limit_n, title_limit=None, include_intro=True):
-        # 频道名与早报/晚报已由报头图呈现，caption 只保留日期标签。
-        lines = ["#News", f"{emoji}{label}【{now.month}.{now.day}】"]
-        if include_intro and REPORT_INTRO:
-            lines.append(esc(REPORT_INTRO))
-        lines.append("")
-        i = 0
-        for source, items in groups:
-            if i >= limit_n:
-                break
-            if not items:
-                continue
-            art = items[0]
-            company = esc(_truncate_text(company_alias(source), 50))
-            raw_title = art.get("title") or "未命名文章"
-            if title_limit is not None:
-                raw_title = _truncate_text(raw_title, title_limit)
-            title = esc(raw_title)
-            link = html.escape(art.get("link") or "", quote=True)
+    entries = []
+    # 每个来源取最新一条作为本期摘要；其余文章不应被标记为已推送。
+    for index, (source, items) in enumerate(groups, 1):
+        if not items:
+            continue
+        art = items[0]
+        company = esc(_truncate_text(company_alias(source), 50))
+        raw_title = art.get("title") or "未命名文章"
+        link = html.escape(art.get("link") or "", quote=True)
+        title_limit = 300
+        def render_entry(limit):
+            title = esc(_truncate_text(raw_title, limit))
+            number = REPORT_NUMBER_EMOJI[index - 1] if index <= len(REPORT_NUMBER_EMOJI) else f"{index}."
             if link:
-                lines.append(f"{REPORT_NUMBER_EMOJI[i]} <b>{company}</b> <a href=\"{link}\">{title}</a>")
-            else:
-                lines.append(f"{REPORT_NUMBER_EMOJI[i]} <b>{company}</b> {title}")
-            lines.extend([""] * REPORT_ITEM_GAP)
-            i += 1
-        lines.append("")
-        return "\n".join(lines)
+                return f"{number} <b>{company}</b> <a href=\"{link}\">{title}</a>"
+            return f"{number} <b>{company}</b> {title}"
 
-    n = min(len(groups), len(REPORT_NUMBER_EMOJI))
-    text = build(n)
-    while _html_text_length(text) > CAPTION_LIMIT and n > 1:
-        n -= 1
-        text = build(n)
+        entry = render_entry(title_limit)
+        # 单条链接标题也必须能装进 Telegram 消息；必要时仅缩短显示标题，不改链接。
+        while _html_text_length(entry) > MAX_MESSAGE_LENGTH - 100 and title_limit > 20:
+            title_limit = max(20, title_limit // 2)
+            entry = render_entry(title_limit)
+        entries.append((source, art, entry))
 
-    if _html_text_length(text) > CAPTION_LIMIT:
-        for title_limit in (200, 140, 100, 70, 40, 20):
-            text = build(max(1, n), title_limit=title_limit)
-            if _html_text_length(text) <= CAPTION_LIMIT:
-                break
+    messages = []
+    current_limit = CAPTION_LIMIT
+    current_lines = [heading, ""]
+    current_items = 0
 
-    if _html_text_length(text) > CAPTION_LIMIT:
-        text = build(max(1, n), title_limit=20, include_intro=False)
+    for _, _, entry in entries:
+        candidate_lines = current_lines + [entry, ""]
+        candidate = "\n".join(candidate_lines)
+        if current_items and _html_text_length(candidate) > current_limit:
+            messages.append("\n".join(current_lines).strip())
+            # Continuation messages repeat the report heading so they remain understandable on their own.
+            current_limit = MAX_MESSAGE_LENGTH
+            current_lines = [f"{heading}\n（续）", ""]
+            current_items = 0
+            candidate_lines = current_lines + [entry, ""]
+            candidate = "\n".join(candidate_lines)
 
-    # 如果报告仍然过长，继续删除完整的末尾条目，绝不切片 HTML 字符串。
-    while _html_text_length(text) > CAPTION_LIMIT and n > 1:
-        n -= 1
-        text = build(n, title_limit=40, include_intro=False)
+        if _html_text_length(candidate) > current_limit:
+            # Last-resort guard for a very long source/link field; preserve valid HTML and the article link.
+            raise ValueError(f"报告单条内容超出 Telegram 限制：{entries[current_items][0] if entries else 'unknown'}")
 
-    return text
+        current_lines = candidate_lines
+        current_items += 1
+
+    if current_items or not messages:
+        messages.append("\n".join(current_lines).strip())
+    return messages
+
+
+def build_report_caption(groups, mode):
+    """兼容旧调用：返回首条报告消息（完整发送请使用 build_report_messages）。"""
+    return build_report_messages(groups, mode)[0]
 
 def send_cover_photo(image_path, caption=""):
     """发送报头图（可选 caption），本地文件走 multipart 上传"""
@@ -1003,30 +1013,28 @@ def send_plain_text(text):
 
 
 def push_report(groups, mode):
-    """早报/晚报：一张报头图 + 一条编号消息，一次发出。返回是否成功"""
-    caption = build_report_caption(groups, mode)
+    """早报/晚报：报头图 + 必要时的续篇消息；所有条目分段发送，不静默丢弃。"""
+    messages = build_report_messages(groups, mode)
     cover = generate_report_cover(mode)
     if DRY_RUN:
         log(f"  [dry-run] 报头图：{cover}（{mode}）")
-        log("  [dry-run] 编号消息 caption：")
-        for line in caption.split("\n"):
-            log("    " + line)
+        log(f"  [dry-run] 报告共 {len(messages)} 条消息：")
+        for message_index, message in enumerate(messages, 1):
+            log(f"  [dry-run] 第 {message_index}/{len(messages)} 条：")
+            for line in message.split("\n"):
+                log("    " + line)
         return True
     try:
         if cover:
-            send_cover_photo(cover, caption=caption)
+            send_cover_photo(cover, caption=messages[0])
         else:
-            send_plain_text(caption)
+            send_plain_text(messages[0])
+        for message in messages[1:]:
+            time.sleep(1.2)
+            send_plain_text(message)
         return True
     except Exception as e:
         log(f"  [report failed] {type(e).__name__}: {e}")
-        if cover:
-            try:
-                send_plain_text(caption)
-                log("  [fallback] 报头图发送失败，已改纯文本发送")
-                return True
-            except Exception as e2:
-                log(f"  [sendMessage failed] {type(e2).__name__}: {e2}")
         return False
     finally:
         if cover:
@@ -1088,10 +1096,14 @@ def main():
         # 早报/晚报：一张报头图 + 一条编号消息，一次发出
         if push_report(groups, mode):
             ts = dt.datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
-            for art in articles:  # 本轮抓到的全部标记已见，避免下期重复
+            # 仅缓存报告中实际展示的每个来源最新一条；未展示的同源文章留待后续推送。
+            for _, items in groups:
+                if not items:
+                    continue
+                art = items[0]
                 cache[art["key"]] = {"title": art["title"], "source": art["source"], "pushed_at": ts}
             save_cache(cache)
-            log(f"[done] {mode} 一期推送完成，收录 {len(groups)} 家公司")
+            log(f"[done] {mode} 一期推送完成，收录 {sum(1 for _, items in groups if items)} 家公司")
         else:
             log(f"[warn] {mode} 推送失败，未写缓存，下次运行重试")
         return
