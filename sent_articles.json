@@ -1669,6 +1669,16 @@
     "source": "Simon Willison's Weblog",
     "title": "引用 Addy Osmani、Morgan Westlee Lunt 和 Qing Wang 的话"
   },
+  "https://simonwillison.net/2026/Oct/17/document-currentscript": {
+    "pushed_at": "2026-10-18T09:53:13",
+    "source": "Simon Willison's Weblog",
+    "title": "使用document.currentScript进行内联渲染"
+  },
+  "https://simonwillison.net/2026/Oct/17/web-edit": {
+    "pushed_at": "2026-10-18T09:53:13",
+    "source": "Simon Willison's Weblog",
+    "title": "web-edit 0.1a2"
+  },
   "https://simonwillison.net/2026/Oct/9/built-using-my-voice": {
     "pushed_at": "2026-10-16T13:02:02",
     "source": "Simon Willison's Weblog",
@@ -1708,6 +1718,11 @@
     "pushed_at": "2026-10-15T06:33:12",
     "source": "少数派",
     "title": "App+1｜Mangata：把每次散步当作一次探索旅行"
+  },
+  "https://sspai.com/post/115241": {
+    "pushed_at": "2026-10-18T09:53:10",
+    "source": "少数派",
+    "title": "Quote/0 妙用 +1，把墨水屏变成点餐助手"
   },
   "https://sspai.com/post/115382": {
     "pushed_at": "2026-10-15T06:33:22",
@@ -2554,6 +2569,31 @@
     "source": "IT之家",
     "title": "12.88 万元起，广汽埃安 Ray7 预售 2 小时订单达 6817 单"
   },
+  "https://www.ithome.com/1/014/544.htm": {
+    "pushed_at": "2026-10-18T09:53:08",
+    "source": "IT之家",
+    "title": "《GTA6》游戏将包含数百个可探索室内空间，叙事手法更接近《荒野大镖客：救赎 2》"
+  },
+  "https://www.ithome.com/1/014/545.htm": {
+    "pushed_at": "2026-10-18T09:53:08",
+    "source": "IT之家",
+    "title": "小米大家电空调能效技术交流会 10 月 26 日举行，招募 5 名用户"
+  },
+  "https://www.ithome.com/1/014/547.htm": {
+    "pushed_at": "2026-10-18T09:53:08",
+    "source": "IT之家",
+    "title": "《控制：共振》游戏发售三周后，销量突破 100 万份"
+  },
+  "https://www.ithome.com/1/014/548.htm": {
+    "pushed_at": "2026-10-18T09:53:08",
+    "source": "IT之家",
+    "title": "中国科学院智能锂电池研究取得重要新进展，可预警锂枝晶"
+  },
+  "https://www.ithome.com/1/014/549.htm": {
+    "pushed_at": "2026-10-18T09:53:08",
+    "source": "IT之家",
+    "title": "动视：《使命召唤：现代战争 4》将为《现代战争》系列游戏画上句号"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -2723,6 +2763,11 @@
     "pushed_at": "2026-10-17T18:10:42",
     "source": "量子位",
     "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切"
+  },
+  "https://www.qbitai.com/2026/10/504116.html": {
+    "pushed_at": "2026-10-18T09:53:06",
+    "source": "量子位",
+    "title": "端侧跑通超千亿大模型！联想YOGA Pro 15 RTX Spark超级AIPC今日正式发售"
   },
   "https://www.solidot.org/story?sid=85598": {
     "pushed_at": "2026-10-15T09:04:02",
