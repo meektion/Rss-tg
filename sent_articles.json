@@ -99,6 +99,11 @@
     "source": "Ars Technica",
     "title": "Polymarket在选举结束后仍产生了6亿美元的选举交易额"
   },
+  "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain": {
+    "pushed_at": "2026-10-18T11:40:39",
+    "source": "Ars Technica",
+    "title": "超级骗局纪录片揭示了抓捕浪漫骗子的艰辛"
+  },
   "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Ars Technica",
@@ -653,6 +658,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "The Mozilla Blog",
     "title": "无论在哪工作，使用Firefox移动浏览器都能保持专注"
+  },
+  "https://blog.mozilla.org/en/mozilla/ai/open-source-ai-framework": {
+    "pushed_at": "2026-10-18T11:40:39",
+    "source": "The Mozilla Blog",
+    "title": "开源AI的新框架"
   },
   "https://blog.mozilla.org/en/mozilla/ai/trustworthy-ai-map": {
     "pushed_at": "2026-10-18T04:13:01",
@@ -1678,6 +1688,11 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "Shopify Engineering",
     "title": "River如何将安全工作从修复推进到合并"
+  },
+  "https://shopify.engineering/scaling-inventory-reservations": {
+    "pushed_at": "2026-10-18T11:40:39",
+    "source": "Shopify Engineering",
+    "title": "我们用MySQL替代Redis进行库存预留，并且实现了扩展。"
   },
   "https://shopify.engineering/shop-app-migration": {
     "pushed_at": "2026-10-18T04:13:01",
@@ -3064,6 +3079,11 @@
     "source": "奇客Solidot–传递最新科技情报",
     "title": "美国银行雇佣千名合同工修复 AI 工具发现的软件漏洞"
   },
+  "https://www.technologyreview.com/2026/10/16/1146834/kids-are-outsmarting-social-media-bans-thats-not-a-problem-we-need-to-solve": {
+    "pushed_at": "2026-10-18T11:40:39",
+    "source": "Hacker News: Front Page",
+    "title": "孩子们正在绕过社交媒体禁令。这不是我们需要解决的问题"
+  },
   "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Verge",
@@ -3123,6 +3143,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "WIRED",
     "title": "Valerion VisionMaster Max 4K投影仪评测：画质出色，音效尚可"
+  },
+  "https://www.wired.com/story/best-airpods-case": {
+    "pushed_at": "2026-10-18T11:40:39",
+    "source": "WIRED",
+    "title": "我们在日常生活中使用过的最佳AirPods保护壳（2026）"
   },
   "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids": {
     "pushed_at": "2026-10-18T11:04:31",
