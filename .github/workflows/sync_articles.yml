@@ -55,6 +55,9 @@ jobs:
             esac
           fi
 
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+
       - name: Run sync script
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
