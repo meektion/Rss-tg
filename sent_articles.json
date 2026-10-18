@@ -79,6 +79,11 @@
     "source": "Ars Technica",
     "title": "据报道，小罗伯特·肯尼迪提议FDA对未经证实的肽类产品睁一只眼闭一只眼。"
   },
+  "https://arstechnica.com/reviews/2026/10/the-surface-laptop-ultra-delivers-on-most-of-microsofts-promises": {
+    "pushed_at": "2026-10-18T13:11:04",
+    "source": "Ars Technica",
+    "title": "Surface Laptop Ultra 兑现了微软的大部分承诺"
+  },
   "https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Ars Technica",
@@ -623,6 +628,11 @@
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Mozilla Blog",
     "title": "深入解析：为食谱的“摇一摇生成摘要”功能进行提示词调优"
+  },
+  "https://blog.mozilla.org/en/firefox/firefox-nvidia-geforce-now-partnership": {
+    "pushed_at": "2026-10-18T13:11:04",
+    "source": "The Mozilla Blog",
+    "title": "等待结束了。NVIDIA GeForce NOW 将 Firefox 加入其支持的浏览器阵容。"
   },
   "https://blog.mozilla.org/en/firefox/firefox-window-types": {
     "pushed_at": "2026-10-18T06:52:43",
@@ -1224,6 +1234,11 @@
     "source": "The GitHub Blog",
     "title": "How one bug bounty researcher chooses the features they investigate"
   },
+  "https://github.com/0x23/MicroManipulatorStepper": {
+    "pushed_at": "2026-10-18T13:11:04",
+    "source": "Hacker News: Front Page",
+    "title": "Open MicroManipulator——一个亚微米级3D运动控制平台"
+  },
   "https://machinelearning.apple.com/research/code-switching-detection": {
     "pushed_at": "2026-10-16T02:35:41",
     "source": "Apple Machine Learning Research",
@@ -1658,6 +1673,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Shopify Engineering",
     "title": "使用Catalog API为代理式商务聚类数十亿产品"
+  },
+  "https://shopify.engineering/fine-tuning-agent-shopify-flow": {
+    "pushed_at": "2026-10-18T13:11:04",
+    "source": "Shopify Engineering",
+    "title": "通过自然语言生成流程：一种代理建模方法"
   },
   "https://shopify.engineering/gisting": {
     "pushed_at": "2026-10-18T06:52:43",
@@ -3099,6 +3119,11 @@
     "source": "The Verge",
     "title": "《皮克敏4》在Nintendo Switch 2的10美元更新前降价20美元。"
   },
+  "https://www.theverge.com/gadgets/1013257/milk-frother-cold-foam-gadget": {
+    "pushed_at": "2026-10-18T13:11:04",
+    "source": "The Verge",
+    "title": "我今年买的最好的小工具是一个奶泡器"
+  },
   "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Verge",
@@ -3148,6 +3173,11 @@
     "pushed_at": "2026-10-18T11:40:39",
     "source": "WIRED",
     "title": "我们在日常生活中使用过的最佳AirPods保护壳（2026）"
+  },
+  "https://www.wired.com/story/climate-change-has-it-in-for-the-worlds-best-surfing": {
+    "pushed_at": "2026-10-18T13:11:04",
+    "source": "WIRED",
+    "title": "气候变化对世界顶级冲浪胜地构成威胁"
   },
   "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids": {
     "pushed_at": "2026-10-18T11:04:31",
