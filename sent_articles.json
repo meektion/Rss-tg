@@ -544,6 +544,31 @@
     "source": "News from Google",
     "title": "用新的优先级和分配功能来指导你的广告支出"
   },
+  "https://blog.mozilla.org/en/firefox/firefox-aeg-uber-arena-partnership": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "The Mozilla Blog",
+    "title": "Firefox与Anschutz Entertainment Group在柏林Uber Arena和Uber Eats Music Hall达成合作"
+  },
+  "https://blog.mozilla.org/en/firefox/introducing-firefox-enterprise": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "The Mozilla Blog",
+    "title": "Mozilla推出Firefox企业版"
+  },
+  "https://blog.mozilla.org/en/firefox/new-firefox-sounds": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "The Mozilla Blog",
+    "title": "（火）狐说什么？"
+  },
+  "https://blog.mozilla.org/en/mozilla/ai/trustworthy-ai-map": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "The Mozilla Blog",
+    "title": "这张地图展示了风险投资支持的公司在当前最需要的最重要资产"
+  },
+  "https://blog.mozilla.org/en/mozilla/palaniappan-parry-jones": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "The Mozilla Blog",
+    "title": "Jambu Palaniappan 和 David Parry-Jones 加入 Mozilla 公司董事会"
+  },
   "https://blogs.microsoft.com/blog/2026/07/22/powering-americas-genesis-mission-microsofts-commitment-to-scientific-discovery": {
     "pushed_at": "2026-10-17T02:56:47",
     "source": "The Official Microsoft Blog",
@@ -789,20 +814,70 @@
     "source": "Google DeepMind News",
     "title": "Gemini 3.8 text-to-speech says hello"
   },
+  "https://dropbox.tech/culture/learnings-from-deploying-ai-at-company-scale": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Dropbox Tech Blog",
+    "title": "Dropbox CTO Ali Dasdan谈从AI采用迈向转型"
+  },
+  "https://dropbox.tech/developers/new-dropbox-api-documentation": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Dropbox Tech Blog",
+    "title": "介绍我们全新的 Dropbox API 文档"
+  },
+  "https://dropbox.tech/infrastructure/improving-infrastructure-efficiency-for-growing-demand-in-the-age-of-ai": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Dropbox Tech Blog",
+    "title": "在AI时代，为满足不断增长的需求，提升基础设施效率"
+  },
+  "https://dropbox.tech/machine-learning/evolving-calendar-assistant-reclaim-to-be-ai-native": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Dropbox Tech Blog",
+    "title": "将我们的日历助手Reclaim演进为AI原生，无需从头开始"
+  },
+  "https://dropbox.tech/security/how-our-inhouse-auditor-tests-cookie-behavior-across-hundreds-of-web-surfaces": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Dropbox Tech Blog",
+    "title": "用我们的内部审计工具在数百个网络界面上测试cookie行为"
+  },
   "https://elevenlabs.io/blog/ai-voice-agent-integrations": {
     "pushed_at": "2026-10-18T03:38:50",
     "source": "ElevenLabs Blog",
     "title": "AI语音代理集成：CRM与帮助台指南"
+  },
+  "https://elevenlabs.io/blog/audio-deepfake-detection-guide": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "ElevenLabs Blog",
+    "title": "音频深度伪造检测：工作原理及如何验证ElevenLabs音频"
   },
   "https://elevenlabs.io/blog/certification-renewals": {
     "pushed_at": "2026-10-18T03:38:50",
     "source": "ElevenLabs Blog",
     "title": "ElevenLabs对安全、隐私和负责任AI的承诺：已获认证并续期"
   },
+  "https://elevenlabs.io/blog/first-ever-ai-voiced-speech-uk-parliament": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "ElevenLabs Blog",
+    "title": "坎贝尔女男爵借助ElevenLabs在英国议会发表了首次AI配音演讲"
+  },
+  "https://elevenlabs.io/blog/how-to-transcribe-an-interview": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "ElevenLabs Blog",
+    "title": "如何转录访谈：准确、标注发言人的文字记录"
+  },
+  "https://elevenlabs.io/blog/how-we-solve-22000-support-tickets-every-month-with-elevenagents": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "ElevenLabs Blog",
+    "title": "我们如何利用ElevenAgents每月解决22,000个支持工单"
+  },
   "https://elevenlabs.io/blog/introducing-instant-soundtracks": {
     "pushed_at": "2026-10-18T03:38:50",
     "source": "ElevenLabs Blog",
     "title": "推出即时配乐"
+  },
+  "https://elevenlabs.io/blog/javascript-speech-recognition-tutorial": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "ElevenLabs Blog",
+    "title": "JavaScript语音识别教程：打造语音用户体验"
   },
   "https://elevenlabs.io/blog/ntt-docomo-conversational-ai": {
     "pushed_at": "2026-10-18T03:38:50",
@@ -813,6 +888,31 @@
     "pushed_at": "2026-10-18T03:38:50",
     "source": "ElevenLabs Blog",
     "title": "SSML标签解析：如何在文本转语音中控制停顿、发音和语速"
+  },
+  "https://engineering.atspotify.com/2026/10/advancing-generative-recommendation-inference-our-collaboration-with-nvidia-on-tensorrt-llm": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Spotify Engineering",
+    "title": "推进生成式推荐推理：我们与NVIDIA在TensorRT LLM上的合作"
+  },
+  "https://engineering.atspotify.com/2026/10/introducing-spotify-technology-proven-at-spotify-now-yours": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Spotify Engineering",
+    "title": "隆重推出：Spotify Technology。在Spotify得到验证，现在归你所有。"
+  },
+  "https://engineering.atspotify.com/2026/9/ai-changed-how-spotify-builds-what-we-learned-and-fixed-about-quality-at-higher-velocity": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Spotify Engineering",
+    "title": "AI改变了Spotify的构建方式。我们学到的（以及修复的）关于在更高速度下保持质量的经验"
+  },
+  "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Spotify Engineering",
+    "title": "Spotify的Portal将我的Claude Code token用量削减了90%"
+  },
+  "https://engineering.atspotify.com/2026/9/why-spotify-is-not-using-bayesian-a-b-testing": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Spotify Engineering",
+    "title": "为什么Spotify不使用贝叶斯A/B测试"
   },
   "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta": {
     "pushed_at": "2026-10-15T13:08:10",
@@ -1014,6 +1114,11 @@
     "source": "Netflix TechBlog - Medium",
     "title": "Netflix Stratum Media Processing: Automated Container Right-Sizing"
   },
+  "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Netflix TechBlog - Medium",
+    "title": "本体驱动的可观测性：在Netflix规模上构建端到端知识图谱"
+  },
   "https://netflixtechblog.com/reliable-gpu-compute-for-large-training-inference-jobs-d62b03a96d7a?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-15T19:44:37",
     "source": "Netflix TechBlog - Medium",
@@ -1024,20 +1129,50 @@
     "source": "Netflix TechBlog - Medium",
     "title": "Running Apache Spark experiments in my sleep (and on a plane)"
   },
+  "https://netflixtechblog.com/the-lifecycle-of-llm-as-a-judge-building-aligning-and-monitoring-at-scale-c95bd8283508?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Netflix TechBlog - Medium",
+    "title": "LLM-as-a-Judge的生命周期：大规模构建、对齐与监控"
+  },
   "https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-15T11:25:51",
     "source": "Netflix TechBlog - Medium",
     "title": "TimeSeries Tiered Storage Journey: Kafka/Flink Streams to Native Cassandra Cold Reads"
+  },
+  "https://ollama.com/blog/all-aboard-open-models": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Ollama",
+    "title": "Ollama：全面拥抱开放模型"
   },
   "https://ollama.com/blog/claude-desktop": {
     "pushed_at": "2026-10-18T03:38:50",
     "source": "Ollama",
     "title": "Claude Desktop 支持 Ollama"
   },
+  "https://ollama.com/blog/faster-gemma-4-mlx-mtp": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Ollama",
+    "title": "MLX上的Gemma 4通过多token预测实现更快速度"
+  },
   "https://ollama.com/blog/fly-io-sprites": {
     "pushed_at": "2026-10-18T03:38:50",
     "source": "Ollama",
     "title": "使用 Ollama 和 Fly.io 安全运行 AI 代理"
+  },
+  "https://ollama.com/blog/mlx-performance": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Ollama",
+    "title": "Ollama在Apple Silicon上借助MLX实现迄今最高性能"
+  },
+  "https://ollama.com/blog/muse-glimmer": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Ollama",
+    "title": "Meta Superintelligence Labs 的 Muse Glimmer 现已可用"
+  },
+  "https://ollama.com/blog/nemotron-3-5-lightning": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Ollama",
+    "title": "NVIDIA Nemotron 3.5 Lightning"
   },
   "https://ollama.com/blog/ollama-now-supports-jev-style-decision-models": {
     "pushed_at": "2026-10-18T03:38:50",
@@ -1269,6 +1404,31 @@
     "source": "Blog on Qwen",
     "title": "…QwQ-Max-Preview"
   },
+  "https://shopify.engineering/back-to-native": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Shopify Engineering",
+    "title": "在Shopify，原生应用已成为移动端的未来"
+  },
+  "https://shopify.engineering/helix": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Shopify Engineering",
+    "title": "Helix：驱动我们 Shopify 应用原生迁移的内部工具"
+  },
+  "https://shopify.engineering/river-vulnerability-remediation": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Shopify Engineering",
+    "title": "River如何将安全工作从修复推进到合并"
+  },
+  "https://shopify.engineering/shop-app-migration": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Shopify Engineering",
+    "title": "将Shop应用从React Native迁移到原生开发"
+  },
+  "https://shopify.engineering/shopgym": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "Shopify Engineering",
+    "title": "ShopGym：面向购物智能体的逼真、可复现沙盒环境"
+  },
   "https://simonwillison.net/2026/Oct/10/python-actions": {
     "pushed_at": "2026-10-16T04:09:05",
     "source": "Simon Willison's Weblog",
@@ -1474,10 +1634,30 @@
     "source": "少数派",
     "title": "已经能测夜间体征的 Apple Watch，为什么要再做一个睡眠呼吸暂停提醒"
   },
+  "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Elorian的首个AI模型旨在用图像进行推理，而不仅仅是关于图像推理"
+  },
   "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity": {
     "pushed_at": "2026-10-18T03:38:50",
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "印度成为最新一个报告恶意AI代理活动的国家"
+  },
+  "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Jev 是 Vercel 有史以来采用速度最快的 AI 模型"
+  },
+  "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "马克·沃尔伯格谈如何在电影中“正确”使用AI，以及愿意接受AI克隆延续其遗产"
+  },
+  "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Veritas将其防伪芯片扩展至珠宝、奖杯和香水瓶领域"
   },
   "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings": {
     "pushed_at": "2026-10-18T03:38:50",
@@ -1493,6 +1673,11 @@
     "pushed_at": "2026-10-18T03:38:50",
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Replit CEO表示，已将OpenAI设为默认选项，而非Anthropic。"
+  },
+  "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "英伟达资深人士表示，物理AI不仅仅是机器人，他目前正投资于此。"
   },
   "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet": {
     "pushed_at": "2026-10-18T03:38:50",
@@ -2493,6 +2678,21 @@
     "pushed_at": "2026-10-15T19:43:45",
     "source": "奇客Solidot–传递最新科技情报",
     "title": "美国银行雇佣千名合同工修复 AI 工具发现的软件漏洞"
+  },
+  "https://www.theverge.com/tech/1013431/elon-musk-settles-lawsuits-over-1-million-voter-giveaway": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "The Verge",
+    "title": "埃隆·马斯克就100万美元选民赠款诉讼达成和解"
+  },
+  "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "The Verge",
+    "title": "TikTok封禁马斯克纪录片账号"
+  },
+  "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance": {
+    "pushed_at": "2026-10-18T04:13:01",
+    "source": "The Verge",
+    "title": "Mercedes-AMG首款全新打造的SUV是一台1,150马力的电动猛兽"
   },
   "https://www.ycombinator.com/blog/2026-demo-days": {
     "pushed_at": "2026-10-15T19:44:51",
