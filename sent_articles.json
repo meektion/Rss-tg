@@ -69,6 +69,11 @@
     "source": "Artificial Intelligence",
     "title": "Building agents that transact with Anchor Browser and AgentCore payments"
   },
+  "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore": {
+    "pushed_at": "2026-10-18T03:38:50",
+    "source": "Artificial Intelligence",
+    "title": "构建AI代理的信任：基于Amazon Bedrock AgentCore的生产级评估框架"
+  },
   "https://aws.amazon.com/blogs/machine-learning/deploy-and-evaluate-models-with-amazon-sagemaker-jumpstart": {
     "pushed_at": "2026-10-16T03:11:03",
     "source": "Artificial Intelligence",
@@ -784,6 +789,31 @@
     "source": "Google DeepMind News",
     "title": "Gemini 3.8 text-to-speech says hello"
   },
+  "https://elevenlabs.io/blog/ai-voice-agent-integrations": {
+    "pushed_at": "2026-10-18T03:38:50",
+    "source": "ElevenLabs Blog",
+    "title": "AI语音代理集成：CRM与帮助台指南"
+  },
+  "https://elevenlabs.io/blog/certification-renewals": {
+    "pushed_at": "2026-10-18T03:38:50",
+    "source": "ElevenLabs Blog",
+    "title": "ElevenLabs对安全、隐私和负责任AI的承诺：已获认证并续期"
+  },
+  "https://elevenlabs.io/blog/introducing-instant-soundtracks": {
+    "pushed_at": "2026-10-18T03:38:50",
+    "source": "ElevenLabs Blog",
+    "title": "推出即时配乐"
+  },
+  "https://elevenlabs.io/blog/ntt-docomo-conversational-ai": {
+    "pushed_at": "2026-10-18T03:38:50",
+    "source": "ElevenLabs Blog",
+    "title": "NTT Docomo Business与ElevenLabs在会津若松试验对话式AI"
+  },
+  "https://elevenlabs.io/blog/ssml-tags-explained": {
+    "pushed_at": "2026-10-18T03:38:50",
+    "source": "ElevenLabs Blog",
+    "title": "SSML标签解析：如何在文本转语音中控制停顿、发音和语速"
+  },
   "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta": {
     "pushed_at": "2026-10-15T13:08:10",
     "source": "Engineering at Meta",
@@ -998,6 +1028,31 @@
     "pushed_at": "2026-10-15T11:25:51",
     "source": "Netflix TechBlog - Medium",
     "title": "TimeSeries Tiered Storage Journey: Kafka/Flink Streams to Native Cassandra Cold Reads"
+  },
+  "https://ollama.com/blog/claude-desktop": {
+    "pushed_at": "2026-10-18T03:38:50",
+    "source": "Ollama",
+    "title": "Claude Desktop 支持 Ollama"
+  },
+  "https://ollama.com/blog/fly-io-sprites": {
+    "pushed_at": "2026-10-18T03:38:50",
+    "source": "Ollama",
+    "title": "使用 Ollama 和 Fly.io 安全运行 AI 代理"
+  },
+  "https://ollama.com/blog/ollama-now-supports-jev-style-decision-models": {
+    "pushed_at": "2026-10-18T03:38:50",
+    "source": "Ollama",
+    "title": "Ollama 现已支持 Jev 风格决策模型"
+  },
+  "https://ollama.com/blog/reflection-beam": {
+    "pushed_at": "2026-10-18T03:38:50",
+    "source": "Ollama",
+    "title": "Reflection的Beam在Ollama上限时免费开放"
+  },
+  "https://ollama.com/blog/transparent-pricing": {
+    "pushed_at": "2026-10-18T03:38:50",
+    "source": "Ollama",
+    "title": "Ollama的透明定价"
   },
   "https://openai.com/index/amp-beyond-coding": {
     "pushed_at": "2026-10-16T02:35:32",
@@ -1418,6 +1473,31 @@
     "pushed_at": "2026-10-15T07:07:07",
     "source": "少数派",
     "title": "已经能测夜间体征的 Apple Watch，为什么要再做一个睡眠呼吸暂停提醒"
+  },
+  "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity": {
+    "pushed_at": "2026-10-18T03:38:50",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "印度成为最新一个报告恶意AI代理活动的国家"
+  },
+  "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings": {
+    "pushed_at": "2026-10-18T03:38:50",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Anthropic表示，其员工队伍中初级员工比例下降，会议时间增多。"
+  },
+  "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns": {
+    "pushed_at": "2026-10-18T03:38:50",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Meta删除了引发抓取和AI训练担忧的措辞"
+  },
+  "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says": {
+    "pushed_at": "2026-10-18T03:38:50",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Replit CEO表示，已将OpenAI设为默认选项，而非Anthropic。"
+  },
+  "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet": {
+    "pushed_at": "2026-10-18T03:38:50",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "一位从Nvidia内部转行的风投人谈为何机器人技术尚未迎来其ChatGPT时刻"
   },
   "https://vercel.com/blog/ai-gateway-production-index-october-2026": {
     "pushed_at": "2026-10-17T02:32:48",
