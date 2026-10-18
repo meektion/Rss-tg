@@ -66,19 +66,70 @@ jobs:
           RUN_MODE: ${{ steps.mode.outputs.mode }}
         run: python sync_articles.py
 
-      - name: Commit sent-articles cache
+      - name: Commit sent-articles cache safely
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -f sent_articles.json ]; then
+          if [ ! -f sent_articles.json ]; then
+            echo "sent_articles.json 不存在，跳过"
+            exit 0
+          fi
+
+          # JSON cache cannot be safely line-merged by Git. Merge keys and prefer the newest pushed_at.
+          for attempt in 1 2 3; do
+            git fetch origin "${GITHUB_REF_NAME}"
+            git reset --mixed "origin/${GITHUB_REF_NAME}"
+            python - <<'PY'
+          import datetime
+          import json
+          import subprocess
+          from pathlib import Path
+
+          path = Path("sent_articles.json")
+          try:
+              local = json.loads(path.read_text(encoding="utf-8"))
+          except (OSError, json.JSONDecodeError):
+              local = {}
+          try:
+              remote_text = subprocess.check_output(
+                  ["git", "show", f"origin/{__import__('os').environ['GITHUB_REF_NAME']}:sent_articles.json"],
+                  text=True,
+              )
+              remote = json.loads(remote_text)
+          except (subprocess.CalledProcessError, json.JSONDecodeError):
+              remote = {}
+
+          merged = dict(remote) if isinstance(remote, dict) else {}
+          if isinstance(local, dict):
+              for key, value in local.items():
+                  previous = merged.get(key)
+                  if not isinstance(previous, dict):
+                      merged[key] = value
+                  elif isinstance(value, dict) and value.get("pushed_at", "") >= previous.get("pushed_at", ""):
+                      merged[key] = value
+
+          cutoff = (datetime.datetime.now() - datetime.timedelta(days=30)).strftime("%Y-%m-%d")
+          merged = {
+              key: value for key, value in merged.items()
+              if isinstance(value, dict) and value.get("pushed_at", "")[:10] >= cutoff
+          }
+          path.write_text(
+              json.dumps(merged, ensure_ascii=False, indent=2, sort_keys=True) + "\\n",
+              encoding="utf-8",
+          )
+          print(f"Merged cache: {len(merged)} records")
+          PY
             git add sent_articles.json
             if git diff --cached --quiet; then
-              echo "缓存无变化，跳过提交"
-            else
-              git commit -m "chore: update sent articles cache [skip ci]"
-              git pull --rebase --autostash origin ${GITHUB_REF_NAME}
-              git push origin ${GITHUB_REF_NAME}
+              echo "缓存无变化，无需提交"
+              exit 0
             fi
-          else
-            echo "sent_articles.json 不存在，跳过"
-          fi
+            git commit -m "chore: update sent articles cache [skip ci]"
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "缓存提交成功"
+              exit 0
+            fi
+            echo "推送遇到并发更新，第 ${attempt} 次尝试后重试"
+          done
+          echo "缓存提交连续失败，请检查远程分支更新" >&2
+          exit 1
