@@ -115,11 +115,11 @@ RETRY_COUNT = 3                # 抓取重试次数
 RETRY_DELAY = 2                # 重试间隔（秒）
 CAPTION_LIMIT = 1024           # Telegram 图片 caption 上限
 MAX_MESSAGE_LENGTH = 4096      # Telegram 文本消息上限
-MESSAGE_BLANK_LINES = 3        # 消息内部各段落之间的空行数（调大更疏朗，2~4 较合适）
+MESSAGE_BLANK_LINES = 2        # 卡片之间保留一行空白，整体保持适中密度
 MAX_ITEMS_PER_CARD = 20        # 一张卡片最多列几条动态（实际会被 1024 字符上限自动压减）
 ITEM_GAP_LINES = 1             # 卡片内「标题+摘要」组合之间的空行数
 REPORT_ITEM_GAP = 1            # 早报/晚报「编号消息」之间的空行数（调大更疏朗）
-TRAILING_BLANK_LINES = 2       # 卡片末尾追加的空行数（让底部不那么贴边，0 为不加）
+TRAILING_BLANK_LINES = 1       # 末尾少量留白，避免占用过多 caption 容量
 SHOW_SOURCE_HEADER = True      # 卡片顶部显示来源（如 ▎OpenAI），False 为不显示
 SOURCE_HEADER_GAP = 1           # 来源行与第一条消息之间的空行数（调大更疏朗）
 KEEP_DAYS = 30                 # 缓存保留天数
@@ -593,46 +593,111 @@ def _source_header(items):
     return f"<b>▎{esc(source)}</b>"
 
 
-def _compose(items, sep, gap, limit):
-    """把「标题+摘要」按条目拼装，超长时从末尾整条裁掉"""
-    blocks = []
-    for art in items:
-        title = esc(art["title"])
-        link = html.escape(art["link"], quote=True)
-        block = [f'<a href="{link}">{title}</a>']
-        if art.get("summary"):
-            block.append(esc(art["summary"]))
-        blocks.append(gap.join(block))
+def _html_text_length(value):
+    """计算 HTML 解析后的可见字符数，避免把标签和 href 属性误算进 Telegram 限额"""
+    return len(BeautifulSoup(value or "", "html.parser").get_text())
 
-    if not blocks:
+
+def _truncate_text(value, max_length):
+    """安全截断纯文本；截断发生在 HTML 转义之前"""
+    value = (value or "").strip()
+    if max_length <= 0:
+        return ""
+    if len(value) <= max_length:
+        return value
+    if max_length == 1:
+        return "…"
+    return value[:max_length - 1].rstrip() + "…"
+
+
+def _compose(items, sep, gap, limit):
+    """把标题和摘要按条目拼装；超长时裁掉完整条目，不直接切割 HTML。"""
+    if not items:
         return ""
 
     header = _source_header(items)
     head = (f"{header}\n" + "\n" * SOURCE_HEADER_GAP) if header else ""
 
-    text = head + sep.join(blocks)
-    while len(text) > limit and len(blocks) > 1:
-        blocks.pop()
-        text = head + sep.join(blocks)
+    def render(articles, title_limit=None, summary_limit=None, include_header=True):
+        blocks = []
+        for index, art in enumerate(articles, 1):
+            raw_title = (art.get("title") or "未命名文章").strip()
+            raw_summary = (art.get("summary") or "").strip()
+            if title_limit is not None:
+                raw_title = _truncate_text(raw_title, title_limit)
+            if summary_limit is not None:
+                raw_summary = _truncate_text(raw_summary, summary_limit)
 
-    if len(text) > limit:
-        text = text[: limit - 1].rstrip() + "…"
+            title = esc(raw_title)
+            link = html.escape(art.get("link") or "", quote=True)
+            if link:
+                title_line = f'<b>{index}. <a href="{link}">{title}</a></b>'
+            else:
+                title_line = f"<b>{index}. {title}</b>"
+            block = [title_line]
+            if raw_summary:
+                block.append(esc(raw_summary))
+            blocks.append(gap.join(block))
 
-    # 末尾留空行：Telegram 会自动 trim 尾部空白，所以末尾垫一个零宽字符撑住
-    if TRAILING_BLANK_LINES > 0 and len(text) + TRAILING_BLANK_LINES <= limit:
+        prefix = head if include_header else ""
+        return prefix + sep.join(blocks)
+
+    selected = list(items[:MAX_ITEMS_PER_CARD])
+    text = render(selected)
+
+    # 优先移除完整文章块，不让标题、链接或 HTML 标签残缺。
+    while _html_text_length(text) > limit and len(selected) > 1:
+        selected.pop()
+        text = render(selected)
+
+    if _html_text_length(text) > limit and selected:
+        # 极端情况下单条内容也超限：先缩短摘要，再缩短显示标题；原始链接不变。
+        article = selected[0]
+        title_len = len((article.get("title") or "").strip())
+        summary_len = len((article.get("summary") or "").strip())
+        candidates = [
+            (min(title_len, 180), min(summary_len, 80)),
+            (min(title_len, 140), min(summary_len, 60)),
+            (min(title_len, 100), min(summary_len, 40)),
+            (min(title_len, 70), min(summary_len, 20)),
+            (min(title_len, 50), 0),
+            (min(title_len, 30), 0),
+            (min(title_len, 15), 0),
+        ]
+        for title_limit, summary_limit in candidates:
+            text = render(selected, title_limit, summary_limit)
+            if _html_text_length(text) <= limit:
+                break
+
+        # 来源名或其他极端长字段也不能导致 HTML 被硬切断。
+        if _html_text_length(text) > limit:
+            text = render(selected, 15, 0, include_header=False)
+
+    # Telegram 会自动裁掉末尾空白；零宽字符保留少量、可控的底部留白。
+    if TRAILING_BLANK_LINES > 0 and _html_text_length(text) + TRAILING_BLANK_LINES <= limit:
         text += "\n" * TRAILING_BLANK_LINES + "\u200b"
     return text
 
+# 同一进程内避免重复使用相同的 Picsum seed。
+_USED_COVER_SEEDS = set()
+
 
 def pick_random_cover(article):
-    """为无配图文章取一张随机封面（Lorem Picsum）
+    """为无原文配图的来源卡片选择稳定的随机封面。
 
-    用文章链接的哈希作为 seed，保证同一篇文章每次拿到同一张图。
+    每篇文章的封面保持稳定；同一次运行中尽量避免重复 seed。
     """
-    digest = hashlib.md5(article["key"].encode("utf-8")).hexdigest()
-    seed = digest[:16]
-    return f"https://picsum.photos/seed/{seed}/1200/630"
+    article_key = article.get("key") or article.get("link") or article.get("title") or "rss-article"
+    for salt in range(20):
+        digest = hashlib.md5(f"{article_key}:{salt}".encode("utf-8")).hexdigest()
+        seed = digest[:16]
+        if seed not in _USED_COVER_SEEDS:
+            _USED_COVER_SEEDS.add(seed)
+            return f"https://picsum.photos/seed/{seed}/1200/630"
 
+    # 极少数情况下候选 seed 都已用过，仍然返回可用封面地址。
+    seed = hashlib.md5(article_key.encode("utf-8")).hexdigest()[:16]
+    return f"https://picsum.photos/seed/{seed}/1200/630"
 
 def send_photo(items, image_path_or_url):
     """发送一张卡片；本地文件走 multipart 上传"""
@@ -685,18 +750,19 @@ def group_by_source(articles):
 
 
 def push_card(items):
-    """推送一个公司的卡片：图片只用第一条的配图，没图则用随机图。返回是否成功"""
+    """推送一个来源的卡片：优先使用组内可用原图，否则使用随机封面。"""
     if not items:
         return False
 
-    # 封面：只用第一条动态的配图；该条没图则用随机封面
-    photo = items[0].get("image") or pick_random_cover(items[0])
+    # 来源合并后，不一定是第一篇文章有图；优先取组内第一张可用原文配图。
+    image_article = next((art for art in items if art.get("image")), None)
+    photo = image_article["image"] if image_article else pick_random_cover(items[0])
 
     if DRY_RUN:
-        kind = "首条配图" if items[0].get("image") else "随机封面"
+        kind = "原文配图" if image_article else "随机封面"
         log(f"  [dry-run] [{kind}] {items[0]['source']} | {len(items)} 条")
-        for art in items:
-            log(f"              · {art['title'][:52]}")
+        for index, art in enumerate(items, 1):
+            log(f"              {index}. {art['title'][:52]}")
         log(f"              image={photo}")
         return True
 
@@ -855,15 +921,16 @@ def company_alias(source):
 
 
 def build_report_caption(groups, mode):
-    """构建早报/晚报编号消息 caption：一家公司一条一句话，超上限从末尾裁"""
+    """构建早报/晚报编号消息；超长时裁掉完整条目，不直接切割 HTML。"""
     now = _beijing_now()
     label = "早报" if mode == "morning" else "晚报"
     emoji = "🌅" if mode == "morning" else "🌃"
-    def build(limit_n):
-        # 频道名与早报/晚报已由报头图呈现，caption 不再重复；此处只留日期标签
+
+    def build(limit_n, title_limit=None, include_intro=True):
+        # 频道名与早报/晚报已由报头图呈现，caption 只保留日期标签。
         lines = ["#News", f"{emoji}{label}【{now.month}.{now.day}】"]
-        if REPORT_INTRO:
-            lines.append(REPORT_INTRO)
+        if include_intro and REPORT_INTRO:
+            lines.append(esc(REPORT_INTRO))
         lines.append("")
         i = 0
         for source, items in groups:
@@ -872,24 +939,42 @@ def build_report_caption(groups, mode):
             if not items:
                 continue
             art = items[0]
-            company = esc(company_alias(source))
-            title = esc(art["title"])
-            link = html.escape(art["link"], quote=True)
-            lines.append(f"{REPORT_NUMBER_EMOJI[i]} <b>{company}</b> <a href=\"{link}\">{title}</a>")
-            lines.extend([""] * REPORT_ITEM_GAP)   # 每条消息之间空 REPORT_ITEM_GAP 行，加大间隔
+            company = esc(_truncate_text(company_alias(source), 50))
+            raw_title = art.get("title") or "未命名文章"
+            if title_limit is not None:
+                raw_title = _truncate_text(raw_title, title_limit)
+            title = esc(raw_title)
+            link = html.escape(art.get("link") or "", quote=True)
+            if link:
+                lines.append(f"{REPORT_NUMBER_EMOJI[i]} <b>{company}</b> <a href=\"{link}\">{title}</a>")
+            else:
+                lines.append(f"{REPORT_NUMBER_EMOJI[i]} <b>{company}</b> {title}")
+            lines.extend([""] * REPORT_ITEM_GAP)
             i += 1
         lines.append("")
         return "\n".join(lines)
 
     n = min(len(groups), len(REPORT_NUMBER_EMOJI))
     text = build(n)
-    while len(text) > CAPTION_LIMIT and n > 1:
+    while _html_text_length(text) > CAPTION_LIMIT and n > 1:
         n -= 1
         text = build(n)
-    if len(text) > CAPTION_LIMIT:
-        text = text[: CAPTION_LIMIT - 1].rstrip() + "…"
-    return text
 
+    if _html_text_length(text) > CAPTION_LIMIT:
+        for title_limit in (200, 140, 100, 70, 40, 20):
+            text = build(max(1, n), title_limit=title_limit)
+            if _html_text_length(text) <= CAPTION_LIMIT:
+                break
+
+    if _html_text_length(text) > CAPTION_LIMIT:
+        text = build(max(1, n), title_limit=20, include_intro=False)
+
+    # 如果报告仍然过长，继续删除完整的末尾条目，绝不切片 HTML 字符串。
+    while _html_text_length(text) > CAPTION_LIMIT and n > 1:
+        n -= 1
+        text = build(n, title_limit=40, include_intro=False)
+
+    return text
 
 def send_cover_photo(image_path, caption=""):
     """发送报头图（可选 caption），本地文件走 multipart 上传"""
