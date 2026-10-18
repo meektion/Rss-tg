@@ -654,6 +654,11 @@
     "source": "NVIDIA Blog",
     "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents"
   },
+  "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration": {
+    "pushed_at": "2026-10-18T03:04:27",
+    "source": "NVIDIA Blog",
+    "title": "RTX Spark点燃全球庆祝，全新Windows PC登场"
+  },
   "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl": {
     "pushed_at": "2026-10-16T02:35:37",
     "source": "NVIDIA Blog",
@@ -1448,6 +1453,11 @@
     "pushed_at": "2026-10-17T02:32:48",
     "source": "Vercel News",
     "title": "Vercel Ship 2026 回顾"
+  },
+  "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity": {
+    "pushed_at": "2026-10-18T03:04:27",
+    "source": "Vercel News",
+    "title": "AI Gateway 日志现在显示会话亲和性"
   },
   "https://vercel.com/changelog/bring-your-own-cloud-on-aws-is-now-generally-available": {
     "pushed_at": "2026-10-17T04:48:12",
