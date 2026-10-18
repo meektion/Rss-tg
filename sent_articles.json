@@ -49,6 +49,21 @@
     "source": "The Berkeley Artificial Intelligence Research Blog",
     "title": "从CUDA到MLX: K-Search如何为苹果芯片带来数十年的内核专业知识"
   },
+  "https://api-docs.deepseek.com/guides/search": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Hacker News: Front Page",
+    "title": "DeepSeek搜索与抓取——每1000次成功请求0.75美元"
+  },
+  "https://arstechnica.com/cars/2026/10/tesla-turns-to-50-year-old-stunt-technology-as-it-tries-to-roadster-again": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Ars Technica",
+    "title": "特斯拉再次尝试Roadster，转向50年前的 stunt 技术"
+  },
+  "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Ars Technica",
+    "title": "Bug让Ray-Ban Meta智能眼镜最大的担忧之一成为现实"
+  },
   "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Ars Technica",
@@ -59,6 +74,11 @@
     "source": "Ars Technica",
     "title": "为什么BioWare的《无冬之夜》仍有数千名活跃玩家"
   },
+  "https://arstechnica.com/health/2026/10/rfk-jr-proposes-fda-look-the-other-way-on-unproven-peptides-report-says": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Ars Technica",
+    "title": "据报道，小罗伯特·肯尼迪提议FDA对未经证实的肽类产品睁一只眼闭一只眼。"
+  },
   "https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Ars Technica",
@@ -68,6 +88,16 @@
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Ars Technica",
     "title": "OpenAI模型黑入了一个加密钱包并侵入了更多网站"
+  },
+  "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Ars Technica",
+    "title": "Meta可能利用全新的商业服务条款规避数百万美元的AI授权费用"
+  },
+  "https://arstechnica.com/tech-policy/2026/10/polymarket-saw-600-million-in-election-trades-after-the-elections-were-over": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Ars Technica",
+    "title": "Polymarket在选举结束后仍产生了6亿美元的选举交易额"
   },
   "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops": {
     "pushed_at": "2026-10-18T06:52:43",
@@ -569,10 +599,20 @@
     "source": "News from Google",
     "title": "用新的优先级和分配功能来指导你的广告支出"
   },
+  "https://blog.mozilla.org/en/firefox/ad-blocker-on-ios": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "The Mozilla Blog",
+    "title": "在iOS版Firefox中引入广告拦截器：更多控制，更少干扰"
+  },
   "https://blog.mozilla.org/en/firefox/firefox-aeg-uber-arena-partnership": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "The Mozilla Blog",
     "title": "Firefox与Anschutz Entertainment Group在柏林Uber Arena和Uber Eats Music Hall达成合作"
+  },
+  "https://blog.mozilla.org/en/firefox/firefox-ai-on-your-terms": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "The Mozilla Blog",
+    "title": "AI随你所需：Firefox在你所在之处与你相遇"
   },
   "https://blog.mozilla.org/en/firefox/firefox-ai/prompt-tuning-firefox-shake-to-summarize-recipes": {
     "pushed_at": "2026-10-18T06:52:43",
@@ -594,6 +634,11 @@
     "source": "The Mozilla Blog",
     "title": "Mozilla推出Firefox企业版"
   },
+  "https://blog.mozilla.org/en/firefox/mozilla-mistral-partnership": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "The Mozilla Blog",
+    "title": "Mozilla与Mistral合作：扩大AI竞争，维护用户选择权"
+  },
   "https://blog.mozilla.org/en/firefox/new-firefox-design-is-here": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Mozilla Blog",
@@ -604,10 +649,20 @@
     "source": "The Mozilla Blog",
     "title": "（火）狐说什么？"
   },
+  "https://blog.mozilla.org/en/firefox/stay-focused-wherever-you-work-with-firefox-mobile-browsers": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "The Mozilla Blog",
+    "title": "无论在哪工作，使用Firefox移动浏览器都能保持专注"
+  },
   "https://blog.mozilla.org/en/mozilla/ai/trustworthy-ai-map": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "The Mozilla Blog",
     "title": "这张地图展示了风险投资支持的公司在当前最需要的最重要资产"
+  },
+  "https://blog.mozilla.org/en/mozilla/mila-canada-open-source-ai-initiative": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "The Mozilla Blog",
+    "title": "Mila与Mozilla宣布新计划，在加拿大政府的支持下，为所有人构建可信的开源AI。"
   },
   "https://blog.mozilla.org/en/mozilla/over-the-edge-2-100-days-later": {
     "pushed_at": "2026-10-18T06:52:43",
@@ -924,10 +979,30 @@
     "source": "ElevenLabs Blog",
     "title": "音频深度伪造检测：工作原理及如何验证ElevenLabs音频"
   },
+  "https://elevenlabs.io/blog/audio-transcription-with-timestamps": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "ElevenLabs Blog",
+    "title": "带时间戳和事件标记的音频转录是如何工作的？"
+  },
   "https://elevenlabs.io/blog/certification-renewals": {
     "pushed_at": "2026-10-18T03:38:50",
     "source": "ElevenLabs Blog",
     "title": "ElevenLabs对安全、隐私和负责任AI的承诺：已获认证并续期"
+  },
+  "https://elevenlabs.io/blog/contact-center-automation": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "ElevenLabs Blog",
+    "title": "联络中心自动化：提升服务质量的指南"
+  },
+  "https://elevenlabs.io/blog/elevenagents-architect": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "ElevenLabs Blog",
+    "title": "介绍ElevenAgents架构师"
+  },
+  "https://elevenlabs.io/blog/elevenlabs-singapore": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "ElevenLabs Blog",
+    "title": "ElevenLabs在新加坡推出"
   },
   "https://elevenlabs.io/blog/elevenreader-launches-in-brazil-with-fbio-porchat-and-70000-brazilian-portuguese-books-in-audio": {
     "pushed_at": "2026-10-18T06:52:43",
@@ -983,6 +1058,11 @@
     "pushed_at": "2026-10-18T06:52:43",
     "source": "ElevenLabs Blog",
     "title": "定义AI代理如何与你的业务交互"
+  },
+  "https://elevenlabs.io/blog/what-is-conversation-intelligence": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "ElevenLabs Blog",
+    "title": "什么是对话智能？企业指南"
   },
   "https://elevenlabs.io/blog/what-is-voice-activity-detection": {
     "pushed_at": "2026-10-18T06:52:43",
@@ -1244,6 +1324,11 @@
     "source": "Ollama",
     "title": "Ollama：全面拥抱开放模型"
   },
+  "https://ollama.com/blog/claude": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Ollama",
+    "title": "Claude Code 兼容 Anthropic API"
+  },
   "https://ollama.com/blog/claude-desktop": {
     "pushed_at": "2026-10-18T03:38:50",
     "source": "Ollama",
@@ -1259,10 +1344,20 @@
     "source": "Ollama",
     "title": "使用 Ollama 和 Fly.io 安全运行 AI 代理"
   },
+  "https://ollama.com/blog/image-generation": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Ollama",
+    "title": "图像生成（实验性）"
+  },
   "https://ollama.com/blog/improved-performance-and-model-support-with-gguf": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Ollama",
     "title": "GGUF带来性能提升和模型支持改进"
+  },
+  "https://ollama.com/blog/launch": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Ollama",
+    "title": "Ollama 发布"
   },
   "https://ollama.com/blog/mlx": {
     "pushed_at": "2026-10-18T06:52:43",
@@ -1294,6 +1389,11 @@
     "source": "Ollama",
     "title": "Ollama 现已支持 Jev 风格决策模型"
   },
+  "https://ollama.com/blog/openclaw": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Ollama",
+    "title": "OpenClaw"
+  },
   "https://ollama.com/blog/openclaw-tutorial": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Ollama",
@@ -1313,6 +1413,11 @@
     "pushed_at": "2026-10-18T03:38:50",
     "source": "Ollama",
     "title": "Ollama的透明定价"
+  },
+  "https://ollama.com/blog/web-search-subagents-claude-code": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Ollama",
+    "title": "Claude Code 中的子代理与网页搜索"
   },
   "https://openai.com/index/amp-beyond-coding": {
     "pushed_at": "2026-10-16T02:35:32",
@@ -1539,10 +1644,20 @@
     "source": "Shopify Engineering",
     "title": "构建一个比模型更持久的代理框架"
   },
+  "https://shopify.engineering/catalog-clustering": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Shopify Engineering",
+    "title": "使用Catalog API为代理式商务聚类数十亿产品"
+  },
   "https://shopify.engineering/gisting": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Shopify Engineering",
     "title": "Gisting：压缩LLM Agent上下文以提升吞吐量并降低成本"
+  },
+  "https://shopify.engineering/hack-days": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Shopify Engineering",
+    "title": "走进Shopify Hack Days：打造音乐播放页面的原型"
   },
   "https://shopify.engineering/helix": {
     "pushed_at": "2026-10-18T04:13:01",
@@ -1553,6 +1668,11 @@
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Shopify Engineering",
     "title": "我们如何将移动端到端测试稳定性提升至98%"
+  },
+  "https://shopify.engineering/quick": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Shopify Engineering",
+    "title": "Quick：面向AI时代的内部托管平台"
   },
   "https://shopify.engineering/river-vulnerability-remediation": {
     "pushed_at": "2026-10-18T04:13:01",
@@ -1569,10 +1689,20 @@
     "source": "Shopify Engineering",
     "title": "ShopGym：面向购物智能体的逼真、可复现沙盒环境"
   },
+  "https://shopify.engineering/sidekick-curation": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Shopify Engineering",
+    "title": "教Sidekick学会拒绝：利用LLM评判共识实现自动化数据策管"
+  },
   "https://shopify.engineering/sidekicks-continual-learning-loop": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Shopify Engineering",
     "title": "Sidekick的持续学习循环"
+  },
+  "https://shopify.engineering/under-the-river": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Shopify Engineering",
+    "title": "在河下"
   },
   "https://shopify.engineering/upgrading-checkout-blocks-app-to-polaris-web-components": {
     "pushed_at": "2026-10-18T06:52:43",
@@ -1799,6 +1929,16 @@
     "source": "少数派",
     "title": "已经能测夜间体征的 Apple Watch，为什么要再做一个睡眠呼吸暂停提醒"
   },
+  "https://t3.at/blog/2026-10-17-parser-combinators": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Hacker News: Front Page",
+    "title": "解析器组合子"
+  },
+  "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "AI智能体即将登陆Rivian汽车"
+  },
   "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -1809,10 +1949,30 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Anthropic 正允许 METR 研究人员以员工级别的访问权限深入了解内部情况"
   },
+  "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Bluesky扩展其AI驱动的Attie应用，让任何人都能构建网站、游戏等"
+  },
+  "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "谷歌的Universal Cart购物工具在美国上线"
+  },
+  "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "最后机会：TechCrunch创始人峰会通行证最高可省200美元，早鸟预订10月16日截止"
+  },
   "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Meta发布了一款可在Mac上运行的开放权重AI模型"
+  },
+  "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "TechCrunch Disrupt 2026：最后一天"
   },
   "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off": {
     "pushed_at": "2026-10-18T06:52:43",
@@ -1988,6 +2148,11 @@
     "pushed_at": "2026-10-17T04:48:12",
     "source": "Vercel News",
     "title": "Vercel Drives 现已全面可用"
+  },
+  "https://webmasters.stackexchange.com/questions/88659/how-can-cloudflare-offer-a-free-cdn-with-unlimited-bandwidth/88685": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "Hacker News: Front Page",
+    "title": "Matthew Prince谈Cloudflare为何提供免费版本且将始终如此（2016）"
   },
   "https://www.appinn.com/10-tools-github": {
     "pushed_at": "2026-10-15T07:08:13",
@@ -2919,6 +3084,16 @@
     "source": "The Verge",
     "title": "SpaceX为取代AT&T、T-Mobile和Verizon而进行的大胆且昂贵的豪赌"
   },
+  "https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "The Verge",
+    "title": "苹果的HomeView只是对在线食谱作者的最新威胁"
+  },
+  "https://www.theverge.com/tech/1013320/bose-noise-cancelling-wired-earbuds-review": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "The Verge",
+    "title": "Bose新款有线耳机以最纯粹的方式呈现简约之美"
+  },
   "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Verge",
@@ -2938,6 +3113,31 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "The Verge",
     "title": "Mercedes-AMG首款全新打造的SUV是一台1,150马力的电动猛兽"
+  },
+  "https://www.wired.com/gallery/best-gifts-for-manly-men-2026": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "WIRED",
+    "title": "2026年送给男士、男子汉及真汉子们的20份最佳礼物"
+  },
+  "https://www.wired.com/review/valerion-visionmaster-max-4k-projector": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "WIRED",
+    "title": "Valerion VisionMaster Max 4K投影仪评测：画质出色，音效尚可"
+  },
+  "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "WIRED",
+    "title": "数据中心有了新的公关计划：让你孩子去实地参观"
+  },
+  "https://www.wired.com/story/magnesium-may-not-reach-your-brain-despite-supplement-label-promises": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "WIRED",
+    "title": "尽管补充剂标签上有承诺，镁可能无法到达你的大脑"
+  },
+  "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty": {
+    "pushed_at": "2026-10-18T11:04:31",
+    "source": "WIRED",
+    "title": "OnlyFans创作者对Meta允许Muse说脏话感到愤怒"
   },
   "https://www.ycombinator.com/blog/2026-demo-days": {
     "pushed_at": "2026-10-15T19:44:51",
