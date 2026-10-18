@@ -49,6 +49,31 @@
     "source": "The Berkeley Artificial Intelligence Research Blog",
     "title": "从CUDA到MLX: K-Search如何为苹果芯片带来数十年的内核专业知识"
   },
+  "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Ars Technica",
+    "title": "美国众议员提出法案，旨在让电子游戏购买者获得“所有权”，而非“许可权"
+  },
+  "https://arstechnica.com/gaming/2026/10/why-biowares-neverwinter-nights-still-has-thousands-of-active-players": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Ars Technica",
+    "title": "为什么BioWare的《无冬之夜》仍有数千名活跃玩家"
+  },
+  "https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Ars Technica",
+    "title": "科学表明，老板在会议上应该少说话"
+  },
+  "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Ars Technica",
+    "title": "OpenAI模型黑入了一个加密钱包并侵入了更多网站"
+  },
+  "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Ars Technica",
+    "title": "新泽西州检察官被指是制作AI儿童性虐待材料的“thegentlemanpervert"
+  },
   "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan": {
     "pushed_at": "2026-10-16T03:38:54",
     "source": "Artificial Intelligence",
@@ -549,10 +574,30 @@
     "source": "The Mozilla Blog",
     "title": "Firefox与Anschutz Entertainment Group在柏林Uber Arena和Uber Eats Music Hall达成合作"
   },
+  "https://blog.mozilla.org/en/firefox/firefox-ai/prompt-tuning-firefox-shake-to-summarize-recipes": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "The Mozilla Blog",
+    "title": "深入解析：为食谱的“摇一摇生成摘要”功能进行提示词调优"
+  },
+  "https://blog.mozilla.org/en/firefox/firefox-window-types": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "The Mozilla Blog",
+    "title": "经典、隐私还是智能？为每项任务选择合适的 Firefox 窗口"
+  },
+  "https://blog.mozilla.org/en/firefox/free-firefox-cybersecurity-features": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "The Mozilla Blog",
+    "title": "使用Firefox免费加强您的在线安全"
+  },
   "https://blog.mozilla.org/en/firefox/introducing-firefox-enterprise": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "The Mozilla Blog",
     "title": "Mozilla推出Firefox企业版"
+  },
+  "https://blog.mozilla.org/en/firefox/new-firefox-design-is-here": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "The Mozilla Blog",
+    "title": "更现代。更灵活。依然是Firefox。"
   },
   "https://blog.mozilla.org/en/firefox/new-firefox-sounds": {
     "pushed_at": "2026-10-18T04:13:01",
@@ -563,6 +608,11 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "The Mozilla Blog",
     "title": "这张地图展示了风险投资支持的公司在当前最需要的最重要资产"
+  },
+  "https://blog.mozilla.org/en/mozilla/over-the-edge-2-100-days-later": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "The Mozilla Blog",
+    "title": "100天后：Microsoft仍在法律允许的范围内，处处引导Windows和Copilot用户使用Edge。"
   },
   "https://blog.mozilla.org/en/mozilla/palaniappan-parry-jones": {
     "pushed_at": "2026-10-18T04:13:01",
@@ -814,6 +864,11 @@
     "source": "Google DeepMind News",
     "title": "Gemini 3.8 text-to-speech says hello"
   },
+  "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Dropbox Tech Blog",
+    "title": "超越代码生成：在AI智能体时代重新思考工程生产力"
+  },
   "https://dropbox.tech/culture/learnings-from-deploying-ai-at-company-scale": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "Dropbox Tech Blog",
@@ -824,6 +879,11 @@
     "source": "Dropbox Tech Blog",
     "title": "介绍我们全新的 Dropbox API 文档"
   },
+  "https://dropbox.tech/infrastructure/how-our-universal-content-processing-platform-riviera-evolved-for-ai-and-beyond": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Dropbox Tech Blog",
+    "title": "我们的通用内容处理平台Riviera如何为AI及更广阔领域演进"
+  },
   "https://dropbox.tech/infrastructure/improving-infrastructure-efficiency-for-growing-demand-in-the-age-of-ai": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "Dropbox Tech Blog",
@@ -833,6 +893,21 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "Dropbox Tech Blog",
     "title": "将我们的日历助手Reclaim演进为AI原生，无需从头开始"
+  },
+  "https://dropbox.tech/machine-learning/how-we-turned-ai-evaluations-into-better-responses-in-dash-chat": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Dropbox Tech Blog",
+    "title": "我们如何利用DSPy在Dash聊天中将AI评估转化为更优质的回复"
+  },
+  "https://dropbox.tech/machine-learning/introducing-nova-our-internal-platform-for-coding-agents": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Dropbox Tech Blog",
+    "title": "介绍Nova，我们的编码代理内部平台"
+  },
+  "https://dropbox.tech/security/dropbox-mcp-dash-design-code-security": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Dropbox Tech Blog",
+    "title": "Dropbox如何利用MCP和Dash弥合设计到代码的安全鸿沟"
   },
   "https://dropbox.tech/security/how-our-inhouse-auditor-tests-cookie-behavior-across-hundreds-of-web-surfaces": {
     "pushed_at": "2026-10-18T04:13:01",
@@ -854,6 +929,11 @@
     "source": "ElevenLabs Blog",
     "title": "ElevenLabs对安全、隐私和负责任AI的承诺：已获认证并续期"
   },
+  "https://elevenlabs.io/blog/elevenreader-launches-in-brazil-with-fbio-porchat-and-70000-brazilian-portuguese-books-in-audio": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "ElevenLabs Blog",
+    "title": "ElevenReader在巴西上线，携手Fábio Porchat推出7万本巴西葡萄牙语有声书"
+  },
   "https://elevenlabs.io/blog/first-ever-ai-voiced-speech-uk-parliament": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "ElevenLabs Blog",
@@ -869,6 +949,11 @@
     "source": "ElevenLabs Blog",
     "title": "我们如何利用ElevenAgents每月解决22,000个支持工单"
   },
+  "https://elevenlabs.io/blog/introducing-brand-kit": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "ElevenLabs Blog",
+    "title": "介绍品牌套件"
+  },
   "https://elevenlabs.io/blog/introducing-instant-soundtracks": {
     "pushed_at": "2026-10-18T03:38:50",
     "source": "ElevenLabs Blog",
@@ -879,6 +964,11 @@
     "source": "ElevenLabs Blog",
     "title": "JavaScript语音识别教程：打造语音用户体验"
   },
+  "https://elevenlabs.io/blog/meeting-transcription-api": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "ElevenLabs Blog",
+    "title": "如何使用会议转录API：Scribe v2的实时与批量处理"
+  },
   "https://elevenlabs.io/blog/ntt-docomo-conversational-ai": {
     "pushed_at": "2026-10-18T03:38:50",
     "source": "ElevenLabs Blog",
@@ -888,6 +978,16 @@
     "pushed_at": "2026-10-18T03:38:50",
     "source": "ElevenLabs Blog",
     "title": "SSML标签解析：如何在文本转语音中控制停顿、发音和语速"
+  },
+  "https://elevenlabs.io/blog/synthetic-voice-detection-and-personal-agent-protocol": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "ElevenLabs Blog",
+    "title": "定义AI代理如何与你的业务交互"
+  },
+  "https://elevenlabs.io/blog/what-is-voice-activity-detection": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "ElevenLabs Blog",
+    "title": "什么是语音活动检测，它是如何工作的？"
   },
   "https://engineering.atspotify.com/2026/10/advancing-generative-recommendation-inference-our-collaboration-with-nvidia-on-tensorrt-llm": {
     "pushed_at": "2026-10-18T04:13:01",
@@ -1159,6 +1259,16 @@
     "source": "Ollama",
     "title": "使用 Ollama 和 Fly.io 安全运行 AI 代理"
   },
+  "https://ollama.com/blog/improved-performance-and-model-support-with-gguf": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Ollama",
+    "title": "GGUF带来性能提升和模型支持改进"
+  },
+  "https://ollama.com/blog/mlx": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Ollama",
+    "title": "Ollama 现已在 Apple Silicon 上由 MLX 提供支持（预览版）"
+  },
   "https://ollama.com/blog/mlx-performance": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "Ollama",
@@ -1174,10 +1284,25 @@
     "source": "Ollama",
     "title": "NVIDIA Nemotron 3.5 Lightning"
   },
+  "https://ollama.com/blog/nemotron-3-ultra": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Ollama",
+    "title": "NVIDIA Nemotron 3 Ultra"
+  },
   "https://ollama.com/blog/ollama-now-supports-jev-style-decision-models": {
     "pushed_at": "2026-10-18T03:38:50",
     "source": "Ollama",
     "title": "Ollama 现已支持 Jev 风格决策模型"
+  },
+  "https://ollama.com/blog/openclaw-tutorial": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Ollama",
+    "title": "设置OpenClaw最简单快捷的方法"
+  },
+  "https://ollama.com/blog/openjarvis": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Ollama",
+    "title": "OpenJarvis：一款本地优先的个人 AI 现已可通过 Ollama 运行"
   },
   "https://ollama.com/blog/reflection-beam": {
     "pushed_at": "2026-10-18T03:38:50",
@@ -1409,10 +1534,25 @@
     "source": "Shopify Engineering",
     "title": "在Shopify，原生应用已成为移动端的未来"
   },
+  "https://shopify.engineering/building-an-agentic-harness-that-outlasts-the-model": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Shopify Engineering",
+    "title": "构建一个比模型更持久的代理框架"
+  },
+  "https://shopify.engineering/gisting": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Shopify Engineering",
+    "title": "Gisting：压缩LLM Agent上下文以提升吞吐量并降低成本"
+  },
   "https://shopify.engineering/helix": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "Shopify Engineering",
     "title": "Helix：驱动我们 Shopify 应用原生迁移的内部工具"
+  },
+  "https://shopify.engineering/mobile-e2e-testing": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Shopify Engineering",
+    "title": "我们如何将移动端到端测试稳定性提升至98%"
   },
   "https://shopify.engineering/river-vulnerability-remediation": {
     "pushed_at": "2026-10-18T04:13:01",
@@ -1428,6 +1568,16 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "Shopify Engineering",
     "title": "ShopGym：面向购物智能体的逼真、可复现沙盒环境"
+  },
+  "https://shopify.engineering/sidekicks-continual-learning-loop": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Shopify Engineering",
+    "title": "Sidekick的持续学习循环"
+  },
+  "https://shopify.engineering/upgrading-checkout-blocks-app-to-polaris-web-components": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "Shopify Engineering",
+    "title": "将 Checkout Blocks 应用升级至 Polaris Web 组件"
   },
   "https://simonwillison.net/2026/Oct/10/python-actions": {
     "pushed_at": "2026-10-16T04:09:05",
@@ -1634,6 +1784,26 @@
     "source": "少数派",
     "title": "已经能测夜间体征的 Apple Watch，为什么要再做一个睡眠呼吸暂停提醒"
   },
+  "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "亚马逊设备主管Panos Panay预见未来AI设备将取代使用应用程序的需求"
+  },
+  "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Anthropic 正允许 METR 研究人员以员工级别的访问权限深入了解内部情况"
+  },
+  "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Meta发布了一款可在Mac上运行的开放权重AI模型"
+  },
+  "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Cal AI走红之际，一支庞大的网红大军功不可没"
+  },
   "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -1653,6 +1823,11 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "马克·沃尔伯格谈如何在电影中“正确”使用AI，以及愿意接受AI克隆延续其遗产"
+  },
+  "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Replit CEO 表示，未来的工作模式是“自动驾驶公司"
   },
   "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods": {
     "pushed_at": "2026-10-18T04:13:01",
@@ -2678,6 +2853,31 @@
     "pushed_at": "2026-10-15T19:43:45",
     "source": "奇客Solidot–传递最新科技情报",
     "title": "美国银行雇佣千名合同工修复 AI 工具发现的软件漏洞"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "The Verge",
+    "title": "网站正在对AI代理关闭大门"
+  },
+  "https://www.theverge.com/entertainment/1013381/jad-abumrad-radiolab-dolly-parton-fela-kuti-podcast-interview": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "The Verge",
+    "title": "Jad Abumrad喜爱蝴蝶刀和弹性好的枕头"
+  },
+  "https://www.theverge.com/gadgets/1013105/pikmin-4-nintendo-switch-deal-sale": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "The Verge",
+    "title": "《皮克敏4》在Nintendo Switch 2的10美元更新前降价20美元。"
+  },
+  "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "The Verge",
+    "title": "SpaceX为取代AT&T、T-Mobile和Verizon而进行的大胆且昂贵的豪赌"
+  },
+  "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites": {
+    "pushed_at": "2026-10-18T06:52:43",
+    "source": "The Verge",
+    "title": "Meta删除了可能允许其抓取新闻网站的语言。"
   },
   "https://www.theverge.com/tech/1013431/elon-musk-settles-lawsuits-over-1-million-voter-giveaway": {
     "pushed_at": "2026-10-18T04:13:01",
