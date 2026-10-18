@@ -114,7 +114,7 @@ jobs:
               if isinstance(value, dict) and value.get("pushed_at", "")[:10] >= cutoff
           }
           path.write_text(
-              json.dumps(merged, ensure_ascii=False, indent=2, sort_keys=True) + "\\n",
+              json.dumps(merged, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
               encoding="utf-8",
           )
           print(f"Merged cache: {len(merged)} records")
