@@ -27,3 +27,16 @@ https://ollama.com/blog/rss.xml
 
 # ---------- AI 资讯媒体（补充每日内容量，降低静默跳过概率） ----------
 https://techcrunch.com/category/artificial-intelligence/feed/
+
+# ---------- 科技公司（非 AI 专属，官方博客 / 工程博客） ----------
+https://shopify.engineering/blog.atom
+https://netflixtechblog.com/feed
+https://engineering.atspotify.com/feed/
+https://dropbox.tech/feed
+https://blog.mozilla.org/feed/
+
+# ---------- 科技媒体 / 聚合（进一步补充内容量） ----------
+https://www.theverge.com/rss/index.xml
+https://arstechnica.com/feed/
+https://www.wired.com/feed/rss
+https://hnrss.org/frontpage

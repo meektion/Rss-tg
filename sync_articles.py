@@ -59,7 +59,10 @@ REPORT_BACKGROUNDS = {
 # 早报/晚报编号消息导语（留空则不加，如 "👀 今日 AI 大厂动态"）
 REPORT_INTRO = os.getenv("REPORT_INTRO", "")
 # 编号序号 emoji（1~10）
-REPORT_NUMBER_EMOJI = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
+REPORT_NUMBER_EMOJI = [
+    "1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟",
+    "⑪", "⑫", "⑬", "⑭", "⑮", "⑯", "⑰", "⑱", "⑲", "⑳",
+]
 # 来源名 -> 编号消息里显示的简短公司名（小写匹配 feed title）
 COMPANY_ALIAS = {
     "openai": "OpenAI",
@@ -69,9 +72,21 @@ COMPANY_ALIAS = {
     "apple": "苹果",
     "nvidia": "英伟达",
     "meta": "Meta",
+    "github": "GitHub",
+    "aws": "AWS",
+    "fb": "Meta",
     "cloudflare": "Cloudflare",
     "vercel": "Vercel",
     "qwen": "通义千问",
+    "shopify": "Shopify",
+    "netflix": "Netflix",
+    "spotify": "Spotify",
+    "dropbox": "Dropbox",
+    "mozilla": "Mozilla",
+    "theverge": "The Verge",
+    "arstechnica": "Ars Technica",
+    "wired": "Wired",
+    "hnrss": "Hacker News",
 }
 
 # 内置兜底源列表（rss_feeds.txt 不存在时使用）
@@ -101,8 +116,9 @@ RETRY_DELAY = 2                # 重试间隔（秒）
 CAPTION_LIMIT = 1024           # Telegram 图片 caption 上限
 MAX_MESSAGE_LENGTH = 4096      # Telegram 文本消息上限
 MESSAGE_BLANK_LINES = 3        # 消息内部各段落之间的空行数（调大更疏朗，2~4 较合适）
-MAX_ITEMS_PER_CARD = 10        # 一张卡片最多列几条动态（实际会被 1024 字符上限自动压减）
+MAX_ITEMS_PER_CARD = 20        # 一张卡片最多列几条动态（实际会被 1024 字符上限自动压减）
 ITEM_GAP_LINES = 1             # 卡片内「标题+摘要」组合之间的空行数
+REPORT_ITEM_GAP = 1            # 早报/晚报「编号消息」之间的空行数（调大更疏朗）
 TRAILING_BLANK_LINES = 2       # 卡片末尾追加的空行数（让底部不那么贴边，0 为不加）
 SHOW_SOURCE_HEADER = True      # 卡片顶部显示来源（如 ▎OpenAI），False 为不显示
 SOURCE_HEADER_GAP = 1           # 来源行与第一条消息之间的空行数（调大更疏朗）
@@ -860,6 +876,7 @@ def build_report_caption(groups, mode):
             title = esc(art["title"])
             link = html.escape(art["link"], quote=True)
             lines.append(f"{REPORT_NUMBER_EMOJI[i]} <b>{company}</b> <a href=\"{link}\">{title}</a>")
+            lines.extend([""] * REPORT_ITEM_GAP)   # 每条消息之间空 REPORT_ITEM_GAP 行，加大间隔
             i += 1
         lines.append("")
         return "\n".join(lines)
