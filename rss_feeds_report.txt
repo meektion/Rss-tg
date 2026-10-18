@@ -16,3 +16,14 @@ https://engineering.fb.com/feed/
 
 # ---------- AI 公司（国内） ----------
 https://qwenlm.github.io/blog/index.xml
+
+# ---------- 开发平台 / 云基础设施 ----------
+https://github.blog/feed/
+https://aws.amazon.com/blogs/machine-learning/feed/
+
+# ---------- AI 公司（语音 / 本地大模型） ----------
+https://elevenlabs.io/blog/rss.xml
+https://ollama.com/blog/rss.xml
+
+# ---------- AI 资讯媒体（补充每日内容量，降低静默跳过概率） ----------
+https://techcrunch.com/category/artificial-intelligence/feed/
