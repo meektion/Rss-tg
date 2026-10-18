@@ -961,9 +961,11 @@ def build_report_messages(groups, mode):
     for _, _, entry in entries:
         candidate_lines = current_lines + [entry, ""]
         candidate = "\n".join(candidate_lines)
-        if current_items and _html_text_length(candidate) > current_limit:
-            messages.append("\n".join(current_lines).strip())
-            # Continuation messages repeat the report heading so they remain understandable on their own.
+        if _html_text_length(candidate) > current_limit and (current_items or current_limit == CAPTION_LIMIT):
+            # Caption is limited to 1024 chars. If the first entry does not fit beside the cover,
+            # send a heading-only cover caption and move the complete entry into a text continuation.
+            if current_items or not messages:
+                messages.append("\n".join(current_lines).strip())
             current_limit = MAX_MESSAGE_LENGTH
             current_lines = [f"{heading}\n（续）", ""]
             current_items = 0
@@ -971,8 +973,8 @@ def build_report_messages(groups, mode):
             candidate = "\n".join(candidate_lines)
 
         if _html_text_length(candidate) > current_limit:
-            # Last-resort guard for a very long source/link field; preserve valid HTML and the article link.
-            raise ValueError(f"报告单条内容超出 Telegram 限制：{entries[current_items][0] if entries else 'unknown'}")
+            # Preserve valid HTML and article links; a pathological URL cannot be safely truncated.
+            raise ValueError(f"报告单条内容超出 Telegram 限制：{entries[len(messages)][0] if len(messages) < len(entries) else 'unknown'}")
 
         current_lines = candidate_lines
         current_items += 1
