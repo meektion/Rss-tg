@@ -50,7 +50,7 @@ jobs:
             case "${{ github.event.schedule }}" in
               "3 2 * * *")   echo "mode=morning" >> "$GITHUB_OUTPUT";;
               "3 9 * * *")   echo "mode=evening" >> "$GITHUB_OUTPUT";;
-              "3 8,16 * * *") echo "mode=normal"  >> "$GITHUB_OUTPUT";;
+              "3 8,16 * * *") echo "mode=normal" >> "$GITHUB_OUTPUT";;
               *)             echo "mode=normal"  >> "$GITHUB_OUTPUT";;
             esac
           fi
