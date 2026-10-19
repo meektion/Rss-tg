@@ -99,6 +99,11 @@
     "source": "Ars Technica",
     "title": "OpenAI模型黑入了一个加密钱包并侵入了更多网站"
   },
+  "https://arstechnica.com/space/2026/10/blue-origin-is-going-all-in-on-the-new-glenn-rocket": {
+    "pushed_at": "2026-10-19T09:57:33",
+    "source": "Ars Technica",
+    "title": "蓝色起源全力投入New Glenn火箭"
+  },
   "https://arstechnica.com/space/2026/10/rocket-report-faa-eyes-more-starbase-traffic-indias-skyroot-snares-us-customer": {
     "pushed_at": "2026-10-19T07:40:51",
     "source": "Ars Technica",
@@ -638,6 +643,11 @@
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Mozilla Blog",
     "title": "深入解析：为食谱的“摇一摇生成摘要”功能进行提示词调优"
+  },
+  "https://blog.mozilla.org/en/firefox/firefox-exa-partnership": {
+    "pushed_at": "2026-10-19T09:57:33",
+    "source": "The Mozilla Blog",
+    "title": "Firefox与Exa：围绕人而非平台构建AI搜索"
   },
   "https://blog.mozilla.org/en/firefox/firefox-nvidia-geforce-now-partnership": {
     "pushed_at": "2026-10-18T13:11:04",
@@ -1264,6 +1274,11 @@
     "source": "Hacker News: Front Page",
     "title": "Open MicroManipulator——一个亚微米级3D运动控制平台"
   },
+  "https://lwn.net/Articles/1101143": {
+    "pushed_at": "2026-10-19T09:57:33",
+    "source": "Hacker News: Front Page",
+    "title": "Linux 7.3 发布"
+  },
   "https://machinelearning.apple.com/research/code-switching-detection": {
     "pushed_at": "2026-10-16T02:35:41",
     "source": "Apple Machine Learning Research",
@@ -1708,6 +1723,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Shopify Engineering",
     "title": "使用Catalog API为代理式商务聚类数十亿产品"
+  },
+  "https://shopify.engineering/faster-breadth-first-graphql-execution": {
+    "pushed_at": "2026-10-19T09:57:33",
+    "source": "Shopify Engineering",
+    "title": "Shopify 实现更快的广度优先 GraphQL 执行之旅"
   },
   "https://shopify.engineering/fine-tuning-agent-shopify-flow": {
     "pushed_at": "2026-10-18T13:11:04",
@@ -3184,6 +3204,11 @@
     "source": "The Verge",
     "title": "网站正在对AI代理关闭大门"
   },
+  "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot": {
+    "pushed_at": "2026-10-19T09:57:33",
+    "source": "The Verge",
+    "title": "一名女子因阻挡送货机器人而在费城被捕"
+  },
   "https://www.theverge.com/entertainment/1013381/jad-abumrad-radiolab-dolly-parton-fela-kuti-podcast-interview": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Verge",
@@ -3248,6 +3273,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "WIRED",
     "title": "2026年送给男士、男子汉及真汉子们的20份最佳礼物"
+  },
+  "https://www.wired.com/gallery/best-white-elephant-gifts-2026": {
+    "pushed_at": "2026-10-19T09:57:33",
+    "source": "WIRED",
+    "title": "2026年15款最佳白象礼物，外加一个用来装它们的恶作剧盒子"
   },
   "https://www.wired.com/review/valerion-visionmaster-max-4k-projector": {
     "pushed_at": "2026-10-18T11:04:31",
