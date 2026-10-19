@@ -109,6 +109,11 @@
     "source": "Ars Technica",
     "title": "火箭报告：FAA考虑增加Starbase航班；印度Skyroot吸引美国客户"
   },
+  "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits": {
+    "pushed_at": "2026-10-19T16:26:14",
+    "source": "Ars Technica",
+    "title": "迪士尼找到了一种收购Character.AI而不接手其诉讼的方法"
+  },
   "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Ars Technica",
@@ -168,6 +173,11 @@
     "pushed_at": "2026-10-16T02:35:43",
     "source": "Artificial Intelligence",
     "title": "Generate presentations with Amazon Bedrock AgentCore"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium": {
+    "pushed_at": "2026-10-19T16:26:14",
+    "source": "Artificial Intelligence",
+    "title": "Deepgram如何利用AWS Trainium大规模优化语音AI"
   },
   "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock": {
     "pushed_at": "2026-10-16T03:44:18",
@@ -403,6 +413,11 @@
     "pushed_at": "2026-10-15T19:43:58",
     "source": "Cloudflare Blog",
     "title": "一个完全可编程的安全web网关"
+  },
+  "https://blog.cloudflare.com/protect-your-netscaler-gateway": {
+    "pushed_at": "2026-10-19T16:26:14",
+    "source": "Cloudflare Blog",
+    "title": "超越补丁：保护您的NetScaler网关免受未来漏洞威胁"
   },
   "https://blog.cloudflare.com/radar-redesign": {
     "pushed_at": "2026-10-15T13:07:33",
@@ -774,6 +789,11 @@
     "source": "The Official Microsoft Blog",
     "title": "微软将把Azure Maia系统扩展至多吉瓦级部署"
   },
+  "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider": {
+    "pushed_at": "2026-10-19T16:26:14",
+    "source": "The Official Microsoft Blog",
+    "title": "保护代理内部人员"
+  },
   "https://blogs.nvidia.com/blog/ai-breast-cancer-startups": {
     "pushed_at": "2026-10-16T03:38:50",
     "source": "NVIDIA Blog",
@@ -843,6 +863,11 @@
     "pushed_at": "2026-10-18T03:04:27",
     "source": "NVIDIA Blog",
     "title": "RTX Spark点燃全球庆祝，全新Windows PC登场"
+  },
+  "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production": {
+    "pushed_at": "2026-10-19T16:26:14",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA 推进媒体领域智能体安全，从欧洲公共服务广播到全球内容生产"
   },
   "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl": {
     "pushed_at": "2026-10-16T02:35:37",
@@ -1208,6 +1233,11 @@
     "pushed_at": "2026-10-15T19:44:41",
     "source": "Engineering at Meta",
     "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale"
+  },
+  "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary": {
+    "pushed_at": "2026-10-19T16:26:14",
+    "source": "Engineering at Meta",
+    "title": "GenRecs Tokenization：通过稳定模型词汇表变革Meta的广告推荐"
   },
   "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out": {
     "pushed_at": "2026-10-15T09:04:53",
@@ -2164,6 +2194,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "迪士尼同意聘用Character.AI的大部分员工"
   },
+  "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again": {
+    "pushed_at": "2026-10-19T16:26:14",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "人们正在用AI让智能电视重新变“笨"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -2248,6 +2283,11 @@
     "pushed_at": "2026-10-17T04:48:12",
     "source": "Vercel News",
     "title": "Vercel Connect 现已支持 MCP Events，进入公开测试阶段"
+  },
+  "https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free": {
+    "pushed_at": "2026-10-19T16:26:14",
+    "source": "Vercel News",
+    "title": "MiniMax M3.1 Flash 现已在 AI Gateway 上免费提供"
   },
   "https://vercel.com/changelog/muse-spark-open-now-available-on-ai-gateway": {
     "pushed_at": "2026-10-17T03:49:37",
@@ -3309,6 +3349,11 @@
     "source": "The Verge",
     "title": "苹果的HomeView只是对在线食谱作者的最新威胁"
   },
+  "https://www.theverge.com/tech/1013028/apple-second-october-product-launch-announcement": {
+    "pushed_at": "2026-10-19T16:26:14",
+    "source": "The Verge",
+    "title": "苹果预告下周的MacBook Pro活动"
+  },
   "https://www.theverge.com/tech/1013320/bose-noise-cancelling-wired-earbuds-review": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "The Verge",
@@ -3334,6 +3379,11 @@
     "source": "The Verge",
     "title": "Mercedes-AMG首款全新打造的SUV是一台1,150马力的电动猛兽"
   },
+  "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning": {
+    "pushed_at": "2026-10-19T16:26:14",
+    "source": "Hacker News: Front Page",
+    "title": "AI公司正瞄准水管工行业"
+  },
   "https://www.wired.com/gallery/best-gifts-for-manly-men-2026": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "WIRED",
@@ -3348,6 +3398,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "WIRED",
     "title": "Valerion VisionMaster Max 4K投影仪评测：画质出色，音效尚可"
+  },
+  "https://www.wired.com/story/all-clad-factory-seconds-sale-october-2026": {
+    "pushed_at": "2026-10-19T16:26:14",
+    "source": "WIRED",
+    "title": "All-Clad工厂直销瑕疵品特卖：秋季烹饪厨具优惠"
   },
   "https://www.wired.com/story/best-airpods-case": {
     "pushed_at": "2026-10-18T11:40:39",
