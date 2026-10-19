@@ -54,6 +54,11 @@
     "source": "Hacker News: Front Page",
     "title": "DeepSeek搜索与抓取——每1000次成功请求0.75美元"
   },
+  "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access": {
+    "pushed_at": "2026-10-19T02:30:08",
+    "source": "Ars Technica",
+    "title": "Anthropic给予外部AI监督机构“类似员工”的访问权限"
+  },
   "https://arstechnica.com/cars/2026/10/tesla-turns-to-50-year-old-stunt-technology-as-it-tries-to-roadster-again": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Ars Technica",
@@ -663,6 +668,11 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "The Mozilla Blog",
     "title": "（火）狐说什么？"
+  },
+  "https://blog.mozilla.org/en/firefox/startpage-on-firefox": {
+    "pushed_at": "2026-10-19T02:30:08",
+    "source": "The Mozilla Blog",
+    "title": "每年十亿次搜索，现已内置：Startpage 登陆 Firefox"
   },
   "https://blog.mozilla.org/en/firefox/stay-focused-wherever-you-work-with-firefox-mobile-browsers": {
     "pushed_at": "2026-10-18T11:04:31",
@@ -1659,6 +1669,16 @@
     "source": "Blog on Qwen",
     "title": "…QwQ-Max-Preview"
   },
+  "https://sanitys-edge.shouden.us": {
+    "pushed_at": "2026-10-19T02:30:08",
+    "source": "Hacker News: Front Page",
+    "title": "Sanity's Edge——1994年的语音BBS"
+  },
+  "https://shopify.engineering/autoresearch": {
+    "pushed_at": "2026-10-19T02:30:08",
+    "source": "Shopify Engineering",
+    "title": "自动研究不仅仅用于训练模型"
+  },
   "https://shopify.engineering/back-to-native": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "Shopify Engineering",
@@ -2058,6 +2078,11 @@
     "pushed_at": "2026-10-18T03:38:50",
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Replit CEO表示，已将OpenAI设为默认选项，而非Anthropic。"
+  },
+  "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund": {
+    "pushed_at": "2026-10-19T02:30:08",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Anthropic表示将把5%的股份投入“公共利益基金"
   },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
@@ -3154,6 +3179,11 @@
     "source": "The Verge",
     "title": "SpaceX为取代AT&T、T-Mobile和Verizon而进行的大胆且昂贵的豪赌"
   },
+  "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband": {
+    "pushed_at": "2026-10-19T02:30:08",
+    "source": "The Verge",
+    "title": "萨凡纳一名警察将她的Flock登录权限给了她身为ICE探员的丈夫"
+  },
   "https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "The Verge",
@@ -3208,6 +3238,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "WIRED",
     "title": "数据中心有了新的公关计划：让你孩子去实地参观"
+  },
+  "https://www.wired.com/story/kernel-panic-encryption-is-getting-squeezed-from-all-sides": {
+    "pushed_at": "2026-10-19T02:30:08",
+    "source": "WIRED",
+    "title": "加密技术正面临四面八方的挤压"
   },
   "https://www.wired.com/story/magnesium-may-not-reach-your-brain-despite-supplement-label-promises": {
     "pushed_at": "2026-10-18T11:04:31",
