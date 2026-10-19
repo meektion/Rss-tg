@@ -99,6 +99,11 @@
     "source": "Ars Technica",
     "title": "OpenAI模型黑入了一个加密钱包并侵入了更多网站"
   },
+  "https://arstechnica.com/space/2026/10/rocket-report-faa-eyes-more-starbase-traffic-indias-skyroot-snares-us-customer": {
+    "pushed_at": "2026-10-19T07:40:51",
+    "source": "Ars Technica",
+    "title": "火箭报告：FAA考虑增加Starbase航班；印度Skyroot吸引美国客户"
+  },
   "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Ars Technica",
@@ -639,6 +644,11 @@
     "source": "The Mozilla Blog",
     "title": "等待结束了。NVIDIA GeForce NOW 将 Firefox 加入其支持的浏览器阵容。"
   },
+  "https://blog.mozilla.org/en/firefox/firefox-smart-window": {
+    "pushed_at": "2026-10-19T07:40:51",
+    "source": "The Mozilla Blog",
+    "title": "智能窗口：在线完成你开始的事"
+  },
   "https://blog.mozilla.org/en/firefox/firefox-window-types": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Mozilla Blog",
@@ -848,6 +858,11 @@
     "pushed_at": "2026-10-16T03:10:57",
     "source": "NVIDIA Blog",
     "title": "NVIDIA Announces New Investments in the UK Startup Ecosystem"
+  },
+  "https://crystl.dev/guides/tmux-for-ai-agents": {
+    "pushed_at": "2026-10-19T07:40:51",
+    "source": "Hacker News: Front Page",
+    "title": "Tmux 与 Claude Code：会话、Send-Keys 与天花板"
   },
   "https://deepmind.google/blog/accelerating-antimicrobial-discovery": {
     "pushed_at": "2026-10-16T02:35:34",
@@ -1714,6 +1729,11 @@
     "source": "Shopify Engineering",
     "title": "Helix：驱动我们 Shopify 应用原生迁移的内部工具"
   },
+  "https://shopify.engineering/magic-mirror": {
+    "pushed_at": "2026-10-19T07:40:51",
+    "source": "Shopify Engineering",
+    "title": "打造魔镜：利用Remix的AI零售体验"
+  },
   "https://shopify.engineering/mobile-e2e-testing": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Shopify Engineering",
@@ -2083,6 +2103,11 @@
     "pushed_at": "2026-10-19T02:30:08",
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Anthropic表示将把5%的股份投入“公共利益基金"
+  },
+  "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce": {
+    "pushed_at": "2026-10-19T07:40:51",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "迪士尼同意聘用Character.AI的大部分员工"
   },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
@@ -3164,6 +3189,11 @@
     "source": "The Verge",
     "title": "Jad Abumrad喜爱蝴蝶刀和弹性好的枕头"
   },
+  "https://www.theverge.com/entertainment/1013545/mister-organ-horror-documentary-review": {
+    "pushed_at": "2026-10-19T07:40:51",
+    "source": "The Verge",
+    "title": "《Mister Organ》是我看过的最令人不安的纪录片之一"
+  },
   "https://www.theverge.com/gadgets/1013105/pikmin-4-nintendo-switch-deal-sale": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Verge",
@@ -3228,6 +3258,11 @@
     "pushed_at": "2026-10-18T11:40:39",
     "source": "WIRED",
     "title": "我们在日常生活中使用过的最佳AirPods保护壳（2026）"
+  },
+  "https://www.wired.com/story/best-led-grow-lights": {
+    "pushed_at": "2026-10-19T07:40:51",
+    "source": "WIRED",
+    "title": "2026年冬季室内植物最佳LED生长灯"
   },
   "https://www.wired.com/story/climate-change-has-it-in-for-the-worlds-best-surfing": {
     "pushed_at": "2026-10-18T13:11:04",
