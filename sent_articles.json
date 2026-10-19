@@ -1904,6 +1904,16 @@
     "source": "Simon Willison's Weblog",
     "title": "web-edit 0.1a2"
   },
+  "https://simonwillison.net/2026/Oct/18/llm-echo": {
+    "pushed_at": "2026-10-19T15:23:33",
+    "source": "Simon Willison's Weblog",
+    "title": "llm-echo 0.5"
+  },
+  "https://simonwillison.net/2026/Oct/18/llm-tools-datasette": {
+    "pushed_at": "2026-10-19T15:23:33",
+    "source": "Simon Willison's Weblog",
+    "title": "llm-tools-datasette 0.1.1"
+  },
   "https://simonwillison.net/2026/Oct/9/built-using-my-voice": {
     "pushed_at": "2026-10-16T13:02:02",
     "source": "Simon Willison's Weblog",
@@ -1938,6 +1948,11 @@
     "pushed_at": "2026-10-15T06:33:18",
     "source": "少数派",
     "title": "认知心理学背后的播客剪辑技巧"
+  },
+  "https://sspai.com/post/115125": {
+    "pushed_at": "2026-10-19T15:23:31",
+    "source": "少数派",
+    "title": "开源掌机的文化线索"
   },
   "https://sspai.com/post/115238": {
     "pushed_at": "2026-10-15T06:33:12",
@@ -2018,6 +2033,26 @@
     "pushed_at": "2026-10-16T13:02:05",
     "source": "少数派",
     "title": "本周看什么 | 最近值得一看的 13 部作品"
+  },
+  "https://sspai.com/post/116585": {
+    "pushed_at": "2026-10-19T15:23:31",
+    "source": "少数派",
+    "title": "与 Tim Cook 走进「蓝盒子」，了解 Mac 如何助力中国企业成长"
+  },
+  "https://sspai.com/post/116641": {
+    "pushed_at": "2026-10-19T15:23:31",
+    "source": "少数派",
+    "title": "派早报：三季度全球手机出货量继续两位数下降"
+  },
+  "https://sspai.com/post/116699": {
+    "pushed_at": "2026-10-19T15:23:31",
+    "source": "少数派",
+    "title": "9 月音乐精选：用这 8 张新专辑，激发人生新可能"
+  },
+  "https://sspai.com/post/116705": {
+    "pushed_at": "2026-10-19T15:23:31",
+    "source": "少数派",
+    "title": "派评 | 近期值得关注的 App"
   },
   "https://sspai.com/post/92653": {
     "pushed_at": "2026-10-15T07:07:07",
@@ -2889,6 +2924,31 @@
     "source": "IT之家",
     "title": "首发即国补：荣耀 Earbuds 耳夹式耳机 499 → 378 元，全天候舒适佩戴"
   },
+  "https://www.ithome.com/1/015/046.htm": {
+    "pushed_at": "2026-10-19T15:23:28",
+    "source": "IT之家",
+    "title": "《巫师 3：狂猎 — 重制版》Switch 2 补丁 5.01 开放下载：画质大升级"
+  },
+  "https://www.ithome.com/1/015/048.htm": {
+    "pushed_at": "2026-10-19T15:23:28",
+    "source": "IT之家",
+    "title": "四个谷歌 Gemini 4 Argon 智能体成功击败末影龙通关《我的世界》，耗时 27 小时"
+  },
+  "https://www.ithome.com/1/015/051.htm": {
+    "pushed_at": "2026-10-19T15:23:28",
+    "source": "IT之家",
+    "title": "圆通回应“客户取消快递订单被记为投诉”事件：向客户道歉，不存在“咨询即处罚”“进线算投诉”情况"
+  },
+  "https://www.ithome.com/1/015/052.htm": {
+    "pushed_at": "2026-10-19T15:23:28",
+    "source": "IT之家",
+    "title": "微软用 Mac 制作 Windows Insider 12 周年纪念壁纸，引发网友讨论"
+  },
+  "https://www.ithome.com/1/015/053.htm": {
+    "pushed_at": "2026-10-19T15:23:28",
+    "source": "IT之家",
+    "title": "影石预热全新麦克风，10 月 22 日登场"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -3063,6 +3123,11 @@
     "pushed_at": "2026-10-18T09:53:06",
     "source": "量子位",
     "title": "端侧跑通超千亿大模型！联想YOGA Pro 15 RTX Spark超级AIPC今日正式发售"
+  },
+  "https://www.qbitai.com/2026/10/504136.html": {
+    "pushed_at": "2026-10-19T15:23:24",
+    "source": "量子位",
+    "title": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS"
   },
   "https://www.solidot.org/story?sid=85598": {
     "pushed_at": "2026-10-15T09:04:02",
