@@ -120,6 +120,7 @@ MAX_ITEMS_PER_CARD = 20        # 一张卡片最多列几条动态（实际会�
 ITEM_GAP_LINES = 1             # 卡片内「标题+摘要」组合之间的空行数
 REPORT_ITEM_GAP = 1            # 早报/晚报「编号消息」之间的空行数（调大更疏朗）
 TRAILING_BLANK_LINES = 1       # 末尾少量留白，避免占用过多 caption 容量
+REPORT_TRAILING_BLANK_LINES = 2  # 早报/晚报末尾留白：避免最后一行与消息时间戳贴太近
 SHOW_SOURCE_HEADER = True      # 卡片顶部显示来源（如 ▎OpenAI），False 为不显示
 SOURCE_HEADER_GAP = 1           # 来源行与第一条消息之间的空行数（调大更疏朗）
 KEEP_DAYS = 30                 # 缓存保留天数
@@ -920,6 +921,19 @@ def company_alias(source):
     return source
 
 
+def _with_trailing_padding(text, limit):
+    """末尾补空行 + 零宽字符，避免最后一行与 Telegram 时间戳/气泡底边贴太近。
+
+    Telegram 会裁掉纯空白，必须用 U+200B 撑住；同时确保不超出当前消息上限。
+    """
+    if REPORT_TRAILING_BLANK_LINES <= 0:
+        return text
+    padding = "\n" * REPORT_TRAILING_BLANK_LINES + "\u200b"
+    if _html_text_length(text + padding) <= limit:
+        return text + padding
+    return text
+
+
 def build_report_messages(groups, mode):
     """构建完整早报/晚报消息列表；超长时分段发送，不丢弃末尾公司。"""
     now = _beijing_now()
@@ -965,7 +979,7 @@ def build_report_messages(groups, mode):
             # Caption is limited to 1024 chars. If the first entry does not fit beside the cover,
             # send a heading-only cover caption and move the complete entry into a text continuation.
             if current_items or not messages:
-                messages.append("\n".join(current_lines).strip())
+                messages.append(_with_trailing_padding("\n".join(current_lines).strip(), current_limit))
             current_limit = MAX_MESSAGE_LENGTH
             current_lines = [f"{heading}\n（续）", ""]
             current_items = 0
@@ -980,7 +994,7 @@ def build_report_messages(groups, mode):
         current_items += 1
 
     if current_items or not messages:
-        messages.append("\n".join(current_lines).strip())
+        messages.append(_with_trailing_padding("\n".join(current_lines).strip(), current_limit))
     return messages
 
 
