@@ -1944,6 +1944,11 @@
     "source": "Simon Willison's Weblog",
     "title": "llm-tools-datasette 0.1.1"
   },
+  "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming": {
+    "pushed_at": "2026-10-20T13:26:35",
+    "source": "Simon Willison's Weblog",
+    "title": "我的编程生涯讣告"
+  },
   "https://simonwillison.net/2026/Oct/9/built-using-my-voice": {
     "pushed_at": "2026-10-16T13:02:02",
     "source": "Simon Willison's Weblog",
@@ -2009,6 +2014,11 @@
     "source": "少数派",
     "title": "带给摄影师更多自由：Austin Mann 评 iPhone 18 Pro 影像体验"
   },
+  "https://sspai.com/post/115475": {
+    "pushed_at": "2026-10-20T13:26:33",
+    "source": "少数派",
+    "title": "TDS REVIEW｜vivo Buds Clip 耳夹式无线耳机体验"
+  },
   "https://sspai.com/post/115679": {
     "pushed_at": "2026-10-16T13:02:05",
     "source": "少数派",
@@ -2064,6 +2074,11 @@
     "source": "少数派",
     "title": "本周看什么 | 最近值得一看的 13 部作品"
   },
+  "https://sspai.com/post/116430": {
+    "pushed_at": "2026-10-20T13:26:33",
+    "source": "少数派",
+    "title": "App+1 | 紫毫：基于 Rime 引擎、支持双拼纠错的 iOS 输入法"
+  },
   "https://sspai.com/post/116585": {
     "pushed_at": "2026-10-19T15:23:31",
     "source": "少数派",
@@ -2073,6 +2088,11 @@
     "pushed_at": "2026-10-19T15:23:31",
     "source": "少数派",
     "title": "派早报：三季度全球手机出货量继续两位数下降"
+  },
+  "https://sspai.com/post/116661": {
+    "pushed_at": "2026-10-20T13:26:33",
+    "source": "少数派",
+    "title": "从「空间扩展」到「等比放大」：我如何为 MacBook Pro 搭建双屏桌面"
   },
   "https://sspai.com/post/116699": {
     "pushed_at": "2026-10-19T15:23:31",
@@ -2084,10 +2104,20 @@
     "source": "少数派",
     "title": "派评 | 近期值得关注的 App"
   },
+  "https://sspai.com/post/116758": {
+    "pushed_at": "2026-10-20T13:26:33",
+    "source": "少数派",
+    "title": "派早报：MiniMax 发布 M3.1 Flash 模型等"
+  },
   "https://sspai.com/post/92653": {
     "pushed_at": "2026-10-15T07:07:07",
     "source": "少数派",
     "title": "已经能测夜间体征的 Apple Watch，为什么要再做一个睡眠呼吸暂停提醒"
+  },
+  "https://sspai.com/prime/story/inside-release-notes-261020": {
+    "pushed_at": "2026-10-20T13:26:33",
+    "source": "少数派",
+    "title": "具透 Plus：Firefox 被「中途喝止」的界面现代化改造；Pixel 不再为 VoLTE 发愁"
   },
   "https://t3.at/blog/2026-10-17-parser-combinators": {
     "pushed_at": "2026-10-18T11:04:31",
@@ -3014,6 +3044,31 @@
     "source": "IT之家",
     "title": "Apple releases watchOS 27.2 RC"
   },
+  "https://www.ithome.com/1/015/565.htm": {
+    "pushed_at": "2026-10-20T13:26:30",
+    "source": "IT之家",
+    "title": "3799 元小牛 MET Citi 电动自行车上市：105km 长续航，前后双碟刹 +TCS"
+  },
+  "https://www.ithome.com/1/015/567.htm": {
+    "pushed_at": "2026-10-20T13:26:30",
+    "source": "IT之家",
+    "title": "儿童手表品牌成小学生社交准入门槛，“小天才封闭社交倒逼家长购买”冲上热搜"
+  },
+  "https://www.ithome.com/1/015/568.htm": {
+    "pushed_at": "2026-10-20T13:26:30",
+    "source": "IT之家",
+    "title": "429 → 207 元破冰新低：腾达泰山 BE7200 Ultra 路由器国补直降，五天线设计、9 颗 FEM"
+  },
+  "https://www.ithome.com/1/015/569.htm": {
+    "pushed_at": "2026-10-20T13:26:30",
+    "source": "IT之家",
+    "title": "OpenBSD 8.0 正式发布：支持 64 vCPU 虚拟机，英特尔 Arc 显卡获支持"
+  },
+  "https://www.ithome.com/1/015/570.htm": {
+    "pushed_at": "2026-10-20T13:26:30",
+    "source": "IT之家",
+    "title": "首发 1999 元 → 1153 元：小米米家净水器 1200G Pro 国补探新低"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -3193,6 +3248,31 @@
     "pushed_at": "2026-10-19T15:23:24",
     "source": "量子位",
     "title": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS"
+  },
+  "https://www.qbitai.com/2026/10/504225.html": {
+    "pushed_at": "2026-10-20T13:26:28",
+    "source": "量子位",
+    "title": "全栈自研！国产高端互连芯片，稳了!"
+  },
+  "https://www.qbitai.com/2026/10/504266.html": {
+    "pushed_at": "2026-10-20T13:26:28",
+    "source": "量子位",
+    "title": "2026物理AI与世界模型大会医疗健康世界模型分会场在南京举行"
+  },
+  "https://www.qbitai.com/2026/10/504277.html": {
+    "pushed_at": "2026-10-20T13:26:28",
+    "source": "量子位",
+    "title": "从百比特芯片到整机交付，这家量子计算公司正将量子算力推向可调用服务"
+  },
+  "https://www.qbitai.com/2026/10/504294.html": {
+    "pushed_at": "2026-10-20T13:26:28",
+    "source": "量子位",
+    "title": "通研院孵化的团队，也盯上了RSI"
+  },
+  "https://www.qbitai.com/2026/10/504314.html": {
+    "pushed_at": "2026-10-20T13:26:28",
+    "source": "量子位",
+    "title": "Claude新模型曝光！能跳出思维定势，修Bug治标又治本"
   },
   "https://www.solidot.org/story?sid=85598": {
     "pushed_at": "2026-10-15T09:04:02",
