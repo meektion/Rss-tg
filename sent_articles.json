@@ -119,6 +119,11 @@
     "source": "Ars Technica",
     "title": "Meta可能利用全新的商业服务条款规避数百万美元的AI授权费用"
   },
+  "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training": {
+    "pushed_at": "2026-10-20T17:52:02",
+    "source": "Ars Technica",
+    "title": "Meta被要求列出批准用BT下载进行AI训练的高管名单"
+  },
   "https://arstechnica.com/tech-policy/2026/10/polymarket-saw-600-million-in-election-trades-after-the-elections-were-over": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Ars Technica",
@@ -168,6 +173,11 @@
     "pushed_at": "2026-10-16T03:38:54",
     "source": "Artificial Intelligence",
     "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod": {
+    "pushed_at": "2026-10-20T17:52:02",
+    "source": "Artificial Intelligence",
+    "title": "在Amazon SageMaker HyperPod上对GPT-OSS-20B进行微调以实现多语言推理"
   },
   "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore": {
     "pushed_at": "2026-10-16T02:35:43",
@@ -443,6 +453,11 @@
     "pushed_at": "2026-10-15T08:14:31",
     "source": "Cloudflare Blog",
     "title": "Filter, reshape, and redact logs before export with Transformers"
+  },
+  "https://blog.cloudflare.com/typescript-rust-port": {
+    "pushed_at": "2026-10-20T17:52:02",
+    "source": "Cloudflare Blog",
+    "title": "介绍tsrs：TypeScript到Rust的移植"
   },
   "https://blog.cloudflare.com/verified-bots-accountability": {
     "pushed_at": "2026-10-16T13:02:08",
@@ -724,6 +739,11 @@
     "source": "The Mozilla Blog",
     "title": "这张地图展示了风险投资支持的公司在当前最需要的最重要资产"
   },
+  "https://blog.mozilla.org/en/mozilla/internet-policy/uk-cma-browser-choice-screens": {
+    "pushed_at": "2026-10-20T17:52:02",
+    "source": "The Mozilla Blog",
+    "title": "为什么CMA要求我们在建房子之前先选家具？英国的搜索选择屏幕需要与浏览器选择屏幕并存。"
+  },
   "https://blog.mozilla.org/en/mozilla/mila-canada-open-source-ai-initiative": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "The Mozilla Blog",
@@ -793,6 +813,11 @@
     "pushed_at": "2026-10-19T16:26:14",
     "source": "The Official Microsoft Blog",
     "title": "保护代理内部人员"
+  },
+  "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice": {
+    "pushed_at": "2026-10-20T17:52:02",
+    "source": "The Official Microsoft Blog",
+    "title": "以更强的控制力和选择权推进数字主权"
   },
   "https://blogs.nvidia.com/blog/ai-breast-cancer-startups": {
     "pushed_at": "2026-10-16T03:38:50",
@@ -883,6 +908,11 @@
     "pushed_at": "2026-10-16T03:10:57",
     "source": "NVIDIA Blog",
     "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide"
+  },
+  "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center": {
+    "pushed_at": "2026-10-20T17:52:02",
+    "source": "NVIDIA Blog",
+    "title": "西班牙初创企业借助巴塞罗那超级计算中心推动区域创新"
   },
   "https://blogs.nvidia.com/blog/telecom-operators-open-models": {
     "pushed_at": "2026-10-16T03:38:50",
@@ -1129,6 +1159,11 @@
     "source": "ElevenLabs Blog",
     "title": "NTT Docomo Business与ElevenLabs在会津若松试验对话式AI"
   },
+  "https://elevenlabs.io/blog/realtime": {
+    "pushed_at": "2026-10-20T17:52:02",
+    "source": "ElevenLabs Blog",
+    "title": "推出 Eleven Realtime：构建自然语音代理的更简单方式"
+  },
   "https://elevenlabs.io/blog/ssml-tags-explained": {
     "pushed_at": "2026-10-18T03:38:50",
     "source": "ElevenLabs Blog",
@@ -1239,6 +1274,11 @@
     "source": "Engineering at Meta",
     "title": "GenRecs Tokenization：通过稳定模型词汇表变革Meta的广告推荐"
   },
+  "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture": {
+    "pushed_at": "2026-10-20T17:52:02",
+    "source": "Engineering at Meta",
+    "title": "薄编排器：我们如何通过减少路由器的职责让AI代理更可靠"
+  },
   "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out": {
     "pushed_at": "2026-10-15T09:04:53",
     "source": "The GitHub Blog",
@@ -1248,6 +1288,11 @@
     "pushed_at": "2026-10-15T08:14:38",
     "source": "The GitHub Blog",
     "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase"
+  },
+  "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity": {
+    "pushed_at": "2026-10-20T17:52:02",
+    "source": "The GitHub Blog",
+    "title": "三位Java Champion如何利用GitHub Copilot提高生产力"
   },
   "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review": {
     "pushed_at": "2026-10-15T09:04:51",
@@ -1428,6 +1473,11 @@
     "pushed_at": "2026-10-18T03:38:50",
     "source": "Ollama",
     "title": "Claude Desktop 支持 Ollama"
+  },
+  "https://ollama.com/blog/clef": {
+    "pushed_at": "2026-10-20T17:52:02",
+    "source": "Ollama",
+    "title": "Clef 已在 Ollama 的云平台上提供"
   },
   "https://ollama.com/blog/faster-gemma-4-mlx-mtp": {
     "pushed_at": "2026-10-18T04:13:01",
@@ -1614,6 +1664,11 @@
     "source": "OpenAI News",
     "title": "教学生通过问题思考和学习"
   },
+  "https://openai.com/index/ted-taylor-restaurant": {
+    "pushed_at": "2026-10-20T17:52:02",
+    "source": "OpenAI News",
+    "title": "加盟商使用ChatGPT Work将现金对账时间缩短94%"
+  },
   "https://openai.com/index/teens-learn-and-plan": {
     "pushed_at": "2026-10-16T03:44:07",
     "source": "OpenAI News",
@@ -1753,6 +1808,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Shopify Engineering",
     "title": "使用Catalog API为代理式商务聚类数十亿产品"
+  },
+  "https://shopify.engineering/catalog-clustering-part-ii": {
+    "pushed_at": "2026-10-20T17:52:02",
+    "source": "Shopify Engineering",
+    "title": "跨数百万店铺的商品聚类"
   },
   "https://shopify.engineering/faster-breadth-first-graphql-execution": {
     "pushed_at": "2026-10-19T09:57:33",
@@ -2229,6 +2289,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "人们正在用AI让智能电视重新变“笨"
   },
+  "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps": {
+    "pushed_at": "2026-10-20T17:52:02",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Meta的Muse应用在美国40天内下载量达到1000万次，成为仅有的12款达成此里程碑的应用之一。"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -2338,6 +2403,11 @@
     "pushed_at": "2026-10-17T02:32:48",
     "source": "Vercel News",
     "title": "Reflection AI的Beam现已在AI Gateway上免费提供"
+  },
+  "https://vercel.com/changelog/updates-to-hobby-and-pro-terms-of-service": {
+    "pushed_at": "2026-10-20T17:52:02",
+    "source": "Vercel News",
+    "title": "Hobby和Pro服务条款更新"
   },
   "https://vercel.com/changelog/vercel-connect-adds-enterprise-managed-authorization": {
     "pushed_at": "2026-10-17T04:48:12",
@@ -3438,6 +3508,11 @@
     "pushed_at": "2026-10-18T13:11:04",
     "source": "The Verge",
     "title": "我今年买的最好的小工具是一个奶泡器"
+  },
+  "https://www.theverge.com/news/1014455/amd-fsr-4-1-xbox-consoles-handhelds-laptops": {
+    "pushed_at": "2026-10-20T17:52:02",
+    "source": "The Verge",
+    "title": "AMD 将把 FSR 4.1 引入 Xbox 主机和掌机"
   },
   "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile": {
     "pushed_at": "2026-10-18T06:52:43",
