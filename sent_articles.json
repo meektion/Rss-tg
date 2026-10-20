@@ -319,6 +319,11 @@
     "source": "宝玉的分享",
     "title": "AI 原生思维——像训练大模型一样训练自己"
   },
+  "https://baoyu.io/blog/2026-10-20/notebooklm-video-overview-system-prompt": {
+    "pushed_at": "2026-10-20T19:55:44",
+    "source": "宝玉的分享",
+    "title": "NotebookLM的视频概览系统提示：完整创作流程"
+  },
   "https://baoyu.io/blog/chatgpt-work-codex-guide": {
     "pushed_at": "2026-10-15T07:08:40",
     "source": "宝玉的分享",
@@ -2009,6 +2014,11 @@
     "source": "Simon Willison's Weblog",
     "title": "我的编程生涯讣告"
   },
+  "https://simonwillison.net/2026/Oct/20/battledrones": {
+    "pushed_at": "2026-10-20T19:55:42",
+    "source": "Simon Willison's Weblog",
+    "title": "战斗无人机——一款靠氛围编程打造的即时战略游戏，支持基于音频的多人对战"
+  },
   "https://simonwillison.net/2026/Oct/9/built-using-my-voice": {
     "pushed_at": "2026-10-16T13:02:02",
     "source": "Simon Willison's Weblog",
@@ -3139,6 +3149,31 @@
     "source": "IT之家",
     "title": "首发 1999 元 → 1153 元：小米米家净水器 1200G Pro 国补探新低"
   },
+  "https://www.ithome.com/1/015/608.htm": {
+    "pushed_at": "2026-10-20T19:55:40",
+    "source": "IT之家",
+    "title": "比亚迪何志奇：方程豹作为品牌矩阵最年轻的一员，成立刚满三年月销已连续三个月站稳 4 万台"
+  },
+  "https://www.ithome.com/1/015/609.htm": {
+    "pushed_at": "2026-10-20T19:55:40",
+    "source": "IT之家",
+    "title": "Mac 版 Perplexity Computer 新增端侧模式，要求 36GB 统一内存"
+  },
+  "https://www.ithome.com/1/015/610.htm": {
+    "pushed_at": "2026-10-20T19:55:40",
+    "source": "IT之家",
+    "title": "消息称引望、宁德时代首批换电车型暂定五款，计划 2027 年上市"
+  },
+  "https://www.ithome.com/1/015/613.htm": {
+    "pushed_at": "2026-10-20T19:55:40",
+    "source": "IT之家",
+    "title": "华为详解 Wi-Fi 7+ 端到端芯片解决方案，支持动态窄频宽、真双频并发、无缝漫游等技术"
+  },
+  "https://www.ithome.com/1/015/614.htm": {
+    "pushed_at": "2026-10-20T19:55:40",
+    "source": "IT之家",
+    "title": "1 亿目标近在咫尺：曝华为鸿蒙 HarmonyOS 系统装机量突破 9500 万台"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -3319,10 +3354,35 @@
     "source": "量子位",
     "title": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS"
   },
+  "https://www.qbitai.com/2026/10/504184.html": {
+    "pushed_at": "2026-10-20T19:55:38",
+    "source": "量子位",
+    "title": "谷歌开源RSI新成果！华人浓度爆表"
+  },
+  "https://www.qbitai.com/2026/10/504188.html": {
+    "pushed_at": "2026-10-20T19:55:38",
+    "source": "量子位",
+    "title": "日均6万亿Token服务背后，商汤大装置如何提升推理效能？"
+  },
+  "https://www.qbitai.com/2026/10/504199.html": {
+    "pushed_at": "2026-10-20T19:55:38",
+    "source": "量子位",
+    "title": "赛场交卷 未来已来——首届全球具身智能应用创新挑战赛暨2026中国机器人大赛闭幕"
+  },
   "https://www.qbitai.com/2026/10/504225.html": {
     "pushed_at": "2026-10-20T13:26:28",
     "source": "量子位",
     "title": "全栈自研！国产高端互连芯片，稳了!"
+  },
+  "https://www.qbitai.com/2026/10/504238.html": {
+    "pushed_at": "2026-10-20T19:55:38",
+    "source": "量子位",
+    "title": "达摩院玄铁出席RISC-V中国峰会，首发车规产品路线图"
+  },
+  "https://www.qbitai.com/2026/10/504242.html": {
+    "pushed_at": "2026-10-20T19:55:38",
+    "source": "量子位",
+    "title": "AI 开始挑战最复杂的系统：生命"
   },
   "https://www.qbitai.com/2026/10/504266.html": {
     "pushed_at": "2026-10-20T13:26:28",
