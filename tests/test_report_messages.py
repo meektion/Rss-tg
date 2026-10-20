@@ -1,4 +1,6 @@
 import datetime as dt
+import os
+import tempfile
 import unittest
 from unittest.mock import patch
 
@@ -17,6 +19,17 @@ class ReportMessageTests(unittest.TestCase):
             )
             for i in range(1, count + 1)
         ]
+
+    def test_daily_report_status_is_separate_by_date_and_mode(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            status_path = os.path.join(temp_dir, "report_status.json")
+            with patch.object(sync_articles, "REPORT_STATUS_FILE", status_path), \
+                 patch.object(sync_articles, "DRY_RUN", False), \
+                 patch.object(sync_articles, "_beijing_now", return_value=dt.datetime(2026, 10, 20, 8, 59)):
+                sync_articles.set_report_status("morning", "success")
+                self.assertTrue(sync_articles.report_is_complete("morning"))
+                self.assertFalse(sync_articles.report_is_complete("evening"))
+                self.assertEqual(sync_articles.load_report_status()["2026-10-20"]["morning"]["status"], "success")
 
     def test_short_report_is_single_message(self):
         with patch.object(sync_articles, "_beijing_now", return_value=dt.datetime(2026, 10, 18)):

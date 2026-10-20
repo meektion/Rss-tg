@@ -40,6 +40,7 @@ FEEDS_FILE = os.path.join(BASE_DIR, "rss_feeds.txt")
 # 早报/晚报专用源（国际 AI 大厂），RUN_MODE=morning/evening 时读取
 REPORT_FEEDS_FILE = os.path.join(BASE_DIR, "rss_feeds_report.txt")
 CACHE_FILE = os.path.join(BASE_DIR, "sent_articles.json")
+REPORT_STATUS_FILE = os.path.join(BASE_DIR, "report_status.json")
 
 # 运行模式：normal（连续推送）/ morning（早报）/ evening（晚报）
 # morning / evening 会读取 REPORT_FEEDS_FILE 并先发一张报头图
@@ -285,6 +286,55 @@ def save_cache(cache, dry_run=None):
     with open(CACHE_FILE, "w", encoding="utf-8") as f:
         json.dump(pruned, f, ensure_ascii=False, indent=2, sort_keys=True)
     log(f"[cache] 已保存 {len(pruned)} 条记录（清理前 {len(cache)} 条）")
+
+
+def _report_date():
+    """当前北京时间日期，作为早报/晚报状态的独立键。"""
+    return _beijing_now().strftime("%Y-%m-%d")
+
+
+def load_report_status():
+    """读取每日早报/晚报状态；损坏或不存在时安全回退为空状态。"""
+    try:
+        with open(REPORT_STATUS_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except FileNotFoundError:
+        return {}
+    except Exception as e:
+        log(f"[report-status] 读取失败，按空状态处理: {e}")
+        return {}
+
+
+def save_report_status(statuses):
+    """保存每日早报/晚报状态；dry-run 绝不写入。"""
+    if DRY_RUN:
+        log("[report-status] dry-run 模式，不写状态")
+        return
+    with open(REPORT_STATUS_FILE, "w", encoding="utf-8") as f:
+        json.dump(statuses, f, ensure_ascii=False, indent=2, sort_keys=True)
+        f.write("\n")
+
+
+def report_is_complete(mode):
+    """当天对应报告已成功发送，或已确认没有新内容。"""
+    record = load_report_status().get(_report_date(), {}).get(mode, {})
+    return isinstance(record, dict) and record.get("status") in ("success", "empty")
+
+
+def set_report_status(mode, status, error=None):
+    """更新当天指定报告状态；早报与晚报互不影响。"""
+    statuses = load_report_status()
+    date_key = _report_date()
+    day = statuses.setdefault(date_key, {})
+    record = {
+        "status": status,
+        "updated_at": _beijing_now().isoformat(timespec="seconds"),
+    }
+    if error:
+        record["error"] = str(error)[:300]
+    day[mode] = record
+    save_report_status(statuses)
 
 
 def normalize_link(link):
@@ -551,7 +601,7 @@ def collect_articles(feeds, cache):
     log(f"[stats] 源 {stats['ok']} 成功 / {stats['fail']} 失败；"
         f"待推 {len(articles)} 条，跳过重复 {stats['dup']} 条，"
         f"自带配图 {stats['with_img']} 条，翻译 {stats['translated']} 条")
-    return articles
+    return articles, stats
 
 
 # --------------------------------------------------------------------------
@@ -1068,15 +1118,21 @@ def main():
     if not DRY_RUN and (not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID):
         raise SystemExit("缺少环境变量 TELEGRAM_BOT_TOKEN / TELEGRAM_CHANNEL_ID")
 
-    mode = RUN_MODE if RUN_MODE in ("morning", "evening") else "normal"
+    run_mode = RUN_MODE if RUN_MODE in ("morning", "evening", "morning_check", "evening_check") else "normal"
+    is_check = run_mode.endswith("_check")
+    mode = run_mode.removesuffix("_check")
+    if is_check and report_is_complete(mode):
+        log(f"[report-status] {mode} 当天已完成，补跑跳过")
+        return
+
     feeds_file = REPORT_FEEDS_FILE if mode != "normal" else FEEDS_FILE
 
     feeds = load_feeds(feeds_file)
     cache = load_cache()
     log(f"[cache] 已加载 {len(cache)} 条历史记录")
-    log(f"[mode] {mode}")
+    log(f"[mode] {run_mode}")
 
-    articles = collect_articles(feeds, cache)
+    articles, stats = collect_articles(feeds, cache)
 
     # 首次运行（缓存为空）：只把当前存量标记为已见，不推送，避免一上来刷屏
     if not cache and FIRST_RUN_BOOTSTRAP and articles:
@@ -1093,9 +1149,14 @@ def main():
 
     if not articles:
         if mode != "normal":
-            # 报告模式：无新内容时静默跳过，不打扰频道
-            log(f"[mode] {mode} 今日无新动态，静默跳过（不推送）")
-            return
+            # 只有所有源均正常响应时，才能确认本期确实没有新内容。
+            if stats["fail"] == 0:
+                set_report_status(mode, "empty")
+                log(f"[mode] {mode} 今日无新动态，已记录 empty，静默跳过")
+                return
+            error = f"{mode} 未发现新文章，但有 {stats['fail']} 个 RSS 源抓取失败，留待补跑"
+            set_report_status(mode, "failed", error)
+            raise SystemExit(error)
         log("今日没有新文章。")
         return
 
@@ -1109,8 +1170,9 @@ def main():
     log(f"[group] {len(articles)} 条动态，来自 {len(groups)} 家公司")
 
     if mode != "normal":
-        # 早报/晚报：一张报头图 + 一条编号消息，一次发出
+        # 早报/晚报：正式任务与补跑任务共用发送逻辑。
         if push_report(groups, mode):
+            set_report_status(mode, "success")
             ts = dt.datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
             # 仅缓存报告中实际展示的每个来源最新一条；未展示的同源文章留待后续推送。
             for _, items in groups:
@@ -1121,7 +1183,9 @@ def main():
             save_cache(cache)
             log(f"[done] {mode} 一期推送完成，收录 {sum(1 for _, items in groups if items)} 家公司")
         else:
-            log(f"[warn] {mode} 推送失败，未写缓存，下次运行重试")
+            error = f"{mode} 报告发送失败，未写文章缓存，等待后续补跑"
+            set_report_status(mode, "failed", error)
+            raise SystemExit(error)
         return
 
     ok = 0

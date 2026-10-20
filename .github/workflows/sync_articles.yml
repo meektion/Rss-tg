@@ -2,8 +2,12 @@ name: Sync Articles to Telegram
 
 on:
   schedule:
-    - cron: '3 2 * * *'      # 早报：北京时间 10:03（避开整点高负载窗口，降低被延迟/丢弃概率）
-    - cron: '3 9 * * *'      # 晚报：北京时间 17:03（避开整点高负载窗口）
+    - cron: '59 0 * * *'     # 早报：北京时间 08:59
+    - cron: '20 1 * * *'     # 早报补跑检查：北京时间 09:20
+    - cron: '40 1 * * *'     # 早报二次补跑检查：北京时间 09:40
+    - cron: '59 12 * * *'    # 晚报：北京时间 20:59
+    - cron: '20 13 * * *'    # 晚报补跑检查：北京时间 21:20
+    - cron: '40 13 * * *'    # 晚报二次补跑检查：北京时间 21:40
     - cron: '3 8,16 * * *'   # 连续推送：北京时间 16:03 / 次日 0:03
   workflow_dispatch:
     inputs:
@@ -48,10 +52,12 @@ jobs:
             echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
           else
             case "${{ github.event.schedule }}" in
-              "3 2 * * *")   echo "mode=morning" >> "$GITHUB_OUTPUT";;
-              "3 9 * * *")   echo "mode=evening" >> "$GITHUB_OUTPUT";;
+              "59 0 * * *")   echo "mode=morning" >> "$GITHUB_OUTPUT";;
+              "20 1 * * *"|"40 1 * * *") echo "mode=morning_check" >> "$GITHUB_OUTPUT";;
+              "59 12 * * *")  echo "mode=evening" >> "$GITHUB_OUTPUT";;
+              "20 13 * * *"|"40 13 * * *") echo "mode=evening_check" >> "$GITHUB_OUTPUT";;
               "3 8,16 * * *") echo "mode=normal" >> "$GITHUB_OUTPUT";;
-              *)             echo "mode=normal"  >> "$GITHUB_OUTPUT";;
+              *)              echo "mode=normal" >> "$GITHUB_OUTPUT";;
             esac
           fi
 
@@ -66,7 +72,7 @@ jobs:
           RUN_MODE: ${{ steps.mode.outputs.mode }}
         run: python sync_articles.py
 
-      - name: Commit sent-articles cache safely
+      - name: Commit sent-articles cache and report status safely
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -75,7 +81,7 @@ jobs:
             exit 0
           fi
 
-          # JSON cache cannot be safely line-merged by Git. Merge keys and prefer the newest pushed_at.
+          # JSON files cannot be safely line-merged by Git. Merge article keys and per-day report statuses.
           for attempt in 1 2 3; do
             git fetch origin "${GITHUB_REF_NAME}"
             git reset --mixed "origin/${GITHUB_REF_NAME}"
@@ -117,9 +123,46 @@ jobs:
               json.dumps(merged, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
               encoding="utf-8",
           )
+          # Merge report status by date/type; the latest updated_at record wins.
+          status_path = Path("report_status.json")
+          try:
+              local_status = json.loads(status_path.read_text(encoding="utf-8"))
+          except (OSError, json.JSONDecodeError):
+              local_status = {}
+          try:
+              remote_status_text = subprocess.check_output(
+                  ["git", "show", f"origin/{__import__('os').environ['GITHUB_REF_NAME']}:report_status.json"],
+                  text=True,
+              )
+              remote_status = json.loads(remote_status_text)
+          except (subprocess.CalledProcessError, json.JSONDecodeError):
+              remote_status = {}
+          merged_status = dict(remote_status) if isinstance(remote_status, dict) else {}
+          if isinstance(local_status, dict):
+              for date_key, modes in local_status.items():
+                  if not isinstance(modes, dict):
+                      continue
+                  target_day = merged_status.setdefault(date_key, {})
+                  if not isinstance(target_day, dict):
+                      target_day = merged_status[date_key] = {}
+                  for report_mode, record in modes.items():
+                      previous = target_day.get(report_mode)
+                      if not isinstance(previous, dict) or (
+                          isinstance(record, dict) and record.get("updated_at", "") >= previous.get("updated_at", "")
+                      ):
+                          target_day[report_mode] = record
+          merged_status = {
+              day: modes for day, modes in merged_status.items()
+              if day >= cutoff and isinstance(modes, dict)
+          }
+          status_path.write_text(
+              json.dumps(merged_status, ensure_ascii=False, indent=2, sort_keys=True) + chr(10),
+              encoding="utf-8",
+          )
+          print(f"Merged report status: {sum(len(v) for v in merged_status.values())} records")
           print(f"Merged cache: {len(merged)} records")
           PY
-            git add sent_articles.json
+            git add sent_articles.json report_status.json
             if git diff --cached --quiet; then
               echo "缓存无变化，无需提交"
               exit 0
@@ -133,3 +176,48 @@ jobs:
           done
           echo "缓存提交连续失败，请检查远程分支更新" >&2
           exit 1
+
+      - name: Notify Telegram on workflow failure
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          GITHUB_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          GITHUB_EVENT_SCHEDULE: ${{ github.event.schedule }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PY'
+          import os
+          import requests
+
+          token = os.getenv("TELEGRAM_BOT_TOKEN")
+          chat_id = os.getenv("TELEGRAM_CHANNEL_ID")
+          if not token or not chat_id:
+              print("Telegram 通知跳过：缺少 Bot Token 或频道 ID")
+              raise SystemExit(0)
+
+          schedule = os.getenv("GITHUB_EVENT_SCHEDULE") or "手动运行"
+          event_name = os.getenv("GITHUB_EVENT_NAME") or "unknown"
+          run_url = os.getenv("GITHUB_RUN_URL", "")
+          text = (
+              "⚠️ <b>RSS 推送工作流失败</b>\n"
+              f"触发方式：{event_name}\n"
+              f"定时表达式：{schedule}\n"
+              "请检查运行日志。若失败发生在缓存提交阶段，报告消息可能已经发送，请先检查频道再手动重发。\n"
+              f'<a href="{run_url}">查看 GitHub Actions 日志</a>'
+          )
+          try:
+              response = requests.post(
+                  f"https://api.telegram.org/bot{token}/sendMessage",
+                  data={"chat_id": chat_id, "text": text, "parse_mode": "HTML", "disable_web_page_preview": True},
+                  timeout=15,
+              )
+              response.raise_for_status()
+              result = response.json()
+              if not result.get("ok"):
+                  raise RuntimeError(result.get("description", "Telegram API 返回失败"))
+              print("Telegram 失败通知已发送")
+          except Exception as exc:
+              print(f"Telegram 失败通知也未能发送：{type(exc).__name__}: {exc}")
+              raise
+          PY
