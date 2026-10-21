@@ -2069,6 +2069,11 @@
     "source": "Simon Willison's Weblog",
     "title": "战斗无人机——一款靠氛围编程打造的即时战略游戏，支持基于音频的多人对战"
   },
+  "https://simonwillison.net/2026/Oct/20/emudhra-certificates": {
+    "pushed_at": "2026-10-21T13:35:50",
+    "source": "Simon Willison's Weblog",
+    "title": "eMudhra中间CA遭入侵"
+  },
   "https://simonwillison.net/2026/Oct/9/built-using-my-voice": {
     "pushed_at": "2026-10-16T13:02:02",
     "source": "Simon Willison's Weblog",
@@ -2103,6 +2108,11 @@
     "pushed_at": "2026-10-15T06:33:18",
     "source": "少数派",
     "title": "认知心理学背后的播客剪辑技巧"
+  },
+  "https://sspai.com/post/115107": {
+    "pushed_at": "2026-10-21T13:35:47",
+    "source": "少数派",
+    "title": "怀旧手记｜世界首台 UMPC：三星 Q1，和当下平板有什么关系？"
   },
   "https://sspai.com/post/115125": {
     "pushed_at": "2026-10-19T15:23:31",
@@ -2199,6 +2209,11 @@
     "source": "少数派",
     "title": "App+1 | 紫毫：基于 Rime 引擎、支持双拼纠错的 iOS 输入法"
   },
+  "https://sspai.com/post/116445": {
+    "pushed_at": "2026-10-21T13:35:47",
+    "source": "少数派",
+    "title": "Vitals：什么在拖慢你的 Mac？它比「活动监视器」更直观易用"
+  },
   "https://sspai.com/post/116585": {
     "pushed_at": "2026-10-19T15:23:31",
     "source": "少数派",
@@ -2228,6 +2243,16 @@
     "pushed_at": "2026-10-20T13:26:33",
     "source": "少数派",
     "title": "派早报：MiniMax 发布 M3.1 Flash 模型等"
+  },
+  "https://sspai.com/post/116820": {
+    "pushed_at": "2026-10-21T13:35:47",
+    "source": "少数派",
+    "title": "社区速递 162 | MUJI 靠垫、中兴路由器与派友们的长假吃灰装备"
+  },
+  "https://sspai.com/post/116887": {
+    "pushed_at": "2026-10-21T13:35:47",
+    "source": "少数派",
+    "title": "派早报：美国政府指示各机构停用 DeepSeek、理想发布「连山」自研三电体系等"
   },
   "https://sspai.com/post/92653": {
     "pushed_at": "2026-10-15T07:07:07",
@@ -3234,6 +3259,31 @@
     "source": "IT之家",
     "title": "1 亿目标近在咫尺：曝华为鸿蒙 HarmonyOS 系统装机量突破 9500 万台"
   },
+  "https://www.ithome.com/1/016/117.htm": {
+    "pushed_at": "2026-10-21T13:35:45",
+    "source": "IT之家",
+    "title": "欧洲 PEGI 整顿开箱机制游戏评级，《宝可梦 Go》《EA Sports FC》上调至 16+"
+  },
+  "https://www.ithome.com/1/016/118.htm": {
+    "pushed_at": "2026-10-21T13:35:45",
+    "source": "IT之家",
+    "title": "奇瑞尹同跃：中国车企出海要谦虚低调，坚决不能打价格战"
+  },
+  "https://www.ithome.com/1/016/120.htm": {
+    "pushed_at": "2026-10-21T13:35:45",
+    "source": "IT之家",
+    "title": "打破物理铁律：天文学家发现首颗绿色恒星，距离地球约 280 光年"
+  },
+  "https://www.ithome.com/1/016/121.htm": {
+    "pushed_at": "2026-10-21T13:35:45",
+    "source": "IT之家",
+    "title": "为预防 PHP 安全漏洞，芬兰政府临时关闭部分网站"
+  },
+  "https://www.ithome.com/1/016/122.htm": {
+    "pushed_at": "2026-10-21T13:35:45",
+    "source": "IT之家",
+    "title": "AMD 为 Linux 开发锐龙 CPU 超频驱动，可调 PPT、TDC、EDC 参数"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -3463,6 +3513,31 @@
     "pushed_at": "2026-10-20T13:26:28",
     "source": "量子位",
     "title": "Claude新模型曝光！能跳出思维定势，修Bug治标又治本"
+  },
+  "https://www.qbitai.com/2026/10/504618.html": {
+    "pushed_at": "2026-10-21T13:35:43",
+    "source": "量子位",
+    "title": "实探宁德时代总部：“去宁化”是喊太大声了"
+  },
+  "https://www.qbitai.com/2026/10/504638.html": {
+    "pushed_at": "2026-10-21T13:35:43",
+    "source": "量子位",
+    "title": "量智齐飞！4个月9款车落地，轻舟城市NOA击穿10-20万体验天花板"
+  },
+  "https://www.qbitai.com/2026/10/504653.html": {
+    "pushed_at": "2026-10-21T13:35:43",
+    "source": "量子位",
+    "title": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人"
+  },
+  "https://www.qbitai.com/2026/10/504730.html": {
+    "pushed_at": "2026-10-21T13:35:43",
+    "source": "量子位",
+    "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月"
+  },
+  "https://www.qbitai.com/2026/10/504734.html": {
+    "pushed_at": "2026-10-21T13:35:43",
+    "source": "量子位",
+    "title": "多智能体协同重构医疗AI！清华AIR孵化：医生AI分身“坐诊”医院"
   },
   "https://www.solidot.org/story?sid=85598": {
     "pushed_at": "2026-10-15T09:04:02",
