@@ -2074,6 +2074,11 @@
     "source": "Simon Willison's Weblog",
     "title": "引用 Addy Osmani、Morgan Westlee Lunt 和 Qing Wang 的话"
   },
+  "https://simonwillison.net/2026/Oct/16/sqlite-sparql-rust": {
+    "pushed_at": "2026-10-21T19:58:34",
+    "source": "Simon Willison's Weblog",
+    "title": "sparqlite：用 Rust 编写的 SQLite 内置 SPARQL 1.1"
+  },
   "https://simonwillison.net/2026/Oct/17/document-currentscript": {
     "pushed_at": "2026-10-18T09:53:13",
     "source": "Simon Willison's Weblog",
@@ -2108,6 +2113,16 @@
     "pushed_at": "2026-10-21T13:35:50",
     "source": "Simon Willison's Weblog",
     "title": "eMudhra中间CA遭入侵"
+  },
+  "https://simonwillison.net/2026/Oct/21/panache": {
+    "pushed_at": "2026-10-21T19:58:34",
+    "source": "Simon Willison's Weblog",
+    "title": "Panache — 移动端的美好年代即时战略游戏"
+  },
+  "https://simonwillison.net/2026/Oct/21/php-security-release": {
+    "pushed_at": "2026-10-21T19:58:34",
+    "source": "Simon Willison's Weblog",
+    "title": "今天的 PHP 安全版本发布，以及我们如何加强 PHP 安全"
   },
   "https://simonwillison.net/2026/Oct/9/built-using-my-voice": {
     "pushed_at": "2026-10-16T13:02:02",
@@ -3329,6 +3344,31 @@
     "source": "IT之家",
     "title": "AMD 为 Linux 开发锐龙 CPU 超频驱动，可调 PPT、TDC、EDC 参数"
   },
+  "https://www.ithome.com/1/016/148.htm": {
+    "pushed_at": "2026-10-21T19:58:32",
+    "source": "IT之家",
+    "title": "英伟达 DGX Spark 支持 8 台集群：128GB 版本统一内存最高达 1TB，RTX PRO 6000 Blackwell 相关任务提速 40%"
+  },
+  "https://www.ithome.com/1/016/149.htm": {
+    "pushed_at": "2026-10-21T19:58:32",
+    "source": "IT之家",
+    "title": "NASA 公布月球探测车最新进展：VIPER 计划 2027 年探测月球南极水冰资源"
+  },
+  "https://www.ithome.com/1/016/157.htm": {
+    "pushed_at": "2026-10-21T19:58:32",
+    "source": "IT之家",
+    "title": "苹果公布 Apple Music 全新品牌标识，创作灵感来自声音振动、声波实拍"
+  },
+  "https://www.ithome.com/1/016/158.htm": {
+    "pushed_at": "2026-10-21T19:58:32",
+    "source": "IT之家",
+    "title": "799 元雷蛇北海巨妖萌猫版 V3 有线耳机发布：猫耳 RGB 灯效可随直播互动，支持 7.1 环绕声"
+  },
+  "https://www.ithome.com/1/016/160.htm": {
+    "pushed_at": "2026-10-21T19:58:32",
+    "source": "IT之家",
+    "title": "安卓阵营首款阔直板手机酷派 COOL X Wide 售价公布：999~1399 元，搭载联发科曦力 G99 芯片 + 720p 屏幕"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -3558,6 +3598,31 @@
     "pushed_at": "2026-10-20T13:26:28",
     "source": "量子位",
     "title": "Claude新模型曝光！能跳出思维定势，修Bug治标又治本"
+  },
+  "https://www.qbitai.com/2026/10/504452.html": {
+    "pushed_at": "2026-10-21T19:58:30",
+    "source": "量子位",
+    "title": "比亚迪成为2026年APEC会议官方合作伙伴"
+  },
+  "https://www.qbitai.com/2026/10/504456.html": {
+    "pushed_at": "2026-10-21T19:58:30",
+    "source": "量子位",
+    "title": "RSI三块关键拼图，MemT 1.0从模型层补上「记忆」"
+  },
+  "https://www.qbitai.com/2026/10/504517.html": {
+    "pushed_at": "2026-10-21T19:58:30",
+    "source": "量子位",
+    "title": "国模Agent第一！MiniMax爆改Flash战力，全时段大肥鱼谷价"
+  },
+  "https://www.qbitai.com/2026/10/504551.html": {
+    "pushed_at": "2026-10-21T19:58:30",
+    "source": "量子位",
+    "title": "理想宣布：电池自燃报废赔新车！自研6年后有底气了"
+  },
+  "https://www.qbitai.com/2026/10/504608.html": {
+    "pushed_at": "2026-10-21T19:58:30",
+    "source": "量子位",
+    "title": "飞书豆包工作AI先锋未来人才大赛：企业正在争抢会用AI做成事的人"
   },
   "https://www.qbitai.com/2026/10/504618.html": {
     "pushed_at": "2026-10-21T13:35:43",
