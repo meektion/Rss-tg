@@ -269,6 +269,11 @@
     "source": "Artificial Intelligence",
     "title": "Trust in Depth: Giving agents more autonomy without losing control"
   },
+  "https://aws.amazon.com/blogs/machine-learning/work-management-context-for-ai-agents-with-smartsheet-mcp-on-aws": {
+    "pushed_at": "2026-10-21T17:59:17",
+    "source": "Artificial Intelligence",
+    "title": "在AWS上使用Smartsheet MCP为AI代理提供工作管理上下文"
+  },
   "https://baoyu.io/blog/2026-05-11/skill-next-codex": {
     "pushed_at": "2026-10-15T11:25:14",
     "source": "宝玉的分享",
@@ -418,6 +423,11 @@
     "pushed_at": "2026-10-21T05:26:23",
     "source": "Cloudflare Blog",
     "title": "8 张 eMudhra 证书遭到泄露。以下是你需要了解的信息"
+  },
+  "https://blog.cloudflare.com/full-transaction-waf": {
+    "pushed_at": "2026-10-21T17:59:17",
+    "source": "Cloudflare Blog",
+    "title": "Cloudflare WAF 推出完整事务检测功能"
   },
   "https://blog.cloudflare.com/hyperdrive-mysql": {
     "pushed_at": "2026-10-15T13:07:30",
@@ -899,6 +909,11 @@
     "source": "NVIDIA Blog",
     "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI"
   },
+  "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync": {
+    "pushed_at": "2026-10-21T17:59:17",
+    "source": "NVIDIA Blog",
+    "title": "为欧洲带来火花：本地智能驱动下一代智能体"
+  },
   "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates": {
     "pushed_at": "2026-10-16T03:10:57",
     "source": "NVIDIA Blog",
@@ -1199,6 +1214,11 @@
     "source": "ElevenLabs Blog",
     "title": "推出 Eleven Realtime：构建自然语音代理的更简单方式"
   },
+  "https://elevenlabs.io/blog/realtime-translation": {
+    "pushed_at": "2026-10-21T17:59:17",
+    "source": "ElevenLabs Blog",
+    "title": "与任何人，以任何语言，实时交谈"
+  },
   "https://elevenlabs.io/blog/ssml-tags-explained": {
     "pushed_at": "2026-10-18T03:38:50",
     "source": "ElevenLabs Blog",
@@ -1368,6 +1388,11 @@
     "pushed_at": "2026-10-15T08:14:34",
     "source": "The GitHub Blog",
     "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers"
+  },
+  "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure": {
+    "pushed_at": "2026-10-21T17:59:17",
+    "source": "The GitHub Blog",
+    "title": "通往智能体规模 Git 基础设施的桥梁"
   },
   "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org": {
     "pushed_at": "2026-10-16T04:09:12",
@@ -1664,6 +1689,11 @@
     "source": "OpenAI News",
     "title": "LegalOn halves Codex costs while maintaining development speed"
   },
+  "https://openai.com/index/openai-models-google-cloud": {
+    "pushed_at": "2026-10-21T17:59:17",
+    "source": "OpenAI News",
+    "title": "OpenAI模型即将登陆Google Cloud"
+  },
   "https://openai.com/index/oracle": {
     "pushed_at": "2026-10-16T03:38:44",
     "source": "OpenAI News",
@@ -1903,6 +1933,11 @@
     "pushed_at": "2026-10-21T05:26:23",
     "source": "Shopify Engineering",
     "title": "Shopify如何将开放模型转化为任务专家"
+  },
+  "https://shopify.engineering/overexposed": {
+    "pushed_at": "2026-10-21T17:59:17",
+    "source": "Shopify Engineering",
+    "title": "构建过度曝光：理解应用曝光度"
   },
   "https://shopify.engineering/quick": {
     "pushed_at": "2026-10-18T11:04:31",
@@ -2384,6 +2419,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Meta的Muse应用在美国40天内下载量达到1000万次，成为仅有的12款达成此里程碑的应用之一。"
   },
+  "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey": {
+    "pushed_at": "2026-10-21T17:59:17",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "AI承诺提高生产力，但对管理者而言，目前大多只是头疼事。"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -2493,6 +2533,11 @@
     "pushed_at": "2026-10-17T02:32:48",
     "source": "Vercel News",
     "title": "Reflection AI的Beam现已在AI Gateway上免费提供"
+  },
+  "https://vercel.com/changelog/routing-middleware-now-supports-python": {
+    "pushed_at": "2026-10-21T17:59:17",
+    "source": "Vercel News",
+    "title": "路由中间件现已支持Python"
   },
   "https://vercel.com/changelog/updates-to-hobby-and-pro-terms-of-service": {
     "pushed_at": "2026-10-20T17:52:02",
@@ -3703,6 +3748,11 @@
     "pushed_at": "2026-10-18T13:11:04",
     "source": "The Verge",
     "title": "我今年买的最好的小工具是一个奶泡器"
+  },
+  "https://www.theverge.com/gadgets/1015568/samsung-the-frame-tv-2026-deal-sale": {
+    "pushed_at": "2026-10-21T17:59:17",
+    "source": "The Verge",
+    "title": "三星最新的55英寸Frame TV降至迄今最低价"
   },
   "https://www.theverge.com/news/1014455/amd-fsr-4-1-xbox-consoles-handhelds-laptops": {
     "pushed_at": "2026-10-20T17:52:02",
