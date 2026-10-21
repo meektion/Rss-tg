@@ -99,6 +99,11 @@
     "source": "Ars Technica",
     "title": "OpenAI模型黑入了一个加密钱包并侵入了更多网站"
   },
+  "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches": {
+    "pushed_at": "2026-10-21T05:26:23",
+    "source": "Ars Technica",
+    "title": "PHP警告称计划即将发布2个紧急补丁"
+  },
   "https://arstechnica.com/space/2026/10/blue-origin-is-going-all-in-on-the-new-glenn-rocket": {
     "pushed_at": "2026-10-19T09:57:33",
     "source": "Ars Technica",
@@ -143,6 +148,11 @@
     "pushed_at": "2026-10-16T03:38:54",
     "source": "Artificial Intelligence",
     "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch": {
+    "pushed_at": "2026-10-21T05:26:23",
+    "source": "Artificial Intelligence",
+    "title": "超越KV缓存：在AWS Trainium2上使用原生PyTorch训练和部署i14的Laplace 3B线性注意力模型"
   },
   "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock": {
     "pushed_at": "2026-10-16T03:38:54",
@@ -404,6 +414,11 @@
     "source": "Cloudflare Blog",
     "title": "使用Void部署"
   },
+  "https://blog.cloudflare.com/emudhra-certificate-compromise": {
+    "pushed_at": "2026-10-21T05:26:23",
+    "source": "Cloudflare Blog",
+    "title": "8 张 eMudhra 证书遭到泄露。以下是你需要了解的信息"
+  },
   "https://blog.cloudflare.com/hyperdrive-mysql": {
     "pushed_at": "2026-10-15T13:07:30",
     "source": "Cloudflare Blog",
@@ -478,6 +493,11 @@
     "pushed_at": "2026-10-15T13:07:28",
     "source": "Cloudflare Blog",
     "title": "Yandex宕机：数据显示，恶意机器人并没有关闭，而是继续移动"
+  },
+  "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026": {
+    "pushed_at": "2026-10-21T05:26:23",
+    "source": "AI",
+    "title": "东南亚数字经济规模将达3680亿美元"
   },
   "https://blog.google/company-news/inside-google/around-the-globe/google-europe/european-economic-impact-report": {
     "pushed_at": "2026-10-15T11:25:40",
@@ -864,6 +884,11 @@
     "source": "NVIDIA Blog",
     "title": "Fall Into 25 New Games on GeForce NOW This October"
   },
+  "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help": {
+    "pushed_at": "2026-10-21T05:26:23",
+    "source": "NVIDIA Blog",
+    "title": "德国希望引领全球工业AI：NVIDIA将如何助力"
+  },
   "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast": {
     "pushed_at": "2026-10-16T03:44:13",
     "source": "NVIDIA Blog",
@@ -1129,6 +1154,11 @@
     "source": "ElevenLabs Blog",
     "title": "坎贝尔女男爵借助ElevenLabs在英国议会发表了首次AI配音演讲"
   },
+  "https://elevenlabs.io/blog/how-to-transcribe-a-podcast": {
+    "pushed_at": "2026-10-21T05:26:23",
+    "source": "ElevenLabs Blog",
+    "title": "如何转录播客：分步指南"
+  },
   "https://elevenlabs.io/blog/how-to-transcribe-an-interview": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "ElevenLabs Blog",
@@ -1274,6 +1304,11 @@
     "source": "Engineering at Meta",
     "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale"
   },
+  "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster": {
+    "pushed_at": "2026-10-21T05:26:23",
+    "source": "Engineering at Meta",
+    "title": "深入Prometheus：Meta迈向千兆瓦级超级集群之旅"
+  },
   "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary": {
     "pushed_at": "2026-10-19T16:26:14",
     "source": "Engineering at Meta",
@@ -1298,6 +1333,11 @@
     "pushed_at": "2026-10-20T17:52:02",
     "source": "The GitHub Blog",
     "title": "三位Java Champion如何利用GitHub Copilot提高生产力"
+  },
+  "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code": {
+    "pushed_at": "2026-10-21T05:26:23",
+    "source": "The GitHub Blog",
+    "title": "如何在 VS Code 中继续 GitHub Copilot 应用会话"
   },
   "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review": {
     "pushed_at": "2026-10-15T09:04:51",
@@ -1679,6 +1719,11 @@
     "source": "OpenAI News",
     "title": "帮助青少年学习、规划和塑造人工智能的未来"
   },
+  "https://openai.com/index/terminal-x": {
+    "pushed_at": "2026-10-21T05:26:23",
+    "source": "OpenAI News",
+    "title": "Terminal X 与资深投资者判断的吻合度达 88.6%，借助 GPT-6.1 实现"
+  },
   "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic": {
     "pushed_at": "2026-10-16T03:10:50",
     "source": "OpenAI News",
@@ -1853,6 +1898,11 @@
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Shopify Engineering",
     "title": "我们如何将移动端到端测试稳定性提升至98%"
+  },
+  "https://shopify.engineering/open-model-task-experts": {
+    "pushed_at": "2026-10-21T05:26:23",
+    "source": "Shopify Engineering",
+    "title": "Shopify如何将开放模型转化为任务专家"
   },
   "https://shopify.engineering/quick": {
     "pushed_at": "2026-10-18T11:04:31",
@@ -2299,6 +2349,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "人们正在用AI让智能电视重新变“笨"
   },
+  "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed": {
+    "pushed_at": "2026-10-21T05:26:23",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Anthropic 提出 AI 安全法案，若可能导致 50 人以上死亡，可阻止模型发布"
+  },
   "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps": {
     "pushed_at": "2026-10-20T17:52:02",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -2438,6 +2493,11 @@
     "pushed_at": "2026-10-17T04:48:12",
     "source": "Vercel News",
     "title": "Vercel Drives 现已全面可用"
+  },
+  "https://vercel.com/changelog/websocket-support-is-now-generally-available": {
+    "pushed_at": "2026-10-21T05:26:23",
+    "source": "Vercel News",
+    "title": "WebSocket 支持现已全面可用"
   },
   "https://webmasters.stackexchange.com/questions/88659/how-can-cloudflare-offer-a-free-cdn-with-unlimited-bandwidth/88685": {
     "pushed_at": "2026-10-18T11:04:31",
@@ -3583,6 +3643,11 @@
     "pushed_at": "2026-10-19T02:30:08",
     "source": "The Verge",
     "title": "萨凡纳一名警察将她的Flock登录权限给了她身为ICE探员的丈夫"
+  },
+  "https://www.theverge.com/streaming/1015099/youtube-dislike-button-hide-menu": {
+    "pushed_at": "2026-10-21T05:26:23",
+    "source": "The Verge",
+    "title": "YouTube可能正在测试隐藏“不喜欢”按钮"
   },
   "https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting": {
     "pushed_at": "2026-10-18T11:04:31",
