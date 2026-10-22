@@ -119,6 +119,11 @@
     "source": "Ars Technica",
     "title": "迪士尼找到了一种收购Character.AI而不接手其诉讼的方法"
   },
+  "https://arstechnica.com/tech-policy/2026/10/fcc-chair-warns-media-not-to-run-the-fake-polls-trump-keeps-complaining-about": {
+    "pushed_at": "2026-10-22T05:32:57",
+    "source": "Ars Technica",
+    "title": "FCC主席警告媒体不要发布特朗普一直抱怨的“假民调"
+  },
   "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Ars Technica",
@@ -258,6 +263,11 @@
     "pushed_at": "2026-10-16T03:38:54",
     "source": "Artificial Intelligence",
     "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink": {
+    "pushed_at": "2026-10-22T05:32:57",
+    "source": "Artificial Intelligence",
+    "title": "使用AWS PrivateLink保障企业网络对Quick的快速访问"
   },
   "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod": {
     "pushed_at": "2026-10-16T03:44:18",
@@ -448,6 +458,11 @@
     "pushed_at": "2026-10-16T03:44:24",
     "source": "Cloudflare Blog",
     "title": "One year later: the power of 1.1.1.1 interns"
+  },
+  "https://blog.cloudflare.com/php-vulnerabilities-waf-protection": {
+    "pushed_at": "2026-10-22T05:32:57",
+    "source": "Cloudflare Blog",
+    "title": "Cloudflare部署防护措施应对php2shell漏洞"
   },
   "https://blog.cloudflare.com/programmable-gateway-dlp": {
     "pushed_at": "2026-10-15T19:43:58",
@@ -874,6 +889,11 @@
     "source": "NVIDIA Blog",
     "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations"
   },
+  "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence": {
+    "pushed_at": "2026-10-22T05:32:57",
+    "source": "NVIDIA Blog",
+    "title": "欧洲领先金融服务机构采用开放模型构建专有智能"
+  },
   "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing": {
     "pushed_at": "2026-10-16T03:10:57",
     "source": "NVIDIA Blog",
@@ -1228,6 +1248,11 @@
     "pushed_at": "2026-10-18T06:52:43",
     "source": "ElevenLabs Blog",
     "title": "定义AI代理如何与你的业务交互"
+  },
+  "https://elevenlabs.io/blog/webinar-recap-reaching-at-risk-patients-when-minutes-matter": {
+    "pushed_at": "2026-10-22T05:32:57",
+    "source": "ElevenLabs Blog",
+    "title": "网络研讨会回顾：关键时刻触达高风险患者"
   },
   "https://elevenlabs.io/blog/what-is-conversation-intelligence": {
     "pushed_at": "2026-10-18T11:04:31",
@@ -1643,6 +1668,11 @@
     "pushed_at": "2026-10-16T03:10:50",
     "source": "OpenAI News",
     "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
+  },
+  "https://openai.com/index/att-legal": {
+    "pushed_at": "2026-10-22T05:32:57",
+    "source": "OpenAI News",
+    "title": "AT&T如何借助OpenAI重新思考内部法律工作"
   },
   "https://openai.com/index/benefit-street-partners": {
     "pushed_at": "2026-10-17T05:43:14",
@@ -2439,6 +2469,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "AI承诺提高生产力，但对管理者而言，目前大多只是头疼事。"
   },
+  "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown": {
+    "pushed_at": "2026-10-22T05:32:57",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Blackstone的Jas Khaira表示，对AI建设债务的担忧被夸大了"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -2488,6 +2523,11 @@
     "pushed_at": "2026-10-18T03:04:27",
     "source": "Vercel News",
     "title": "AI Gateway 日志现在显示会话亲和性"
+  },
+  "https://vercel.com/changelog/basetens-mammoth-1-and-elephant-1-now-available-on-ai-gateway-for-free": {
+    "pushed_at": "2026-10-22T05:32:57",
+    "source": "Vercel News",
+    "title": "Baseten的Mammoth-1和Elephant-1现已在AI Gateway上免费提供"
   },
   "https://vercel.com/changelog/bring-your-own-cloud-on-aws-is-now-generally-available": {
     "pushed_at": "2026-10-17T04:48:12",
@@ -3838,6 +3878,11 @@
     "pushed_at": "2026-10-21T05:26:23",
     "source": "The Verge",
     "title": "YouTube可能正在测试隐藏“不喜欢”按钮"
+  },
+  "https://www.theverge.com/streaming/1016206/youtube-dislike-button-videos": {
+    "pushed_at": "2026-10-22T05:32:57",
+    "source": "The Verge",
+    "title": "YouTube表示并未测试隐藏“不喜欢”按钮"
   },
   "https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting": {
     "pushed_at": "2026-10-18T11:04:31",
