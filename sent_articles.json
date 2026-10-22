@@ -179,6 +179,11 @@
     "source": "Artificial Intelligence",
     "title": "构建AI代理的信任：基于Amazon Bedrock AgentCore的生产级评估框架"
   },
+  "https://aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick": {
+    "pushed_at": "2026-10-22T17:55:28",
+    "source": "Artificial Intelligence",
+    "title": "在符合HIPAA要求的环境中使用Amazon Quick部署AI"
+  },
   "https://aws.amazon.com/blogs/machine-learning/deploy-and-evaluate-models-with-amazon-sagemaker-jumpstart": {
     "pushed_at": "2026-10-16T03:11:03",
     "source": "Artificial Intelligence",
@@ -449,6 +454,11 @@
     "source": "Cloudflare Blog",
     "title": "通过 AI Gateway 推出 Web Search API"
   },
+  "https://blog.cloudflare.com/k-isms": {
+    "pushed_at": "2026-10-22T17:55:28",
+    "source": "Cloudflare Blog",
+    "title": "大规模本地化合规：获得韩国ISMS认证"
+  },
   "https://blog.cloudflare.com/one-observability-platform": {
     "pushed_at": "2026-10-16T03:44:24",
     "source": "Cloudflare Blog",
@@ -703,6 +713,11 @@
     "pushed_at": "2026-10-15T09:05:08",
     "source": "News from Google",
     "title": "用新的优先级和分配功能来指导你的广告支出"
+  },
+  "https://blog.mozilla.org/en/firefox/5-reasons-to-choose-firefox": {
+    "pushed_at": "2026-10-22T17:55:28",
+    "source": "The Mozilla Blog",
+    "title": "依然在这里，依然属于你：选择Firefox的五大理由"
   },
   "https://blog.mozilla.org/en/firefox/ad-blocker-on-ios": {
     "pushed_at": "2026-10-18T11:04:31",
@@ -959,6 +974,11 @@
     "source": "NVIDIA Blog",
     "title": "NVIDIA 推进媒体领域智能体安全，从欧洲公共服务广播到全球内容生产"
   },
+  "https://blogs.nvidia.com/blog/minerva-platform-infrastructure": {
+    "pushed_at": "2026-10-22T17:55:28",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA推出Minerva，为AI工厂提供端到端可观测性"
+  },
   "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl": {
     "pushed_at": "2026-10-16T02:35:37",
     "source": "NVIDIA Blog",
@@ -1008,6 +1028,11 @@
     "pushed_at": "2026-10-16T03:38:47",
     "source": "Google DeepMind News",
     "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome"
+  },
+  "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types": {
+    "pushed_at": "2026-10-22T17:55:28",
+    "source": "Google DeepMind News",
+    "title": "超越树冠覆盖：绘制全球森林类型图"
   },
   "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely": {
     "pushed_at": "2026-10-16T02:35:34",
@@ -1188,6 +1213,11 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "ElevenLabs Blog",
     "title": "坎贝尔女男爵借助ElevenLabs在英国议会发表了首次AI配音演讲"
+  },
+  "https://elevenlabs.io/blog/how-to-integrate-text-to-speech": {
+    "pushed_at": "2026-10-22T17:55:28",
+    "source": "ElevenLabs Blog",
+    "title": "如何将文本转语音集成到你的应用中"
   },
   "https://elevenlabs.io/blog/how-to-transcribe-a-podcast": {
     "pushed_at": "2026-10-21T05:26:23",
@@ -1433,6 +1463,11 @@
     "pushed_at": "2026-10-15T19:44:08",
     "source": "The GitHub Blog",
     "title": "The next developer interface is ambient intelligence"
+  },
+  "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills": {
+    "pushed_at": "2026-10-22T17:55:28",
+    "source": "The GitHub Blog",
+    "title": "漏洞赏金如何提升一位研究者的安全技能"
   },
   "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate": {
     "pushed_at": "2026-10-15T09:04:44",
@@ -1688,6 +1723,11 @@
     "pushed_at": "2026-10-16T03:38:44",
     "source": "OpenAI News",
     "title": "Disrupting AI-enabled “false front” operations"
+  },
+  "https://openai.com/index/forward-deployed-engineering-means": {
+    "pushed_at": "2026-10-22T17:55:28",
+    "source": "OpenAI News",
+    "title": "在OpenAI，FDE意味着什么"
   },
   "https://openai.com/index/gpt-6-for-everyone": {
     "pushed_at": "2026-10-16T03:44:07",
@@ -1973,6 +2013,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Shopify Engineering",
     "title": "Quick：面向AI时代的内部托管平台"
+  },
+  "https://shopify.engineering/remote-dev": {
+    "pushed_at": "2026-10-22T17:55:28",
+    "source": "Shopify Engineering",
+    "title": "我们为AI代理提供了一个移动开发环境"
   },
   "https://shopify.engineering/river-vulnerability-remediation": {
     "pushed_at": "2026-10-18T04:13:01",
@@ -2494,6 +2539,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Blackstone的Jas Khaira表示，对AI建设债务的担忧被夸大了"
   },
+  "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise": {
+    "pushed_at": "2026-10-22T17:55:28",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "中国黑客在入侵IT巨头ConnectWise后，对数千家公司进行了间谍活动。"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -2563,6 +2613,11 @@
     "pushed_at": "2026-10-17T12:39:08",
     "source": "Vercel News",
     "title": "DeepSeek V4.1 Flash 1017 现已在 AI Gateway 上线"
+  },
+  "https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro": {
+    "pushed_at": "2026-10-22T17:55:28",
+    "source": "Vercel News",
+    "title": "现在又有八个顶级域名可随Pro版免费获得域名"
   },
   "https://vercel.com/changelog/elorian-ai-glimpse-now-available-on-ai-gateway": {
     "pushed_at": "2026-10-17T12:39:08",
@@ -3973,6 +4028,11 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "The Verge",
     "title": "TikTok封禁马斯克纪录片账号"
+  },
+  "https://www.theverge.com/tech/1016789/amazon-kindle-unlimited-plus-subscription-ai-audiobooks": {
+    "pushed_at": "2026-10-22T17:55:28",
+    "source": "The Verge",
+    "title": "亚马逊将Kindle Unlimited更名为Kindle Plus，并扩大有声读物的访问权限"
   },
   "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance": {
     "pushed_at": "2026-10-18T04:13:01",
