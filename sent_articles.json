@@ -69,6 +69,11 @@
     "source": "Ars Technica",
     "title": "Bug让Ray-Ban Meta智能眼镜最大的担忧之一成为现实"
   },
+  "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games": {
+    "pushed_at": "2026-10-23T05:31:01",
+    "source": "Ars Technica",
+    "title": "Switch 2 安全性受挫，黑客解锁自制程序访问权限"
+  },
   "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Ars Technica",
@@ -153,6 +158,11 @@
     "pushed_at": "2026-10-16T03:38:54",
     "source": "Artificial Intelligence",
     "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine": {
+    "pushed_at": "2026-10-23T05:31:01",
+    "source": "Artificial Intelligence",
+    "title": "Amazon Polly对其生成式引擎进行了重大升级"
   },
   "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch": {
     "pushed_at": "2026-10-21T05:26:23",
@@ -518,6 +528,11 @@
     "pushed_at": "2026-10-16T13:02:08",
     "source": "Cloudflare Blog",
     "title": "对已验证机器人持续问责"
+  },
+  "https://blog.cloudflare.com/webmcp-commerce": {
+    "pushed_at": "2026-10-23T05:31:01",
+    "source": "Cloudflare Blog",
+    "title": "Commerce.com和Cloudflare如何让店铺为AI代理做好准备"
   },
   "https://blog.cloudflare.com/workers-on-demand-profiling": {
     "pushed_at": "2026-10-15T09:04:42",
@@ -939,6 +954,11 @@
     "source": "NVIDIA Blog",
     "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast"
   },
+  "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem": {
+    "pushed_at": "2026-10-23T05:31:01",
+    "source": "NVIDIA Blog",
+    "title": "哈萨克斯坦扩展算力，布局AI未来"
+  },
   "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync": {
     "pushed_at": "2026-10-16T03:44:13",
     "source": "NVIDIA Blog",
@@ -1294,6 +1314,11 @@
     "source": "ElevenLabs Blog",
     "title": "什么是语音活动检测，它是如何工作的？"
   },
+  "https://elevenlabs.io/blog/what-is-voice-over": {
+    "pushed_at": "2026-10-23T05:31:01",
+    "source": "ElevenLabs Blog",
+    "title": "什么是画外音？定义、示例及工作原理"
+  },
   "https://engineering.atspotify.com/2026/10/advancing-generative-recommendation-inference-our-collaboration-with-nvidia-on-tensorrt-llm": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "Spotify Engineering",
@@ -1579,6 +1604,11 @@
     "source": "Netflix TechBlog - Medium",
     "title": "Running Apache Spark experiments in my sleep (and on a plane)"
   },
+  "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-10-23T05:31:01",
+    "source": "Netflix TechBlog - Medium",
+    "title": "单租户Titus：多租户容器平台上的虚拟机级隔离"
+  },
   "https://netflixtechblog.com/the-lifecycle-of-llm-as-a-judge-building-aligning-and-monitoring-at-scale-c95bd8283508?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "Netflix TechBlog - Medium",
@@ -1718,6 +1748,11 @@
     "pushed_at": "2026-10-16T03:10:50",
     "source": "OpenAI News",
     "title": "Block如何利用OpenAI技术构建人工智能安全"
+  },
+  "https://openai.com/index/decisions-api": {
+    "pushed_at": "2026-10-23T05:31:01",
+    "source": "OpenAI News",
+    "title": "使用Decisions API构建响应更快的应用"
   },
   "https://openai.com/index/disrupting-ai-enabled-false-front-operations": {
     "pushed_at": "2026-10-16T03:38:44",
@@ -2559,6 +2594,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "中国黑客在入侵IT巨头ConnectWise后，对数千家公司进行了间谍活动。"
   },
+  "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia": {
+    "pushed_at": "2026-10-23T05:31:01",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Uber的竞争对手inDrive计划于2027年与Pony.ai和Nvidia在中亚进行robotaxi测试。"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -2578,6 +2618,11 @@
     "pushed_at": "2026-10-17T02:56:42",
     "source": "Vercel News",
     "title": "Vercel上的后端：Python、容器与守护进程"
+  },
+  "https://vercel.com/blog/death-to-long-lived-static-credentials": {
+    "pushed_at": "2026-10-23T05:31:01",
+    "source": "Vercel News",
+    "title": "终结长期静态凭证"
   },
   "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents": {
     "pushed_at": "2026-10-17T02:56:42",
@@ -4073,6 +4118,11 @@
     "pushed_at": "2026-10-22T17:55:28",
     "source": "The Verge",
     "title": "亚马逊将Kindle Unlimited更名为Kindle Plus，并扩大有声读物的访问权限"
+  },
+  "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing": {
+    "pushed_at": "2026-10-23T05:31:01",
+    "source": "The Verge",
+    "title": "Etsy正在打击AI生成的劣质商品列表"
   },
   "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance": {
     "pushed_at": "2026-10-18T04:13:01",
