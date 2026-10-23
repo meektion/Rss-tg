@@ -94,6 +94,11 @@
     "source": "Ars Technica",
     "title": "Surface Laptop Ultra 兑现了微软的大部分承诺"
   },
+  "https://arstechnica.com/science/2026/10/crows-can-evaluate-visual-info-twice-as-fast-as-mammals": {
+    "pushed_at": "2026-10-23T17:46:57",
+    "source": "Ars Technica",
+    "title": "Crows can evaluate visual info twice as fast as mammals"
+  },
   "https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Ars Technica",
@@ -268,6 +273,11 @@
     "pushed_at": "2026-10-16T03:11:03",
     "source": "Artificial Intelligence",
     "title": "Natural language security queries at Orca Security using Amazon Bedrock"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk": {
+    "pushed_at": "2026-10-23T17:46:57",
+    "source": "Artificial Intelligence",
+    "title": "Orchestrating SageMaker AI endpoint auto scaling with AWS CDK"
   },
   "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments": {
     "pushed_at": "2026-10-16T03:44:18",
@@ -468,6 +478,11 @@
     "pushed_at": "2026-10-22T17:55:28",
     "source": "Cloudflare Blog",
     "title": "大规模本地化合规：获得韩国ISMS认证"
+  },
+  "https://blog.cloudflare.com/obsessive-inference-optimization": {
+    "pushed_at": "2026-10-23T17:46:57",
+    "source": "Cloudflare Blog",
+    "title": "Cutting our inference bill by 68% by being obsessive about optimization"
   },
   "https://blog.cloudflare.com/one-observability-platform": {
     "pushed_at": "2026-10-16T03:44:24",
@@ -929,6 +944,11 @@
     "source": "NVIDIA Blog",
     "title": "NVIDIA Announces New Investments in France’s Startups"
   },
+  "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4": {
+    "pushed_at": "2026-10-23T17:46:57",
+    "source": "NVIDIA Blog",
+    "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW"
+  },
   "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update": {
     "pushed_at": "2026-10-16T02:35:37",
     "source": "NVIDIA Blog",
@@ -1253,6 +1273,11 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "ElevenLabs Blog",
     "title": "我们如何利用ElevenAgents每月解决22,000个支持工单"
+  },
+  "https://elevenlabs.io/blog/immobiliare": {
+    "pushed_at": "2026-10-23T17:46:57",
+    "source": "ElevenLabs Blog",
+    "title": "How Immobiliare.it went from one conversational agent to an agentic network"
   },
   "https://elevenlabs.io/blog/introducing-brand-kit": {
     "pushed_at": "2026-10-18T06:52:43",
@@ -1813,6 +1838,11 @@
     "pushed_at": "2026-10-16T03:44:07",
     "source": "OpenAI News",
     "title": "丽笙酒店集团将酒店发现带入ChatGPT"
+  },
+  "https://openai.com/index/scaling-storage-one-billion-users-part-two": {
+    "pushed_at": "2026-10-23T17:46:57",
+    "source": "OpenAI News",
+    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)"
   },
   "https://openai.com/index/sentinelone": {
     "pushed_at": "2026-10-16T02:35:32",
@@ -2614,6 +2644,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "中国黑客在入侵IT巨头ConnectWise后，对数千家公司进行了间谍活动。"
   },
+  "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing": {
+    "pushed_at": "2026-10-23T17:46:57",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Left alone with nothing to do, AI agents started playing"
+  },
   "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia": {
     "pushed_at": "2026-10-23T05:31:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -2748,6 +2783,11 @@
     "pushed_at": "2026-10-21T17:59:17",
     "source": "Vercel News",
     "title": "路由中间件现已支持Python"
+  },
+  "https://vercel.com/changelog/send-feedback-from-vercel-mcp": {
+    "pushed_at": "2026-10-23T17:46:57",
+    "source": "Vercel News",
+    "title": "Send feedback from the Vercel MCP"
   },
   "https://vercel.com/changelog/updates-to-hobby-and-pro-terms-of-service": {
     "pushed_at": "2026-10-20T17:52:02",
@@ -4178,6 +4218,11 @@
     "pushed_at": "2026-10-23T05:31:01",
     "source": "The Verge",
     "title": "Etsy正在打击AI生成的劣质商品列表"
+  },
+  "https://www.theverge.com/tech/1017623/iphone-duo-broken-cracked-screen": {
+    "pushed_at": "2026-10-23T17:46:57",
+    "source": "The Verge",
+    "title": "The first broken iPhone Duos are here"
   },
   "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance": {
     "pushed_at": "2026-10-18T04:13:01",
