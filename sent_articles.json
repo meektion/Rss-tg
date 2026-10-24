@@ -94,6 +94,11 @@
     "source": "Ars Technica",
     "title": "Surface Laptop Ultra 兑现了微软的大部分承诺"
   },
+  "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature": {
+    "pushed_at": "2026-10-24T16:28:39",
+    "source": "Ars Technica",
+    "title": "A 1,000-mile cloud on Mars may reveal physics never seen in nature"
+  },
   "https://arstechnica.com/science/2026/10/crows-can-evaluate-visual-info-twice-as-fast-as-mammals": {
     "pushed_at": "2026-10-23T17:46:57",
     "source": "Ars Technica",
@@ -314,6 +319,11 @@
     "source": "Artificial Intelligence",
     "title": "Trust in Depth: Giving agents more autonomy without losing control"
   },
+  "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps": {
+    "pushed_at": "2026-10-24T16:28:39",
+    "source": "Artificial Intelligence",
+    "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps"
+  },
   "https://aws.amazon.com/blogs/machine-learning/work-management-context-for-ai-agents-with-smartsheet-mcp-on-aws": {
     "pushed_at": "2026-10-21T17:59:17",
     "source": "Artificial Intelligence",
@@ -513,6 +523,11 @@
     "pushed_at": "2026-10-22T05:32:57",
     "source": "Cloudflare Blog",
     "title": "Cloudflare部署防护措施应对php2shell漏洞"
+  },
+  "https://blog.cloudflare.com/post-quantum-geo-key-manager": {
+    "pushed_at": "2026-10-24T16:28:39",
+    "source": "Cloudflare Blog",
+    "title": "Bringing post-quantum cryptography to geographically fenced key management"
   },
   "https://blog.cloudflare.com/programmable-gateway-dlp": {
     "pushed_at": "2026-10-15T19:43:58",
@@ -944,6 +959,11 @@
     "source": "NVIDIA Blog",
     "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents"
   },
+  "https://blogs.nvidia.com/blog/dsx-power": {
+    "pushed_at": "2026-10-24T16:28:39",
+    "source": "NVIDIA Blog",
+    "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck"
+  },
   "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge": {
     "pushed_at": "2026-10-16T02:35:37",
     "source": "NVIDIA Blog",
@@ -1333,6 +1353,11 @@
     "pushed_at": "2026-10-21T17:59:17",
     "source": "ElevenLabs Blog",
     "title": "与任何人，以任何语言，实时交谈"
+  },
+  "https://elevenlabs.io/blog/speech-to-text-for-content-creators": {
+    "pushed_at": "2026-10-24T16:28:39",
+    "source": "ElevenLabs Blog",
+    "title": "Speech to text for content creators: A workflow guide for captions and repurposing"
   },
   "https://elevenlabs.io/blog/ssml-tags-explained": {
     "pushed_at": "2026-10-18T03:38:50",
@@ -1853,6 +1878,11 @@
     "pushed_at": "2026-10-21T17:59:17",
     "source": "OpenAI News",
     "title": "OpenAI模型即将登陆Google Cloud"
+  },
+  "https://openai.com/index/openai-nask-ai-safety-security-partnership": {
+    "pushed_at": "2026-10-24T16:28:39",
+    "source": "OpenAI News",
+    "title": "OpenAI and Poland’s NASK partner to advance AI safety and security"
   },
   "https://openai.com/index/oracle": {
     "pushed_at": "2026-10-16T03:38:44",
@@ -2709,6 +2739,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”"
   },
+  "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human": {
+    "pushed_at": "2026-10-24T16:28:39",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Block’s new voice model sounds eerily human"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -2733,6 +2768,11 @@
     "pushed_at": "2026-10-23T05:31:01",
     "source": "Vercel News",
     "title": "终结长期静态凭证"
+  },
+  "https://vercel.com/blog/how-vercel-agent-accesses-production-safely": {
+    "pushed_at": "2026-10-24T16:28:39",
+    "source": "Vercel News",
+    "title": "How Vercel Agent accesses production safely"
   },
   "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents": {
     "pushed_at": "2026-10-17T02:56:42",
@@ -4274,6 +4314,11 @@
     "source": "The Verge",
     "title": "《Mister Organ》是我看过的最令人不安的纪录片之一"
   },
+  "https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview": {
+    "pushed_at": "2026-10-24T16:28:39",
+    "source": "The Verge",
+    "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk"
+  },
   "https://www.theverge.com/gadgets/1013105/pikmin-4-nintendo-switch-deal-sale": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Verge",
@@ -4418,6 +4463,11 @@
     "pushed_at": "2026-10-19T02:30:08",
     "source": "WIRED",
     "title": "加密技术正面临四面八方的挤压"
+  },
+  "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable": {
+    "pushed_at": "2026-10-24T16:28:39",
+    "source": "WIRED",
+    "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable"
   },
   "https://www.wired.com/story/magnesium-may-not-reach-your-brain-despite-supplement-label-promises": {
     "pushed_at": "2026-10-18T11:04:31",
