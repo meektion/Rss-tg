@@ -119,6 +119,11 @@
     "source": "Ars Technica",
     "title": "蓝色起源全力投入New Glenn火箭"
   },
+  "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue": {
+    "pushed_at": "2026-10-24T05:08:35",
+    "source": "Ars Technica",
+    "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue"
+  },
   "https://arstechnica.com/space/2026/10/rocket-report-faa-eyes-more-starbase-traffic-indias-skyroot-snares-us-customer": {
     "pushed_at": "2026-10-19T07:40:51",
     "source": "Ars Technica",
@@ -268,6 +273,11 @@
     "pushed_at": "2026-10-16T03:38:54",
     "source": "Artificial Intelligence",
     "title": "Mixture-of-Experts kernel engineering on Amazon SageMaker AI"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide": {
+    "pushed_at": "2026-10-24T05:08:35",
+    "source": "Artificial Intelligence",
+    "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide"
   },
   "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock": {
     "pushed_at": "2026-10-16T03:11:03",
@@ -493,6 +503,11 @@
     "pushed_at": "2026-10-16T03:44:24",
     "source": "Cloudflare Blog",
     "title": "One year later: the power of 1.1.1.1 interns"
+  },
+  "https://blog.cloudflare.com/origin-range-requests": {
+    "pushed_at": "2026-10-24T05:08:35",
+    "source": "Cloudflare Blog",
+    "title": "Origin Range Requests: Serving large files without range-request tuning"
   },
   "https://blog.cloudflare.com/php-vulnerabilities-waf-protection": {
     "pushed_at": "2026-10-22T05:32:57",
@@ -919,6 +934,11 @@
     "source": "NVIDIA Blog",
     "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps"
   },
+  "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models": {
+    "pushed_at": "2026-10-24T05:08:35",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models"
+  },
   "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents": {
     "pushed_at": "2026-10-16T03:38:50",
     "source": "NVIDIA Blog",
@@ -1324,6 +1344,11 @@
     "source": "ElevenLabs Blog",
     "title": "定义AI代理如何与你的业务交互"
   },
+  "https://elevenlabs.io/blog/trinity-logistics": {
+    "pushed_at": "2026-10-24T05:08:35",
+    "source": "ElevenLabs Blog",
+    "title": "Trinity Logistics gets 25% higher margins on shipments booked with ElevenAgents"
+  },
   "https://elevenlabs.io/blog/webinar-recap-reaching-at-risk-patients-when-minutes-matter": {
     "pushed_at": "2026-10-22T05:32:57",
     "source": "ElevenLabs Blog",
@@ -1589,6 +1614,11 @@
     "source": "Netflix TechBlog - Medium",
     "title": "Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II"
   },
+  "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-10-24T05:08:35",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes"
+  },
   "https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-15T11:25:48",
     "source": "Netflix TechBlog - Medium",
@@ -1843,6 +1873,11 @@
     "pushed_at": "2026-10-23T17:46:57",
     "source": "OpenAI News",
     "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)"
+  },
+  "https://openai.com/index/securing-our-frontier-model-training-environment": {
+    "pushed_at": "2026-10-24T05:08:35",
+    "source": "OpenAI News",
+    "title": "Securing our frontier model training environment"
   },
   "https://openai.com/index/sentinelone": {
     "pushed_at": "2026-10-16T02:35:32",
@@ -2659,6 +2694,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Uber的竞争对手inDrive计划于2027年与Pony.ai和Nvidia在中亚进行robotaxi测试。"
   },
+  "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks": {
+    "pushed_at": "2026-10-24T05:08:35",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -2798,6 +2838,11 @@
     "pushed_at": "2026-10-20T17:52:02",
     "source": "Vercel News",
     "title": "Hobby和Pro服务条款更新"
+  },
+  "https://vercel.com/changelog/vercel-cli-adds-spend-management": {
+    "pushed_at": "2026-10-24T05:08:35",
+    "source": "Vercel News",
+    "title": "Vercel CLI adds Spend Management"
   },
   "https://vercel.com/changelog/vercel-connect-adds-enterprise-managed-authorization": {
     "pushed_at": "2026-10-17T04:48:12",
@@ -4188,6 +4233,11 @@
     "pushed_at": "2026-10-20T17:52:02",
     "source": "The Verge",
     "title": "AMD 将把 FSR 4.1 引入 Xbox 主机和掌机"
+  },
+  "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure": {
+    "pushed_at": "2026-10-24T05:08:35",
+    "source": "The Verge",
+    "title": "Xbox’s first chief operating officer is out after just a few months"
   },
   "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile": {
     "pushed_at": "2026-10-18T06:52:43",
