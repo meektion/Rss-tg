@@ -159,6 +159,11 @@
     "source": "Ars Technica",
     "title": "Meta被要求列出批准用BT下载进行AI训练的高管名单"
   },
+  "https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk": {
+    "pushed_at": "2026-10-25T17:00:01",
+    "source": "Ars Technica",
+    "title": "Hegseth warns prediction market bets warp military judgment, endanger troops"
+  },
   "https://arstechnica.com/tech-policy/2026/10/polymarket-saw-600-million-in-election-trades-after-the-elections-were-over": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Ars Technica",
@@ -243,6 +248,11 @@
     "pushed_at": "2026-10-19T16:26:14",
     "source": "Artificial Intelligence",
     "title": "Deepgram如何利用AWS Trainium大规模优化语音AI"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/how-iskaypet-unified-corporate-knowledge-with-amazon-bedrock-managed-knowledge-bases": {
+    "pushed_at": "2026-10-25T17:00:01",
+    "source": "Artificial Intelligence",
+    "title": "How IskayPet unified corporate knowledge with Amazon Bedrock Managed Knowledge Bases"
   },
   "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock": {
     "pushed_at": "2026-10-16T03:44:18",
@@ -799,6 +809,11 @@
     "source": "The Mozilla Blog",
     "title": "在iOS版Firefox中引入广告拦截器：更多控制，更少干扰"
   },
+  "https://blog.mozilla.org/en/firefox/come-back-to-firefox": {
+    "pushed_at": "2026-10-25T17:00:01",
+    "source": "The Mozilla Blog",
+    "title": "Firefox reunites meme royalty to remind you what the internet used to feel like"
+  },
   "https://blog.mozilla.org/en/firefox/firefox-aeg-uber-arena-partnership": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "The Mozilla Blog",
@@ -983,6 +998,11 @@
     "pushed_at": "2026-10-16T02:35:37",
     "source": "NVIDIA Blog",
     "title": "英伟达通过开放学习资源、协作和计算，为欧洲科学界扩展先进技术"
+  },
+  "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction": {
+    "pushed_at": "2026-10-25T17:00:01",
+    "source": "NVIDIA Blog",
+    "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction"
   },
   "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations": {
     "pushed_at": "2026-10-16T03:10:57",
@@ -1858,6 +1878,11 @@
     "pushed_at": "2026-10-16T03:10:50",
     "source": "OpenAI News",
     "title": "Block如何利用OpenAI技术构建人工智能安全"
+  },
+  "https://openai.com/index/broad-access-through-consistent-standards": {
+    "pushed_at": "2026-10-25T17:00:01",
+    "source": "OpenAI News",
+    "title": "Broad access through consistent standards"
   },
   "https://openai.com/index/decisions-api": {
     "pushed_at": "2026-10-23T05:31:01",
@@ -2794,6 +2819,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "The AI graveyard: a running list of projects and startups that didn’t make it"
   },
+  "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist": {
+    "pushed_at": "2026-10-25T17:00:01",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "AI delivers ‘zero financial payoff’ to most companies, according to Apollo economist"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -2953,6 +2983,11 @@
     "pushed_at": "2026-10-17T04:48:12",
     "source": "Vercel News",
     "title": "Vercel Connect 新增企业托管授权功能"
+  },
+  "https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys": {
+    "pushed_at": "2026-10-25T17:00:01",
+    "source": "Vercel News",
+    "title": "Vercel Connect adds managed Stripe API keys"
   },
   "https://vercel.com/changelog/vercel-connect-secure-compute": {
     "pushed_at": "2026-10-17T03:49:37",
@@ -4519,6 +4554,11 @@
     "source": "The Verge",
     "title": "The first broken iPhone Duos are here"
   },
+  "https://www.theverge.com/tech/1018253/now-you-can-watch-instagram-reels-on-your-apple-tv": {
+    "pushed_at": "2026-10-25T17:00:01",
+    "source": "The Verge",
+    "title": "Now you can watch Instagram Reels on your Apple TV"
+  },
   "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "The Verge",
@@ -4543,6 +4583,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "WIRED",
     "title": "Valerion VisionMaster Max 4K投影仪评测：画质出色，音效尚可"
+  },
+  "https://www.wired.com/review/wallhack-m-001": {
+    "pushed_at": "2026-10-25T17:00:01",
+    "source": "WIRED",
+    "title": "Wallhack M-001 Review: When Fun Overrides Specs"
   },
   "https://www.wired.com/story/all-clad-factory-seconds-sale-october-2026": {
     "pushed_at": "2026-10-19T16:26:14",
