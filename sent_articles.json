@@ -104,6 +104,11 @@
     "source": "Ars Technica",
     "title": "Crows can evaluate visual info twice as fast as mammals"
   },
+  "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that": {
+    "pushed_at": "2026-10-25T05:24:17",
+    "source": "Ars Technica",
+    "title": "Ice sheet expansion may have started 2,000 years ago, but we canceled that"
+  },
   "https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Ars Technica",
@@ -228,6 +233,11 @@
     "pushed_at": "2026-10-16T02:35:43",
     "source": "Artificial Intelligence",
     "title": "Generate presentations with Amazon Bedrock AgentCore"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations": {
+    "pushed_at": "2026-10-25T05:24:17",
+    "source": "Artificial Intelligence",
+    "title": "How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations"
   },
   "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium": {
     "pushed_at": "2026-10-19T16:26:14",
@@ -443,6 +453,11 @@
     "pushed_at": "2026-10-15T19:44:05",
     "source": "Cloudflare Blog",
     "title": "Everything we launched during Birthday Week 2026"
+  },
+  "https://blog.cloudflare.com/clairic-extraction-model": {
+    "pushed_at": "2026-10-25T05:24:17",
+    "source": "Cloudflare Blog",
+    "title": "Introducing Clairic, a new System One class of extraction models"
   },
   "https://blog.cloudflare.com/clef-faster-cheaper-multimodal": {
     "pushed_at": "2026-10-15T11:25:32",
@@ -979,6 +994,11 @@
     "source": "NVIDIA Blog",
     "title": "欧洲领先金融服务机构采用开放模型构建专有智能"
   },
+  "https://blogs.nvidia.com/blog/european-retail-open-models-robotics": {
+    "pushed_at": "2026-10-25T05:24:17",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations"
+  },
   "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing": {
     "pushed_at": "2026-10-16T03:10:57",
     "source": "NVIDIA Blog",
@@ -1268,6 +1288,11 @@
     "pushed_at": "2026-10-18T03:38:50",
     "source": "ElevenLabs Blog",
     "title": "ElevenLabs对安全、隐私和负责任AI的承诺：已获认证并续期"
+  },
+  "https://elevenlabs.io/blog/chroma-awards-season-two-announcement": {
+    "pushed_at": "2026-10-25T05:24:17",
+    "source": "ElevenLabs Blog",
+    "title": "Announcing the Chroma Awards Season 2"
   },
   "https://elevenlabs.io/blog/contact-center-automation": {
     "pushed_at": "2026-10-18T11:04:31",
@@ -1794,6 +1819,11 @@
     "source": "Ollama",
     "title": "Reflection的Beam在Ollama上限时免费开放"
   },
+  "https://ollama.com/blog/speech-models": {
+    "pushed_at": "2026-10-25T05:24:17",
+    "source": "Ollama",
+    "title": "Speech models in Ollama"
+  },
   "https://ollama.com/blog/transparent-pricing": {
     "pushed_at": "2026-10-18T03:38:50",
     "source": "Ollama",
@@ -1963,6 +1993,11 @@
     "pushed_at": "2026-10-16T03:10:50",
     "source": "OpenAI News",
     "title": "第三时刻研究公司是如何在36小时以上的时间里运行10000个座席的"
+  },
+  "https://openai.com/index/uber-chatgpt-work-rollout": {
+    "pushed_at": "2026-10-25T05:24:17",
+    "source": "OpenAI News",
+    "title": "Uber brings ChatGPT Work to all employees with OpenAI"
   },
   "https://qwenlm.github.io/blog/global-load-balance": {
     "pushed_at": "2026-10-16T03:44:16",
@@ -2749,6 +2784,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Block’s new voice model sounds eerily human"
   },
+  "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it": {
+    "pushed_at": "2026-10-25T05:24:17",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "The AI graveyard: a running list of projects and startups that didn’t make it"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -2828,6 +2868,11 @@
     "pushed_at": "2026-10-17T12:39:08",
     "source": "Vercel News",
     "title": "DeepSeek V4.1 Flash 1017 现已在 AI Gateway 上线"
+  },
+  "https://vercel.com/changelog/deployments-now-show-build-cache-size": {
+    "pushed_at": "2026-10-25T05:24:17",
+    "source": "Vercel News",
+    "title": "Deployments now show build cache size"
   },
   "https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro": {
     "pushed_at": "2026-10-22T17:55:28",
@@ -4334,6 +4379,11 @@
     "source": "The Verge",
     "title": "一名女子因阻挡送货机器人而在费城被捕"
   },
+  "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai": {
+    "pushed_at": "2026-10-25T05:24:17",
+    "source": "The Verge",
+    "title": "Blue Planet III is keeping the rough edges in the age of AI"
+  },
   "https://www.theverge.com/entertainment/1013381/jad-abumrad-radiolab-dolly-parton-fela-kuti-podcast-interview": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Verge",
@@ -4503,6 +4553,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "WIRED",
     "title": "尽管补充剂标签上有承诺，镁可能无法到达你的大脑"
+  },
+  "https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent": {
+    "pushed_at": "2026-10-25T05:24:17",
+    "source": "WIRED",
+    "title": "New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent"
   },
   "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty": {
     "pushed_at": "2026-10-18T11:04:31",
