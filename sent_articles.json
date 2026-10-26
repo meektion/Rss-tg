@@ -59,6 +59,11 @@
     "source": "Ars Technica",
     "title": "Anthropic给予外部AI监督机构“类似员工”的访问权限"
   },
+  "https://arstechnica.com/apple/2026/10/apple-reveals-updated-ipad-mini-with-a-bigger-oled-screen-for-700": {
+    "pushed_at": "2026-10-26T19:04:50",
+    "source": "Ars Technica",
+    "title": "Apple reveals updated iPad mini with a bigger OLED screen for $700"
+  },
   "https://arstechnica.com/cars/2026/10/tesla-turns-to-50-year-old-stunt-technology-as-it-tries-to-roadster-again": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Ars Technica",
@@ -243,6 +248,11 @@
     "pushed_at": "2026-10-20T17:52:02",
     "source": "Artificial Intelligence",
     "title": "在Amazon SageMaker HyperPod上对GPT-OSS-20B进行微调以实现多语言推理"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3": {
+    "pushed_at": "2026-10-26T19:04:50",
+    "source": "Artificial Intelligence",
+    "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3"
   },
   "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore": {
     "pushed_at": "2026-10-16T02:35:43",
@@ -769,6 +779,11 @@
     "source": "News from Google",
     "title": "New on Google Play: More ways to create, discover, and play"
   },
+  "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks": {
+    "pushed_at": "2026-10-26T19:04:50",
+    "source": "AI",
+    "title": "Our newest AI Quest: Mapping the human brain"
+  },
   "https://blog.google/products-and-platforms/products/search/football-features-google-search": {
     "pushed_at": "2026-10-16T03:44:11",
     "source": "AI",
@@ -984,6 +999,11 @@
     "source": "The Official Microsoft Blog",
     "title": "以更强的控制力和选择权推进数字主权"
   },
+  "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer": {
+    "pushed_at": "2026-10-26T19:04:50",
+    "source": "The Official Microsoft Blog",
+    "title": "Introducing a Voluntary Exit Offer"
+  },
   "https://blogs.nvidia.com/blog/ai-breast-cancer-startups": {
     "pushed_at": "2026-10-16T03:38:50",
     "source": "NVIDIA Blog",
@@ -1063,6 +1083,11 @@
     "pushed_at": "2026-10-21T05:26:23",
     "source": "NVIDIA Blog",
     "title": "德国希望引领全球工业AI：NVIDIA将如何助力"
+  },
+  "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure": {
+    "pushed_at": "2026-10-26T19:04:50",
+    "source": "NVIDIA Blog",
+    "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure"
   },
   "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast": {
     "pushed_at": "2026-10-16T03:44:13",
@@ -1554,6 +1579,11 @@
     "source": "Engineering at Meta",
     "title": "薄编排器：我们如何通过减少路由器的职责让AI代理更可靠"
   },
+  "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks": {
+    "pushed_at": "2026-10-26T19:04:50",
+    "source": "Engineering at Meta",
+    "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks"
+  },
   "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out": {
     "pushed_at": "2026-10-15T09:04:53",
     "source": "The GitHub Blog",
@@ -1713,6 +1743,11 @@
     "pushed_at": "2026-10-15T11:25:46",
     "source": "Netflix TechBlog - Medium",
     "title": "Integrating Netflix’s Foundation Model into Personalization applications"
+  },
+  "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-10-26T19:04:50",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Making Failure Diagnosis Reliable with Pensive AI"
   },
   "https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-15T11:25:49",
@@ -1898,6 +1933,11 @@
     "pushed_at": "2026-10-25T17:00:01",
     "source": "OpenAI News",
     "title": "Broad access through consistent standards"
+  },
+  "https://openai.com/index/chatgpt-expanding-world-of-work": {
+    "pushed_at": "2026-10-26T19:04:50",
+    "source": "OpenAI News",
+    "title": "ChatGPT’s expanding world of work"
   },
   "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities": {
     "pushed_at": "2026-10-26T05:28:48",
@@ -2879,6 +2919,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’"
   },
+  "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked": {
+    "pushed_at": "2026-10-26T19:04:50",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -2968,6 +3013,11 @@
     "pushed_at": "2026-10-25T05:24:17",
     "source": "Vercel News",
     "title": "Deployments now show build cache size"
+  },
+  "https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli": {
+    "pushed_at": "2026-10-26T19:04:50",
+    "source": "Vercel News",
+    "title": "Discover 1000+ services on Vercel Connect from the CLI"
   },
   "https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro": {
     "pushed_at": "2026-10-22T17:55:28",
@@ -4623,6 +4673,11 @@
     "pushed_at": "2026-10-24T05:08:35",
     "source": "The Verge",
     "title": "Xbox’s first chief operating officer is out after just a few months"
+  },
+  "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal": {
+    "pushed_at": "2026-10-26T19:04:50",
+    "source": "The Verge",
+    "title": "The RealReal won’t let AI agents hog designer clothing"
   },
   "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile": {
     "pushed_at": "2026-10-18T06:52:43",
