@@ -2439,6 +2439,11 @@
     "source": "Simon Willison's Weblog",
     "title": "battledrones v14: Compass Rose, a four player map"
   },
+  "https://simonwillison.net/2026/Oct/25/seam-cutter": {
+    "pushed_at": "2026-10-26T14:58:58",
+    "source": "Simon Willison's Weblog",
+    "title": "Seam Cutter"
+  },
   "https://simonwillison.net/2026/Oct/9/built-using-my-voice": {
     "pushed_at": "2026-10-16T13:02:02",
     "source": "Simon Willison's Weblog",
@@ -2478,6 +2483,11 @@
     "pushed_at": "2026-10-15T06:33:18",
     "source": "少数派",
     "title": "认知心理学背后的播客剪辑技巧"
+  },
+  "https://sspai.com/post/115074": {
+    "pushed_at": "2026-10-26T14:58:56",
+    "source": "少数派",
+    "title": "曲高和寡、终成绝唱：傲腾 P5800X 测试报告"
   },
   "https://sspai.com/post/115090": {
     "pushed_at": "2026-10-22T13:37:43",
@@ -2668,6 +2678,26 @@
     "pushed_at": "2026-10-23T13:13:19",
     "source": "少数派",
     "title": "本周看什么 | 最近值得一看的 12 部作品"
+  },
+  "https://sspai.com/post/117180": {
+    "pushed_at": "2026-10-26T14:58:56",
+    "source": "少数派",
+    "title": "少数派×红树林基金会｜候鸟季公益直播，邀你共护湿地"
+  },
+  "https://sspai.com/post/117414": {
+    "pushed_at": "2026-10-26T14:58:56",
+    "source": "少数派",
+    "title": "秋冬换季护肤买什么，双 11 选购推荐"
+  },
+  "https://sspai.com/post/117460": {
+    "pushed_at": "2026-10-26T14:58:56",
+    "source": "少数派",
+    "title": "派早报：iFixit 拆解 iPhone Duo，肯定可维修性但指出内屏隐患"
+  },
+  "https://sspai.com/post/117529": {
+    "pushed_at": "2026-10-26T14:58:56",
+    "source": "少数派",
+    "title": "派评 | 近期值得关注的 App"
   },
   "https://sspai.com/post/92653": {
     "pushed_at": "2026-10-15T07:07:07",
@@ -4024,6 +4054,31 @@
     "source": "IT之家",
     "title": "国内首部 AI 院线长片《三星堆：未来往事》，票房过百万"
   },
+  "https://www.ithome.com/1/018/171.htm": {
+    "pushed_at": "2026-10-26T14:58:54",
+    "source": "IT之家",
+    "title": "IPO 文件阐述 Anthropic 的野心：AI 有望解决过去几代人未能攻克的难题"
+  },
+  "https://www.ithome.com/1/018/172.htm": {
+    "pushed_at": "2026-10-26T14:58:54",
+    "source": "IT之家",
+    "title": "网易《逆水寒：新世界》将推“自拍模式”，可自定义动作、邀请 AI 门客 NPC 合照"
+  },
+  "https://www.ithome.com/1/018/173.htm": {
+    "pushed_at": "2026-10-26T14:58:54",
+    "source": "IT之家",
+    "title": "599 元：苹果推出新款 iPad mini 智能双面夹，采用科技织物材质"
+  },
+  "https://www.ithome.com/1/018/174.htm": {
+    "pushed_at": "2026-10-26T14:58:54",
+    "source": "IT之家",
+    "title": "《影之刃零》游戏入围金摇杆奖"
+  },
+  "https://www.ithome.com/1/018/175.htm": {
+    "pushed_at": "2026-10-26T14:58:54",
+    "source": "IT之家",
+    "title": "苹果暗示本周将陆续推出更多新品：预计明晚推出 M6 款 iMac、后天推出首款触控屏 MacBook Pro"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -4353,6 +4408,31 @@
     "pushed_at": "2026-10-24T12:30:56",
     "source": "量子位",
     "title": "科大讯飞首发星辰TaaS平台，让Token真正成为千行百业的生产力"
+  },
+  "https://www.qbitai.com/2026/10/505454.html": {
+    "pushed_at": "2026-10-26T14:58:52",
+    "source": "量子位",
+    "title": "中国近50%的新云生意，竟被这家公司包揽！"
+  },
+  "https://www.qbitai.com/2026/10/505478.html": {
+    "pushed_at": "2026-10-26T14:58:52",
+    "source": "量子位",
+    "title": "NeoLab第一个商业模式：转售GPU"
+  },
+  "https://www.qbitai.com/2026/10/505521.html": {
+    "pushed_at": "2026-10-26T14:58:52",
+    "source": "量子位",
+    "title": "A社联创演讲：AI奇点已来"
+  },
+  "https://www.qbitai.com/2026/10/505529.html": {
+    "pushed_at": "2026-10-26T14:58:52",
+    "source": "量子位",
+    "title": "OpenAI开始断网训练最强模型：“安全起见”"
+  },
+  "https://www.qbitai.com/2026/10/505539.html": {
+    "pushed_at": "2026-10-26T14:58:52",
+    "source": "量子位",
+    "title": "AI时代，一个人能有多大能量？天禧AI × 观猹大会现场实测个人AI跨端协同新体验"
   },
   "https://www.solidot.org/story?sid=85598": {
     "pushed_at": "2026-10-15T09:04:02",
