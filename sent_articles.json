@@ -2524,10 +2524,20 @@
     "source": "Simon Willison's Weblog",
     "title": "Seam Cutter"
   },
+  "https://simonwillison.net/2026/Oct/26/gpt-61-terra": {
+    "pushed_at": "2026-10-27T14:11:52",
+    "source": "Simon Willison's Weblog",
+    "title": "GPT-6.1 Terra"
+  },
   "https://simonwillison.net/2026/Oct/26/jason-koebler": {
     "pushed_at": "2026-10-26T20:56:20",
     "source": "Simon Willison's Weblog",
     "title": "Quoting Jason Koebler"
+  },
+  "https://simonwillison.net/2026/Oct/26/webframe-evaluation": {
+    "pushed_at": "2026-10-27T14:11:52",
+    "source": "Simon Willison's Weblog",
+    "title": "webframe: evaluated as a scraper and a sandbox"
   },
   "https://simonwillison.net/2026/Oct/9/built-using-my-voice": {
     "pushed_at": "2026-10-16T13:02:02",
@@ -2633,6 +2643,11 @@
     "pushed_at": "2026-10-16T03:38:59",
     "source": "少数派",
     "title": "让读书笔记不再吃灰：我做了一款跨平台书摘管理工具"
+  },
+  "https://sspai.com/post/115855": {
+    "pushed_at": "2026-10-27T14:11:51",
+    "source": "少数派",
+    "title": "一日一技｜NAS 作为 UPS 总控，实现局域网多设备断电自动关机"
   },
   "https://sspai.com/post/116068": {
     "pushed_at": "2026-10-15T07:07:12",
@@ -2783,6 +2798,21 @@
     "pushed_at": "2026-10-26T14:58:56",
     "source": "少数派",
     "title": "派评 | 近期值得关注的 App"
+  },
+  "https://sspai.com/post/117557": {
+    "pushed_at": "2026-10-27T14:11:51",
+    "source": "少数派",
+    "title": "Apple Sports：不看新闻、不聊球，只看我关心的比赛"
+  },
+  "https://sspai.com/post/117600": {
+    "pushed_at": "2026-10-27T14:11:51",
+    "source": "少数派",
+    "title": "派早报：Apple 发布 iPad mini (A20 Pro) 等"
+  },
+  "https://sspai.com/post/117633": {
+    "pushed_at": "2026-10-27T14:11:51",
+    "source": "少数派",
+    "title": "社区速递 163 | 金豪 59 调整版钢笔与九月派友剁手清单"
   },
   "https://sspai.com/post/92653": {
     "pushed_at": "2026-10-15T07:07:07",
@@ -4209,6 +4239,31 @@
     "source": "IT之家",
     "title": "Cadence 2026 财年第三财季归母净利润 2.9 亿美元，同比增长 0.91%"
   },
+  "https://www.ithome.com/1/018/666.htm": {
+    "pushed_at": "2026-10-27T14:11:48",
+    "source": "IT之家",
+    "title": "苹果 Apple 创作坊新增 AI 功能和更多创意工具，11 月免费更新上线"
+  },
+  "https://www.ithome.com/1/018/674.htm": {
+    "pushed_at": "2026-10-27T14:11:48",
+    "source": "IT之家",
+    "title": "80 名特斯拉韩国车主因非法破解激活 FSD 而被移送检方，查扣 21 台设备"
+  },
+  "https://www.ithome.com/1/018/675.htm": {
+    "pushed_at": "2026-10-27T14:11:48",
+    "source": "IT之家",
+    "title": "保时捷 2026 年前第三季度营收 252.8 亿欧元，同比下滑 5.9%"
+  },
+  "https://www.ithome.com/1/018/676.htm": {
+    "pushed_at": "2026-10-27T14:11:48",
+    "source": "IT之家",
+    "title": "继英伟达 30 亿美元之后：AMD 也宣布向 Meta 投资 10 亿美元深化 AI 基础设施合作，覆盖 EPYC、Instinct GPU、ROCm 软件"
+  },
+  "https://www.ithome.com/1/018/677.htm": {
+    "pushed_at": "2026-10-27T14:11:48",
+    "source": "IT之家",
+    "title": "联合创新推出“C27Q1”27 英寸显示器：2K 120Hz OLED，1599 元"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -4549,6 +4604,21 @@
     "source": "量子位",
     "title": "科大讯飞首发星辰TaaS平台，让Token真正成为千行百业的生产力"
   },
+  "https://www.qbitai.com/2026/10/505429.html": {
+    "pushed_at": "2026-10-27T14:11:45",
+    "source": "量子位",
+    "title": "趋境科技完成 B 轮融资，半年实现超十倍速增长，加速高品质 AI Token 规模化交付"
+  },
+  "https://www.qbitai.com/2026/10/505436.html": {
+    "pushed_at": "2026-10-27T14:11:45",
+    "source": "量子位",
+    "title": "长安汽车赵非：汽车将成为端侧物理AI规模最大的应用载体 | 2026世界智能网联汽车大会"
+  },
+  "https://www.qbitai.com/2026/10/505443.html": {
+    "pushed_at": "2026-10-27T14:11:45",
+    "source": "量子位",
+    "title": "从“言传身教”到“触类旁通”：AI既需要“名师指引”，也需要“自我修行”"
+  },
   "https://www.qbitai.com/2026/10/505454.html": {
     "pushed_at": "2026-10-26T14:58:52",
     "source": "量子位",
@@ -4573,6 +4643,16 @@
     "pushed_at": "2026-10-26T14:58:52",
     "source": "量子位",
     "title": "AI时代，一个人能有多大能量？天禧AI × 观猹大会现场实测个人AI跨端协同新体验"
+  },
+  "https://www.qbitai.com/2026/10/505551.html": {
+    "pushed_at": "2026-10-27T14:11:45",
+    "source": "量子位",
+    "title": "刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司"
+  },
+  "https://www.qbitai.com/2026/10/505580.html": {
+    "pushed_at": "2026-10-27T14:11:45",
+    "source": "量子位",
+    "title": "钛动科技发布行业首个Pro-Agent, Navos Pro定义结果导向的AI for Work | TGC 2026科技增长大会"
   },
   "https://www.solidot.org/story?sid=85598": {
     "pushed_at": "2026-10-15T09:04:02",
