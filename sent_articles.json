@@ -69,6 +69,11 @@
     "source": "Ars Technica",
     "title": "特斯拉再次尝试Roadster，转向50年前的 stunt 技术"
   },
+  "https://arstechnica.com/gadgets/2026/10/microsoft-offers-voluntary-buyouts-to-60000-employees": {
+    "pushed_at": "2026-10-27T05:44:48",
+    "source": "Ars Technica",
+    "title": "Microsoft offers to buy out a quarter of its workforce"
+  },
   "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Ars Technica",
@@ -258,6 +263,11 @@
     "pushed_at": "2026-10-16T02:35:43",
     "source": "Artificial Intelligence",
     "title": "Generate presentations with Amazon Bedrock AgentCore"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock": {
+    "pushed_at": "2026-10-27T05:44:48",
+    "source": "Artificial Intelligence",
+    "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock"
   },
   "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations": {
     "pushed_at": "2026-10-25T05:24:17",
@@ -543,6 +553,11 @@
     "pushed_at": "2026-10-22T17:55:28",
     "source": "Cloudflare Blog",
     "title": "大规模本地化合规：获得韩国ISMS认证"
+  },
+  "https://blog.cloudflare.com/kv-cache-exposure-remediation": {
+    "pushed_at": "2026-10-27T05:44:48",
+    "source": "Cloudflare Blog",
+    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang"
   },
   "https://blog.cloudflare.com/obsessive-inference-optimization": {
     "pushed_at": "2026-10-23T17:46:57",
@@ -1009,6 +1024,11 @@
     "source": "NVIDIA Blog",
     "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps"
   },
+  "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents": {
+    "pushed_at": "2026-10-27T05:44:48",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents"
+  },
   "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models": {
     "pushed_at": "2026-10-24T05:08:35",
     "source": "NVIDIA Blog",
@@ -1379,6 +1399,11 @@
     "source": "ElevenLabs Blog",
     "title": "坎贝尔女男爵借助ElevenLabs在英国议会发表了首次AI配音演讲"
   },
+  "https://elevenlabs.io/blog/how-text-to-speech-technology-works": {
+    "pushed_at": "2026-10-27T05:44:48",
+    "source": "ElevenLabs Blog",
+    "title": "How text to speech technology works: From text to natural voice"
+  },
   "https://elevenlabs.io/blog/how-to-integrate-text-to-speech": {
     "pushed_at": "2026-10-22T17:55:28",
     "source": "ElevenLabs Blog",
@@ -1684,6 +1709,11 @@
     "source": "Apple Machine Learning Research",
     "title": "Minions：基于闲置苹果硅设备的动态分布式虚拟GPU云"
   },
+  "https://machinelearning.apple.com/research/gharp-head-animation": {
+    "pushed_at": "2026-10-27T05:44:48",
+    "source": "Apple Machine Learning Research",
+    "title": "GHARP: Real-Time Gaussian Head Animation from Large-Scale Reconstruction Prior"
+  },
   "https://machinelearning.apple.com/research/llm-translation-quality-annotation": {
     "pushed_at": "2026-10-16T03:11:01",
     "source": "Apple Machine Learning Research",
@@ -1753,6 +1783,11 @@
     "pushed_at": "2026-10-15T11:25:49",
     "source": "Netflix TechBlog - Medium",
     "title": "Measuring the Impact of Personalized Recommendations"
+  },
+  "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-10-27T05:44:48",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing"
   },
   "https://netflixtechblog.com/netflix-conductor-the-next-chapter-41ad21067649?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-15T13:07:46",
@@ -1963,6 +1998,11 @@
     "pushed_at": "2026-10-16T03:44:07",
     "source": "OpenAI News",
     "title": "GPT-6和智能用户界面"
+  },
+  "https://openai.com/index/greptile-code-review-codex-astra": {
+    "pushed_at": "2026-10-27T05:44:48",
+    "source": "OpenAI News",
+    "title": "Greptile takes bug detection beyond code review with GPT-6 Astra"
   },
   "https://openai.com/index/higgsfield-longer-videos-voice": {
     "pushed_at": "2026-10-16T03:10:50",
@@ -2929,6 +2969,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked"
   },
+  "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant": {
+    "pushed_at": "2026-10-27T05:44:48",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3078,6 +3123,11 @@
     "pushed_at": "2026-10-21T17:59:17",
     "source": "Vercel News",
     "title": "路由中间件现已支持Python"
+  },
+  "https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox": {
+    "pushed_at": "2026-10-27T05:44:48",
+    "source": "Vercel News",
+    "title": "Run Scale AI’s AgentEnv evals on Vercel Sandbox"
   },
   "https://vercel.com/changelog/send-feedback-from-vercel-mcp": {
     "pushed_at": "2026-10-23T17:46:57",
@@ -4674,6 +4724,11 @@
     "source": "The Verge",
     "title": "Blue Planet III is keeping the rough edges in the age of AI"
   },
+  "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics": {
+    "pushed_at": "2026-10-27T05:44:48",
+    "source": "The Verge",
+    "title": "OpenAI announces three big science discoveries and a new way to work with academics"
+  },
   "https://www.theverge.com/entertainment/1013381/jad-abumrad-radiolab-dolly-parton-fela-kuti-podcast-interview": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Verge",
@@ -4848,6 +4903,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "WIRED",
     "title": "数据中心有了新的公关计划：让你孩子去实地参观"
+  },
+  "https://www.wired.com/story/grok-says-its-ai-generated-version-of-the-odyssey-is-not-historically-accurate": {
+    "pushed_at": "2026-10-27T05:44:48",
+    "source": "WIRED",
+    "title": "Grok Says Its AI-Generated Version of ‘The Odyssey’ Is ‘Not Historically Accurate’"
   },
   "https://www.wired.com/story/kernel-panic-encryption-is-getting-squeezed-from-all-sides": {
     "pushed_at": "2026-10-19T02:30:08",
