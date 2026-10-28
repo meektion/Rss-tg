@@ -59,6 +59,11 @@
     "source": "Ars Technica",
     "title": "Anthropic给予外部AI监督机构“类似员工”的访问权限"
   },
+  "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip": {
+    "pushed_at": "2026-10-28T06:23:08",
+    "source": "Ars Technica",
+    "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip"
+  },
   "https://arstechnica.com/apple/2026/10/apple-reveals-updated-ipad-mini-with-a-bigger-oled-screen-for-700": {
     "pushed_at": "2026-10-26T19:04:50",
     "source": "Ars Technica",
@@ -213,6 +218,11 @@
     "pushed_at": "2026-10-26T05:28:48",
     "source": "Artificial Intelligence",
     "title": "Announcing new ways to customize models with SageMaker AI, without managing GPUs"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs": {
+    "pushed_at": "2026-10-28T06:23:08",
+    "source": "Artificial Intelligence",
+    "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs"
   },
   "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service": {
     "pushed_at": "2026-10-27T18:36:18",
@@ -614,6 +624,11 @@
     "source": "Cloudflare Blog",
     "title": "超越补丁：保护您的NetScaler网关免受未来漏洞威胁"
   },
+  "https://blog.cloudflare.com/q3-2026-internet-disruption-summary": {
+    "pushed_at": "2026-10-28T06:23:08",
+    "source": "Cloudflare Blog",
+    "title": "What took the Internet offline in Q3 2026"
+  },
   "https://blog.cloudflare.com/radar-redesign": {
     "pushed_at": "2026-10-15T13:07:33",
     "source": "Cloudflare Blog",
@@ -934,6 +949,11 @@
     "source": "The Mozilla Blog",
     "title": "（火）狐说什么？"
   },
+  "https://blog.mozilla.org/en/firefox/skip-the-busywork-with-smart-window": {
+    "pushed_at": "2026-10-28T06:23:08",
+    "source": "The Mozilla Blog",
+    "title": "Skip the busywork with Smart Window"
+  },
   "https://blog.mozilla.org/en/firefox/startpage-on-firefox": {
     "pushed_at": "2026-10-19T02:30:08",
     "source": "The Mozilla Blog",
@@ -1078,6 +1098,11 @@
     "pushed_at": "2026-10-25T17:00:01",
     "source": "NVIDIA Blog",
     "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction"
+  },
+  "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing": {
+    "pushed_at": "2026-10-28T06:23:08",
+    "source": "NVIDIA Blog",
+    "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA"
   },
   "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations": {
     "pushed_at": "2026-10-16T03:10:57",
@@ -1399,6 +1424,11 @@
     "source": "ElevenLabs Blog",
     "title": "带时间戳和事件标记的音频转录是如何工作的？"
   },
+  "https://elevenlabs.io/blog/build-an-ai-voice-assistant": {
+    "pushed_at": "2026-10-28T06:23:08",
+    "source": "ElevenLabs Blog",
+    "title": "How to build an AI voice assistant: Brand-aligned voice AI"
+  },
   "https://elevenlabs.io/blog/certification-renewals": {
     "pushed_at": "2026-10-18T03:38:50",
     "source": "ElevenLabs Blog",
@@ -1643,6 +1673,11 @@
     "pushed_at": "2026-10-26T19:04:50",
     "source": "Engineering at Meta",
     "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks"
+  },
+  "https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape": {
+    "pushed_at": "2026-10-28T06:23:08",
+    "source": "Engineering at Meta",
+    "title": "Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape"
   },
   "https://engineering.fb.com/2026/10/27/security/privacylib": {
     "pushed_at": "2026-10-27T18:36:18",
@@ -2098,6 +2133,11 @@
     "pushed_at": "2026-10-16T03:44:07",
     "source": "OpenAI News",
     "title": "丽笙酒店集团将酒店发现带入ChatGPT"
+  },
+  "https://openai.com/index/retell-ai": {
+    "pushed_at": "2026-10-28T06:23:08",
+    "source": "OpenAI News",
+    "title": "Retell uses OpenAI models to help power 100M monthly calls"
   },
   "https://openai.com/index/scaling-storage-one-billion-users-part-two": {
     "pushed_at": "2026-10-23T17:46:57",
@@ -3059,6 +3099,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?"
   },
+  "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more": {
+    "pushed_at": "2026-10-28T06:23:08",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3083,6 +3128,11 @@
     "pushed_at": "2026-10-23T05:31:01",
     "source": "Vercel News",
     "title": "终结长期静态凭证"
+  },
+  "https://vercel.com/blog/elevenlabs-on-ai-gateway": {
+    "pushed_at": "2026-10-28T06:23:08",
+    "source": "Vercel News",
+    "title": "ElevenLabs on AI Gateway"
   },
   "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel": {
     "pushed_at": "2026-10-26T05:28:48",
@@ -5018,6 +5068,11 @@
     "pushed_at": "2026-10-25T17:00:01",
     "source": "The Verge",
     "title": "Now you can watch Instagram Reels on your Apple TV"
+  },
+  "https://www.theverge.com/tech/1020145/iphone-duo-crackgate-broken-screen-hinge": {
+    "pushed_at": "2026-10-28T06:23:08",
+    "source": "The Verge",
+    "title": "Here’s why the iPhone Duo’s hinge could be cracking the screen"
   },
   "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance": {
     "pushed_at": "2026-10-18T04:13:01",
