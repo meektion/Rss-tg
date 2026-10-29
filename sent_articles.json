@@ -169,6 +169,11 @@
     "source": "Ars Technica",
     "title": "火箭报告：FAA考虑增加Starbase航班；印度Skyroot吸引美国客户"
   },
+  "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th": {
+    "pushed_at": "2026-10-29T06:34:04",
+    "source": "Ars Technica",
+    "title": "ULA's Vulcan rocket is set to return to flight on Friday the 13th"
+  },
   "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits": {
     "pushed_at": "2026-10-19T16:26:14",
     "source": "Ars Technica",
@@ -278,6 +283,11 @@
     "pushed_at": "2026-10-16T03:38:54",
     "source": "Artificial Intelligence",
     "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks": {
+    "pushed_at": "2026-10-29T06:34:04",
+    "source": "Artificial Intelligence",
+    "title": "Distributed training with Ray Train DLCs and EFA on EKS"
   },
   "https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod": {
     "pushed_at": "2026-10-20T17:52:02",
@@ -1094,6 +1104,11 @@
     "source": "NVIDIA Blog",
     "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models"
   },
+  "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation": {
+    "pushed_at": "2026-10-29T06:34:04",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations"
+  },
   "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents": {
     "pushed_at": "2026-10-16T03:38:50",
     "source": "NVIDIA Blog",
@@ -1469,6 +1484,11 @@
     "source": "ElevenLabs Blog",
     "title": "联络中心自动化：提升服务质量的指南"
   },
+  "https://elevenlabs.io/blog/conversational-ai-in-banking": {
+    "pushed_at": "2026-10-29T06:34:04",
+    "source": "ElevenLabs Blog",
+    "title": "Conversational AI in banking: Use cases, benefits, examples"
+  },
   "https://elevenlabs.io/blog/elevenagents-architect": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "ElevenLabs Blog",
@@ -1793,6 +1813,11 @@
     "pushed_at": "2026-10-15T19:44:08",
     "source": "The GitHub Blog",
     "title": "The next developer interface is ambient intelligence"
+  },
+  "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents": {
+    "pushed_at": "2026-10-29T06:34:04",
+    "source": "The GitHub Blog",
+    "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents"
   },
   "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills": {
     "pushed_at": "2026-10-22T17:55:28",
@@ -2153,6 +2178,11 @@
     "pushed_at": "2026-10-24T16:28:39",
     "source": "OpenAI News",
     "title": "OpenAI and Poland’s NASK partner to advance AI safety and security"
+  },
+  "https://openai.com/index/openai-servicenow-partnership-expansion": {
+    "pushed_at": "2026-10-29T06:34:04",
+    "source": "OpenAI News",
+    "title": "OpenAI and ServiceNow expand partnership across enterprise workflows"
   },
   "https://openai.com/index/oracle": {
     "pushed_at": "2026-10-16T03:38:44",
@@ -3189,6 +3219,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms"
   },
+  "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion": {
+    "pushed_at": "2026-10-29T06:34:04",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3368,6 +3403,11 @@
     "pushed_at": "2026-10-27T18:36:18",
     "source": "Vercel News",
     "title": "Vercel Agent sessions now cost 67% less"
+  },
+  "https://vercel.com/changelog/vercel-ci-is-now-in-beta": {
+    "pushed_at": "2026-10-29T06:34:04",
+    "source": "Vercel News",
+    "title": "Vercel CI is now in beta"
   },
   "https://vercel.com/changelog/vercel-cli-adds-spend-management": {
     "pushed_at": "2026-10-24T05:08:35",
@@ -5169,6 +5209,11 @@
     "source": "The Verge",
     "title": "Trump is making it easier for fossil fuel companies to leak methane"
   },
+  "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american": {
+    "pushed_at": "2026-10-29T06:34:04",
+    "source": "The Verge",
+    "title": "Anduril now says its BlueChip laptop will meet Buy American standards at launch"
+  },
   "https://www.theverge.com/streaming/1015099/youtube-dislike-button-hide-menu": {
     "pushed_at": "2026-10-21T05:26:23",
     "source": "The Verge",
@@ -5323,6 +5368,11 @@
     "pushed_at": "2026-10-25T05:24:17",
     "source": "WIRED",
     "title": "New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent"
+  },
+  "https://www.wired.com/story/norton-coupon-code": {
+    "pushed_at": "2026-10-29T06:34:04",
+    "source": "WIRED",
+    "title": "Norton Coupon Codes: Up to 58% Off"
   },
   "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty": {
     "pushed_at": "2026-10-18T11:04:31",
