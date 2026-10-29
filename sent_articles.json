@@ -204,6 +204,11 @@
     "source": "Ars Technica",
     "title": "Polymarket在选举结束后仍产生了6亿美元的选举交易额"
   },
+  "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo": {
+    "pushed_at": "2026-10-29T18:50:59",
+    "source": "Ars Technica",
+    "title": "Trump ignored intel on China’s Nvidia spy to protect company’s stock, report says"
+  },
   "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain": {
     "pushed_at": "2026-10-18T11:40:39",
     "source": "Ars Technica",
@@ -263,6 +268,11 @@
     "pushed_at": "2026-10-28T18:42:37",
     "source": "Artificial Intelligence",
     "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act": {
+    "pushed_at": "2026-10-29T18:50:59",
+    "source": "Artificial Intelligence",
+    "title": "Building intent-driven UI testing with Amazon Nova Act"
   },
   "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore": {
     "pushed_at": "2026-10-18T03:38:50",
@@ -558,6 +568,11 @@
     "pushed_at": "2026-10-15T13:07:31",
     "source": "Cloudflare Blog",
     "title": "Under the hood, off the hot path: How D1 scales to millions of databases"
+  },
+  "https://blog.cloudflare.com/ddos-threat-report-2026-q3": {
+    "pushed_at": "2026-10-29T18:50:59",
+    "source": "Cloudflare Blog",
+    "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants"
   },
   "https://blog.cloudflare.com/deno-joins-cloudflare": {
     "pushed_at": "2026-10-15T11:25:34",
@@ -1179,6 +1194,11 @@
     "source": "NVIDIA Blog",
     "title": "Fall Into 25 New Games on GeForce NOW This October"
   },
+  "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero": {
+    "pushed_at": "2026-10-29T18:50:59",
+    "source": "NVIDIA Blog",
+    "title": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW"
+  },
   "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help": {
     "pushed_at": "2026-10-21T05:26:23",
     "source": "NVIDIA Blog",
@@ -1539,6 +1559,11 @@
     "source": "ElevenLabs Blog",
     "title": "How Immobiliare.it went from one conversational agent to an agentic network"
   },
+  "https://elevenlabs.io/blog/internal-ops-agents": {
+    "pushed_at": "2026-10-29T18:50:59",
+    "source": "ElevenLabs Blog",
+    "title": "How we use ElevenAgents to save 1,200 hours a month in daily operations"
+  },
   "https://elevenlabs.io/blog/introducing-brand-kit": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "ElevenLabs Blog",
@@ -1738,6 +1763,11 @@
     "pushed_at": "2026-10-28T18:42:37",
     "source": "Engineering at Meta",
     "title": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design"
+  },
+  "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale": {
+    "pushed_at": "2026-10-29T18:50:59",
+    "source": "Engineering at Meta",
+    "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale"
   },
   "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out": {
     "pushed_at": "2026-10-15T09:04:53",
@@ -2283,6 +2313,11 @@
     "pushed_at": "2026-10-25T05:24:17",
     "source": "OpenAI News",
     "title": "Uber brings ChatGPT Work to all employees with OpenAI"
+  },
+  "https://openai.com/index/updated-model-spec": {
+    "pushed_at": "2026-10-29T18:50:59",
+    "source": "OpenAI News",
+    "title": "An updated Model Spec for more capable and beneficial AI"
   },
   "https://qwenlm.github.io/blog/global-load-balance": {
     "pushed_at": "2026-10-16T03:44:16",
@@ -3259,6 +3294,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion"
   },
+  "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr": {
+    "pushed_at": "2026-10-29T18:50:59",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Granola crunches up a dictation feature to compete with Wispr"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3373,6 +3413,11 @@
     "pushed_at": "2026-10-17T12:39:08",
     "source": "Vercel News",
     "title": "Elorian AI的Glimpse现已在AI Gateway上线"
+  },
+  "https://vercel.com/changelog/improved-ip-geolocation-data": {
+    "pushed_at": "2026-10-29T18:50:59",
+    "source": "Vercel News",
+    "title": "IP geolocation now covers more visitors at higher resolution"
   },
   "https://vercel.com/changelog/introducing-token-pass": {
     "pushed_at": "2026-10-17T02:56:42",
@@ -5234,6 +5279,11 @@
     "source": "The Verge",
     "title": "OpenAI announces three big science discoveries and a new way to work with academics"
   },
+  "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs": {
+    "pushed_at": "2026-10-29T18:50:59",
+    "source": "The Verge",
+    "title": "You can generate and edit Google Docs files directly in Gemini chats now"
+  },
   "https://www.theverge.com/entertainment/1013381/jad-abumrad-radiolab-dolly-parton-fela-kuti-podcast-interview": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Verge",
@@ -5403,6 +5453,11 @@
     "pushed_at": "2026-10-25T17:00:01",
     "source": "WIRED",
     "title": "Wallhack M-001 Review: When Fun Overrides Specs"
+  },
+  "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system": {
+    "pushed_at": "2026-10-29T18:50:59",
+    "source": "WIRED",
+    "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System"
   },
   "https://www.wired.com/story/all-clad-factory-seconds-sale-october-2026": {
     "pushed_at": "2026-10-19T16:26:14",
