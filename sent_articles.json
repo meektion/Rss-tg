@@ -2709,6 +2709,11 @@
     "source": "Simon Willison's Weblog",
     "title": "GitHub Octoverse 2026"
   },
+  "https://simonwillison.net/2026/Oct/28/ted-sanders": {
+    "pushed_at": "2026-10-29T15:02:45",
+    "source": "Simon Willison's Weblog",
+    "title": "Quoting Ted Sanders"
+  },
   "https://simonwillison.net/2026/Oct/28/terk-terkowitz": {
     "pushed_at": "2026-10-28T14:57:26",
     "source": "Simon Willison's Weblog",
@@ -2718,6 +2723,11 @@
     "pushed_at": "2026-10-28T14:57:26",
     "source": "Simon Willison's Weblog",
     "title": "The October inflection point for vibe game development"
+  },
+  "https://simonwillison.net/2026/Oct/29/ben-hylak": {
+    "pushed_at": "2026-10-29T15:02:45",
+    "source": "Simon Willison's Weblog",
+    "title": "Quoting Ben Hylak"
   },
   "https://simonwillison.net/2026/Oct/9/built-using-my-voice": {
     "pushed_at": "2026-10-16T13:02:02",
@@ -2914,6 +2924,11 @@
     "source": "少数派",
     "title": "从「空间扩展」到「等比放大」：我如何为 MacBook Pro 搭建双屏桌面"
   },
+  "https://sspai.com/post/116686": {
+    "pushed_at": "2026-10-29T15:02:43",
+    "source": "少数派",
+    "title": "一日一技｜iPhone 恶意被锁，线上移除流程拆招"
+  },
   "https://sspai.com/post/116699": {
     "pushed_at": "2026-10-19T15:23:31",
     "source": "少数派",
@@ -2974,6 +2989,11 @@
     "source": "少数派",
     "title": "少数派×红树林基金会｜候鸟季公益直播，邀你共护湿地"
   },
+  "https://sspai.com/post/117244": {
+    "pushed_at": "2026-10-29T15:02:43",
+    "source": "少数派",
+    "title": "如何成为不吃压力的「大心脏」？"
+  },
   "https://sspai.com/post/117414": {
     "pushed_at": "2026-10-26T14:58:56",
     "source": "少数派",
@@ -3014,10 +3034,25 @@
     "source": "少数派",
     "title": "备受期待的国产 3A 游戏新作：《影之刃零》游玩体验"
   },
+  "https://sspai.com/post/117750": {
+    "pushed_at": "2026-10-29T15:02:43",
+    "source": "少数派",
+    "title": "派早报：Apple 推出触控款 MacBook Pro、华为发布多款新品等"
+  },
+  "https://sspai.com/post/117791": {
+    "pushed_at": "2026-10-29T15:02:43",
+    "source": "少数派",
+    "title": "新玩意 254｜少数派的编辑们最近买了啥？"
+  },
   "https://sspai.com/post/92653": {
     "pushed_at": "2026-10-15T07:07:07",
     "source": "少数派",
     "title": "已经能测夜间体征的 Apple Watch，为什么要再做一个睡眠呼吸暂停提醒"
+  },
+  "https://sspai.com/prime/story/how-to-analyze-health-data-with-agent": {
+    "pushed_at": "2026-10-29T15:02:43",
+    "source": "少数派",
+    "title": "让 Agent 读懂你的身体：数据处理篇"
   },
   "https://sspai.com/prime/story/inside-release-notes-261020": {
     "pushed_at": "2026-10-20T13:26:33",
@@ -4554,6 +4589,31 @@
     "source": "IT之家",
     "title": "谷歌 2026Q3 财报暴露 AI 变现焦虑，股价盘后暴跌逾 7%"
   },
+  "https://www.ithome.com/1/019/784.htm": {
+    "pushed_at": "2026-10-29T15:02:40",
+    "source": "IT之家",
+    "title": "系列唯一：华为 Pura 90 Plus 手机确认支持 USB 3.1 Gen 1 功能"
+  },
+  "https://www.ithome.com/1/019/785.htm": {
+    "pushed_at": "2026-10-29T15:02:40",
+    "source": "IT之家",
+    "title": "EA 裁员后办公室现状曝光：员工士气跌至谷底，管理层热衷于生成式 AI"
+  },
+  "https://www.ithome.com/1/019/786.htm": {
+    "pushed_at": "2026-10-29T15:02:40",
+    "source": "IT之家",
+    "title": "映泰推出无风扇边缘 AI 系统 MS-U320：酷睿 5 处理器 320，四 COM 口"
+  },
+  "https://www.ithome.com/1/019/787.htm": {
+    "pushed_at": "2026-10-29T15:02:40",
+    "source": "IT之家",
+    "title": "酷狗音乐 22 周年 · 鸿蒙特别版 App 官宣“即将上线”，为 HarmonyOS 7 全新设计"
+  },
+  "https://www.ithome.com/1/019/788.htm": {
+    "pushed_at": "2026-10-29T15:02:40",
+    "source": "IT之家",
+    "title": "FS 社旗下 Switch 2 独占游戏《黄昏血族》跳票，2027 年发售"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -4993,6 +5053,31 @@
     "pushed_at": "2026-10-28T14:57:19",
     "source": "量子位",
     "title": "Personal Agent走向真实任务，蚂蚁百灵开源 Ling-3.1-flash-1019"
+  },
+  "https://www.qbitai.com/2026/10/505934.html": {
+    "pushed_at": "2026-10-29T15:02:39",
+    "source": "量子位",
+    "title": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍"
+  },
+  "https://www.qbitai.com/2026/10/506227.html": {
+    "pushed_at": "2026-10-29T15:02:39",
+    "source": "量子位",
+    "title": "刚刚，Gemini 4 Carbon全面超越Opus 5.5！首发Token半价"
+  },
+  "https://www.qbitai.com/2026/10/506246.html": {
+    "pushed_at": "2026-10-29T15:02:39",
+    "source": "量子位",
+    "title": "24万开卖！理想重造i6，李想：目标全球畅销"
+  },
+  "https://www.qbitai.com/2026/10/506273.html": {
+    "pushed_at": "2026-10-29T15:02:39",
+    "source": "量子位",
+    "title": "小雨智造与国家钢结构质检中心共建实验室，乔忠良：具身智能新质生产力已成事实"
+  },
+  "https://www.qbitai.com/2026/10/506281.html": {
+    "pushed_at": "2026-10-29T15:02:39",
+    "source": "量子位",
+    "title": "文远知行001号员工带队，景烁科技首轮融资数千万美元"
   },
   "https://www.solidot.org/story?sid=85598": {
     "pushed_at": "2026-10-15T09:04:02",
