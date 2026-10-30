@@ -2779,6 +2779,11 @@
     "source": "Simon Willison's Weblog",
     "title": "The October inflection point for vibe game development"
   },
+  "https://simonwillison.net/2026/Oct/29/api-credits": {
+    "pushed_at": "2026-10-30T14:55:56",
+    "source": "Simon Willison's Weblog",
+    "title": "API credits benefit for eligible ChatGPT subscriptions"
+  },
   "https://simonwillison.net/2026/Oct/29/ben-hylak": {
     "pushed_at": "2026-10-29T15:02:45",
     "source": "Simon Willison's Weblog",
@@ -2904,6 +2909,11 @@
     "source": "少数派",
     "title": "一日一技｜NAS 作为 UPS 总控，实现局域网多设备断电自动关机"
   },
+  "https://sspai.com/post/116047": {
+    "pushed_at": "2026-10-30T14:55:53",
+    "source": "少数派",
+    "title": "App+1｜该吃药了：一片小药板，让吃药提醒变得轻松有趣"
+  },
   "https://sspai.com/post/116068": {
     "pushed_at": "2026-10-15T07:07:12",
     "source": "少数派",
@@ -2963,6 +2973,11 @@
     "pushed_at": "2026-10-20T13:26:33",
     "source": "少数派",
     "title": "App+1 | 紫毫：基于 Rime 引擎、支持双拼纠错的 iOS 输入法"
+  },
+  "https://sspai.com/post/116435": {
+    "pushed_at": "2026-10-30T14:55:53",
+    "source": "少数派",
+    "title": "精确到秒的时间记录是怎样的？我的柳比歇夫法半年实践"
   },
   "https://sspai.com/post/116445": {
     "pushed_at": "2026-10-21T13:35:47",
@@ -3104,6 +3119,16 @@
     "source": "少数派",
     "title": "新玩意 254｜少数派的编辑们最近买了啥？"
   },
+  "https://sspai.com/post/117827": {
+    "pushed_at": "2026-10-30T14:55:53",
+    "source": "少数派",
+    "title": "派早报：全球首款 Android XR 有线眼镜 XREAL AURA 发售等"
+  },
+  "https://sspai.com/post/117867": {
+    "pushed_at": "2026-10-30T14:55:53",
+    "source": "少数派",
+    "title": "本周看什么 | 最近值得一看的 9 部作品"
+  },
   "https://sspai.com/post/92653": {
     "pushed_at": "2026-10-15T07:07:07",
     "source": "少数派",
@@ -3118,6 +3143,11 @@
     "pushed_at": "2026-10-20T13:26:33",
     "source": "少数派",
     "title": "具透 Plus：Firefox 被「中途喝止」的界面现代化改造；Pixel 不再为 VoLTE 发愁"
+  },
+  "https://sspai.com/prime/story/zhuanglesha-261030": {
+    "pushed_at": "2026-10-30T14:55:53",
+    "source": "少数派",
+    "title": "《久坐健康指南》作者、运动健康领域创作者阿帅装了啥？"
   },
   "https://t3.at/blog/2026-10-17-parser-combinators": {
     "pushed_at": "2026-10-18T11:04:31",
@@ -4719,6 +4749,31 @@
     "source": "IT之家",
     "title": "59.9 万元梅赛德斯 AMG GLC 53 4MATIC+ 车型上市，3.0T 六缸回归"
   },
+  "https://www.ithome.com/1/020/174.htm": {
+    "pushed_at": "2026-10-30T14:55:50",
+    "source": "IT之家",
+    "title": "3299 → 759 元享 25000Pa 大吸力：石头 A30 Max 智能洗地机直降，支持 180° 超薄躺平"
+  },
+  "https://www.ithome.com/1/020/372.htm": {
+    "pushed_at": "2026-10-30T14:55:50",
+    "source": "IT之家",
+    "title": "华为 Mate 60 Pro 处理器型号官方首次“揭秘”，搭载麒麟 9000S 与 30、40、50、90“同台竞技”"
+  },
+  "https://www.ithome.com/1/020/373.htm": {
+    "pushed_at": "2026-10-30T14:55:50",
+    "source": "IT之家",
+    "title": "雷柏 VT4 V2 系列中尺寸抓握鼠标发售：4 版本可选，199 元起"
+  },
+  "https://www.ithome.com/1/020/375.htm": {
+    "pushed_at": "2026-10-30T14:55:50",
+    "source": "IT之家",
+    "title": "丰田携手 Waymo，2027 年在日本启动 bZ4X Robotaxi 车队测试"
+  },
+  "https://www.ithome.com/1/020/376.htm": {
+    "pushed_at": "2026-10-30T14:55:50",
+    "source": "IT之家",
+    "title": "黑鲨 HGK 04 分体式电竞手游肩键发布：物理触发方案、导电硅胶触点，首发 49 元"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -5208,6 +5263,31 @@
     "pushed_at": "2026-10-29T15:02:39",
     "source": "量子位",
     "title": "文远知行001号员工带队，景烁科技首轮融资数千万美元"
+  },
+  "https://www.qbitai.com/2026/10/506747.html": {
+    "pushed_at": "2026-10-30T14:55:44",
+    "source": "量子位",
+    "title": "好莱坞最缺的答案，被这家 10 亿美元估值的 AI 影视独角兽写进了片单"
+  },
+  "https://www.qbitai.com/2026/10/506771.html": {
+    "pushed_at": "2026-10-30T14:55:44",
+    "source": "量子位",
+    "title": "百度 APP 发布四大 AI 升级，搜索已实现递归自我进化"
+  },
+  "https://www.qbitai.com/2026/10/506779.html": {
+    "pushed_at": "2026-10-30T14:55:44",
+    "source": "量子位",
+    "title": "“超能模式”重磅登场！联想天禧AI 4.5全端升级，三大场景打造“职场超能搭档”"
+  },
+  "https://www.qbitai.com/2026/10/506785.html": {
+    "pushed_at": "2026-10-30T14:55:44",
+    "source": "量子位",
+    "title": "AI零帧起手写算子，反超DeepSeek人类手写巅峰：快了9.8%！"
+  },
+  "https://www.qbitai.com/2026/10/506819.html": {
+    "pushed_at": "2026-10-30T14:55:44",
+    "source": "量子位",
+    "title": "榜一，拿来吧你！智元这波双模型杀穿多榜榜单"
   },
   "https://www.solidot.org/story?sid=85598": {
     "pushed_at": "2026-10-15T09:04:02",
