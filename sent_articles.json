@@ -94,6 +94,11 @@
     "source": "Ars Technica",
     "title": "Bug让Ray-Ban Meta智能眼镜最大的担忧之一成为现实"
   },
+  "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms": {
+    "pushed_at": "2026-10-30T06:33:33",
+    "source": "Ars Technica",
+    "title": "Reddit is moving to “a logged-in-only experience,” CEO says"
+  },
   "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising": {
     "pushed_at": "2026-10-26T05:28:48",
     "source": "Ars Technica",
@@ -348,6 +353,11 @@
     "pushed_at": "2026-10-16T02:35:43",
     "source": "Artificial Intelligence",
     "title": "How Tamnoon built AI-powered cloud security remediation with Amazon Bedrock"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026": {
+    "pushed_at": "2026-10-30T06:33:33",
+    "source": "Artificial Intelligence",
+    "title": "How the UK Amazon Quick User Group grew in 2026"
   },
   "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026": {
     "pushed_at": "2026-10-16T03:44:18",
@@ -1634,6 +1644,11 @@
     "source": "ElevenLabs Blog",
     "title": "什么是对话智能？企业指南"
   },
+  "https://elevenlabs.io/blog/what-is-turn-taking": {
+    "pushed_at": "2026-10-30T06:33:33",
+    "source": "ElevenLabs Blog",
+    "title": "What is turn taking in conversational AI: A guide to natural flow"
+  },
   "https://elevenlabs.io/blog/what-is-voice-activity-detection": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "ElevenLabs Blog",
@@ -2178,6 +2193,11 @@
     "pushed_at": "2026-10-16T03:10:50",
     "source": "OpenAI News",
     "title": "Higgsfield takes AI video from 1 minute to over 10"
+  },
+  "https://openai.com/index/how-we-detect-frontier-model-misalignment": {
+    "pushed_at": "2026-10-30T06:33:33",
+    "source": "OpenAI News",
+    "title": "How we detect frontier model misalignment"
   },
   "https://openai.com/index/introducing-the-rosalind-academic-plan": {
     "pushed_at": "2026-10-16T02:35:32",
@@ -3304,6 +3324,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Granola crunches up a dictation feature to compete with Wispr"
   },
+  "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work": {
+    "pushed_at": "2026-10-30T06:33:33",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "You don’t need to believe in a god to get a religious exemption from using AI at work"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3478,6 +3503,11 @@
     "pushed_at": "2026-10-23T17:46:57",
     "source": "Vercel News",
     "title": "Send feedback from the Vercel MCP"
+  },
+  "https://vercel.com/changelog/strix-now-supports-vercel-ai-gateway": {
+    "pushed_at": "2026-10-30T06:33:33",
+    "source": "Vercel News",
+    "title": "Strix now supports Vercel AI Gateway"
   },
   "https://vercel.com/changelog/updates-to-hobby-and-pro-terms-of-service": {
     "pushed_at": "2026-10-20T17:52:02",
@@ -5414,6 +5444,11 @@
     "source": "The Verge",
     "title": "YouTube表示并未测试隐藏“不喜欢”按钮"
   },
+  "https://www.theverge.com/streaming/1022934/curry-barker-obsession-horror-short-youtube-mama-bear": {
+    "pushed_at": "2026-10-30T06:33:33",
+    "source": "The Verge",
+    "title": "The director of Obsession put a new horror short on YouTube"
+  },
   "https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "The Verge",
@@ -5578,6 +5613,11 @@
     "pushed_at": "2026-10-26T05:28:48",
     "source": "WIRED",
     "title": "Scientists Trapped an Antimatter Particle for Months to Study Its Secrets"
+  },
+  "https://www.wired.com/story/what-to-know-about-chinas-top-secret-spaceplane": {
+    "pushed_at": "2026-10-30T06:33:33",
+    "source": "WIRED",
+    "title": "What to Know About China’s Top-Secret Spaceplane"
   },
   "https://www.ycombinator.com/blog/2026-demo-days": {
     "pushed_at": "2026-10-15T19:44:51",
