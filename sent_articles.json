@@ -154,6 +154,11 @@
     "source": "Ars Technica",
     "title": "科学表明，老板在会议上应该少说话"
   },
+  "https://arstechnica.com/science/2026/10/seabirds-racing-home-over-the-ocean-can-get-jet-lagged": {
+    "pushed_at": "2026-10-31T17:33:23",
+    "source": "Ars Technica",
+    "title": "Seabirds racing home over the ocean can get jet-lagged"
+  },
   "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Ars Technica",
@@ -428,6 +433,11 @@
     "pushed_at": "2026-10-16T03:44:18",
     "source": "Artificial Intelligence",
     "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime": {
+    "pushed_at": "2026-10-31T17:33:23",
+    "source": "Artificial Intelligence",
+    "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime"
   },
   "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers": {
     "pushed_at": "2026-10-16T03:38:54",
@@ -1649,6 +1659,11 @@
     "source": "ElevenLabs Blog",
     "title": "与任何人，以任何语言，实时交谈"
   },
+  "https://elevenlabs.io/blog/sound-effects-v3": {
+    "pushed_at": "2026-10-31T17:33:23",
+    "source": "ElevenLabs Blog",
+    "title": "Introducing SFX v3 in ElevenCreative and ElevenAPI"
+  },
   "https://elevenlabs.io/blog/speech-to-text-for-content-creators": {
     "pushed_at": "2026-10-24T16:28:39",
     "source": "ElevenLabs Blog",
@@ -2223,6 +2238,11 @@
     "pushed_at": "2026-10-16T03:38:44",
     "source": "OpenAI News",
     "title": "Disrupting AI-enabled “false front” operations"
+  },
+  "https://openai.com/index/fair-use-benefits-everyone": {
+    "pushed_at": "2026-10-31T17:33:23",
+    "source": "OpenAI News",
+    "title": "Fair use benefits everyone"
   },
   "https://openai.com/index/forward-deployed-engineering-means": {
     "pushed_at": "2026-10-22T17:55:28",
@@ -3439,6 +3459,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Zest’s new AI agent finds restaurants and books reservations over text"
   },
+  "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round": {
+    "pushed_at": "2026-10-31T17:33:23",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "OpenAI reportedly lowers funding target for new round"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3538,6 +3563,11 @@
     "pushed_at": "2026-10-17T03:49:37",
     "source": "Vercel News",
     "title": "Cat Jam现已在AI Gateway上以隐身模式免费提供"
+  },
+  "https://vercel.com/changelog/data-cache-is-moving-to-runtime-cache": {
+    "pushed_at": "2026-10-31T17:33:23",
+    "source": "Vercel News",
+    "title": "Data Cache is moving to Runtime Cache"
   },
   "https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway": {
     "pushed_at": "2026-10-17T12:39:08",
@@ -5654,6 +5684,11 @@
     "source": "The Verge",
     "title": "我今年买的最好的小工具是一个奶泡器"
   },
+  "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code": {
+    "pushed_at": "2026-10-31T17:33:23",
+    "source": "The Verge",
+    "title": "I built an AI Tamagotchi before Meta could"
+  },
   "https://www.theverge.com/gadgets/1015568/samsung-the-frame-tv-2026-deal-sale": {
     "pushed_at": "2026-10-21T17:59:17",
     "source": "The Verge",
@@ -5858,6 +5893,11 @@
     "pushed_at": "2026-10-24T16:28:39",
     "source": "WIRED",
     "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable"
+  },
+  "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware": {
+    "pushed_at": "2026-10-31T17:33:23",
+    "source": "WIRED",
+    "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims"
   },
   "https://www.wired.com/story/magnesium-may-not-reach-your-brain-despite-supplement-label-promises": {
     "pushed_at": "2026-10-18T11:04:31",
