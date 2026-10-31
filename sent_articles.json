@@ -179,6 +179,11 @@
     "source": "Ars Technica",
     "title": "火箭报告：FAA考虑增加Starbase航班；印度Skyroot吸引美国客户"
   },
+  "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know": {
+    "pushed_at": "2026-10-31T06:23:01",
+    "source": "Ars Technica",
+    "title": "Once again, NASA is asking for ideas to rescue Hubble from certain death"
+  },
   "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th": {
     "pushed_at": "2026-10-29T06:34:04",
     "source": "Ars Technica",
@@ -388,6 +393,11 @@
     "pushed_at": "2026-10-16T03:11:03",
     "source": "Artificial Intelligence",
     "title": "Manage private pricing offers for Amazon Bedrock with managed entitlements"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/managing-amazon-bedrock-costs-end-to-end-a-playbook-for-finops-and-platform-teams": {
+    "pushed_at": "2026-10-31T06:23:01",
+    "source": "Artificial Intelligence",
+    "title": "Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams"
   },
   "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart": {
     "pushed_at": "2026-10-16T02:35:43",
@@ -673,6 +683,11 @@
     "pushed_at": "2026-10-24T16:28:39",
     "source": "Cloudflare Blog",
     "title": "Bringing post-quantum cryptography to geographically fenced key management"
+  },
+  "https://blog.cloudflare.com/private-origins-public-to-private": {
+    "pushed_at": "2026-10-31T06:23:01",
+    "source": "Cloudflare Blog",
+    "title": "Cloudflare services for private origins is now generally available"
   },
   "https://blog.cloudflare.com/programmable-gateway-dlp": {
     "pushed_at": "2026-10-15T19:43:58",
@@ -1659,6 +1674,11 @@
     "source": "ElevenLabs Blog",
     "title": "Trinity Logistics gets 25% higher margins on shipments booked with ElevenAgents"
   },
+  "https://elevenlabs.io/blog/warm-transfer-vs-cold-transfer": {
+    "pushed_at": "2026-10-31T06:23:01",
+    "source": "ElevenLabs Blog",
+    "title": "Warm transfer vs cold transfer: choosing the right call"
+  },
   "https://elevenlabs.io/blog/webinar-recap-reaching-at-risk-patients-when-minutes-matter": {
     "pushed_at": "2026-10-22T05:32:57",
     "source": "ElevenLabs Blog",
@@ -2183,6 +2203,11 @@
     "pushed_at": "2026-10-26T19:04:50",
     "source": "OpenAI News",
     "title": "ChatGPT’s expanding world of work"
+  },
+  "https://openai.com/index/community-safety-report-and-new-protections-for-teens": {
+    "pushed_at": "2026-10-31T06:23:01",
+    "source": "OpenAI News",
+    "title": "Community safety report and new protections for teens"
   },
   "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities": {
     "pushed_at": "2026-10-26T05:28:48",
@@ -3389,6 +3414,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "You don’t need to believe in a god to get a religious exemption from using AI at work"
   },
+  "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia": {
+    "pushed_at": "2026-10-31T06:23:01",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia"
+  },
   "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text": {
     "pushed_at": "2026-10-30T18:29:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3448,6 +3478,11 @@
     "pushed_at": "2026-10-17T02:56:42",
     "source": "Vercel News",
     "title": "Vercel 上的 Python 现已全面可用"
+  },
+  "https://vercel.com/blog/simplifying-runtime-caching-on-vercel": {
+    "pushed_at": "2026-10-31T06:23:01",
+    "source": "Vercel News",
+    "title": "Simplifying runtime caching on Vercel"
   },
   "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers": {
     "pushed_at": "2026-10-17T02:32:48",
@@ -5689,6 +5724,11 @@
     "source": "The Verge",
     "title": "Google’s satellite AI server transmits its first response to Earth"
   },
+  "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3": {
+    "pushed_at": "2026-10-31T06:23:01",
+    "source": "The Verge",
+    "title": "Apple Intelligence is finally coming to China with iOS 27.3"
+  },
   "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "The Verge",
@@ -5793,6 +5833,11 @@
     "pushed_at": "2026-10-26T05:28:48",
     "source": "WIRED",
     "title": "Scientists Trapped an Antimatter Particle for Months to Study Its Secrets"
+  },
+  "https://www.wired.com/story/wayfair-promo-code": {
+    "pushed_at": "2026-10-31T06:23:01",
+    "source": "WIRED",
+    "title": "Wayfair Coupons: Up to 80% Off November 2026"
   },
   "https://www.wired.com/story/what-to-know-about-chinas-top-secret-spaceplane": {
     "pushed_at": "2026-10-30T06:33:33",
