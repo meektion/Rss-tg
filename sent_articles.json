@@ -119,6 +119,11 @@
     "source": "Ars Technica",
     "title": "为什么BioWare的《无冬之夜》仍有数千名活跃玩家"
   },
+  "https://arstechnica.com/health/2026/10/flesh-eating-screwworms-are-feasting-on-pets-4-dogs-and-cat-attacked-this-week": {
+    "pushed_at": "2026-11-01T18:18:39",
+    "source": "Ars Technica",
+    "title": "Flesh-eating screwworms spread to third state and are attacking pets"
+  },
   "https://arstechnica.com/health/2026/10/rfk-jr-proposes-fda-look-the-other-way-on-unproven-peptides-report-says": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Ars Technica",
@@ -273,6 +278,11 @@
     "pushed_at": "2026-10-21T05:26:23",
     "source": "Artificial Intelligence",
     "title": "超越KV缓存：在AWS Trainium2上使用原生PyTorch训练和部署i14的Laplace 3B线性注意力模型"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro": {
+    "pushed_at": "2026-11-01T18:18:39",
+    "source": "Artificial Intelligence",
+    "title": "Build a repeatable PHP-to-Java migration engine with Kiro"
   },
   "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock": {
     "pushed_at": "2026-10-16T03:38:54",
@@ -1574,6 +1584,11 @@
     "source": "ElevenLabs Blog",
     "title": "Conversational AI in banking: Use cases, benefits, examples"
   },
+  "https://elevenlabs.io/blog/cue-aligner": {
+    "pushed_at": "2026-11-01T18:18:39",
+    "source": "ElevenLabs Blog",
+    "title": "How your transcript knows where each word is spoken"
+  },
   "https://elevenlabs.io/blog/elevenagents-architect": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "ElevenLabs Blog",
@@ -2248,6 +2263,11 @@
     "pushed_at": "2026-10-26T05:28:48",
     "source": "OpenAI News",
     "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities"
+  },
+  "https://openai.com/index/credit-saison": {
+    "pushed_at": "2026-11-01T18:18:39",
+    "source": "OpenAI News",
+    "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot"
   },
   "https://openai.com/index/decisions-api": {
     "pushed_at": "2026-10-23T05:31:01",
@@ -3499,6 +3519,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Zest’s new AI agent finds restaurants and books reservations over text"
   },
+  "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale": {
+    "pushed_at": "2026-11-01T18:18:39",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale"
+  },
   "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake": {
     "pushed_at": "2026-11-01T06:55:36",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3648,6 +3673,11 @@
     "pushed_at": "2026-10-17T02:56:42",
     "source": "Vercel News",
     "title": "介绍 Token Pass"
+  },
+  "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free": {
+    "pushed_at": "2026-11-01T18:18:39",
+    "source": "Vercel News",
+    "title": "Ling 3.1 Flash 1019 now available on AI Gateway for free"
   },
   "https://vercel.com/changelog/liquid-ais-d1-ultra-now-available-on-ai-gateway": {
     "pushed_at": "2026-10-17T03:49:37",
@@ -5954,6 +5984,11 @@
     "source": "The Verge",
     "title": "Apple Intelligence is finally coming to China with iOS 27.3"
   },
+  "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features": {
+    "pushed_at": "2026-11-01T18:18:39",
+    "source": "The Verge",
+    "title": "Apple’s HomeView could add security camera features"
+  },
   "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "The Verge",
@@ -5964,10 +5999,20 @@
     "source": "Hacker News: Front Page",
     "title": "AI公司正瞄准水管工行业"
   },
+  "https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism": {
+    "pushed_at": "2026-11-01T18:18:39",
+    "source": "Hacker News: Front Page",
+    "title": "Patrick Stewart taught us what good men do with power"
+  },
   "https://www.wired.com/gallery/best-gifts-for-manly-men-2026": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "WIRED",
     "title": "2026年送给男士、男子汉及真汉子们的20份最佳礼物"
+  },
+  "https://www.wired.com/gallery/best-star-wars-gifts": {
+    "pushed_at": "2026-11-01T18:18:39",
+    "source": "WIRED",
+    "title": "The 30 Best Gifts for Star Wars Fans (2026)"
   },
   "https://www.wired.com/gallery/best-white-elephant-gifts-2026": {
     "pushed_at": "2026-10-19T09:57:33",
