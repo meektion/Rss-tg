@@ -159,6 +159,11 @@
     "source": "Ars Technica",
     "title": "Seabirds racing home over the ocean can get jet-lagged"
   },
+  "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy": {
+    "pushed_at": "2026-11-01T06:55:36",
+    "source": "Ars Technica",
+    "title": "The FDA wants to pull its approval of a drug. It’s not so easy."
+  },
   "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Ars Technica",
@@ -298,6 +303,11 @@
     "pushed_at": "2026-10-18T03:38:50",
     "source": "Artificial Intelligence",
     "title": "构建AI代理的信任：基于Amazon Bedrock AgentCore的生产级评估框架"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us": {
+    "pushed_at": "2026-11-01T06:55:36",
+    "source": "Artificial Intelligence",
+    "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)"
   },
   "https://aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick": {
     "pushed_at": "2026-10-22T17:55:28",
@@ -1569,6 +1579,11 @@
     "source": "ElevenLabs Blog",
     "title": "介绍ElevenAgents架构师"
   },
+  "https://elevenlabs.io/blog/elevenlabs-adela": {
+    "pushed_at": "2026-11-01T06:55:36",
+    "source": "ElevenLabs Blog",
+    "title": "ElevenLabs and adELA bring free voice restoration to Spain"
+  },
   "https://elevenlabs.io/blog/elevenlabs-singapore": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "ElevenLabs Blog",
@@ -1938,6 +1953,11 @@
     "pushed_at": "2026-10-18T13:11:04",
     "source": "Hacker News: Front Page",
     "title": "Open MicroManipulator——一个亚微米级3D运动控制平台"
+  },
+  "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing": {
+    "pushed_at": "2026-11-01T06:55:36",
+    "source": "Hacker News: Front Page",
+    "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing"
   },
   "https://lwn.net/Articles/1101143": {
     "pushed_at": "2026-10-19T09:57:33",
@@ -2333,6 +2353,11 @@
     "pushed_at": "2026-10-28T06:23:08",
     "source": "OpenAI News",
     "title": "Retell uses OpenAI models to help power 100M monthly calls"
+  },
+  "https://openai.com/index/ropes-gray-ai-diligence": {
+    "pushed_at": "2026-11-01T06:55:36",
+    "source": "OpenAI News",
+    "title": "How Ropes & Gray is developing AI for transactional diligence"
   },
   "https://openai.com/index/scaling-storage-one-billion-users-part-two": {
     "pushed_at": "2026-10-23T17:46:57",
@@ -3459,6 +3484,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Zest’s new AI agent finds restaurants and books reservations over text"
   },
+  "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake": {
+    "pushed_at": "2026-11-01T06:55:36",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’"
+  },
   "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round": {
     "pushed_at": "2026-10-31T17:33:23",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3693,6 +3723,11 @@
     "pushed_at": "2026-10-17T03:49:37",
     "source": "Vercel News",
     "title": "Vercel Connect 现已支持 Secure Compute"
+  },
+  "https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings": {
+    "pushed_at": "2026-11-01T06:55:36",
+    "source": "Vercel News",
+    "title": "Vercel Daemons can now call services with bindings"
   },
   "https://vercel.com/changelog/vercel-daemons-is-now-in-public-beta": {
     "pushed_at": "2026-10-17T03:49:37",
@@ -5704,6 +5739,11 @@
     "source": "The Verge",
     "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk"
   },
+  "https://www.theverge.com/entertainment/1024096/halloween-spirit-youtube-horror": {
+    "pushed_at": "2026-11-01T06:55:36",
+    "source": "The Verge",
+    "title": "Get in the spirit with these horrors from YouTube"
+  },
   "https://www.theverge.com/gadgets/1013105/pikmin-4-nintendo-switch-deal-sale": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Verge",
@@ -5908,6 +5948,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "WIRED",
     "title": "数据中心有了新的公关计划：让你孩子去实地参观"
+  },
+  "https://www.wired.com/story/govee-christmas-lights-deal-october-2026": {
+    "pushed_at": "2026-11-01T06:55:36",
+    "source": "WIRED",
+    "title": "Govee Christmas Lights 2 Deal: Save $25 on These Smart String Lights"
   },
   "https://www.wired.com/story/grok-says-its-ai-generated-version-of-the-odyssey-is-not-historically-accurate": {
     "pushed_at": "2026-10-27T05:44:48",
