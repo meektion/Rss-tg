@@ -2709,10 +2709,20 @@
     "source": "Shopify Engineering",
     "title": "将 Checkout Blocks 应用升级至 Polaris Web 组件"
   },
+  "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first": {
+    "pushed_at": "2026-11-02T18:01:26",
+    "source": "Simon Willison's Weblog",
+    "title": "If in doubt, delete the uv.lock file"
+  },
   "https://simonwillison.net/2026/Nov/1/kyle-kingsbury": {
     "pushed_at": "2026-11-01T20:21:37",
     "source": "Simon Willison's Weblog",
     "title": "Quoting Kyle Kingsbury"
+  },
+  "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence": {
+    "pushed_at": "2026-11-02T18:01:26",
+    "source": "Simon Willison's Weblog",
+    "title": "The U.S. Census Bureau and “Super Intelligence”"
   },
   "https://simonwillison.net/2026/Oct/10/python-actions": {
     "pushed_at": "2026-10-16T04:09:05",
@@ -3059,6 +3069,11 @@
     "source": "少数派",
     "title": "怀旧手记｜坚果 Pro2 与 R1：当「理想」和「现实」碰撞会发生什么？"
   },
+  "https://sspai.com/post/115662": {
+    "pushed_at": "2026-11-02T18:01:24",
+    "source": "少数派",
+    "title": "Xnip 十周年：长截图的新生，也是新的起点"
+  },
   "https://sspai.com/post/115679": {
     "pushed_at": "2026-10-16T13:02:05",
     "source": "少数派",
@@ -3308,6 +3323,21 @@
     "pushed_at": "2026-10-31T14:25:23",
     "source": "少数派",
     "title": "本月玩什么｜影之刃零、战争机器：事变日等"
+  },
+  "https://sspai.com/post/118122": {
+    "pushed_at": "2026-11-02T18:01:24",
+    "source": "少数派",
+    "title": "TDS REVIEW｜Apple AirPods 5 半入耳降噪真无线耳机体验"
+  },
+  "https://sspai.com/post/118191": {
+    "pushed_at": "2026-11-02T18:01:24",
+    "source": "少数派",
+    "title": "派早报：Apple 智能将随 iOS 27.3 登陆中国"
+  },
+  "https://sspai.com/post/118240": {
+    "pushed_at": "2026-11-02T18:01:24",
+    "source": "少数派",
+    "title": "派评 | 近期值得关注的 App"
   },
   "https://sspai.com/post/92653": {
     "pushed_at": "2026-10-15T07:07:07",
@@ -5144,6 +5174,31 @@
     "source": "IT之家",
     "title": "米哈游生活模拟游戏《星布谷地》官宣 2027 年登陆任天堂 Switch 2"
   },
+  "https://www.ithome.com/1/021/275.htm": {
+    "pushed_at": "2026-11-02T18:01:21",
+    "source": "IT之家",
+    "title": "现代汽车 10 月销量为 32.98 万辆同比减少 6.3%，连续 13 个月下降"
+  },
+  "https://www.ithome.com/1/021/276.htm": {
+    "pushed_at": "2026-11-02T18:01:21",
+    "source": "IT之家",
+    "title": "一体化电视全国推广部署推进会召开，加快落实终端适配"
+  },
+  "https://www.ithome.com/1/021/277.htm": {
+    "pushed_at": "2026-11-02T18:01:21",
+    "source": "IT之家",
+    "title": "Anthropic 第三季度营收 170 亿美元同比暴涨 11 倍，冲刺史上最大 IPO"
+  },
+  "https://www.ithome.com/1/021/279.htm": {
+    "pushed_at": "2026-11-02T18:01:21",
+    "source": "IT之家",
+    "title": "起亚汽车 10 月全球总销量达到 29.12 万辆，同比增长 10.3%"
+  },
+  "https://www.ithome.com/1/021/280.htm": {
+    "pushed_at": "2026-11-02T18:01:21",
+    "source": "IT之家",
+    "title": "消息称 HomeView Ultra 硬件已定型两年，但苹果内部仍存在“分歧”"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -5728,6 +5783,31 @@
     "pushed_at": "2026-11-01T14:51:08",
     "source": "量子位",
     "title": "三年前布局，今年爆火丨西湖大学成立新中心"
+  },
+  "https://www.qbitai.com/2026/11/507107.html": {
+    "pushed_at": "2026-11-02T18:01:19",
+    "source": "量子位",
+    "title": "小米开源了个150元的AI小玩意，火到配件都涨价了"
+  },
+  "https://www.qbitai.com/2026/11/507150.html": {
+    "pushed_at": "2026-11-02T18:01:19",
+    "source": "量子位",
+    "title": "央视严选「中国AI创业十骏」：唯一AI制药公司是清华系"
+  },
+  "https://www.qbitai.com/2026/11/507225.html": {
+    "pushed_at": "2026-11-02T18:01:19",
+    "source": "量子位",
+    "title": "OpenAI重写大模型法则，第一条：忠于人类！！"
+  },
+  "https://www.qbitai.com/2026/11/507260.html": {
+    "pushed_at": "2026-11-02T18:01:19",
+    "source": "量子位",
+    "title": "从“能调用”到“敢托付”：仪电智算云 Token 工厂的三重可信"
+  },
+  "https://www.qbitai.com/2026/11/507277.html": {
+    "pushed_at": "2026-11-02T18:01:19",
+    "source": "量子位",
+    "title": "顶级AI翻车的活儿，被这个新出的免费国产AI接住了！"
   },
   "https://www.solidot.org/story?sid=85598": {
     "pushed_at": "2026-10-15T09:04:02",
