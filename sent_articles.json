@@ -134,6 +134,11 @@
     "source": "Ars Technica",
     "title": "据报道，小罗伯特·肯尼迪提议FDA对未经证实的肽类产品睁一只眼闭一只眼。"
   },
+  "https://arstechnica.com/health/2026/11/third-person-dies-of-bird-flu-since-virus-started-jumping-to-livestock": {
+    "pushed_at": "2026-11-02T22:13:47",
+    "source": "Ars Technica",
+    "title": "Third person dies of bird flu since virus started jumping to livestock"
+  },
   "https://arstechnica.com/reviews/2026/10/the-surface-laptop-ultra-delivers-on-most-of-microsofts-promises": {
     "pushed_at": "2026-10-18T13:11:04",
     "source": "Ars Technica",
@@ -464,6 +469,11 @@
     "source": "Artificial Intelligence",
     "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments"
   },
+  "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai": {
+    "pushed_at": "2026-11-02T22:13:47",
+    "source": "Artificial Intelligence",
+    "title": "Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI"
+  },
   "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime": {
     "pushed_at": "2026-10-31T17:33:23",
     "source": "Artificial Intelligence",
@@ -653,6 +663,11 @@
     "pushed_at": "2026-10-15T19:44:00",
     "source": "Cloudflare Blog",
     "title": "使用Void部署"
+  },
+  "https://blog.cloudflare.com/dns-targeted-zone-builds": {
+    "pushed_at": "2026-11-02T22:13:47",
+    "source": "Cloudflare Blog",
+    "title": "How we halved DNS build delay and cut memory use by 85%"
   },
   "https://blog.cloudflare.com/emudhra-certificate-compromise": {
     "pushed_at": "2026-10-21T05:26:23",
@@ -858,6 +873,11 @@
     "pushed_at": "2026-10-16T03:10:55",
     "source": "AI",
     "title": "New experts join Google’s AI & Economy team"
+  },
+  "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026": {
+    "pushed_at": "2026-11-02T22:13:47",
+    "source": "AI",
+    "title": "The latest AI news we announced in October 2026"
   },
   "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026": {
     "pushed_at": "2026-10-16T02:35:35",
@@ -1504,6 +1524,11 @@
     "source": "Google DeepMind News",
     "title": "Gemini 3.8 text-to-speech says hello"
   },
+  "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai": {
+    "pushed_at": "2026-11-02T22:13:47",
+    "source": "Google DeepMind News",
+    "title": "Speeding up planning decisions with AI"
+  },
   "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Dropbox Tech Blog",
@@ -1673,6 +1698,11 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "ElevenLabs Blog",
     "title": "JavaScript语音识别教程：打造语音用户体验"
+  },
+  "https://elevenlabs.io/blog/kpn-mobiel-ai": {
+    "pushed_at": "2026-11-02T22:13:47",
+    "source": "ElevenLabs Blog",
+    "title": "How KPN is bringing voice AI to the Netherlands' entrepreneurs with Mobiel AI"
   },
   "https://elevenlabs.io/blog/lettuce": {
     "pushed_at": "2026-10-28T18:42:37",
@@ -2318,6 +2348,11 @@
     "pushed_at": "2026-10-27T05:44:48",
     "source": "OpenAI News",
     "title": "Greptile takes bug detection beyond code review with GPT-6 Astra"
+  },
+  "https://openai.com/index/grid-protectors-program": {
+    "pushed_at": "2026-11-02T22:13:47",
+    "source": "OpenAI News",
+    "title": "Introducing the Grid Protectors Program"
   },
   "https://openai.com/index/helping-websites-express-ai-training-preferences": {
     "pushed_at": "2026-10-30T18:29:01",
@@ -3599,6 +3634,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’"
   },
+  "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees": {
+    "pushed_at": "2026-11-02T22:13:47",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Web host Squarespace lays off 19% of its employees"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3763,6 +3803,11 @@
     "pushed_at": "2026-10-19T16:26:14",
     "source": "Vercel News",
     "title": "MiniMax M3.1 Flash 现已在 AI Gateway 上免费提供"
+  },
+  "https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt": {
+    "pushed_at": "2026-11-02T22:13:47",
+    "source": "Vercel News",
+    "title": "Vercel MCP now renders deployments as an interactive card"
   },
   "https://vercel.com/changelog/muse-spark-open-now-available-on-ai-gateway": {
     "pushed_at": "2026-10-17T03:49:37",
@@ -6144,6 +6189,11 @@
     "source": "The Verge",
     "title": "Apple’s HomeView could add security camera features"
   },
+  "https://www.theverge.com/tech/1024748/apple-q4-2026-iphone-sales-earnings": {
+    "pushed_at": "2026-11-02T22:13:47",
+    "source": "The Verge",
+    "title": "Apple set an iPhone sales record even without a new standard iPhone"
+  },
   "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "The Verge",
@@ -6203,6 +6253,11 @@
     "pushed_at": "2026-10-19T07:40:51",
     "source": "WIRED",
     "title": "2026年冬季室内植物最佳LED生长灯"
+  },
+  "https://www.wired.com/story/burga-sale-november-2026": {
+    "pushed_at": "2026-11-02T22:13:47",
+    "source": "WIRED",
+    "title": "How to Save $25 on Burga’s Phone Accessories With This Sale"
   },
   "https://www.wired.com/story/climate-change-has-it-in-for-the-worlds-best-surfing": {
     "pushed_at": "2026-10-18T13:11:04",
