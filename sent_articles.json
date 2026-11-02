@@ -74,6 +74,11 @@
     "source": "Ars Technica",
     "title": "特斯拉再次尝试Roadster，转向50年前的 stunt 技术"
   },
+  "https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart": {
+    "pushed_at": "2026-11-02T06:56:32",
+    "source": "Ars Technica",
+    "title": "Oh captain, our captain: Ars staff remembers Patrick Stewart"
+  },
   "https://arstechnica.com/culture/2026/10/warner-bros-drops-final-trailer-for-dune-part-three": {
     "pushed_at": "2026-10-27T18:36:18",
     "source": "Ars Technica",
@@ -413,6 +418,11 @@
     "pushed_at": "2026-10-16T19:20:12",
     "source": "Artificial Intelligence",
     "title": "推出 Reflection Beam：一个用于 AWS 上智能体编程的开源权重模型"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs": {
+    "pushed_at": "2026-11-02T06:56:32",
+    "source": "Artificial Intelligence",
+    "title": "Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs"
   },
   "https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements": {
     "pushed_at": "2026-10-16T03:11:03",
@@ -1719,6 +1729,11 @@
     "source": "ElevenLabs Blog",
     "title": "Trinity Logistics gets 25% higher margins on shipments booked with ElevenAgents"
   },
+  "https://elevenlabs.io/blog/voice-ai-for-karnataka": {
+    "pushed_at": "2026-11-02T06:56:32",
+    "source": "ElevenLabs Blog",
+    "title": "Voice AI for Karnataka"
+  },
   "https://elevenlabs.io/blog/warm-transfer-vs-cold-transfer": {
     "pushed_at": "2026-10-31T06:23:01",
     "source": "ElevenLabs Blog",
@@ -1953,6 +1968,11 @@
     "pushed_at": "2026-10-29T06:34:04",
     "source": "The GitHub Blog",
     "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents"
+  },
+  "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift": {
+    "pushed_at": "2026-11-02T06:56:32",
+    "source": "The GitHub Blog",
+    "title": "Game Off 2026: The theme is SHIFT"
   },
   "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills": {
     "pushed_at": "2026-10-22T17:55:28",
@@ -2333,6 +2353,11 @@
     "pushed_at": "2026-10-16T03:38:44",
     "source": "OpenAI News",
     "title": "LegalOn halves Codex costs while maintaining development speed"
+  },
+  "https://openai.com/index/legora": {
+    "pushed_at": "2026-11-02T06:56:32",
+    "source": "OpenAI News",
+    "title": "Legora is building the agentic operating system for legal work"
   },
   "https://openai.com/index/openai-models-google-cloud": {
     "pushed_at": "2026-10-21T17:59:17",
@@ -3539,6 +3564,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "OpenAI reportedly lowers funding target for new round"
   },
+  "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses": {
+    "pushed_at": "2026-11-02T06:56:32",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3613,6 +3643,11 @@
     "pushed_at": "2026-10-17T02:32:48",
     "source": "Vercel News",
     "title": "Vercel Ship 2026 回顾"
+  },
+  "https://vercel.com/changelog/add-liveness-checks-to-your-daemons": {
+    "pushed_at": "2026-11-02T06:56:32",
+    "source": "Vercel News",
+    "title": "Add liveness checks to your Daemons"
   },
   "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity": {
     "pushed_at": "2026-10-18T03:04:27",
@@ -3798,6 +3833,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Hacker News: Front Page",
     "title": "Matthew Prince谈Cloudflare为何提供免费版本且将始终如此（2016）"
+  },
+  "https://wikihack.netlify.app": {
+    "pushed_at": "2026-11-02T06:56:32",
+    "source": "Hacker News: Front Page",
+    "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN"
   },
   "https://www.appinn.com/10-tools-github": {
     "pushed_at": "2026-10-15T07:08:13",
@@ -6004,6 +6044,11 @@
     "source": "The Verge",
     "title": "Microsoft is ending Copilot support on smart TVs"
   },
+  "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate": {
+    "pushed_at": "2026-11-02T06:56:32",
+    "source": "The Verge",
+    "title": "Jackery made its portable power stations even smaller"
+  },
   "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission": {
     "pushed_at": "2026-10-30T18:29:01",
     "source": "The Verge",
@@ -6088,6 +6133,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "WIRED",
     "title": "数据中心有了新的公关计划：让你孩子去实地参观"
+  },
+  "https://www.wired.com/story/google-vids-free-video-editor-inside-google-drive": {
+    "pushed_at": "2026-11-02T06:56:32",
+    "source": "WIRED",
+    "title": "There’s a Free Video Editor Inside Google Drive That Anyone Can Use"
   },
   "https://www.wired.com/story/govee-christmas-lights-deal-october-2026": {
     "pushed_at": "2026-11-01T06:55:36",
