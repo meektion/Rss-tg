@@ -264,6 +264,11 @@
     "source": "Ars Technica",
     "title": "新泽西州检察官被指是制作AI儿童性虐待材料的“thegentlemanpervert"
   },
+  "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms": {
+    "pushed_at": "2026-11-03T19:59:38",
+    "source": "Ars Technica",
+    "title": "NYT demands Brave shut down its paywall blocker and end deals with AI firms"
+  },
   "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan": {
     "pushed_at": "2026-10-16T03:38:54",
     "source": "Artificial Intelligence",
@@ -293,6 +298,11 @@
     "pushed_at": "2026-10-21T05:26:23",
     "source": "Artificial Intelligence",
     "title": "超越KV缓存：在AWS Trainium2上使用原生PyTorch训练和部署i14的Laplace 3B线性注意力模型"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick": {
+    "pushed_at": "2026-11-03T19:59:38",
+    "source": "Artificial Intelligence",
+    "title": "Bring structured and unstructured data together with Amazon Quick"
   },
   "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro": {
     "pushed_at": "2026-11-01T18:18:39",
@@ -819,6 +829,11 @@
     "source": "Cloudflare Blog",
     "title": "Yandex宕机：数据显示，恶意机器人并没有关闭，而是继续移动"
   },
+  "https://blog.cloudflare.com/zero-wire": {
+    "pushed_at": "2026-11-03T19:59:38",
+    "source": "Cloudflare Blog",
+    "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities"
+  },
   "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026": {
     "pushed_at": "2026-10-21T05:26:23",
     "source": "AI",
@@ -1224,6 +1239,11 @@
     "source": "NVIDIA Blog",
     "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals"
   },
+  "https://blogs.nvidia.com/blog/ai-semiconductor-fabs": {
+    "pushed_at": "2026-11-03T19:59:38",
+    "source": "NVIDIA Blog",
+    "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It"
+  },
   "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications": {
     "pushed_at": "2026-11-03T07:19:04",
     "source": "NVIDIA Blog",
@@ -1433,6 +1453,11 @@
     "pushed_at": "2026-10-16T03:10:53",
     "source": "Google DeepMind News",
     "title": "Advancing Private AI Compute with secure, server-side memory"
+  },
+  "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity": {
+    "pushed_at": "2026-11-03T19:59:38",
+    "source": "Google DeepMind News",
+    "title": "Agentic cheminformatics with Google Antigravity"
   },
   "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome": {
     "pushed_at": "2026-10-16T03:38:47",
@@ -1794,6 +1819,11 @@
     "source": "ElevenLabs Blog",
     "title": "网络研讨会回顾：关键时刻触达高风险患者"
   },
+  "https://elevenlabs.io/blog/what-is-call-transcription": {
+    "pushed_at": "2026-11-03T19:59:38",
+    "source": "ElevenLabs Blog",
+    "title": "What is call transcription? A practical business guide"
+  },
   "https://elevenlabs.io/blog/what-is-conversation-intelligence": {
     "pushed_at": "2026-10-18T11:04:31",
     "source": "ElevenLabs Blog",
@@ -1939,6 +1969,11 @@
     "source": "Engineering at Meta",
     "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale"
   },
+  "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production": {
+    "pushed_at": "2026-11-03T19:59:38",
+    "source": "Engineering at Meta",
+    "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale"
+  },
   "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out": {
     "pushed_at": "2026-10-15T09:04:53",
     "source": "The GitHub Blog",
@@ -2023,6 +2058,11 @@
     "pushed_at": "2026-11-02T06:56:32",
     "source": "The GitHub Blog",
     "title": "Game Off 2026: The theme is SHIFT"
+  },
+  "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world": {
+    "pushed_at": "2026-11-03T19:59:38",
+    "source": "The GitHub Blog",
+    "title": "Arnis turns any place on Earth into a Minecraft world"
   },
   "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills": {
     "pushed_at": "2026-10-22T17:55:28",
@@ -2288,6 +2328,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Ollama",
     "title": "Claude Code 中的子代理与网页搜索"
+  },
+  "https://openai.com/index/accelerating-engineering-for-the-physical-world": {
+    "pushed_at": "2026-11-03T19:59:38",
+    "source": "OpenAI News",
+    "title": "Accelerating engineering for the physical world"
   },
   "https://openai.com/index/amp-beyond-coding": {
     "pushed_at": "2026-10-16T02:35:32",
@@ -3704,6 +3749,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Web host Squarespace lays off 19% of its employees"
   },
+  "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges": {
+    "pushed_at": "2026-11-03T19:59:38",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "AI inference startup Fal doubles its valuation to $16B as demand surges"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3933,6 +3983,11 @@
     "pushed_at": "2026-10-29T06:34:04",
     "source": "Vercel News",
     "title": "Vercel CI is now in beta"
+  },
+  "https://vercel.com/changelog/vercel-ci-no-longer-requires-a-linked-vercel-project": {
+    "pushed_at": "2026-11-03T19:59:38",
+    "source": "Vercel News",
+    "title": "Vercel CI no longer requires a linked Vercel project"
   },
   "https://vercel.com/changelog/vercel-cli-adds-spend-management": {
     "pushed_at": "2026-10-24T05:08:35",
@@ -6318,6 +6373,11 @@
     "pushed_at": "2026-11-03T07:19:04",
     "source": "The Verge",
     "title": "Apple is ‘not able to predict’ when it’ll have enough iPhone Duos to go around"
+  },
+  "https://www.theverge.com/tech/1025673/casio-digital-piano-keyboard-ct-fs1-feel-sync-technology": {
+    "pushed_at": "2026-11-03T19:59:38",
+    "source": "The Verge",
+    "title": "You can’t hit a wrong note when playing along with songs on Casio’s new keyboard"
   },
   "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance": {
     "pushed_at": "2026-10-18T04:13:01",
