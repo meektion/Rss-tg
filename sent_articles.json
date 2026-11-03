@@ -2784,6 +2784,21 @@
     "source": "Simon Willison's Weblog",
     "title": "The U.S. Census Bureau and “Super Intelligence”"
   },
+  "https://simonwillison.net/2026/Nov/2/llm": {
+    "pushed_at": "2026-11-03T15:59:33",
+    "source": "Simon Willison's Weblog",
+    "title": "llm 0.37"
+  },
+  "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location": {
+    "pushed_at": "2026-11-03T15:59:33",
+    "source": "Simon Willison's Weblog",
+    "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube"
+  },
+  "https://simonwillison.net/2026/Nov/3/october-newsletter": {
+    "pushed_at": "2026-11-03T15:59:33",
+    "source": "Simon Willison's Weblog",
+    "title": "October sponsors-only newsletter"
+  },
   "https://simonwillison.net/2026/Oct/10/python-actions": {
     "pushed_at": "2026-10-16T04:09:05",
     "source": "Simon Willison's Weblog",
@@ -3394,10 +3409,30 @@
     "source": "少数派",
     "title": "派早报：Apple 智能将随 iOS 27.3 登陆中国"
   },
+  "https://sspai.com/post/118211": {
+    "pushed_at": "2026-11-03T15:59:31",
+    "source": "少数派",
+    "title": "Disc Image Studio：你想不想在光盘上「画」点什么？"
+  },
+  "https://sspai.com/post/118232": {
+    "pushed_at": "2026-11-03T15:59:31",
+    "source": "少数派",
+    "title": "派早报：猛玛推出探境 3 直播相机、美团发布 LongCat-2.5 模型等"
+  },
   "https://sspai.com/post/118240": {
     "pushed_at": "2026-11-02T18:01:24",
     "source": "少数派",
     "title": "派评 | 近期值得关注的 App"
+  },
+  "https://sspai.com/post/118263": {
+    "pushed_at": "2026-11-03T15:59:31",
+    "source": "少数派",
+    "title": "一眼的熟悉，满眼的惊喜：新款 iPad mini 首发体验"
+  },
+  "https://sspai.com/post/118317": {
+    "pushed_at": "2026-11-03T15:59:31",
+    "source": "少数派",
+    "title": "社区速递 164 | 1500 元圆梦昔日卡皇与派友们做的 AI 平替"
   },
   "https://sspai.com/post/92653": {
     "pushed_at": "2026-10-15T07:07:07",
@@ -5279,6 +5314,31 @@
     "source": "IT之家",
     "title": "消息称 HomeView Ultra 硬件已定型两年，但苹果内部仍存在“分歧”"
   },
+  "https://www.ithome.com/1/021/851.htm": {
+    "pushed_at": "2026-11-03T15:59:29",
+    "source": "IT之家",
+    "title": "华晨宝马 330L 新车申报，搭载 B48B20N 2.0T 涡轮增压发动机"
+  },
+  "https://www.ithome.com/1/021/852.htm": {
+    "pushed_at": "2026-11-03T15:59:29",
+    "source": "IT之家",
+    "title": "别克 ELECTRA GS 新车申报：溜背轿跑造型，1.5T 插混动力"
+  },
+  "https://www.ithome.com/1/021/853.htm": {
+    "pushed_at": "2026-11-03T15:59:29",
+    "source": "IT之家",
+    "title": "广汽埃安 AION V 纯电 SUV 新车申报：165kW + 磷酸铁锂电池"
+  },
+  "https://www.ithome.com/1/021/854.htm": {
+    "pushed_at": "2026-11-03T15:59:29",
+    "source": "IT之家",
+    "title": "长安林肯飞行家 AVIATOR EX8 新车申报：搭载 1.5T 插混动力，磷酸铁锂电池"
+  },
+  "https://www.ithome.com/1/021/855.htm": {
+    "pushed_at": "2026-11-03T15:59:29",
+    "source": "IT之家",
+    "title": "荣威家越 06 新车申报：纯电 / 插混动力 SUV，可选锰基锂电池版本"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -5888,6 +5948,31 @@
     "pushed_at": "2026-11-02T18:01:19",
     "source": "量子位",
     "title": "顶级AI翻车的活儿，被这个新出的免费国产AI接住了！"
+  },
+  "https://www.qbitai.com/2026/11/507410.html": {
+    "pushed_at": "2026-11-03T15:59:25",
+    "source": "量子位",
+    "title": "苹果被曝的新产品，中国央企8个月前已装进公共卫生间"
+  },
+  "https://www.qbitai.com/2026/11/507419.html": {
+    "pushed_at": "2026-11-03T15:59:25",
+    "source": "量子位",
+    "title": "纯语音Personal Agent来了！或许，这就是乔布斯心中的Siri"
+  },
+  "https://www.qbitai.com/2026/11/507448.html": {
+    "pushed_at": "2026-11-03T15:59:25",
+    "source": "量子位",
+    "title": "模型谁都买得到，拉开差距的是AI生产力系统"
+  },
+  "https://www.qbitai.com/2026/11/507473.html": {
+    "pushed_at": "2026-11-03T15:59:25",
+    "source": "量子位",
+    "title": "智己LS8纯电版背后：8年研发底盘，两大厂联合开发电池"
+  },
+  "https://www.qbitai.com/2026/11/507507.html": {
+    "pushed_at": "2026-11-03T15:59:25",
+    "source": "量子位",
+    "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓"
   },
   "https://www.solidot.org/story?sid=85598": {
     "pushed_at": "2026-10-15T09:04:02",
