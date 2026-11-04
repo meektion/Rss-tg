@@ -264,6 +264,11 @@
     "source": "Ars Technica",
     "title": "新泽西州检察官被指是制作AI儿童性虐待材料的“thegentlemanpervert"
   },
+  "https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws": {
+    "pushed_at": "2026-11-04T07:00:59",
+    "source": "Ars Technica",
+    "title": "California fights \"preposterous\" Trump admin demand to scrap state broadband laws"
+  },
   "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms": {
     "pushed_at": "2026-11-03T19:59:38",
     "source": "Ars Technica",
@@ -508,6 +513,11 @@
     "pushed_at": "2026-10-22T05:32:57",
     "source": "Artificial Intelligence",
     "title": "使用AWS PrivateLink保障企业网络对Quick的快速访问"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway": {
+    "pushed_at": "2026-11-04T07:00:59",
+    "source": "Artificial Intelligence",
+    "title": "ServiceNow on-behalf-of token exchange with Bedrock AgentCore Gateway"
   },
   "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod": {
     "pushed_at": "2026-10-16T03:44:18",
@@ -1794,6 +1804,11 @@
     "source": "ElevenLabs Blog",
     "title": "定义AI代理如何与你的业务交互"
   },
+  "https://elevenlabs.io/blog/synthetic-voices": {
+    "pushed_at": "2026-11-04T07:00:59",
+    "source": "ElevenLabs Blog",
+    "title": "How are synthetic voices created for natural speech?"
+  },
   "https://elevenlabs.io/blog/telus-digital-early-cancellations": {
     "pushed_at": "2026-10-30T18:29:01",
     "source": "ElevenLabs Blog",
@@ -2368,6 +2383,11 @@
     "pushed_at": "2026-10-26T19:04:50",
     "source": "OpenAI News",
     "title": "ChatGPT’s expanding world of work"
+  },
+  "https://openai.com/index/cisco-cyber": {
+    "pushed_at": "2026-11-04T07:00:59",
+    "source": "OpenAI News",
+    "title": "How Cisco defends at machine speed with OpenAI"
   },
   "https://openai.com/index/community-safety-report-and-new-protections-for-teens": {
     "pushed_at": "2026-10-31T06:23:01",
@@ -3759,6 +3779,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "AI inference startup Fal doubles its valuation to $16B as demand surges"
   },
+  "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity": {
+    "pushed_at": "2026-11-04T07:00:59",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Anthropic is working on a system to prove AI models’ identity"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4028,6 +4053,11 @@
     "pushed_at": "2026-10-17T04:48:12",
     "source": "Vercel News",
     "title": "Vercel Drives 现已全面可用"
+  },
+  "https://vercel.com/changelog/vercel-security-review-public-beta": {
+    "pushed_at": "2026-11-04T07:00:59",
+    "source": "Vercel News",
+    "title": "Vercel Security Review now in public beta"
   },
   "https://vercel.com/changelog/websocket-support-is-now-generally-available": {
     "pushed_at": "2026-10-21T05:26:23",
@@ -6434,6 +6464,11 @@
     "source": "The Verge",
     "title": "You can’t hit a wrong note when playing along with songs on Casio’s new keyboard"
   },
+  "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc": {
+    "pushed_at": "2026-11-04T07:00:59",
+    "source": "The Verge",
+    "title": "AMD rides data center riches to ‘largest and most profitable’ quarter in history"
+  },
   "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "The Verge",
@@ -6513,6 +6548,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "WIRED",
     "title": "数据中心有了新的公关计划：让你孩子去实地参观"
+  },
+  "https://www.wired.com/story/doordash-promo-code": {
+    "pushed_at": "2026-11-04T07:00:59",
+    "source": "WIRED",
+    "title": "50% Off DoorDash Promo Code | November 2026"
   },
   "https://www.wired.com/story/google-vids-free-video-editor-inside-google-drive": {
     "pushed_at": "2026-11-02T06:56:32",
