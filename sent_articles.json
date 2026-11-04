@@ -274,6 +274,11 @@
     "source": "Ars Technica",
     "title": "NYT demands Brave shut down its paywall blocker and end deals with AI firms"
   },
+  "https://arstechnica.com/tech-policy/2026/11/ted-cruz-aims-to-put-another-republican-on-fcc-in-senates-lame-duck-session": {
+    "pushed_at": "2026-11-04T20:20:27",
+    "source": "Ars Technica",
+    "title": "Ted Cruz aims to stack FCC with Republicans before Democrats take Senate control"
+  },
   "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan": {
     "pushed_at": "2026-10-16T03:38:54",
     "source": "Artificial Intelligence",
@@ -529,6 +534,11 @@
     "source": "Artificial Intelligence",
     "title": "Trust in Depth: Giving agents more autonomy without losing control"
   },
+  "https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations": {
+    "pushed_at": "2026-11-04T20:20:27",
+    "source": "Artificial Intelligence",
+    "title": "Use decision models with Amazon Bedrock AgentCore Evaluations"
+  },
   "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps": {
     "pushed_at": "2026-10-24T16:28:39",
     "source": "Artificial Intelligence",
@@ -753,6 +763,11 @@
     "pushed_at": "2026-10-24T05:08:35",
     "source": "Cloudflare Blog",
     "title": "Origin Range Requests: Serving large files without range-request tuning"
+  },
+  "https://blog.cloudflare.com/personal-agents-visibility-control": {
+    "pushed_at": "2026-11-04T20:20:27",
+    "source": "Cloudflare Blog",
+    "title": "See the agents, set the terms: new visibility and control for personal agents"
   },
   "https://blog.cloudflare.com/php-ctf": {
     "pushed_at": "2026-10-27T18:36:18",
@@ -1634,6 +1649,11 @@
     "source": "ElevenLabs Blog",
     "title": "AI语音代理集成：CRM与帮助台指南"
   },
+  "https://elevenlabs.io/blog/ai-voice-agent-pricing-guide": {
+    "pushed_at": "2026-11-04T20:20:27",
+    "source": "ElevenLabs Blog",
+    "title": "AI voice agent pricing: What it costs for your business"
+  },
   "https://elevenlabs.io/blog/angle-health": {
     "pushed_at": "2026-11-03T07:19:04",
     "source": "ElevenLabs Blog",
@@ -2493,6 +2513,11 @@
     "pushed_at": "2026-10-29T06:34:04",
     "source": "OpenAI News",
     "title": "OpenAI and ServiceNow expand partnership across enterprise workflows"
+  },
+  "https://openai.com/index/openai-to-acquire-pierre": {
+    "pushed_at": "2026-11-04T20:20:27",
+    "source": "OpenAI News",
+    "title": "OpenAI to acquire Pierre Computer Company, Inc."
   },
   "https://openai.com/index/oracle": {
     "pushed_at": "2026-10-16T03:38:44",
@@ -3814,6 +3839,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "一位从Nvidia内部转行的风投人谈为何机器人技术尚未迎来其ChatGPT时刻"
   },
+  "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits": {
+    "pushed_at": "2026-11-04T20:20:27",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Open source AI is booming. Hugging Face explains who profits."
+  },
   "https://vercel.com/blog/ai-gateway-production-index-october-2026": {
     "pushed_at": "2026-10-17T02:32:48",
     "source": "Vercel News",
@@ -3888,6 +3918,11 @@
     "pushed_at": "2026-10-18T03:04:27",
     "source": "Vercel News",
     "title": "AI Gateway 日志现在显示会话亲和性"
+  },
+  "https://vercel.com/changelog/atomic-start-hooks-in-the-workflow-sdk": {
+    "pushed_at": "2026-11-04T20:20:27",
+    "source": "Vercel News",
+    "title": "Workflow SDK adds idempotent starts"
   },
   "https://vercel.com/changelog/basetens-mammoth-1-and-elephant-1-now-available-on-ai-gateway-for-free": {
     "pushed_at": "2026-10-22T05:32:57",
@@ -6379,6 +6414,11 @@
     "source": "The Verge",
     "title": "三星最新的55英寸Frame TV降至迄今最低价"
   },
+  "https://www.theverge.com/gadgets/1025370/google-pixel-11-pro-phone-deal-sale": {
+    "pushed_at": "2026-11-04T20:20:27",
+    "source": "The Verge",
+    "title": "Google’s Pixel 11 phones are up to 27 percent off"
+  },
   "https://www.theverge.com/news/1014455/amd-fsr-4-1-xbox-consoles-handhelds-laptops": {
     "pushed_at": "2026-10-20T17:52:02",
     "source": "The Verge",
@@ -6618,6 +6658,11 @@
     "pushed_at": "2026-11-04T07:00:59",
     "source": "WIRED",
     "title": "50% Off DoorDash Promo Code | November 2026"
+  },
+  "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out": {
+    "pushed_at": "2026-11-04T20:20:27",
+    "source": "WIRED",
+    "title": "Google Is Forcing AI Overviews in Classrooms. Schools Are Searching for a Way Out"
   },
   "https://www.wired.com/story/google-vids-free-video-editor-inside-google-drive": {
     "pushed_at": "2026-11-02T06:56:32",
