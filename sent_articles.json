@@ -2904,6 +2904,16 @@
     "source": "Simon Willison's Weblog",
     "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube"
   },
+  "https://simonwillison.net/2026/Nov/3/datasette-agent": {
+    "pushed_at": "2026-11-05T16:18:21",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette-agent 0.5a0"
+  },
+  "https://simonwillison.net/2026/Nov/3/llm": {
+    "pushed_at": "2026-11-05T16:18:21",
+    "source": "Simon Willison's Weblog",
+    "title": "llm 0.37.1"
+  },
   "https://simonwillison.net/2026/Nov/3/october-newsletter": {
     "pushed_at": "2026-11-03T15:59:33",
     "source": "Simon Willison's Weblog",
@@ -2913,6 +2923,16 @@
     "pushed_at": "2026-11-03T21:38:58",
     "source": "Simon Willison's Weblog",
     "title": "Qwen 3.8 27B on my laptop can interpret model weights, too"
+  },
+  "https://simonwillison.net/2026/Nov/4/datasette-apps": {
+    "pushed_at": "2026-11-05T16:18:21",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette-apps 0.3a0"
+  },
+  "https://simonwillison.net/2026/Nov/4/datasette-llm": {
+    "pushed_at": "2026-11-05T16:18:21",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette-llm 0.1a10"
   },
   "https://simonwillison.net/2026/Oct/10/python-actions": {
     "pushed_at": "2026-10-16T04:09:05",
@@ -3233,6 +3253,11 @@
     "pushed_at": "2026-10-15T06:33:22",
     "source": "少数派",
     "title": "家中、这里、那里——Sonos Play 体验"
+  },
+  "https://sspai.com/post/115399": {
+    "pushed_at": "2026-11-05T16:18:19",
+    "source": "少数派",
+    "title": "Apple 官网排版细节鉴赏"
   },
   "https://sspai.com/post/115400": {
     "pushed_at": "2026-10-15T07:07:15",
@@ -3569,10 +3594,30 @@
     "source": "少数派",
     "title": "国行 Apple 智能上手：这些功能已经准备好"
   },
+  "https://sspai.com/post/118498": {
+    "pushed_at": "2026-11-05T16:18:19",
+    "source": "少数派",
+    "title": "派早报：腾讯发布混元 Hy4 正式版，Google 调整 K-12 教育 AI 政策等"
+  },
+  "https://sspai.com/post/118541": {
+    "pushed_at": "2026-11-05T16:18:19",
+    "source": "少数派",
+    "title": "新玩意 255｜少数派的编辑们最近买了啥？"
+  },
+  "https://sspai.com/post/118546": {
+    "pushed_at": "2026-11-05T16:18:19",
+    "source": "少数派",
+    "title": "开启 Mac 的下一世代：MacBook Pro (PROLED XDR) 首发体验"
+  },
   "https://sspai.com/post/92653": {
     "pushed_at": "2026-10-15T07:07:07",
     "source": "少数派",
     "title": "已经能测夜间体征的 Apple Watch，为什么要再做一个睡眠呼吸暂停提醒"
+  },
+  "https://sspai.com/prime/story/30-easy-steamed-dishes": {
+    "pushed_at": "2026-11-05T16:18:19",
+    "source": "少数派",
+    "title": "不用困在厨房也能做出好饭：三十道省事家常蒸菜"
   },
   "https://sspai.com/prime/story/how-to-analyze-health-data-with-agent": {
     "pushed_at": "2026-10-29T15:02:43",
@@ -5569,6 +5614,31 @@
     "source": "IT之家",
     "title": "微信鸿蒙版 App 推 8.0.23.34 正式版更新，更多用户灰度合并发图功能"
   },
+  "https://www.ithome.com/1/023/019.htm": {
+    "pushed_at": "2026-11-05T16:18:16",
+    "source": "IT之家",
+    "title": "荣耀 700 系列手机盲盒周边曝光：背屏设计确认，消息称标准版搭载骁龙 8s Gen4 处理器"
+  },
+  "https://www.ithome.com/1/023/020.htm": {
+    "pushed_at": "2026-11-05T16:18:16",
+    "source": "IT之家",
+    "title": "22999 元起：苹果首款触屏 MacBook Pro 正式开售，可选 M5 Pro/M5 Max 芯片"
+  },
+  "https://www.ithome.com/1/023/021.htm": {
+    "pushed_at": "2026-11-05T16:18:16",
+    "source": "IT之家",
+    "title": "5499 元起：苹果 iPad mini 8 开售，A20 Pro 芯片（国补后到手价约 4999 元起）"
+  },
+  "https://www.ithome.com/1/023/022.htm": {
+    "pushed_at": "2026-11-05T16:18:16",
+    "source": "IT之家",
+    "title": "12499 元 / 15999 元起：苹果 M6 芯片款 iMac、MacBook Pro 开售"
+  },
+  "https://www.ithome.com/1/023/023.htm": {
+    "pushed_at": "2026-11-05T16:18:16",
+    "source": "IT之家",
+    "title": "Epic 喜加一：《浮游世界》游戏免费领取"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -6248,6 +6318,31 @@
     "pushed_at": "2026-11-04T16:03:53",
     "source": "量子位",
     "title": "不靠堆砌数据，让机器人看懂真实物理世界 | 招商局狮子山实验室发布「驭物™ Lion-ER-35B-A3B」具身推理模型"
+  },
+  "https://www.qbitai.com/2026/11/507696.html": {
+    "pushed_at": "2026-11-05T16:18:14",
+    "source": "量子位",
+    "title": "基于本体+知识+Harness+Datat Agent的智能体完整落地链路！"
+  },
+  "https://www.qbitai.com/2026/11/507757.html": {
+    "pushed_at": "2026-11-05T16:18:14",
+    "source": "量子位",
+    "title": "无标题"
+  },
+  "https://www.qbitai.com/2026/11/507767.html": {
+    "pushed_at": "2026-11-05T16:18:14",
+    "source": "量子位",
+    "title": "以“真实工作”检验机器人价值，XROGO在CeMAT ASIA发布机器人到岗计划"
+  },
+  "https://www.qbitai.com/2026/11/507782.html": {
+    "pushed_at": "2026-11-05T16:18:14",
+    "source": "量子位",
+    "title": "MIT神作被锤：Astra爆改Qwen权重？就吹吧！"
+  },
+  "https://www.qbitai.com/2026/11/507787.html": {
+    "pushed_at": "2026-11-05T16:18:14",
+    "source": "量子位",
+    "title": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA"
   },
   "https://www.solidot.org/story?sid=85598": {
     "pushed_at": "2026-10-15T09:04:02",
