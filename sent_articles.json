@@ -124,6 +124,11 @@
     "source": "Ars Technica",
     "title": "为什么BioWare的《无冬之夜》仍有数千名活跃玩家"
   },
+  "https://arstechnica.com/gaming/2026/11/the-tech-memory-shortage-comes-for-nintendos-cartridge-supply-chain": {
+    "pushed_at": "2026-11-05T07:27:46",
+    "source": "Ars Technica",
+    "title": "Nintendo's biggest ROM chip supplier is bowing out of the business"
+  },
   "https://arstechnica.com/health/2026/10/flesh-eating-screwworms-are-feasting-on-pets-4-dogs-and-cat-attacked-this-week": {
     "pushed_at": "2026-11-01T18:18:39",
     "source": "Ars Technica",
@@ -528,6 +533,11 @@
     "pushed_at": "2026-10-16T03:44:18",
     "source": "Artificial Intelligence",
     "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/smart-approvals-in-amazon-quick-human-oversight-where-it-matters": {
+    "pushed_at": "2026-11-05T07:27:46",
+    "source": "Artificial Intelligence",
+    "title": "Smart Approvals in Amazon Quick: Human oversight where it matters"
   },
   "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control": {
     "pushed_at": "2026-10-16T02:35:43",
@@ -1724,6 +1734,11 @@
     "source": "ElevenLabs Blog",
     "title": "坎贝尔女男爵借助ElevenLabs在英国议会发表了首次AI配音演讲"
   },
+  "https://elevenlabs.io/blog/fix-speech-to-text-accuracy-problems": {
+    "pushed_at": "2026-11-05T07:27:46",
+    "source": "ElevenLabs Blog",
+    "title": "Fix speech to text accuracy problems with a smarter workflow"
+  },
   "https://elevenlabs.io/blog/how-text-to-speech-technology-works": {
     "pushed_at": "2026-10-27T05:44:48",
     "source": "ElevenLabs Blog",
@@ -2423,6 +2438,11 @@
     "pushed_at": "2026-11-01T18:18:39",
     "source": "OpenAI News",
     "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot"
+  },
+  "https://openai.com/index/daybreak-red-aws-govcloud": {
+    "pushed_at": "2026-11-05T07:27:46",
+    "source": "OpenAI News",
+    "title": "Daybreak Red is now available in AWS GovCloud (US-East)"
   },
   "https://openai.com/index/decisions-api": {
     "pushed_at": "2026-10-23T05:31:01",
@@ -3829,6 +3849,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Anthropic is working on a system to prove AI models’ identity"
   },
+  "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage": {
+    "pushed_at": "2026-11-05T07:27:46",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Apple is reportedly cutting budgets for its internal AI usage"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3984,6 +4009,11 @@
     "source": "Vercel News",
     "title": "介绍 Token Pass"
   },
+  "https://vercel.com/changelog/kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway": {
+    "pushed_at": "2026-11-05T07:27:46",
+    "source": "Vercel News",
+    "title": "Kimi K3.1 Pro now has more ZDR providers on AI Gateway"
+  },
   "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free": {
     "pushed_at": "2026-11-01T18:18:39",
     "source": "Vercel News",
@@ -4128,6 +4158,11 @@
     "pushed_at": "2026-11-02T06:56:32",
     "source": "Hacker News: Front Page",
     "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN"
+  },
+  "https://www.altera.com/newsroom/agilex-2x": {
+    "pushed_at": "2026-11-05T07:27:46",
+    "source": "Hacker News: Front Page",
+    "title": "Altera Announces Agilex 2X, a Complete FPGA and SoC Portfolio"
   },
   "https://www.appinn.com/10-tools-github": {
     "pushed_at": "2026-10-15T07:08:13",
@@ -6419,6 +6454,11 @@
     "source": "The Verge",
     "title": "Google’s Pixel 11 phones are up to 27 percent off"
   },
+  "https://www.theverge.com/games/1026380/zelda-ocarina-of-time-interview-eiji-aonuma-hidemaro-fujibayashi": {
+    "pushed_at": "2026-11-05T07:27:46",
+    "source": "The Verge",
+    "title": "Nintendo’s designers strove for ‘elegance’ when remaking Ocarina of Time"
+  },
   "https://www.theverge.com/news/1014455/amd-fsr-4-1-xbox-consoles-handhelds-laptops": {
     "pushed_at": "2026-10-20T17:52:02",
     "source": "The Verge",
@@ -6618,6 +6658,11 @@
     "pushed_at": "2026-10-29T18:50:59",
     "source": "WIRED",
     "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System"
+  },
+  "https://www.wired.com/story/a-new-uk-ban-sparks-fears-of-unprecedented-sex-censorship": {
+    "pushed_at": "2026-11-05T07:27:46",
+    "source": "WIRED",
+    "title": "A New UK Porn Ban Sparks Fears of Unprecedented Sex Censorship"
   },
   "https://www.wired.com/story/all-clad-factory-seconds-sale-october-2026": {
     "pushed_at": "2026-10-19T16:26:14",
