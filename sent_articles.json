@@ -404,6 +404,11 @@
     "source": "Artificial Intelligence",
     "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock"
   },
+  "https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai": {
+    "pushed_at": "2026-11-05T20:30:18",
+    "source": "Artificial Intelligence",
+    "title": "How Amazon Marketplace evaluates content quality with Amazon SageMaker AI"
+  },
   "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations": {
     "pushed_at": "2026-10-25T05:24:17",
     "source": "Artificial Intelligence",
@@ -839,6 +844,11 @@
     "source": "Cloudflare Blog",
     "title": "Filter, reshape, and redact logs before export with Transformers"
   },
+  "https://blog.cloudflare.com/trusted-agent-delegation": {
+    "pushed_at": "2026-11-05T20:30:18",
+    "source": "Cloudflare Blog",
+    "title": "Agents aren’t humans (but they kinda are)"
+  },
   "https://blog.cloudflare.com/typescript-rust-port": {
     "pushed_at": "2026-10-20T17:52:02",
     "source": "Cloudflare Blog",
@@ -978,6 +988,11 @@
     "pushed_at": "2026-10-16T03:38:49",
     "source": "AI",
     "title": "DevFest is back"
+  },
+  "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash": {
+    "pushed_at": "2026-11-05T20:30:18",
+    "source": "AI",
+    "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips"
   },
   "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026": {
     "pushed_at": "2026-10-16T03:44:11",
@@ -1474,6 +1489,11 @@
     "source": "NVIDIA Blog",
     "title": "NVIDIA Announces New Investments in the UK Startup Ecosystem"
   },
+  "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents": {
+    "pushed_at": "2026-11-05T20:30:18",
+    "source": "NVIDIA Blog",
+    "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents"
+  },
   "https://crystl.dev/guides/tmux-for-ai-agents": {
     "pushed_at": "2026-10-19T07:40:51",
     "source": "Hacker News: Front Page",
@@ -1533,6 +1553,11 @@
     "pushed_at": "2026-10-16T03:44:09",
     "source": "Google DeepMind News",
     "title": "Gemini Omni 1.1 Flash lets you build with more control"
+  },
+  "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips": {
+    "pushed_at": "2026-11-05T20:30:18",
+    "source": "Google DeepMind News",
+    "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips"
   },
   "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation": {
     "pushed_at": "2026-10-27T18:36:18",
@@ -1634,6 +1659,11 @@
     "source": "Dropbox Tech Blog",
     "title": "将我们的日历助手Reclaim演进为AI原生，无需从头开始"
   },
+  "https://dropbox.tech/machine-learning/how-two-engineer-side-projects-became-the-agent-taking-action-inside-dropbox": {
+    "pushed_at": "2026-11-05T20:30:18",
+    "source": "Dropbox Tech Blog",
+    "title": "How two engineer side projects became the agent taking action inside Dropbox"
+  },
   "https://dropbox.tech/machine-learning/how-we-turned-ai-evaluations-into-better-responses-in-dash-chat": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Dropbox Tech Blog",
@@ -1713,6 +1743,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "ElevenLabs Blog",
     "title": "介绍ElevenAgents架构师"
+  },
+  "https://elevenlabs.io/blog/elevenagents-contact-center-integrations": {
+    "pushed_at": "2026-11-05T20:30:18",
+    "source": "ElevenLabs Blog",
+    "title": "ElevenAgents integrates natively with leading contact center platforms to deliver enterprise-ready agents"
   },
   "https://elevenlabs.io/blog/elevenlabs-adela": {
     "pushed_at": "2026-11-01T06:55:36",
@@ -2074,6 +2109,11 @@
     "source": "The GitHub Blog",
     "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers"
   },
+  "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture": {
+    "pushed_at": "2026-11-05T20:30:18",
+    "source": "The GitHub Blog",
+    "title": "Inside GitHub’s new Git storage architecture"
+  },
   "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure": {
     "pushed_at": "2026-10-21T17:59:17",
     "source": "The GitHub Blog",
@@ -2148,6 +2188,11 @@
     "pushed_at": "2026-10-16T03:11:01",
     "source": "Apple Machine Learning Research",
     "title": "Minions：基于闲置苹果硅设备的动态分布式虚拟GPU云"
+  },
+  "https://machinelearning.apple.com/research/faster-retrieval": {
+    "pushed_at": "2026-11-05T20:30:18",
+    "source": "Apple Machine Learning Research",
+    "title": "Faster Retrieval for Better, More Efficient RAG"
   },
   "https://machinelearning.apple.com/research/gharp-head-animation": {
     "pushed_at": "2026-10-27T05:44:48",
@@ -2494,6 +2539,11 @@
     "source": "OpenAI News",
     "title": "How we detect frontier model misalignment"
   },
+  "https://openai.com/index/introducing-gpt-6-cyber": {
+    "pushed_at": "2026-11-05T20:30:18",
+    "source": "OpenAI News",
+    "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents"
+  },
   "https://openai.com/index/introducing-the-rosalind-academic-plan": {
     "pushed_at": "2026-10-16T02:35:32",
     "source": "OpenAI News",
@@ -2833,6 +2883,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Shopify Engineering",
     "title": "Quick：面向AI时代的内部托管平台"
+  },
+  "https://shopify.engineering/reflex": {
+    "pushed_at": "2026-11-05T20:30:18",
+    "source": "Shopify Engineering",
+    "title": "Reflex: an architecture for building mobile apps with agents"
   },
   "https://shopify.engineering/remote-dev": {
     "pushed_at": "2026-10-22T17:55:28",
@@ -3899,6 +3954,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Apple is reportedly cutting budgets for its internal AI usage"
   },
+  "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar": {
+    "pushed_at": "2026-11-05T20:30:18",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Meta says US users can now video chat with their Muse AI avatar"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4183,6 +4243,11 @@
     "pushed_at": "2026-10-17T04:48:12",
     "source": "Vercel News",
     "title": "Vercel Drives 现已全面可用"
+  },
+  "https://vercel.com/changelog/vercel-schedules-is-now-in-public-beta": {
+    "pushed_at": "2026-11-05T20:30:18",
+    "source": "Vercel News",
+    "title": "Vercel Schedules is now in public beta"
   },
   "https://vercel.com/changelog/vercel-security-review-public-beta": {
     "pushed_at": "2026-11-04T07:00:59",
@@ -6548,6 +6613,11 @@
     "pushed_at": "2026-11-04T20:20:27",
     "source": "The Verge",
     "title": "Google’s Pixel 11 phones are up to 27 percent off"
+  },
+  "https://www.theverge.com/gadgets/1027659/samsung-galaxy-z-fold-8-beats-pill-deal-sale": {
+    "pushed_at": "2026-11-05T20:30:18",
+    "source": "The Verge",
+    "title": "Samsung’s Galaxy Z Fold 8 is $300 off ahead of Black Friday"
   },
   "https://www.theverge.com/games/1026380/zelda-ocarina-of-time-interview-eiji-aonuma-hidemaro-fujibayashi": {
     "pushed_at": "2026-11-05T07:27:46",
