@@ -109,6 +109,11 @@
     "source": "Ars Technica",
     "title": "Updated Google privacy policy says your Gmail might be used for advertising"
   },
+  "https://arstechnica.com/gadgets/2026/11/artist-pulls-popular-screensaver-from-roku-os-because-of-fox-acquisition": {
+    "pushed_at": "2026-11-06T19:53:32",
+    "source": "Ars Technica",
+    "title": "Artist pulls popular screensaver from Roku OS because of Fox acquisition"
+  },
   "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games": {
     "pushed_at": "2026-10-23T05:31:01",
     "source": "Ars Technica",
@@ -534,6 +539,11 @@
     "source": "Artificial Intelligence",
     "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers"
   },
+  "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints": {
+    "pushed_at": "2026-11-06T19:53:32",
+    "source": "Artificial Intelligence",
+    "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints"
+  },
   "https://aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink": {
     "pushed_at": "2026-10-22T05:32:57",
     "source": "Artificial Intelligence",
@@ -868,6 +878,11 @@
     "pushed_at": "2026-10-16T13:02:08",
     "source": "Cloudflare Blog",
     "title": "对已验证机器人持续问责"
+  },
+  "https://blog.cloudflare.com/vole-mole": {
+    "pushed_at": "2026-11-06T19:53:32",
+    "source": "Cloudflare Blog",
+    "title": "The post-quantum future of web privacy"
   },
   "https://blog.cloudflare.com/webmcp-commerce": {
     "pushed_at": "2026-10-23T05:31:01",
@@ -1494,6 +1509,11 @@
     "source": "NVIDIA Blog",
     "title": "西班牙初创企业借助巴塞罗那超级计算中心推动区域创新"
   },
+  "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks": {
+    "pushed_at": "2026-11-06T19:53:32",
+    "source": "NVIDIA Blog",
+    "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks"
+  },
   "https://blogs.nvidia.com/blog/telecom-operators-open-models": {
     "pushed_at": "2026-10-16T03:38:50",
     "source": "NVIDIA Blog",
@@ -1878,6 +1898,11 @@
     "pushed_at": "2026-10-31T17:33:23",
     "source": "ElevenLabs Blog",
     "title": "Introducing SFX v3 in ElevenCreative and ElevenAPI"
+  },
+  "https://elevenlabs.io/blog/soundcloud": {
+    "pushed_at": "2026-11-06T19:53:32",
+    "source": "ElevenLabs Blog",
+    "title": "Share your ElevenMusic creations directly to SoundCloud"
   },
   "https://elevenlabs.io/blog/speech-to-text-for-content-creators": {
     "pushed_at": "2026-10-24T16:28:39",
@@ -2633,6 +2658,11 @@
     "pushed_at": "2026-10-27T18:36:18",
     "source": "OpenAI News",
     "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT"
+  },
+  "https://openai.com/index/partnering-with-hacktron": {
+    "pushed_at": "2026-11-06T19:53:32",
+    "source": "OpenAI News",
+    "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems"
   },
   "https://openai.com/index/pollo-ai": {
     "pushed_at": "2026-10-16T03:38:44",
@@ -4024,6 +4054,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M"
   },
+  "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web": {
+    "pushed_at": "2026-11-06T19:53:32",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4283,6 +4318,11 @@
     "pushed_at": "2026-10-24T05:08:35",
     "source": "Vercel News",
     "title": "Vercel CLI adds Spend Management"
+  },
+  "https://vercel.com/changelog/vercel-cli-can-now-set-new-projects-to-expire": {
+    "pushed_at": "2026-11-06T19:53:32",
+    "source": "Vercel News",
+    "title": "Vercel CLI can now set new projects to expire"
   },
   "https://vercel.com/changelog/vercel-connect-adds-enterprise-managed-authorization": {
     "pushed_at": "2026-10-17T04:48:12",
@@ -6744,6 +6784,11 @@
     "source": "The Verge",
     "title": "Samsung’s Galaxy Z Fold 8 is $300 off ahead of Black Friday"
   },
+  "https://www.theverge.com/gadgets/1028846/shure-mv7-plus-podcasting-streaming-mic-deal-sale": {
+    "pushed_at": "2026-11-06T19:53:32",
+    "source": "The Verge",
+    "title": "Shure’s popular podcasting and streaming mic is almost $50 off"
+  },
   "https://www.theverge.com/games/1026380/zelda-ocarina-of-time-interview-eiji-aonuma-hidemaro-fujibayashi": {
     "pushed_at": "2026-11-05T07:27:46",
     "source": "The Verge",
@@ -7058,6 +7103,11 @@
     "pushed_at": "2026-10-30T18:29:01",
     "source": "WIRED",
     "title": "People Are Creating ‘Survival Guides’ to Cope With the ‘AO3 Apocalypse’"
+  },
+  "https://www.wired.com/story/rocco-black-friday-sale-2026": {
+    "pushed_at": "2026-11-06T19:53:32",
+    "source": "WIRED",
+    "title": "Rocco’s Black Friday Sale: Smart Fridges Hit Their Lowest Prices of 2026"
   },
   "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets": {
     "pushed_at": "2026-10-26T05:28:48",
