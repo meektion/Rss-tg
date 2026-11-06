@@ -224,6 +224,11 @@
     "source": "Ars Technica",
     "title": "\"At Home in Space\" opens, caps Air and Space Museum renovation"
   },
+  "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance": {
+    "pushed_at": "2026-11-06T07:27:09",
+    "source": "Ars Technica",
+    "title": "Blue Origin says it is building a higher-performing rocket engine at 1/4 the cost"
+  },
   "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits": {
     "pushed_at": "2026-10-19T16:26:14",
     "source": "Ars Technica",
@@ -398,6 +403,11 @@
     "pushed_at": "2026-10-16T02:35:43",
     "source": "Artificial Intelligence",
     "title": "Generate presentations with Amazon Bedrock AgentCore"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore": {
+    "pushed_at": "2026-11-06T07:27:09",
+    "source": "Artificial Intelligence",
+    "title": "Getting started with Web Answer on Amazon Bedrock AgentCore"
   },
   "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock": {
     "pushed_at": "2026-10-27T05:44:48",
@@ -1464,6 +1474,11 @@
     "source": "NVIDIA Blog",
     "title": "当一个地区致力于高级计算时，北欧和NVIDIA展示了什么是可能的"
   },
+  "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk": {
+    "pushed_at": "2026-11-06T07:27:09",
+    "source": "NVIDIA Blog",
+    "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models"
+  },
   "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories": {
     "pushed_at": "2026-10-16T03:10:57",
     "source": "NVIDIA Blog",
@@ -1658,6 +1673,11 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "Dropbox Tech Blog",
     "title": "将我们的日历助手Reclaim演进为AI原生，无需从头开始"
+  },
+  "https://dropbox.tech/machine-learning/how-aiassisted-development-helped-us-build-the-new-dropbox-experience": {
+    "pushed_at": "2026-11-06T07:27:09",
+    "source": "Dropbox Tech Blog",
+    "title": "How AI-assisted development helped us build the new Dropbox experience"
   },
   "https://dropbox.tech/machine-learning/how-two-engineer-side-projects-became-the-agent-taking-action-inside-dropbox": {
     "pushed_at": "2026-11-05T20:30:18",
@@ -1863,6 +1883,11 @@
     "pushed_at": "2026-10-24T16:28:39",
     "source": "ElevenLabs Blog",
     "title": "Speech to text for content creators: A workflow guide for captions and repurposing"
+  },
+  "https://elevenlabs.io/blog/srt-file-guide": {
+    "pushed_at": "2026-11-06T07:27:09",
+    "source": "ElevenLabs Blog",
+    "title": "SRT file guide: Create, edit, and use subtitles in video"
   },
   "https://elevenlabs.io/blog/ssml-tags-explained": {
     "pushed_at": "2026-10-18T03:38:50",
@@ -2148,6 +2173,11 @@
     "pushed_at": "2026-11-02T06:56:32",
     "source": "The GitHub Blog",
     "title": "Game Off 2026: The theme is SHIFT"
+  },
+  "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github": {
+    "pushed_at": "2026-11-06T07:27:09",
+    "source": "The GitHub Blog",
+    "title": "Accessibility statements now have a home on GitHub"
   },
   "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world": {
     "pushed_at": "2026-11-03T19:59:38",
@@ -2443,6 +2473,11 @@
     "pushed_at": "2026-10-22T05:32:57",
     "source": "OpenAI News",
     "title": "AT&T如何借助OpenAI重新思考内部法律工作"
+  },
+  "https://openai.com/index/australian-universities-ai-native-graduates": {
+    "pushed_at": "2026-11-06T07:27:09",
+    "source": "OpenAI News",
+    "title": "Australian universities are creating AI-native graduates"
   },
   "https://openai.com/index/benefit-street-partners": {
     "pushed_at": "2026-10-17T05:43:14",
@@ -3959,6 +3994,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Meta says US users can now video chat with their Muse AI avatar"
   },
+  "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m": {
+    "pushed_at": "2026-11-06T07:27:09",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4188,6 +4228,11 @@
     "pushed_at": "2026-10-30T06:33:33",
     "source": "Vercel News",
     "title": "Strix now supports Vercel AI Gateway"
+  },
+  "https://vercel.com/changelog/token-pass-credit-now-applies-automatically-across-ai-gateway": {
+    "pushed_at": "2026-11-06T07:27:09",
+    "source": "Vercel News",
+    "title": "Token Pass credit now applies automatically across AI Gateway"
   },
   "https://vercel.com/changelog/updates-to-hobby-and-pro-terms-of-service": {
     "pushed_at": "2026-10-20T17:52:02",
@@ -6569,6 +6614,11 @@
     "source": "The Verge",
     "title": "You can generate and edit Google Docs files directly in Gemini chats now"
   },
+  "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda": {
+    "pushed_at": "2026-11-06T07:27:09",
+    "source": "The Verge",
+    "title": "OpenAI is stepping back from NDAs for data center projects"
+  },
   "https://www.theverge.com/entertainment/1013381/jad-abumrad-radiolab-dolly-parton-fela-kuti-podcast-interview": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Verge",
@@ -6803,6 +6853,11 @@
     "pushed_at": "2026-11-01T18:18:39",
     "source": "WIRED",
     "title": "The 30 Best Gifts for Star Wars Fans (2026)"
+  },
+  "https://www.wired.com/gallery/best-vpn": {
+    "pushed_at": "2026-11-06T07:27:09",
+    "source": "WIRED",
+    "title": "6 Best VPN Services (2026), Tested and Reviewed"
   },
   "https://www.wired.com/gallery/best-white-elephant-gifts-2026": {
     "pushed_at": "2026-10-19T09:57:33",
