@@ -194,6 +194,11 @@
     "source": "Ars Technica",
     "title": "The FDA wants to pull its approval of a drug. It’s not so easy."
   },
+  "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures": {
+    "pushed_at": "2026-11-07T17:58:10",
+    "source": "Ars Technica",
+    "title": "The Bantu expansion changed Africa. Scientists are still tracing how."
+  },
   "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "Ars Technica",
@@ -553,6 +558,11 @@
     "pushed_at": "2026-10-22T05:32:57",
     "source": "Artificial Intelligence",
     "title": "使用AWS PrivateLink保障企业网络对Quick的快速访问"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate": {
+    "pushed_at": "2026-11-07T17:58:10",
+    "source": "Artificial Intelligence",
+    "title": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate"
   },
   "https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway": {
     "pushed_at": "2026-11-04T07:00:59",
@@ -1414,6 +1424,11 @@
     "source": "NVIDIA Blog",
     "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW"
   },
+  "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5": {
+    "pushed_at": "2026-11-07T17:58:10",
+    "source": "NVIDIA Blog",
+    "title": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW"
+  },
   "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list": {
     "pushed_at": "2026-10-16T03:44:13",
     "source": "NVIDIA Blog",
@@ -1738,6 +1753,11 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "Dropbox Tech Blog",
     "title": "用我们的内部审计工具在数百个网络界面上测试cookie行为"
+  },
+  "https://elevenlabs.io/blog/ads-engine-human-review": {
+    "pushed_at": "2026-11-07T17:58:10",
+    "source": "ElevenLabs Blog",
+    "title": "Ads Engine adds human review from localization experts and creative specialists"
   },
   "https://elevenlabs.io/blog/ai-voice-agent-integrations": {
     "pushed_at": "2026-10-18T03:38:50",
@@ -2568,6 +2588,11 @@
     "pushed_at": "2026-11-01T18:18:39",
     "source": "OpenAI News",
     "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot"
+  },
+  "https://openai.com/index/cultfit-builds-with-codex": {
+    "pushed_at": "2026-11-07T17:58:10",
+    "source": "OpenAI News",
+    "title": "Cult.fit builds operational muscle with Codex"
   },
   "https://openai.com/index/daybreak-red-aws-govcloud": {
     "pushed_at": "2026-11-05T07:27:46",
@@ -4104,6 +4129,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web"
   },
+  "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation": {
+    "pushed_at": "2026-11-07T17:58:10",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4228,6 +4258,11 @@
     "pushed_at": "2026-10-17T12:39:08",
     "source": "Vercel News",
     "title": "DeepSeek V4.1 Flash 1017 现已在 AI Gateway 上线"
+  },
+  "https://vercel.com/changelog/deepseek-v4-1-flash-1017-ultrafast-now-available-on-ai-gateway": {
+    "pushed_at": "2026-11-07T17:58:10",
+    "source": "Vercel News",
+    "title": "DeepSeek V4.1 Flash 1017 Ultrafast now available on AI Gateway"
   },
   "https://vercel.com/changelog/deployments-now-show-build-cache-size": {
     "pushed_at": "2026-10-25T05:24:17",
@@ -7069,6 +7104,11 @@
     "source": "The Verge",
     "title": "Jackery made its portable power stations even smaller"
   },
+  "https://www.theverge.com/tech/1023230/the90-gem-necklace-hands-on-impressions": {
+    "pushed_at": "2026-11-07T17:58:10",
+    "source": "The Verge",
+    "title": "The UV-tracking Gem made me rethink how sunlight affects my health, not just my appearance"
+  },
   "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission": {
     "pushed_at": "2026-10-30T18:29:01",
     "source": "The Verge",
@@ -7228,6 +7268,11 @@
     "pushed_at": "2026-10-19T02:30:08",
     "source": "WIRED",
     "title": "加密技术正面临四面八方的挤压"
+  },
+  "https://www.wired.com/story/kernel-panic-refrigeration-hacks-internet-of-things": {
+    "pushed_at": "2026-11-07T17:58:10",
+    "source": "WIRED",
+    "title": "The Fridge-Hacking Spree Is an Internet-of-Things Wake-Up Call"
   },
   "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable": {
     "pushed_at": "2026-10-24T16:28:39",
