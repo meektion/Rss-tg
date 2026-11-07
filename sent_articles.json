@@ -144,6 +144,11 @@
     "source": "Ars Technica",
     "title": "据报道，小罗伯特·肯尼迪提议FDA对未经证实的肽类产品睁一只眼闭一只眼。"
   },
+  "https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain": {
+    "pushed_at": "2026-11-07T06:40:29",
+    "source": "Ars Technica",
+    "title": "Doctors pull knife from man's eye that went through his brain—and he's fine now"
+  },
   "https://arstechnica.com/health/2026/11/third-person-dies-of-bird-flu-since-virus-started-jumping-to-livestock": {
     "pushed_at": "2026-11-02T22:13:47",
     "source": "Ars Technica",
@@ -563,6 +568,11 @@
     "pushed_at": "2026-11-05T07:27:46",
     "source": "Artificial Intelligence",
     "title": "Smart Approvals in Amazon Quick: Human oversight where it matters"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick": {
+    "pushed_at": "2026-11-07T06:40:29",
+    "source": "Artificial Intelligence",
+    "title": "Taxonomy of agentic primitives in Amazon Quick"
   },
   "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control": {
     "pushed_at": "2026-10-16T02:35:43",
@@ -1474,6 +1484,11 @@
     "source": "NVIDIA Blog",
     "title": "NVIDIA 推进媒体领域智能体安全，从欧洲公共服务广播到全球内容生产"
   },
+  "https://blogs.nvidia.com/blog/memory-full-stack-codesign": {
+    "pushed_at": "2026-11-07T06:40:29",
+    "source": "NVIDIA Blog",
+    "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge"
+  },
   "https://blogs.nvidia.com/blog/minerva-platform-infrastructure": {
     "pushed_at": "2026-10-22T17:55:28",
     "source": "NVIDIA Blog",
@@ -1944,6 +1959,11 @@
     "source": "ElevenLabs Blog",
     "title": "Voice AI for Karnataka"
   },
+  "https://elevenlabs.io/blog/voice-ai-infrastructure-guide": {
+    "pushed_at": "2026-11-07T06:40:29",
+    "source": "ElevenLabs Blog",
+    "title": "Voice AI infrastructure: The 2026 stack explained"
+  },
   "https://elevenlabs.io/blog/warm-transfer-vs-cold-transfer": {
     "pushed_at": "2026-10-31T06:23:01",
     "source": "ElevenLabs Blog",
@@ -2113,6 +2133,11 @@
     "pushed_at": "2026-10-15T09:04:53",
     "source": "The GitHub Blog",
     "title": "AI is changing developer work. Here are three skills to strengthen."
+  },
+  "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering": {
+    "pushed_at": "2026-11-07T06:40:29",
+    "source": "The GitHub Blog",
+    "title": "Beyond code generation: A developer’s guide to agentic engineering"
   },
   "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase": {
     "pushed_at": "2026-10-15T08:14:38",
@@ -2628,6 +2653,11 @@
     "pushed_at": "2026-11-02T06:56:32",
     "source": "OpenAI News",
     "title": "Legora is building the agentic operating system for legal work"
+  },
+  "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science": {
+    "pushed_at": "2026-11-07T06:40:29",
+    "source": "OpenAI News",
+    "title": "Measuring how AI agents handle everyday wet-lab science"
   },
   "https://openai.com/index/openai-models-google-cloud": {
     "pushed_at": "2026-10-21T17:59:17",
@@ -4059,6 +4089,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M"
   },
+  "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google": {
+    "pushed_at": "2026-11-07T06:40:29",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Crusoe sells troubled Wyoming data center project to Google"
+  },
   "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web": {
     "pushed_at": "2026-11-06T19:53:32",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4218,6 +4253,11 @@
     "pushed_at": "2026-10-17T02:56:42",
     "source": "Vercel News",
     "title": "介绍 Token Pass"
+  },
+  "https://vercel.com/changelog/json-render-and-chat-sdk-agents": {
+    "pushed_at": "2026-11-07T06:40:29",
+    "source": "Vercel News",
+    "title": "Chat SDK agents can now stream generative UI with json-render"
   },
   "https://vercel.com/changelog/kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway": {
     "pushed_at": "2026-11-05T07:27:46",
@@ -6789,6 +6829,11 @@
     "source": "The Verge",
     "title": "OpenAI is stepping back from NDAs for data center projects"
   },
+  "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation": {
+    "pushed_at": "2026-11-07T06:40:29",
+    "source": "The Verge",
+    "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO"
+  },
   "https://www.theverge.com/entertainment/1013381/jad-abumrad-radiolab-dolly-parton-fela-kuti-podcast-interview": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Verge",
@@ -7088,6 +7133,11 @@
     "pushed_at": "2026-10-18T13:11:04",
     "source": "WIRED",
     "title": "气候变化对世界顶级冲浪胜地构成威胁"
+  },
+  "https://www.wired.com/story/cybertrucks-death-great-news-for-evs": {
+    "pushed_at": "2026-11-07T06:40:29",
+    "source": "WIRED",
+    "title": "The Cybertruck’s Death Is Actually Great News for EVs"
   },
   "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids": {
     "pushed_at": "2026-10-18T11:04:31",
