@@ -3144,6 +3144,11 @@
     "source": "Simon Willison's Weblog",
     "title": "Quoting Nilay Patel"
   },
+  "https://simonwillison.net/2026/Nov/7/link-rel-next": {
+    "pushed_at": "2026-11-08T14:53:33",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages"
+  },
   "https://simonwillison.net/2026/Oct/10/python-actions": {
     "pushed_at": "2026-10-16T04:09:05",
     "source": "Simon Willison's Weblog",
@@ -3763,6 +3768,11 @@
     "pushed_at": "2026-10-31T14:25:23",
     "source": "少数派",
     "title": "本月玩什么｜影之刃零、战争机器：事变日等"
+  },
+  "https://sspai.com/post/118114": {
+    "pushed_at": "2026-11-08T14:53:31",
+    "source": "少数派",
+    "title": "苹果产品那些不够颠覆，却值得被学习的细节"
   },
   "https://sspai.com/post/118122": {
     "pushed_at": "2026-11-02T18:01:24",
@@ -6034,6 +6044,31 @@
     "source": "IT之家",
     "title": "安卓阵营首款阔直板手机酷派 COOL X Wide 今日开售：999~1399 元，搭载联发科曦力 G99 芯片 + 720p 屏幕"
   },
+  "https://www.ithome.com/1/024/005.htm": {
+    "pushed_at": "2026-11-08T14:53:28",
+    "source": "IT之家",
+    "title": "李书福称吉利完全认同换电模式，“车电不同寿”的矛盾还没集中爆发"
+  },
+  "https://www.ithome.com/1/024/007.htm": {
+    "pushed_at": "2026-11-08T14:53:28",
+    "source": "IT之家",
+    "title": "李云飞：比亚迪今年全年销量预计略有增长，海外增长更高"
+  },
+  "https://www.ithome.com/1/024/008.htm": {
+    "pushed_at": "2026-11-08T14:53:28",
+    "source": "IT之家",
+    "title": "博世吴永桥：汽车不该拿来订咖啡、订机票，建议手机和车机划清边界"
+  },
+  "https://www.ithome.com/1/024/009.htm": {
+    "pushed_at": "2026-11-08T14:53:28",
+    "source": "IT之家",
+    "title": "当贝推出 H5 第二代电视盒子：升级全志 H626 处理器，469 元"
+  },
+  "https://www.ithome.com/1/024/010.htm": {
+    "pushed_at": "2026-11-08T14:53:28",
+    "source": "IT之家",
+    "title": "蚂蚁集团：旗下 AI 助手灵光用户数量已突破 2000 万，2.0 版本上线一周已帮助用户管理超 116 万项事务"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -6828,6 +6863,26 @@
     "pushed_at": "2026-11-07T14:46:22",
     "source": "量子位",
     "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？"
+  },
+  "https://www.qbitai.com/2026/11/508330.html": {
+    "pushed_at": "2026-11-08T14:53:27",
+    "source": "量子位",
+    "title": "为了去AI味，人类开始主动写烂文章了……"
+  },
+  "https://www.qbitai.com/2026/11/508344.html": {
+    "pushed_at": "2026-11-08T14:53:27",
+    "source": "量子位",
+    "title": "OpenAI新融资到账110亿美元，不及原计划一半"
+  },
+  "https://www.qbitai.com/2026/11/508449.html": {
+    "pushed_at": "2026-11-08T14:53:27",
+    "source": "量子位",
+    "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞"
+  },
+  "https://www.qbitai.com/2026/11/508466.html": {
+    "pushed_at": "2026-11-08T14:53:27",
+    "source": "量子位",
+    "title": "资本正在撤离“世界模型”"
   },
   "https://www.solidot.org/story?sid=85598": {
     "pushed_at": "2026-10-15T09:04:02",
