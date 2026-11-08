@@ -209,6 +209,11 @@
     "source": "Ars Technica",
     "title": "PHP警告称计划即将发布2个紧急补丁"
   },
+  "https://arstechnica.com/security/2026/11/british-soldier-ignored-order-to-pull-his-sim-card-then-got-blackmailed": {
+    "pushed_at": "2026-11-08T06:45:47",
+    "source": "Ars Technica",
+    "title": "British soldier ignored order to pull his SIM card, then got blackmailed"
+  },
   "https://arstechnica.com/space/2026/10/blue-origin-is-going-all-in-on-the-new-glenn-rocket": {
     "pushed_at": "2026-10-19T09:57:33",
     "source": "Ars Technica",
@@ -423,6 +428,11 @@
     "pushed_at": "2026-11-06T07:27:09",
     "source": "Artificial Intelligence",
     "title": "Getting started with Web Answer on Amazon Bedrock AgentCore"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2": {
+    "pushed_at": "2026-11-08T06:45:47",
+    "source": "Artificial Intelligence",
+    "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2"
   },
   "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock": {
     "pushed_at": "2026-10-27T05:44:48",
@@ -1974,6 +1984,11 @@
     "source": "ElevenLabs Blog",
     "title": "Trinity Logistics gets 25% higher margins on shipments booked with ElevenAgents"
   },
+  "https://elevenlabs.io/blog/unity-sdk-release": {
+    "pushed_at": "2026-11-08T06:45:47",
+    "source": "ElevenLabs Blog",
+    "title": "Give your Unity NPCs a voice with ElevenAgents"
+  },
   "https://elevenlabs.io/blog/voice-ai-for-karnataka": {
     "pushed_at": "2026-11-02T06:56:32",
     "source": "ElevenLabs Blog",
@@ -2268,6 +2283,11 @@
     "pushed_at": "2026-10-18T13:11:04",
     "source": "Hacker News: Front Page",
     "title": "Open MicroManipulator——一个亚微米级3D运动控制平台"
+  },
+  "https://imagesco.com/articles/kirlian/kirlian-photography.html": {
+    "pushed_at": "2026-11-08T06:45:47",
+    "source": "Hacker News: Front Page",
+    "title": "Kirlian Photography: Building Your Own Equipment"
   },
   "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing": {
     "pushed_at": "2026-11-01T06:55:36",
@@ -2683,6 +2703,11 @@
     "pushed_at": "2026-11-07T06:40:29",
     "source": "OpenAI News",
     "title": "Measuring how AI agents handle everyday wet-lab science"
+  },
+  "https://openai.com/index/merge-builds-with-openai": {
+    "pushed_at": "2026-11-08T06:45:47",
+    "source": "OpenAI News",
+    "title": "Merge builds product and business tools with OpenAI technology"
   },
   "https://openai.com/index/openai-models-google-cloud": {
     "pushed_at": "2026-10-21T17:59:17",
@@ -4134,6 +4159,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation"
   },
+  "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers": {
+    "pushed_at": "2026-11-08T06:45:47",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "After the midterms, things are looking rocky for Elon Musk and data centers"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4218,6 +4248,11 @@
     "pushed_at": "2026-11-02T06:56:32",
     "source": "Vercel News",
     "title": "Add liveness checks to your Daemons"
+  },
+  "https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools": {
+    "pushed_at": "2026-11-08T06:45:47",
+    "source": "Vercel News",
+    "title": "AI Gateway adds DeepSeek Search and Fetch tools"
   },
   "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity": {
     "pushed_at": "2026-10-18T03:04:27",
@@ -7019,6 +7054,11 @@
     "source": "The Verge",
     "title": "Shure’s popular podcasting and streaming mic is almost $50 off"
   },
+  "https://www.theverge.com/gadgets/1028917/legend-of-zelda-ocarina-of-time-remake-switch-2-costco-deal-sale": {
+    "pushed_at": "2026-11-08T06:45:47",
+    "source": "The Verge",
+    "title": "Costco members can get $5 off the reimagined Ocarina of Time"
+  },
   "https://www.theverge.com/games/1026380/zelda-ocarina-of-time-interview-eiji-aonuma-hidemaro-fujibayashi": {
     "pushed_at": "2026-11-05T07:27:46",
     "source": "The Verge",
@@ -7218,6 +7258,11 @@
     "pushed_at": "2026-10-19T09:57:33",
     "source": "WIRED",
     "title": "2026年15款最佳白象礼物，外加一个用来装它们的恶作剧盒子"
+  },
+  "https://www.wired.com/gallery/best-wifi-routers": {
+    "pushed_at": "2026-11-08T06:45:47",
+    "source": "WIRED",
+    "title": "Best Wi-Fi Routers (2026): My Honest Picks After Testing 50+"
   },
   "https://www.wired.com/review/valerion-visionmaster-max-4k-projector": {
     "pushed_at": "2026-10-18T11:04:31",
