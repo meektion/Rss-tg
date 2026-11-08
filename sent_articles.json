@@ -194,6 +194,11 @@
     "source": "Ars Technica",
     "title": "The FDA wants to pull its approval of a drug. It’s not so easy."
   },
+  "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery": {
+    "pushed_at": "2026-11-08T18:15:42",
+    "source": "Ars Technica",
+    "title": "Physicists listened to electrical noise to crack a superconductor mystery"
+  },
   "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures": {
     "pushed_at": "2026-11-07T17:58:10",
     "source": "Ars Technica",
@@ -428,6 +433,11 @@
     "pushed_at": "2026-11-06T07:27:09",
     "source": "Artificial Intelligence",
     "title": "Getting started with Web Answer on Amazon Bedrock AgentCore"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1": {
+    "pushed_at": "2026-11-08T18:15:42",
+    "source": "Artificial Intelligence",
+    "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 1"
   },
   "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2": {
     "pushed_at": "2026-11-08T06:45:47",
@@ -1939,6 +1949,11 @@
     "source": "ElevenLabs Blog",
     "title": "与任何人，以任何语言，实时交谈"
   },
+  "https://elevenlabs.io/blog/sfx-v3-for-developers": {
+    "pushed_at": "2026-11-08T18:15:42",
+    "source": "ElevenLabs Blog",
+    "title": "Introducing SFX v3 for developers"
+  },
   "https://elevenlabs.io/blog/sound-effects-v3": {
     "pushed_at": "2026-10-31T17:33:23",
     "source": "ElevenLabs Blog",
@@ -2783,6 +2798,11 @@
     "pushed_at": "2026-10-16T02:35:32",
     "source": "OpenAI News",
     "title": "SentinelOne cuts malware analysis from weeks to hours"
+  },
+  "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure": {
+    "pushed_at": "2026-11-08T18:15:42",
+    "source": "OpenAI News",
+    "title": "Setting a new standard for responsible AI infrastructure"
   },
   "https://openai.com/index/sharing-ai-progress-in-mathematics": {
     "pushed_at": "2026-10-16T03:44:07",
@@ -4174,6 +4194,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "After the midterms, things are looking rocky for Elon Musk and data centers"
   },
+  "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo": {
+    "pushed_at": "2026-11-08T18:15:42",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4494,6 +4519,11 @@
     "source": "Vercel News",
     "title": "Vercel Security Review now in public beta"
   },
+  "https://vercel.com/changelog/vercel-tracing-is-now-generally-available": {
+    "pushed_at": "2026-11-08T18:15:42",
+    "source": "Vercel News",
+    "title": "Vercel Tracing is now generally available"
+  },
   "https://vercel.com/changelog/websocket-support-is-now-generally-available": {
     "pushed_at": "2026-10-21T05:26:23",
     "source": "Vercel News",
@@ -4578,6 +4608,11 @@
     "pushed_at": "2026-10-15T06:34:21",
     "source": "小众软件",
     "title": "群晖发布重要更新： 7.4.1-90080 Update 1，修复未知漏洞｜important Update"
+  },
+  "https://www.bloomberg.com/features/2026-police-phone-tracking-advertising-tech": {
+    "pushed_at": "2026-11-08T18:15:42",
+    "source": "Hacker News: Front Page",
+    "title": "Ads in Popular Apps Give Police a Powerful Tool to Spy on Users"
   },
   "https://www.databricks.com/blog/databricks-visionary-gartnerr-magic-quadranttm-analytics-and-business-intelligence-platforms": {
     "pushed_at": "2026-10-15T09:05:03",
@@ -7054,6 +7089,11 @@
     "source": "The Verge",
     "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO"
   },
+  "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit": {
+    "pushed_at": "2026-11-08T18:15:42",
+    "source": "The Verge",
+    "title": "Elvis and Eminem rights holders are suing Suno"
+  },
   "https://www.theverge.com/entertainment/1013381/jad-abumrad-radiolab-dolly-parton-fela-kuti-podcast-interview": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Verge",
@@ -7293,6 +7333,11 @@
     "pushed_at": "2026-11-01T18:18:39",
     "source": "Hacker News: Front Page",
     "title": "Patrick Stewart taught us what good men do with power"
+  },
+  "https://www.wired.com/gallery/best-computer-speakers": {
+    "pushed_at": "2026-11-08T18:15:42",
+    "source": "WIRED",
+    "title": "8 Best Computer Speakers (2026) After Testing 30 Pairs"
   },
   "https://www.wired.com/gallery/best-gifts-for-manly-men-2026": {
     "pushed_at": "2026-10-18T11:04:31",
