@@ -114,6 +114,11 @@
     "source": "Ars Technica",
     "title": "Artist pulls popular screensaver from Roku OS because of Fox acquisition"
   },
+  "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump": {
+    "pushed_at": "2026-11-09T07:16:51",
+    "source": "Ars Technica",
+    "title": "Ships loiter near subsea cables amid Iran's warnings to Trump"
+  },
   "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games": {
     "pushed_at": "2026-10-23T05:31:01",
     "source": "Ars Technica",
@@ -463,6 +468,11 @@
     "pushed_at": "2026-10-19T16:26:14",
     "source": "Artificial Intelligence",
     "title": "Deepgram如何利用AWS Trainium大规模优化语音AI"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore": {
+    "pushed_at": "2026-11-09T07:16:51",
+    "source": "Artificial Intelligence",
+    "title": "How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore"
   },
   "https://aws.amazon.com/blogs/machine-learning/how-iskaypet-unified-corporate-knowledge-with-amazon-bedrock-managed-knowledge-bases": {
     "pushed_at": "2026-10-25T17:00:01",
@@ -1479,6 +1489,11 @@
     "source": "NVIDIA Blog",
     "title": "哈萨克斯坦扩展算力，布局AI未来"
   },
+  "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem": {
+    "pushed_at": "2026-11-09T07:16:51",
+    "source": "NVIDIA Blog",
+    "title": "Korea Advances Physical AI Across Industries With NVIDIA"
+  },
   "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync": {
     "pushed_at": "2026-10-16T03:44:13",
     "source": "NVIDIA Blog",
@@ -2013,6 +2028,11 @@
     "pushed_at": "2026-11-07T06:40:29",
     "source": "ElevenLabs Blog",
     "title": "Voice AI infrastructure: The 2026 stack explained"
+  },
+  "https://elevenlabs.io/blog/voice-wins-complex-stressful-conversations": {
+    "pushed_at": "2026-11-09T07:16:51",
+    "source": "ElevenLabs Blog",
+    "title": "Why voice wins for complex, stressful conversations"
   },
   "https://elevenlabs.io/blog/warm-transfer-vs-cold-transfer": {
     "pushed_at": "2026-10-31T06:23:01",
@@ -2558,6 +2578,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "Ollama",
     "title": "Claude Code 中的子代理与网页搜索"
+  },
+  "https://openai.com/ads/customers/flipsnack": {
+    "pushed_at": "2026-11-09T07:16:51",
+    "source": "OpenAI News",
+    "title": "Flipsnack grows product signups with conversion optimization"
   },
   "https://openai.com/index/accelerating-engineering-for-the-physical-world": {
     "pushed_at": "2026-11-03T19:59:38",
@@ -4199,6 +4224,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo"
   },
+  "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50": {
+    "pushed_at": "2026-11-09T07:16:51",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4353,6 +4383,11 @@
     "pushed_at": "2026-10-17T12:39:08",
     "source": "Vercel News",
     "title": "Elorian AI的Glimpse现已在AI Gateway上线"
+  },
+  "https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway": {
+    "pushed_at": "2026-11-09T07:16:51",
+    "source": "Vercel News",
+    "title": "Ampersand from Humans& now available on AI Gateway"
   },
   "https://vercel.com/changelog/improved-ip-geolocation-data": {
     "pushed_at": "2026-10-29T18:50:59",
@@ -7119,6 +7154,11 @@
     "source": "The Verge",
     "title": "Elvis and Eminem rights holders are suing Suno"
   },
+  "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia": {
+    "pushed_at": "2026-11-09T07:16:51",
+    "source": "The Verge",
+    "title": "Here’s the full text of Jensen Huang’s memo to Nvidia"
+  },
   "https://www.theverge.com/entertainment/1013381/jad-abumrad-radiolab-dolly-parton-fela-kuti-podcast-interview": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Verge",
@@ -7533,6 +7573,11 @@
     "pushed_at": "2026-10-31T06:23:01",
     "source": "WIRED",
     "title": "Wayfair Coupons: Up to 80% Off November 2026"
+  },
+  "https://www.wired.com/story/welcome-to-weed-island-jersey": {
+    "pushed_at": "2026-11-09T07:16:51",
+    "source": "WIRED",
+    "title": "Welcome to Weed Island"
   },
   "https://www.wired.com/story/what-to-know-about-chinas-top-secret-spaceplane": {
     "pushed_at": "2026-10-30T06:33:33",
