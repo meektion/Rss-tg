@@ -3154,6 +3154,11 @@
     "source": "Simon Willison's Weblog",
     "title": "datasette-agent 0.5a0"
   },
+  "https://simonwillison.net/2026/Nov/3/hn-50354278": {
+    "pushed_at": "2026-11-09T18:30:45",
+    "source": "Simon Willison's Weblog",
+    "title": "AI is destroying my CS degree"
+  },
   "https://simonwillison.net/2026/Nov/3/llm": {
     "pushed_at": "2026-11-05T16:18:21",
     "source": "Simon Willison's Weblog",
@@ -3189,10 +3194,30 @@
     "source": "Simon Willison's Weblog",
     "title": "Quoting Nilay Patel"
   },
+  "https://simonwillison.net/2026/Nov/7/hn-50407316": {
+    "pushed_at": "2026-11-09T18:30:45",
+    "source": "Simon Willison's Weblog",
+    "title": "Terry Pratchett's Study"
+  },
   "https://simonwillison.net/2026/Nov/7/link-rel-next": {
     "pushed_at": "2026-11-08T14:53:33",
     "source": "Simon Willison's Weblog",
     "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages"
+  },
+  "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust": {
+    "pushed_at": "2026-11-09T18:30:45",
+    "source": "Simon Willison's Weblog",
+    "title": "parse_number() as a SQLite extension: C vs Rust"
+  },
+  "https://simonwillison.net/2026/Nov/9/details-summary": {
+    "pushed_at": "2026-11-09T18:30:45",
+    "source": "Simon Willison's Weblog",
+    "title": "Hide your slop PR descriptions behind"
+  },
+  "https://simonwillison.net/2026/Nov/9/hn-50421091": {
+    "pushed_at": "2026-11-09T18:30:45",
+    "source": "Simon Willison's Weblog",
+    "title": "The Web Is More Than Enough, by Paul Ford"
   },
   "https://simonwillison.net/2026/Oct/10/python-actions": {
     "pushed_at": "2026-10-16T04:09:05",
@@ -3814,6 +3839,11 @@
     "source": "少数派",
     "title": "本月玩什么｜影之刃零、战争机器：事变日等"
   },
+  "https://sspai.com/post/118029": {
+    "pushed_at": "2026-11-09T18:30:43",
+    "source": "少数派",
+    "title": "天花板上的白色盒子，是怎样保护我们的安全的？"
+  },
   "https://sspai.com/post/118114": {
     "pushed_at": "2026-11-08T14:53:31",
     "source": "少数派",
@@ -3833,6 +3863,11 @@
     "pushed_at": "2026-11-03T15:59:31",
     "source": "少数派",
     "title": "Disc Image Studio：你想不想在光盘上「画」点什么？"
+  },
+  "https://sspai.com/post/118227": {
+    "pushed_at": "2026-11-09T18:30:43",
+    "source": "少数派",
+    "title": "一家人的客厅，和一个人的深夜 — Sonos Beam Ultra 与 Ace Ultra 体验"
   },
   "https://sspai.com/post/118232": {
     "pushed_at": "2026-11-03T15:59:31",
@@ -3894,10 +3929,25 @@
     "source": "少数派",
     "title": "派早报：国务院办公厅发布 2027 年部分节假日放假安排等"
   },
+  "https://sspai.com/post/118612": {
+    "pushed_at": "2026-11-09T18:30:43",
+    "source": "少数派",
+    "title": "双十一好物精选：Sonos Play 85 折送充电套装，CD 机加赠透明面盖"
+  },
   "https://sspai.com/post/118623": {
     "pushed_at": "2026-11-06T15:47:44",
     "source": "少数派",
     "title": "本周看什么 | 最近值得一看的 9 部作品"
+  },
+  "https://sspai.com/post/118799": {
+    "pushed_at": "2026-11-09T18:30:43",
+    "source": "少数派",
+    "title": "双十一 | 少数派会员、正版软件、付费栏目限时优惠"
+  },
+  "https://sspai.com/post/118833": {
+    "pushed_at": "2026-11-09T18:30:43",
+    "source": "少数派",
+    "title": "派评 | 近期值得关注的 App"
   },
   "https://sspai.com/post/92653": {
     "pushed_at": "2026-10-15T07:07:07",
@@ -6164,6 +6214,31 @@
     "source": "IT之家",
     "title": "古尔曼称苹果 Siri AI 团队或迎大调整，工程副总裁罗克韦尔考虑明年走人"
   },
+  "https://www.ithome.com/1/024/561.htm": {
+    "pushed_at": "2026-11-09T18:30:40",
+    "source": "IT之家",
+    "title": "何小鹏：希望小鹏明年能成为第一个在欧洲上线智能辅助驾驶的中国品牌"
+  },
+  "https://www.ithome.com/1/024/563.htm": {
+    "pushed_at": "2026-11-09T18:30:40",
+    "source": "IT之家",
+    "title": "FEVM 迷你主机 FNPH1 实物亮相：2cm 超薄，0.4L 体积"
+  },
+  "https://www.ithome.com/1/024/564.htm": {
+    "pushed_at": "2026-11-09T18:30:40",
+    "source": "IT之家",
+    "title": "欧洲力推本土制造电池，或使一辆电动汽车成本增加 2100 欧元"
+  },
+  "https://www.ithome.com/1/024/565.htm": {
+    "pushed_at": "2026-11-09T18:30:40",
+    "source": "IT之家",
+    "title": "英伟达黄仁勋承认出轨，消息称其去年已聘请擅长处理丑闻的危机公关公司"
+  },
+  "https://www.ithome.com/1/024/566.htm": {
+    "pushed_at": "2026-11-09T18:30:40",
+    "source": "IT之家",
+    "title": "《GTA 6》PS5 版正式开启预载，XBOX Series X｜S 需等到北京时间早上 8 点"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -6879,6 +6954,11 @@
     "source": "量子位",
     "title": "三条AI技术路线终将合流？智象创始人梅涛提出智能体化的世界模型"
   },
+  "https://www.qbitai.com/2026/11/507843.html": {
+    "pushed_at": "2026-11-09T18:30:38",
+    "source": "量子位",
+    "title": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满"
+  },
   "https://www.qbitai.com/2026/11/507919.html": {
     "pushed_at": "2026-11-06T21:22:56",
     "source": "量子位",
@@ -6978,6 +7058,26 @@
     "pushed_at": "2026-11-08T14:53:27",
     "source": "量子位",
     "title": "资本正在撤离“世界模型”"
+  },
+  "https://www.qbitai.com/2026/11/508629.html": {
+    "pushed_at": "2026-11-09T18:30:38",
+    "source": "量子位",
+    "title": "L3大撤退！奔驰宝马官宣不玩了：还没L2好用"
+  },
+  "https://www.qbitai.com/2026/11/508690.html": {
+    "pushed_at": "2026-11-09T18:30:38",
+    "source": "量子位",
+    "title": "叙事奔涌，何以为锚?丨第 20 届中国投资年会·有限合伙人峰会即将启幕"
+  },
+  "https://www.qbitai.com/2026/11/508694.html": {
+    "pushed_at": "2026-11-09T18:30:38",
+    "source": "量子位",
+    "title": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了"
+  },
+  "https://www.qbitai.com/2026/11/508706.html": {
+    "pushed_at": "2026-11-09T18:30:38",
+    "source": "量子位",
+    "title": "“AI毁了我的计算机学位”"
   },
   "https://www.solidot.org/story?sid=85598": {
     "pushed_at": "2026-10-15T09:04:02",
