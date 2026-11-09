@@ -84,6 +84,11 @@
     "source": "Ars Technica",
     "title": "Warner Bros. drops final trailer for Dune: Part Three"
   },
+  "https://arstechnica.com/culture/2026/11/dcu-shake-up-james-gunn-and-peter-safran-out-post-merger": {
+    "pushed_at": "2026-11-09T22:54:50",
+    "source": "Ars Technica",
+    "title": "DCU shake-up: James Gunn and Peter Safran out post-merger"
+  },
   "https://arstechnica.com/gadgets/2026/10/amazon-adds-a-camera-to-its-best-sounding-smart-speaker-for-30-extra": {
     "pushed_at": "2026-10-28T18:42:37",
     "source": "Ars Technica",
@@ -604,6 +609,11 @@
     "source": "Artificial Intelligence",
     "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod"
   },
+  "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base": {
+    "pushed_at": "2026-11-09T22:54:50",
+    "source": "Artificial Intelligence",
+    "title": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base"
+  },
   "https://aws.amazon.com/blogs/machine-learning/smart-approvals-in-amazon-quick-human-oversight-where-it-matters": {
     "pushed_at": "2026-11-05T07:27:46",
     "source": "Artificial Intelligence",
@@ -828,6 +838,11 @@
     "pushed_at": "2026-10-27T05:44:48",
     "source": "Cloudflare Blog",
     "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang"
+  },
+  "https://blog.cloudflare.com/launching-vite-ecosystem-fund": {
+    "pushed_at": "2026-11-09T22:54:50",
+    "source": "Cloudflare Blog",
+    "title": "Launching the Vite Ecosystem Fund"
   },
   "https://blog.cloudflare.com/obsessive-inference-optimization": {
     "pushed_at": "2026-10-23T17:46:57",
@@ -1569,6 +1584,11 @@
     "source": "NVIDIA Blog",
     "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia"
   },
+  "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl": {
+    "pushed_at": "2026-11-09T22:54:50",
+    "source": "NVIDIA Blog",
+    "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation"
+  },
   "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center": {
     "pushed_at": "2026-10-20T17:52:02",
     "source": "NVIDIA Blog",
@@ -2044,6 +2064,11 @@
     "source": "ElevenLabs Blog",
     "title": "网络研讨会回顾：关键时刻触达高风险患者"
   },
+  "https://elevenlabs.io/blog/what-is-an-api-endpoint": {
+    "pushed_at": "2026-11-09T22:54:50",
+    "source": "ElevenLabs Blog",
+    "title": "What is an API endpoint? A guide to connected software"
+  },
   "https://elevenlabs.io/blog/what-is-call-transcription": {
     "pushed_at": "2026-11-03T19:59:38",
     "source": "ElevenLabs Blog",
@@ -2078,6 +2103,11 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "Spotify Engineering",
     "title": "隆重推出：Spotify Technology。在Spotify得到验证，现在归你所有。"
+  },
+  "https://engineering.atspotify.com/2026/11/ai-product-management-at-spotify-a-view-from-three-angles": {
+    "pushed_at": "2026-11-09T22:54:50",
+    "source": "Spotify Engineering",
+    "title": "AI Product Management at Spotify: A View From Three Angles"
   },
   "https://engineering.atspotify.com/2026/9/ai-changed-how-spotify-builds-what-we-learned-and-fixed-about-quality-at-higher-velocity": {
     "pushed_at": "2026-10-18T04:13:01",
@@ -2198,6 +2228,11 @@
     "pushed_at": "2026-11-03T19:59:38",
     "source": "Engineering at Meta",
     "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale"
+  },
+  "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus": {
+    "pushed_at": "2026-11-09T22:54:50",
+    "source": "Engineering at Meta",
+    "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs"
   },
   "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out": {
     "pushed_at": "2026-10-15T09:04:53",
@@ -2408,6 +2443,11 @@
     "pushed_at": "2026-10-15T11:25:48",
     "source": "Netflix TechBlog - Medium",
     "title": "DataJunction as Netflix’s answer to the missing piece of the modern data stack"
+  },
+  "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-11-09T22:54:50",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System"
   },
   "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-15T11:25:46",
@@ -2623,6 +2663,11 @@
     "pushed_at": "2026-10-25T17:00:01",
     "source": "OpenAI News",
     "title": "Broad access through consistent standards"
+  },
+  "https://openai.com/index/chatgpt-enterprise-aws-marketplace": {
+    "pushed_at": "2026-11-09T22:54:50",
+    "source": "OpenAI News",
+    "title": "ChatGPT Enterprise now available in AWS Marketplace"
   },
   "https://openai.com/index/chatgpt-expanding-world-of-work": {
     "pushed_at": "2026-10-26T19:04:50",
@@ -4279,6 +4324,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”"
   },
+  "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal": {
+    "pushed_at": "2026-11-09T22:54:50",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4593,6 +4643,11 @@
     "pushed_at": "2026-10-17T04:48:12",
     "source": "Vercel News",
     "title": "Vercel Drives 现已全面可用"
+  },
+  "https://vercel.com/changelog/vercel-sandbox-snapshot-creation-is-now-up-to-10x-faster": {
+    "pushed_at": "2026-11-09T22:54:50",
+    "source": "Vercel News",
+    "title": "Vercel Sandbox snapshot creation is now up to 10x faster"
   },
   "https://vercel.com/changelog/vercel-schedules-is-now-in-public-beta": {
     "pushed_at": "2026-11-05T20:30:18",
@@ -7318,6 +7373,11 @@
     "pushed_at": "2026-11-08T06:45:47",
     "source": "The Verge",
     "title": "Costco members can get $5 off the reimagined Ocarina of Time"
+  },
+  "https://www.theverge.com/gadgets/1030262/msi-mag-272qp-qd-oled-x24-monitor-woot-deal-sale": {
+    "pushed_at": "2026-11-09T22:54:50",
+    "source": "The Verge",
+    "title": "MSI’s refurbished QD-OLED gaming monitor is on sale for under $300"
   },
   "https://www.theverge.com/games/1026380/zelda-ocarina-of-time-interview-eiji-aonuma-hidemaro-fujibayashi": {
     "pushed_at": "2026-11-05T07:27:46",
