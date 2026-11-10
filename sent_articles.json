@@ -314,6 +314,11 @@
     "source": "Ars Technica",
     "title": "California fights \"preposterous\" Trump admin demand to scrap state broadband laws"
   },
+  "https://arstechnica.com/tech-policy/2026/11/man-who-lost-308000-on-sports-bets-sues-kalshi-for-offering-illegal-gambling": {
+    "pushed_at": "2026-11-10T07:48:56",
+    "source": "Ars Technica",
+    "title": "Man who lost $308,000 on sports bets sues Kalshi for offering illegal gambling"
+  },
   "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms": {
     "pushed_at": "2026-11-03T19:59:38",
     "source": "Ars Technica",
@@ -493,6 +498,11 @@
     "pushed_at": "2026-10-16T03:11:03",
     "source": "Artificial Intelligence",
     "title": "How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/how-skills-and-agents-work-in-aws-quick": {
+    "pushed_at": "2026-11-10T07:48:56",
+    "source": "Artificial Intelligence",
+    "title": "How skills and agents work in AWS Quick"
   },
   "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock": {
     "pushed_at": "2026-10-16T02:35:43",
@@ -1509,6 +1519,11 @@
     "source": "NVIDIA Blog",
     "title": "Korea Advances Physical AI Across Industries With NVIDIA"
   },
+  "https://blogs.nvidia.com/blog/korean-startup-investments-msit": {
+    "pushed_at": "2026-11-10T07:48:56",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum"
+  },
   "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync": {
     "pushed_at": "2026-10-16T03:44:13",
     "source": "NVIDIA Blog",
@@ -1873,6 +1888,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "ElevenLabs Blog",
     "title": "介绍ElevenAgents架构师"
+  },
+  "https://elevenlabs.io/blog/elevenagents-campaign-manager": {
+    "pushed_at": "2026-11-10T07:48:56",
+    "source": "ElevenLabs Blog",
+    "title": "ElevenAgents Campaign Manager works every contact to an outcome"
   },
   "https://elevenlabs.io/blog/elevenagents-contact-center-integrations": {
     "pushed_at": "2026-11-05T20:30:18",
@@ -2683,6 +2703,11 @@
     "pushed_at": "2026-10-31T06:23:01",
     "source": "OpenAI News",
     "title": "Community safety report and new protections for teens"
+  },
+  "https://openai.com/index/control-room": {
+    "pushed_at": "2026-11-10T07:48:56",
+    "source": "OpenAI News",
+    "title": "Control Room: A central system to track and stop model workloads across our research infrastructure"
   },
   "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities": {
     "pushed_at": "2026-10-26T05:28:48",
@@ -4329,6 +4354,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal"
   },
+  "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages": {
+    "pushed_at": "2026-11-10T07:48:56",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Otter AI can now follow conversations across 30+ languages"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4343,6 +4373,11 @@
     "pushed_at": "2026-11-04T20:20:27",
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Open source AI is booming. Hugging Face explains who profits."
+  },
+  "https://vercel.com/blog/ai-gateway-production-index-november-2026": {
+    "pushed_at": "2026-11-10T07:48:56",
+    "source": "Vercel News",
+    "title": "Decision models take 26% of requests; Anthropic now wins new teams 2:1"
   },
   "https://vercel.com/blog/ai-gateway-production-index-october-2026": {
     "pushed_at": "2026-10-17T02:32:48",
@@ -7334,6 +7369,11 @@
     "source": "The Verge",
     "title": "Get in the spirit with these horrors from YouTube"
   },
+  "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai": {
+    "pushed_at": "2026-11-10T07:48:56",
+    "source": "The Verge",
+    "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’"
+  },
   "https://www.theverge.com/gadgets/1013105/pikmin-4-nintendo-switch-deal-sale": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "The Verge",
@@ -7728,6 +7768,11 @@
     "pushed_at": "2026-10-26T05:28:48",
     "source": "WIRED",
     "title": "Scientists Trapped an Antimatter Particle for Months to Study Its Secrets"
+  },
+  "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information": {
+    "pushed_at": "2026-11-10T07:48:56",
+    "source": "WIRED",
+    "title": "Security Flaws Across UK Government Sites Exposed ‘God-Tier’ Information"
   },
   "https://www.wired.com/story/wayfair-promo-code": {
     "pushed_at": "2026-10-31T06:23:01",
