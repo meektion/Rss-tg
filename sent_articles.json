@@ -349,6 +349,11 @@
     "source": "Artificial Intelligence",
     "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs"
   },
+  "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore": {
+    "pushed_at": "2026-11-10T20:20:31",
+    "source": "Artificial Intelligence",
+    "title": "Autonomous treasury agents: How Trovata built an AI-native solution on Amazon Bedrock and AgentCore"
+  },
   "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service": {
     "pushed_at": "2026-10-27T18:36:18",
     "source": "Artificial Intelligence",
@@ -1129,6 +1134,11 @@
     "source": "News from Google",
     "title": "A new app experience is coming to cars with Google built-in"
   },
+  "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices": {
+    "pushed_at": "2026-11-10T20:20:31",
+    "source": "AI",
+    "title": "Gemini Intelligence: New features, on more devices"
+  },
   "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026": {
     "pushed_at": "2026-10-15T11:25:44",
     "source": "News from Google",
@@ -1188,6 +1198,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "The Mozilla Blog",
     "title": "在iOS版Firefox中引入广告拦截器：更多控制，更少干扰"
+  },
+  "https://blog.mozilla.org/en/firefox/built-in-vpn-unlimited-data": {
+    "pushed_at": "2026-11-10T20:20:31",
+    "source": "The Mozilla Blog",
+    "title": "Firefox’s free built-in VPN uncaps data limit through January 2027"
   },
   "https://blog.mozilla.org/en/firefox/come-back-to-firefox": {
     "pushed_at": "2026-10-25T17:00:01",
@@ -1599,6 +1614,11 @@
     "source": "NVIDIA Blog",
     "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia"
   },
+  "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure": {
+    "pushed_at": "2026-11-10T20:20:31",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure"
+  },
   "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl": {
     "pushed_at": "2026-11-09T22:54:50",
     "source": "NVIDIA Blog",
@@ -1678,6 +1698,11 @@
     "pushed_at": "2026-10-16T03:10:53",
     "source": "Google DeepMind News",
     "title": "Gemini 4 Argon: our next era of frontier intelligence"
+  },
+  "https://deepmind.google/blog/gemini-4-carbon-is-now-available": {
+    "pushed_at": "2026-11-10T20:20:31",
+    "source": "Google DeepMind News",
+    "title": "Gemini 4 Carbon is now available"
   },
   "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model": {
     "pushed_at": "2026-10-28T18:42:37",
@@ -2004,6 +2029,11 @@
     "source": "ElevenLabs Blog",
     "title": "与任何人，以任何语言，实时交谈"
   },
+  "https://elevenlabs.io/blog/scribe-v3": {
+    "pushed_at": "2026-11-10T20:20:31",
+    "source": "ElevenLabs Blog",
+    "title": "Introducing Scribe v3 and v3 Live, our most accurate speech to text models"
+  },
   "https://elevenlabs.io/blog/sfx-v3-for-developers": {
     "pushed_at": "2026-11-08T18:15:42",
     "source": "ElevenLabs Blog",
@@ -2254,6 +2284,11 @@
     "source": "Engineering at Meta",
     "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs"
   },
+  "https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations": {
+    "pushed_at": "2026-11-10T20:20:31",
+    "source": "Engineering at Meta",
+    "title": "Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations"
+  },
   "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out": {
     "pushed_at": "2026-10-15T09:04:53",
     "source": "The GitHub Blog",
@@ -2349,6 +2384,11 @@
     "source": "The GitHub Blog",
     "title": "Game Off 2026: The theme is SHIFT"
   },
+  "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7": {
+    "pushed_at": "2026-11-10T20:20:31",
+    "source": "The GitHub Blog",
+    "title": "Git security vulnerabilities announced"
+  },
   "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github": {
     "pushed_at": "2026-11-06T07:27:09",
     "source": "The GitHub Blog",
@@ -2388,6 +2428,11 @@
     "pushed_at": "2026-10-19T09:57:33",
     "source": "Hacker News: Front Page",
     "title": "Linux 7.3 发布"
+  },
+  "https://machinelearning.apple.com/research/attention-mamba-distillation": {
+    "pushed_at": "2026-11-10T20:20:31",
+    "source": "Apple Machine Learning Research",
+    "title": "Attention to Mamba: A Recipe for Cross-Architecture Distillation"
   },
   "https://machinelearning.apple.com/research/code-switching-detection": {
     "pushed_at": "2026-10-16T02:35:41",
@@ -2763,6 +2808,11 @@
     "pushed_at": "2026-11-02T22:13:47",
     "source": "OpenAI News",
     "title": "Introducing the Grid Protectors Program"
+  },
+  "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life": {
+    "pushed_at": "2026-11-10T20:20:31",
+    "source": "OpenAI News",
+    "title": "Helping caregivers use AI in everyday life"
   },
   "https://openai.com/index/helping-websites-express-ai-training-preferences": {
     "pushed_at": "2026-10-30T18:29:01",
@@ -3173,6 +3223,11 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "Shopify Engineering",
     "title": "ShopGym：面向购物智能体的逼真、可复现沙盒环境"
+  },
+  "https://shopify.engineering/shopify-app-rebuild": {
+    "pushed_at": "2026-11-10T20:20:31",
+    "source": "Shopify Engineering",
+    "title": "How we rebuilt the Shopify app in 12 weeks"
   },
   "https://shopify.engineering/sidekick-curation": {
     "pushed_at": "2026-10-18T11:04:31",
@@ -4409,6 +4464,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Otter AI can now follow conversations across 30+ languages"
   },
+  "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo": {
+    "pushed_at": "2026-11-10T20:20:31",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "All 7 Anthropic founders will each cash out about $250M in IPO"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4568,6 +4628,11 @@
     "pushed_at": "2026-10-17T12:39:08",
     "source": "Vercel News",
     "title": "Elorian AI的Glimpse现已在AI Gateway上线"
+  },
+  "https://vercel.com/changelog/gemini-4-carbon-now-available-on-ai-gateway": {
+    "pushed_at": "2026-11-10T20:20:31",
+    "source": "Vercel News",
+    "title": "Gemini 4 Carbon now available on AI Gateway"
   },
   "https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway": {
     "pushed_at": "2026-11-09T07:16:51",
@@ -7683,6 +7748,11 @@
     "pushed_at": "2026-11-04T07:00:59",
     "source": "The Verge",
     "title": "AMD rides data center riches to ‘largest and most profitable’ quarter in history"
+  },
+  "https://www.theverge.com/tech/1031028/spacex-starlink-mini-2-satellite-internet-terminal-hot-swap-battery": {
+    "pushed_at": "2026-11-10T20:20:31",
+    "source": "The Verge",
+    "title": "Starlink Mini 2 adds a swappable battery"
   },
   "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance": {
     "pushed_at": "2026-10-18T04:13:01",
