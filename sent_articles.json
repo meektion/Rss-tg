@@ -3304,6 +3304,11 @@
     "source": "Simon Willison's Weblog",
     "title": "Quoting Kyle Kingsbury"
   },
+  "https://simonwillison.net/2026/Nov/10/llm-gemini": {
+    "pushed_at": "2026-11-11T15:57:36",
+    "source": "Simon Willison's Weblog",
+    "title": "llm-gemini 0.36"
+  },
   "https://simonwillison.net/2026/Nov/10/muse-ember": {
     "pushed_at": "2026-11-10T16:16:01",
     "source": "Simon Willison's Weblog",
@@ -3318,6 +3323,11 @@
     "pushed_at": "2026-11-10T16:16:01",
     "source": "Simon Willison's Weblog",
     "title": "Yonkers Rises"
+  },
+  "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow": {
+    "pushed_at": "2026-11-11T15:57:36",
+    "source": "Simon Willison's Weblog",
+    "title": "Anthropic's IPO roadshow video"
   },
   "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence": {
     "pushed_at": "2026-11-02T18:01:26",
@@ -4054,6 +4064,11 @@
     "source": "少数派",
     "title": "TDS REVIEW｜Apple AirPods 5 半入耳降噪真无线耳机体验"
   },
+  "https://sspai.com/post/118175": {
+    "pushed_at": "2026-11-11T15:57:34",
+    "source": "少数派",
+    "title": "从优胜美地到金门大桥：跟着 macOS 游览加州"
+  },
   "https://sspai.com/post/118191": {
     "pushed_at": "2026-11-02T18:01:24",
     "source": "少数派",
@@ -4104,6 +4119,11 @@
     "source": "少数派",
     "title": "国行 Apple 智能上手：这些功能已经准备好"
   },
+  "https://sspai.com/post/118458": {
+    "pushed_at": "2026-11-11T15:57:34",
+    "source": "少数派",
+    "title": "RetroSweeper Go：复古外观、更有手感的扫雷游戏"
+  },
   "https://sspai.com/post/118498": {
     "pushed_at": "2026-11-05T16:18:19",
     "source": "少数派",
@@ -4139,6 +4159,11 @@
     "source": "少数派",
     "title": "本周看什么 | 最近值得一看的 9 部作品"
   },
+  "https://sspai.com/post/118781": {
+    "pushed_at": "2026-11-11T15:57:34",
+    "source": "少数派",
+    "title": "城市漫步指南 | 安特卫普，时尚就在生活中"
+  },
   "https://sspai.com/post/118799": {
     "pushed_at": "2026-11-09T18:30:43",
     "source": "少数派",
@@ -4168,6 +4193,11 @@
     "pushed_at": "2026-11-10T16:15:59",
     "source": "少数派",
     "title": "社区速递 165 | 透明工牌与派友十月购物清单"
+  },
+  "https://sspai.com/post/118905": {
+    "pushed_at": "2026-11-11T15:57:34",
+    "source": "少数派",
+    "title": "派早报：700 号段保护服务试点获批、Claude Code 设置文件泄露凭据等"
   },
   "https://sspai.com/post/92653": {
     "pushed_at": "2026-10-15T07:07:07",
@@ -6524,6 +6554,31 @@
     "source": "IT之家",
     "title": "奥迪上汽战略合作 CEO 舒睿泽：未来三年将推出三款新车"
   },
+  "https://www.ithome.com/1/025/818.htm": {
+    "pushed_at": "2026-11-11T15:57:31",
+    "source": "IT之家",
+    "title": "以旧换新 3999 → 2291 元：小米米家智能净烟机 3 Pro 国补直降，7 级大风力"
+  },
+  "https://www.ithome.com/1/025/819.htm": {
+    "pushed_at": "2026-11-11T15:57:31",
+    "source": "IT之家",
+    "title": "553mm 超薄机身：卡萨帝热泵洗烘一体机 10498 → 5500 元破冰新低"
+  },
+  "https://www.ithome.com/1/025/820.htm": {
+    "pushed_at": "2026-11-11T15:57:31",
+    "source": "IT之家",
+    "title": "保时捷 CEO 骆明楷批评特斯拉 Roadster 发布会：我们不想搞任何特效或表演"
+  },
+  "https://www.ithome.com/1/025/821.htm": {
+    "pushed_at": "2026-11-11T15:57:31",
+    "source": "IT之家",
+    "title": "Xbox 版《GTA 6》预载文件出现 AMD FSR 4.1 线索，首发未必支持"
+  },
+  "https://www.ithome.com/1/025/822.htm": {
+    "pushed_at": "2026-11-11T15:57:31",
+    "source": "IT之家",
+    "title": "谷歌 DeepMind 发布 AlphaGenome 2 基因序列模型：识别致病变异能力提升近一倍"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -7388,6 +7443,31 @@
     "pushed_at": "2026-11-10T16:15:55",
     "source": "量子位",
     "title": "从芯片到千比特整机，超导量子计算还有一场硬仗"
+  },
+  "https://www.qbitai.com/2026/11/509032.html": {
+    "pushed_at": "2026-11-11T15:57:29",
+    "source": "量子位",
+    "title": "英伟达机器人开源撞上Fable 5.2发布！Jim Fan：不是寒冬是夏天"
+  },
+  "https://www.qbitai.com/2026/11/509052.html": {
+    "pushed_at": "2026-11-11T15:57:29",
+    "source": "量子位",
+    "title": "无人拖拉机真正下地了！新疆大田深翻30+厘米，丘沃智能开物™系统首次完整曝光"
+  },
+  "https://www.qbitai.com/2026/11/509085.html": {
+    "pushed_at": "2026-11-11T15:57:29",
+    "source": "量子位",
+    "title": "卷起来了！11月11日，大模型厂商在天猫打5折"
+  },
+  "https://www.qbitai.com/2026/11/509088.html": {
+    "pushed_at": "2026-11-11T15:57:29",
+    "source": "量子位",
+    "title": "从“卖Token”到“卖结果” | 科技有「联想」沙龙激辩Token经济三大议题"
+  },
+  "https://www.qbitai.com/2026/11/509146.html": {
+    "pushed_at": "2026-11-11T15:57:29",
+    "source": "量子位",
+    "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替"
   },
   "https://www.solidot.org/story?sid=85598": {
     "pushed_at": "2026-10-15T09:04:02",
