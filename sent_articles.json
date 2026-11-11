@@ -3379,6 +3379,26 @@
     "source": "Simon Willison's Weblog",
     "title": "Anthropic's IPO roadshow video"
   },
+  "https://simonwillison.net/2026/Nov/11/aws-emulator": {
+    "pushed_at": "2026-11-11T22:32:58",
+    "source": "Simon Willison's Weblog",
+    "title": "aws-emulator"
+  },
+  "https://simonwillison.net/2026/Nov/11/gemini-decisions-api": {
+    "pushed_at": "2026-11-11T22:32:58",
+    "source": "Simon Willison's Weblog",
+    "title": "Gemini Decisions API"
+  },
+  "https://simonwillison.net/2026/Nov/11/llm": {
+    "pushed_at": "2026-11-11T22:32:58",
+    "source": "Simon Willison's Weblog",
+    "title": "llm 0.37.2"
+  },
+  "https://simonwillison.net/2026/Nov/11/tools-tags": {
+    "pushed_at": "2026-11-11T22:32:58",
+    "source": "Simon Willison's Weblog",
+    "title": "Browse tools.simonwillison.net by tag"
+  },
   "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence": {
     "pushed_at": "2026-11-02T18:01:26",
     "source": "Simon Willison's Weblog",
@@ -6614,6 +6634,26 @@
     "source": "IT之家",
     "title": "奥迪上汽战略合作 CEO 舒睿泽：未来三年将推出三款新车"
   },
+  "https://www.ithome.com/1/025/814.htm": {
+    "pushed_at": "2026-11-11T22:32:56",
+    "source": "IT之家",
+    "title": "贴脸开大：当着 XBOX 高层的面，前《铁拳》总监原田胜弘直言希望别再推出 XSS 这样的主机"
+  },
+  "https://www.ithome.com/1/025/815.htm": {
+    "pushed_at": "2026-11-11T22:32:56",
+    "source": "IT之家",
+    "title": "Adobe 公布四项 AI 实验项目：照片秒变 3D 场景，还能通过聊天设计 AI 角色"
+  },
+  "https://www.ithome.com/1/025/816.htm": {
+    "pushed_at": "2026-11-11T22:32:56",
+    "source": "IT之家",
+    "title": "热泵洗烘一体机破冰新低：海信 12kg 洗 +8kg 烘 6199 → 3238 元限 1 小时"
+  },
+  "https://www.ithome.com/1/025/817.htm": {
+    "pushed_at": "2026-11-11T22:32:56",
+    "source": "IT之家",
+    "title": "俄罗斯月球核电站新计划：明年选定方案、本世纪 30 年代中期运行"
+  },
   "https://www.ithome.com/1/025/818.htm": {
     "pushed_at": "2026-11-11T15:57:31",
     "source": "IT之家",
@@ -6638,6 +6678,11 @@
     "pushed_at": "2026-11-11T15:57:31",
     "source": "IT之家",
     "title": "谷歌 DeepMind 发布 AlphaGenome 2 基因序列模型：识别致病变异能力提升近一倍"
+  },
+  "https://www.ithome.com/1/025/824.htm": {
+    "pushed_at": "2026-11-11T22:32:56",
+    "source": "IT之家",
+    "title": "沈阳背景叙事解谜《Hope in the City》Steam 发售：首发特惠 ¥68.4，首日加入 XGP"
   },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
