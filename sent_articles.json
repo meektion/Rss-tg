@@ -334,6 +334,11 @@
     "source": "Ars Technica",
     "title": "Ted Cruz aims to stack FCC with Republicans before Democrats take Senate control"
   },
+  "https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets": {
+    "pushed_at": "2026-11-11T20:04:02",
+    "source": "Artificial Intelligence",
+    "title": "Accelerating generative AI delivery with reusable assets"
+  },
   "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan": {
     "pushed_at": "2026-10-16T03:38:54",
     "source": "Artificial Intelligence",
@@ -784,6 +789,11 @@
     "source": "Cloudflare Blog",
     "title": "Everything we launched during Birthday Week 2026"
   },
+  "https://blog.cloudflare.com/choosing-quepaxa": {
+    "pushed_at": "2026-11-11T20:04:02",
+    "source": "Cloudflare Blog",
+    "title": "Choosing QuePaxa, an unusual consensus algorithm"
+  },
   "https://blog.cloudflare.com/clairic-extraction-model": {
     "pushed_at": "2026-10-25T05:24:17",
     "source": "Cloudflare Blog",
@@ -1108,6 +1118,11 @@
     "pushed_at": "2026-10-16T03:38:49",
     "source": "AI",
     "title": "DevFest is back"
+  },
+  "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api": {
+    "pushed_at": "2026-11-11T20:04:02",
+    "source": "AI",
+    "title": "Gemini Decisions API: Fast, calibrated multimodal decisions"
   },
   "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash": {
     "pushed_at": "2026-11-05T20:30:18",
@@ -1554,6 +1569,11 @@
     "source": "NVIDIA Blog",
     "title": "Korea Advances Physical AI Across Industries With NVIDIA"
   },
+  "https://blogs.nvidia.com/blog/korea-secure-agentic-ai": {
+    "pushed_at": "2026-11-11T20:04:02",
+    "source": "NVIDIA Blog",
+    "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA"
+  },
   "https://blogs.nvidia.com/blog/korean-startup-investments-msit": {
     "pushed_at": "2026-11-10T07:48:56",
     "source": "NVIDIA Blog",
@@ -1688,6 +1708,11 @@
     "pushed_at": "2026-11-03T19:59:38",
     "source": "Google DeepMind News",
     "title": "Agentic cheminformatics with Google Antigravity"
+  },
+  "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease": {
+    "pushed_at": "2026-11-11T20:04:02",
+    "source": "Google DeepMind News",
+    "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease"
   },
   "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome": {
     "pushed_at": "2026-10-16T03:38:47",
@@ -2034,6 +2059,11 @@
     "source": "ElevenLabs Blog",
     "title": "Lettuce cuts creative ad production from over a week to under a minute with ElevenLabs"
   },
+  "https://elevenlabs.io/blog/marketplace": {
+    "pushed_at": "2026-11-11T20:04:02",
+    "source": "ElevenLabs Blog",
+    "title": "Introducing the ElevenLabs Marketplace for enterprise-ready AI applications"
+  },
   "https://elevenlabs.io/blog/meeting-transcription-api": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "ElevenLabs Blog",
@@ -2324,6 +2354,11 @@
     "source": "Engineering at Meta",
     "title": "How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale"
   },
+  "https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads": {
+    "pushed_at": "2026-11-11T20:04:02",
+    "source": "Engineering at Meta",
+    "title": "Intelligent Delivery: Making Every Unit of Compute Serve Better Ads"
+  },
   "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out": {
     "pushed_at": "2026-10-15T09:04:53",
     "source": "The GitHub Blog",
@@ -2478,6 +2513,11 @@
     "pushed_at": "2026-10-16T03:11:01",
     "source": "Apple Machine Learning Research",
     "title": "Minions：基于闲置苹果硅设备的动态分布式虚拟GPU云"
+  },
+  "https://machinelearning.apple.com/research/evaluating-evaluators-llm-judges": {
+    "pushed_at": "2026-11-11T20:04:02",
+    "source": "Apple Machine Learning Research",
+    "title": "Evaluating the Evaluators: Investigating LLM Judges for Personalized Writing Style Assessment"
   },
   "https://machinelearning.apple.com/research/faster-retrieval": {
     "pushed_at": "2026-11-05T20:30:18",
@@ -2889,6 +2929,11 @@
     "source": "OpenAI News",
     "title": "Itaú如何为其整个客户群构建生成式AI"
   },
+  "https://openai.com/index/jiostar-vijay-seshadri": {
+    "pushed_at": "2026-11-11T20:04:02",
+    "source": "OpenAI News",
+    "title": "JioStar’s chief architect on AI discovery at 500M-user scale"
+  },
   "https://openai.com/index/jump-trading": {
     "pushed_at": "2026-10-16T03:44:07",
     "source": "OpenAI News",
@@ -3198,6 +3243,11 @@
     "pushed_at": "2026-10-18T13:11:04",
     "source": "Shopify Engineering",
     "title": "通过自然语言生成流程：一种代理建模方法"
+  },
+  "https://shopify.engineering/generative-discovery": {
+    "pushed_at": "2026-11-11T20:04:02",
+    "source": "Shopify Engineering",
+    "title": "Shopify’s generative discovery model"
   },
   "https://shopify.engineering/gisting": {
     "pushed_at": "2026-10-18T06:52:43",
@@ -4549,6 +4599,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "OpenAI acquires Odessia, travel startup created by Sonder founder"
   },
+  "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave": {
+    "pushed_at": "2026-11-11T20:04:02",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "How backlash and red tape continue to slow data centers post-Blue Wave"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4713,6 +4768,11 @@
     "pushed_at": "2026-11-10T20:20:31",
     "source": "Vercel News",
     "title": "Gemini 4 Carbon now available on AI Gateway"
+  },
+  "https://vercel.com/changelog/gemini-decision-1-now-available-on-ai-gateway": {
+    "pushed_at": "2026-11-11T20:04:02",
+    "source": "Vercel News",
+    "title": "Gemini Decision 1 now available on AI Gateway"
   },
   "https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway": {
     "pushed_at": "2026-11-09T07:16:51",
