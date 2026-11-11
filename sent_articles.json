@@ -119,6 +119,11 @@
     "source": "Ars Technica",
     "title": "Artist pulls popular screensaver from Roku OS because of Fox acquisition"
   },
+  "https://arstechnica.com/gadgets/2026/11/seagate-resurrects-the-ssd-hdd-hybrid-drive": {
+    "pushed_at": "2026-11-11T07:17:41",
+    "source": "Ars Technica",
+    "title": "Seagate's new hybrid drive raises some old questions"
+  },
   "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump": {
     "pushed_at": "2026-11-09T07:16:51",
     "source": "Ars Technica",
@@ -533,6 +538,11 @@
     "pushed_at": "2026-10-16T03:44:18",
     "source": "Artificial Intelligence",
     "title": "Introducing Claude Haiku 5.5 on AWS"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock": {
+    "pushed_at": "2026-11-11T07:17:41",
+    "source": "Artificial Intelligence",
+    "title": "Introducing Kimi K3.1 Pro on Amazon Bedrock"
   },
   "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws": {
     "pushed_at": "2026-10-16T19:20:12",
@@ -994,6 +1004,11 @@
     "source": "News from Google",
     "title": "Enabling an AI-first European economy"
   },
+  "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration": {
+    "pushed_at": "2026-11-11T07:17:41",
+    "source": "AI",
+    "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps."
+  },
   "https://blog.google/company-news/outreach-and-initiatives/google-org/impact-challenge-ai-science-recipients": {
     "pushed_at": "2026-10-15T11:25:36",
     "source": "News from Google",
@@ -1404,6 +1419,11 @@
     "source": "NVIDIA Blog",
     "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals"
   },
+  "https://blogs.nvidia.com/blog/ai-recycling-startups": {
+    "pushed_at": "2026-11-11T07:17:41",
+    "source": "NVIDIA Blog",
+    "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material"
+  },
   "https://blogs.nvidia.com/blog/ai-semiconductor-fabs": {
     "pushed_at": "2026-11-03T19:59:38",
     "source": "NVIDIA Blog",
@@ -1733,6 +1753,11 @@
     "pushed_at": "2026-10-16T03:44:09",
     "source": "Google DeepMind News",
     "title": "Introducing agentic video understanding with Gemini"
+  },
+  "https://deepmind.google/blog/introducing-alphaproof-code": {
+    "pushed_at": "2026-11-11T07:17:41",
+    "source": "Google DeepMind News",
+    "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth"
   },
   "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber": {
     "pushed_at": "2026-10-16T03:44:09",
@@ -2109,6 +2134,11 @@
     "source": "ElevenLabs Blog",
     "title": "Warm transfer vs cold transfer: choosing the right call"
   },
+  "https://elevenlabs.io/blog/wav-vs-mp3": {
+    "pushed_at": "2026-11-11T07:17:41",
+    "source": "ElevenLabs Blog",
+    "title": "WAV vs MP3: How to choose the right audio file format"
+  },
   "https://elevenlabs.io/blog/webinar-recap-reaching-at-risk-patients-when-minutes-matter": {
     "pushed_at": "2026-10-22T05:32:57",
     "source": "ElevenLabs Blog",
@@ -2288,6 +2318,11 @@
     "pushed_at": "2026-11-10T20:20:31",
     "source": "Engineering at Meta",
     "title": "Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations"
+  },
+  "https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml": {
+    "pushed_at": "2026-11-11T07:17:41",
+    "source": "Engineering at Meta",
+    "title": "How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale"
   },
   "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out": {
     "pushed_at": "2026-10-15T09:04:53",
@@ -2473,6 +2508,11 @@
     "pushed_at": "2026-10-16T03:11:01",
     "source": "Apple Machine Learning Research",
     "title": "Normalizing Trajectory Models"
+  },
+  "https://machinelearning.apple.com/research/pixels-tokens-active-learning": {
+    "pushed_at": "2026-11-11T07:17:41",
+    "source": "Apple Machine Learning Research",
+    "title": "Pixels to Tokens: Token Space Efficient Active Learning for Low-Budget Semantic Segmentation"
   },
   "https://machinelearning.apple.com/research/plan-retrieve-tool-discovery": {
     "pushed_at": "2026-10-16T02:35:41",
@@ -2738,6 +2778,11 @@
     "pushed_at": "2026-10-26T19:04:50",
     "source": "OpenAI News",
     "title": "ChatGPT’s expanding world of work"
+  },
+  "https://openai.com/index/chatgpt-plus-for-veterans": {
+    "pushed_at": "2026-11-11T07:17:41",
+    "source": "OpenAI News",
+    "title": "ChatGPT Plus for veterans and servicemembers"
   },
   "https://openai.com/index/cisco-cyber": {
     "pushed_at": "2026-11-04T07:00:59",
@@ -4469,6 +4514,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "All 7 Anthropic founders will each cash out about $250M in IPO"
   },
+  "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder": {
+    "pushed_at": "2026-11-11T07:17:41",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "OpenAI acquires Odessia, travel startup created by Sonder founder"
+  },
   "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4673,6 +4723,11 @@
     "pushed_at": "2026-10-17T04:48:12",
     "source": "Vercel News",
     "title": "Vercel Connect 现已支持 MCP Events，进入公开测试阶段"
+  },
+  "https://vercel.com/changelog/minimax-h3-image-and-highspeed-now-available-on-ai-gateway": {
+    "pushed_at": "2026-11-11T07:17:41",
+    "source": "Vercel News",
+    "title": "MiniMax H3 Image and Highspeed now available on AI Gateway"
   },
   "https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free": {
     "pushed_at": "2026-10-19T16:26:14",
@@ -7753,6 +7808,11 @@
     "pushed_at": "2026-11-10T20:20:31",
     "source": "The Verge",
     "title": "Starlink Mini 2 adds a swappable battery"
+  },
+  "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling": {
+    "pushed_at": "2026-11-11T07:17:41",
+    "source": "The Verge",
+    "title": "Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode"
   },
   "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance": {
     "pushed_at": "2026-10-18T04:13:01",
