@@ -664,6 +664,11 @@
     "source": "Artificial Intelligence",
     "title": "Taxonomy of agentic primitives in Amazon Quick"
   },
+  "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets": {
+    "pushed_at": "2026-11-12T20:41:55",
+    "source": "Artificial Intelligence",
+    "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets"
+  },
   "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control": {
     "pushed_at": "2026-10-16T02:35:43",
     "source": "Artificial Intelligence",
@@ -1204,6 +1209,11 @@
     "source": "News from Google",
     "title": "看看今年最热门的万圣节趋势吧。"
   },
+  "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade": {
+    "pushed_at": "2026-11-12T20:41:55",
+    "source": "AI",
+    "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen"
+  },
   "https://blog.google/products-and-platforms/products/search/halloween-tips-2026": {
     "pushed_at": "2026-10-15T09:05:12",
     "source": "News from Google",
@@ -1318,6 +1328,11 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "The Mozilla Blog",
     "title": "（火）狐说什么？"
+  },
+  "https://blog.mozilla.org/en/firefox/set-firefox-default-mobile-browser": {
+    "pushed_at": "2026-11-12T20:41:55",
+    "source": "The Mozilla Blog",
+    "title": "An open letter to every family’s designated IT support"
   },
   "https://blog.mozilla.org/en/firefox/skip-the-busywork-with-smart-window": {
     "pushed_at": "2026-10-28T06:23:08",
@@ -1439,6 +1454,11 @@
     "source": "The Official Microsoft Blog",
     "title": "Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work"
   },
+  "https://blogs.microsoft.com/blog/2026/11/12/from-ai-ambition-to-business-impact": {
+    "pushed_at": "2026-11-12T20:41:55",
+    "source": "The Official Microsoft Blog",
+    "title": "From AI ambition to business impact"
+  },
   "https://blogs.nvidia.com/blog/ai-breast-cancer-startups": {
     "pushed_at": "2026-10-16T03:38:50",
     "source": "NVIDIA Blog",
@@ -1558,6 +1578,11 @@
     "pushed_at": "2026-10-29T18:50:59",
     "source": "NVIDIA Blog",
     "title": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW"
+  },
+  "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming": {
+    "pushed_at": "2026-11-12T20:41:55",
+    "source": "NVIDIA Blog",
+    "title": "A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW"
   },
   "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help": {
     "pushed_at": "2026-10-21T05:26:23",
@@ -1829,6 +1854,11 @@
     "source": "Google DeepMind News",
     "title": "Gemini 4 Argon: Built to solve your hardest problems"
   },
+  "https://deepmind.google/blog/introducing-gemini-4-hydrogen": {
+    "pushed_at": "2026-11-12T20:41:55",
+    "source": "Google DeepMind News",
+    "title": "Introducing Gemini 4 Hydrogen"
+  },
   "https://deepmind.google/blog/introducing-synthid-bio": {
     "pushed_at": "2026-10-16T03:10:53",
     "source": "Google DeepMind News",
@@ -2053,6 +2083,11 @@
     "pushed_at": "2026-10-23T17:46:57",
     "source": "ElevenLabs Blog",
     "title": "How Immobiliare.it went from one conversational agent to an agentic network"
+  },
+  "https://elevenlabs.io/blog/impact-nyc-summit": {
+    "pushed_at": "2026-11-12T20:41:55",
+    "source": "ElevenLabs Blog",
+    "title": "ElevenLabs brings free voice restoration to veterans, songwriters, and more patients"
   },
   "https://elevenlabs.io/blog/internal-ops-agents": {
     "pushed_at": "2026-10-29T18:50:59",
@@ -2604,6 +2639,11 @@
     "source": "Apple Machine Learning Research",
     "title": "Self-Compacting Language Model Agents"
   },
+  "https://machinelearning.apple.com/research/theoretical-limits-alignment": {
+    "pushed_at": "2026-11-12T20:41:55",
+    "source": "Apple Machine Learning Research",
+    "title": "Theoretical Limits of Language Model Alignment"
+  },
   "https://machinelearning.apple.com/research/tri-modal-masked-diffusion": {
     "pushed_at": "2026-10-16T02:35:41",
     "source": "Apple Machine Learning Research",
@@ -2813,6 +2853,11 @@
     "pushed_at": "2026-10-16T02:35:32",
     "source": "OpenAI News",
     "title": "Amp puts AI agents to work beyond code with OpenAI models"
+  },
+  "https://openai.com/index/amplitude": {
+    "pushed_at": "2026-11-12T20:41:55",
+    "source": "OpenAI News",
+    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI"
   },
   "https://openai.com/index/asana-browser-agent": {
     "pushed_at": "2026-10-16T03:10:50",
@@ -3273,6 +3318,11 @@
     "pushed_at": "2026-10-20T17:52:02",
     "source": "Shopify Engineering",
     "title": "跨数百万店铺的商品聚类"
+  },
+  "https://shopify.engineering/cyber-chaos-monkey": {
+    "pushed_at": "2026-11-12T20:41:55",
+    "source": "Shopify Engineering",
+    "title": "Cyber Chaos Monkey: Staying ahead of security threats with AI agents"
   },
   "https://shopify.engineering/faster-breadth-first-graphql-execution": {
     "pushed_at": "2026-10-19T09:57:33",
@@ -4684,6 +4734,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors"
   },
+  "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports": {
+    "pushed_at": "2026-11-12T20:41:55",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Jensen Huang was having a third affair, Reuters reports"
+  },
   "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave": {
     "pushed_at": "2026-11-11T20:04:02",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4773,6 +4828,11 @@
     "pushed_at": "2026-10-17T02:32:48",
     "source": "Vercel News",
     "title": "Vercel Ship 2026 回顾"
+  },
+  "https://vercel.com/blog/wtf-are-evals": {
+    "pushed_at": "2026-11-12T20:41:55",
+    "source": "Vercel News",
+    "title": "WTF are evals? How to test agents and the software they use"
   },
   "https://vercel.com/changelog/add-liveness-checks-to-your-daemons": {
     "pushed_at": "2026-11-02T06:56:32",
@@ -7873,6 +7933,11 @@
     "pushed_at": "2026-11-09T07:16:51",
     "source": "The Verge",
     "title": "Here’s the full text of Jensen Huang’s memo to Nvidia"
+  },
+  "https://www.theverge.com/column/1032243/peptides-american-manufacturing-maha": {
+    "pushed_at": "2026-11-12T20:41:55",
+    "source": "The Verge",
+    "title": "Meet the people who want peptides to be made in America"
   },
   "https://www.theverge.com/entertainment/1013381/jad-abumrad-radiolab-dolly-parton-fela-kuti-podcast-interview": {
     "pushed_at": "2026-10-18T06:52:43",
