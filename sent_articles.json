@@ -119,6 +119,11 @@
     "source": "Ars Technica",
     "title": "Artist pulls popular screensaver from Roku OS because of Fox acquisition"
   },
+  "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia": {
+    "pushed_at": "2026-11-12T07:48:46",
+    "source": "Ars Technica",
+    "title": "CEO Jensen Huang's job is suddenly on the line at Nvidia"
+  },
   "https://arstechnica.com/gadgets/2026/11/seagate-resurrects-the-ssd-hdd-hybrid-drive": {
     "pushed_at": "2026-11-11T07:17:41",
     "source": "Ars Technica",
@@ -383,6 +388,11 @@
     "pushed_at": "2026-11-01T18:18:39",
     "source": "Artificial Intelligence",
     "title": "Build a repeatable PHP-to-Java migration engine with Kiro"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai": {
+    "pushed_at": "2026-11-12T07:48:46",
+    "source": "Artificial Intelligence",
+    "title": "Build autonomous AI agents with Amazon Bedrock and Spring AI"
   },
   "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai": {
     "pushed_at": "2026-11-03T07:19:04",
@@ -1034,6 +1044,11 @@
     "source": "News from Google",
     "title": "We’re powering European scientific discovery with advanced AI compute and frontier models."
   },
+  "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop": {
+    "pushed_at": "2026-11-12T07:48:46",
+    "source": "AI",
+    "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together."
+  },
   "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing": {
     "pushed_at": "2026-10-15T19:44:12",
     "source": "News from Google",
@@ -1574,6 +1589,11 @@
     "source": "NVIDIA Blog",
     "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA"
   },
+  "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration": {
+    "pushed_at": "2026-11-12T07:48:46",
+    "source": "NVIDIA Blog",
+    "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration"
+  },
   "https://blogs.nvidia.com/blog/korean-startup-investments-msit": {
     "pushed_at": "2026-11-10T07:48:56",
     "source": "NVIDIA Blog",
@@ -1763,6 +1783,11 @@
     "pushed_at": "2026-11-05T20:30:18",
     "source": "Google DeepMind News",
     "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips"
+  },
+  "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence": {
+    "pushed_at": "2026-11-12T07:48:46",
+    "source": "Google DeepMind News",
+    "title": "Gemini Robotics 2.5 accelerates real-world general dexterity"
   },
   "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation": {
     "pushed_at": "2026-10-27T18:36:18",
@@ -2154,6 +2179,11 @@
     "source": "ElevenLabs Blog",
     "title": "Voice AI infrastructure: The 2026 stack explained"
   },
+  "https://elevenlabs.io/blog/voice-cloning-for-content-creators": {
+    "pushed_at": "2026-11-12T07:48:46",
+    "source": "ElevenLabs Blog",
+    "title": "Voice cloning for content creators: Scale your content workflows with voice AI"
+  },
   "https://elevenlabs.io/blog/voice-wins-complex-stressful-conversations": {
     "pushed_at": "2026-11-09T07:16:51",
     "source": "ElevenLabs Blog",
@@ -2524,6 +2554,11 @@
     "source": "Apple Machine Learning Research",
     "title": "Faster Retrieval for Better, More Efficient RAG"
   },
+  "https://machinelearning.apple.com/research/gating-memorization-in-context": {
+    "pushed_at": "2026-11-12T07:48:46",
+    "source": "Apple Machine Learning Research",
+    "title": "On the Importance of Gating: Memorization vs. In-Context Learning in State Space Models"
+  },
   "https://machinelearning.apple.com/research/gharp-head-animation": {
     "pushed_at": "2026-10-27T05:44:48",
     "source": "Apple Machine Learning Research",
@@ -2878,6 +2913,11 @@
     "pushed_at": "2026-10-22T17:55:28",
     "source": "OpenAI News",
     "title": "在OpenAI，FDE意味着什么"
+  },
+  "https://openai.com/index/gilbert-tobin-sam-nickless": {
+    "pushed_at": "2026-11-12T07:48:46",
+    "source": "OpenAI News",
+    "title": "Gilbert + Tobin rethinks the business of law with AI"
   },
   "https://openai.com/index/gpt-6-for-everyone": {
     "pushed_at": "2026-10-16T03:44:07",
@@ -4619,6 +4659,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "OpenAI acquires Odessia, travel startup created by Sonder founder"
   },
+  "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors": {
+    "pushed_at": "2026-11-12T07:48:46",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors"
+  },
   "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave": {
     "pushed_at": "2026-11-11T20:04:02",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4888,6 +4933,11 @@
     "pushed_at": "2026-10-23T17:46:57",
     "source": "Vercel News",
     "title": "Send feedback from the Vercel MCP"
+  },
+  "https://vercel.com/changelog/speed-insights-and-web-analytics-now-support-custom-environments": {
+    "pushed_at": "2026-11-12T07:48:46",
+    "source": "Vercel News",
+    "title": "Speed Insights and Web Analytics now support custom environments"
   },
   "https://vercel.com/changelog/strix-now-supports-vercel-ai-gateway": {
     "pushed_at": "2026-10-30T06:33:33",
@@ -7998,6 +8048,11 @@
     "pushed_at": "2026-11-11T07:17:41",
     "source": "The Verge",
     "title": "Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode"
+  },
+  "https://www.theverge.com/tech/1031652/jensen-huang-rumor": {
+    "pushed_at": "2026-11-12T07:48:46",
+    "source": "The Verge",
+    "title": "Nvidia is reportedly preparing to fire Jensen Huang"
   },
   "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance": {
     "pushed_at": "2026-10-18T04:13:01",
