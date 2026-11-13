@@ -3534,6 +3534,11 @@
     "source": "Simon Willison's Weblog",
     "title": "Browse tools.simonwillison.net by tag"
   },
+  "https://simonwillison.net/2026/Nov/12/llm-gemini": {
+    "pushed_at": "2026-11-13T16:00:12",
+    "source": "Simon Willison's Weblog",
+    "title": "llm-gemini 0.37"
+  },
   "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence": {
     "pushed_at": "2026-11-02T18:01:26",
     "source": "Simon Willison's Weblog",
@@ -4269,6 +4274,11 @@
     "source": "少数派",
     "title": "TDS REVIEW｜Apple AirPods 5 半入耳降噪真无线耳机体验"
   },
+  "https://sspai.com/post/118153": {
+    "pushed_at": "2026-11-13T16:00:10",
+    "source": "少数派",
+    "title": "研究生如何用 AI 辅助完成一篇综述：我的科研写作工具与实践经验"
+  },
   "https://sspai.com/post/118175": {
     "pushed_at": "2026-11-11T15:57:34",
     "source": "少数派",
@@ -4338,6 +4348,11 @@
     "pushed_at": "2026-11-05T16:18:19",
     "source": "少数派",
     "title": "派早报：腾讯发布混元 Hy4 正式版，Google 调整 K-12 教育 AI 政策等"
+  },
+  "https://sspai.com/post/118512": {
+    "pushed_at": "2026-11-13T16:00:10",
+    "source": "少数派",
+    "title": "在快 AI 时代，我是怎么把 Mole 做成一款「慢产品」的？"
   },
   "https://sspai.com/post/118541": {
     "pushed_at": "2026-11-05T16:18:19",
@@ -4418,6 +4433,16 @@
     "pushed_at": "2026-11-12T16:40:58",
     "source": "少数派",
     "title": "派早报：Apple 公布 Swift Student Challenge 安排、微软发布 Auto SR 等"
+  },
+  "https://sspai.com/post/118966": {
+    "pushed_at": "2026-11-13T16:00:10",
+    "source": "少数派",
+    "title": "派早报：英伟达 CEO 黄仁勋宣布辞职等"
+  },
+  "https://sspai.com/post/118999": {
+    "pushed_at": "2026-11-13T16:00:10",
+    "source": "少数派",
+    "title": "本周看什么 | 最近值得一看的 10 部作品"
   },
   "https://sspai.com/post/85735": {
     "pushed_at": "2026-11-12T16:40:58",
@@ -6894,6 +6919,31 @@
     "source": "IT之家",
     "title": "AMD 发布肾上腺素 26.11.1 可选驱动：修复 SSD 异常写入问题，公布多项已知游戏兼容问题"
   },
+  "https://www.ithome.com/1/026/991.htm": {
+    "pushed_at": "2026-11-13T15:59:54",
+    "source": "IT之家",
+    "title": "麒麟 8000 系也有份：华为更多机型更新 HarmonyOS 7 系统后补齐沉浸光感粒子动效"
+  },
+  "https://www.ithome.com/1/026/992.htm": {
+    "pushed_at": "2026-11-13T15:59:54",
+    "source": "IT之家",
+    "title": "大规模故障殃及全球多地多行业，微软确认主要软件服务恢复工作已取得进展"
+  },
+  "https://www.ithome.com/1/026/993.htm": {
+    "pushed_at": "2026-11-13T15:59:54",
+    "source": "IT之家",
+    "title": "华为麒麟 9050 系列芯片新一代灵犀 CPU 详细信息公开：9 核 16 线程并行调度，支持内存压缩加速"
+  },
+  "https://www.ithome.com/1/026/994.htm": {
+    "pushed_at": "2026-11-13T15:59:54",
+    "source": "IT之家",
+    "title": "让智能体帮你购物，OpenAI 推出支付功能 ChatGPT Wallet"
+  },
+  "https://www.ithome.com/1/026/995.htm": {
+    "pushed_at": "2026-11-13T15:59:54",
+    "source": "IT之家",
+    "title": "NearLink E1.0 也有新特性！华为 MatePad Pro 13.2 2023 等平板获推支持星闪电竞专链功能"
+  },
   "https://www.qbitai.com/2026/10/503165.html": {
     "pushed_at": "2026-10-15T08:13:53",
     "source": "量子位",
@@ -7808,6 +7858,31 @@
     "pushed_at": "2026-11-12T16:40:39",
     "source": "量子位",
     "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛"
+  },
+  "https://www.qbitai.com/2026/11/509716.html": {
+    "pushed_at": "2026-11-13T15:59:52",
+    "source": "量子位",
+    "title": "从仰望极速新纪录和鼎曜全球发布 看比亚迪的国际化与高端化之路"
+  },
+  "https://www.qbitai.com/2026/11/509730.html": {
+    "pushed_at": "2026-11-13T15:59:52",
+    "source": "量子位",
+    "title": "比亚迪第1900万辆新能源汽车下线，科技新奢旗舰SUV方程豹钛9开启预订"
+  },
+  "https://www.qbitai.com/2026/11/509796.html": {
+    "pushed_at": "2026-11-13T15:59:52",
+    "source": "量子位",
+    "title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了"
+  },
+  "https://www.qbitai.com/2026/11/509827.html": {
+    "pushed_at": "2026-11-13T15:59:52",
+    "source": "量子位",
+    "title": "MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！"
+  },
+  "https://www.qbitai.com/2026/11/509995.html": {
+    "pushed_at": "2026-11-13T15:59:52",
+    "source": "量子位",
+    "title": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿"
   },
   "https://www.solidot.org/story?sid=85598": {
     "pushed_at": "2026-10-15T09:04:02",
