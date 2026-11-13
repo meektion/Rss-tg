@@ -164,6 +164,11 @@
     "source": "Ars Technica",
     "title": "据报道，小罗伯特·肯尼迪提议FDA对未经证实的肽类产品睁一只眼闭一只眼。"
   },
+  "https://arstechnica.com/health/2026/11/in-reversal-american-cancer-society-urges-prostate-cancer-tests-for-all-men": {
+    "pushed_at": "2026-11-13T07:25:17",
+    "source": "Ars Technica",
+    "title": "In reversal, American Cancer Society urges routine prostate cancer screening"
+  },
   "https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain": {
     "pushed_at": "2026-11-07T06:40:29",
     "source": "Ars Technica",
@@ -448,6 +453,11 @@
     "pushed_at": "2026-10-16T03:38:54",
     "source": "Artificial Intelligence",
     "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron": {
+    "pushed_at": "2026-11-13T07:25:17",
+    "source": "Artificial Intelligence",
+    "title": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron"
   },
   "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks": {
     "pushed_at": "2026-10-29T06:34:04",
@@ -1034,6 +1044,11 @@
     "source": "AI",
     "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps."
   },
+  "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu": {
+    "pushed_at": "2026-11-13T07:25:17",
+    "source": "AI",
+    "title": "Experience the art and legacy of Dr. Esther Mahlangu"
+  },
   "https://blog.google/company-news/outreach-and-initiatives/google-org/impact-challenge-ai-science-recipients": {
     "pushed_at": "2026-10-15T11:25:36",
     "source": "News from Google",
@@ -1459,6 +1474,11 @@
     "source": "The Official Microsoft Blog",
     "title": "From AI ambition to business impact"
   },
+  "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms": {
+    "pushed_at": "2026-11-13T07:25:17",
+    "source": "The Official Microsoft Blog",
+    "title": "Scaling AI value without losing control: Lessons from Frontier Firms"
+  },
   "https://blogs.nvidia.com/blog/ai-breast-cancer-startups": {
     "pushed_at": "2026-10-16T03:38:50",
     "source": "NVIDIA Blog",
@@ -1683,6 +1703,11 @@
     "pushed_at": "2026-10-16T02:35:37",
     "source": "NVIDIA Blog",
     "title": "当一个地区致力于高级计算时，北欧和NVIDIA展示了什么是可能的"
+  },
+  "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models": {
+    "pushed_at": "2026-11-13T07:25:17",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production"
   },
   "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk": {
     "pushed_at": "2026-11-06T07:27:09",
@@ -2013,6 +2038,11 @@
     "pushed_at": "2026-11-01T18:18:39",
     "source": "ElevenLabs Blog",
     "title": "How your transcript knows where each word is spoken"
+  },
+  "https://elevenlabs.io/blog/customer-service-skills": {
+    "pushed_at": "2026-11-13T07:25:17",
+    "source": "ElevenLabs Blog",
+    "title": "7 customer service skills every human and AI agent needs (with examples)"
   },
   "https://elevenlabs.io/blog/elevenagents-architect": {
     "pushed_at": "2026-10-18T11:04:31",
@@ -2494,6 +2524,11 @@
     "source": "The GitHub Blog",
     "title": "保持常青：我们如何在共享组织中实现安全访问和仓库卫生的自动化"
   },
+  "https://github.blog/news-insights/company-news/github-availability-report-october-2026": {
+    "pushed_at": "2026-11-13T07:25:17",
+    "source": "The GitHub Blog",
+    "title": "GitHub availability report: October 2026"
+  },
   "https://github.blog/news-insights/company-news/github-availability-report-september-2026": {
     "pushed_at": "2026-10-15T08:14:32",
     "source": "The GitHub Blog",
@@ -2648,6 +2683,11 @@
     "pushed_at": "2026-10-16T02:35:41",
     "source": "Apple Machine Learning Research",
     "title": "The Design Space of Tri-Modal Masked Diffusion Models"
+  },
+  "https://machinelearning.apple.com/research/weighted-state-souping": {
+    "pushed_at": "2026-11-13T07:25:17",
+    "source": "Apple Machine Learning Research",
+    "title": "Weighted State Souping for Efficient Long-Context Retrieval"
   },
   "https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-15T11:25:54",
@@ -2843,6 +2883,11 @@
     "pushed_at": "2026-11-09T07:16:51",
     "source": "OpenAI News",
     "title": "Flipsnack grows product signups with conversion optimization"
+  },
+  "https://openai.com/business/customer-stories/amplitude": {
+    "pushed_at": "2026-11-13T07:25:17",
+    "source": "OpenAI News",
+    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI"
   },
   "https://openai.com/index/accelerating-engineering-for-the-physical-world": {
     "pushed_at": "2026-11-03T19:59:38",
@@ -4734,6 +4779,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors"
   },
+  "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump": {
+    "pushed_at": "2026-11-13T07:25:17",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump"
+  },
   "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports": {
     "pushed_at": "2026-11-12T20:41:55",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4928,6 +4978,11 @@
     "pushed_at": "2026-10-29T18:50:59",
     "source": "Vercel News",
     "title": "IP geolocation now covers more visitors at higher resolution"
+  },
+  "https://vercel.com/changelog/inkling-2-small-now-available-on-ai-gateway": {
+    "pushed_at": "2026-11-13T07:25:17",
+    "source": "Vercel News",
+    "title": "Inkling 2 Small now available on AI Gateway"
   },
   "https://vercel.com/changelog/introducing-token-pass": {
     "pushed_at": "2026-10-17T02:56:42",
@@ -8188,6 +8243,11 @@
     "pushed_at": "2026-11-12T07:48:46",
     "source": "The Verge",
     "title": "Nvidia is reportedly preparing to fire Jensen Huang"
+  },
+  "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang": {
+    "pushed_at": "2026-11-13T07:25:17",
+    "source": "The Verge",
+    "title": "Donald Trump really wants Tim Cook to run Nvidia"
   },
   "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance": {
     "pushed_at": "2026-10-18T04:13:01",
