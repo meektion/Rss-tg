@@ -224,6 +224,11 @@
     "source": "Ars Technica",
     "title": "In elephants, the resilience of communities has its limits"
   },
+  "https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits": {
+    "pushed_at": "2026-11-14T18:40:45",
+    "source": "Ars Technica",
+    "title": "James Webb telescope finds ice older than the star it orbits"
+  },
   "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery": {
     "pushed_at": "2026-11-08T18:15:42",
     "source": "Ars Technica",
@@ -649,6 +654,11 @@
     "source": "Artificial Intelligence",
     "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1"
   },
+  "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard": {
+    "pushed_at": "2026-11-14T18:40:45",
+    "source": "Artificial Intelligence",
+    "title": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard"
+  },
   "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers": {
     "pushed_at": "2026-10-16T03:38:54",
     "source": "Artificial Intelligence",
@@ -1008,6 +1018,11 @@
     "pushed_at": "2026-10-15T19:44:04",
     "source": "Cloudflare Blog",
     "title": "The keys to the Internet change on October 11. Are you ready?"
+  },
+  "https://blog.cloudflare.com/spend-management": {
+    "pushed_at": "2026-11-14T18:40:45",
+    "source": "Cloudflare Blog",
+    "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare"
   },
   "https://blog.cloudflare.com/streamline": {
     "pushed_at": "2026-10-16T04:09:10",
@@ -2179,6 +2194,11 @@
     "source": "ElevenLabs Blog",
     "title": "介绍品牌套件"
   },
+  "https://elevenlabs.io/blog/introducing-forward-deployed-creatives": {
+    "pushed_at": "2026-11-14T18:40:45",
+    "source": "ElevenLabs Blog",
+    "title": "Introducing Forward Deployed Creatives in ElevenCreative"
+  },
   "https://elevenlabs.io/blog/introducing-instant-soundtracks": {
     "pushed_at": "2026-10-18T03:38:50",
     "source": "ElevenLabs Blog",
@@ -2953,6 +2973,11 @@
     "pushed_at": "2026-11-13T07:25:17",
     "source": "OpenAI News",
     "title": "How Amplitude ships product improvements in 1–2 days with OpenAI"
+  },
+  "https://openai.com/business/customer-stories/gondola": {
+    "pushed_at": "2026-11-14T18:40:45",
+    "source": "OpenAI News",
+    "title": "Gondola doubles revenue as its team builds more with Codex"
   },
   "https://openai.com/business/customer-stories/shield": {
     "pushed_at": "2026-11-14T07:06:08",
@@ -4914,6 +4939,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say"
   },
+  "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it": {
+    "pushed_at": "2026-11-14T18:40:45",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "The AI graveyard: a running list of projects and startups that didn’t make it"
+  },
   "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave": {
     "pushed_at": "2026-11-11T20:04:02",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -5293,6 +5323,11 @@
     "pushed_at": "2026-11-04T07:00:59",
     "source": "Vercel News",
     "title": "Vercel Security Review now in public beta"
+  },
+  "https://vercel.com/changelog/vercel-token-pass-now-includes-one-hundred-fifty-dollars-of-monthly-tokens": {
+    "pushed_at": "2026-11-14T18:40:45",
+    "source": "Vercel News",
+    "title": "Token Pass now includes $150 in tokens for $30/month"
   },
   "https://vercel.com/changelog/vercel-tracing-is-now-generally-available": {
     "pushed_at": "2026-11-08T18:15:42",
@@ -8549,6 +8584,11 @@
     "source": "The Verge",
     "title": "Mercedes-AMG首款全新打造的SUV是一台1,150马力的电动猛兽"
   },
+  "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire": {
+    "pushed_at": "2026-11-14T18:40:45",
+    "source": "The Verge",
+    "title": "Work to replace old copper wire led to the FAA’s ground stop"
+  },
   "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning": {
     "pushed_at": "2026-10-19T16:26:14",
     "source": "Hacker News: Front Page",
@@ -8623,6 +8663,11 @@
     "pushed_at": "2026-10-19T07:40:51",
     "source": "WIRED",
     "title": "2026年冬季室内植物最佳LED生长灯"
+  },
+  "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom": {
+    "pushed_at": "2026-11-14T18:40:45",
+    "source": "WIRED",
+    "title": "Beware the New AI-Fueled Ransomware Boom"
   },
   "https://www.wired.com/story/burga-sale-november-2026": {
     "pushed_at": "2026-11-02T22:13:47",
