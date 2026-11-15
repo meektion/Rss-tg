@@ -294,6 +294,11 @@
     "source": "Ars Technica",
     "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday"
   },
+  "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world": {
+    "pushed_at": "2026-11-15T07:17:26",
+    "source": "Ars Technica",
+    "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch"
+  },
   "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits": {
     "pushed_at": "2026-10-19T16:26:14",
     "source": "Ars Technica",
@@ -383,6 +388,11 @@
     "pushed_at": "2026-10-28T06:23:08",
     "source": "Artificial Intelligence",
     "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime": {
+    "pushed_at": "2026-11-15T07:17:26",
+    "source": "Artificial Intelligence",
+    "title": "Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime"
   },
   "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore": {
     "pushed_at": "2026-11-10T20:20:31",
@@ -729,125 +739,15 @@
     "source": "Artificial Intelligence",
     "title": "在AWS上使用Smartsheet MCP为AI代理提供工作管理上下文"
   },
-  "https://baoyu.io/blog/2026-05-11/skill-next-codex": {
-    "pushed_at": "2026-10-15T11:25:14",
-    "source": "宝玉的分享",
-    "title": "Codex 的野心，MCP 和 Skill 的下一步"
-  },
-  "https://baoyu.io/blog/2026-05-12/running-an-ai-native-engineering-org": {
-    "pushed_at": "2026-10-15T11:25:12",
-    "source": "宝玉的分享",
-    "title": "AI 时代到底该怎么管一个工程团队"
-  },
-  "https://baoyu.io/blog/2026-05-15/forward-deployed-engineer": {
-    "pushed_at": "2026-10-15T11:25:07",
-    "source": "宝玉的分享",
-    "title": "Forward Deployed Engineer：AI 时代的新宠岗位，到底干什么？"
-  },
-  "https://baoyu.io/blog/2026-05-20/jxnlco-2057153744630890620": {
-    "pushed_at": "2026-10-15T09:04:19",
-    "source": "宝玉的分享",
-    "title": "来自 Codex 官方团队的分享：如何把 Codex 用到极致"
-  },
-  "https://baoyu.io/blog/2026-05-23/bookwormengr-status-2057909493250539891": {
-    "pushed_at": "2026-10-15T09:04:17",
-    "source": "宝玉的分享",
-    "title": "DeepSeek 的 10 万亿美元大战略"
-  },
-  "https://baoyu.io/blog/2026-06-13/codex-design-model-gap": {
-    "pushed_at": "2026-10-15T09:04:14",
-    "source": "宝玉的分享",
-    "title": "为啥 Codex 还不推出类似 Codex Design 的产品？"
-  },
-  "https://baoyu.io/blog/2026-07-06/claudedevs-2074208949205881033": {
-    "pushed_at": "2026-10-15T07:08:43",
-    "source": "宝玉的分享",
-    "title": "从零开始玩转循环 (Getting started with loops)"
-  },
-  "https://baoyu.io/blog/2026-07-12/caveman-token-saving-test": {
-    "pushed_at": "2026-10-15T07:08:38",
-    "source": "宝玉的分享",
-    "title": "“母病速归”式 AI：号称省 65% Token，实测只有 8.5%"
-  },
-  "https://baoyu.io/blog/2026-07-28/agent-judgments": {
-    "pushed_at": "2026-10-15T07:08:36",
-    "source": "宝玉的分享",
-    "title": "关于 Agent 的几个判断"
-  },
-  "https://baoyu.io/blog/2026-08-24/ai-native-dev-workflow": {
-    "pushed_at": "2026-10-15T06:34:50",
-    "source": "宝玉的分享",
-    "title": "我的 AI 原生开发流程：一个真实案例的完整复盘"
-  },
-  "https://baoyu.io/blog/2026-08-28/warp-self-improving-agents": {
-    "pushed_at": "2026-10-15T06:34:48",
-    "source": "宝玉的分享",
-    "title": "Warp 如何让 Agent 自我进化"
-  },
-  "https://baoyu.io/blog/2026-08-31/ai-native-thinking": {
-    "pushed_at": "2026-10-15T06:34:45",
-    "source": "宝玉的分享",
-    "title": "AI 原生思维——像训练大模型一样训练自己"
-  },
   "https://baoyu.io/blog/2026-10-20/notebooklm-video-overview-system-prompt": {
     "pushed_at": "2026-10-20T19:55:44",
     "source": "宝玉的分享",
     "title": "NotebookLM的视频概览系统提示：完整创作流程"
   },
-  "https://baoyu.io/blog/chatgpt-work-codex-guide": {
-    "pushed_at": "2026-10-15T07:08:40",
-    "source": "宝玉的分享",
-    "title": "一文看懂ChatGPT、Codex、Work 的差别"
-  },
-  "https://baoyu.io/blog/coding-agent-em-shift": {
-    "pushed_at": "2026-10-15T07:08:33",
-    "source": "宝玉的分享",
-    "title": "从 TL 到 EM：我终于不再盯着 AI 写代码了"
-  },
-  "https://baoyu.io/blog/gpt-6-astra-peach-blossom-land": {
-    "pushed_at": "2026-10-15T06:34:41",
-    "source": "宝玉的分享",
-    "title": "我用 GPT 6 Astra 做了一个 3D 版的《桃花源记》（文中含提示词）"
-  },
-  "https://baoyu.io/translations/2026-05-10/akshay-pachaar-2041146899319971922": {
-    "pushed_at": "2026-10-15T13:07:24",
-    "source": "宝玉的分享",
-    "title": "深度拆解：AI Agent Harness 的构造"
-  },
-  "https://baoyu.io/translations/2026-05-12/why-senior-developers-fail-to-communicate-their-expertise": {
-    "pushed_at": "2026-10-15T11:25:09",
-    "source": "宝玉的分享",
-    "title": "为什么资深开发者讲不清自己的专业能力"
-  },
-  "https://baoyu.io/translations/2026-05-16/the-founders-playbook-building-an-ai-native-startup": {
-    "pushed_at": "2026-10-15T11:25:04",
-    "source": "宝玉的分享",
-    "title": "创始人手册：打造 AI 原生初创公司"
-  },
-  "https://baoyu.io/translations/2026-05-17/i-dont-vibe-code": {
-    "pushed_at": "2026-10-15T09:04:21",
-    "source": "宝玉的分享",
-    "title": "为什么我不“凭感觉编程”"
-  },
-  "https://baoyu.io/translations/2026-09-02/the-anatomy-of-effective-commerce-agents": {
-    "pushed_at": "2026-10-15T06:34:43",
-    "source": "宝玉的分享",
-    "title": "高效电商 AI 智能体解剖指南 | 选自 Anthropic 的 Claude 博客"
-  },
   "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators": {
     "pushed_at": "2026-11-14T07:06:08",
     "source": "Cloudflare Blog",
     "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model"
-  },
-  "https://blog.cloudflare.com/agentic-security-operations": {
-    "pushed_at": "2026-10-15T19:44:02",
-    "source": "Cloudflare Blog",
-    "title": "在Cloudflare上构建基于证据的代理安全操作工具"
-  },
-  "https://blog.cloudflare.com/birthday-week-2026-wrap-up": {
-    "pushed_at": "2026-10-15T19:44:05",
-    "source": "Cloudflare Blog",
-    "title": "Everything we launched during Birthday Week 2026"
   },
   "https://blog.cloudflare.com/choosing-quepaxa": {
     "pushed_at": "2026-11-11T20:04:02",
@@ -859,40 +759,15 @@
     "source": "Cloudflare Blog",
     "title": "Introducing Clairic, a new System One class of extraction models"
   },
-  "https://blog.cloudflare.com/clef-faster-cheaper-multimodal": {
-    "pushed_at": "2026-10-15T11:25:32",
-    "source": "Cloudflare Blog",
-    "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash"
-  },
-  "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web": {
-    "pushed_at": "2026-10-15T13:07:26",
-    "source": "Cloudflare Blog",
-    "title": "Cloudflare和OpenAI：让每个人都能更好地发现AI"
-  },
   "https://blog.cloudflare.com/cloudflare-tracing": {
     "pushed_at": "2026-10-16T04:09:10",
     "source": "Cloudflare Blog",
     "title": "推出 Cloudflare Traces：跟踪请求贯穿我们整个平台"
   },
-  "https://blog.cloudflare.com/d1-control-plane": {
-    "pushed_at": "2026-10-15T13:07:31",
-    "source": "Cloudflare Blog",
-    "title": "Under the hood, off the hot path: How D1 scales to millions of databases"
-  },
   "https://blog.cloudflare.com/ddos-threat-report-2026-q3": {
     "pushed_at": "2026-10-29T18:50:59",
     "source": "Cloudflare Blog",
     "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants"
-  },
-  "https://blog.cloudflare.com/deno-joins-cloudflare": {
-    "pushed_at": "2026-10-15T11:25:34",
-    "source": "Cloudflare Blog",
-    "title": "Deno is joining Cloudflare"
-  },
-  "https://blog.cloudflare.com/deploy-with-void": {
-    "pushed_at": "2026-10-15T19:44:00",
-    "source": "Cloudflare Blog",
-    "title": "使用Void部署"
   },
   "https://blog.cloudflare.com/dns-targeted-zone-builds": {
     "pushed_at": "2026-11-02T22:13:47",
@@ -913,11 +788,6 @@
     "pushed_at": "2026-10-21T17:59:17",
     "source": "Cloudflare Blog",
     "title": "Cloudflare WAF 推出完整事务检测功能"
-  },
-  "https://blog.cloudflare.com/hyperdrive-mysql": {
-    "pushed_at": "2026-10-15T13:07:30",
-    "source": "Cloudflare Blog",
-    "title": "Hyperdrive内部：我们如何解决一个罕见的Hyperdrive MySQL缓存错误"
   },
   "https://blog.cloudflare.com/introducing-web-search-api": {
     "pushed_at": "2026-10-16T04:09:10",
@@ -989,11 +859,6 @@
     "source": "Cloudflare Blog",
     "title": "Cloudflare services for private origins is now generally available"
   },
-  "https://blog.cloudflare.com/programmable-gateway-dlp": {
-    "pushed_at": "2026-10-15T19:43:58",
-    "source": "Cloudflare Blog",
-    "title": "一个完全可编程的安全web网关"
-  },
   "https://blog.cloudflare.com/protect-your-netscaler-gateway": {
     "pushed_at": "2026-10-19T16:26:14",
     "source": "Cloudflare Blog",
@@ -1004,21 +869,6 @@
     "source": "Cloudflare Blog",
     "title": "What took the Internet offline in Q3 2026"
   },
-  "https://blog.cloudflare.com/radar-redesign": {
-    "pushed_at": "2026-10-15T13:07:33",
-    "source": "Cloudflare Blog",
-    "title": "Bridging technical depth and usability: The story behind Radar’s redesign"
-  },
-  "https://blog.cloudflare.com/rewinding-the-exponential": {
-    "pushed_at": "2026-10-15T08:14:29",
-    "source": "Cloudflare Blog",
-    "title": "Rewinding the exponential: How we keep hardware usage down"
-  },
-  "https://blog.cloudflare.com/root-ksk-2024-rollover": {
-    "pushed_at": "2026-10-15T19:44:04",
-    "source": "Cloudflare Blog",
-    "title": "The keys to the Internet change on October 11. Are you ready?"
-  },
   "https://blog.cloudflare.com/spend-management": {
     "pushed_at": "2026-11-14T18:40:45",
     "source": "Cloudflare Blog",
@@ -1028,11 +878,6 @@
     "pushed_at": "2026-10-16T04:09:10",
     "source": "Cloudflare Blog",
     "title": "Streamline：使用 Cloudflare Stream 和 Workers 构建自定义视频管道"
-  },
-  "https://blog.cloudflare.com/transformers-on-logpush": {
-    "pushed_at": "2026-10-15T08:14:31",
-    "source": "Cloudflare Blog",
-    "title": "Filter, reshape, and redact logs before export with Transformers"
   },
   "https://blog.cloudflare.com/trusted-agent-delegation": {
     "pushed_at": "2026-11-05T20:30:18",
@@ -1059,16 +904,6 @@
     "source": "Cloudflare Blog",
     "title": "Commerce.com和Cloudflare如何让店铺为AI代理做好准备"
   },
-  "https://blog.cloudflare.com/workers-on-demand-profiling": {
-    "pushed_at": "2026-10-15T09:04:42",
-    "source": "Cloudflare Blog",
-    "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects"
-  },
-  "https://blog.cloudflare.com/yandex-outage": {
-    "pushed_at": "2026-10-15T13:07:28",
-    "source": "Cloudflare Blog",
-    "title": "Yandex宕机：数据显示，恶意机器人并没有关闭，而是继续移动"
-  },
   "https://blog.cloudflare.com/zero-wire": {
     "pushed_at": "2026-11-03T19:59:38",
     "source": "Cloudflare Blog",
@@ -1078,11 +913,6 @@
     "pushed_at": "2026-10-21T05:26:23",
     "source": "AI",
     "title": "东南亚数字经济规模将达3680亿美元"
-  },
-  "https://blog.google/company-news/inside-google/around-the-globe/google-europe/european-economic-impact-report": {
-    "pushed_at": "2026-10-15T11:25:40",
-    "source": "News from Google",
-    "title": "Enabling an AI-first European economy"
   },
   "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration": {
     "pushed_at": "2026-11-11T07:17:41",
@@ -1094,11 +924,6 @@
     "source": "AI",
     "title": "Experience the art and legacy of Dr. Esther Mahlangu"
   },
-  "https://blog.google/company-news/outreach-and-initiatives/google-org/impact-challenge-ai-science-recipients": {
-    "pushed_at": "2026-10-15T11:25:36",
-    "source": "News from Google",
-    "title": "17 organizations using AI to accelerate scientific breakthroughs"
-  },
   "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare": {
     "pushed_at": "2026-11-13T20:23:41",
     "source": "AI",
@@ -1109,25 +934,10 @@
     "source": "AI",
     "title": "Gemini 4 Argon: Built to solve your hardest problems"
   },
-  "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models": {
-    "pushed_at": "2026-10-15T11:25:38",
-    "source": "News from Google",
-    "title": "We’re powering European scientific discovery with advanced AI compute and frontier models."
-  },
   "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop": {
     "pushed_at": "2026-11-12T07:48:46",
     "source": "AI",
     "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together."
-  },
-  "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing": {
-    "pushed_at": "2026-10-15T19:44:12",
-    "source": "News from Google",
-    "title": "Bringing the magic: Google breaks open a bottleneck in quantum computing"
-  },
-  "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability": {
-    "pushed_at": "2026-10-15T13:07:41",
-    "source": "News from Google",
-    "title": "氩来到双子座的应用程序。"
   },
   "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people": {
     "pushed_at": "2026-10-16T03:10:55",
@@ -1194,11 +1004,6 @@
     "source": "AI",
     "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted."
   },
-  "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon": {
-    "pushed_at": "2026-10-15T13:07:42",
-    "source": "News from Google",
-    "title": "双子座4氩现在可供开发人员使用。"
-  },
   "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026": {
     "pushed_at": "2026-10-16T03:38:49",
     "source": "AI",
@@ -1224,40 +1029,15 @@
     "source": "AI",
     "title": "Google Beam expands with new regions, partners, and customers"
   },
-  "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026": {
-    "pushed_at": "2026-10-15T09:05:07",
-    "source": "News from Google",
-    "title": "研究@ 2026：新能力和智能"
-  },
-  "https://blog.google/innovation-and-ai/technology/safety-security/circle-to-search-android-text-message-scams": {
-    "pushed_at": "2026-10-15T19:44:15",
-    "source": "News from Google",
-    "title": "Check if a text message is a scam using Circle to Search."
-  },
   "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program": {
     "pushed_at": "2026-10-16T03:44:11",
     "source": "AI",
     "title": "Proactive cyber defense for governments and enterprises"
   },
-  "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security": {
-    "pushed_at": "2026-10-15T11:25:42",
-    "source": "News from Google",
-    "title": "Developing Gemini 4 Argon responsibly and safely"
-  },
-  "https://blog.google/products-and-platforms/platforms/android/cars-with-google-built-in-google-play-updates": {
-    "pushed_at": "2026-10-15T13:07:39",
-    "source": "News from Google",
-    "title": "A new app experience is coming to cars with Google built-in"
-  },
   "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices": {
     "pushed_at": "2026-11-10T20:20:31",
     "source": "AI",
     "title": "Gemini Intelligence: New features, on more devices"
-  },
-  "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026": {
-    "pushed_at": "2026-10-15T11:25:44",
-    "source": "News from Google",
-    "title": "New on Google Play: More ways to create, discover, and play"
   },
   "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks": {
     "pushed_at": "2026-10-26T19:04:50",
@@ -1269,45 +1049,20 @@
     "source": "AI",
     "title": "Get ready for the game with new football features in Search"
   },
-  "https://blog.google/products-and-platforms/products/search/frightgeist-halloween-trends-2026": {
-    "pushed_at": "2026-10-15T09:05:10",
-    "source": "News from Google",
-    "title": "看看今年最热门的万圣节趋势吧。"
-  },
   "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade": {
     "pushed_at": "2026-11-12T20:41:55",
     "source": "AI",
     "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen"
-  },
-  "https://blog.google/products-and-platforms/products/search/halloween-tips-2026": {
-    "pushed_at": "2026-10-15T09:05:12",
-    "source": "News from Google",
-    "title": "6 ways to trick-or-treat yourself to the ultimate Halloween with Search"
   },
   "https://blog.google/products-and-platforms/products/search/running-race-training-tips": {
     "pushed_at": "2026-10-16T03:38:49",
     "source": "AI",
     "title": "3 ways to prep for your next big race with Search"
   },
-  "https://blog.google/products-and-platforms/products/shopping/holiday-shopping-when-to-buy-guide": {
-    "pushed_at": "2026-10-15T13:07:37",
-    "source": "News from Google",
-    "title": "Data-backed secrets to smarter holiday shopping"
-  },
-  "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch": {
-    "pushed_at": "2026-10-15T13:07:35",
-    "source": "News from Google",
-    "title": "An intelligent new shopping cart"
-  },
   "https://blog.google/products-and-platforms/products/workspace/google-pics": {
     "pushed_at": "2026-10-16T03:44:11",
     "source": "AI",
     "title": "Try Google Pics: Easy image creation and editing in Google Workspace"
-  },
-  "https://blog.google/products/ads-commerce/channel-prioritization-budget-allocation": {
-    "pushed_at": "2026-10-15T09:05:08",
-    "source": "News from Google",
-    "title": "用新的优先级和分配功能来指导你的广告支出"
   },
   "https://blog.mozilla.org/en/firefox/5-reasons-to-choose-firefox": {
     "pushed_at": "2026-10-22T17:55:28",
@@ -2239,6 +1994,11 @@
     "source": "ElevenLabs Blog",
     "title": "Open source TTS vs paid APIs: How to choose wisely"
   },
+  "https://elevenlabs.io/blog/partner-program": {
+    "pushed_at": "2026-11-15T07:17:26",
+    "source": "ElevenLabs Blog",
+    "title": "ElevenLabs expands partner program to help enterprises adopt AI agents faster"
+  },
   "https://elevenlabs.io/blog/realtime": {
     "pushed_at": "2026-10-20T17:52:02",
     "source": "ElevenLabs Blog",
@@ -2404,66 +2164,6 @@
     "source": "Spotify Engineering",
     "title": "为什么Spotify不使用贝叶斯A/B测试"
   },
-  "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta": {
-    "pushed_at": "2026-10-15T13:08:10",
-    "source": "Engineering at Meta",
-    "title": "ZGateway: Learnings from Putting a Proxy in Front of ZippyDB"
-  },
-  "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable": {
-    "pushed_at": "2026-10-15T13:08:08",
-    "source": "Engineering at Meta",
-    "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable"
-  },
-  "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems": {
-    "pushed_at": "2026-10-15T13:08:07",
-    "source": "Engineering at Meta",
-    "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems"
-  },
-  "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses": {
-    "pushed_at": "2026-10-15T19:44:45",
-    "source": "Engineering at Meta",
-    "title": "Bringing Private Processing to Meta AI Glasses"
-  },
-  "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta": {
-    "pushed_at": "2026-10-15T11:26:04",
-    "source": "Engineering at Meta",
-    "title": "NTS: Meta处的认证时间"
-  },
-  "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations": {
-    "pushed_at": "2026-10-15T11:26:02",
-    "source": "Engineering at Meta",
-    "title": "将机会主义AI推理能力转化为更好的广告推荐"
-  },
-  "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks": {
-    "pushed_at": "2026-10-15T11:25:58",
-    "source": "Engineering at Meta",
-    "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks"
-  },
-  "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest": {
-    "pushed_at": "2026-10-15T11:26:00",
-    "source": "Engineering at Meta",
-    "title": "通过QUIC在Meta规模上为Instagram Live摄取传输媒体"
-  },
-  "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai": {
-    "pushed_at": "2026-10-15T11:25:56",
-    "source": "Engineering at Meta",
-    "title": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI"
-  },
-  "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta": {
-    "pushed_at": "2026-10-15T19:44:43",
-    "source": "Engineering at Meta",
-    "title": "Sapienz Receives ISSTA 2026 Impact Paper Award"
-  },
-  "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering": {
-    "pushed_at": "2026-10-15T19:44:39",
-    "source": "Engineering at Meta",
-    "title": "How Meta Built Forum With AI-Native Engineering"
-  },
-  "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale": {
-    "pushed_at": "2026-10-15T19:44:41",
-    "source": "Engineering at Meta",
-    "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale"
-  },
   "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster": {
     "pushed_at": "2026-10-21T05:26:23",
     "source": "Engineering at Meta",
@@ -2534,11 +2234,6 @@
     "source": "Engineering at Meta",
     "title": "Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon"
   },
-  "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out": {
-    "pushed_at": "2026-10-15T09:04:53",
-    "source": "The GitHub Blog",
-    "title": "AI is changing developer work. Here are three skills to strengthen."
-  },
   "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering": {
     "pushed_at": "2026-11-07T06:40:29",
     "source": "The GitHub Blog",
@@ -2549,11 +2244,6 @@
     "source": "The GitHub Blog",
     "title": "Build once, run on any agent: A practical guide to agent skills"
   },
-  "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase": {
-    "pushed_at": "2026-10-15T08:14:38",
-    "source": "The GitHub Blog",
-    "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase"
-  },
   "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity": {
     "pushed_at": "2026-10-20T17:52:02",
     "source": "The GitHub Blog",
@@ -2563,36 +2253,6 @@
     "pushed_at": "2026-10-21T05:26:23",
     "source": "The GitHub Blog",
     "title": "如何在 VS Code 中继续 GitHub Copilot 应用会话"
-  },
-  "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review": {
-    "pushed_at": "2026-10-15T09:04:51",
-    "source": "The GitHub Blog",
-    "title": "ReviewBench: An open benchmark for AI code review"
-  },
-  "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software": {
-    "pushed_at": "2026-10-15T09:04:47",
-    "source": "The GitHub Blog",
-    "title": "Secret protection must scale with software"
-  },
-  "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise": {
-    "pushed_at": "2026-10-15T08:14:36",
-    "source": "The GitHub Blog",
-    "title": "GitHub’s model for secret detection: Finding more secrets with less noise"
-  },
-  "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build": {
-    "pushed_at": "2026-10-15T08:14:40",
-    "source": "The GitHub Blog",
-    "title": "Hack the World: Why hackathons are still the best place to learn to build"
-  },
-  "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development": {
-    "pushed_at": "2026-10-15T09:04:49",
-    "source": "The GitHub Blog",
-    "title": "Building Git infrastructure for agent-scale development"
-  },
-  "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers": {
-    "pushed_at": "2026-10-15T08:14:34",
-    "source": "The GitHub Blog",
-    "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers"
   },
   "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture": {
     "pushed_at": "2026-11-05T20:30:18",
@@ -2614,20 +2274,10 @@
     "source": "The GitHub Blog",
     "title": "GitHub availability report: October 2026"
   },
-  "https://github.blog/news-insights/company-news/github-availability-report-september-2026": {
-    "pushed_at": "2026-10-15T08:14:32",
-    "source": "The GitHub Blog",
-    "title": "GitHub availability report: September 2026"
-  },
   "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack": {
     "pushed_at": "2026-10-28T18:42:37",
     "source": "The GitHub Blog",
     "title": "GitHub Universe 2026: Evolving every layer of the stack"
-  },
-  "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence": {
-    "pushed_at": "2026-10-15T19:44:08",
-    "source": "The GitHub Blog",
-    "title": "The next developer interface is ambient intelligence"
   },
   "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents": {
     "pushed_at": "2026-10-29T06:34:04",
@@ -2658,11 +2308,6 @@
     "pushed_at": "2026-10-22T17:55:28",
     "source": "The GitHub Blog",
     "title": "漏洞赏金如何提升一位研究者的安全技能"
-  },
-  "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate": {
-    "pushed_at": "2026-10-15T09:04:44",
-    "source": "The GitHub Blog",
-    "title": "How one bug bounty researcher chooses the features they investigate"
   },
   "https://github.com/0x23/MicroManipulatorStepper": {
     "pushed_at": "2026-10-18T13:11:04",
@@ -2774,70 +2419,30 @@
     "source": "Apple Machine Learning Research",
     "title": "Weighted State Souping for Efficient Long-Context Retrieval"
   },
-  "https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb?source=rss----2615bd06b42e---4": {
-    "pushed_at": "2026-10-15T11:25:54",
-    "source": "Netflix TechBlog - Medium",
-    "title": "Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II"
-  },
   "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-24T05:08:35",
     "source": "Netflix TechBlog - Medium",
     "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes"
-  },
-  "https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5?source=rss----2615bd06b42e---4": {
-    "pushed_at": "2026-10-15T11:25:48",
-    "source": "Netflix TechBlog - Medium",
-    "title": "DataJunction as Netflix’s answer to the missing piece of the modern data stack"
   },
   "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-11-09T22:54:50",
     "source": "Netflix TechBlog - Medium",
     "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System"
   },
-  "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb?source=rss----2615bd06b42e---4": {
-    "pushed_at": "2026-10-15T11:25:46",
-    "source": "Netflix TechBlog - Medium",
-    "title": "Integrating Netflix’s Foundation Model into Personalization applications"
-  },
   "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-26T19:04:50",
     "source": "Netflix TechBlog - Medium",
     "title": "Making Failure Diagnosis Reliable with Pensive AI"
-  },
-  "https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96?source=rss----2615bd06b42e---4": {
-    "pushed_at": "2026-10-15T11:25:49",
-    "source": "Netflix TechBlog - Medium",
-    "title": "Measuring the Impact of Personalized Recommendations"
   },
   "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-27T05:44:48",
     "source": "Netflix TechBlog - Medium",
     "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing"
   },
-  "https://netflixtechblog.com/netflix-conductor-the-next-chapter-41ad21067649?source=rss----2615bd06b42e---4": {
-    "pushed_at": "2026-10-15T13:07:46",
-    "source": "Netflix TechBlog - Medium",
-    "title": "Netflix指挥：下一章"
-  },
-  "https://netflixtechblog.com/netflix-stratum-media-processing-automated-container-right-sizing-ddf9aa68a801?source=rss----2615bd06b42e---4": {
-    "pushed_at": "2026-10-15T19:44:35",
-    "source": "Netflix TechBlog - Medium",
-    "title": "Netflix Stratum Media Processing: Automated Container Right-Sizing"
-  },
   "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-18T04:13:01",
     "source": "Netflix TechBlog - Medium",
     "title": "本体驱动的可观测性：在Netflix规模上构建端到端知识图谱"
-  },
-  "https://netflixtechblog.com/reliable-gpu-compute-for-large-training-inference-jobs-d62b03a96d7a?source=rss----2615bd06b42e---4": {
-    "pushed_at": "2026-10-15T19:44:37",
-    "source": "Netflix TechBlog - Medium",
-    "title": "Reliable GPU compute for large training & inference jobs"
-  },
-  "https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8?source=rss----2615bd06b42e---4": {
-    "pushed_at": "2026-10-15T13:07:47",
-    "source": "Netflix TechBlog - Medium",
-    "title": "Running Apache Spark experiments in my sleep (and on a plane)"
   },
   "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-23T05:31:01",
@@ -2848,11 +2453,6 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "Netflix TechBlog - Medium",
     "title": "LLM-as-a-Judge的生命周期：大规模构建、对齐与监控"
-  },
-  "https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60?source=rss----2615bd06b42e---4": {
-    "pushed_at": "2026-10-15T11:25:51",
-    "source": "Netflix TechBlog - Medium",
-    "title": "TimeSeries Tiered Storage Journey: Kafka/Flink Streams to Native Cassandra Cold Reads"
   },
   "https://ollama.com/blog/all-aboard-open-models": {
     "pushed_at": "2026-10-18T04:13:01",
@@ -2978,6 +2578,11 @@
     "pushed_at": "2026-11-14T18:40:45",
     "source": "OpenAI News",
     "title": "Gondola doubles revenue as its team builds more with Codex"
+  },
+  "https://openai.com/business/customer-stories/holidays-extras-codex": {
+    "pushed_at": "2026-11-15T07:17:26",
+    "source": "OpenAI News",
+    "title": "Holiday Extras is rethinking what it can build with Codex"
   },
   "https://openai.com/business/customer-stories/shield": {
     "pushed_at": "2026-11-14T07:06:08",
@@ -4029,11 +3634,6 @@
     "source": "少数派",
     "title": "「弯道超车」赛车入门指北 05：让赛车粉身碎骨，才是保命的真正方式"
   },
-  "https://sspai.com/post/114861": {
-    "pushed_at": "2026-10-15T06:33:18",
-    "source": "少数派",
-    "title": "认知心理学背后的播客剪辑技巧"
-  },
   "https://sspai.com/post/115074": {
     "pushed_at": "2026-10-26T14:58:56",
     "source": "少数派",
@@ -4054,35 +3654,15 @@
     "source": "少数派",
     "title": "开源掌机的文化线索"
   },
-  "https://sspai.com/post/115238": {
-    "pushed_at": "2026-10-15T06:33:12",
-    "source": "少数派",
-    "title": "App+1｜Mangata：把每次散步当作一次探索旅行"
-  },
   "https://sspai.com/post/115241": {
     "pushed_at": "2026-10-18T09:53:10",
     "source": "少数派",
     "title": "Quote/0 妙用 +1，把墨水屏变成点餐助手"
   },
-  "https://sspai.com/post/115382": {
-    "pushed_at": "2026-10-15T06:33:22",
-    "source": "少数派",
-    "title": "家中、这里、那里——Sonos Play 体验"
-  },
   "https://sspai.com/post/115399": {
     "pushed_at": "2026-11-05T16:18:19",
     "source": "少数派",
     "title": "Apple 官网排版细节鉴赏"
-  },
-  "https://sspai.com/post/115400": {
-    "pushed_at": "2026-10-15T07:07:15",
-    "source": "少数派",
-    "title": "App+1 | 我做了一个专为「P 人」和 ADHD 设计的精力管理 App"
-  },
-  "https://sspai.com/post/115426": {
-    "pushed_at": "2026-10-15T06:33:20",
-    "source": "少数派",
-    "title": "带给摄影师更多自由：Austin Mann 评 iPhone 18 Pro 影像体验"
   },
   "https://sspai.com/post/115437": {
     "pushed_at": "2026-10-22T13:37:43",
@@ -4129,45 +3709,10 @@
     "source": "少数派",
     "title": "App+1｜该吃药了：一片小药板，让吃药提醒变得轻松有趣"
   },
-  "https://sspai.com/post/116068": {
-    "pushed_at": "2026-10-15T07:07:12",
-    "source": "少数派",
-    "title": "社区速递 161 | 小米手表 S5、EVA 联名香水与换机热议"
-  },
-  "https://sspai.com/post/116109": {
-    "pushed_at": "2026-10-15T07:07:04",
-    "source": "少数派",
-    "title": "众测招募 | 从客厅到耳畔，Sonos 双新品 Beam Ultra 与 Ace Ultra 抢先体验"
-  },
   "https://sspai.com/post/116128": {
     "pushed_at": "2026-10-24T12:31:01",
     "source": "少数派",
     "title": "在硅谷，遇见个人计算机历史"
-  },
-  "https://sspai.com/post/116138": {
-    "pushed_at": "2026-10-15T07:07:10",
-    "source": "少数派",
-    "title": "派早报：Apple 发布 HomePod mini 2、HomeView 等新品"
-  },
-  "https://sspai.com/post/116181": {
-    "pushed_at": "2026-10-15T11:24:35",
-    "source": "少数派",
-    "title": "顺应变化，重申标准：《少数派创作手册》修订说明"
-  },
-  "https://sspai.com/post/116182": {
-    "pushed_at": "2026-10-15T08:13:28",
-    "source": "少数派",
-    "title": "学得会的快捷指令，零基础入门苹果效率魔法"
-  },
-  "https://sspai.com/post/116193": {
-    "pushed_at": "2026-10-15T06:33:15",
-    "source": "少数派",
-    "title": "派早报：Mozilla 推出企业版火狐浏览器、DLSS 5 最新模型即将推送等"
-  },
-  "https://sspai.com/post/116246": {
-    "pushed_at": "2026-10-15T11:24:33",
-    "source": "少数派",
-    "title": "新玩意 253｜少数派的编辑们最近买了啥？"
   },
   "https://sspai.com/post/116355": {
     "pushed_at": "2026-10-16T03:38:59",
@@ -4564,11 +4109,6 @@
     "source": "少数派",
     "title": "Mac 选购指南 2026 冬季版"
   },
-  "https://sspai.com/post/92653": {
-    "pushed_at": "2026-10-15T07:07:07",
-    "source": "少数派",
-    "title": "已经能测夜间体征的 Apple Watch，为什么要再做一个睡眠呼吸暂停提醒"
-  },
   "https://sspai.com/prime/story/30-easy-steamed-dishes": {
     "pushed_at": "2026-11-05T16:18:19",
     "source": "少数派",
@@ -4944,6 +4484,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "The AI graveyard: a running list of projects and startups that didn’t make it"
   },
+  "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team": {
+    "pushed_at": "2026-11-15T07:17:26",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Where was Nvidia’s security team?"
+  },
   "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave": {
     "pushed_at": "2026-11-11T20:04:02",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -5309,6 +4854,11 @@
     "source": "Vercel News",
     "title": "Vercel Sandbox snapshot creation is now up to 10x faster"
   },
+  "https://vercel.com/changelog/vercel-sandbox-starts-up-to-four-times-faster": {
+    "pushed_at": "2026-11-15T07:17:26",
+    "source": "Vercel News",
+    "title": "Vercel Sandbox starts up to 4x faster"
+  },
   "https://vercel.com/changelog/vercel-schedules-is-now-in-public-beta": {
     "pushed_at": "2026-11-05T20:30:18",
     "source": "Vercel News",
@@ -5354,490 +4904,10 @@
     "source": "Hacker News: Front Page",
     "title": "Altera Announces Agilex 2X, a Complete FPGA and SoC Portfolio"
   },
-  "https://www.appinn.com/10-tools-github": {
-    "pushed_at": "2026-10-15T07:08:13",
-    "source": "小众软件",
-    "title": "10 个有意思的 GitHub 项目：比亚迪用上 CarPlay、翻译扫描 PDF，还有一本人生指南"
-  },
-  "https://www.appinn.com/bin456789-reinstall": {
-    "pushed_at": "2026-10-15T06:34:23",
-    "source": "小众软件",
-    "title": "reinstall：操作系统自己重装自己？这个开源项目有点神奇"
-  },
-  "https://www.appinn.com/faxian-top10-2641": {
-    "pushed_at": "2026-10-15T06:34:26",
-    "source": "小众软件",
-    "title": "发现频道：10款大家发现的好评软件[2026年第41期]"
-  },
-  "https://www.appinn.com/fsearch-for-macos": {
-    "pushed_at": "2026-10-15T07:08:18",
-    "source": "小众软件",
-    "title": "比 Finder 快 17000 倍？开源 macOS 全盘文件搜索工具：FSearch"
-  },
-  "https://www.appinn.com/iterm2-buddy-self-hosted-relay-server": {
-    "pushed_at": "2026-10-15T07:08:20",
-    "source": "小众软件",
-    "title": "为 iTerm2 Buddy 自托管中继服务器，加速手机连接 Mac 终端速度"
-  },
-  "https://www.appinn.com/iterm2-simplified-chinese": {
-    "pushed_at": "2026-10-15T11:25:00",
-    "source": "小众软件",
-    "title": "24 年历史的著名 Mac 终端 iTerm2，终于迎来了简体中文界面"
-  },
-  "https://www.appinn.com/listary-v7-1": {
-    "pushed_at": "2026-10-15T06:34:19",
-    "source": "小众软件",
-    "title": "Listary V7.1 发布： 8 年来最大一次更新，最快最丝滑的搜索工具它来啦"
-  },
-  "https://www.appinn.com/micyou-for-ios": {
-    "pushed_at": "2026-10-15T06:34:24",
-    "source": "小众软件",
-    "title": "MicYou for iOS – 老 iPhone 又有新用途：变成电脑麦克风，免费开源"
-  },
-  "https://www.appinn.com/omdrop-owl": {
-    "pushed_at": "2026-10-15T07:08:14",
-    "source": "小众软件",
-    "title": "苹果隔空投送 AirDrop 已被逆向成功，正在被搬到普通电脑上｜omdrop-owl"
-  },
-  "https://www.appinn.com/opencode-free-deepseek-v4-1-flash": {
-    "pushed_at": "2026-10-15T11:25:02",
-    "source": "小众软件",
-    "title": "OpenCode"
-  },
-  "https://www.appinn.com/silo-s3-2026-10-15": {
-    "pushed_at": "2026-10-15T09:04:12",
-    "source": "小众软件",
-    "title": "MinIO 替代者 Silo 发布第一个正式的 S3 服务器版本，以及2026年10月重要安全更新"
-  },
-  "https://www.appinn.com/strata": {
-    "pushed_at": "2026-10-15T07:08:16",
-    "source": "小众软件",
-    "title": "8GB显存就够，Strata 让普通电脑也能运行千亿参数大模型"
-  },
-  "https://www.appinn.com/synology-7-4-1-90080-update-1-mportant-update": {
-    "pushed_at": "2026-10-15T06:34:21",
-    "source": "小众软件",
-    "title": "群晖发布重要更新： 7.4.1-90080 Update 1，修复未知漏洞｜important Update"
-  },
   "https://www.bloomberg.com/features/2026-police-phone-tracking-advertising-tech": {
     "pushed_at": "2026-11-08T18:15:42",
     "source": "Hacker News: Front Page",
     "title": "Ads in Popular Apps Give Police a Powerful Tool to Spy on Users"
-  },
-  "https://www.databricks.com/blog/databricks-visionary-gartnerr-magic-quadranttm-analytics-and-business-intelligence-platforms": {
-    "pushed_at": "2026-10-15T09:05:03",
-    "source": "Databricks",
-    "title": "Databricks is a Visionary the Gartner® Magic Quadrant™ for Analytics and Business Intelligence Platforms"
-  },
-  "https://www.databricks.com/blog/everyones-adopting-ai-agents-almost-no-one-can-prove-roi-heres-why": {
-    "pushed_at": "2026-10-15T09:05:00",
-    "source": "Databricks",
-    "title": "Everyone's adopting AI agents. Almost no one can prove the ROI. Here's why"
-  },
-  "https://www.databricks.com/blog/how-factset-cut-model-training-and-deployment-days-hours-databricks-ai-runtime": {
-    "pushed_at": "2026-10-15T19:44:11",
-    "source": "Databricks",
-    "title": "How FactSet cut model training and deployment from days to hours with Databricks AI Runtime"
-  },
-  "https://www.databricks.com/blog/introducing-private-network-gateway": {
-    "pushed_at": "2026-10-15T08:14:47",
-    "source": "Databricks",
-    "title": "Introducing Private Network Gateway"
-  },
-  "https://www.databricks.com/blog/power-real-time-applications-and-agents-document-intelligence": {
-    "pushed_at": "2026-10-15T08:14:46",
-    "source": "Databricks",
-    "title": "Power real-time applications and agents with Document Intelligence"
-  },
-  "https://www.databricks.com/blog/practical-guide-real-time-analytics-2026": {
-    "pushed_at": "2026-10-15T09:04:56",
-    "source": "Databricks",
-    "title": "A practical guide to real-time analytics in 2026"
-  },
-  "https://www.databricks.com/blog/reducing-qwen-training-time-6x-ai-runtime": {
-    "pushed_at": "2026-10-15T08:14:49",
-    "source": "Databricks",
-    "title": "Reducing Qwen training time by 6x on AI Runtime"
-  },
-  "https://www.databricks.com/blog/sizing-lakebase-search-lessons-real-app-and-4-million-passages": {
-    "pushed_at": "2026-10-15T08:14:42",
-    "source": "Databricks",
-    "title": "Sizing Lakebase Search: lessons from a real app and 4 million passages"
-  },
-  "https://www.databricks.com/blog/unlock-powerful-insights-and-forecasts-predictive-ai-functions": {
-    "pushed_at": "2026-10-15T08:14:44",
-    "source": "Databricks",
-    "title": "Unlock powerful insights and forecasts with Predictive AI Functions"
-  },
-  "https://www.databricks.com/blog/what-htap-plain-english-guide-hybrid-transactionalanalytical-processing": {
-    "pushed_at": "2026-10-15T09:05:05",
-    "source": "Databricks",
-    "title": "What is HTAP? A plain-English guide to hybrid transactional/analytical processing"
-  },
-  "https://www.databricks.com/blog/whats-new-lakeflow-designer-october-2026-roundup": {
-    "pushed_at": "2026-10-15T09:04:58",
-    "source": "Databricks",
-    "title": "What's New in Lakeflow Designer - October 2026 Roundup"
-  },
-  "https://www.elastic.co/blog/byok-existing-deployments-elastic-cloud-hosted": {
-    "pushed_at": "2026-10-15T13:08:23",
-    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
-    "title": "将您自己的密钥带到现有的弹性云部署中"
-  },
-  "https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-enterprise-ai-search-2026": {
-    "pushed_at": "2026-10-15T19:44:57",
-    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
-    "title": "Elastic被评为2026年Gartner企业人工智能搜索魔力象限（Magic Quadrant）的领导者"
-  },
-  "https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-observability-platforms-2026": {
-    "pushed_at": "2026-10-15T13:08:27",
-    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
-    "title": "Elastic named a Leader in the 2026 Gartner® Magic Quadrant™ for Observability Platforms"
-  },
-  "https://www.elastic.co/blog/elastic-partner-awards-2026": {
-    "pushed_at": "2026-10-15T13:08:32",
-    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
-    "title": "Better together: Celebrating the 2026–2027 Elastic Partner Awards"
-  },
-  "https://www.elastic.co/blog/elastic-security-openai-gpt-cyber-models-public-sector": {
-    "pushed_at": "2026-10-15T19:45:07",
-    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
-    "title": "Elastic Security and OpenAI GPT Cyber models: What frontier cyber defense means for the public sector"
-  },
-  "https://www.elastic.co/blog/elastic-stack-8-19-23-released": {
-    "pushed_at": "2026-10-15T19:44:59",
-    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
-    "title": "Elastic Stack 8.19.23 released"
-  },
-  "https://www.elastic.co/blog/elastic-stack-9-4-8-released": {
-    "pushed_at": "2026-10-15T19:45:02",
-    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
-    "title": "Elastic Stack 9.4.8 released"
-  },
-  "https://www.elastic.co/blog/elastic-stack-9-5-5-released": {
-    "pushed_at": "2026-10-15T19:45:04",
-    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
-    "title": "Elastic Stack 9.5.5 released"
-  },
-  "https://www.elastic.co/blog/how-state-and-local-agencies-get-ahead-of-fraud": {
-    "pushed_at": "2026-10-15T13:08:25",
-    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
-    "title": "州和地方机构如何利用已有的数据提前防范欺诈"
-  },
-  "https://www.elastic.co/blog/search-for-enterprise-serverless": {
-    "pushed_at": "2026-10-15T13:08:30",
-    "source": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
-    "title": "App Search and Workplace Search standalone products are now deprecated"
-  },
-  "https://www.freecodecamp.org/news/disaster-simulation-real-map-mapbox-three-js": {
-    "pushed_at": "2026-10-15T13:08:38",
-    "source": "freeCodeCamp Programming Tutorials: Python, JavaScript, Git & More",
-    "title": "How to Build Disaster Simulations on a Real Map: Animated Canvas Layers and Collapsing 3D Buildings with Mapbox GL JS and Three.js"
-  },
-  "https://www.freecodecamp.org/news/how-to-give-ai-agent-safe-access-internal-api-mcp": {
-    "pushed_at": "2026-10-15T13:08:34",
-    "source": "freeCodeCamp Programming Tutorials: Python, JavaScript, Git & More",
-    "title": "How to Give an AI Agent Safe Access to an Internal API with MCP"
-  },
-  "https://www.freecodecamp.org/news/secure-by-design-engineer-security-into-architecture-before-writing-code": {
-    "pushed_at": "2026-10-15T13:08:36",
-    "source": "freeCodeCamp Programming Tutorials: Python, JavaScript, Git & More",
-    "title": "Secure by Design: How to Engineer Security into Architecture Before Writing Any Code"
-  },
-  "https://www.ifanr.com/1683851": {
-    "pushed_at": "2026-10-15T11:24:58",
-    "source": "爱范儿",
-    "title": "三电机+千匹马力！阿维塔 T09 巴黎首秀，攻入旗舰大六座市场"
-  },
-  "https://www.ifanr.com/1683906": {
-    "pushed_at": "2026-10-15T06:34:15",
-    "source": "爱范儿",
-    "title": "Nothing Headphone (1) Pro 体验：全面晋级，当旗舰头戴也开始玩多单元"
-  },
-  "https://www.ifanr.com/1683909": {
-    "pushed_at": "2026-10-15T11:24:56",
-    "source": "爱范儿",
-    "title": "早报｜对话库克：Apple Watch要做「个人守护者」/华为折叠屏出货量突破2000万台/DeepSeek拟入局具身智能"
-  },
-  "https://www.ifanr.com/1683941": {
-    "pushed_at": "2026-10-15T11:24:54",
-    "source": "爱范儿",
-    "title": "2026 年，日本翻盖手机终于过气了"
-  },
-  "https://www.ifanr.com/1683963": {
-    "pushed_at": "2026-10-15T09:04:10",
-    "source": "爱范儿",
-    "title": "小扎发布神秘「西瓜」模型，跑分媲美 Opus 5.5，口碑却一言难尽"
-  },
-  "https://www.ifanr.com/1683992": {
-    "pushed_at": "2026-10-15T09:04:09",
-    "source": "爱范儿",
-    "title": "AI学会「寄生繁殖」了，Anthropic 用 15台破电视盒子养活大模型"
-  },
-  "https://www.ifanr.com/1684008": {
-    "pushed_at": "2026-10-15T09:04:07",
-    "source": "爱范儿",
-    "title": "不是水桶机，却想颠覆行业：一台「模型原生」手机的疯狂野心"
-  },
-  "https://www.ifanr.com/1684048": {
-    "pushed_at": "2026-10-15T09:04:05",
-    "source": "爱范儿",
-    "title": "理想 i6 化名「Li 6」，吉利拿下福特工厂，这届巴黎车展全是中国车"
-  },
-  "https://www.ifanr.com/1684070": {
-    "pushed_at": "2026-10-15T09:04:04",
-    "source": "爱范儿",
-    "title": "刚刚，苹果 HomeView 发布！10+ 款「果家」新品，你能买到的只有一个"
-  },
-  "https://www.ifanr.com/1684097": {
-    "pushed_at": "2026-10-15T08:14:00",
-    "source": "爱范儿",
-    "title": "一加 16 体验：收敛锐气，依然是「不出错」的旗舰"
-  },
-  "https://www.ifanr.com/1684137": {
-    "pushed_at": "2026-10-15T08:13:58",
-    "source": "爱范儿",
-    "title": "早报｜苹果发布十多款「果家」新品/Gemini 4来了，写代码更省心/3999元，阶跃智能体手机发布"
-  },
-  "https://www.ifanr.com/1684200": {
-    "pushed_at": "2026-10-15T08:13:57",
-    "source": "爱范儿",
-    "title": "企业微信和 WorkBuddy 组了个「王炸局」，AI 终于不用人伺候了"
-  },
-  "https://www.ifanr.com/1684204": {
-    "pushed_at": "2026-10-15T07:08:11",
-    "source": "爱范儿",
-    "title": "我建议你马上更新，国行 Apple Watch 终于等来这个「救命功能」！"
-  },
-  "https://www.ifanr.com/1684241": {
-    "pushed_at": "2026-10-15T07:08:09",
-    "source": "爱范儿",
-    "title": "‌​‌⁤‌⁢​​​​​‬⁣⁣⁢⁢⁡⁡⁢​⁡‌​‬‍⁤⁢‌﻿⁡⁤⁡⁣⁡⁤﻿​‌​⁢​⁤⁤‌⁢​‬⁣⁡刚刚，Gemini 4 发布！性价比「斩杀」GPT-6 和 Opus 5.5，重回御三家"
-  },
-  "https://www.ifanr.com/1684269": {
-    "pushed_at": "2026-10-15T07:08:07",
-    "source": "爱范儿",
-    "title": "刚刚，Anthropic 宣布弃用Git，统治编程20年的工具顶不住AI了"
-  },
-  "https://www.ifanr.com/1684288": {
-    "pushed_at": "2026-10-15T06:34:17",
-    "source": "爱范儿",
-    "title": "纯电续航破千！比亚迪大汉 23.59 万元起，看齐全尺寸行政旗舰"
-  },
-  "https://www.ifanr.com/1684341": {
-    "pushed_at": "2026-10-15T06:34:14",
-    "source": "爱范儿",
-    "title": "苹果 HomeView 上手汇总：「果家」首秀小惊艳，SiriAI 很聪明"
-  },
-  "https://www.ifanr.com/1684374": {
-    "pushed_at": "2026-10-15T07:08:05",
-    "source": "爱范儿",
-    "title": "早报｜iPhone Duo完成大模型备案，有望12月上线/企业微信与WorkBuddy打通/OPPO与Manus官宣合作"
-  },
-  "https://www.ifanr.com/1684409": {
-    "pushed_at": "2026-10-15T08:13:55",
-    "source": "爱范儿",
-    "title": "一台车出厂前，要过多少道关？我们在一汽-大众工厂找到了答案"
-  },
-  "https://www.ifanr.com/1684431": {
-    "pushed_at": "2026-10-15T11:24:52",
-    "source": "爱范儿",
-    "title": "独家｜库克确认苹果国行 AI，10 月底上线测试版！"
-  },
-  "https://www.ifanr.com/1684442": {
-    "pushed_at": "2026-10-15T13:07:22",
-    "source": "爱范儿",
-    "title": "Surface Laptop Ultra 首发体验：是最强 Windows 笔记本，也是 AI 时代的全能本"
-  },
-  "https://www.ifanr.com/1684477": {
-    "pushed_at": "2026-10-15T13:07:20",
-    "source": "爱范儿",
-    "title": "技术没有捷径：十年 1.3 万亿研发投入，华为选择走自己的路"
-  },
-  "https://www.ifanr.com/1684510": {
-    "pushed_at": "2026-10-15T19:43:54",
-    "source": "爱范儿",
-    "title": "大电池+低能耗！宝马新世代 i3 跑了 1213 公里，百公里能耗只有 8.8 度？"
-  },
-  "https://www.ifanr.com/1684538": {
-    "pushed_at": "2026-10-15T19:43:56",
-    "source": "爱范儿",
-    "title": "给现实世界按下复制键，禾赛做了一台「AI 空间相机」"
-  },
-  "https://www.ithome.com/1/013/360.htm": {
-    "pushed_at": "2026-10-15T06:33:31",
-    "source": "IT之家",
-    "title": "苹果首款折叠 iPhone Duo 跑分曝光：iPhone 18 Pro 同款 6 核 4.93GHz CPU"
-  },
-  "https://www.ithome.com/1/013/362.htm": {
-    "pushed_at": "2026-10-15T06:33:29",
-    "source": "IT之家",
-    "title": "苹果 AirPods 5 耳机京东 PLUS 加补 100 元：限地区国补后预计仅需 758 元新低"
-  },
-  "https://www.ithome.com/1/013/363.htm": {
-    "pushed_at": "2026-10-15T06:33:28",
-    "source": "IT之家",
-    "title": "2026 年 9 月国内动力电池装车量 87.2GWh，同比增长 14.7%"
-  },
-  "https://www.ithome.com/1/013/370.htm": {
-    "pushed_at": "2026-10-15T06:33:26",
-    "source": "IT之家",
-    "title": "ATK 宝可梦联名皮卡丘款外设预售，键鼠垫三件套到手价 799 元"
-  },
-  "https://www.ithome.com/1/013/375.htm": {
-    "pushed_at": "2026-10-15T06:33:24",
-    "source": "IT之家",
-    "title": "全球金融监管标准制定机构呼吁：银行、企业要加强对 AI 智能体的人工监管"
-  },
-  "https://www.ithome.com/1/013/423.htm": {
-    "pushed_at": "2026-10-15T07:07:25",
-    "source": "IT之家",
-    "title": "科学家发现银河系行星系统存在两类“家族”，宿主恒星决定其演化命运"
-  },
-  "https://www.ithome.com/1/013/424.htm": {
-    "pushed_at": "2026-10-15T07:07:23",
-    "source": "IT之家",
-    "title": "新增多地支持国补：华为 FreeClip 2 耳夹耳机 1299 → 978 元京东探底"
-  },
-  "https://www.ithome.com/1/013/425.htm": {
-    "pushed_at": "2026-10-15T07:07:21",
-    "source": "IT之家",
-    "title": "5999 → 1494 元：石头 H1 分子筛洗烘一体机新低，12kg 一键洗完烘干直接穿"
-  },
-  "https://www.ithome.com/1/013/426.htm": {
-    "pushed_at": "2026-10-15T07:07:19",
-    "source": "IT之家",
-    "title": "NASA 毅力号发现潜在生物特征样本，然而火星样本返回计划早已取消"
-  },
-  "https://www.ithome.com/1/013/427.htm": {
-    "pushed_at": "2026-10-15T07:07:17",
-    "source": "IT之家",
-    "title": "WhatsApp 现已支持无账户用户加入音视频通话"
-  },
-  "https://www.ithome.com/1/013/456.htm": {
-    "pushed_at": "2026-10-15T08:13:37",
-    "source": "IT之家",
-    "title": "铭匠光学推出 AF 24mm F3.8 全画幅饼干镜头，适配索尼 E 卡口"
-  },
-  "https://www.ithome.com/1/013/457.htm": {
-    "pushed_at": "2026-10-15T08:13:35",
-    "source": "IT之家",
-    "title": "曝华为 MateBook 鸿蒙电脑“111”版本还有新功能，含深色模式随日出日落、无网定位开关等"
-  },
-  "https://www.ithome.com/1/013/460.htm": {
-    "pushed_at": "2026-10-15T08:13:33",
-    "source": "IT之家",
-    "title": "比亚迪辅助驾驶车型保有量超 395 万辆，天神之眼每天生成数据超 2.4 亿公里"
-  },
-  "https://www.ithome.com/1/013/461.htm": {
-    "pushed_at": "2026-10-15T08:13:31",
-    "source": "IT之家",
-    "title": "红魔 12 Pro+ 手机发布：安卓阵营唯一真全面屏 + 风冷、水冷双散热系统，国补到手价 6499 元起"
-  },
-  "https://www.ithome.com/1/013/462.htm": {
-    "pushed_at": "2026-10-15T08:13:29",
-    "source": "IT之家",
-    "title": "11.11 之家好物严选：20:00 全网狂促大加码，iPhone Duo 15999 元倒计时开抢"
-  },
-  "https://www.ithome.com/1/013/478.htm": {
-    "pushed_at": "2026-10-15T09:03:49",
-    "source": "IT之家",
-    "title": "库克：苹果智能 Apple Intelligence 月底在华发布测试版本，但不包括 Siri AI"
-  },
-  "https://www.ithome.com/1/013/479.htm": {
-    "pushed_at": "2026-10-15T09:03:47",
-    "source": "IT之家",
-    "title": "Anthropic 在新加坡设立办事处，与新加坡政府达成合作"
-  },
-  "https://www.ithome.com/1/013/480.htm": {
-    "pushed_at": "2026-10-15T09:03:45",
-    "source": "IT之家",
-    "title": "商务部部长王文涛会见美国苹果公司执行董事长蒂姆 · 库克，就人工智能发展等进行交流"
-  },
-  "https://www.ithome.com/1/013/481.htm": {
-    "pushed_at": "2026-10-15T09:03:44",
-    "source": "IT之家",
-    "title": "NVIDIA Broadcast 2.3.0 发布：兼容 RTX Spark，实验性支持视频超分与帧生成"
-  },
-  "https://www.ithome.com/1/013/483.htm": {
-    "pushed_at": "2026-10-15T09:03:42",
-    "source": "IT之家",
-    "title": "宝马集团董事长聂科维：到 2030 年中国市场国产车型比例将提升至 95% 以上"
-  },
-  "https://www.ithome.com/1/013/604.htm": {
-    "pushed_at": "2026-10-15T11:24:45",
-    "source": "IT之家",
-    "title": "SK 海力士推出 3D FeNAND 技术，瞄准 AI 计算"
-  },
-  "https://www.ithome.com/1/013/605.htm": {
-    "pushed_at": "2026-10-15T11:24:44",
-    "source": "IT之家",
-    "title": "海光信息 2026 年三季度归母净利润 27.1~29.8 亿元，同比增长 38.16%~51.93%"
-  },
-  "https://www.ithome.com/1/013/606.htm": {
-    "pushed_at": "2026-10-15T11:24:42",
-    "source": "IT之家",
-    "title": "又要到周五啦：20:00 速领 60 元 11.11 叠加神券，京东黑五赛博抢鸡蛋"
-  },
-  "https://www.ithome.com/1/013/607.htm": {
-    "pushed_at": "2026-10-15T11:24:40",
-    "source": "IT之家",
-    "title": "亿纬锂能 2026 年三季度归母净利润 50.68 亿元~53.5 亿元，同比80%~90%"
-  },
-  "https://www.ithome.com/1/013/608.htm": {
-    "pushed_at": "2026-10-15T11:24:38",
-    "source": "IT之家",
-    "title": "《雾锁王国》1.0 正式版发售：Steam 国区 138 元，完整地图解锁"
-  },
-  "https://www.ithome.com/1/013/636.htm": {
-    "pushed_at": "2026-10-15T13:07:18",
-    "source": "IT之家",
-    "title": "OPPO Enco Air4s 无线耳机发布：32dB 主动降噪 + 43 小时续航，首发 179 元"
-  },
-  "https://www.ithome.com/1/013/637.htm": {
-    "pushed_at": "2026-10-15T13:07:16",
-    "source": "IT之家",
-    "title": "6499→3799【中文翻译】【中文翻译"
-  },
-  "https://www.ithome.com/1/013/638.htm": {
-    "pushed_at": "2026-10-15T13:07:14",
-    "source": "IT之家",
-    "title": "消息称 OPPO 阔直板工程机搭载约 6.35 英寸 16:9 直屏，配备 3D 超声波指纹"
-  },
-  "https://www.ithome.com/1/013/643.htm": {
-    "pushed_at": "2026-10-15T13:07:12",
-    "source": "IT之家",
-    "title": "荣耀 WIN 2 手机核心配置大曝光：200Mp 大底双摄无长焦、3D 超声波指纹等"
-  },
-  "https://www.ithome.com/1/013/644.htm": {
-    "pushed_at": "2026-10-15T13:07:10",
-    "source": "IT之家",
-    "title": "首发 4049.1 元起，极米 RS30 系列投影仪开售"
-  },
-  "https://www.ithome.com/1/013/682.htm": {
-    "pushed_at": "2026-10-15T19:43:42",
-    "source": "IT之家",
-    "title": "特努斯谈早期折叠屏手机：感觉“有点廉价、质量也不怎么样”，苹果早在 2011 年就开始探索相关技术"
-  },
-  "https://www.ithome.com/1/013/683.htm": {
-    "pushed_at": "2026-10-15T19:43:41",
-    "source": "IT之家",
-    "title": "苹果营销主管谈 OpenAI 硬件：我们没感到有威胁，相比追逐 AGI 更重视用户隐私与日常使用体验"
-  },
-  "https://www.ithome.com/1/013/685.htm": {
-    "pushed_at": "2026-10-15T19:43:39",
-    "source": "IT之家",
-    "title": "动视看好《GTA 6》提振市场，让更多玩家回归游戏、带动《使命召唤：现代战争 4》销量表现"
-  },
-  "https://www.ithome.com/1/013/686.htm": {
-    "pushed_at": "2026-10-15T19:43:37",
-    "source": "IT之家",
-    "title": "华为余承东就“三部门联合调查刹车踏板支架断裂问题”表态：正义可能会迟到，但永远不会缺席！"
-  },
-  "https://www.ithome.com/1/013/687.htm": {
-    "pushed_at": "2026-10-15T19:43:35",
-    "source": "IT之家",
-    "title": "消息称苹果已发出 10 月 28 日邀请函，首款触屏 MacBook、iPad mini 8、M6 Mac 即将到来"
   },
   "https://www.ithome.com/1/014/237.htm": {
     "pushed_at": "2026-10-17T02:56:50",
@@ -7164,76 +6234,6 @@
     "source": "IT之家",
     "title": "马斯克再度力挺黄仁勋：没有他，英伟达将失去部分关键合作"
   },
-  "https://www.qbitai.com/2026/10/503165.html": {
-    "pushed_at": "2026-10-15T08:13:53",
-    "source": "量子位",
-    "title": "响应速度比Claude Code快3倍，实现真正无限上下文！APUS AI开源Reflex Agent"
-  },
-  "https://www.qbitai.com/2026/10/503172.html": {
-    "pushed_at": "2026-10-15T08:13:49",
-    "source": "量子位",
-    "title": "国内最年轻AI教授创业：要让世界模型走向全身全模态"
-  },
-  "https://www.qbitai.com/2026/10/503173.html": {
-    "pushed_at": "2026-10-15T08:13:51",
-    "source": "量子位",
-    "title": "调度效率提升80%！商汤大装置助力上海量子城市首批智能体落地"
-  },
-  "https://www.qbitai.com/2026/10/503198.html": {
-    "pushed_at": "2026-10-15T08:13:48",
-    "source": "量子位",
-    "title": "MemSilicon完成国际首款高密度、大容量1T4R 1Gb RRAM芯片流片"
-  },
-  "https://www.qbitai.com/2026/10/503201.html": {
-    "pushed_at": "2026-10-15T07:07:51",
-    "source": "量子位",
-    "title": "STEPX首款大模型原生智能体手机STEPX Neo正式发布"
-  },
-  "https://www.qbitai.com/2026/10/503211.html": {
-    "pushed_at": "2026-10-15T07:07:48",
-    "source": "量子位",
-    "title": "《变形计》综艺赛博复活，AI版MrBeast爆火，LibTV下场「造星」了"
-  },
-  "https://www.qbitai.com/2026/10/503231.html": {
-    "pushed_at": "2026-10-15T07:07:46",
-    "source": "量子位",
-    "title": "智能不出彩的「领克」，刚靠一次坠崖事故出圈了"
-  },
-  "https://www.qbitai.com/2026/10/503244.html": {
-    "pushed_at": "2026-10-15T07:07:44",
-    "source": "量子位",
-    "title": "阶跃终端首款「Agent手机」STEPX Neo正式发布，创客先行"
-  },
-  "https://www.qbitai.com/2026/10/503294.html": {
-    "pushed_at": "2026-10-15T07:07:41",
-    "source": "量子位",
-    "title": "抢先盘点2026全球开发者先锋大会暨国际具身智能技能大赛十大亮点！"
-  },
-  "https://www.qbitai.com/2026/10/503303.html": {
-    "pushed_at": "2026-10-15T06:33:57",
-    "source": "量子位",
-    "title": "7天几百元开一家店！用千问办公电商版，立省启动资金5万元"
-  },
-  "https://www.qbitai.com/2026/10/503326.html": {
-    "pushed_at": "2026-10-15T06:33:54",
-    "source": "量子位",
-    "title": "DeepSeek服务器全球宕机！神秘Harness账号同时现身"
-  },
-  "https://www.qbitai.com/2026/10/503341.html": {
-    "pushed_at": "2026-10-15T06:33:52",
-    "source": "量子位",
-    "title": "有预言家！A社研究蓝图曝光，Claude Code来自5年前"
-  },
-  "https://www.qbitai.com/2026/10/503350.html": {
-    "pushed_at": "2026-10-15T06:33:49",
-    "source": "量子位",
-    "title": "复杂高客单新品如何靠YouTube 的“全链路叙事”斩获全球大奖？"
-  },
-  "https://www.qbitai.com/2026/10/503353.html": {
-    "pushed_at": "2026-10-15T06:33:46",
-    "source": "量子位",
-    "title": "全球首款 ！中国团队把游戏世界模型塞进一张5090，还开源了"
-  },
   "https://www.qbitai.com/2026/10/503434.html": {
     "pushed_at": "2026-10-16T04:09:08",
     "source": "量子位",
@@ -8159,136 +7159,6 @@
     "source": "量子位",
     "title": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！"
   },
-  "https://www.solidot.org/story?sid=85598": {
-    "pushed_at": "2026-10-15T09:04:02",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "美国麻疹病例突破 4080 例"
-  },
-  "https://www.solidot.org/story?sid=85599": {
-    "pushed_at": "2026-10-15T09:04:00",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "《RimWorld》将游戏引擎从 Unity 切换到 Waylith Engine"
-  },
-  "https://www.solidot.org/story?sid=85600": {
-    "pushed_at": "2026-10-15T09:03:57",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "ESA 想要将 voices38 列入恶名盗版市场名单"
-  },
-  "https://www.solidot.org/story?sid=85602": {
-    "pushed_at": "2026-10-15T09:03:55",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "气候暖化速度过去十五年加倍"
-  },
-  "https://www.solidot.org/story?sid=85603": {
-    "pushed_at": "2026-10-15T09:03:52",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "蜜蜂的螫针如何泵送毒液"
-  },
-  "https://www.solidot.org/story?sid=85604": {
-    "pushed_at": "2026-10-15T08:13:46",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "Ledger 证实其硬件钱包被植入间谍芯片"
-  },
-  "https://www.solidot.org/story?sid=85605": {
-    "pushed_at": "2026-10-15T08:13:44",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "OpenAI 工程师因在高管会议室放置监听设备被捕"
-  },
-  "https://www.solidot.org/story?sid=85606": {
-    "pushed_at": "2026-10-15T08:13:42",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "存在比地球更宜居的星球"
-  },
-  "https://www.solidot.org/story?sid=85608": {
-    "pushed_at": "2026-10-15T07:07:38",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "NetBSD 成为反 AI 开发者青睐的开源操作系统"
-  },
-  "https://www.solidot.org/story?sid=85609": {
-    "pushed_at": "2026-10-15T07:07:36",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "韦伯望远镜发现一颗熔岩行星存在大气"
-  },
-  "https://www.solidot.org/story?sid=85610": {
-    "pushed_at": "2026-10-15T07:07:33",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "水产养殖未减轻过度捕捞问题"
-  },
-  "https://www.solidot.org/story?sid=85611": {
-    "pushed_at": "2026-10-15T06:33:44",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "荷兰税务与海关总署放弃部署微软公有云，采用开源替代"
-  },
-  "https://www.solidot.org/story?sid=85612": {
-    "pushed_at": "2026-10-15T06:33:42",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "Linus Torvalds 用 LLM 辅助开发的补丁递交接受审查"
-  },
-  "https://www.solidot.org/story?sid=85613": {
-    "pushed_at": "2026-10-15T06:33:39",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "苹果推出广告鼓励 Chrome 用户切换到 Safari"
-  },
-  "https://www.solidot.org/story?sid=85614": {
-    "pushed_at": "2026-10-15T06:33:37",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "GTA 6 可能提前发布 PC 版本"
-  },
-  "https://www.solidot.org/story?sid=85615": {
-    "pushed_at": "2026-10-15T06:33:34",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "研究估计到 2050 年每年新增痴呆症人数将会翻倍"
-  },
-  "https://www.solidot.org/story?sid=85616": {
-    "pushed_at": "2026-10-15T07:07:31",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "美国八个州起诉 OpenAI 称 ChatGPT 伤害年轻用户"
-  },
-  "https://www.solidot.org/story?sid=85617": {
-    "pushed_at": "2026-10-15T07:07:28",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "Microsoft Defender 支持 Linux 桌面"
-  },
-  "https://www.solidot.org/story?sid=85618": {
-    "pushed_at": "2026-10-15T08:13:41",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "白化珊瑚可通过接触健康珊瑚在数周内恢复健康"
-  },
-  "https://www.solidot.org/story?sid=85619": {
-    "pushed_at": "2026-10-15T08:13:39",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "科学家探测到最遥远快速射电暴"
-  },
-  "https://www.solidot.org/story?sid=85620": {
-    "pushed_at": "2026-10-15T11:24:50",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "美国人社交活动过去三十年大幅减少"
-  },
-  "https://www.solidot.org/story?sid=85621": {
-    "pushed_at": "2026-10-15T11:24:48",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "Google 悄悄关联手机号码和所有用户登录账号"
-  },
-  "https://www.solidot.org/story?sid=85622": {
-    "pushed_at": "2026-10-15T19:43:52",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "美国科技巨头警告欧洲推行数据主权将带来逾千亿欧元的成本"
-  },
-  "https://www.solidot.org/story?sid=85623": {
-    "pushed_at": "2026-10-15T19:43:50",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "Ubuntu 26.10"
-  },
-  "https://www.solidot.org/story?sid=85624": {
-    "pushed_at": "2026-10-15T19:43:47",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "以色列公司通过数字广告安装零点击间谍软件"
-  },
-  "https://www.solidot.org/story?sid=85625": {
-    "pushed_at": "2026-10-15T19:43:45",
-    "source": "奇客Solidot–传递最新科技情报",
-    "title": "美国银行雇佣千名合同工修复 AI 工具发现的软件漏洞"
-  },
   "https://www.technologyreview.com/2026/10/16/1146834/kids-are-outsmarting-social-media-bans-thats-not-a-problem-we-need-to-solve": {
     "pushed_at": "2026-10-18T11:40:39",
     "source": "Hacker News: Front Page",
@@ -8464,6 +7334,11 @@
     "source": "The Verge",
     "title": "Anduril now says its BlueChip laptop will meet Buy American standards at launch"
   },
+  "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch": {
+    "pushed_at": "2026-11-15T07:17:26",
+    "source": "The Verge",
+    "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship"
+  },
   "https://www.theverge.com/streaming/1015099/youtube-dislike-button-hide-menu": {
     "pushed_at": "2026-10-21T05:26:23",
     "source": "The Verge",
@@ -8638,6 +7513,11 @@
     "pushed_at": "2026-10-18T11:04:31",
     "source": "WIRED",
     "title": "2026年送给男士、男子汉及真汉子们的20份最佳礼物"
+  },
+  "https://www.wired.com/gallery/best-smart-notebooks-and-smart-pens": {
+    "pushed_at": "2026-11-15T07:17:26",
+    "source": "WIRED",
+    "title": "I Put the Best Digital Notebooks to the Test. Here Are My Favorites (2026)"
   },
   "https://www.wired.com/gallery/best-star-wars-gifts": {
     "pushed_at": "2026-11-01T18:18:39",
@@ -8828,105 +7708,5 @@
     "pushed_at": "2026-10-30T06:33:33",
     "source": "WIRED",
     "title": "What to Know About China’s Top-Secret Spaceplane"
-  },
-  "https://www.ycombinator.com/blog/2026-demo-days": {
-    "pushed_at": "2026-10-15T19:44:51",
-    "source": "Y Combinator Blog",
-    "title": "2026 Demo Day Dates"
-  },
-  "https://www.ycombinator.com/blog/adding-canada-back": {
-    "pushed_at": "2026-10-15T13:08:20",
-    "source": "Y Combinator Blog",
-    "title": "将加拿大添加回我们接受的注册国家列表"
-  },
-  "https://www.ycombinator.com/blog/chris-golda-and-grey-baker-general-partners": {
-    "pushed_at": "2026-10-15T13:08:14",
-    "source": "Y Combinator Blog",
-    "title": "Christopher Golda and Grey Baker Join YC as General Partners"
-  },
-  "https://www.ycombinator.com/blog/congratulations-to-equipmentshare": {
-    "pushed_at": "2026-10-15T19:44:47",
-    "source": "Y Combinator Blog",
-    "title": "Congratulations to EquipmentShare on Going Public"
-  },
-  "https://www.ycombinator.com/blog/diana-hu-managing-partner": {
-    "pushed_at": "2026-10-15T13:08:16",
-    "source": "Y Combinator Blog",
-    "title": "Diana Hu Is YC's Newest Managing Partner"
-  },
-  "https://www.ycombinator.com/blog/groww": {
-    "pushed_at": "2026-10-15T19:44:54",
-    "source": "Y Combinator Blog",
-    "title": "祝贺成长"
-  },
-  "https://www.ycombinator.com/blog/meesho-goes-public": {
-    "pushed_at": "2026-10-15T19:44:52",
-    "source": "Y Combinator Blog",
-    "title": "美朔上市"
-  },
-  "https://www.ycombinator.com/blog/the-yc-ai-student-starter-pack": {
-    "pushed_at": "2026-10-15T19:44:49",
-    "source": "Y Combinator Blog",
-    "title": "Announcing the YC AI Stack"
-  },
-  "https://www.ycombinator.com/blog/welcome-harshita": {
-    "pushed_at": "2026-10-15T13:08:18",
-    "source": "Y Combinator Blog",
-    "title": "Harshita Arora Joins YC as General Partner"
-  },
-  "https://www.ycombinator.com/blog/welcome-vivian-and-raphael": {
-    "pushed_at": "2026-10-15T13:08:12",
-    "source": "Y Combinator Blog",
-    "title": "Vivian Midha Shen and Raphael Schaad Join YC as General Partners"
-  },
-  "https://yihui.org/cn/2025/12/white-moonlight": {
-    "pushed_at": "2026-10-15T07:08:31",
-    "source": "日志 on Yihui Xie | 谢益辉",
-    "title": "白月光"
-  },
-  "https://yihui.org/cn/2026/01/bressanone": {
-    "pushed_at": "2026-10-15T06:34:31",
-    "source": "日志 on Yihui Xie | 谢益辉",
-    "title": "Bressanone"
-  },
-  "https://yihui.org/cn/2026/01/cambrian": {
-    "pushed_at": "2026-10-15T06:34:33",
-    "source": "日志 on Yihui Xie | 谢益辉",
-    "title": "寒武纪"
-  },
-  "https://yihui.org/cn/2026/01/farewell-song": {
-    "pushed_at": "2026-10-15T07:08:24",
-    "source": "日志 on Yihui Xie | 谢益辉",
-    "title": "离歌"
-  },
-  "https://yihui.org/cn/2026/01/flying-tears": {
-    "pushed_at": "2026-10-15T06:34:35",
-    "source": "日志 on Yihui Xie | 谢益辉",
-    "title": "谁的眼泪在飞"
-  },
-  "https://yihui.org/cn/2026/01/heart-sea": {
-    "pushed_at": "2026-10-15T06:34:29",
-    "source": "日志 on Yihui Xie | 谢益辉",
-    "title": "我心似海洋"
-  },
-  "https://yihui.org/cn/2026/01/love-still": {
-    "pushed_at": "2026-10-15T07:08:29",
-    "source": "日志 on Yihui Xie | 谢益辉",
-    "title": "我依然爱你"
-  },
-  "https://yihui.org/cn/2026/01/peach-blossom": {
-    "pushed_at": "2026-10-15T07:08:26",
-    "source": "日志 on Yihui Xie | 谢益辉",
-    "title": "乱世桃花"
-  },
-  "https://yihui.org/cn/2026/01/ripple": {
-    "pushed_at": "2026-10-15T06:34:38",
-    "source": "日志 on Yihui Xie | 谢益辉",
-    "title": "荡漾"
-  },
-  "https://yihui.org/cn/2026/01/toast": {
-    "pushed_at": "2026-10-15T07:08:22",
-    "source": "日志 on Yihui Xie | 谢益辉",
-    "title": "将进酒"
   }
 }
