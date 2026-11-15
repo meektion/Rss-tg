@@ -749,6 +749,21 @@
     "source": "Artificial Intelligence",
     "title": "在AWS上使用Smartsheet MCP为AI代理提供工作管理上下文"
   },
+  "https://baoyu.io/blog/2026-07-06/claudedevs-2074208949205881033": {
+    "pushed_at": "2026-11-15T20:54:07",
+    "source": "宝玉的分享",
+    "title": "从零开始玩转循环 (Getting started with loops)"
+  },
+  "https://baoyu.io/blog/2026-07-12/caveman-token-saving-test": {
+    "pushed_at": "2026-11-15T20:54:07",
+    "source": "宝玉的分享",
+    "title": "“母病速归”式 AI：号称省 65% Token，实测只有 8.5%"
+  },
+  "https://baoyu.io/blog/2026-07-28/agent-judgments": {
+    "pushed_at": "2026-11-15T20:54:07",
+    "source": "宝玉的分享",
+    "title": "关于 Agent 的几个判断"
+  },
   "https://baoyu.io/blog/2026-08-24/ai-native-dev-workflow": {
     "pushed_at": "2026-11-15T15:29:17",
     "source": "宝玉的分享",
@@ -768,6 +783,16 @@
     "pushed_at": "2026-10-20T19:55:44",
     "source": "宝玉的分享",
     "title": "NotebookLM的视频概览系统提示：完整创作流程"
+  },
+  "https://baoyu.io/blog/chatgpt-work-codex-guide": {
+    "pushed_at": "2026-11-15T20:54:07",
+    "source": "宝玉的分享",
+    "title": "一文看懂ChatGPT、Codex、Work 的差别"
+  },
+  "https://baoyu.io/blog/coding-agent-em-shift": {
+    "pushed_at": "2026-11-15T20:54:07",
+    "source": "宝玉的分享",
+    "title": "从 TL 到 EM：我终于不再盯着 AI 写代码了"
   },
   "https://baoyu.io/blog/gpt-6-astra-peach-blossom-land": {
     "pushed_at": "2026-11-15T15:29:17",
@@ -6309,6 +6334,21 @@
     "source": "IT之家",
     "title": "马斯克再度力挺黄仁勋：没有他，英伟达将失去部分关键合作"
   },
+  "https://www.ithome.com/1/027/450.htm": {
+    "pushed_at": "2026-11-15T20:54:04",
+    "source": "IT之家",
+    "title": "开源盘古模型 openPangu-2.1-Pro 上线华为云，围绕 Agent 开发、AI 编码、推理优化方向能力升级"
+  },
+  "https://www.ithome.com/1/027/451.htm": {
+    "pushed_at": "2026-11-15T20:54:04",
+    "source": "IT之家",
+    "title": "研究警告：地球冰冻圈退化正突破安全环境极限，海平面上升与极端灾害风险加剧"
+  },
+  "https://www.ithome.com/1/027/452.htm": {
+    "pushed_at": "2026-11-15T20:54:04",
+    "source": "IT之家",
+    "title": "RGB 基础上引入第四基色 X，TCL 华星展出三款全球首款 10.95 英寸 OLED 平板屏幕"
+  },
   "https://www.ithome.com/1/027/453.htm": {
     "pushed_at": "2026-11-15T15:29:09",
     "source": "IT之家",
@@ -6333,6 +6373,16 @@
     "pushed_at": "2026-11-15T15:29:09",
     "source": "IT之家",
     "title": "《GTA 6》通关时长爆料：主线约 50 小时，白金全成就预计 200 小时"
+  },
+  "https://www.ithome.com/1/027/460.htm": {
+    "pushed_at": "2026-11-15T20:54:04",
+    "source": "IT之家",
+    "title": "微星推出 PRO CORELIQUID R13 360 液冷，399 / 419 元"
+  },
+  "https://www.ithome.com/1/027/461.htm": {
+    "pushed_at": "2026-11-15T20:54:04",
+    "source": "IT之家",
+    "title": "零刻 ME Pro 358H 四盘位 NAS 开售，32GB + 1TB 起价 11499 元"
   },
   "https://www.qbitai.com/2026/10/503434.html": {
     "pushed_at": "2026-10-16T04:09:08",
