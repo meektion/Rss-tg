@@ -219,6 +219,11 @@
     "source": "Ars Technica",
     "title": "The FDA wants to pull its approval of a drug. It’s not so easy."
   },
+  "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause": {
+    "pushed_at": "2026-11-15T19:17:55",
+    "source": "Ars Technica",
+    "title": "How the world’s fires changed while humanity hit pause"
+  },
   "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits": {
     "pushed_at": "2026-11-13T20:23:41",
     "source": "Ars Technica",
@@ -638,6 +643,11 @@
     "pushed_at": "2026-10-16T03:11:03",
     "source": "Artificial Intelligence",
     "title": "Natural language security queries at Orca Security using Amazon Bedrock"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures": {
+    "pushed_at": "2026-11-15T19:17:55",
+    "source": "Artificial Intelligence",
+    "title": "OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures"
   },
   "https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk": {
     "pushed_at": "2026-10-23T17:46:57",
@@ -2004,6 +2014,11 @@
     "source": "ElevenLabs Blog",
     "title": "Introducing the ElevenLabs Marketplace for enterprise-ready AI applications"
   },
+  "https://elevenlabs.io/blog/mckinsey": {
+    "pushed_at": "2026-11-15T19:17:55",
+    "source": "ElevenLabs Blog",
+    "title": "McKinsey and ElevenLabs collaborate to take natural AI conversations to enterprise scale"
+  },
   "https://elevenlabs.io/blog/meeting-transcription-api": {
     "pushed_at": "2026-10-18T06:52:43",
     "source": "ElevenLabs Blog",
@@ -2454,6 +2469,11 @@
     "source": "Netflix TechBlog - Medium",
     "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System"
   },
+  "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-11-15T19:17:55",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Integrating Netflix’s Foundation Model into Personalization applications"
+  },
   "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-26T19:04:50",
     "source": "Netflix TechBlog - Medium",
@@ -2673,6 +2693,11 @@
     "pushed_at": "2026-11-11T07:17:41",
     "source": "OpenAI News",
     "title": "ChatGPT Plus for veterans and servicemembers"
+  },
+  "https://openai.com/index/children-first-declaration": {
+    "pushed_at": "2026-11-15T19:17:55",
+    "source": "OpenAI News",
+    "title": "Supporting research on AI and children’s safety"
   },
   "https://openai.com/index/cisco-cyber": {
     "pushed_at": "2026-11-04T07:00:59",
@@ -4519,6 +4544,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say"
   },
+  "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang": {
+    "pushed_at": "2026-11-15T19:17:55",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang"
+  },
   "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it": {
     "pushed_at": "2026-11-14T18:40:45",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -4658,6 +4688,11 @@
     "pushed_at": "2026-10-17T04:48:12",
     "source": "Vercel News",
     "title": "AWS上的自带云服务现已全面可用"
+  },
+  "https://vercel.com/changelog/build-cache-size-limit-on-vercel-increased-to-five-gb": {
+    "pushed_at": "2026-11-15T19:17:55",
+    "source": "Vercel News",
+    "title": "Build cache size limit on Vercel increased to 5 GB"
   },
   "https://vercel.com/changelog/cat-jam-is-now-available-in-stealth-for-free-on-ai-gateway": {
     "pushed_at": "2026-10-17T03:49:37",
@@ -7274,6 +7309,11 @@
     "source": "The Verge",
     "title": "Here’s the full text of Jensen Huang’s memo to Nvidia"
   },
+  "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china": {
+    "pushed_at": "2026-11-15T19:17:55",
+    "source": "The Verge",
+    "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal"
+  },
   "https://www.theverge.com/column/1032243/peptides-american-manufacturing-maha": {
     "pushed_at": "2026-11-12T20:41:55",
     "source": "The Verge",
@@ -7638,6 +7678,11 @@
     "pushed_at": "2026-10-19T07:40:51",
     "source": "WIRED",
     "title": "2026年冬季室内植物最佳LED生长灯"
+  },
+  "https://www.wired.com/story/best-paper-planners": {
+    "pushed_at": "2026-11-15T19:17:55",
+    "source": "WIRED",
+    "title": "The 4 Best Planners of 2027: Roterunner, Hobonichi, Cloth & Paper"
   },
   "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom": {
     "pushed_at": "2026-11-14T18:40:45",
