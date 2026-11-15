@@ -739,10 +739,35 @@
     "source": "Artificial Intelligence",
     "title": "在AWS上使用Smartsheet MCP为AI代理提供工作管理上下文"
   },
+  "https://baoyu.io/blog/2026-08-24/ai-native-dev-workflow": {
+    "pushed_at": "2026-11-15T15:29:17",
+    "source": "宝玉的分享",
+    "title": "我的 AI 原生开发流程：一个真实案例的完整复盘"
+  },
+  "https://baoyu.io/blog/2026-08-28/warp-self-improving-agents": {
+    "pushed_at": "2026-11-15T15:29:17",
+    "source": "宝玉的分享",
+    "title": "Warp 如何让 Agent 自我进化"
+  },
+  "https://baoyu.io/blog/2026-08-31/ai-native-thinking": {
+    "pushed_at": "2026-11-15T15:29:17",
+    "source": "宝玉的分享",
+    "title": "AI 原生思维——像训练大模型一样训练自己"
+  },
   "https://baoyu.io/blog/2026-10-20/notebooklm-video-overview-system-prompt": {
     "pushed_at": "2026-10-20T19:55:44",
     "source": "宝玉的分享",
     "title": "NotebookLM的视频概览系统提示：完整创作流程"
+  },
+  "https://baoyu.io/blog/gpt-6-astra-peach-blossom-land": {
+    "pushed_at": "2026-11-15T15:29:17",
+    "source": "宝玉的分享",
+    "title": "我用 GPT 6 Astra 做了一个 3D 版的《桃花源记》（文中含提示词）"
+  },
+  "https://baoyu.io/translations/2026-09-02/the-anatomy-of-effective-commerce-agents": {
+    "pushed_at": "2026-11-15T15:29:17",
+    "source": "宝玉的分享",
+    "title": "高效电商 AI 智能体解剖指南 | 选自 Anthropic 的 Claude 博客"
   },
   "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators": {
     "pushed_at": "2026-11-14T07:06:08",
@@ -3254,6 +3279,16 @@
     "source": "Simon Willison's Weblog",
     "title": "datasette-leaflet 0.3"
   },
+  "https://simonwillison.net/2026/Nov/14/datasette-llm": {
+    "pushed_at": "2026-11-15T15:29:14",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette-llm 0.1a11"
+  },
+  "https://simonwillison.net/2026/Nov/14/datasette-vega": {
+    "pushed_at": "2026-11-15T15:29:14",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette-vega 0.7"
+  },
   "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence": {
     "pushed_at": "2026-11-02T18:01:26",
     "source": "Simon Willison's Weblog",
@@ -3988,6 +4023,11 @@
     "pushed_at": "2026-11-12T16:40:58",
     "source": "少数派",
     "title": "城市漫步指南｜夏末大阪，「青黄不接」的时节刚刚好"
+  },
+  "https://sspai.com/post/118392": {
+    "pushed_at": "2026-11-15T15:29:12",
+    "source": "少数派",
+    "title": "Aerial Switcher：给 Mac 的航拍壁纸排个时间表"
   },
   "https://sspai.com/post/118402": {
     "pushed_at": "2026-11-04T16:04:02",
@@ -6233,6 +6273,31 @@
     "pushed_at": "2026-11-14T20:30:43",
     "source": "IT之家",
     "title": "马斯克再度力挺黄仁勋：没有他，英伟达将失去部分关键合作"
+  },
+  "https://www.ithome.com/1/027/453.htm": {
+    "pushed_at": "2026-11-15T15:29:09",
+    "source": "IT之家",
+    "title": "韩国税务师考试头名 AI 作弊曝光后，政府全面调查今年国家资格考试"
+  },
+  "https://www.ithome.com/1/027/454.htm": {
+    "pushed_at": "2026-11-15T15:29:09",
+    "source": "IT之家",
+    "title": "鸿蒙智行尚界 Z7T 星野套装实车图曝光，新增行李架、跨界套件、黑色尾翼等"
+  },
+  "https://www.ithome.com/1/027/456.htm": {
+    "pushed_at": "2026-11-15T15:29:09",
+    "source": "IT之家",
+    "title": "TCL 华星展示蓝色磷光敏化荧光 OLED 成果，覆盖三大产品形态"
+  },
+  "https://www.ithome.com/1/027/457.htm": {
+    "pushed_at": "2026-11-15T15:29:09",
+    "source": "IT之家",
+    "title": "韦布望远镜发现迄今最古老类星体双星，现有黑洞成长理论难以解释"
+  },
+  "https://www.ithome.com/1/027/459.htm": {
+    "pushed_at": "2026-11-15T15:29:09",
+    "source": "IT之家",
+    "title": "《GTA 6》通关时长爆料：主线约 50 小时，白金全成就预计 200 小时"
   },
   "https://www.qbitai.com/2026/10/503434.html": {
     "pushed_at": "2026-10-16T04:09:08",
