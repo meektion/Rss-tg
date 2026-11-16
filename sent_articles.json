@@ -604,6 +604,21 @@
     "source": "Artificial Intelligence",
     "title": "在AWS上使用Smartsheet MCP为AI代理提供工作管理上下文"
   },
+  "https://baoyu.io/blog/2026-05-20/jxnlco-2057153744630890620": {
+    "pushed_at": "2026-11-16T18:08:25",
+    "source": "宝玉的分享",
+    "title": "来自 Codex 官方团队的分享：如何把 Codex 用到极致"
+  },
+  "https://baoyu.io/blog/2026-05-23/bookwormengr-status-2057909493250539891": {
+    "pushed_at": "2026-11-16T18:08:25",
+    "source": "宝玉的分享",
+    "title": "DeepSeek 的 10 万亿美元大战略"
+  },
+  "https://baoyu.io/blog/2026-06-13/codex-design-model-gap": {
+    "pushed_at": "2026-11-16T18:08:25",
+    "source": "宝玉的分享",
+    "title": "为啥 Codex 还不推出类似 Codex Design 的产品？"
+  },
   "https://baoyu.io/blog/2026-07-06/claudedevs-2074208949205881033": {
     "pushed_at": "2026-11-15T20:54:07",
     "source": "宝玉的分享",
@@ -653,6 +668,16 @@
     "pushed_at": "2026-11-15T15:29:17",
     "source": "宝玉的分享",
     "title": "我用 GPT 6 Astra 做了一个 3D 版的《桃花源记》（文中含提示词）"
+  },
+  "https://baoyu.io/translations/2026-05-16/the-founders-playbook-building-an-ai-native-startup": {
+    "pushed_at": "2026-11-16T18:08:25",
+    "source": "宝玉的分享",
+    "title": "创始人手册：打造 AI 原生初创公司"
+  },
+  "https://baoyu.io/translations/2026-05-17/i-dont-vibe-code": {
+    "pushed_at": "2026-11-16T18:08:25",
+    "source": "宝玉的分享",
+    "title": "为什么我不“凭感觉编程”"
   },
   "https://baoyu.io/translations/2026-09-02/the-anatomy-of-effective-commerce-agents": {
     "pushed_at": "2026-11-15T15:29:17",
@@ -2639,6 +2664,31 @@
     "source": "Simon Willison's Weblog",
     "title": "datasette-vega 0.7"
   },
+  "https://simonwillison.net/2026/Nov/15/datasette": {
+    "pushed_at": "2026-11-16T18:08:23",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette 1.0a43"
+  },
+  "https://simonwillison.net/2026/Nov/15/datasette-2": {
+    "pushed_at": "2026-11-16T18:08:23",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette 0.65.6"
+  },
+  "https://simonwillison.net/2026/Nov/15/datasette-agent": {
+    "pushed_at": "2026-11-16T18:08:23",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette-agent 0.6a0"
+  },
+  "https://simonwillison.net/2026/Nov/15/datasette-apps": {
+    "pushed_at": "2026-11-16T18:08:23",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette-apps 0.4a0"
+  },
+  "https://simonwillison.net/2026/Nov/15/datasette-maplibre": {
+    "pushed_at": "2026-11-16T18:08:23",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette-maplibre 0.1a0"
+  },
   "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence": {
     "pushed_at": "2026-11-02T18:01:26",
     "source": "Simon Willison's Weblog",
@@ -3179,6 +3229,11 @@
     "source": "少数派",
     "title": "天花板上的白色盒子，是怎样保护我们的安全的？"
   },
+  "https://sspai.com/post/118100": {
+    "pushed_at": "2026-11-16T18:08:21",
+    "source": "少数派",
+    "title": "Rosetta 2 即将退役，Mac 老应用何去何从？"
+  },
   "https://sspai.com/post/118114": {
     "pushed_at": "2026-11-08T14:53:31",
     "source": "少数派",
@@ -3368,6 +3423,21 @@
     "pushed_at": "2026-11-13T16:00:10",
     "source": "少数派",
     "title": "本周看什么 | 最近值得一看的 10 部作品"
+  },
+  "https://sspai.com/post/119012": {
+    "pushed_at": "2026-11-16T18:08:21",
+    "source": "少数派",
+    "title": "App+1｜不卡带：给你爱听的「老调」，配点记忆中的风味"
+  },
+  "https://sspai.com/post/119119": {
+    "pushed_at": "2026-11-16T18:08:21",
+    "source": "少数派",
+    "title": "派早报：逾十万人次联署要求黄仁勋复职"
+  },
+  "https://sspai.com/post/119148": {
+    "pushed_at": "2026-11-16T18:08:21",
+    "source": "少数派",
+    "title": "派评 | 近期值得关注的 App"
   },
   "https://sspai.com/post/85735": {
     "pushed_at": "2026-11-12T16:40:58",
@@ -5569,6 +5639,31 @@
     "source": "IT之家",
     "title": "零刻 ME Pro 358H 四盘位 NAS 开售，32GB + 1TB 起价 11499 元"
   },
+  "https://www.ithome.com/1/028/004.htm": {
+    "pushed_at": "2026-11-16T18:08:19",
+    "source": "IT之家",
+    "title": "徐直军：分布式基站和 SingleRAN 两个开创性方案，确立了华为在移动通信领域全球领先地位"
+  },
+  "https://www.ithome.com/1/028/005.htm": {
+    "pushed_at": "2026-11-16T18:08:19",
+    "source": "IT之家",
+    "title": "徐直军：华为早在 2009 年就启动 5G 研究，最终成为标准主要贡献者和全球最大专利持有者之一"
+  },
+  "https://www.ithome.com/1/028/006.htm": {
+    "pushed_at": "2026-11-16T18:08:19",
+    "source": "IT之家",
+    "title": "华为全新子品牌星芒 OSTA O1 Pro 真机紫色款外观曝光：后置双摄，预计搭载麒麟 9030S 处理器"
+  },
+  "https://www.ithome.com/1/028/007.htm": {
+    "pushed_at": "2026-11-16T18:08:19",
+    "source": "IT之家",
+    "title": "华为 Mate 90 系列手机 HarmonyOS 7 小艺 AI 快捷栏适配效果公开"
+  },
+  "https://www.ithome.com/1/028/009.htm": {
+    "pushed_at": "2026-11-16T18:08:19",
+    "source": "IT之家",
+    "title": "消息人士称 360 市场负责人卜思南涉嫌职务侵占已被警方带走调查"
+  },
   "https://www.qbitai.com/2026/10/503829.html": {
     "pushed_at": "2026-10-17T11:59:31",
     "source": "量子位",
@@ -6443,6 +6538,31 @@
     "pushed_at": "2026-11-14T14:53:01",
     "source": "量子位",
     "title": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！"
+  },
+  "https://www.qbitai.com/2026/11/510486.html": {
+    "pushed_at": "2026-11-16T18:08:17",
+    "source": "量子位",
+    "title": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景"
+  },
+  "https://www.qbitai.com/2026/11/510493.html": {
+    "pushed_at": "2026-11-16T18:08:17",
+    "source": "量子位",
+    "title": "SuperLink2026开启创投行业超级链接时刻，12月北京见"
+  },
+  "https://www.qbitai.com/2026/11/510496.html": {
+    "pushed_at": "2026-11-16T18:08:17",
+    "source": "量子位",
+    "title": "没搞过一天研发的他，50岁以华为董事的身份退休了"
+  },
+  "https://www.qbitai.com/2026/11/510526.html": {
+    "pushed_at": "2026-11-16T18:08:17",
+    "source": "量子位",
+    "title": "2026甲子引力年终盛典即将启幕，AI的无限游戏进入「第二序章」｜甲子引力"
+  },
+  "https://www.qbitai.com/2026/11/510542.html": {
+    "pushed_at": "2026-11-16T18:08:17",
+    "source": "量子位",
+    "title": "睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准"
   },
   "https://www.technologyreview.com/2026/10/16/1146834/kids-are-outsmarting-social-media-bans-thats-not-a-problem-we-need-to-solve": {
     "pushed_at": "2026-10-18T11:40:39",
