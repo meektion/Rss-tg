@@ -384,6 +384,11 @@
     "source": "Artificial Intelligence",
     "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI"
   },
+  "https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base": {
+    "pushed_at": "2026-11-16T22:47:00",
+    "source": "Artificial Intelligence",
+    "title": "Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base"
+  },
   "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore": {
     "pushed_at": "2026-10-28T18:42:37",
     "source": "Artificial Intelligence",
@@ -869,6 +874,11 @@
     "source": "AI",
     "title": "Our newest AI Quest: Mapping the human brain"
   },
+  "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026": {
+    "pushed_at": "2026-11-16T22:47:00",
+    "source": "AI",
+    "title": "New Ask Maps features to help with holiday travel and prep"
+  },
   "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade": {
     "pushed_at": "2026-11-12T20:41:55",
     "source": "AI",
@@ -1099,6 +1109,11 @@
     "source": "NVIDIA Blog",
     "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities"
   },
+  "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain": {
+    "pushed_at": "2026-11-16T22:47:00",
+    "source": "NVIDIA Blog",
+    "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future"
+  },
   "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals": {
     "pushed_at": "2026-10-30T18:29:01",
     "source": "NVIDIA Blog",
@@ -1298,6 +1313,11 @@
     "pushed_at": "2026-10-19T07:40:51",
     "source": "Hacker News: Front Page",
     "title": "Tmux 与 Claude Code：会话、Send-Keys 与天花板"
+  },
+  "https://deepmind.google/blog/accelerating-antimicrobial-discovery": {
+    "pushed_at": "2026-11-16T22:47:00",
+    "source": "Google DeepMind News",
+    "title": "Accelerating the search for antimicrobial peptides with Google Antigravity"
   },
   "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity": {
     "pushed_at": "2026-11-03T19:59:38",
@@ -1593,6 +1613,11 @@
     "pushed_at": "2026-10-18T04:13:01",
     "source": "ElevenLabs Blog",
     "title": "JavaScript语音识别教程：打造语音用户体验"
+  },
+  "https://elevenlabs.io/blog/kotoba": {
+    "pushed_at": "2026-11-16T22:47:00",
+    "source": "ElevenLabs Blog",
+    "title": "Kotoba is joining ElevenLabs"
   },
   "https://elevenlabs.io/blog/kpn-mobiel-ai": {
     "pushed_at": "2026-11-02T22:13:47",
@@ -1989,6 +2014,11 @@
     "source": "Apple Machine Learning Research",
     "title": "Pixels to Tokens: Token Space Efficient Active Learning for Low-Budget Semantic Segmentation"
   },
+  "https://machinelearning.apple.com/research/private-evolution-clustering": {
+    "pushed_at": "2026-11-16T22:47:00",
+    "source": "Apple Machine Learning Research",
+    "title": "Understanding Private Evolution as Learning-Augmented Clustering"
+  },
   "https://machinelearning.apple.com/research/theoretical-limits-alignment": {
     "pushed_at": "2026-11-12T20:41:55",
     "source": "Apple Machine Learning Research",
@@ -2269,6 +2299,11 @@
     "source": "OpenAI News",
     "title": "使用Decisions API构建响应更快的应用"
   },
+  "https://openai.com/index/expanding-chatgpt-for-academic-researchers": {
+    "pushed_at": "2026-11-16T22:47:00",
+    "source": "OpenAI News",
+    "title": "Broadening access to AI for scientists"
+  },
   "https://openai.com/index/fair-use-benefits-everyone": {
     "pushed_at": "2026-10-31T17:33:23",
     "source": "OpenAI News",
@@ -2438,6 +2473,11 @@
     "pushed_at": "2026-10-29T18:50:59",
     "source": "OpenAI News",
     "title": "An updated Model Spec for more capable and beneficial AI"
+  },
+  "https://qwenlm.github.io/blog/qwen3guard": {
+    "pushed_at": "2026-11-16T22:47:00",
+    "source": "Blog on Qwen",
+    "title": "Qwen3Guard: Real-time Safety for Your Token Stream"
   },
   "https://sanitys-edge.shouden.us": {
     "pushed_at": "2026-10-19T02:30:08",
@@ -4023,6 +4063,11 @@
     "pushed_at": "2026-11-09T07:16:51",
     "source": "Vercel News",
     "title": "Ampersand from Humans& now available on AI Gateway"
+  },
+  "https://vercel.com/changelog/hy4-flash-now-available-on-ai-gateway-for-50-off": {
+    "pushed_at": "2026-11-16T22:47:00",
+    "source": "Vercel News",
+    "title": "Hy4 Flash now available on AI Gateway for 50% off"
   },
   "https://vercel.com/changelog/improved-ip-geolocation-data": {
     "pushed_at": "2026-10-29T18:50:59",
