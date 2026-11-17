@@ -419,6 +419,11 @@
     "source": "Artificial Intelligence",
     "title": "Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot"
   },
+  "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment": {
+    "pushed_at": "2026-11-17T21:34:16",
+    "source": "Artificial Intelligence",
+    "title": "Cut generative AI costs: Code for rules, models for judgment"
+  },
   "https://aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick": {
     "pushed_at": "2026-10-22T17:55:28",
     "source": "Artificial Intelligence",
@@ -819,6 +824,11 @@
     "source": "Cloudflare Blog",
     "title": "What took the Internet offline in Q3 2026"
   },
+  "https://blog.cloudflare.com/quad9-withdrawal-from-france": {
+    "pushed_at": "2026-11-17T21:34:16",
+    "source": "Cloudflare Blog",
+    "title": "Quad9’s withdrawal from France: A canary in the coal mine"
+  },
   "https://blog.cloudflare.com/spend-management": {
     "pushed_at": "2026-11-14T18:40:45",
     "source": "Cloudflare Blog",
@@ -878,6 +888,11 @@
     "pushed_at": "2026-11-12T07:48:46",
     "source": "AI",
     "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together."
+  },
+  "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features": {
+    "pushed_at": "2026-11-17T21:34:16",
+    "source": "AI",
+    "title": "Put Gemini to work for you"
   },
   "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026": {
     "pushed_at": "2026-11-02T22:13:47",
@@ -1084,6 +1099,11 @@
     "source": "The Official Microsoft Blog",
     "title": "Scaling AI value without losing control: Lessons from Frontier Firms"
   },
+  "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem": {
+    "pushed_at": "2026-11-17T21:34:16",
+    "source": "The Official Microsoft Blog",
+    "title": "Ignite 2026: Building the frontier ecosystem"
+  },
   "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup": {
     "pushed_at": "2026-11-16T07:22:42",
     "source": "NVIDIA Blog",
@@ -1198,6 +1218,11 @@
     "pushed_at": "2026-11-13T20:23:41",
     "source": "NVIDIA Blog",
     "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner"
+  },
+  "https://blogs.nvidia.com/blog/ian-buck-sc26": {
+    "pushed_at": "2026-11-17T21:34:16",
+    "source": "NVIDIA Blog",
+    "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents"
   },
   "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem": {
     "pushed_at": "2026-10-23T05:31:01",
@@ -1318,6 +1343,11 @@
     "pushed_at": "2026-10-22T17:55:28",
     "source": "Google DeepMind News",
     "title": "超越树冠覆盖：绘制全球森林类型图"
+  },
+  "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely": {
+    "pushed_at": "2026-11-17T21:34:16",
+    "source": "Google DeepMind News",
+    "title": "Developing Gemini 4 Argon responsibly and safely"
   },
   "https://deepmind.google/blog/gemini-4-carbon-is-now-available": {
     "pushed_at": "2026-11-10T20:20:31",
@@ -1954,6 +1984,11 @@
     "source": "The GitHub Blog",
     "title": "Arnis turns any place on Earth into a Minecraft world"
   },
+  "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes": {
+    "pushed_at": "2026-11-17T21:34:16",
+    "source": "The GitHub Blog",
+    "title": "Maintainers don’t need more AI bug reports. They need fixes."
+  },
   "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills": {
     "pushed_at": "2026-10-22T17:55:28",
     "source": "The GitHub Blog",
@@ -2344,6 +2379,11 @@
     "source": "OpenAI News",
     "title": "Introducing ChatGPT Wallet"
   },
+  "https://openai.com/index/introducing-gpt-6-2-astra-sol": {
+    "pushed_at": "2026-11-17T21:34:16",
+    "source": "OpenAI News",
+    "title": "Introducing GPT-6.2 Astra and Sol"
+  },
   "https://openai.com/index/introducing-gpt-6-cyber": {
     "pushed_at": "2026-11-05T20:30:18",
     "source": "OpenAI News",
@@ -2463,6 +2503,11 @@
     "pushed_at": "2026-10-29T18:50:59",
     "source": "OpenAI News",
     "title": "An updated Model Spec for more capable and beneficial AI"
+  },
+  "https://qwenlm.github.io/blog/qwen-image": {
+    "pushed_at": "2026-11-17T21:34:16",
+    "source": "Blog on Qwen",
+    "title": "Qwen-Image: Crafting with Native Text Rendering"
   },
   "https://qwenlm.github.io/blog/qwen-image-edit": {
     "pushed_at": "2026-11-17T08:36:00",
@@ -4103,6 +4148,11 @@
     "pushed_at": "2026-11-12T07:48:46",
     "source": "Vercel News",
     "title": "Speed Insights and Web Analytics now support custom environments"
+  },
+  "https://vercel.com/changelog/standard-build-billing-new-teams": {
+    "pushed_at": "2026-11-17T21:34:16",
+    "source": "Vercel News",
+    "title": "Standard builds move to usage-based billing for new teams"
   },
   "https://vercel.com/changelog/strix-now-supports-vercel-ai-gateway": {
     "pushed_at": "2026-10-30T06:33:33",
