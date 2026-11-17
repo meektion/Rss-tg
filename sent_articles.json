@@ -614,6 +614,21 @@
     "source": "Artificial Intelligence",
     "title": "在AWS上使用Smartsheet MCP为AI代理提供工作管理上下文"
   },
+  "https://baoyu.io/blog/2026-05-11/skill-next-codex": {
+    "pushed_at": "2026-11-17T17:29:21",
+    "source": "宝玉的分享",
+    "title": "Codex 的野心，MCP 和 Skill 的下一步"
+  },
+  "https://baoyu.io/blog/2026-05-12/running-an-ai-native-engineering-org": {
+    "pushed_at": "2026-11-17T17:29:21",
+    "source": "宝玉的分享",
+    "title": "AI 时代到底该怎么管一个工程团队"
+  },
+  "https://baoyu.io/blog/2026-05-15/forward-deployed-engineer": {
+    "pushed_at": "2026-11-17T17:29:21",
+    "source": "宝玉的分享",
+    "title": "Forward Deployed Engineer：AI 时代的新宠岗位，到底干什么？"
+  },
   "https://baoyu.io/blog/2026-05-20/jxnlco-2057153744630890620": {
     "pushed_at": "2026-11-16T18:08:25",
     "source": "宝玉的分享",
@@ -678,6 +693,11 @@
     "pushed_at": "2026-11-15T15:29:17",
     "source": "宝玉的分享",
     "title": "我用 GPT 6 Astra 做了一个 3D 版的《桃花源记》（文中含提示词）"
+  },
+  "https://baoyu.io/translations/2026-05-12/why-senior-developers-fail-to-communicate-their-expertise": {
+    "pushed_at": "2026-11-17T17:29:21",
+    "source": "宝玉的分享",
+    "title": "为什么资深开发者讲不清自己的专业能力"
   },
   "https://baoyu.io/translations/2026-05-16/the-founders-playbook-building-an-ai-native-startup": {
     "pushed_at": "2026-11-16T18:08:25",
@@ -2704,6 +2724,21 @@
     "source": "Simon Willison's Weblog",
     "title": "datasette-maplibre 0.1a0"
   },
+  "https://simonwillison.net/2026/Nov/16/llm": {
+    "pushed_at": "2026-11-17T17:29:05",
+    "source": "Simon Willison's Weblog",
+    "title": "llm 0.37.3"
+  },
+  "https://simonwillison.net/2026/Nov/17/datasette-lite": {
+    "pushed_at": "2026-11-17T17:29:05",
+    "source": "Simon Willison's Weblog",
+    "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide"
+  },
+  "https://simonwillison.net/2026/Nov/17/go-proverbs": {
+    "pushed_at": "2026-11-17T17:29:05",
+    "source": "Simon Willison's Weblog",
+    "title": "Quoting Go Proverbs"
+  },
   "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence": {
     "pushed_at": "2026-11-02T18:01:26",
     "source": "Simon Willison's Weblog",
@@ -3319,6 +3354,11 @@
     "source": "少数派",
     "title": "国行 Apple 智能上手：这些功能已经准备好"
   },
+  "https://sspai.com/post/118442": {
+    "pushed_at": "2026-11-17T17:29:03",
+    "source": "少数派",
+    "title": "为了另一种可能性：在国内折腾 Linux 打游戏的二三事"
+  },
   "https://sspai.com/post/118458": {
     "pushed_at": "2026-11-11T15:57:34",
     "source": "少数派",
@@ -3419,6 +3459,11 @@
     "source": "少数派",
     "title": "派早报：英伟达 CEO 黄仁勋宣布辞职等"
   },
+  "https://sspai.com/post/118976": {
+    "pushed_at": "2026-11-17T17:29:03",
+    "source": "少数派",
+    "title": "TDS REVIEW｜Bose 有线消噪耳塞体验"
+  },
   "https://sspai.com/post/118999": {
     "pushed_at": "2026-11-13T16:00:10",
     "source": "少数派",
@@ -3438,6 +3483,16 @@
     "pushed_at": "2026-11-16T18:08:21",
     "source": "少数派",
     "title": "派评 | 近期值得关注的 App"
+  },
+  "https://sspai.com/post/119160": {
+    "pushed_at": "2026-11-17T17:29:03",
+    "source": "少数派",
+    "title": "派早报：OPPO 发布 Reno17 系列、影石发布 Insta360 Toast 墨水屏相纸等"
+  },
+  "https://sspai.com/post/119184": {
+    "pushed_at": "2026-11-17T17:29:03",
+    "source": "少数派",
+    "title": "社区速递 166｜柯尼卡胶片机、iPhone Duo 体验与假期省钱实操大赏"
   },
   "https://sspai.com/post/85735": {
     "pushed_at": "2026-11-12T16:40:58",
@@ -5464,6 +5519,31 @@
     "source": "IT之家",
     "title": "消息人士称 360 市场负责人卜思南涉嫌职务侵占已被警方带走调查"
   },
+  "https://www.ithome.com/1/028/564.htm": {
+    "pushed_at": "2026-11-17T17:28:55",
+    "source": "IT之家",
+    "title": "小米 18 Pro 系列手机国际版正式发布：把背屏带向海外，1399 欧元起"
+  },
+  "https://www.ithome.com/1/028/566.htm": {
+    "pushed_at": "2026-11-17T17:28:55",
+    "source": "IT之家",
+    "title": "黄仁勋打破沉默：若董事会允许，愿重返英伟达担任 CEO"
+  },
+  "https://www.ithome.com/1/028/567.htm": {
+    "pushed_at": "2026-11-17T17:28:55",
+    "source": "IT之家",
+    "title": "大疆多款产品“如期”涨价：涉 Osmo Pocket 4/4P/Nano，最高涨 560 元"
+  },
+  "https://www.ithome.com/1/028/568.htm": {
+    "pushed_at": "2026-11-17T17:28:55",
+    "source": "IT之家",
+    "title": "寒武纪 Day 0 完成商汤 SenseNova Loop-9B 适配，打通新型循环计算架构推理链路"
+  },
+  "https://www.ithome.com/1/028/569.htm": {
+    "pushed_at": "2026-11-17T17:28:55",
+    "source": "IT之家",
+    "title": "绿联 NAS 私有云系统官宣对外名称统一调整为“UGOS”：版本、功能与服务保持不变"
+  },
   "https://www.qbitai.com/2026/10/504116.html": {
     "pushed_at": "2026-10-18T09:53:06",
     "source": "量子位",
@@ -6313,6 +6393,31 @@
     "pushed_at": "2026-11-16T18:08:17",
     "source": "量子位",
     "title": "睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准"
+  },
+  "https://www.qbitai.com/2026/11/510592.html": {
+    "pushed_at": "2026-11-17T17:28:53",
+    "source": "量子位",
+    "title": "奥特曼共情黄仁勋，“英雄也有缺陷”，但支持他重返英伟达CEO嘛…"
+  },
+  "https://www.qbitai.com/2026/11/510610.html": {
+    "pushed_at": "2026-11-17T17:28:53",
+    "source": "量子位",
+    "title": "真勇啊！00后团队参加具身挑战赛，仅48小时竟敢从零手搓数据，还夺冠了！"
+  },
+  "https://www.qbitai.com/2026/11/510652.html": {
+    "pushed_at": "2026-11-17T17:28:53",
+    "source": "量子位",
+    "title": "材料科学智能体MatOS正式开源！大幅提高材料研发任务成功率"
+  },
+  "https://www.qbitai.com/2026/11/510688.html": {
+    "pushed_at": "2026-11-17T17:28:53",
+    "source": "量子位",
+    "title": "李沐加盟的Aimotion，是一家什么AI公司？"
+  },
+  "https://www.qbitai.com/2026/11/510695.html": {
+    "pushed_at": "2026-11-17T17:28:53",
+    "source": "量子位",
+    "title": "并购完成，李飞飞正式率队加入AMD！苏妈亲自欢迎"
   },
   "https://www.technologyreview.com/2026/10/16/1146834/kids-are-outsmarting-social-media-bans-thats-not-a-problem-we-need-to-solve": {
     "pushed_at": "2026-10-18T11:40:39",
