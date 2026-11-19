@@ -244,6 +244,11 @@
     "source": "Artificial Intelligence",
     "title": "Accelerating generative AI delivery with reusable assets"
   },
+  "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks": {
+    "pushed_at": "2026-11-19T21:14:22",
+    "source": "Artificial Intelligence",
+    "title": "Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks"
+  },
   "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine": {
     "pushed_at": "2026-10-23T05:31:01",
     "source": "Artificial Intelligence",
@@ -679,6 +684,11 @@
     "source": "Cloudflare Blog",
     "title": "Cloudflare WAF 推出完整事务检测功能"
   },
+  "https://blog.cloudflare.com/internet-traffic-2026-us-election": {
+    "pushed_at": "2026-11-19T21:14:22",
+    "source": "Cloudflare Blog",
+    "title": "Internet traffic and attacks during the 2026 U.S. midterm elections"
+  },
   "https://blog.cloudflare.com/java4shell-waf-protection": {
     "pushed_at": "2026-11-18T21:10:54",
     "source": "Cloudflare Blog",
@@ -839,6 +849,11 @@
     "source": "AI",
     "title": "Introducing Playground: Create and play custom games"
   },
+  "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval": {
+    "pushed_at": "2026-11-19T21:14:22",
+    "source": "AI",
+    "title": "Introducing Tool Retrieval in the Gemini API"
+  },
   "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api": {
     "pushed_at": "2026-11-11T20:04:02",
     "source": "AI",
@@ -913,6 +928,11 @@
     "pushed_at": "2026-11-18T07:59:53",
     "source": "The Official Microsoft Blog",
     "title": "Microsoft to expand Azure Maia system to multi-gigawatt deployments"
+  },
+  "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider": {
+    "pushed_at": "2026-11-19T21:14:22",
+    "source": "The Official Microsoft Blog",
+    "title": "Securing the agentic insider"
   },
   "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice": {
     "pushed_at": "2026-10-20T17:52:02",
@@ -1114,6 +1134,11 @@
     "source": "NVIDIA Blog",
     "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge"
   },
+  "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs": {
+    "pushed_at": "2026-11-19T21:14:22",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs"
+  },
   "https://blogs.nvidia.com/blog/minerva-platform-infrastructure": {
     "pushed_at": "2026-10-22T17:55:28",
     "source": "NVIDIA Blog",
@@ -1234,6 +1259,11 @@
     "source": "Google DeepMind News",
     "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth"
   },
+  "https://deepmind.google/blog/introducing-gemini-4-argon": {
+    "pushed_at": "2026-11-19T21:14:22",
+    "source": "Google DeepMind News",
+    "title": "Gemini 4 Argon: Built to solve your hardest problems"
+  },
   "https://deepmind.google/blog/introducing-gemini-4-hydrogen": {
     "pushed_at": "2026-11-12T20:41:55",
     "source": "Google DeepMind News",
@@ -1288,6 +1318,11 @@
     "pushed_at": "2026-10-28T06:23:08",
     "source": "ElevenLabs Blog",
     "title": "How to build an AI voice assistant: Brand-aligned voice AI"
+  },
+  "https://elevenlabs.io/blog/candid-health": {
+    "pushed_at": "2026-11-19T21:14:22",
+    "source": "ElevenLabs Blog",
+    "title": "How Candid Health automates payer calls with ElevenAgents"
   },
   "https://elevenlabs.io/blog/chroma-awards-season-two-announcement": {
     "pushed_at": "2026-10-25T05:24:17",
@@ -1699,6 +1734,11 @@
     "source": "The GitHub Blog",
     "title": "Maintainers don’t need more AI bug reports. They need fixes."
   },
+  "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together": {
+    "pushed_at": "2026-11-19T21:14:22",
+    "source": "The GitHub Blog",
+    "title": "The best things in open source are built together"
+  },
   "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills": {
     "pushed_at": "2026-10-22T17:55:28",
     "source": "The GitHub Blog",
@@ -1718,6 +1758,11 @@
     "pushed_at": "2026-11-10T20:20:31",
     "source": "Apple Machine Learning Research",
     "title": "Attention to Mamba: A Recipe for Cross-Architecture Distillation"
+  },
+  "https://machinelearning.apple.com/research/differentially-private-selection": {
+    "pushed_at": "2026-11-19T21:14:22",
+    "source": "Apple Machine Learning Research",
+    "title": "Complexity of Differentially Private Selection via Federated APIs"
   },
   "https://machinelearning.apple.com/research/evaluating-evaluators-llm-judges": {
     "pushed_at": "2026-11-11T20:04:02",
@@ -1813,6 +1858,11 @@
     "pushed_at": "2026-11-19T08:02:06",
     "source": "Ollama",
     "title": "Making open models work for long-horizon agentic workloads"
+  },
+  "https://ollama.com/blog/reflection-beam": {
+    "pushed_at": "2026-11-19T21:14:22",
+    "source": "Ollama",
+    "title": "Reflection's Beam is freely available on Ollama for a limited time"
   },
   "https://ollama.com/blog/speech-models": {
     "pushed_at": "2026-10-25T05:24:17",
@@ -1968,6 +2018,11 @@
     "pushed_at": "2026-10-30T18:29:01",
     "source": "OpenAI News",
     "title": "Making it easier for websites to express AI training preferences"
+  },
+  "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast": {
+    "pushed_at": "2026-11-19T21:14:22",
+    "source": "OpenAI News",
+    "title": "How OpenAI’s Performance Factory keeps ChatGPT fast"
   },
   "https://openai.com/index/how-we-detect-frontier-model-misalignment": {
     "pushed_at": "2026-10-30T06:33:33",
@@ -2138,6 +2193,11 @@
     "pushed_at": "2026-11-18T21:10:54",
     "source": "Blog on Qwen",
     "title": "Qwen-MT: Where Speed Meets Smart Translation"
+  },
+  "https://qwenlm.github.io/blog/qwen-tts": {
+    "pushed_at": "2026-11-19T21:14:22",
+    "source": "Blog on Qwen",
+    "title": "Time to Speak Some Dialects, Qwen-TTS!"
   },
   "https://qwenlm.github.io/blog/qwen3-coder": {
     "pushed_at": "2026-11-19T08:02:06",
@@ -3608,6 +3668,11 @@
     "pushed_at": "2026-10-27T18:36:18",
     "source": "Vercel News",
     "title": "Vercel Agent sessions now cost 67% less"
+  },
+  "https://vercel.com/changelog/vercel-billing-cli-is-now-available": {
+    "pushed_at": "2026-11-19T21:14:22",
+    "source": "Vercel News",
+    "title": "Vercel Billing CLI is now available"
   },
   "https://vercel.com/changelog/vercel-blob-now-supports-ttls-for-automatic-deletion": {
     "pushed_at": "2026-11-18T07:59:53",
