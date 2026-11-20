@@ -599,6 +599,11 @@
     "source": "宝玉的分享",
     "title": "AI 原生思维——像训练大模型一样训练自己"
   },
+  "https://baoyu.io/blog/2026-10-20/notebooklm-video-overview-system-prompt": {
+    "pushed_at": "2026-11-20T16:49:48",
+    "source": "宝玉的分享",
+    "title": "NotebookLM's Video Overview System Prompt: The Full Creation Workflow"
+  },
   "https://baoyu.io/blog/chatgpt-work-codex-guide": {
     "pushed_at": "2026-11-15T20:54:07",
     "source": "宝玉的分享",
@@ -2379,6 +2384,11 @@
     "source": "Simon Willison's Weblog",
     "title": "The PSF end-of-year fundraiser"
   },
+  "https://simonwillison.net/2026/Nov/19/postgresql-19": {
+    "pushed_at": "2026-11-20T16:49:46",
+    "source": "Simon Willison's Weblog",
+    "title": "PostgreSQL 19 Released"
+  },
   "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence": {
     "pushed_at": "2026-11-02T18:01:26",
     "source": "Simon Willison's Weblog",
@@ -2388,6 +2398,16 @@
     "pushed_at": "2026-11-03T15:59:33",
     "source": "Simon Willison's Weblog",
     "title": "llm 0.37"
+  },
+  "https://simonwillison.net/2026/Nov/20/levent-alpoge": {
+    "pushed_at": "2026-11-20T16:49:46",
+    "source": "Simon Willison's Weblog",
+    "title": "Quoting Levent Alpöge"
+  },
+  "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad": {
+    "pushed_at": "2026-11-20T16:49:46",
+    "source": "Simon Willison's Weblog",
+    "title": "Token fraud is here and it’s BAD (YouTube)"
   },
   "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location": {
     "pushed_at": "2026-11-03T15:59:33",
@@ -3004,6 +3024,11 @@
     "source": "少数派",
     "title": "社区速递 165 | 透明工牌与派友十月购物清单"
   },
+  "https://sspai.com/post/118879": {
+    "pushed_at": "2026-11-20T16:49:44",
+    "source": "少数派",
+    "title": "浮屏：截图即可「上岛」，还能帮你记录生活"
+  },
   "https://sspai.com/post/118905": {
     "pushed_at": "2026-11-11T15:57:34",
     "source": "少数派",
@@ -3098,6 +3123,21 @@
     "pushed_at": "2026-11-19T17:11:37",
     "source": "少数派",
     "title": "新玩意 256｜少数派的编辑们最近买了啥？"
+  },
+  "https://sspai.com/post/119311": {
+    "pushed_at": "2026-11-20T16:49:44",
+    "source": "少数派",
+    "title": "派早报：Google 推出 Gemini 4 Neon 模型，网易 UU 远程将于 12 月推出付费会员等"
+  },
+  "https://sspai.com/post/119327": {
+    "pushed_at": "2026-11-20T16:49:44",
+    "source": "少数派",
+    "title": "游戏史最高分，不负 13 年的等待：《GTA 6》游玩体验"
+  },
+  "https://sspai.com/post/119337": {
+    "pushed_at": "2026-11-20T16:49:44",
+    "source": "少数派",
+    "title": "本周看什么 | 最近值得一看的 10 部作品"
   },
   "https://sspai.com/post/85735": {
     "pushed_at": "2026-11-12T16:40:58",
@@ -4939,6 +4979,31 @@
     "source": "IT之家",
     "title": "Epic 喜加一：《深渊之印》免费领取"
   },
+  "https://www.ithome.com/1/030/275.htm": {
+    "pushed_at": "2026-11-20T16:49:41",
+    "source": "IT之家",
+    "title": "约翰斯 · 霍普金斯大学新研究：美国最早明年就可能面临电网设备短缺"
+  },
+  "https://www.ithome.com/1/030/276.htm": {
+    "pushed_at": "2026-11-20T16:49:41",
+    "source": "IT之家",
+    "title": "在欧洲已拿下 12 国，特斯拉辅助驾驶系统获意大利运行许可"
+  },
+  "https://www.ithome.com/1/030/277.htm": {
+    "pushed_at": "2026-11-20T16:49:41",
+    "source": "IT之家",
+    "title": "明基 AK900ST AI 高尔夫投影机发售：6000lm 亮度、短焦镜头设计，52999 元"
+  },
+  "https://www.ithome.com/1/030/278.htm": {
+    "pushed_at": "2026-11-20T16:49:41",
+    "source": "IT之家",
+    "title": "AI 攻克黎曼猜想？Anthropic 数学家宣称已与 Claude 合作完成证明"
+  },
+  "https://www.ithome.com/1/030/279.htm": {
+    "pushed_at": "2026-11-20T16:49:41",
+    "source": "IT之家",
+    "title": "QQ 鸿蒙版 App 获 9.2.90 邀测升级：新增支持互动标识、表情搜索等功能"
+  },
   "https://www.qbitai.com/2026/10/504452.html": {
     "pushed_at": "2026-10-21T19:58:30",
     "source": "量子位",
@@ -5803,6 +5868,31 @@
     "pushed_at": "2026-11-19T17:11:33",
     "source": "量子位",
     "title": "影视飓风、Manus、影石、OPPO……极客公园创新大会 2027 嘉宾阵容更新！"
+  },
+  "https://www.qbitai.com/2026/11/511582.html": {
+    "pushed_at": "2026-11-20T16:49:39",
+    "source": "量子位",
+    "title": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！"
+  },
+  "https://www.qbitai.com/2026/11/511603.html": {
+    "pushed_at": "2026-11-20T16:49:39",
+    "source": "量子位",
+    "title": "新浪新闻·2026探索大会在京举行 虚实交融共探智能时代共生新图景"
+  },
+  "https://www.qbitai.com/2026/11/511610.html": {
+    "pushed_at": "2026-11-20T16:49:39",
+    "source": "量子位",
+    "title": "昇腾算力训出了双榜SOTA的具身世界模型，华为云这次想把整套底座开放出来"
+  },
+  "https://www.qbitai.com/2026/11/511679.html": {
+    "pushed_at": "2026-11-20T16:49:39",
+    "source": "量子位",
+    "title": "给万卡国产芯装个“超级外挂”！清华团队要造最强国产Token工厂"
+  },
+  "https://www.qbitai.com/2026/11/511722.html": {
+    "pushed_at": "2026-11-20T16:49:39",
+    "source": "量子位",
+    "title": "美国AI音乐巨头进军视频生成，底层模型来自中国MiniMax"
   },
   "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai": {
     "pushed_at": "2026-10-25T05:24:17",
