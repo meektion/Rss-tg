@@ -414,6 +414,11 @@
     "source": "Artificial Intelligence",
     "title": "How skills and agents work in AWS Quick"
   },
+  "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai": {
+    "pushed_at": "2026-11-20T21:17:23",
+    "source": "Artificial Intelligence",
+    "title": "How Standard Bank Group automates AI risk assessment for generative AI"
+  },
   "https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026": {
     "pushed_at": "2026-10-30T06:33:33",
     "source": "Artificial Intelligence",
@@ -764,6 +769,11 @@
     "source": "Cloudflare Blog",
     "title": "Quad9’s withdrawal from France: A canary in the coal mine"
   },
+  "https://blog.cloudflare.com/ruby2shell-waf-protection": {
+    "pushed_at": "2026-11-20T21:17:23",
+    "source": "Cloudflare Blog",
+    "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)"
+  },
   "https://blog.cloudflare.com/spend-management": {
     "pushed_at": "2026-11-14T18:40:45",
     "source": "Cloudflare Blog",
@@ -849,6 +859,11 @@
     "source": "AI",
     "title": "Introducing Playground: Create and play custom games"
   },
+  "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize": {
+    "pushed_at": "2026-11-20T21:17:23",
+    "source": "AI",
+    "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted."
+  },
   "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval": {
     "pushed_at": "2026-11-19T21:14:22",
     "source": "AI",
@@ -928,6 +943,11 @@
     "pushed_at": "2026-11-19T21:14:22",
     "source": "The Official Microsoft Blog",
     "title": "Securing the agentic insider"
+  },
+  "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice": {
+    "pushed_at": "2026-11-20T21:17:23",
+    "source": "The Official Microsoft Blog",
+    "title": "Advancing digital sovereignty with greater control and choice"
   },
   "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer": {
     "pushed_at": "2026-10-26T19:04:50",
@@ -1043,6 +1063,11 @@
     "pushed_at": "2026-10-25T05:24:17",
     "source": "NVIDIA Blog",
     "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations"
+  },
+  "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026": {
+    "pushed_at": "2026-11-20T21:17:23",
+    "source": "NVIDIA Blog",
+    "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW"
   },
   "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4": {
     "pushed_at": "2026-10-23T17:46:57",
@@ -1519,6 +1544,11 @@
     "source": "ElevenLabs Blog",
     "title": "What is a vector database? How AI search finds meaning"
   },
+  "https://elevenlabs.io/blog/video-variants-localization-ads-engine": {
+    "pushed_at": "2026-11-20T21:17:23",
+    "source": "ElevenLabs Blog",
+    "title": "Introducing video ad variants and localization in Ads Engine"
+  },
   "https://elevenlabs.io/blog/voice-ai-for-karnataka": {
     "pushed_at": "2026-11-02T06:56:32",
     "source": "ElevenLabs Blog",
@@ -1744,6 +1774,11 @@
     "source": "Apple Machine Learning Research",
     "title": "Attention to Mamba: A Recipe for Cross-Architecture Distillation"
   },
+  "https://machinelearning.apple.com/research/depth-pro-2-monocular": {
+    "pushed_at": "2026-11-20T21:17:23",
+    "source": "Apple Machine Learning Research",
+    "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth"
+  },
   "https://machinelearning.apple.com/research/differentially-private-selection": {
     "pushed_at": "2026-11-19T21:14:22",
     "source": "Apple Machine Learning Research",
@@ -1833,6 +1868,11 @@
     "pushed_at": "2026-10-23T05:31:01",
     "source": "Netflix TechBlog - Medium",
     "title": "单租户Titus：多租户容器平台上的虚拟机级隔离"
+  },
+  "https://ollama.com/blog/clef": {
+    "pushed_at": "2026-11-20T21:17:23",
+    "source": "Ollama",
+    "title": "Clef is available on Ollama's cloud"
   },
   "https://ollama.com/blog/fly-io-sprites": {
     "pushed_at": "2026-11-20T07:50:18",
@@ -1933,6 +1973,11 @@
     "pushed_at": "2026-11-04T07:00:59",
     "source": "OpenAI News",
     "title": "How Cisco defends at machine speed with OpenAI"
+  },
+  "https://openai.com/index/combatting-adversarial-distillation": {
+    "pushed_at": "2026-11-20T21:17:23",
+    "source": "OpenAI News",
+    "title": "Combatting adversarial distillation"
   },
   "https://openai.com/index/community-safety-report-and-new-protections-for-teens": {
     "pushed_at": "2026-10-31T06:23:01",
@@ -2193,6 +2238,11 @@
     "pushed_at": "2026-11-19T08:02:06",
     "source": "Blog on Qwen",
     "title": "Qwen3-Coder: Agentic Coding in the World"
+  },
+  "https://qwenlm.github.io/blog/qwen3-embedding": {
+    "pushed_at": "2026-11-20T21:17:23",
+    "source": "Blog on Qwen",
+    "title": "Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models"
   },
   "https://qwenlm.github.io/blog/qwen3guard": {
     "pushed_at": "2026-11-16T22:47:00",
@@ -3698,6 +3748,11 @@
     "pushed_at": "2026-11-14T07:06:08",
     "source": "Vercel News",
     "title": "Daemons can now send traces to Vercel Tracing"
+  },
+  "https://vercel.com/changelog/vercel-functions-now-support-request-bodies-up-to-20mib": {
+    "pushed_at": "2026-11-20T21:17:23",
+    "source": "Vercel News",
+    "title": "Vercel Functions now support request bodies up to 20MiB"
   },
   "https://vercel.com/changelog/vercel-sandbox-snapshot-creation-is-now-up-to-10x-faster": {
     "pushed_at": "2026-11-09T22:54:50",
