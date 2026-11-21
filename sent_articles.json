@@ -329,6 +329,11 @@
     "source": "Artificial Intelligence",
     "title": "Cut generative AI costs: Code for rules, models for judgment"
   },
+  "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill": {
+    "pushed_at": "2026-11-21T19:59:11",
+    "source": "Artificial Intelligence",
+    "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill"
+  },
   "https://aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick": {
     "pushed_at": "2026-10-22T17:55:28",
     "source": "Artificial Intelligence",
@@ -784,6 +789,11 @@
     "source": "Cloudflare Blog",
     "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities"
   },
+  "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026": {
+    "pushed_at": "2026-11-21T19:59:11",
+    "source": "AI",
+    "title": "Southeast Asia’s digital economy to hit $368 billion"
+  },
   "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration": {
     "pushed_at": "2026-11-11T07:17:41",
     "source": "AI",
@@ -998,6 +1008,11 @@
     "pushed_at": "2026-10-24T05:08:35",
     "source": "NVIDIA Blog",
     "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models"
+  },
+  "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery": {
+    "pushed_at": "2026-11-21T19:59:11",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery"
   },
   "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation": {
     "pushed_at": "2026-10-29T06:34:04",
@@ -1373,6 +1388,11 @@
     "pushed_at": "2026-11-21T07:46:34",
     "source": "ElevenLabs Blog",
     "title": "How to fix text to speech accuracy problems"
+  },
+  "https://elevenlabs.io/blog/fundacion-televisa-posible": {
+    "pushed_at": "2026-11-21T19:59:11",
+    "source": "ElevenLabs Blog",
+    "title": "How Fundación Televisa interviewed more than 1,000 entrepreneurs with voice AI"
   },
   "https://elevenlabs.io/blog/how-many-calls-can-an-ai-voice-agent-handle": {
     "pushed_at": "2026-11-20T07:50:18",
@@ -1854,6 +1874,11 @@
     "source": "Ollama",
     "title": "Speech models in Ollama"
   },
+  "https://ollama.com/blog/transparent-pricing": {
+    "pushed_at": "2026-11-21T19:59:11",
+    "source": "Ollama",
+    "title": "Ollama's transparent pricing"
+  },
   "https://openai.com/ads/customers/flipsnack": {
     "pushed_at": "2026-11-09T07:16:51",
     "source": "OpenAI News",
@@ -2054,6 +2079,11 @@
     "source": "OpenAI News",
     "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents"
   },
+  "https://openai.com/index/introducing-medchembench": {
+    "pushed_at": "2026-11-21T19:59:11",
+    "source": "OpenAI News",
+    "title": "Can AI help scientists identify promising drug candidates?"
+  },
   "https://openai.com/index/jiostar-vijay-seshadri": {
     "pushed_at": "2026-11-11T20:04:02",
     "source": "OpenAI News",
@@ -2164,6 +2194,11 @@
     "source": "Blog on Qwen",
     "title": "GSPO: Towards Scalable Reinforcement Learning for Language Models"
   },
+  "https://qwenlm.github.io/blog/qvq-max-preview": {
+    "pushed_at": "2026-11-21T19:59:11",
+    "source": "Blog on Qwen",
+    "title": "QVQ-Max: Think with Evidence"
+  },
   "https://qwenlm.github.io/blog/qwen-image": {
     "pushed_at": "2026-11-17T21:34:16",
     "source": "Blog on Qwen",
@@ -2228,6 +2263,11 @@
     "pushed_at": "2026-10-22T17:55:28",
     "source": "Shopify Engineering",
     "title": "我们为AI代理提供了一个移动开发环境"
+  },
+  "https://shopify.engineering/secure-agentic-apps": {
+    "pushed_at": "2026-11-21T19:59:11",
+    "source": "Shopify Engineering",
+    "title": "Building secure mobile apps in the agentic era"
   },
   "https://shopify.engineering/shopify-app-rebuild": {
     "pushed_at": "2026-11-10T20:20:31",
@@ -3389,6 +3429,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building."
   },
+  "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages": {
+    "pushed_at": "2026-11-21T19:59:11",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Here are the top AI agents that can live in your text messages"
+  },
   "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave": {
     "pushed_at": "2026-11-11T20:04:02",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3453,6 +3498,11 @@
     "pushed_at": "2026-11-02T06:56:32",
     "source": "Vercel News",
     "title": "Add liveness checks to your Daemons"
+  },
+  "https://vercel.com/changelog/agents-can-now-find-vercel-cli-commands-by-describing-the-task": {
+    "pushed_at": "2026-11-21T19:59:11",
+    "source": "Vercel News",
+    "title": "Agents can now find Vercel CLI commands by describing the task"
   },
   "https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools": {
     "pushed_at": "2026-11-08T06:45:47",
