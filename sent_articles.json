@@ -2444,6 +2444,11 @@
     "source": "Simon Willison's Weblog",
     "title": "Quoting Levent Alpöge"
   },
+  "https://simonwillison.net/2026/Nov/20/llm-gemini": {
+    "pushed_at": "2026-11-21T21:31:24",
+    "source": "Simon Willison's Weblog",
+    "title": "llm-gemini 0.38.1"
+  },
   "https://simonwillison.net/2026/Nov/20/ravi-vakil": {
     "pushed_at": "2026-11-21T16:05:50",
     "source": "Simon Willison's Weblog",
@@ -4969,6 +4974,26 @@
     "source": "IT之家",
     "title": "QQ 鸿蒙版 App 获 9.2.90 邀测升级：新增支持互动标识、表情搜索等功能"
   },
+  "https://www.ithome.com/1/030/477.htm": {
+    "pushed_at": "2026-11-21T21:31:22",
+    "source": "IT之家",
+    "title": "中创新航通过大众汽车电池测试中心认证，已具备为奥迪、保时捷、兰博基尼等品牌电池包开展测试的能力"
+  },
+  "https://www.ithome.com/1/030/478.htm": {
+    "pushed_at": "2026-11-21T21:31:22",
+    "source": "IT之家",
+    "title": "为抵御黑客攻击，英国秘密发起大规模“冰箱保卫战”"
+  },
+  "https://www.ithome.com/1/030/479.htm": {
+    "pushed_at": "2026-11-21T21:31:22",
+    "source": "IT之家",
+    "title": "南非开发者宣称独自开发操作系统 Impossible OS：兼容 Win32 和 Linux 二进制程序，两年后见"
+  },
+  "https://www.ithome.com/1/030/504.htm": {
+    "pushed_at": "2026-11-21T21:31:22",
+    "source": "IT之家",
+    "title": "全球唯一实现非晶合金车用电驱规模化量产，广汽夸克电驱非晶-碳纤维电驱第 10 万套下线"
+  },
   "https://www.ithome.com/1/030/505.htm": {
     "pushed_at": "2026-11-21T16:05:45",
     "source": "IT之家",
@@ -4993,6 +5018,11 @@
     "pushed_at": "2026-11-21T16:05:45",
     "source": "IT之家",
     "title": "1967 款保时捷 912 借电动化喜获新生：输出 304 马力，续航 400 公里"
+  },
+  "https://www.ithome.com/1/030/511.htm": {
+    "pushed_at": "2026-11-21T21:31:22",
+    "source": "IT之家",
+    "title": "今日小雪：雨凝为雪，地气冻结"
   },
   "https://www.qbitai.com/2026/10/504800.html": {
     "pushed_at": "2026-10-22T13:37:39",
@@ -5809,6 +5839,11 @@
     "source": "量子位",
     "title": "影视飓风、Manus、影石、OPPO……极客公园创新大会 2027 嘉宾阵容更新！"
   },
+  "https://www.qbitai.com/2026/11/511570.html": {
+    "pushed_at": "2026-11-21T21:31:20",
+    "source": "量子位",
+    "title": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent"
+  },
   "https://www.qbitai.com/2026/11/511582.html": {
     "pushed_at": "2026-11-20T16:49:39",
     "source": "量子位",
@@ -5833,6 +5868,26 @@
     "pushed_at": "2026-11-20T16:49:39",
     "source": "量子位",
     "title": "美国AI音乐巨头进军视频生成，底层模型来自中国MiniMax"
+  },
+  "https://www.qbitai.com/2026/11/511727.html": {
+    "pushed_at": "2026-11-21T21:31:20",
+    "source": "量子位",
+    "title": "黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明"
+  },
+  "https://www.qbitai.com/2026/11/511740.html": {
+    "pushed_at": "2026-11-21T21:31:20",
+    "source": "量子位",
+    "title": "米哈游发了个VLA论文"
+  },
+  "https://www.qbitai.com/2026/11/511757.html": {
+    "pushed_at": "2026-11-21T21:31:20",
+    "source": "量子位",
+    "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图"
+  },
+  "https://www.qbitai.com/2026/11/511779.html": {
+    "pushed_at": "2026-11-21T21:31:20",
+    "source": "量子位",
+    "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍"
   },
   "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai": {
     "pushed_at": "2026-10-25T05:24:17",
