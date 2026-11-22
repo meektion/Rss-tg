@@ -419,6 +419,11 @@
     "source": "Artificial Intelligence",
     "title": "Introducing Kimi K3.1 Pro on Amazon Bedrock"
   },
+  "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm": {
+    "pushed_at": "2026-11-22T20:12:32",
+    "source": "Artificial Intelligence",
+    "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm"
+  },
   "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-sagemaker-jumpstart-model-leaderboard": {
     "pushed_at": "2026-11-18T21:10:54",
     "source": "Artificial Intelligence",
@@ -1154,6 +1159,11 @@
     "source": "NVIDIA Blog",
     "title": "NVIDIA RTX Spark Compact Desktops Out Now"
   },
+  "https://blogs.nvidia.com/blog/rubin-hpc": {
+    "pushed_at": "2026-11-22T20:12:32",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics"
+  },
   "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing": {
     "pushed_at": "2026-11-19T08:02:06",
     "source": "NVIDIA Blog",
@@ -1183,6 +1193,11 @@
     "pushed_at": "2026-11-11T20:04:02",
     "source": "Google DeepMind News",
     "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease"
+  },
+  "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types": {
+    "pushed_at": "2026-11-22T20:12:32",
+    "source": "Google DeepMind News",
+    "title": "Beyond tree cover: mapping the world’s forest types"
   },
   "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely": {
     "pushed_at": "2026-11-17T21:34:16",
@@ -1554,6 +1569,11 @@
     "source": "ElevenLabs Blog",
     "title": "什么是画外音？定义、示例及工作原理"
   },
+  "https://elevenlabs.io/blog/what-is-webrtc": {
+    "pushed_at": "2026-11-22T20:12:32",
+    "source": "ElevenLabs Blog",
+    "title": "What is WebRTC? A guide to real-time web communication"
+  },
   "https://engineering.atspotify.com/2026/11/ai-product-management-at-spotify-a-view-from-three-angles": {
     "pushed_at": "2026-11-09T22:54:50",
     "source": "Spotify Engineering",
@@ -1813,6 +1833,11 @@
     "pushed_at": "2026-11-20T07:50:18",
     "source": "Ollama",
     "title": "Run AI agents safely with Ollama and Fly.io"
+  },
+  "https://ollama.com/blog/nemotron-3-5-lightning": {
+    "pushed_at": "2026-11-22T20:12:32",
+    "source": "Ollama",
+    "title": "NVIDIA Nemotron 3.5 Lightning"
   },
   "https://ollama.com/blog/ollama-now-supports-jev-style-decision-models": {
     "pushed_at": "2026-11-21T07:46:34",
@@ -2084,6 +2109,11 @@
     "source": "OpenAI News",
     "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems"
   },
+  "https://openai.com/index/perplexity-and-intelligence": {
+    "pushed_at": "2026-11-22T20:12:32",
+    "source": "OpenAI News",
+    "title": "Perplexity and Intelligence"
+  },
   "https://openai.com/index/retell-ai": {
     "pushed_at": "2026-10-28T06:23:08",
     "source": "OpenAI News",
@@ -2184,6 +2214,11 @@
     "source": "Blog on Qwen",
     "title": "Qwen2.5 Omni: See, Hear, Talk, Write, Do It All!"
   },
+  "https://qwenlm.github.io/blog/qwen2.5-vl-32b": {
+    "pushed_at": "2026-11-22T20:12:32",
+    "source": "Blog on Qwen",
+    "title": "Qwen2.5-VL-32B: Smarter and Lighter"
+  },
   "https://qwenlm.github.io/blog/qwen3": {
     "pushed_at": "2026-11-21T07:46:34",
     "source": "Blog on Qwen",
@@ -2223,6 +2258,11 @@
     "pushed_at": "2026-11-05T20:30:18",
     "source": "Shopify Engineering",
     "title": "Reflex: an architecture for building mobile apps with agents"
+  },
+  "https://shopify.engineering/remote-dev": {
+    "pushed_at": "2026-11-22T20:12:32",
+    "source": "Shopify Engineering",
+    "title": "We gave AI agents a mobile dev environment"
   },
   "https://shopify.engineering/secure-agentic-apps": {
     "pushed_at": "2026-11-21T19:59:11",
@@ -3369,6 +3409,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance"
   },
+  "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash": {
+    "pushed_at": "2026-11-22T20:12:32",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Why data centers are at the center of the Big Tech backlash"
+  },
   "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave": {
     "pushed_at": "2026-11-11T20:04:02",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3533,6 +3578,11 @@
     "pushed_at": "2026-11-01T18:18:39",
     "source": "Vercel News",
     "title": "Ling 3.1 Flash 1019 now available on AI Gateway for free"
+  },
+  "https://vercel.com/changelog/liquid-ais-d1-2-and-d1-2-ultra-are-now-available-on-ai-gateway": {
+    "pushed_at": "2026-11-22T20:12:32",
+    "source": "Vercel News",
+    "title": "Liquid AI's d1.2 and d1.2-ultra are now available on AI Gateway"
   },
   "https://vercel.com/changelog/minimax-h3-image-and-highspeed-now-available-on-ai-gateway": {
     "pushed_at": "2026-11-11T07:17:41",
