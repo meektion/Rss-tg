@@ -2419,6 +2419,11 @@
     "source": "Simon Willison's Weblog",
     "title": "Token fraud is here and it’s BAD (YouTube)"
   },
+  "https://simonwillison.net/2026/Nov/21/muru": {
+    "pushed_at": "2026-11-22T16:03:46",
+    "source": "Simon Willison's Weblog",
+    "title": "Muru"
+  },
   "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location": {
     "pushed_at": "2026-11-03T15:59:33",
     "source": "Simon Willison's Weblog",
@@ -3068,6 +3073,11 @@
     "pushed_at": "2026-11-20T16:49:44",
     "source": "少数派",
     "title": "派早报：Google 推出 Gemini 4 Neon 模型，网易 UU 远程将于 12 月推出付费会员等"
+  },
+  "https://sspai.com/post/119318": {
+    "pushed_at": "2026-11-22T16:03:43",
+    "source": "少数派",
+    "title": "从深圳到上海，少数派的共创故事还在继续"
   },
   "https://sspai.com/post/119327": {
     "pushed_at": "2026-11-20T16:49:44",
@@ -4889,6 +4899,31 @@
     "source": "IT之家",
     "title": "今日小雪：雨凝为雪，地气冻结"
   },
+  "https://www.ithome.com/1/030/713.htm": {
+    "pushed_at": "2026-11-22T16:03:41",
+    "source": "IT之家",
+    "title": "签约后也能涨价：消息称 AI 服务器厂商交付前提价，涨幅最高达 45%"
+  },
+  "https://www.ithome.com/1/030/714.htm": {
+    "pushed_at": "2026-11-22T16:03:41",
+    "source": "IT之家",
+    "title": "R 星：《GTA 6》亲密戏份制作难度高，随主角关系动态变化"
+  },
+  "https://www.ithome.com/1/030/715.htm": {
+    "pushed_at": "2026-11-22T16:03:41",
+    "source": "IT之家",
+    "title": "Oracle：已确保履行与 OpenAI 合同全部所需资金"
+  },
+  "https://www.ithome.com/1/030/716.htm": {
+    "pushed_at": "2026-11-22T16:03:41",
+    "source": "IT之家",
+    "title": "研华 ASR-A505 单板计算机曝光，搭载英特尔 \"Nova Lake H\" 处理器"
+  },
+  "https://www.ithome.com/1/030/717.htm": {
+    "pushed_at": "2026-11-22T16:03:41",
+    "source": "IT之家",
+    "title": "美国初创企业公布 AI 自研 CPU 架构 Frostbite，能效是传统处理器的 4.59 倍"
+  },
   "https://www.qbitai.com/2026/10/504879.html": {
     "pushed_at": "2026-10-23T13:13:13",
     "source": "量子位",
@@ -5738,6 +5773,31 @@
     "pushed_at": "2026-11-21T21:31:20",
     "source": "量子位",
     "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍"
+  },
+  "https://www.qbitai.com/2026/11/511841.html": {
+    "pushed_at": "2026-11-22T16:03:39",
+    "source": "量子位",
+    "title": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准"
+  },
+  "https://www.qbitai.com/2026/11/511849.html": {
+    "pushed_at": "2026-11-22T16:03:39",
+    "source": "量子位",
+    "title": "中国计算，走出新的登峰之路"
+  },
+  "https://www.qbitai.com/2026/11/511855.html": {
+    "pushed_at": "2026-11-22T16:03:39",
+    "source": "量子位",
+    "title": "AI给乐队现场搓MV，这是黑客松还是音乐节啊"
+  },
+  "https://www.qbitai.com/2026/11/511870.html": {
+    "pushed_at": "2026-11-22T16:03:39",
+    "source": "量子位",
+    "title": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿"
+  },
+  "https://www.qbitai.com/2026/11/511904.html": {
+    "pushed_at": "2026-11-22T16:03:39",
+    "source": "量子位",
+    "title": "Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖"
   },
   "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai": {
     "pushed_at": "2026-10-25T05:24:17",
