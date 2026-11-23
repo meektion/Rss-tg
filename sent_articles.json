@@ -64,11 +64,6 @@
     "source": "Ars Technica",
     "title": "Ships loiter near subsea cables amid Iran's warnings to Trump"
   },
-  "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games": {
-    "pushed_at": "2026-10-23T05:31:01",
-    "source": "Ars Technica",
-    "title": "Switch 2 安全性受挫，黑客解锁自制程序访问权限"
-  },
   "https://arstechnica.com/gaming/2026/11/the-tech-memory-shortage-comes-for-nintendos-cartridge-supply-chain": {
     "pushed_at": "2026-11-05T07:27:46",
     "source": "Ars Technica",
@@ -98,11 +93,6 @@
     "pushed_at": "2026-10-24T16:28:39",
     "source": "Ars Technica",
     "title": "A 1,000-mile cloud on Mars may reveal physics never seen in nature"
-  },
-  "https://arstechnica.com/science/2026/10/crows-can-evaluate-visual-info-twice-as-fast-as-mammals": {
-    "pushed_at": "2026-10-23T17:46:57",
-    "source": "Ars Technica",
-    "title": "Crows can evaluate visual info twice as fast as mammals"
   },
   "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that": {
     "pushed_at": "2026-10-25T05:24:17",
@@ -233,11 +223,6 @@
     "pushed_at": "2026-11-19T21:14:22",
     "source": "Artificial Intelligence",
     "title": "Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks"
-  },
-  "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine": {
-    "pushed_at": "2026-10-23T05:31:01",
-    "source": "Artificial Intelligence",
-    "title": "Amazon Polly对其生成式引擎进行了重大升级"
   },
   "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2": {
     "pushed_at": "2026-11-20T07:50:18",
@@ -414,6 +399,11 @@
     "source": "Artificial Intelligence",
     "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock"
   },
+  "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters": {
+    "pushed_at": "2026-11-23T08:20:37",
+    "source": "Artificial Intelligence",
+    "title": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters"
+  },
   "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock": {
     "pushed_at": "2026-11-11T07:17:41",
     "source": "Artificial Intelligence",
@@ -463,11 +453,6 @@
     "pushed_at": "2026-11-15T19:17:55",
     "source": "Artificial Intelligence",
     "title": "OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures"
-  },
-  "https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk": {
-    "pushed_at": "2026-10-23T17:46:57",
-    "source": "Artificial Intelligence",
-    "title": "Orchestrating SageMaker AI endpoint auto scaling with AWS CDK"
   },
   "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai": {
     "pushed_at": "2026-11-02T22:13:47",
@@ -694,11 +679,6 @@
     "source": "Cloudflare Blog",
     "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them"
   },
-  "https://blog.cloudflare.com/obsessive-inference-optimization": {
-    "pushed_at": "2026-10-23T17:46:57",
-    "source": "Cloudflare Blog",
-    "title": "Cutting our inference bill by 68% by being obsessive about optimization"
-  },
   "https://blog.cloudflare.com/open-clairic": {
     "pushed_at": "2026-11-19T08:02:06",
     "source": "Cloudflare Blog",
@@ -763,11 +743,6 @@
     "pushed_at": "2026-11-06T19:53:32",
     "source": "Cloudflare Blog",
     "title": "The post-quantum future of web privacy"
-  },
-  "https://blog.cloudflare.com/webmcp-commerce": {
-    "pushed_at": "2026-10-23T05:31:01",
-    "source": "Cloudflare Blog",
-    "title": "Commerce.com和Cloudflare如何让店铺为AI代理做好准备"
   },
   "https://blog.cloudflare.com/zero-wire": {
     "pushed_at": "2026-11-03T19:59:38",
@@ -1044,11 +1019,6 @@
     "source": "NVIDIA Blog",
     "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW"
   },
-  "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4": {
-    "pushed_at": "2026-10-23T17:46:57",
-    "source": "NVIDIA Blog",
-    "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW"
-  },
   "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5": {
     "pushed_at": "2026-11-07T17:58:10",
     "source": "NVIDIA Blog",
@@ -1078,11 +1048,6 @@
     "pushed_at": "2026-11-17T21:34:16",
     "source": "NVIDIA Blog",
     "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents"
-  },
-  "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem": {
-    "pushed_at": "2026-10-23T05:31:01",
-    "source": "NVIDIA Blog",
-    "title": "哈萨克斯坦扩展算力，布局AI未来"
   },
   "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem": {
     "pushed_at": "2026-11-09T07:16:51",
@@ -1389,11 +1354,6 @@
     "source": "ElevenLabs Blog",
     "title": "How text to speech technology works: From text to natural voice"
   },
-  "https://elevenlabs.io/blog/immobiliare": {
-    "pushed_at": "2026-10-23T17:46:57",
-    "source": "ElevenLabs Blog",
-    "title": "How Immobiliare.it went from one conversational agent to an agentic network"
-  },
   "https://elevenlabs.io/blog/impact-nyc-summit": {
     "pushed_at": "2026-11-12T20:41:55",
     "source": "ElevenLabs Blog",
@@ -1463,6 +1423,11 @@
     "pushed_at": "2026-11-10T20:20:31",
     "source": "ElevenLabs Blog",
     "title": "Introducing Scribe v3 and v3 Live, our most accurate speech to text models"
+  },
+  "https://elevenlabs.io/blog/scribe-v3-live-medical": {
+    "pushed_at": "2026-11-23T08:20:37",
+    "source": "ElevenLabs Blog",
+    "title": "Scribe v3 Live Medical helps conversational agents get clinical details right"
   },
   "https://elevenlabs.io/blog/sfx-v3-for-developers": {
     "pushed_at": "2026-11-08T18:15:42",
@@ -1563,11 +1528,6 @@
     "pushed_at": "2026-10-30T06:33:33",
     "source": "ElevenLabs Blog",
     "title": "What is turn taking in conversational AI: A guide to natural flow"
-  },
-  "https://elevenlabs.io/blog/what-is-voice-over": {
-    "pushed_at": "2026-10-23T05:31:01",
-    "source": "ElevenLabs Blog",
-    "title": "什么是画外音？定义、示例及工作原理"
   },
   "https://elevenlabs.io/blog/what-is-webrtc": {
     "pushed_at": "2026-11-22T20:12:32",
@@ -1794,6 +1754,11 @@
     "source": "Netflix TechBlog - Medium",
     "title": "DataJunction as Netflix’s answer to the missing piece of the modern data stack"
   },
+  "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-11-23T08:20:37",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Engineering AI Discover"
+  },
   "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-11-09T22:54:50",
     "source": "Netflix TechBlog - Medium",
@@ -1814,11 +1779,6 @@
     "source": "Netflix TechBlog - Medium",
     "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing"
   },
-  "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4": {
-    "pushed_at": "2026-10-23T05:31:01",
-    "source": "Netflix TechBlog - Medium",
-    "title": "单租户Titus：多租户容器平台上的虚拟机级隔离"
-  },
   "https://ollama.com/blog/claude-desktop": {
     "pushed_at": "2026-11-22T07:33:18",
     "source": "Ollama",
@@ -1833,6 +1793,11 @@
     "pushed_at": "2026-11-20T07:50:18",
     "source": "Ollama",
     "title": "Run AI agents safely with Ollama and Fly.io"
+  },
+  "https://ollama.com/blog/muse-glimmer": {
+    "pushed_at": "2026-11-23T08:20:37",
+    "source": "Ollama",
+    "title": "Muse Glimmer from Meta Superintelligence Labs is now available"
   },
   "https://ollama.com/blog/nemotron-3-5-lightning": {
     "pushed_at": "2026-11-22T20:12:32",
@@ -1903,6 +1868,11 @@
     "pushed_at": "2026-11-20T07:50:18",
     "source": "OpenAI News",
     "title": "Deploying Daybreak Red"
+  },
+  "https://openai.com/business/learn/pr-scans-demo": {
+    "pushed_at": "2026-11-23T08:20:37",
+    "source": "OpenAI News",
+    "title": "See PR scans in action"
   },
   "https://openai.com/index/accelerating-engineering-for-the-physical-world": {
     "pushed_at": "2026-11-03T19:59:38",
@@ -1983,11 +1953,6 @@
     "pushed_at": "2026-11-05T07:27:46",
     "source": "OpenAI News",
     "title": "Daybreak Red is now available in AWS GovCloud (US-East)"
-  },
-  "https://openai.com/index/decisions-api": {
-    "pushed_at": "2026-10-23T05:31:01",
-    "source": "OpenAI News",
-    "title": "使用Decisions API构建响应更快的应用"
   },
   "https://openai.com/index/expanding-chatgpt-for-academic-researchers": {
     "pushed_at": "2026-11-16T22:47:00",
@@ -2129,11 +2094,6 @@
     "source": "OpenAI News",
     "title": "Scaling Git at OpenAI"
   },
-  "https://openai.com/index/scaling-storage-one-billion-users-part-two": {
-    "pushed_at": "2026-10-23T17:46:57",
-    "source": "OpenAI News",
-    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)"
-  },
   "https://openai.com/index/securing-our-frontier-model-training-environment": {
     "pushed_at": "2026-10-24T05:08:35",
     "source": "OpenAI News",
@@ -2238,6 +2198,16 @@
     "pushed_at": "2026-11-16T22:47:00",
     "source": "Blog on Qwen",
     "title": "Qwen3Guard: Real-time Safety for Your Token Stream"
+  },
+  "https://qwenlm.github.io/blog/qwq-32b": {
+    "pushed_at": "2026-11-23T08:20:37",
+    "source": "Blog on Qwen",
+    "title": "QwQ-32B: Embracing the Power of Reinforcement Learning"
+  },
+  "https://shopify.engineering/catalog-clustering-part-ii": {
+    "pushed_at": "2026-11-23T08:20:37",
+    "source": "Shopify Engineering",
+    "title": "Cross-store product clustering across millions of stores"
   },
   "https://shopify.engineering/cyber-chaos-monkey": {
     "pushed_at": "2026-11-12T20:41:55",
@@ -2549,11 +2519,6 @@
     "source": "Simon Willison's Weblog",
     "title": "Locating the source of a mysterious beep with Claude"
   },
-  "https://simonwillison.net/2026/Oct/23/kimi-k31-pro": {
-    "pushed_at": "2026-10-23T19:51:52",
-    "source": "Simon Willison's Weblog",
-    "title": "Introducing Kimi K3.1 Pro"
-  },
   "https://simonwillison.net/2026/Oct/23/quick-study-painter": {
     "pushed_at": "2026-10-24T12:31:03",
     "source": "Simon Willison's Weblog",
@@ -2689,11 +2654,6 @@
     "source": "少数派",
     "title": "在硅谷，遇见个人计算机历史"
   },
-  "https://sspai.com/post/116398": {
-    "pushed_at": "2026-10-23T13:13:19",
-    "source": "少数派",
-    "title": "TDS REVIEW｜OPPO Enco X4 降噪真无线耳机体验"
-  },
   "https://sspai.com/post/116435": {
     "pushed_at": "2026-10-30T14:55:53",
     "source": "少数派",
@@ -2709,11 +2669,6 @@
     "source": "少数派",
     "title": "一个 05 后的个人数码编年史"
   },
-  "https://sspai.com/post/116979": {
-    "pushed_at": "2026-10-23T13:13:19",
-    "source": "少数派",
-    "title": "破与立：设计视角下的 iPhone Duo"
-  },
   "https://sspai.com/post/116990": {
     "pushed_at": "2026-10-28T14:57:24",
     "source": "少数派",
@@ -2723,16 +2678,6 @@
     "pushed_at": "2026-11-01T14:51:13",
     "source": "少数派",
     "title": "怀旧手记｜夏普 Telios：20 多年前，Handheld PC 中的「少数派」"
-  },
-  "https://sspai.com/post/117104": {
-    "pushed_at": "2026-10-23T13:13:19",
-    "source": "少数派",
-    "title": "派早报：Insta360 发布 Insta360 Mic，Anthropic 推出 Claude Duet 等"
-  },
-  "https://sspai.com/post/117169": {
-    "pushed_at": "2026-10-23T13:13:19",
-    "source": "少数派",
-    "title": "本周看什么 | 最近值得一看的 12 部作品"
   },
   "https://sspai.com/post/117180": {
     "pushed_at": "2026-10-26T14:58:56",
@@ -3154,16 +3099,6 @@
     "source": "少数派",
     "title": "《久坐健康指南》作者、运动健康领域创作者阿帅装了啥？"
   },
-  "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing": {
-    "pushed_at": "2026-10-23T17:46:57",
-    "source": "AI News & Artificial Intelligence | TechCrunch",
-    "title": "Left alone with nothing to do, AI agents started playing"
-  },
-  "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia": {
-    "pushed_at": "2026-10-23T05:31:01",
-    "source": "AI News & Artificial Intelligence | TechCrunch",
-    "title": "Uber的竞争对手inDrive计划于2027年与Pony.ai和Nvidia在中亚进行robotaxi测试。"
-  },
   "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks": {
     "pushed_at": "2026-10-24T05:08:35",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3409,6 +3344,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance"
   },
+  "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo": {
+    "pushed_at": "2026-11-23T08:20:37",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO"
+  },
   "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash": {
     "pushed_at": "2026-11-22T20:12:32",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3428,11 +3368,6 @@
     "pushed_at": "2026-11-10T07:48:56",
     "source": "Vercel News",
     "title": "Decision models take 26% of requests; Anthropic now wins new teams 2:1"
-  },
-  "https://vercel.com/blog/death-to-long-lived-static-credentials": {
-    "pushed_at": "2026-10-23T05:31:01",
-    "source": "Vercel News",
-    "title": "终结长期静态凭证"
   },
   "https://vercel.com/blog/elevenlabs-on-ai-gateway": {
     "pushed_at": "2026-10-28T06:23:08",
@@ -3508,6 +3443,11 @@
     "pushed_at": "2026-11-15T19:17:55",
     "source": "Vercel News",
     "title": "Build cache size limit on Vercel increased to 5 GB"
+  },
+  "https://vercel.com/changelog/catch-missing-feature-flags-before-they-reach-production": {
+    "pushed_at": "2026-11-23T08:20:37",
+    "source": "Vercel News",
+    "title": "Catch missing feature flags before they reach production"
   },
   "https://vercel.com/changelog/data-cache-is-moving-to-runtime-cache": {
     "pushed_at": "2026-10-31T17:33:23",
@@ -3618,11 +3558,6 @@
     "pushed_at": "2026-10-27T05:44:48",
     "source": "Vercel News",
     "title": "Run Scale AI’s AgentEnv evals on Vercel Sandbox"
-  },
-  "https://vercel.com/changelog/send-feedback-from-vercel-mcp": {
-    "pushed_at": "2026-10-23T17:46:57",
-    "source": "Vercel News",
-    "title": "Send feedback from the Vercel MCP"
   },
   "https://vercel.com/changelog/speed-insights-and-web-analytics-now-support-custom-environments": {
     "pushed_at": "2026-11-12T07:48:46",
@@ -3748,56 +3683,6 @@
     "pushed_at": "2026-11-08T18:15:42",
     "source": "Hacker News: Front Page",
     "title": "Ads in Popular Apps Give Police a Powerful Tool to Spy on Users"
-  },
-  "https://www.ithome.com/1/017/248.htm": {
-    "pushed_at": "2026-10-23T13:13:16",
-    "source": "IT之家",
-    "title": "小米米家直流变频冷暖两季扇发售：冬夏可用，券后 748 元"
-  },
-  "https://www.ithome.com/1/017/251.htm": {
-    "pushed_at": "2026-10-23T13:13:16",
-    "source": "IT之家",
-    "title": "17999 元开放购买：苹果 iPhone Duo 5 年不限次换电池套装三方开售"
-  },
-  "https://www.ithome.com/1/017/252.htm": {
-    "pushed_at": "2026-10-23T13:13:16",
-    "source": "IT之家",
-    "title": "消息称苹果正在推进大折叠 iPad 平板，整体设计有望参考华为 MateBook Fold 非凡大师"
-  },
-  "https://www.ithome.com/1/017/253.htm": {
-    "pushed_at": "2026-10-23T13:13:16",
-    "source": "IT之家",
-    "title": "机械革命推出极光 16 Pro 游戏本：酷睿 i7-13645HX + RTX 4050，8799 元"
-  },
-  "https://www.ithome.com/1/017/254.htm": {
-    "pushed_at": "2026-10-23T13:13:16",
-    "source": "IT之家",
-    "title": "东风风神 L8+ 上市：全球首搭天元智驾 T800，限时置换价 12.99 万元起"
-  },
-  "https://www.ithome.com/1/017/274.htm": {
-    "pushed_at": "2026-10-23T19:51:50",
-    "source": "IT之家",
-    "title": "OpenAI 联合研究机构部署数千个 AI 智能体：32 分钟分析数百万个小鼠脑细胞，相当于人类数月时间"
-  },
-  "https://www.ithome.com/1/017/275.htm": {
-    "pushed_at": "2026-10-23T19:51:50",
-    "source": "IT之家",
-    "title": "国家邮政局召开邮政快递业安全治理规范化座谈会：要持续深入推进“反内卷”工作"
-  },
-  "https://www.ithome.com/1/017/276.htm": {
-    "pushed_at": "2026-10-23T19:51:50",
-    "source": "IT之家",
-    "title": "消息称苹果在全国 Apple Store 安排移动 / 联通 / 电信工作人员坐镇，现场为 iPhone Duo 取货顾客办理 eSIM"
-  },
-  "https://www.ithome.com/1/017/277.htm": {
-    "pushed_at": "2026-10-23T19:51:50",
-    "source": "IT之家",
-    "title": "长城魏牌二代蓝山全球首秀定档 10 月 27 日，搭载 Hi-4 插电混动系统"
-  },
-  "https://www.ithome.com/1/017/278.htm": {
-    "pushed_at": "2026-10-23T19:51:50",
-    "source": "IT之家",
-    "title": "男子醉酒后车机自动报警被判不构成自首：系统可以替你报警但不能替你自首"
   },
   "https://www.ithome.com/1/017/494.htm": {
     "pushed_at": "2026-10-24T12:30:59",
@@ -4974,16 +4859,6 @@
     "source": "IT之家",
     "title": "美国初创企业公布 AI 自研 CPU 架构 Frostbite，能效是传统处理器的 4.59 倍"
   },
-  "https://www.qbitai.com/2026/10/504879.html": {
-    "pushed_at": "2026-10-23T13:13:13",
-    "source": "量子位",
-    "title": "又一国产决策模型发布！准确率超过微软和Jev等决策模型"
-  },
-  "https://www.qbitai.com/2026/10/504901.html": {
-    "pushed_at": "2026-10-23T13:13:13",
-    "source": "量子位",
-    "title": "百度世界2026前瞻：10+重磅分论坛，全面解码AI时代的智能组织进化路径"
-  },
   "https://www.qbitai.com/2026/10/504905.html": {
     "pushed_at": "2026-10-26T20:56:16",
     "source": "量子位",
@@ -5983,16 +5858,6 @@
     "pushed_at": "2026-10-30T06:33:33",
     "source": "The Verge",
     "title": "The director of Obsession put a new horror short on YouTube"
-  },
-  "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing": {
-    "pushed_at": "2026-10-23T05:31:01",
-    "source": "The Verge",
-    "title": "Etsy正在打击AI生成的劣质商品列表"
-  },
-  "https://www.theverge.com/tech/1017623/iphone-duo-broken-cracked-screen": {
-    "pushed_at": "2026-10-23T17:46:57",
-    "source": "The Verge",
-    "title": "The first broken iPhone Duos are here"
   },
   "https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge": {
     "pushed_at": "2026-10-26T05:28:48",
