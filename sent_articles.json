@@ -2434,6 +2434,11 @@
     "source": "Simon Willison's Weblog",
     "title": "Muru"
   },
+  "https://simonwillison.net/2026/Nov/22/select-styling": {
+    "pushed_at": "2026-11-23T19:58:20",
+    "source": "Simon Willison's Weblog",
+    "title": "Select Styling Specimens"
+  },
   "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location": {
     "pushed_at": "2026-11-03T15:59:33",
     "source": "Simon Willison's Weblog",
@@ -2909,6 +2914,11 @@
     "source": "少数派",
     "title": "本周看什么 | 最近值得一看的 9 部作品"
   },
+  "https://sspai.com/post/118705": {
+    "pushed_at": "2026-11-23T19:58:19",
+    "source": "少数派",
+    "title": "新手问号 | 用智能插座为旧款 Apple 设备设置「充电上限」"
+  },
   "https://sspai.com/post/118732": {
     "pushed_at": "2026-11-18T17:02:29",
     "source": "少数派",
@@ -2999,6 +3009,11 @@
     "source": "少数派",
     "title": "App+1｜不卡带：给你爱听的「老调」，配点记忆中的风味"
   },
+  "https://sspai.com/post/119023": {
+    "pushed_at": "2026-11-23T19:58:19",
+    "source": "少数派",
+    "title": "养鱼更省心，造景更自由：米家智能鱼缸 2 Pro 体验"
+  },
   "https://sspai.com/post/119039": {
     "pushed_at": "2026-11-19T17:11:37",
     "source": "少数派",
@@ -3074,6 +3089,16 @@
     "source": "少数派",
     "title": "本周看什么 | 最近值得一看的 10 部作品"
   },
+  "https://sspai.com/post/119418": {
+    "pushed_at": "2026-11-23T19:58:19",
+    "source": "少数派",
+    "title": "派早报：Anthropic 研究员宣称用 Claude 证明黎曼猜想"
+  },
+  "https://sspai.com/post/119438": {
+    "pushed_at": "2026-11-23T19:58:19",
+    "source": "少数派",
+    "title": "派评 | 近期值得关注的 App"
+  },
   "https://sspai.com/post/85735": {
     "pushed_at": "2026-11-12T16:40:58",
     "source": "少数派",
@@ -3093,6 +3118,11 @@
     "pushed_at": "2026-11-19T17:11:37",
     "source": "少数派",
     "title": "有必要但欠平衡：浅评 macOS 27.3 新版权限控制机制"
+  },
+  "https://sspai.com/prime/story/weird-phones-are-returning": {
+    "pushed_at": "2026-11-23T19:58:19",
+    "source": "少数派",
+    "title": "怪手机们要回来了吗？"
   },
   "https://sspai.com/prime/story/zhuanglesha-261030": {
     "pushed_at": "2026-10-30T14:55:53",
@@ -4859,6 +4889,31 @@
     "source": "IT之家",
     "title": "美国初创企业公布 AI 自研 CPU 架构 Frostbite，能效是传统处理器的 4.59 倍"
   },
+  "https://www.ithome.com/1/031/219.htm": {
+    "pushed_at": "2026-11-23T19:58:16",
+    "source": "IT之家",
+    "title": "华为星芒 OSTA O1 Pro 新机确认支持 eSIM 能力：最多四号，允许同时启用双卡"
+  },
+  "https://www.ithome.com/1/031/228.htm": {
+    "pushed_at": "2026-11-23T19:58:16",
+    "source": "IT之家",
+    "title": "手机只是开始：华为星芒刘赫确认 OSTA 品牌将推全场景产品，消息称小平板已安排"
+  },
+  "https://www.ithome.com/1/031/229.htm": {
+    "pushed_at": "2026-11-23T19:58:16",
+    "source": "IT之家",
+    "title": "离功能补完更近一步：微信鸿蒙版 App 获 8.0.24.19 大版本邀测升级"
+  },
+  "https://www.ithome.com/1/031/230.htm": {
+    "pushed_at": "2026-11-23T19:58:16",
+    "source": "IT之家",
+    "title": "距离发售尚有三年，《暗黑破坏神 5》职业、装备体系与世界观细节公开"
+  },
+  "https://www.ithome.com/1/031/235.htm": {
+    "pushed_at": "2026-11-23T19:58:16",
+    "source": "IT之家",
+    "title": "2026 年 Steam 大奖提名开启：十周年新增「名人堂」特别奖项，11 月 30 日截止"
+  },
   "https://www.qbitai.com/2026/10/504905.html": {
     "pushed_at": "2026-10-26T20:56:16",
     "source": "量子位",
@@ -5723,6 +5778,31 @@
     "pushed_at": "2026-11-22T16:03:39",
     "source": "量子位",
     "title": "Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖"
+  },
+  "https://www.qbitai.com/2026/11/511998.html": {
+    "pushed_at": "2026-11-23T19:58:14",
+    "source": "量子位",
+    "title": "蚂蚁阿福同款大模型宣布开源，全球医生一台电脑就能解锁专业医疗 AI 能力"
+  },
+  "https://www.qbitai.com/2026/11/512004.html": {
+    "pushed_at": "2026-11-23T19:58:14",
+    "source": "量子位",
+    "title": "“Agent版arXiv”来了！936个智能体12个星期狂发近千篇论文，连同行评议都整上了"
+  },
+  "https://www.qbitai.com/2026/11/512017.html": {
+    "pushed_at": "2026-11-23T19:58:14",
+    "source": "量子位",
+    "title": "蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了"
+  },
+  "https://www.qbitai.com/2026/11/512179.html": {
+    "pushed_at": "2026-11-23T19:58:14",
+    "source": "量子位",
+    "title": "XROGO郑随兵：机器人不能只在视频里，终究要进入工厂“真干活”"
+  },
+  "https://www.qbitai.com/2026/11/512195.html": {
+    "pushed_at": "2026-11-23T19:58:14",
+    "source": "量子位",
+    "title": "实测：1450亿参数塞进笔记本，每秒狂飙80+Token！国产端侧大模型杀疯了"
   },
   "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai": {
     "pushed_at": "2026-10-25T05:24:17",
