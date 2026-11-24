@@ -409,6 +409,11 @@
     "source": "Artificial Intelligence",
     "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm"
   },
+  "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls": {
+    "pushed_at": "2026-11-24T10:29:40",
+    "source": "Artificial Intelligence",
+    "title": "Introducing the Amazon Bedrock Trusted Access API with Anthropic’s Enterprise Frontier Safeguards and Enterprise Data Controls"
+  },
   "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-sagemaker-jumpstart-model-leaderboard": {
     "pushed_at": "2026-11-18T21:10:54",
     "source": "Artificial Intelligence",
@@ -1314,6 +1319,11 @@
     "source": "ElevenLabs Blog",
     "title": "ElevenLabs and adELA bring free voice restoration to Spain"
   },
+  "https://elevenlabs.io/blog/elevenmusic-vs-elevencreative": {
+    "pushed_at": "2026-11-24T10:29:40",
+    "source": "ElevenLabs Blog",
+    "title": "ElevenMusic vs. music in ElevenCreative: which do I need?"
+  },
   "https://elevenlabs.io/blog/enterprise-nyc-summit": {
     "pushed_at": "2026-11-16T07:22:42",
     "source": "ElevenLabs Blog",
@@ -1769,6 +1779,11 @@
     "source": "Ollama",
     "title": "Clef is available on Ollama's cloud"
   },
+  "https://ollama.com/blog/faster-gemma-4-mlx-mtp": {
+    "pushed_at": "2026-11-24T10:29:40",
+    "source": "Ollama",
+    "title": "Faster Gemma 4 on MLX with multi-token prediction"
+  },
   "https://ollama.com/blog/fly-io-sprites": {
     "pushed_at": "2026-11-20T07:50:18",
     "source": "Ollama",
@@ -1843,6 +1858,11 @@
     "pushed_at": "2026-11-22T07:33:18",
     "source": "OpenAI News",
     "title": "Explore the Codex Security Plugin"
+  },
+  "https://openai.com/business/learn/connected-intelligence-for-in-house-legal": {
+    "pushed_at": "2026-11-24T10:29:40",
+    "source": "OpenAI News",
+    "title": "Connected intelligence for in-house legal"
   },
   "https://openai.com/business/learn/deploying-daybreak-red": {
     "pushed_at": "2026-11-20T07:50:18",
@@ -2144,6 +2164,11 @@
     "source": "Blog on Qwen",
     "title": "Qwen VLo: From \"Understanding\" the World to \"Depicting\" It"
   },
+  "https://qwenlm.github.io/blog/qwen2.5-max": {
+    "pushed_at": "2026-11-24T10:29:40",
+    "source": "Blog on Qwen",
+    "title": "Qwen2.5-Max: Exploring the Intelligence of Large-scale MoE Model"
+  },
   "https://qwenlm.github.io/blog/qwen2.5-omni": {
     "pushed_at": "2026-11-22T07:33:18",
     "source": "Blog on Qwen",
@@ -2223,6 +2248,11 @@
     "pushed_at": "2026-11-21T19:59:11",
     "source": "Shopify Engineering",
     "title": "Building secure mobile apps in the agentic era"
+  },
+  "https://shopify.engineering/shopgym": {
+    "pushed_at": "2026-11-24T10:29:40",
+    "source": "Shopify Engineering",
+    "title": "ShopGym: Realistic, reproducible sandboxes for shopping agents"
   },
   "https://shopify.engineering/shopify-app-rebuild": {
     "pushed_at": "2026-11-10T20:20:31",
@@ -3349,6 +3379,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes"
   },
+  "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios": {
+    "pushed_at": "2026-11-24T10:29:40",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios"
+  },
   "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave": {
     "pushed_at": "2026-11-11T20:04:02",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3383,6 +3418,11 @@
     "pushed_at": "2026-11-19T08:02:06",
     "source": "Vercel News",
     "title": "Introducing Vercel Board"
+  },
+  "https://vercel.com/blog/kazunari-hanao-joins-vercel-as-country-manager-japan": {
+    "pushed_at": "2026-11-24T10:29:40",
+    "source": "Vercel News",
+    "title": "Kazunari Hanao joins Vercel as Country Manager, Japan"
   },
   "https://vercel.com/blog/simplifying-runtime-caching-on-vercel": {
     "pushed_at": "2026-10-31T06:23:01",
