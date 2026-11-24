@@ -399,6 +399,11 @@
     "source": "Artificial Intelligence",
     "title": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters"
   },
+  "https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues": {
+    "pushed_at": "2026-11-24T22:56:48",
+    "source": "Artificial Intelligence",
+    "title": "Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod"
+  },
   "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock": {
     "pushed_at": "2026-11-11T07:17:41",
     "source": "Artificial Intelligence",
@@ -823,6 +828,11 @@
     "pushed_at": "2026-10-26T19:04:50",
     "source": "AI",
     "title": "Our newest AI Quest: Mapping the human brain"
+  },
+  "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state": {
+    "pushed_at": "2026-11-24T22:56:48",
+    "source": "AI",
+    "title": "How Gemini is changing the game for Golden State's organization and fans."
   },
   "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026": {
     "pushed_at": "2026-11-16T22:47:00",
@@ -1514,6 +1524,11 @@
     "source": "ElevenLabs Blog",
     "title": "What is call transcription? A practical business guide"
   },
+  "https://elevenlabs.io/blog/what-is-sip-trunking": {
+    "pushed_at": "2026-11-24T22:56:48",
+    "source": "ElevenLabs Blog",
+    "title": "What is SIP trunking? A business guide to modern calls"
+  },
   "https://elevenlabs.io/blog/what-is-turn-taking": {
     "pushed_at": "2026-10-30T06:33:33",
     "source": "ElevenLabs Blog",
@@ -1623,6 +1638,11 @@
     "pushed_at": "2026-10-28T18:42:37",
     "source": "The GitHub Blog",
     "title": "GitHub Universe 2026: Evolving every layer of the stack"
+  },
+  "https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want": {
+    "pushed_at": "2026-11-24T22:56:48",
+    "source": "The GitHub Blog",
+    "title": "These are the gifts developers will actually want"
   },
   "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents": {
     "pushed_at": "2026-10-29T06:34:04",
@@ -1788,6 +1808,11 @@
     "pushed_at": "2026-11-20T07:50:18",
     "source": "Ollama",
     "title": "Run AI agents safely with Ollama and Fly.io"
+  },
+  "https://ollama.com/blog/mlx-performance": {
+    "pushed_at": "2026-11-24T22:56:48",
+    "source": "Ollama",
+    "title": "Ollama's highest performance on Apple Silicon yet with MLX"
   },
   "https://ollama.com/blog/muse-glimmer": {
     "pushed_at": "2026-11-23T08:20:37",
@@ -1968,6 +1993,11 @@
     "pushed_at": "2026-11-12T07:48:46",
     "source": "OpenAI News",
     "title": "Gilbert + Tobin rethinks the business of law with AI"
+  },
+  "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities": {
+    "pushed_at": "2026-11-24T22:56:48",
+    "source": "OpenAI News",
+    "title": "GPT-6 models demonstrate intrinsic protein-design capabilities"
   },
   "https://openai.com/index/greptile-code-review-codex-astra": {
     "pushed_at": "2026-10-27T05:44:48",
@@ -2164,6 +2194,11 @@
     "source": "Blog on Qwen",
     "title": "Qwen VLo: From \"Understanding\" the World to \"Depicting\" It"
   },
+  "https://qwenlm.github.io/blog/qwen2.5-1m": {
+    "pushed_at": "2026-11-24T22:56:48",
+    "source": "Blog on Qwen",
+    "title": "Qwen2.5-1M: Deploy Your Own Qwen with Context Length up to 1M Tokens"
+  },
   "https://qwenlm.github.io/blog/qwen2.5-max": {
     "pushed_at": "2026-11-24T10:29:40",
     "source": "Blog on Qwen",
@@ -2223,6 +2258,11 @@
     "pushed_at": "2026-11-11T20:04:02",
     "source": "Shopify Engineering",
     "title": "Shopify’s generative discovery model"
+  },
+  "https://shopify.engineering/helix": {
+    "pushed_at": "2026-11-24T22:56:48",
+    "source": "Shopify Engineering",
+    "title": "Helix: The internal tool powering our Shopify app's native migration"
   },
   "https://shopify.engineering/open-model-task-experts": {
     "pushed_at": "2026-11-22T07:33:18",
@@ -3429,6 +3469,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios"
   },
+  "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy": {
+    "pushed_at": "2026-11-24T22:56:48",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy"
+  },
   "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave": {
     "pushed_at": "2026-11-11T20:04:02",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3508,6 +3553,11 @@
     "pushed_at": "2026-11-17T08:36:00",
     "source": "Vercel News",
     "title": "AI Gateway now supports Private Inference"
+  },
+  "https://vercel.com/changelog/all-sandbox-runtimes-now-use-vercel-managed-images": {
+    "pushed_at": "2026-11-24T22:56:48",
+    "source": "Vercel News",
+    "title": "All Sandbox runtimes now use Vercel Managed Images"
   },
   "https://vercel.com/changelog/atomic-start-hooks-in-the-workflow-sdk": {
     "pushed_at": "2026-11-04T20:20:27",
