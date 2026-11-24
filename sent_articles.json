@@ -2454,6 +2454,31 @@
     "source": "Simon Willison's Weblog",
     "title": "Select Styling Specimens"
   },
+  "https://simonwillison.net/2026/Nov/23/glm-54": {
+    "pushed_at": "2026-11-24T19:25:23",
+    "source": "Simon Willison's Weblog",
+    "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer"
+  },
+  "https://simonwillison.net/2026/Nov/23/ladybird": {
+    "pushed_at": "2026-11-24T19:25:23",
+    "source": "Simon Willison's Weblog",
+    "title": "Ladybird's first alpha release"
+  },
+  "https://simonwillison.net/2026/Nov/24/astra-historical-mystery": {
+    "pushed_at": "2026-11-24T19:25:23",
+    "source": "Simon Willison's Weblog",
+    "title": "GPT 6.2 Astra Solves a Historical Mystery"
+  },
+  "https://simonwillison.net/2026/Nov/24/datasette-agent": {
+    "pushed_at": "2026-11-24T19:25:23",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette-agent 0.7a1"
+  },
+  "https://simonwillison.net/2026/Nov/24/datasette-charts": {
+    "pushed_at": "2026-11-24T19:25:23",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette-charts 0.2a0"
+  },
   "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location": {
     "pushed_at": "2026-11-03T15:59:33",
     "source": "Simon Willison's Weblog",
@@ -3014,6 +3039,11 @@
     "source": "少数派",
     "title": "养鱼更省心，造景更自由：米家智能鱼缸 2 Pro 体验"
   },
+  "https://sspai.com/post/119035": {
+    "pushed_at": "2026-11-24T19:25:22",
+    "source": "少数派",
+    "title": "[限时特惠] 从构思到完稿，让长文写作更有条理：妙笔"
+  },
   "https://sspai.com/post/119039": {
     "pushed_at": "2026-11-19T17:11:37",
     "source": "少数派",
@@ -3089,6 +3119,11 @@
     "source": "少数派",
     "title": "本周看什么 | 最近值得一看的 10 部作品"
   },
+  "https://sspai.com/post/119412": {
+    "pushed_at": "2026-11-24T19:25:22",
+    "source": "少数派",
+    "title": "写在动荡之后：漫步巴黎的寻常一日"
+  },
   "https://sspai.com/post/119418": {
     "pushed_at": "2026-11-23T19:58:19",
     "source": "少数派",
@@ -3098,6 +3133,16 @@
     "pushed_at": "2026-11-23T19:58:19",
     "source": "少数派",
     "title": "派评 | 近期值得关注的 App"
+  },
+  "https://sspai.com/post/119460": {
+    "pushed_at": "2026-11-24T19:25:22",
+    "source": "少数派",
+    "title": "派早报：黄仁勋重回英伟达，荣耀发布荣耀 700 系列新机等"
+  },
+  "https://sspai.com/post/119492": {
+    "pushed_at": "2026-11-24T19:25:22",
+    "source": "少数派",
+    "title": "社区速递 167｜迪卡侬折叠车、静电白板贴与跨系统设备协同"
   },
   "https://sspai.com/post/85735": {
     "pushed_at": "2026-11-12T16:40:58",
@@ -4864,6 +4909,31 @@
     "source": "IT之家",
     "title": "2026 年 Steam 大奖提名开启：十周年新增「名人堂」特别奖项，11 月 30 日截止"
   },
+  "https://www.ithome.com/1/031/892.htm": {
+    "pushed_at": "2026-11-24T19:25:19",
+    "source": "IT之家",
+    "title": "微软 Win11 将淘汰蓝牙 MTP 功能，标准蓝牙文件传输不受影响"
+  },
+  "https://www.ithome.com/1/031/893.htm": {
+    "pushed_at": "2026-11-24T19:25:19",
+    "source": "IT之家",
+    "title": "HKC 神盾 27Q420B 显示器上市：QD Mini LED + Ultrafast IPS，2399 元"
+  },
+  "https://www.ithome.com/1/031/894.htm": {
+    "pushed_at": "2026-11-24T19:25:19",
+    "source": "IT之家",
+    "title": "黑得深邃：宾利首款纯电 SUV 托卡尔新增纯黑特别版，全球只有 20 台"
+  },
+  "https://www.ithome.com/1/031/895.htm": {
+    "pushed_at": "2026-11-24T19:25:19",
+    "source": "IT之家",
+    "title": "削峰填谷！余承东揭秘华为 Mate X8“超平整”内屏原理，首创磁控展平技术定向修复"
+  },
+  "https://www.ithome.com/1/031/896.htm": {
+    "pushed_at": "2026-11-24T19:25:19",
+    "source": "IT之家",
+    "title": "华为：截至目前，对外专利许可协议累计金额超 69 亿美元"
+  },
   "https://www.qbitai.com/2026/10/504905.html": {
     "pushed_at": "2026-10-26T20:56:16",
     "source": "量子位",
@@ -5728,6 +5798,31 @@
     "pushed_at": "2026-11-23T19:58:14",
     "source": "量子位",
     "title": "实测：1450亿参数塞进笔记本，每秒狂飙80+Token！国产端侧大模型杀疯了"
+  },
+  "https://www.qbitai.com/2026/11/512343.html": {
+    "pushed_at": "2026-11-24T19:25:17",
+    "source": "量子位",
+    "title": "巴新总理见证，仰望U8交付巴布亚新几内亚市场"
+  },
+  "https://www.qbitai.com/2026/11/512348.html": {
+    "pushed_at": "2026-11-24T19:25:17",
+    "source": "量子位",
+    "title": "八年研发，首搭方程豹钛9，全球首个折叠方向盘量产上车"
+  },
+  "https://www.qbitai.com/2026/11/512354.html": {
+    "pushed_at": "2026-11-24T19:25:17",
+    "source": "量子位",
+    "title": "文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议"
+  },
+  "https://www.qbitai.com/2026/11/512362.html": {
+    "pushed_at": "2026-11-24T19:25:17",
+    "source": "量子位",
+    "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型"
+  },
+  "https://www.qbitai.com/2026/11/512370.html": {
+    "pushed_at": "2026-11-24T19:25:17",
+    "source": "量子位",
+    "title": "Google Cloud 出海峰会报名开启"
   },
   "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai": {
     "pushed_at": "2026-10-25T05:24:17",
