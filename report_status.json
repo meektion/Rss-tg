@@ -1,14 +1,4 @@
 {
-  "2026-10-25": {
-    "evening": {
-      "status": "success",
-      "updated_at": "2026-10-25T00:28:39+00:00"
-    },
-    "morning": {
-      "status": "success",
-      "updated_at": "2026-10-25T13:24:17+00:00"
-    }
-  },
   "2026-10-26": {
     "evening": {
       "status": "success",
@@ -313,6 +303,10 @@
     "evening": {
       "status": "success",
       "updated_at": "2026-11-25T06:56:48+00:00"
+    },
+    "morning": {
+      "status": "success",
+      "updated_at": "2026-11-25T17:18:04+00:00"
     }
   }
 }

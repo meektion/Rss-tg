@@ -89,11 +89,6 @@
     "source": "Ars Technica",
     "title": "Third person dies of bird flu since virus started jumping to livestock"
   },
-  "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that": {
-    "pushed_at": "2026-10-25T05:24:17",
-    "source": "Ars Technica",
-    "title": "Ice sheet expansion may have started 2,000 years ago, but we canceled that"
-  },
   "https://arstechnica.com/science/2026/10/rare-meteorite-from-mars-gives-us-a-view-into-its-ancient-crust": {
     "pushed_at": "2026-10-30T18:29:01",
     "source": "Ars Technica",
@@ -173,11 +168,6 @@
     "pushed_at": "2026-11-15T07:17:26",
     "source": "Ars Technica",
     "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch"
-  },
-  "https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk": {
-    "pushed_at": "2026-10-25T17:00:01",
-    "source": "Ars Technica",
-    "title": "Hegseth warns prediction market bets warp military judgment, endanger troops"
   },
   "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo": {
     "pushed_at": "2026-10-29T18:50:59",
@@ -354,11 +344,6 @@
     "source": "Artificial Intelligence",
     "title": "How Amazon Marketplace evaluates content quality with Amazon SageMaker AI"
   },
-  "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations": {
-    "pushed_at": "2026-10-25T05:24:17",
-    "source": "Artificial Intelligence",
-    "title": "How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations"
-  },
   "https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore": {
     "pushed_at": "2026-11-17T08:36:00",
     "source": "Artificial Intelligence",
@@ -368,11 +353,6 @@
     "pushed_at": "2026-11-09T07:16:51",
     "source": "Artificial Intelligence",
     "title": "How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore"
-  },
-  "https://aws.amazon.com/blogs/machine-learning/how-iskaypet-unified-corporate-knowledge-with-amazon-bedrock-managed-knowledge-bases": {
-    "pushed_at": "2026-10-25T17:00:01",
-    "source": "Artificial Intelligence",
-    "title": "How IskayPet unified corporate knowledge with Amazon Bedrock Managed Knowledge Bases"
   },
   "https://aws.amazon.com/blogs/machine-learning/how-skills-and-agents-work-in-aws-quick": {
     "pushed_at": "2026-11-10T07:48:56",
@@ -514,6 +494,11 @@
     "source": "Artificial Intelligence",
     "title": "Use decision models with Amazon Bedrock AgentCore Evaluations"
   },
+  "https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock": {
+    "pushed_at": "2026-11-25T09:18:04",
+    "source": "Artificial Intelligence",
+    "title": "Use Kimi Code CLI with models on Amazon Bedrock"
+  },
   "https://baoyu.io/blog/2026-05-11/skill-next-codex": {
     "pushed_at": "2026-11-17T17:29:21",
     "source": "宝玉的分享",
@@ -623,11 +608,6 @@
     "pushed_at": "2026-11-11T20:04:02",
     "source": "Cloudflare Blog",
     "title": "Choosing QuePaxa, an unusual consensus algorithm"
-  },
-  "https://blog.cloudflare.com/clairic-extraction-model": {
-    "pushed_at": "2026-10-25T05:24:17",
-    "source": "Cloudflare Blog",
-    "title": "Introducing Clairic, a new System One class of extraction models"
   },
   "https://blog.cloudflare.com/ddos-threat-report-2026-q3": {
     "pushed_at": "2026-10-29T18:50:59",
@@ -854,11 +834,6 @@
     "source": "The Mozilla Blog",
     "title": "Firefox’s free built-in VPN uncaps data limit through January 2027"
   },
-  "https://blog.mozilla.org/en/firefox/come-back-to-firefox": {
-    "pushed_at": "2026-10-25T17:00:01",
-    "source": "The Mozilla Blog",
-    "title": "Firefox reunites meme royalty to remind you what the internet used to feel like"
-  },
   "https://blog.mozilla.org/en/firefox/firefox-roadmap": {
     "pushed_at": "2026-10-27T18:36:18",
     "source": "The Mozilla Blog",
@@ -984,11 +959,6 @@
     "source": "NVIDIA Blog",
     "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab"
   },
-  "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction": {
-    "pushed_at": "2026-10-25T17:00:01",
-    "source": "NVIDIA Blog",
-    "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction"
-  },
   "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing": {
     "pushed_at": "2026-10-28T06:23:08",
     "source": "NVIDIA Blog",
@@ -998,11 +968,6 @@
     "pushed_at": "2026-10-26T05:28:48",
     "source": "NVIDIA Blog",
     "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects"
-  },
-  "https://blogs.nvidia.com/blog/european-retail-open-models-robotics": {
-    "pushed_at": "2026-10-25T05:24:17",
-    "source": "NVIDIA Blog",
-    "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations"
   },
   "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026": {
     "pushed_at": "2026-11-20T21:17:23",
@@ -1289,11 +1254,6 @@
     "source": "ElevenLabs Blog",
     "title": "How to choose the best speech to text API for your use case"
   },
-  "https://elevenlabs.io/blog/chroma-awards-season-two-announcement": {
-    "pushed_at": "2026-10-25T05:24:17",
-    "source": "ElevenLabs Blog",
-    "title": "Announcing the Chroma Awards Season 2"
-  },
   "https://elevenlabs.io/blog/conversational-ai-in-banking": {
     "pushed_at": "2026-10-29T06:34:04",
     "source": "ElevenLabs Blog",
@@ -1539,6 +1499,11 @@
     "source": "ElevenLabs Blog",
     "title": "What is WebRTC? A guide to real-time web communication"
   },
+  "https://elevenlabs.io/blog/yahoo": {
+    "pushed_at": "2026-11-25T09:18:04",
+    "source": "ElevenLabs Blog",
+    "title": "How Yahoo Scout, a new AI answer tool from Yahoo, got a voice"
+  },
   "https://engineering.atspotify.com/2026/11/ai-product-management-at-spotify-a-view-from-three-angles": {
     "pushed_at": "2026-11-09T22:54:50",
     "source": "Spotify Engineering",
@@ -1754,6 +1719,11 @@
     "source": "Apple Machine Learning Research",
     "title": "Weighted State Souping for Efficient Long-Context Retrieval"
   },
+  "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-11-25T09:18:04",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes"
+  },
   "https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-11-16T07:22:42",
     "source": "Netflix TechBlog - Medium",
@@ -1809,6 +1779,11 @@
     "source": "Ollama",
     "title": "Run AI agents safely with Ollama and Fly.io"
   },
+  "https://ollama.com/blog/improved-performance-and-model-support-with-gguf": {
+    "pushed_at": "2026-11-25T09:18:04",
+    "source": "Ollama",
+    "title": "Improved performance and model support with GGUF"
+  },
   "https://ollama.com/blog/mlx-performance": {
     "pushed_at": "2026-11-24T22:56:48",
     "source": "Ollama",
@@ -1838,11 +1813,6 @@
     "pushed_at": "2026-11-19T21:14:22",
     "source": "Ollama",
     "title": "Reflection's Beam is freely available on Ollama for a limited time"
-  },
-  "https://ollama.com/blog/speech-models": {
-    "pushed_at": "2026-10-25T05:24:17",
-    "source": "Ollama",
-    "title": "Speech models in Ollama"
   },
   "https://ollama.com/blog/transparent-pricing": {
     "pushed_at": "2026-11-21T19:59:11",
@@ -1913,11 +1883,6 @@
     "pushed_at": "2026-11-06T07:27:09",
     "source": "OpenAI News",
     "title": "Australian universities are creating AI-native graduates"
-  },
-  "https://openai.com/index/broad-access-through-consistent-standards": {
-    "pushed_at": "2026-10-25T17:00:01",
-    "source": "OpenAI News",
-    "title": "Broad access through consistent standards"
   },
   "https://openai.com/index/chatgpt-enterprise-aws-marketplace": {
     "pushed_at": "2026-11-09T22:54:50",
@@ -2124,6 +2089,11 @@
     "source": "OpenAI News",
     "title": "Scaling Git at OpenAI"
   },
+  "https://openai.com/index/searching-for-distant-planets-with-astra": {
+    "pushed_at": "2026-11-25T09:18:04",
+    "source": "OpenAI News",
+    "title": "Searching for distant planets with Astra"
+  },
   "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure": {
     "pushed_at": "2026-11-08T18:15:42",
     "source": "OpenAI News",
@@ -2148,11 +2118,6 @@
     "pushed_at": "2026-11-19T08:02:06",
     "source": "OpenAI News",
     "title": "The Silent Consensus"
-  },
-  "https://openai.com/index/uber-chatgpt-work-rollout": {
-    "pushed_at": "2026-10-25T05:24:17",
-    "source": "OpenAI News",
-    "title": "Uber brings ChatGPT Work to all employees with OpenAI"
   },
   "https://openai.com/index/updated-model-spec": {
     "pushed_at": "2026-10-29T18:50:59",
@@ -2208,6 +2173,11 @@
     "pushed_at": "2026-11-22T07:33:18",
     "source": "Blog on Qwen",
     "title": "Qwen2.5 Omni: See, Hear, Talk, Write, Do It All!"
+  },
+  "https://qwenlm.github.io/blog/qwen2.5-vl": {
+    "pushed_at": "2026-11-25T09:18:04",
+    "source": "Blog on Qwen",
+    "title": "Qwen2.5 VL! Qwen2.5 VL! Qwen2.5 VL!"
   },
   "https://qwenlm.github.io/blog/qwen2.5-vl-32b": {
     "pushed_at": "2026-11-22T20:12:32",
@@ -2288,6 +2258,11 @@
     "pushed_at": "2026-11-21T19:59:11",
     "source": "Shopify Engineering",
     "title": "Building secure mobile apps in the agentic era"
+  },
+  "https://shopify.engineering/shop-app-migration": {
+    "pushed_at": "2026-11-25T09:18:04",
+    "source": "Shopify Engineering",
+    "title": "Migrating Shop app from React Native to native"
   },
   "https://shopify.engineering/shopgym": {
     "pushed_at": "2026-11-24T10:29:40",
@@ -2683,11 +2658,6 @@
     "pushed_at": "2026-11-10T16:15:59",
     "source": "少数派",
     "title": "今年双十一，这些鼠标值得一看"
-  },
-  "https://sspai.com/post/114741": {
-    "pushed_at": "2026-10-25T13:03:35",
-    "source": "少数派",
-    "title": "60 元打造你的 vibe coding 神器：小米蓝牙遥控器 2 pro"
   },
   "https://sspai.com/post/115074": {
     "pushed_at": "2026-10-26T14:58:56",
@@ -3214,16 +3184,6 @@
     "source": "少数派",
     "title": "《久坐健康指南》作者、运动健康领域创作者阿帅装了啥？"
   },
-  "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it": {
-    "pushed_at": "2026-10-25T05:24:17",
-    "source": "AI News & Artificial Intelligence | TechCrunch",
-    "title": "The AI graveyard: a running list of projects and startups that didn’t make it"
-  },
-  "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist": {
-    "pushed_at": "2026-10-25T17:00:01",
-    "source": "AI News & Artificial Intelligence | TechCrunch",
-    "title": "AI delivers ‘zero financial payoff’ to most companies, according to Apollo economist"
-  },
   "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey": {
     "pushed_at": "2026-10-26T05:28:48",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3474,6 +3434,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy"
   },
+  "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion": {
+    "pushed_at": "2026-11-25T09:18:04",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion"
+  },
   "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave": {
     "pushed_at": "2026-11-11T20:04:02",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3589,11 +3554,6 @@
     "source": "Vercel News",
     "title": "DeepSeek V4.1 Flash 1017 Ultrafast now available on AI Gateway"
   },
-  "https://vercel.com/changelog/deployments-now-show-build-cache-size": {
-    "pushed_at": "2026-10-25T05:24:17",
-    "source": "Vercel News",
-    "title": "Deployments now show build cache size"
-  },
   "https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli": {
     "pushed_at": "2026-10-26T19:04:50",
     "source": "Vercel News",
@@ -3699,6 +3659,11 @@
     "source": "Vercel News",
     "title": "Standard builds move to usage-based billing for new teams"
   },
+  "https://vercel.com/changelog/standard-builds-for-existing-pro-teams-have-moved-to-usage-based-billing": {
+    "pushed_at": "2026-11-25T09:18:04",
+    "source": "Vercel News",
+    "title": "Standard builds for existing Pro teams have moved to usage-based billing"
+  },
   "https://vercel.com/changelog/strix-now-supports-vercel-ai-gateway": {
     "pushed_at": "2026-10-30T06:33:33",
     "source": "Vercel News",
@@ -3738,11 +3703,6 @@
     "pushed_at": "2026-11-06T19:53:32",
     "source": "Vercel News",
     "title": "Vercel CLI can now set new projects to expire"
-  },
-  "https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys": {
-    "pushed_at": "2026-10-25T17:00:01",
-    "source": "Vercel News",
-    "title": "Vercel Connect adds managed Stripe API keys"
   },
   "https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings": {
     "pushed_at": "2026-11-01T06:55:36",
@@ -3808,56 +3768,6 @@
     "pushed_at": "2026-11-08T18:15:42",
     "source": "Hacker News: Front Page",
     "title": "Ads in Popular Apps Give Police a Powerful Tool to Spy on Users"
-  },
-  "https://www.ithome.com/1/017/687.htm": {
-    "pushed_at": "2026-10-25T13:03:32",
-    "source": "IT之家",
-    "title": "vivo X500 Ultra 国际版现身数据库，预计明年 3-4 月国内发布"
-  },
-  "https://www.ithome.com/1/017/688.htm": {
-    "pushed_at": "2026-10-25T13:03:32",
-    "source": "IT之家",
-    "title": "大众再挥裁员大刀：2030 年前拟削减 1.2 万岗位"
-  },
-  "https://www.ithome.com/1/017/689.htm": {
-    "pushed_at": "2026-10-25T13:03:32",
-    "source": "IT之家",
-    "title": "1499 元购 27 英寸 2K 240Hz QD-OLED：泰坦军团“G2783S”显示器 10 月 27 日首销"
-  },
-  "https://www.ithome.com/1/017/690.htm": {
-    "pushed_at": "2026-10-25T13:03:32",
-    "source": "IT之家",
-    "title": "力积电 2026Q3 净利润环比几乎翻倍，新产能将与客户共同投资"
-  },
-  "https://www.ithome.com/1/017/692.htm": {
-    "pushed_at": "2026-10-25T13:03:32",
-    "source": "IT之家",
-    "title": "888 元购 27 英寸 2K 275Hz：泰坦军团“P2710S PLUS”显示器发售（国补后 799 元）"
-  },
-  "https://www.ithome.com/1/017/714.htm": {
-    "pushed_at": "2026-10-25T18:48:20",
-    "source": "IT之家",
-    "title": "苹果硬件技术部门再迎人事调整：两名显示技术高管退休临近，转任顾问角色"
-  },
-  "https://www.ithome.com/1/017/715.htm": {
-    "pushed_at": "2026-10-25T18:48:20",
-    "source": "IT之家",
-    "title": "Home Assistant 将新增 Live USB 安装选项，利好迷你主机用户"
-  },
-  "https://www.ithome.com/1/017/716.htm": {
-    "pushed_at": "2026-10-25T18:48:20",
-    "source": "IT之家",
-    "title": "国产武侠游戏《影之刃零》10 月 27 日 10:00 开启预下载，游戏本体约 145G"
-  },
-  "https://www.ithome.com/1/017/717.htm": {
-    "pushed_at": "2026-10-25T18:48:20",
-    "source": "IT之家",
-    "title": "古尔曼：苹果正测试配备 OLED 屏幕的 iMac 和 MacBook Air"
-  },
-  "https://www.ithome.com/1/017/719.htm": {
-    "pushed_at": "2026-10-25T18:48:20",
-    "source": "IT之家",
-    "title": "国内首部 AI 院线长片《三星堆：未来往事》，票房过百万"
   },
   "https://www.ithome.com/1/018/171.htm": {
     "pushed_at": "2026-10-26T14:58:54",
@@ -5874,11 +5784,6 @@
     "source": "量子位",
     "title": "Google Cloud 出海峰会报名开启"
   },
-  "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai": {
-    "pushed_at": "2026-10-25T05:24:17",
-    "source": "The Verge",
-    "title": "Blue Planet III is keeping the rough edges in the age of AI"
-  },
   "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics": {
     "pushed_at": "2026-10-27T05:44:48",
     "source": "The Verge",
@@ -6004,11 +5909,6 @@
     "source": "The Verge",
     "title": "iFixit’s look inside the iPhone Duo may explain those broken screens and hinges"
   },
-  "https://www.theverge.com/tech/1018253/now-you-can-watch-instagram-reels-on-your-apple-tv": {
-    "pushed_at": "2026-10-25T17:00:01",
-    "source": "The Verge",
-    "title": "Now you can watch Instagram Reels on your Apple TV"
-  },
   "https://www.theverge.com/tech/1020145/iphone-duo-crackgate-broken-screen-hinge": {
     "pushed_at": "2026-10-28T06:23:08",
     "source": "The Verge",
@@ -6124,11 +6024,6 @@
     "source": "WIRED",
     "title": "Best Wi-Fi Routers (2026): My Honest Picks After Testing 50+"
   },
-  "https://www.wired.com/review/wallhack-m-001": {
-    "pushed_at": "2026-10-25T17:00:01",
-    "source": "WIRED",
-    "title": "Wallhack M-001 Review: When Fun Overrides Specs"
-  },
   "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system": {
     "pushed_at": "2026-10-29T18:50:59",
     "source": "WIRED",
@@ -6203,11 +6098,6 @@
     "pushed_at": "2026-10-31T17:33:23",
     "source": "WIRED",
     "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims"
-  },
-  "https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent": {
-    "pushed_at": "2026-10-25T05:24:17",
-    "source": "WIRED",
-    "title": "New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent"
   },
   "https://www.wired.com/story/norton-coupon-code": {
     "pushed_at": "2026-10-29T06:34:04",
