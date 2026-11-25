@@ -309,6 +309,11 @@
     "source": "Artificial Intelligence",
     "title": "Distributed training with Ray Train DLCs and EFA on EKS"
   },
+  "https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments": {
+    "pushed_at": "2026-11-25T22:12:28",
+    "source": "Artificial Intelligence",
+    "title": "Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments"
+  },
   "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3": {
     "pushed_at": "2026-10-26T19:04:50",
     "source": "Artificial Intelligence",
@@ -698,6 +703,11 @@
     "pushed_at": "2026-11-20T21:17:23",
     "source": "Cloudflare Blog",
     "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)"
+  },
+  "https://blog.cloudflare.com/search-for-agents": {
+    "pushed_at": "2026-11-25T22:12:28",
+    "source": "Cloudflare Blog",
+    "title": "Introducing Search for Agents"
   },
   "https://blog.cloudflare.com/spend-management": {
     "pushed_at": "2026-11-14T18:40:45",
@@ -1174,6 +1184,11 @@
     "source": "Google DeepMind News",
     "title": "Genie 4 is now available"
   },
+  "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity": {
+    "pushed_at": "2026-11-25T22:12:28",
+    "source": "Google DeepMind News",
+    "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity"
+  },
   "https://deepmind.google/blog/introducing-alphaproof-code": {
     "pushed_at": "2026-11-11T07:17:41",
     "source": "Google DeepMind News",
@@ -1308,6 +1323,11 @@
     "pushed_at": "2026-11-21T07:46:34",
     "source": "ElevenLabs Blog",
     "title": "How to fix text to speech accuracy problems"
+  },
+  "https://elevenlabs.io/blog/fixing-front-door-government": {
+    "pushed_at": "2026-11-25T22:12:28",
+    "source": "ElevenLabs Blog",
+    "title": "Fixing the front door to government, one voice agent at a time"
   },
   "https://elevenlabs.io/blog/fundacion-televisa-posible": {
     "pushed_at": "2026-11-21T19:59:11",
@@ -1594,6 +1614,11 @@
     "source": "The GitHub Blog",
     "title": "Building the Agent Host Protocol for sessions that continue across devices"
   },
+  "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai": {
+    "pushed_at": "2026-11-25T22:12:28",
+    "source": "The GitHub Blog",
+    "title": "Art of play in the age of AI"
+  },
   "https://github.blog/news-insights/company-news/github-availability-report-october-2026": {
     "pushed_at": "2026-11-13T07:25:17",
     "source": "The GitHub Blog",
@@ -1754,6 +1779,11 @@
     "source": "Netflix TechBlog - Medium",
     "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing"
   },
+  "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-11-25T22:12:28",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Single-tenant Titus: VM-level isolation on a multi-tenant container platform"
+  },
   "https://ollama.com/blog/all-aboard-open-models": {
     "pushed_at": "2026-11-24T00:38:39",
     "source": "Ollama",
@@ -1814,6 +1844,11 @@
     "source": "Ollama",
     "title": "Reflection's Beam is freely available on Ollama for a limited time"
   },
+  "https://ollama.com/blog/speech-models": {
+    "pushed_at": "2026-11-25T22:12:28",
+    "source": "Ollama",
+    "title": "Speech models in Ollama"
+  },
   "https://ollama.com/blog/transparent-pricing": {
     "pushed_at": "2026-11-21T19:59:11",
     "source": "Ollama",
@@ -1843,6 +1878,11 @@
     "pushed_at": "2026-11-15T07:17:26",
     "source": "OpenAI News",
     "title": "Holiday Extras is rethinking what it can build with Codex"
+  },
+  "https://openai.com/business/customer-stories/intentful-dots": {
+    "pushed_at": "2026-11-25T22:12:28",
+    "source": "OpenAI News",
+    "title": "How Intentful uses dots to make more time for growth"
   },
   "https://openai.com/business/customer-stories/shield": {
     "pushed_at": "2026-11-14T07:06:08",
@@ -2124,6 +2164,11 @@
     "source": "OpenAI News",
     "title": "An updated Model Spec for more capable and beneficial AI"
   },
+  "https://qwenlm.github.io/blog/global-load-balance": {
+    "pushed_at": "2026-11-25T22:12:28",
+    "source": "Blog on Qwen",
+    "title": "Global-batch load balance almost free lunch to improve your MoE LLM training"
+  },
   "https://qwenlm.github.io/blog/gspo": {
     "pushed_at": "2026-11-18T07:59:53",
     "source": "Blog on Qwen",
@@ -2213,6 +2258,11 @@
     "pushed_at": "2026-11-24T00:38:39",
     "source": "Blog on Qwen",
     "title": "... QwQ-Max-Preview"
+  },
+  "https://shopify.engineering/back-to-native": {
+    "pushed_at": "2026-11-25T22:12:28",
+    "source": "Shopify Engineering",
+    "title": "Native is now the future of mobile at Shopify"
   },
   "https://shopify.engineering/catalog-clustering-part-ii": {
     "pushed_at": "2026-11-23T08:20:37",
@@ -3469,6 +3519,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion"
   },
+  "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work": {
+    "pushed_at": "2026-11-25T22:12:28",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work"
+  },
   "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave": {
     "pushed_at": "2026-11-11T20:04:02",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3488,6 +3543,11 @@
     "pushed_at": "2026-10-28T06:23:08",
     "source": "Vercel News",
     "title": "ElevenLabs on AI Gateway"
+  },
+  "https://vercel.com/blog/how-cozey-turns-its-operators-into-software-builders-on-vercel": {
+    "pushed_at": "2026-11-25T22:12:28",
+    "source": "Vercel News",
+    "title": "How Cozey turns its operators into software builders on Vercel"
   },
   "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel": {
     "pushed_at": "2026-10-26T05:28:48",
