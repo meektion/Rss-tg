@@ -2469,6 +2469,11 @@
     "source": "Simon Willison's Weblog",
     "title": "Select Styling Specimens"
   },
+  "https://simonwillison.net/2026/Nov/23/datasette-charts": {
+    "pushed_at": "2026-11-25T18:32:08",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette-charts 0.1a0"
+  },
   "https://simonwillison.net/2026/Nov/23/glm-54": {
     "pushed_at": "2026-11-24T19:25:23",
     "source": "Simon Willison's Weblog",
@@ -2493,6 +2498,11 @@
     "pushed_at": "2026-11-24T19:25:23",
     "source": "Simon Willison's Weblog",
     "title": "datasette-charts 0.2a0"
+  },
+  "https://simonwillison.net/2026/Nov/24/llm-inflection-points": {
+    "pushed_at": "2026-11-25T18:32:08",
+    "source": "Simon Willison's Weblog",
+    "title": "Three LLM inflection points in twelve months"
   },
   "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location": {
     "pushed_at": "2026-11-03T15:59:33",
@@ -2964,6 +2974,11 @@
     "source": "少数派",
     "title": "城市漫步指南 | 安特卫普，时尚就在生活中"
   },
+  "https://sspai.com/post/118791": {
+    "pushed_at": "2026-11-25T18:32:06",
+    "source": "少数派",
+    "title": "怀旧手记｜Palm Pre：内藏「划时代」系统的手机"
+  },
   "https://sspai.com/post/118799": {
     "pushed_at": "2026-11-09T18:30:43",
     "source": "少数派",
@@ -3099,6 +3114,11 @@
     "source": "少数派",
     "title": "派早报：Apple 年度应用、TGA 2026 分别公布入围名单等"
   },
+  "https://sspai.com/post/119264": {
+    "pushed_at": "2026-11-25T18:32:06",
+    "source": "少数派",
+    "title": "翻开 2027， 值得入手的新年日历推荐"
+  },
   "https://sspai.com/post/119287": {
     "pushed_at": "2026-11-19T17:11:37",
     "source": "少数派",
@@ -3108,6 +3128,11 @@
     "pushed_at": "2026-11-21T16:05:47",
     "source": "少数派",
     "title": "这群在鸿蒙写应用的年轻人，只想做点「用得上」的"
+  },
+  "https://sspai.com/post/119310": {
+    "pushed_at": "2026-11-25T18:32:06",
+    "source": "少数派",
+    "title": "App+1｜Yab：开源、AI 友好的双内核浏览器，给舍不得 Arc 的你"
   },
   "https://sspai.com/post/119311": {
     "pushed_at": "2026-11-20T16:49:44",
@@ -3153,6 +3178,11 @@
     "pushed_at": "2026-11-24T19:25:22",
     "source": "少数派",
     "title": "社区速递 167｜迪卡侬折叠车、静电白板贴与跨系统设备协同"
+  },
+  "https://sspai.com/post/119527": {
+    "pushed_at": "2026-11-25T18:32:06",
+    "source": "少数派",
+    "title": "派早报：华为发布 Mate X8 与 MateBook Fold S、微软将推出自研驱动等"
   },
   "https://sspai.com/post/85735": {
     "pushed_at": "2026-11-12T16:40:58",
@@ -4894,6 +4924,31 @@
     "source": "IT之家",
     "title": "华为：截至目前，对外专利许可协议累计金额超 69 亿美元"
   },
+  "https://www.ithome.com/1/032/529.htm": {
+    "pushed_at": "2026-11-25T18:32:04",
+    "source": "IT之家",
+    "title": "零跑 C19 新车申报：增程 / 纯电双动力，5.1 米长 5/6/7 座中大型 SUV"
+  },
+  "https://www.ithome.com/1/032/530.htm": {
+    "pushed_at": "2026-11-25T18:32:04",
+    "source": "IT之家",
+    "title": "“独立”微信音乐悄悄上线：内置在听一听中，曲库来源于 QQ 音乐"
+  },
+  "https://www.ithome.com/1/032/531.htm": {
+    "pushed_at": "2026-11-25T18:32:04",
+    "source": "IT之家",
+    "title": "北京汽车 T700 新车申报：1.5T 增程动力、单 / 双电机两种版本"
+  },
+  "https://www.ithome.com/1/032/533.htm": {
+    "pushed_at": "2026-11-25T18:32:04",
+    "source": "IT之家",
+    "title": "奕境曾清林：新能源汽车来到智能化下半场，四激光正是面向 L3、一步到位的智驾硬件方案"
+  },
+  "https://www.ithome.com/1/032/534.htm": {
+    "pushed_at": "2026-11-25T18:32:04",
+    "source": "IT之家",
+    "title": "蛮啾《蓝色星原：旅谣》今日公测：两百余种奇波可捕捉骑乘，登陆 PC、iOS、安卓、鸿蒙与 PS5"
+  },
   "https://www.qbitai.com/2026/10/504905.html": {
     "pushed_at": "2026-10-26T20:56:16",
     "source": "量子位",
@@ -5783,6 +5838,31 @@
     "pushed_at": "2026-11-24T19:25:17",
     "source": "量子位",
     "title": "Google Cloud 出海峰会报名开启"
+  },
+  "https://www.qbitai.com/2026/11/512582.html": {
+    "pushed_at": "2026-11-25T18:32:01",
+    "source": "量子位",
+    "title": "算力唤醒真实世界：九章云极发布物理AI工厂与生态开放计划"
+  },
+  "https://www.qbitai.com/2026/11/512683.html": {
+    "pushed_at": "2026-11-25T18:32:01",
+    "source": "量子位",
+    "title": "逐际动⼒与商汤⼤装置达成合作，以高质量算力全⾯⽀撑机器⼈仿真训练与测试"
+  },
+  "https://www.qbitai.com/2026/11/512715.html": {
+    "pushed_at": "2026-11-25T18:32:01",
+    "source": "量子位",
+    "title": "零基础也能做开发，智元灵心平台一年孵化超3万个机器人智能体"
+  },
+  "https://www.qbitai.com/2026/11/512727.html": {
+    "pushed_at": "2026-11-25T18:32:01",
+    "source": "量子位",
+    "title": "丢个故事就行！直出15分钟AI短片，家里二舅也能上手"
+  },
+  "https://www.qbitai.com/2026/11/512748.html": {
+    "pushed_at": "2026-11-25T18:32:01",
+    "source": "量子位",
+    "title": "我以为这是摄影作品，你告诉我这是最新的国产AI？！"
   },
   "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics": {
     "pushed_at": "2026-10-27T05:44:48",
