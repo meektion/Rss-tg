@@ -2539,6 +2539,31 @@
     "source": "Simon Willison's Weblog",
     "title": "Three LLM inflection points in twelve months"
   },
+  "https://simonwillison.net/2026/Nov/25/datasette-charts": {
+    "pushed_at": "2026-11-26T18:14:32",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette-charts 0.3a0"
+  },
+  "https://simonwillison.net/2026/Nov/25/scott-aaronson": {
+    "pushed_at": "2026-11-26T18:14:32",
+    "source": "Simon Willison's Weblog",
+    "title": "Quoting Scott Aaronson"
+  },
+  "https://simonwillison.net/2026/Nov/26/hn-50651685": {
+    "pushed_at": "2026-11-26T18:14:32",
+    "source": "Simon Willison's Weblog",
+    "title": "The New York Times warns photographers not to update Photoshop over AI features"
+  },
+  "https://simonwillison.net/2026/Nov/26/jack-despain-zhou": {
+    "pushed_at": "2026-11-26T18:14:32",
+    "source": "Simon Willison's Weblog",
+    "title": "Quoting Jack Despain Zhou"
+  },
+  "https://simonwillison.net/2026/Nov/26/sqlite3-rsync": {
+    "pushed_at": "2026-11-26T18:14:32",
+    "source": "Simon Willison's Weblog",
+    "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite"
+  },
   "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location": {
     "pushed_at": "2026-11-03T15:59:33",
     "source": "Simon Willison's Weblog",
@@ -2739,6 +2764,11 @@
     "source": "少数派",
     "title": "一个 05 后的个人数码编年史"
   },
+  "https://sspai.com/post/116773": {
+    "pushed_at": "2026-11-26T18:14:30",
+    "source": "少数派",
+    "title": "App+1｜Agora：开源、易用、好用，给 Android 用户的 LLM 聊天工具"
+  },
   "https://sspai.com/post/116990": {
     "pushed_at": "2026-10-28T14:57:24",
     "source": "少数派",
@@ -2753,6 +2783,11 @@
     "pushed_at": "2026-10-29T15:02:43",
     "source": "少数派",
     "title": "如何成为不吃压力的「大心脏」？"
+  },
+  "https://sspai.com/post/117510": {
+    "pushed_at": "2026-11-26T18:14:30",
+    "source": "少数派",
+    "title": "我用AI做了一张两千年的中国历史地图"
   },
   "https://sspai.com/post/117557": {
     "pushed_at": "2026-10-27T14:11:51",
@@ -3183,6 +3218,16 @@
     "pushed_at": "2026-11-25T18:32:06",
     "source": "少数派",
     "title": "派早报：华为发布 Mate X8 与 MateBook Fold S、微软将推出自研驱动等"
+  },
+  "https://sspai.com/post/119560": {
+    "pushed_at": "2026-11-26T18:14:30",
+    "source": "少数派",
+    "title": "派早报：蔚来举办 2026 创新科技日、Tidal 将拒绝 AI 音乐等"
+  },
+  "https://sspai.com/post/119563": {
+    "pushed_at": "2026-11-26T18:14:30",
+    "source": "少数派",
+    "title": "论文作图不求人，用 ChatGPT 和 Keynote 免费搞定机理图"
   },
   "https://sspai.com/post/85735": {
     "pushed_at": "2026-11-12T16:40:58",
@@ -4899,6 +4944,31 @@
     "source": "IT之家",
     "title": "蛮啾《蓝色星原：旅谣》今日公测：两百余种奇波可捕捉骑乘，登陆 PC、iOS、安卓、鸿蒙与 PS5"
   },
+  "https://www.ithome.com/1/033/128.htm": {
+    "pushed_at": "2026-11-26T18:14:28",
+    "source": "IT之家",
+    "title": "阿维塔陈卓：已有超过 5000 名华为员工自费成为阿维塔车主"
+  },
+  "https://www.ithome.com/1/033/129.htm": {
+    "pushed_at": "2026-11-26T18:14:28",
+    "source": "IT之家",
+    "title": "宁德时代预告 30#巧克力电池：首发 100kWh 版本，支持实现 3s 级零百加速"
+  },
+  "https://www.ithome.com/1/033/130.htm": {
+    "pushed_at": "2026-11-26T18:14:28",
+    "source": "IT之家",
+    "title": "华为 HarmonyOS 五大技术品牌公开，含鸿蒙星河互联、星盾安全、方舟引擎、小艺、空间计算"
+  },
+  "https://www.ithome.com/1/033/131.htm": {
+    "pushed_at": "2026-11-26T18:14:28",
+    "source": "IT之家",
+    "title": "瑞士发生五起 AI 智能体网络攻击，电力供水通信系统遭入侵"
+  },
+  "https://www.ithome.com/1/033/132.htm": {
+    "pushed_at": "2026-11-26T18:14:28",
+    "source": "IT之家",
+    "title": "Epic 喜加一：《Bread and Fred》游戏免费领取"
+  },
   "https://www.qbitai.com/2026/10/505429.html": {
     "pushed_at": "2026-10-27T14:11:45",
     "source": "量子位",
@@ -5778,6 +5848,31 @@
     "pushed_at": "2026-11-25T18:32:01",
     "source": "量子位",
     "title": "我以为这是摄影作品，你告诉我这是最新的国产AI？！"
+  },
+  "https://www.qbitai.com/2026/11/512942.html": {
+    "pushed_at": "2026-11-26T18:14:26",
+    "source": "量子位",
+    "title": "报名最后2天｜AI浪潮之中，来认识创造未来的人"
+  },
+  "https://www.qbitai.com/2026/11/512952.html": {
+    "pushed_at": "2026-11-26T18:14:26",
+    "source": "量子位",
+    "title": "极客公园创新大会 2027 全议程公布！"
+  },
+  "https://www.qbitai.com/2026/11/512972.html": {
+    "pushed_at": "2026-11-26T18:14:26",
+    "source": "量子位",
+    "title": "90 秒自动换装补能，具微科技“潘多拉”支撑机器人无人化值守"
+  },
+  "https://www.qbitai.com/2026/11/512981.html": {
+    "pushed_at": "2026-11-26T18:14:26",
+    "source": "量子位",
+    "title": "AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用"
+  },
+  "https://www.qbitai.com/2026/11/513021.html": {
+    "pushed_at": "2026-11-26T18:14:26",
+    "source": "量子位",
+    "title": "381个AI直播冲刺证明P=NP！把GitHub干崩了"
   },
   "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics": {
     "pushed_at": "2026-10-27T05:44:48",
