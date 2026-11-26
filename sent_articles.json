@@ -4,11 +4,6 @@
     "source": "Ars Technica",
     "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip"
   },
-  "https://arstechnica.com/apple/2026/10/apple-reveals-updated-ipad-mini-with-a-bigger-oled-screen-for-700": {
-    "pushed_at": "2026-10-26T19:04:50",
-    "source": "Ars Technica",
-    "title": "Apple reveals updated iPad mini with a bigger OLED screen for $700"
-  },
   "https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart": {
     "pushed_at": "2026-11-02T06:56:32",
     "source": "Ars Technica",
@@ -38,11 +33,6 @@
     "pushed_at": "2026-10-30T06:33:33",
     "source": "Ars Technica",
     "title": "Reddit is moving to “a logged-in-only experience,” CEO says"
-  },
-  "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising": {
-    "pushed_at": "2026-10-26T05:28:48",
-    "source": "Ars Technica",
-    "title": "Updated Google privacy policy says your Gmail might be used for advertising"
   },
   "https://arstechnica.com/gadgets/2026/11/artist-pulls-popular-screensaver-from-roku-os-because-of-fox-acquisition": {
     "pushed_at": "2026-11-06T19:53:32",
@@ -214,11 +204,6 @@
     "source": "Artificial Intelligence",
     "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents"
   },
-  "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus": {
-    "pushed_at": "2026-10-26T05:28:48",
-    "source": "Artificial Intelligence",
-    "title": "Announcing new ways to customize models with SageMaker AI, without managing GPUs"
-  },
   "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs": {
     "pushed_at": "2026-10-28T06:23:08",
     "source": "Artificial Intelligence",
@@ -314,11 +299,6 @@
     "source": "Artificial Intelligence",
     "title": "Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments"
   },
-  "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3": {
-    "pushed_at": "2026-10-26T19:04:50",
-    "source": "Artificial Intelligence",
-    "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3"
-  },
   "https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization": {
     "pushed_at": "2026-11-19T08:02:06",
     "source": "Artificial Intelligence",
@@ -368,6 +348,11 @@
     "pushed_at": "2026-11-20T21:17:23",
     "source": "Artificial Intelligence",
     "title": "How Standard Bank Group automates AI risk assessment for generative AI"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers": {
+    "pushed_at": "2026-11-26T08:57:20",
+    "source": "Artificial Intelligence",
+    "title": "How the BMW Group governs hundreds of agents across thousands of developers"
   },
   "https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026": {
     "pushed_at": "2026-10-30T06:33:33",
@@ -814,11 +799,6 @@
     "source": "AI",
     "title": "Gemini Intelligence: New features, on more devices"
   },
-  "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks": {
-    "pushed_at": "2026-10-26T19:04:50",
-    "source": "AI",
-    "title": "Our newest AI Quest: Mapping the human brain"
-  },
   "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state": {
     "pushed_at": "2026-11-24T22:56:48",
     "source": "AI",
@@ -878,11 +858,6 @@
     "pushed_at": "2026-11-20T21:17:23",
     "source": "The Official Microsoft Blog",
     "title": "Advancing digital sovereignty with greater control and choice"
-  },
-  "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer": {
-    "pushed_at": "2026-10-26T19:04:50",
-    "source": "The Official Microsoft Blog",
-    "title": "Introducing a Voluntary Exit Offer"
   },
   "https://blogs.microsoft.com/blog/2026/10/27/the-platform-approach-to-becoming-frontier": {
     "pushed_at": "2026-10-27T18:36:18",
@@ -974,11 +949,6 @@
     "source": "NVIDIA Blog",
     "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA"
   },
-  "https://blogs.nvidia.com/blog/european-public-sector-open-models": {
-    "pushed_at": "2026-10-26T05:28:48",
-    "source": "NVIDIA Blog",
-    "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects"
-  },
   "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026": {
     "pushed_at": "2026-11-20T21:17:23",
     "source": "NVIDIA Blog",
@@ -998,11 +968,6 @@
     "pushed_at": "2026-11-12T20:41:55",
     "source": "NVIDIA Blog",
     "title": "A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW"
-  },
-  "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure": {
-    "pushed_at": "2026-10-26T19:04:50",
-    "source": "NVIDIA Blog",
-    "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure"
   },
   "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams": {
     "pushed_at": "2026-11-13T20:23:41",
@@ -1504,6 +1469,11 @@
     "source": "ElevenLabs Blog",
     "title": "What is call transcription? A practical business guide"
   },
+  "https://elevenlabs.io/blog/what-is-graphrag": {
+    "pushed_at": "2026-11-26T08:57:20",
+    "source": "ElevenLabs Blog",
+    "title": "What is GraphRAG? A practical guide to smarter AI retrieval"
+  },
   "https://elevenlabs.io/blog/what-is-sip-trunking": {
     "pushed_at": "2026-11-24T22:56:48",
     "source": "ElevenLabs Blog",
@@ -1529,10 +1499,10 @@
     "source": "Spotify Engineering",
     "title": "AI Product Management at Spotify: A View From Three Angles"
   },
-  "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks": {
-    "pushed_at": "2026-10-26T19:04:50",
-    "source": "Engineering at Meta",
-    "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks"
+  "https://engineering.atspotify.com/2026/11/when-can-you-ship-on-offline-evals-alone": {
+    "pushed_at": "2026-11-26T08:57:20",
+    "source": "Spotify Engineering",
+    "title": "When Can You Ship on Offline Evals Alone?"
   },
   "https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape": {
     "pushed_at": "2026-10-28T06:23:08",
@@ -1603,6 +1573,11 @@
     "pushed_at": "2026-11-13T20:23:41",
     "source": "The GitHub Blog",
     "title": "Build once, run on any agent: A practical guide to agent skills"
+  },
+  "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization": {
+    "pushed_at": "2026-11-26T08:57:20",
+    "source": "The GitHub Blog",
+    "title": "How to choose the next safe step in application modernization"
   },
   "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture": {
     "pushed_at": "2026-11-05T20:30:18",
@@ -1769,15 +1744,15 @@
     "source": "Netflix TechBlog - Medium",
     "title": "Integrating Netflix’s Foundation Model into Personalization applications"
   },
-  "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4": {
-    "pushed_at": "2026-10-26T19:04:50",
-    "source": "Netflix TechBlog - Medium",
-    "title": "Making Failure Diagnosis Reliable with Pensive AI"
-  },
   "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-27T05:44:48",
     "source": "Netflix TechBlog - Medium",
     "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing"
+  },
+  "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-11-26T08:57:20",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale"
   },
   "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-11-25T22:12:28",
@@ -1829,6 +1804,11 @@
     "source": "Ollama",
     "title": "NVIDIA Nemotron 3.5 Lightning"
   },
+  "https://ollama.com/blog/nemotron-3-ultra": {
+    "pushed_at": "2026-11-26T08:57:20",
+    "source": "Ollama",
+    "title": "NVIDIA Nemotron 3 Ultra"
+  },
   "https://ollama.com/blog/ollama-now-supports-jev-style-decision-models": {
     "pushed_at": "2026-11-21T07:46:34",
     "source": "Ollama",
@@ -1878,6 +1858,11 @@
     "pushed_at": "2026-11-15T07:17:26",
     "source": "OpenAI News",
     "title": "Holiday Extras is rethinking what it can build with Codex"
+  },
+  "https://openai.com/business/customer-stories/ifood": {
+    "pushed_at": "2026-11-26T08:57:20",
+    "source": "OpenAI News",
+    "title": "How iFood scales coding agents across 15,000 repositories"
   },
   "https://openai.com/business/customer-stories/intentful-dots": {
     "pushed_at": "2026-11-25T22:12:28",
@@ -1929,11 +1914,6 @@
     "source": "OpenAI News",
     "title": "ChatGPT Enterprise now available in AWS Marketplace"
   },
-  "https://openai.com/index/chatgpt-expanding-world-of-work": {
-    "pushed_at": "2026-10-26T19:04:50",
-    "source": "OpenAI News",
-    "title": "ChatGPT’s expanding world of work"
-  },
   "https://openai.com/index/chatgpt-plus-for-veterans": {
     "pushed_at": "2026-11-11T07:17:41",
     "source": "OpenAI News",
@@ -1963,11 +1943,6 @@
     "pushed_at": "2026-11-10T07:48:56",
     "source": "OpenAI News",
     "title": "Control Room: A central system to track and stop model workloads across our research infrastructure"
-  },
-  "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities": {
-    "pushed_at": "2026-10-26T05:28:48",
-    "source": "OpenAI News",
-    "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities"
   },
   "https://openai.com/index/credit-saison": {
     "pushed_at": "2026-11-01T18:18:39",
@@ -2209,6 +2184,11 @@
     "source": "Blog on Qwen",
     "title": "Qwen2.5-1M: Deploy Your Own Qwen with Context Length up to 1M Tokens"
   },
+  "https://qwenlm.github.io/blog/qwen2.5-math-prm": {
+    "pushed_at": "2026-11-26T08:57:20",
+    "source": "Blog on Qwen",
+    "title": "Towards Effective Process Supervision in Mathematical Reasoning"
+  },
   "https://qwenlm.github.io/blog/qwen2.5-max": {
     "pushed_at": "2026-11-24T10:29:40",
     "source": "Blog on Qwen",
@@ -2303,6 +2283,11 @@
     "pushed_at": "2026-11-22T20:12:32",
     "source": "Shopify Engineering",
     "title": "We gave AI agents a mobile dev environment"
+  },
+  "https://shopify.engineering/river-vulnerability-remediation": {
+    "pushed_at": "2026-11-26T08:57:20",
+    "source": "Shopify Engineering",
+    "title": "How River takes security work from a fix to merge"
   },
   "https://shopify.engineering/secure-agentic-apps": {
     "pushed_at": "2026-11-21T19:59:11",
@@ -2639,20 +2624,10 @@
     "source": "Simon Willison's Weblog",
     "title": "Locating the source of a mysterious beep with Claude"
   },
-  "https://simonwillison.net/2026/Oct/25/seam-cutter": {
-    "pushed_at": "2026-10-26T14:58:58",
-    "source": "Simon Willison's Weblog",
-    "title": "Seam Cutter"
-  },
   "https://simonwillison.net/2026/Oct/26/gpt-61-terra": {
     "pushed_at": "2026-10-27T14:11:52",
     "source": "Simon Willison's Weblog",
     "title": "GPT-6.1 Terra"
-  },
-  "https://simonwillison.net/2026/Oct/26/jason-koebler": {
-    "pushed_at": "2026-10-26T20:56:20",
-    "source": "Simon Willison's Weblog",
-    "title": "Quoting Jason Koebler"
   },
   "https://simonwillison.net/2026/Oct/26/webframe-evaluation": {
     "pushed_at": "2026-10-27T14:11:52",
@@ -2719,11 +2694,6 @@
     "source": "少数派",
     "title": "今年双十一，这些鼠标值得一看"
   },
-  "https://sspai.com/post/115074": {
-    "pushed_at": "2026-10-26T14:58:56",
-    "source": "少数派",
-    "title": "曲高和寡、终成绝唱：傲腾 P5800X 测试报告"
-  },
   "https://sspai.com/post/115399": {
     "pushed_at": "2026-11-05T16:18:19",
     "source": "少数派",
@@ -2779,30 +2749,10 @@
     "source": "少数派",
     "title": "怀旧手记｜夏普 Telios：20 多年前，Handheld PC 中的「少数派」"
   },
-  "https://sspai.com/post/117180": {
-    "pushed_at": "2026-10-26T14:58:56",
-    "source": "少数派",
-    "title": "少数派×红树林基金会｜候鸟季公益直播，邀你共护湿地"
-  },
   "https://sspai.com/post/117244": {
     "pushed_at": "2026-10-29T15:02:43",
     "source": "少数派",
     "title": "如何成为不吃压力的「大心脏」？"
-  },
-  "https://sspai.com/post/117414": {
-    "pushed_at": "2026-10-26T14:58:56",
-    "source": "少数派",
-    "title": "秋冬换季护肤买什么，双 11 选购推荐"
-  },
-  "https://sspai.com/post/117460": {
-    "pushed_at": "2026-10-26T14:58:56",
-    "source": "少数派",
-    "title": "派早报：iFixit 拆解 iPhone Duo，肯定可维修性但指出内屏隐患"
-  },
-  "https://sspai.com/post/117529": {
-    "pushed_at": "2026-10-26T14:58:56",
-    "source": "少数派",
-    "title": "派评 | 近期值得关注的 App"
   },
   "https://sspai.com/post/117557": {
     "pushed_at": "2026-10-27T14:11:51",
@@ -3264,16 +3214,6 @@
     "source": "少数派",
     "title": "《久坐健康指南》作者、运动健康领域创作者阿帅装了啥？"
   },
-  "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey": {
-    "pushed_at": "2026-10-26T05:28:48",
-    "source": "AI News & Artificial Intelligence | TechCrunch",
-    "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’"
-  },
-  "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked": {
-    "pushed_at": "2026-10-26T19:04:50",
-    "source": "AI News & Artificial Intelligence | TechCrunch",
-    "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked"
-  },
   "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant": {
     "pushed_at": "2026-10-27T05:44:48",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3524,6 +3464,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work"
   },
+  "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks": {
+    "pushed_at": "2026-11-26T08:57:20",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks"
+  },
   "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave": {
     "pushed_at": "2026-11-11T20:04:02",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3548,11 +3493,6 @@
     "pushed_at": "2026-11-25T22:12:28",
     "source": "Vercel News",
     "title": "How Cozey turns its operators into software builders on Vercel"
-  },
-  "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel": {
-    "pushed_at": "2026-10-26T05:28:48",
-    "source": "Vercel News",
-    "title": "How Interfaze serves 50 million requests a month on Vercel"
   },
   "https://vercel.com/blog/introducing-geist-serif": {
     "pushed_at": "2026-10-30T18:29:01",
@@ -3643,11 +3583,6 @@
     "pushed_at": "2026-11-07T17:58:10",
     "source": "Vercel News",
     "title": "DeepSeek V4.1 Flash 1017 Ultrafast now available on AI Gateway"
-  },
-  "https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli": {
-    "pushed_at": "2026-10-26T19:04:50",
-    "source": "Vercel News",
-    "title": "Discover 1000+ services on Vercel Connect from the CLI"
   },
   "https://vercel.com/changelog/gemini-4-carbon-now-available-on-ai-gateway": {
     "pushed_at": "2026-11-10T20:20:31",
@@ -3844,6 +3779,11 @@
     "source": "Vercel News",
     "title": "Vercel Tracing is now generally available"
   },
+  "https://vercel.com/changelog/workflows-speculative-execution": {
+    "pushed_at": "2026-11-26T08:57:20",
+    "source": "Vercel News",
+    "title": "Workflow is 10x faster, again"
+  },
   "https://wikihack.netlify.app": {
     "pushed_at": "2026-11-02T06:56:32",
     "source": "Hacker News: Front Page",
@@ -3858,56 +3798,6 @@
     "pushed_at": "2026-11-08T18:15:42",
     "source": "Hacker News: Front Page",
     "title": "Ads in Popular Apps Give Police a Powerful Tool to Spy on Users"
-  },
-  "https://www.ithome.com/1/018/171.htm": {
-    "pushed_at": "2026-10-26T14:58:54",
-    "source": "IT之家",
-    "title": "IPO 文件阐述 Anthropic 的野心：AI 有望解决过去几代人未能攻克的难题"
-  },
-  "https://www.ithome.com/1/018/172.htm": {
-    "pushed_at": "2026-10-26T14:58:54",
-    "source": "IT之家",
-    "title": "网易《逆水寒：新世界》将推“自拍模式”，可自定义动作、邀请 AI 门客 NPC 合照"
-  },
-  "https://www.ithome.com/1/018/173.htm": {
-    "pushed_at": "2026-10-26T14:58:54",
-    "source": "IT之家",
-    "title": "599 元：苹果推出新款 iPad mini 智能双面夹，采用科技织物材质"
-  },
-  "https://www.ithome.com/1/018/174.htm": {
-    "pushed_at": "2026-10-26T14:58:54",
-    "source": "IT之家",
-    "title": "《影之刃零》游戏入围金摇杆奖"
-  },
-  "https://www.ithome.com/1/018/175.htm": {
-    "pushed_at": "2026-10-26T14:58:54",
-    "source": "IT之家",
-    "title": "苹果暗示本周将陆续推出更多新品：预计明晚推出 M6 款 iMac、后天推出首款触控屏 MacBook Pro"
-  },
-  "https://www.ithome.com/1/018/189.htm": {
-    "pushed_at": "2026-10-26T20:56:17",
-    "source": "IT之家",
-    "title": "苹果 visionOS 27.2 正式版发布"
-  },
-  "https://www.ithome.com/1/018/190.htm": {
-    "pushed_at": "2026-10-26T20:56:17",
-    "source": "IT之家",
-    "title": "苹果 watchOS 27.2 正式版发布"
-  },
-  "https://www.ithome.com/1/018/191.htm": {
-    "pushed_at": "2026-10-26T20:56:17",
-    "source": "IT之家",
-    "title": "苹果 iPadOS 26.7.2 正式版发布"
-  },
-  "https://www.ithome.com/1/018/192.htm": {
-    "pushed_at": "2026-10-26T20:56:17",
-    "source": "IT之家",
-    "title": "苹果 iOS/iPadOS 18.7.11 正式版发布"
-  },
-  "https://www.ithome.com/1/018/193.htm": {
-    "pushed_at": "2026-10-26T20:56:17",
-    "source": "IT之家",
-    "title": "Cadence 2026 财年第三财季归母净利润 2.9 亿美元，同比增长 0.91%"
   },
   "https://www.ithome.com/1/018/666.htm": {
     "pushed_at": "2026-10-27T14:11:48",
@@ -5009,16 +4899,6 @@
     "source": "IT之家",
     "title": "蛮啾《蓝色星原：旅谣》今日公测：两百余种奇波可捕捉骑乘，登陆 PC、iOS、安卓、鸿蒙与 PS5"
   },
-  "https://www.qbitai.com/2026/10/504905.html": {
-    "pushed_at": "2026-10-26T20:56:16",
-    "source": "量子位",
-    "title": "高德发布首个基于开放世界行为的全身基座模型λ0，推动机器人从“局部学习”迈向“全身动作对齐”"
-  },
-  "https://www.qbitai.com/2026/10/504913.html": {
-    "pushed_at": "2026-10-26T20:56:16",
-    "source": "量子位",
-    "title": "iRTE2026：声网CEO赵斌提出五级对话能力框架，实时互动迈入对话 AGI 时代"
-  },
   "https://www.qbitai.com/2026/10/505429.html": {
     "pushed_at": "2026-10-27T14:11:45",
     "source": "量子位",
@@ -5033,31 +4913,6 @@
     "pushed_at": "2026-10-27T14:11:45",
     "source": "量子位",
     "title": "从“言传身教”到“触类旁通”：AI既需要“名师指引”，也需要“自我修行”"
-  },
-  "https://www.qbitai.com/2026/10/505454.html": {
-    "pushed_at": "2026-10-26T14:58:52",
-    "source": "量子位",
-    "title": "中国近50%的新云生意，竟被这家公司包揽！"
-  },
-  "https://www.qbitai.com/2026/10/505478.html": {
-    "pushed_at": "2026-10-26T14:58:52",
-    "source": "量子位",
-    "title": "NeoLab第一个商业模式：转售GPU"
-  },
-  "https://www.qbitai.com/2026/10/505521.html": {
-    "pushed_at": "2026-10-26T14:58:52",
-    "source": "量子位",
-    "title": "A社联创演讲：AI奇点已来"
-  },
-  "https://www.qbitai.com/2026/10/505529.html": {
-    "pushed_at": "2026-10-26T14:58:52",
-    "source": "量子位",
-    "title": "OpenAI开始断网训练最强模型：“安全起见”"
-  },
-  "https://www.qbitai.com/2026/10/505539.html": {
-    "pushed_at": "2026-10-26T14:58:52",
-    "source": "量子位",
-    "title": "AI时代，一个人能有多大能量？天禧AI × 观猹大会现场实测个人AI跨端协同新体验"
   },
   "https://www.qbitai.com/2026/10/505551.html": {
     "pushed_at": "2026-10-27T14:11:45",
@@ -6014,11 +5869,6 @@
     "source": "The Verge",
     "title": "Nintendo’s designers strove for ‘elegance’ when remaking Ocarina of Time"
   },
-  "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal": {
-    "pushed_at": "2026-10-26T19:04:50",
-    "source": "The Verge",
-    "title": "The RealReal won’t let AI agents hog designer clothing"
-  },
   "https://www.theverge.com/news/1033489/faa-ground-stop": {
     "pushed_at": "2026-11-14T07:06:08",
     "source": "The Verge",
@@ -6043,11 +5893,6 @@
     "pushed_at": "2026-10-30T06:33:33",
     "source": "The Verge",
     "title": "The director of Obsession put a new horror short on YouTube"
-  },
-  "https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge": {
-    "pushed_at": "2026-10-26T05:28:48",
-    "source": "The Verge",
-    "title": "iFixit’s look inside the iPhone Duo may explain those broken screens and hinges"
   },
   "https://www.theverge.com/tech/1020145/iphone-duo-crackgate-broken-screen-hinge": {
     "pushed_at": "2026-10-28T06:23:08",
@@ -6258,11 +6103,6 @@
     "pushed_at": "2026-11-06T19:53:32",
     "source": "WIRED",
     "title": "Rocco’s Black Friday Sale: Smart Fridges Hit Their Lowest Prices of 2026"
-  },
-  "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets": {
-    "pushed_at": "2026-10-26T05:28:48",
-    "source": "WIRED",
-    "title": "Scientists Trapped an Antimatter Particle for Months to Study Its Secrets"
   },
   "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information": {
     "pushed_at": "2026-11-10T07:48:56",
