@@ -444,6 +444,11 @@
     "source": "Artificial Intelligence",
     "title": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard"
   },
+  "https://aws.amazon.com/blogs/machine-learning/run-your-whole-selling-business-in-aws-quick": {
+    "pushed_at": "2026-11-26T22:10:39",
+    "source": "Artificial Intelligence",
+    "title": "Run your whole selling business in AWS Quick"
+  },
   "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints": {
     "pushed_at": "2026-11-06T19:53:32",
     "source": "Artificial Intelligence",
@@ -799,6 +804,11 @@
     "source": "AI",
     "title": "Gemini Intelligence: New features, on more devices"
   },
+  "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks": {
+    "pushed_at": "2026-11-26T22:10:39",
+    "source": "AI",
+    "title": "Our newest AI Quest: Mapping the human brain"
+  },
   "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state": {
     "pushed_at": "2026-11-24T22:56:48",
     "source": "AI",
@@ -858,6 +868,11 @@
     "pushed_at": "2026-11-20T21:17:23",
     "source": "The Official Microsoft Blog",
     "title": "Advancing digital sovereignty with greater control and choice"
+  },
+  "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer": {
+    "pushed_at": "2026-11-26T22:10:39",
+    "source": "The Official Microsoft Blog",
+    "title": "Introducing a Voluntary Exit Offer"
   },
   "https://blogs.microsoft.com/blog/2026/10/27/the-platform-approach-to-becoming-frontier": {
     "pushed_at": "2026-10-27T18:36:18",
@@ -953,6 +968,11 @@
     "pushed_at": "2026-11-20T21:17:23",
     "source": "NVIDIA Blog",
     "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW"
+  },
+  "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward": {
+    "pushed_at": "2026-11-26T22:10:39",
+    "source": "NVIDIA Blog",
+    "title": "Come for the Games, Stay for the Community With GeForce NOW"
   },
   "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5": {
     "pushed_at": "2026-11-07T17:58:10",
@@ -1459,6 +1479,11 @@
     "source": "ElevenLabs Blog",
     "title": "WAV vs MP3: How to choose the right audio file format"
   },
+  "https://elevenlabs.io/blog/what-is-ai-transcription": {
+    "pushed_at": "2026-11-26T22:10:39",
+    "source": "ElevenLabs Blog",
+    "title": "What is AI transcription: The complete guide"
+  },
   "https://elevenlabs.io/blog/what-is-an-api-endpoint": {
     "pushed_at": "2026-11-09T22:54:50",
     "source": "ElevenLabs Blog",
@@ -1493,6 +1518,11 @@
     "pushed_at": "2026-11-25T09:18:04",
     "source": "ElevenLabs Blog",
     "title": "How Yahoo Scout, a new AI answer tool from Yahoo, got a voice"
+  },
+  "https://engineering.atspotify.com/2026/10/advancing-generative-recommendation-inference-our-collaboration-with-nvidia-on-tensorrt-llm": {
+    "pushed_at": "2026-11-26T22:10:39",
+    "source": "Spotify Engineering",
+    "title": "Advancing Generative Recommendation Inference: our collaboration with NVIDIA on TensorRT LLM"
   },
   "https://engineering.atspotify.com/2026/11/ai-product-management-at-spotify-a-view-from-three-angles": {
     "pushed_at": "2026-11-09T22:54:50",
@@ -1744,6 +1774,11 @@
     "source": "Netflix TechBlog - Medium",
     "title": "Integrating Netflix’s Foundation Model into Personalization applications"
   },
+  "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4": {
+    "pushed_at": "2026-11-26T22:10:39",
+    "source": "Netflix TechBlog - Medium",
+    "title": "Making Failure Diagnosis Reliable with Pensive AI"
+  },
   "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49?source=rss----2615bd06b42e---4": {
     "pushed_at": "2026-10-27T05:44:48",
     "source": "Netflix TechBlog - Medium",
@@ -1819,6 +1854,11 @@
     "source": "Ollama",
     "title": "Making open models work for long-horizon agentic workloads"
   },
+  "https://ollama.com/blog/openjarvis": {
+    "pushed_at": "2026-11-26T22:10:39",
+    "source": "Ollama",
+    "title": "OpenJarvis: a local-first personal AI is now available to run with Ollama"
+  },
   "https://ollama.com/blog/reflection-beam": {
     "pushed_at": "2026-11-19T21:14:22",
     "source": "Ollama",
@@ -1843,6 +1883,11 @@
     "pushed_at": "2026-11-13T07:25:17",
     "source": "OpenAI News",
     "title": "How Amplitude ships product improvements in 1–2 days with OpenAI"
+  },
+  "https://openai.com/business/customer-stories/clay-plugins-openai": {
+    "pushed_at": "2026-11-26T22:10:39",
+    "source": "OpenAI News",
+    "title": "Clay helps sales teams win with Codex and ChatGPT"
   },
   "https://openai.com/business/customer-stories/gondola": {
     "pushed_at": "2026-11-14T18:40:45",
@@ -2258,6 +2303,11 @@
     "pushed_at": "2026-11-11T20:04:02",
     "source": "Shopify Engineering",
     "title": "Shopify’s generative discovery model"
+  },
+  "https://shopify.engineering/gisting": {
+    "pushed_at": "2026-11-26T22:10:39",
+    "source": "Shopify Engineering",
+    "title": "Gisting: Compressing LLM Agent context to ↑ throughput and ↓ cost"
   },
   "https://shopify.engineering/helix": {
     "pushed_at": "2026-11-24T22:56:48",
@@ -3514,6 +3564,11 @@
     "source": "AI News & Artificial Intelligence | TechCrunch",
     "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks"
   },
+  "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia": {
+    "pushed_at": "2026-11-26T22:10:39",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "title": "Nvidia hits pause on chip shipments to Southeast Asia"
+  },
   "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave": {
     "pushed_at": "2026-11-11T20:04:02",
     "source": "AI News & Artificial Intelligence | TechCrunch",
@@ -3603,6 +3658,11 @@
     "pushed_at": "2026-11-04T20:20:27",
     "source": "Vercel News",
     "title": "Workflow SDK adds idempotent starts"
+  },
+  "https://vercel.com/changelog/aws-privatelink-endpoints-are-now-available-on-secure-compute": {
+    "pushed_at": "2026-11-26T22:10:39",
+    "source": "Vercel News",
+    "title": "AWS PrivateLink endpoints are now available on Secure Compute"
   },
   "https://vercel.com/changelog/box-mount-now-runs-in-vercel-sandbox": {
     "pushed_at": "2026-10-28T18:42:37",
