@@ -2544,6 +2544,11 @@
     "source": "Simon Willison's Weblog",
     "title": "datasette-charts 0.2a0"
   },
+  "https://simonwillison.net/2026/Nov/24/datasette-charts-2": {
+    "pushed_at": "2026-11-27T17:57:00",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette-charts 0.2a1"
+  },
   "https://simonwillison.net/2026/Nov/24/llm-inflection-points": {
     "pushed_at": "2026-11-25T18:32:08",
     "source": "Simon Willison's Weblog",
@@ -3203,6 +3208,21 @@
     "pushed_at": "2026-11-26T18:14:30",
     "source": "少数派",
     "title": "论文作图不求人，用 ChatGPT 和 Keynote 免费搞定机理图"
+  },
+  "https://sspai.com/post/119601": {
+    "pushed_at": "2026-11-27T17:56:58",
+    "source": "少数派",
+    "title": "「黑五」值得买：不容错过的 App 和服务优惠"
+  },
+  "https://sspai.com/post/119632": {
+    "pushed_at": "2026-11-27T17:56:58",
+    "source": "少数派",
+    "title": "派早报：1Password 确认内部系统遭入侵等"
+  },
+  "https://sspai.com/post/119658": {
+    "pushed_at": "2026-11-27T17:56:58",
+    "source": "少数派",
+    "title": "本周看什么 | 最近值得一看的 8 部作品"
   },
   "https://sspai.com/post/85735": {
     "pushed_at": "2026-11-12T16:40:58",
@@ -4894,6 +4914,31 @@
     "source": "IT之家",
     "title": "Epic 喜加一：《Bread and Fred》游戏免费领取"
   },
+  "https://www.ithome.com/1/033/767.htm": {
+    "pushed_at": "2026-11-27T17:56:55",
+    "source": "IT之家",
+    "title": "恒大汽车：香港联交所上市委员会决定取消公司的上市地位，最快 12 月 14 日摘牌"
+  },
+  "https://www.ithome.com/1/033/768.htm": {
+    "pushed_at": "2026-11-27T17:56:55",
+    "source": "IT之家",
+    "title": "广汽能源：目前自营充电站达 2563 座，目标明年底旗下补能网络覆盖 300 个城市"
+  },
+  "https://www.ithome.com/1/033/769.htm": {
+    "pushed_at": "2026-11-27T17:56:55",
+    "source": "IT之家",
+    "title": "华擎推出旗舰一体式液冷 Taichi AQUA 360 LCD：引入分体式设计"
+  },
+  "https://www.ithome.com/1/033/770.htm": {
+    "pushed_at": "2026-11-27T17:56:55",
+    "source": "IT之家",
+    "title": "我国自主聚变能源解决方案发布工程初步规划，拟分两个阶段实施"
+  },
+  "https://www.ithome.com/1/033/771.htm": {
+    "pushed_at": "2026-11-27T17:56:55",
+    "source": "IT之家",
+    "title": "魏牌高山右舵版车型在香港市场上市，今年第四季度还将登陆澳洲"
+  },
   "https://www.qbitai.com/2026/10/505635.html": {
     "pushed_at": "2026-10-28T20:52:19",
     "source": "量子位",
@@ -5773,6 +5818,31 @@
     "pushed_at": "2026-11-26T18:14:26",
     "source": "量子位",
     "title": "381个AI直播冲刺证明P=NP！把GitHub干崩了"
+  },
+  "https://www.qbitai.com/2026/11/513227.html": {
+    "pushed_at": "2026-11-27T17:56:53",
+    "source": "量子位",
+    "title": "刚刚，首个带跨任务空间记忆的原生基模开源！机器人端侧就能跑"
+  },
+  "https://www.qbitai.com/2026/11/513305.html": {
+    "pushed_at": "2026-11-27T17:56:53",
+    "source": "量子位",
+    "title": "DeepSeek APP突然更新账单，网友：要收费了？"
+  },
+  "https://www.qbitai.com/2026/11/513320.html": {
+    "pushed_at": "2026-11-27T17:56:53",
+    "source": "量子位",
+    "title": "韦东奕再获大奖！攻克近140年数学难题，获两位院士共同提名"
+  },
+  "https://www.qbitai.com/2026/11/513346.html": {
+    "pushed_at": "2026-11-27T17:56:53",
+    "source": "量子位",
+    "title": "全国首批首家！商汤大装置获Token工厂智算能力最高评级"
+  },
+  "https://www.qbitai.com/2026/11/513352.html": {
+    "pushed_at": "2026-11-27T17:56:53",
+    "source": "量子位",
+    "title": "人形机器人开发者集合！众擎开放大小脑，10亿产业级生态支持计划也来了"
   },
   "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs": {
     "pushed_at": "2026-10-29T18:50:59",
